@@ -869,7 +869,7 @@ def main():
     # 3) JSON保存（常に実行）
     versioned_filename = get_versioned_filename(
         VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/戦利品データ/BR/戦利品データ"
+        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
     )
     Path(versioned_filename).write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),

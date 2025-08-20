@@ -22,7 +22,7 @@ from PIL import Image, ImageDraw, ImageFont
 DRAW_STATS = False  # ステータスを描画するか（True/False）
 SHOW_PERCENT = False  # パーセントを描画するか（True/False）
 DO_HOTFIX = False  # Hotfixを適用するか（True/False）
-ENABLE_IMAGE_CREATION = True  # 画像生成を有効にするか（True/False）
+ENABLE_IMAGE_CREATION = False  # 画像生成を有効にするか（True/False）
 DEBUG_LOCALIZE = False  # ローカライズ取得のデバッグログを出力するか（True/False）
 VERSION_PREFIX = "v37.00"
 
@@ -176,6 +176,20 @@ def _flush_asset_loc_cache_if_needed(threshold: int = 200):
                 json.dump(ASSET_LOC_CACHE, f, ensure_ascii=False, indent=2)
         except Exception:
             pass
+
+def _flush_asset_loc_cache_force():
+    """dirty 件数に関わらず、即座にキャッシュを書き出す"""
+    try:
+        with open(ASSET_LOC_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(ASSET_LOC_CACHE, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+
+@atexit.register
+def _save_asset_loc_cache_on_exit():
+    """プロセス終了時、未保存分があれば必ず保存"""
+    if _ASSET_LC_STATE.get("dirty", 0) > 0:
+        _flush_asset_loc_cache_force()
 
 def fetch_localized_name(key: str) -> str:
     url = "https://export-service.dillyapis.com/v1/export/localize"

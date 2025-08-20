@@ -111,6 +111,29 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.ExoticBundleSupply.05",
     }
 }
+
+# --- 生成対象フィルタ（任意） ---
+# いずれも None なら無効、セット/リストなら一致したものだけ画像を作る
+ONLY_TIERGROUPS = {
+    "Loot_AthenaTreasure",
+    "Loot_AthenaFloorLoot",
+    "Loot_ApolloTreasure_Rare",
+    "LTG_MilitaryRank_A",
+    "LTG_MilitaryRank_B",
+    "LTG_MilitaryRank_S",
+    "LTG_MilitaryRank_SPlus",
+    "LTG_Drop_Premium_Squad",
+    "LTG_Drop_Premium_Solo",
+    "LTG_Drop_Premium_Duo",
+    "LTG_Drop_Premium_Trio",
+    "LTG_Chest_Special",
+    "LTG_Bomber",
+    "LTG_Swarmer",
+}
+ONLY_ROWS = None
+ONLY_WORLDLIST_KEYS = None
+
+
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/Updated_LootTier.json"
 INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/Updated_LootPackages.json"
@@ -162,134 +185,8 @@ if 'Retry' in globals():
 session.headers.update({"Connection": "keep-alive"})
 
 
-# ===== ローカライズ（高速キャッシュ版・global不使用） =====
-LOCALIZE_CACHE_FILE = "localize_cache.json"
-
-try:
-    with open(LOCALIZE_CACHE_FILE, "r", encoding="utf-8") as f:
-        LOCALIZE_CACHE = json.load(f)
-except FileNotFoundError:
-    LOCALIZE_CACHE = {}
-
-_cache_lock = threading.Lock()
-_serialize_lock = threading.Lock()
-_LC_STATE = {"dirty": 0}  # フラッシュ管理（global不要）
-
-def _flush_localize_cache_if_needed(threshold: int = 200):
-    """一定件数キャッシュを書いたらディスクへフラッシュ"""
-    if _LC_STATE["dirty"] >= threshold:
-        _LC_STATE["dirty"] = 0
-        try:
-            with _serialize_lock, open(LOCALIZE_CACHE_FILE, "w", encoding="utf-8") as f:
-                json.dump(LOCALIZE_CACHE, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-
-def get_localized_name(key: str) -> str:
-    """単体キーの日本語を取得（キャッシュ→API、取得結果は保存）"""
-    if not key:
-        return "???"
-
-    with _cache_lock:
-        hit = LOCALIZE_CACHE.get(key)
-    if hit is not None:
-        if DEBUG_LOCALIZE:
-            print(f"[loc:CACHE] {key} -> {hit}")
-        return hit
-
-    url = "https://export-service.dillyapis.com/v1/export/localize"
-    payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}
-
-    # 軽いリトライ
-    for attempt in range(3):
-        try:
-            r = session.post(url, json=payload, timeout=10)
-            if r.ok:
-                arr = r.json().get("jsonOutput", [])
-                value = (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
-                with _cache_lock:
-                    LOCALIZE_CACHE[key] = value
-                if DEBUG_LOCALIZE:
-                    tag = "OK" if value != "???" else "NG"
-                    print(f"[loc:{tag}] {key} -> {value}")
-                _LC_STATE["dirty"] += 1
-                _flush_localize_cache_if_needed()
-                return value
-        except Exception:
-            pass
-        time.sleep(0.6 * (attempt + 1))  # 429/5xx想定の待機
-
-    # 失敗時も「???」で埋めて次回以降は即返す
-    with _cache_lock:
-        if key not in LOCALIZE_CACHE:
-            LOCALIZE_CACHE[key] = "???"
-            _LC_STATE["dirty"] += 1
-            _flush_localize_cache_if_needed()
-    if DEBUG_LOCALIZE:
-        print(f"[loc:FAIL] {key} -> ???")
-    return "???"
-
-def get_localized_batch(keys: list[str], chunk: int = 150):
-    if not keys:
-        return
-
-    # まず未取得キーだけ抽出
-    with _cache_lock:
-        todo = [k for k in keys if k and (k not in LOCALIZE_CACHE)]
-    if not todo:
-        return
-
-    url = "https://export-service.dillyapis.com/v1/export/localize"
-
-    for i in range(0, len(todo), chunk):
-        batch = todo[i:i+chunk]
-        payload = {"culture": "ja", "ns": "", "values": [{"key": k} for k in batch]}
-        resp = None
-        for attempt in range(3):
-            try:
-                r = session.post(url, json=payload, timeout=15)
-                if r.ok:
-                    resp = r.json()
-                    break
-            except Exception:
-                pass
-            time.sleep(0.6 * (attempt + 1))
-
-        if resp is None:
-            # この塊は諦めて「???」で埋める
-            with _cache_lock:
-                for k in batch:
-                    if k not in LOCALIZE_CACHE:
-                        LOCALIZE_CACHE[k] = "???"
-            _LC_STATE["dirty"] += len(batch)
-            _flush_localize_cache_if_needed()
-            if DEBUG_LOCALIZE:
-                print(f"[loc:BATCH FAIL] {len(batch)} keys -> all ???")
-            continue
-
-        arr = resp.get("jsonOutput", []) or []
-        # key->value マップ（順序に依存しない）
-        got = {}
-        for obj in arr:
-            if isinstance(obj, dict):
-                k = obj.get("key")
-                v = obj.get("value") or "???"
-                if k:
-                    got[k] = v
-
-        with _cache_lock:
-            for k in batch:
-                LOCALIZE_CACHE[k] = got.get(k, "???")
-
-        if DEBUG_LOCALIZE:
-            ok_cnt = sum(1 for k in batch if LOCALIZE_CACHE.get(k) != "???")
-            print(f"[loc:BATCH OK] {ok_cnt}/{len(batch)} resolved")
-
-        _LC_STATE["dirty"] += len(batch)
-        _flush_localize_cache_if_needed()
-
 # ==== AssetPathName -> 日本語名 キャッシュ ====
-ASSET_LOC_CACHE_FILE = "asset_localize_cache.json"
+ASSET_LOC_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_localize_cache.json"
 try:
     with open(ASSET_LOC_CACHE_FILE, "r", encoding="utf-8") as f:
         ASSET_LOC_CACHE = json.load(f)
@@ -306,6 +203,33 @@ def _flush_asset_loc_cache_if_needed(threshold: int = 200):
                 json.dump(ASSET_LOC_CACHE, f, ensure_ascii=False, indent=2)
         except Exception:
             pass
+
+def _flush_asset_loc_cache_force():
+    """dirty 件数に関わらず、即座にキャッシュを書き出す"""
+    try:
+        with open(ASSET_LOC_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(ASSET_LOC_CACHE, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+
+@atexit.register
+def _save_asset_loc_cache_on_exit():
+    """プロセス終了時、未保存分があれば必ず保存"""
+    if _ASSET_LC_STATE.get("dirty", 0) > 0:
+        _flush_asset_loc_cache_force()
+
+def fetch_localized_name(key: str) -> str:
+    url = "https://export-service.dillyapis.com/v1/export/localize"
+    payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}
+    try:
+        r = session.post(url, json=payload, timeout=10)
+        if r.ok:
+            arr = r.json().get("jsonOutput", [])
+            return (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
+    except Exception:
+        pass
+    return "???"
+
 
 # ===== Export API ヘルパ =====
 def normalize_asset_path(asset_path: str) -> str:
@@ -470,27 +394,41 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         if weapon_name == "???":
             # フォールバック（既存キーキャッシュ or 元文字列）
             item_key = props.get("ItemName", {}).get("key", "")
-            if item_key and item_key in LOCALIZE_CACHE:
-                weapon_name = LOCALIZE_CACHE[item_key]
-            elif item_key:
-                weapon_name = get_localized_name(item_key)
+            if item_key:
+                weapon_name = fetch_localized_name(item_key)
             else:
                 weapon_name = props.get("ItemName", {}).get("sourceString", "???")
 
-        # アイコンパス
+        # アイコンパス（LargeIcon を DataList 全体で最優先）
         icon_path = None
         data_list = props.get("DataList", [])
-        def pick_icon(entry):
-            if isinstance(entry, dict):
-                if "LargeIcon" in entry and "AssetPathName" in entry["LargeIcon"]:
-                    return entry["LargeIcon"]["AssetPathName"]
-            return None
+
+        def _get(entry, key):
+            return (entry.get(key) or {}).get("AssetPathName") if isinstance(entry, dict) else None
+
         if isinstance(data_list, dict):
-            icon_path = pick_icon(data_list)
+            # dict の場合はシンプルに LargeIcon -> Icon
+            icon_path = _get(data_list, "LargeIcon") or _get(data_list, "Icon")
+
         elif isinstance(data_list, list):
+            # Pass 1: DataList 全体から LargeIcon を探す（最優先）
             for entry in data_list:
-                icon_path = pick_icon(entry)
-                if icon_path: break
+                p = _get(entry, "LargeIcon")
+                if p and isinstance(p, str) and p.strip():
+                    icon_path = p
+                    break
+            # Pass 2: LargeIcon が見つからなければ Icon を探す
+            if not icon_path:
+                for entry in data_list:
+                    p = _get(entry, "Icon")
+                    if p and isinstance(p, str) and p.strip():
+                        icon_path = p
+                        break
+
+        # 最後のフォールバック：Properties 直下の LargeIcon / Icon
+        if not icon_path:
+            icon_path = _get(props, "LargeIcon") or _get(props, "Icon")
+
         if not icon_path:
             return
 
@@ -614,16 +552,11 @@ def get_name_by_asset(asset_path: str) -> str:
 
     key = extract_itemname_key(export_json)
     if key:
-        # 3) 既存のキーキャッシュを優先
-        name = LOCALIZE_CACHE.get(key)
-        if not name:
-            name = get_localized_name(key)  # ミス時だけAPI
-        # 4) Asset側にも保存
+        # 直接 API で日本語名を取得
+        name = fetch_localized_name(key)  # 新しく軽量API呼び出し関数を作る
         ASSET_LOC_CACHE[norm] = name or "???"
         _ASSET_LC_STATE["dirty"] += 1
         _flush_asset_loc_cache_if_needed()
-        if DEBUG_LOCALIZE:
-            print(f"[asset-loc:SET] {norm} -> {ASSET_LOC_CACHE[norm]}")
         return ASSET_LOC_CACHE[norm]
 
     # keyが取れなかった場合
@@ -651,18 +584,20 @@ def enrich_summary_with_names(summary: dict):
         items = tg_block.get("Items", []) or []
         for item in items:
             rep = None
-            for v_pkg in item.get("ValidLootPackages", []) or []:
-                for li in v_pkg.get("ListItems", []) or []:
-                    ap = li.get("AssetPathName")
-                    if ap:
-                        norm = normalize_asset_path(ap)
-                        assets.add(norm)
-                        if rep is None:
-                            rep = norm
+            for group in item.get("ValidLootPackages", []) or []:
+                for v_pkg in group.get("Packages", []) or []:
+                    for li in v_pkg.get("ListItems", []) or []:
+                        ap = li.get("AssetPathName")
+                        if ap:
+                            norm = normalize_asset_path(ap)
+                            assets.add(norm)
+                            if rep is None:
+                                rep = norm
                 if rep:
                     break
             if rep:
                 item_first_asset[id(item)] = rep
+
 
     # 2) まとめて名前解決（ASSET_LOC_CACHE 優先。未ヒットのみHTTP）
     for ap in assets:
@@ -675,13 +610,16 @@ def enrich_summary_with_names(summary: dict):
     for tg_block in summary.values():
         items = tg_block.get("Items", []) or []
         for item in items:
-            for v_pkg in item.get("ValidLootPackages", []) or []:
-                for li in v_pkg.get("ListItems", []) or []:
-                    ap = li.get("AssetPathName")
-                    if not ap:
-                        continue
-                    norm = normalize_asset_path(ap)
-                    li["Localized"] = ASSET_LOC_CACHE.get(norm, "???")
+            for group in item.get("ValidLootPackages", []) or []:
+                for v_pkg in group.get("Packages", []) or []:
+                    for li in v_pkg.get("ListItems", []) or []:
+                        ap = li.get("AssetPathName")
+                        if not ap:
+                            continue
+                        norm = normalize_asset_path(ap)
+                        # 既存は "Localized" だが、サンプルに合わせるなら "LocalizedName" にする：
+                        li["LocalizedName"] = ASSET_LOC_CACHE.get(norm, "???")
+
 
 def export_by_asset_path(asset_path: str) -> dict | None:
     clean = normalize_asset_path(asset_path)
@@ -700,20 +638,56 @@ def key_suffix_num(key: str) -> int:
     m = _num_suffix.match(key)
     return int(m.group(1)) if m else 0
 
+def _asset_path_from_row(row: dict) -> str:
+    """ItemDefinition が dict/str/None のどれでも安全に AssetPathName を返す"""
+    idf = row.get("ItemDefinition")
+    if isinstance(idf, dict):
+        return idf.get("AssetPathName", "") or ""
+    if isinstance(idf, str):
+        return idf
+    return ""
+
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
+
+
+        # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
+    lp_by_idcat = defaultdict(list)
+    for row_key, row in rows_lp.items():
+        lp_id = row.get("LootPackageID", "")
+        lp_cat = row.get("LootPackageCategory", 0)
+        try:
+            lp_cat = int(lp_cat)
+        except Exception:
+            lp_cat = 0
+        lp_call   = row.get("LootPackageCall", "") or ""
+        lp_weight = row.get("Weight", 0.0)
+
+        lp_by_idcat[(lp_id, lp_cat)].append({
+            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
+            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
+            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
+        })
+
+    # .NN の昇順で安定化
+    for k in lp_by_idcat:
+        lp_by_idcat[k].sort(key=lambda d: key_suffix_num(d["Key"]))
+
 
     # WorldList.* の中身（重み＆AssetPath）
     worldlist_map = defaultdict(list)
     for row_key, row in rows_lp.items():
+        if not isinstance(row, dict):
+            continue  # 行そのものがdictじゃない場合はスキップ（任意）
         wl_id = row.get("LootPackageID", "")
         worldlist_map[wl_id].append({
             "Key": row_key,
             "Weight": row.get("Weight", 0.0),
-            "AssetPathName": row.get("ItemDefinition", {}).get("AssetPathName", ""),
+            "AssetPathName": _asset_path_from_row(row),
             # 追加: このリスト行の CountRange.X を保持（無ければ None）
             "CountItem": (row.get("CountRange") or {}).get("X")
         })
+
 
 
     for wl_id in worldlist_map:
@@ -731,38 +705,52 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         loot_pkg = row.get("LootPackage", "")
         weight_array = row.get("LootPackageCategoryMinArray", [])
 
-        valid_list = []
-        for i, bit in enumerate(weight_array, start=1):
-            if bit >= 1:
-                pkg_id = f"{loot_pkg}.{i:02d}"
-                call = id_to_call.get(pkg_id, "")
-                list_items = []
-                if call:
-                    for c in worldlist_map.get(call, []):
-                        if c["Weight"] != 0.0:
-                            list_items.append({
-                                "Weight": c["Weight"],
-                                "AssetPathName": c["AssetPathName"],
-                                # 追加: worldlist_map に持たせた CountItem を踏襲
-                                "CountItem": c.get("CountItem")
-                            })
-                total_list_weight = sum(li["Weight"] for li in list_items)
-                valid_list.append({
-                    "ID": pkg_id,
-                    "Call": call,
-                    "Count": int(bit),
-                    "TotalListWeight": round(total_list_weight, 6),
-                    "ListItems": list_items
-                })
+                # LootNumber 構造（Category の内容を導入）
+        valid_groups = []
+        min_array = row.get("LootPackageCategoryMinArray", [])
+        for ln, val in enumerate(min_array):  # LootNumber = 0,1,2,...
+            if val >= 1:
+                matches = lp_by_idcat.get((loot_pkg, ln), [])
+                packages = []
+                for m in matches:
+                    call = m["Call"]
 
+                    # ListItems（Weight>0 & AssetPathNameありのみ）
+                    list_items = []
+                    if call:
+                        # '.' / '_' ゆれは不要なら省略可（必要なら keys = (call, call.replace(".", "_"), call.replace("_", ".")) で回す）
+                        for c in worldlist_map.get(call, []):
+                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                                list_items.append({
+                                    "Weight": c["Weight"],
+                                    "AssetPathName": c["AssetPathName"],
+                                    "CountItem": c.get("CountItem"),
+                                })
+
+                    total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
+
+                    packages.append({
+                        "ID": m["Key"],                 # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
+                        "Call": call,
+                        "Count": int(val),              # MinArray の値
+                        "weight": round(m["Weight"], 6),# ← 各WorldPKG(.NN)のWeightを付与
+                        "TotalListWeight": round(total_list_weight, 6),
+                        "ListItems": list_items
+                    })
+
+                if packages:
+                    valid_groups.append({
+                        "LootNumber": ln,
+                        "Packages": packages
+                    })
 
         entry = {
             "RowName": row_name,
             "Weight": round(row.get("Weight", 0.0), 6),
             "LootPackage": loot_pkg
         }
-        if valid_list:
-            entry["ValidLootPackages"] = valid_list
+        if valid_groups:
+            entry["ValidLootPackages"] = valid_groups
         by_group[tg].append(entry)
 
     # 整形（Percent, ListPercent）
@@ -772,38 +760,45 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         for idx, item in enumerate(items):
             percent = round((item["Weight"] / total_weight) * 100, 4) if total_weight else 0.0
             if "ValidLootPackages" in item:
-                for v_pkg in item["ValidLootPackages"]:
-                    tw = v_pkg.get("TotalListWeight", 0.0)
-                    new_list_items = []
+                for group in item["ValidLootPackages"]:
+                    for v_pkg in group.get("Packages", []):
+                        tw = v_pkg.get("TotalListWeight", 0.0)
+                        new_list_items = []
 
-                    for li in v_pkg.get("ListItems", []):
+                        # SPECIAL 判定は v_pkg["ID"]（= 各 .NN のID）で行う
                         targets = SPECIAL_LIST_PERCENT_RULES.get(tg, set())
                         full_id = v_pkg.get("ID", "")
                         m = re.match(r"^(.*)\.(\d{2})$", full_id)
                         family = m.group(1) if m else full_id
-
                         exact = {t for t in targets if re.search(r"\.\d{2}$", t)}
                         families = {t for t in targets if not re.search(r"\.\d{2}$", t)}
                         use_special = (full_id in exact) or any(family.startswith(t) for t in families)
 
-                        if tw > 0:
-                            list_percent = round(
-                                (percent * (li["Weight"] / tw)) if use_special
-                                else ((li["Weight"] / tw) * 100), 4
-                            )
-                        else:
-                            list_percent = 0.0
+                        # 追加：パッケージの weight（小文字優先、無ければ大文字Weight）
+                        pkg_weight = v_pkg.get("weight", v_pkg.get("Weight", 0.0))
 
-                        # （任意）ListItemごとの日本語名も付加
-                        asset_path = li.get("AssetPathName")
-                        new_list_items.append({
-                            "Weight": li["Weight"],
-                            "ListPercent": list_percent,
-                            "AssetPathName": asset_path,
-                            "CountItem": li.get("CountItem")
-                        })
+                        for li in v_pkg.get("ListItems", []):
+                            if tw > 0:
+                                if use_special:
+                                    # SPECIAL かつ percent==100 → weight * (li/tw)
+                                    if percent == 100:
+                                        list_percent = round(pkg_weight * (li["Weight"] / tw)*100, 4)
+                                    else:
+                                        list_percent = round(percent * (li["Weight"] / tw), 4)
+                                else:
+                                    list_percent = round((li["Weight"] / tw) * 100, 4)
+                            else:
+                                list_percent = 0.0
 
-                    v_pkg["ListItems"] = new_list_items
+                            asset_path = li.get("AssetPathName")
+                            new_list_items.append({
+                                "Weight": li["Weight"],
+                                "ListPercent": list_percent,
+                                "AssetPathName": asset_path,
+                                "CountItem": li.get("CountItem")
+                            })
+
+                        v_pkg["ListItems"] = new_list_items
 
             ordered = {
                 "RowName": item["RowName"],
@@ -817,6 +812,16 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         result[tg] = {"TotalWeight": round(total_weight, 6), "Items": items}
     return result
 
+def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:
+    if ONLY_TIERGROUPS and tg not in ONLY_TIERGROUPS:
+        return False
+    if ONLY_ROWS and rowname not in ONLY_ROWS:
+        return False
+    if ONLY_WORLDLIST_KEYS and worldlist_key not in ONLY_WORLDLIST_KEYS:
+        return False
+    return True
+
+
 # ===== summary から画像化タスクを作る（TierGroup/WorldListごと保存先） =====
 def iter_tasks_from_summary(summary: dict):
     """
@@ -826,17 +831,20 @@ def iter_tasks_from_summary(summary: dict):
     for tiergroup, tg_block in summary.items():
         items = tg_block.get("Items", [])
         for item in items:
-            for v_pkg in item.get("ValidLootPackages", []):
-                worldlist_key = v_pkg.get("Call") or "_NoWorldList"
-                out_dir = os.path.join(OUTPUT_BASE_DIR, tiergroup, worldlist_key)
-                for li in v_pkg.get("ListItems", []):
-                    ap = li.get("AssetPathName")
-                    if not ap:
+            rowname = item.get("RowName", "")
+            for group in item.get("ValidLootPackages", []):
+                for v_pkg in group.get("Packages", []):
+                    worldlist_key = v_pkg.get("Call") or "_NoWorldList"
+                    if not _allow_emit(tiergroup, rowname, worldlist_key):
                         continue
-                    # 画像に描くパーセント表示（任意）
-                    lp = li.get("ListPercent", 0.0)
-                    txt = f"{lp:.2f}%" if SHOW_PERCENT else None
-                    yield (ap, out_dir, txt)
+                    out_dir = os.path.join(OUTPUT_BASE_DIR, tiergroup, worldlist_key)
+                    for li in v_pkg.get("ListItems", []):
+                        ap = li.get("AssetPathName")
+                        if not ap:
+                            continue
+                        lp = li.get("ListPercent", 0.0)
+                        txt = f"{lp:.2f}%" if SHOW_PERCENT else None
+                        yield (ap, out_dir, txt)
 
 def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None):
     wjson = export_by_asset_path(asset_path)
@@ -851,10 +859,9 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None):
         if loc == "???":
             # 念のためのフォールバック（既存キーキャッシュ）
             item_key = data.get("Properties", {}).get("ItemName", {}).get("key", "")
-            if item_key and item_key in LOCALIZE_CACHE:
-                loc = LOCALIZE_CACHE[item_key]
-            elif item_key:
-                loc = get_localized_name(item_key)
+            if loc == "???" and item_key:
+                loc = fetch_localized_name(item_key)
+
         safe = re.sub(r'[\\/:"*?<>|]', "_", loc)
         filename = f"{weapon_id} - {safe}.png"
         os.makedirs(out_dir, exist_ok=True)
@@ -867,14 +874,15 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None):
     else:
         print(f"[SKIP] 画像作成をスキップ: {asset_path}")
 
-def get_next_version_filename(base_name: str, ext: str = ".json") -> str:
-    existing_versions = []
-    for f in Path(".").glob(f"{base_name}_v*{ext}"):
-        m = re.search(r"_v(\d+)", f.stem)
-        if m:
-            existing_versions.append(int(m.group(1)))
-    next_version = max(existing_versions, default=0) + 1
-    return f"{base_name}_v{next_version}{ext}"
+from datetime import datetime
+
+def get_versioned_filename(prefix, save_dir):
+    save_dir = Path(save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+    now = datetime.now().strftime("%Y-%m-%d_%H-%M")  # 例: 2025-08-20_23-25
+    filename = save_dir / f"{prefix}_{now}.json"
+    return str(filename)
+
 
 def main():
     # 1) まとめ作成
@@ -886,7 +894,10 @@ def main():
     enrich_summary_with_names(summary)
 
     # 3) JSON保存（常に実行）
-    versioned_filename = get_next_version_filename(VERSION_PREFIX)
+    versioned_filename = get_versioned_filename(
+        VERSION_PREFIX,
+        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/戦利品データ"
+    )
     Path(versioned_filename).write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),
         encoding="utf-8"
@@ -910,13 +921,12 @@ def main():
             uniq.append((ap, od, txt))
     print(f"[i] 画像化タスク数: {len(uniq)}")
 
-    # 並列生成
+    # 4) 並列生成
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futs = [ex.submit(worker_task, ap, od, txt) for ap, od, txt in uniq]
         for _ in as_completed(futs):
             pass
     print("✅ 画像生成 完了（TierGroup/WorldListごとに保存）")
-
 
 if __name__ == "__main__":
     main()

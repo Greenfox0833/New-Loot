@@ -158,132 +158,6 @@ if 'Retry' in globals():
 session.headers.update({"Connection": "keep-alive"})
 
 
-# ===== ローカライズ（高速キャッシュ版・global不使用） =====
-LOCALIZE_CACHE_FILE = "localize_cache.json"
-
-try:
-    with open(LOCALIZE_CACHE_FILE, "r", encoding="utf-8") as f:
-        LOCALIZE_CACHE = json.load(f)
-except FileNotFoundError:
-    LOCALIZE_CACHE = {}
-
-_cache_lock = threading.Lock()
-_serialize_lock = threading.Lock()
-_LC_STATE = {"dirty": 0}  # フラッシュ管理（global不要）
-
-def _flush_localize_cache_if_needed(threshold: int = 200):
-    """一定件数キャッシュを書いたらディスクへフラッシュ"""
-    if _LC_STATE["dirty"] >= threshold:
-        _LC_STATE["dirty"] = 0
-        try:
-            with _serialize_lock, open(LOCALIZE_CACHE_FILE, "w", encoding="utf-8") as f:
-                json.dump(LOCALIZE_CACHE, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-
-def get_localized_name(key: str) -> str:
-    """単体キーの日本語を取得（キャッシュ→API、取得結果は保存）"""
-    if not key:
-        return "???"
-
-    with _cache_lock:
-        hit = LOCALIZE_CACHE.get(key)
-    if hit is not None:
-        if DEBUG_LOCALIZE:
-            print(f"[loc:CACHE] {key} -> {hit}")
-        return hit
-
-    url = "https://export-service.dillyapis.com/v1/export/localize"
-    payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}
-
-    # 軽いリトライ
-    for attempt in range(3):
-        try:
-            r = session.post(url, json=payload, timeout=10)
-            if r.ok:
-                arr = r.json().get("jsonOutput", [])
-                value = (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
-                with _cache_lock:
-                    LOCALIZE_CACHE[key] = value
-                if DEBUG_LOCALIZE:
-                    tag = "OK" if value != "???" else "NG"
-                    print(f"[loc:{tag}] {key} -> {value}")
-                _LC_STATE["dirty"] += 1
-                _flush_localize_cache_if_needed()
-                return value
-        except Exception:
-            pass
-        time.sleep(0.6 * (attempt + 1))  # 429/5xx想定の待機
-
-    # 失敗時も「???」で埋めて次回以降は即返す
-    with _cache_lock:
-        if key not in LOCALIZE_CACHE:
-            LOCALIZE_CACHE[key] = "???"
-            _LC_STATE["dirty"] += 1
-            _flush_localize_cache_if_needed()
-    if DEBUG_LOCALIZE:
-        print(f"[loc:FAIL] {key} -> ???")
-    return "???"
-
-def get_localized_batch(keys: list[str], chunk: int = 150):
-    if not keys:
-        return
-
-    # まず未取得キーだけ抽出
-    with _cache_lock:
-        todo = [k for k in keys if k and (k not in LOCALIZE_CACHE)]
-    if not todo:
-        return
-
-    url = "https://export-service.dillyapis.com/v1/export/localize"
-
-    for i in range(0, len(todo), chunk):
-        batch = todo[i:i+chunk]
-        payload = {"culture": "ja", "ns": "", "values": [{"key": k} for k in batch]}
-        resp = None
-        for attempt in range(3):
-            try:
-                r = session.post(url, json=payload, timeout=15)
-                if r.ok:
-                    resp = r.json()
-                    break
-            except Exception:
-                pass
-            time.sleep(0.6 * (attempt + 1))
-
-        if resp is None:
-            # この塊は諦めて「???」で埋める
-            with _cache_lock:
-                for k in batch:
-                    if k not in LOCALIZE_CACHE:
-                        LOCALIZE_CACHE[k] = "???"
-            _LC_STATE["dirty"] += len(batch)
-            _flush_localize_cache_if_needed()
-            if DEBUG_LOCALIZE:
-                print(f"[loc:BATCH FAIL] {len(batch)} keys -> all ???")
-            continue
-
-        arr = resp.get("jsonOutput", []) or []
-        # key->value マップ（順序に依存しない）
-        got = {}
-        for obj in arr:
-            if isinstance(obj, dict):
-                k = obj.get("key")
-                v = obj.get("value") or "???"
-                if k:
-                    got[k] = v
-
-        with _cache_lock:
-            for k in batch:
-                LOCALIZE_CACHE[k] = got.get(k, "???")
-
-        if DEBUG_LOCALIZE:
-            ok_cnt = sum(1 for k in batch if LOCALIZE_CACHE.get(k) != "???")
-            print(f"[loc:BATCH OK] {ok_cnt}/{len(batch)} resolved")
-
-        _LC_STATE["dirty"] += len(batch)
-        _flush_localize_cache_if_needed()
-
 # ==== AssetPathName -> 日本語名 キャッシュ ====
 ASSET_LOC_CACHE_FILE = "asset_localize_cache.json"
 try:
@@ -302,6 +176,19 @@ def _flush_asset_loc_cache_if_needed(threshold: int = 200):
                 json.dump(ASSET_LOC_CACHE, f, ensure_ascii=False, indent=2)
         except Exception:
             pass
+
+def fetch_localized_name(key: str) -> str:
+    url = "https://export-service.dillyapis.com/v1/export/localize"
+    payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}
+    try:
+        r = session.post(url, json=payload, timeout=10)
+        if r.ok:
+            arr = r.json().get("jsonOutput", [])
+            return (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
+    except Exception:
+        pass
+    return "???"
+
 
 # ===== Export API ヘルパ =====
 def normalize_asset_path(asset_path: str) -> str:
@@ -466,10 +353,8 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         if weapon_name == "???":
             # フォールバック（既存キーキャッシュ or 元文字列）
             item_key = props.get("ItemName", {}).get("key", "")
-            if item_key and item_key in LOCALIZE_CACHE:
-                weapon_name = LOCALIZE_CACHE[item_key]
-            elif item_key:
-                weapon_name = get_localized_name(item_key)
+            if item_key:
+                weapon_name = fetch_localized_name(item_key)
             else:
                 weapon_name = props.get("ItemName", {}).get("sourceString", "???")
 
@@ -626,16 +511,11 @@ def get_name_by_asset(asset_path: str) -> str:
 
     key = extract_itemname_key(export_json)
     if key:
-        # 3) 既存のキーキャッシュを優先
-        name = LOCALIZE_CACHE.get(key)
-        if not name:
-            name = get_localized_name(key)  # ミス時だけAPI
-        # 4) Asset側にも保存
+        # 直接 API で日本語名を取得
+        name = fetch_localized_name(key)  # 新しく軽量API呼び出し関数を作る
         ASSET_LOC_CACHE[norm] = name or "???"
         _ASSET_LC_STATE["dirty"] += 1
         _flush_asset_loc_cache_if_needed()
-        if DEBUG_LOCALIZE:
-            print(f"[asset-loc:SET] {norm} -> {ASSET_LOC_CACHE[norm]}")
         return ASSET_LOC_CACHE[norm]
 
     # keyが取れなかった場合
@@ -938,10 +818,9 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None):
         if loc == "???":
             # 念のためのフォールバック（既存キーキャッシュ）
             item_key = data.get("Properties", {}).get("ItemName", {}).get("key", "")
-            if item_key and item_key in LOCALIZE_CACHE:
-                loc = LOCALIZE_CACHE[item_key]
-            elif item_key:
-                loc = get_localized_name(item_key)
+            if loc == "???" and item_key:
+                loc = fetch_localized_name(item_key)
+
         safe = re.sub(r'[\\/:"*?<>|]', "_", loc)
         filename = f"{weapon_id} - {safe}.png"
         os.makedirs(out_dir, exist_ok=True)
@@ -954,15 +833,15 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None):
     else:
         print(f"[SKIP] 画像作成をスキップ: {asset_path}")
 
-def get_next_version_filename(prefix, save_dir):
+from datetime import datetime
+
+def get_versioned_filename(prefix, save_dir):
     save_dir = Path(save_dir)
     save_dir.mkdir(parents=True, exist_ok=True)
-    version = 1
-    while True:
-        filename = save_dir / f"{prefix}_v{version}.json"
-        if not filename.exists():
-            return str(filename)
-        version += 1
+    now = datetime.now().strftime("%Y-%m-%d_%H-%M")  # 例: 2025-08-20_23-25
+    filename = save_dir / f"{prefix}_{now}.json"
+    return str(filename)
+
 
 def main():
     # 1) まとめ作成
@@ -974,9 +853,9 @@ def main():
     enrich_summary_with_names(summary)
 
     # 3) JSON保存（常に実行）
-    versioned_filename = get_next_version_filename(
+    versioned_filename = get_versioned_filename(
         VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/Summary"
+        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/戦利品データ"
     )
     Path(versioned_filename).write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),

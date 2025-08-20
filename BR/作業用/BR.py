@@ -159,7 +159,7 @@ session.headers.update({"Connection": "keep-alive"})
 
 
 # ==== AssetPathName -> 日本語名 キャッシュ ====
-ASSET_LOC_CACHE_FILE = "asset_localize_cache.json"
+ASSET_LOC_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_localize_cache.json"
 try:
     with open(ASSET_LOC_CACHE_FILE, "r", encoding="utf-8") as f:
         ASSET_LOC_CACHE = json.load(f)

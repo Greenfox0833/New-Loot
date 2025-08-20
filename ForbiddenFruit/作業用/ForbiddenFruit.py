@@ -24,7 +24,7 @@ SHOW_PERCENT = False  # パーセントを描画するか（True/False）
 DO_HOTFIX = False  # Hotfixを適用するか（True/False）
 ENABLE_IMAGE_CREATION = False  # 画像生成を有効にするか（True/False）
 DEBUG_LOCALIZE = False  # ローカライズ取得のデバッグログを出力するか（True/False）
-VERSION_PREFIX = "v37.00"
+VERSION_PREFIX = "Week10"
 
 # ---------------- 設定に追加 ----------------
 # 特別計算ルール: (RowName, ValidLootPackages.ID) のタプルで指定

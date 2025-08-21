@@ -15,7 +15,7 @@ with open(hotfix_path, "r", encoding="utf-8") as f:
 
         # Weightの更新処理
         if (
-            "BlastBerryLootPackages" in line and
+            "/BlastBerryLoot/DataTables/BlastBerryLootPackages" in line and
             ";RowUpdate;" in line and
             ";Weight;" in line
         ):

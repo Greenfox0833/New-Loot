@@ -10,7 +10,7 @@ HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotf
 OUT_FINAL   = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootTierData_Client__final.json")
 
 TARGET_TABLE_NAMES = (
-    "ForbiddenFruitChapterLootTierData",
+    "/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData",
     "AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild",
 )
 

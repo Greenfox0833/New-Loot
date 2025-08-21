@@ -11,8 +11,8 @@ HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotf
 OUT_FINAL   = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")         # 最終だけ保存（合成+Hotfix or 合成のみ）
 
 TARGET_TABLE_NAMES = (
-    "AthenaLootPackages_Client",
-    "LootCurrentSeasonLootPackages_Client",
+    "/Game/Items/Datatables/AthenaLootPackages_Client",
+    "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client",
 )
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")

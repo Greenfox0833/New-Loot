@@ -254,7 +254,9 @@ def main():
     # ② Hotfix を“LootCurrentSeasonLootTierData_Client”だけに適用
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_TABLE)
+        for target in HOTFIX_TARGET_TABLE:
+            apply_hotfix_for_table(base_rows, text, target)
+
     else:
         print("[HOTFIX] skipped (file not found)")
 

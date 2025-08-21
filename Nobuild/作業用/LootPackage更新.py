@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Tuple
 BASE_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")  # ①ベース
 SEASON_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")  # ①上書き対象
 OVERRIDE_PATH= Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json")  # ③最終上書き
-HOTFIX_PATH  = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini")  # ② 任意（無ければスキップ）
+HOTFIX_PATH  = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ② 任意（無ければスキップ）
 
 OUT_FINAL    = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootPackages_Client__final.json")
 

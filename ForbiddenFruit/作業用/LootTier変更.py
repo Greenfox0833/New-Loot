@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Tuple
 # ==== ファイルパス設定 ====
 BASE_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/ForbiddenFruitDataTables/Content/DataTables/ForbiddenFruitChapterLootTierData.json")
 SEASON_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/ForbiddenFruitDataTables/Content/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json")
-HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini")
+HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")
 OUT_FINAL   = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootTierData_Client__final.json")
 
 TARGET_TABLE_NAMES = (

@@ -6,7 +6,7 @@ from typing import Any, Dict, List, Tuple
 # ==== 入出力（必要なら名前だけ変えてOK）====
 BASE_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")                # ベース
 SEASON_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")     # 上書き
-HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini")                                    # 任意（無ければスキップ）
+HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")                                    # 任意（無ければスキップ）
 
 OUT_FINAL   = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")         # 最終だけ保存（合成+Hotfix or 合成のみ）
 
@@ -229,7 +229,7 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
             # 過去実行の副作用などで行が文字列化していた場合の保険
             rows[rk] = {}
         ok, msg = set_by_path(rows[rk], field, val)
-        
+
         if ok:
             applied += 1
             print(f"[{ln}] {op} {rk}.{field}={val} -> {msg}")

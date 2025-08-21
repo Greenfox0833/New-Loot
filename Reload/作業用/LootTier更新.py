@@ -1,6 +1,6 @@
 import json
 
-hotfix_path = "e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini" #変更しない
+hotfix_path = "e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini" #変更しない
 json_path = "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryComposite_LT.json" #変更しない
 output_path = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/Updated_LootTier.json"
 

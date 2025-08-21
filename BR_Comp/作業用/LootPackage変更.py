@@ -8,7 +8,7 @@ BASE_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/At
 SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")  # ①上書き
 COMP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp.json")  # ③上書き
 COMP_BK_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp_Backup.json")  # ⑤上書き
-HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini")  # ②＆④ 任意（無ければスキップ）
+HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ②＆④ 任意（無ければスキップ）
 
 OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/AthenaLootPackages_Client__final.json")
 

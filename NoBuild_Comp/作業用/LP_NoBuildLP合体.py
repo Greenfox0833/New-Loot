@@ -10,7 +10,7 @@ COMP_PATH         = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/Lo
 NOBUILD_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/AthenaCompositeLP_NoBuildBR.json")
 NOBUILD_COMP_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/Comp_NoBuild/AthenaCompositeLP_NoBuildBR_Comp.json")
 
-HOTFIX_PATH_ALL   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix.ini")  # 1つに統一したファイル
+HOTFIX_PATH_ALL   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # 1つに統一したファイル
 
 OUT_PATH          = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild_Comp/作業用/AthenaCompositeLP_NoBuildBR_Comp_Merged_Hotfix.json")
 OUT_NAME          = "AthenaCompositeLP_NoBuildBR_Comp"

@@ -12,7 +12,10 @@ HOTFIX_PATH  = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hot
 OUT_FINAL    = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootPackages_Client__final.json")
 
 # Hotfixを適用する“対象テーブル名”を厳密にシーズン表に限定
-HOTFIX_TARGET_TABLE = "LootCurrentSeasonLootPackages_Client"
+HOTFIX_TARGET_TABLE = {
+    "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client",
+    "/Game/Items/Datatables/AthenaLootPackages_Client"
+}
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 

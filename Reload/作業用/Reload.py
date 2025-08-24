@@ -6,8 +6,6 @@ import os
 import re
 import json
 import atexit
-import threading
-import time
 from io import BytesIO
 from collections import defaultdict
 from pathlib import Path
@@ -21,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFont
 # ---------------- 設定（要調整） ----------------
 DRAW_STATS = False  # ステータスを描画するか（True/False）
 SHOW_PERCENT = False  # パーセントを描画するか（True/False）
-DO_HOTFIX = False  # Hotfixを適用するか（True/False）
+DO_HOTFIX = True  # Hotfixを適用するか（True/False）
 ENABLE_IMAGE_CREATION = False  # 画像生成を有効にするか（True/False）
 DEBUG_LOCALIZE = False  # ローカライズ取得のデバッグログを出力するか（True/False）
 VERSION_PREFIX = "v37.00"
@@ -144,6 +142,11 @@ OUTPUT_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
 OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/v37.00"
 
+# キャッシュ保存先
+RARITY_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_rarity_cache.json"
+ASSET_LOC_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_localize_cache.json"
+
+
 # 画像素材など
 FONT_PATH = "C:/Windows/Fonts/MSYHBD.TTC"
 RARITY_BG_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Rarity"
@@ -186,12 +189,63 @@ session.headers.update({"Connection": "keep-alive"})
 
 
 # ==== AssetPathName -> 日本語名 キャッシュ ====
-ASSET_LOC_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_localize_cache.json"
 try:
     with open(ASSET_LOC_CACHE_FILE, "r", encoding="utf-8") as f:
         ASSET_LOC_CACHE = json.load(f)
 except FileNotFoundError:
     ASSET_LOC_CACHE = {}
+
+# ==== Rarity キャッシュ ====
+try:
+    with open(RARITY_CACHE_FILE, "r", encoding="utf-8") as f:
+        RARITY_CACHE = json.load(f)
+except FileNotFoundError:
+    RARITY_CACHE = {}
+
+_RARITY_STATE = {"dirty": 0}
+
+def _flush_rarity_cache_if_needed(threshold: int = 200):
+    if _RARITY_STATE["dirty"] >= threshold:
+        _RARITY_STATE["dirty"] = 0
+        try:
+            with open(RARITY_CACHE_FILE, "w", encoding="utf-8") as f:
+                json.dump(RARITY_CACHE, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+@atexit.register
+def _save_rarity_cache_on_exit():
+    if _RARITY_STATE.get("dirty", 0) > 0:
+        try:
+            with open(RARITY_CACHE_FILE, "w", encoding="utf-8") as f:
+                json.dump(RARITY_CACHE, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+def get_rarity_by_asset(asset_path: str) -> str:
+    if not asset_path:
+        return "uncommon"
+    norm = normalize_asset_path(asset_path)
+    if norm in RARITY_CACHE:
+        return RARITY_CACHE[norm]
+
+    rarity = "uncommon"
+    try:
+        export_json = export_by_asset_path(asset_path)
+        if export_json:
+            jo = export_json.get("jsonOutput", [])
+            data = jo[0] if isinstance(jo, list) else jo
+            props = data.get("Properties", {})
+            raw_rarity = props.get("Rarity")
+            rarity = RARITY_MAP.get(raw_rarity, "Uncommon") if raw_rarity else "Uncommon"
+            rarity = rarity.lower()
+    except Exception:
+        rarity = "uncommon"
+
+    RARITY_CACHE[norm] = rarity
+    _RARITY_STATE["dirty"] += 1
+    _flush_rarity_cache_if_needed()
+    return rarity
 
 _ASSET_LC_STATE = {"dirty": 0}
 
@@ -791,9 +845,11 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                                 list_percent = 0.0
 
                             asset_path = li.get("AssetPathName")
+
                             new_list_items.append({
                                 "Weight": li["Weight"],
                                 "ListPercent": list_percent,
+                                "rarity": get_rarity_by_asset(asset_path),  # ★キャッシュ利用
                                 "AssetPathName": asset_path,
                                 "CountItem": li.get("CountItem")
                             })

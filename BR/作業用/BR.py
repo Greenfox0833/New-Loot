@@ -16,19 +16,50 @@ from urllib.parse import quote
 from requests.adapters import HTTPAdapter
 from PIL import Image, ImageDraw, ImageFont
 
-# ---------------- 設定（要調整） ----------------
-DRAW_STATS = False
-SHOW_PERCENT = False
-DO_HOTFIX = True
-ENABLE_IMAGE_CREATION = True
-DEBUG_LOCALIZE = False
-VERSION_PREFIX = "v37.00"
+# ---------------- 設定（シンプル版） ----------------
+VERSION_PREFIX = "v37.00"  # 必要に応じて変更
 
-# ★追加: 画像キャッシュ関連（生成とは別フラグ）
-ENABLE_IMAGE_CACHE = True  # 取得PNGをローカルに保存して再利用
+# 実行プロファイル：
+# "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成   ← これがご希望の流れ
+# "images"   : JSON作成 → 画像生成（プリウォームはしない）
+# "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
+# "json"     : JSON作成のみ
+# "dryrun"   : 何もしない
+RUN_MODE = "pipeline"
 
-# ★追加: 画像生成はしないで、アイコンだけ事前DLしてキャッシュを温める
-ENABLE_ICON_CACHE_PREWARM = True
+# 追加オプション（必要時だけ調整）
+RUN_OPTIONS = {
+    "draw_stats": False,
+    "show_percent": False,
+    "debug_localize": False,
+
+    # スキップ方針
+    "skip_if_final_exists": True,  # 生成済み最終pngがあればスキップ
+    "skip_if_icon_cached": False,  # ★pipelineではFalseにして、キャッシュがあっても画像は作る
+    "enable_image_cache": True,    # エクスポートPNGのローカルキャッシュを使う
+}
+
+# ---- プロファイル定義（内部フラグに展開） ----
+PROFILE_PRESETS = {
+    "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
+    "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
+    "prewarm":  dict(do_hotfix=False, enable_icon_cache_prewarm=True,  enable_image_creation=False),
+    "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "dryrun":   dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=False),
+}
+_p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
+
+# 以降のコードが参照する既存フラグにマッピング
+DRAW_STATS                 = RUN_OPTIONS["draw_stats"]
+SHOW_PERCENT               = RUN_OPTIONS["show_percent"]
+DEBUG_LOCALIZE             = RUN_OPTIONS["debug_localize"]
+DO_HOTFIX                  = _p["do_hotfix"]
+ENABLE_ICON_CACHE_PREWARM  = _p["enable_icon_cache_prewarm"]
+ENABLE_IMAGE_CREATION      = _p["enable_image_creation"]
+ENABLE_IMAGE_CACHE         = RUN_OPTIONS["enable_image_cache"]
+SKIP_IF_FINAL_EXISTS       = RUN_OPTIONS["skip_if_final_exists"]
+SKIP_IF_ICON_ALREADY_CACHED= RUN_OPTIONS["skip_if_icon_cached"]
+
 
 # ---------------- 設定に追加 ----------------
 # 特別計算ルール: (RowName, ValidLootPackages.ID) のタプルで指定
@@ -119,7 +150,7 @@ INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/�
 INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json"
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -187,6 +218,17 @@ RARITY_BORDER_COLORS = {
     "Mythic": "#f6e289",
     "Exotic": "#0ee4f4",
 }
+
+RARITY_TO_TIER = {
+    "コモン": "ティア1",
+    "アンコモン": "ティア2",
+    "レア": "ティア3",
+    "エピック": "ティア4",
+    "レジェンド": "ティア5",
+    "エキゾチック": "ティア6",
+    "ミシック": "ティア7",
+}
+
 AMMO_ICON_MAP = {}  # 必要に応じて追記
 
 # --- 先にHotfix適用 ---
@@ -213,7 +255,6 @@ if 'Retry' in globals():
     adapter = HTTPAdapter(max_retries=retry, pool_connections=64, pool_maxsize=64)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
-
 session.headers.update({"Connection": "keep-alive"})
 
 # ★追加: 画像キャッシュ（ExportのPNG）
@@ -319,7 +360,6 @@ except Exception:
 
 _RARITY_STATE = {"dirty": 0}
 
-
 def _flush_rarity_cache_if_needed(threshold: int = 200):
     if _RARITY_STATE["dirty"] >= threshold:
         _RARITY_STATE["dirty"] = 0
@@ -339,12 +379,10 @@ def _save_rarity_cache_on_exit():
             pass
 
 def get_rarity_by_asset(asset_path: str) -> str:
-    # デフォルトは日本語で「アンコモン」
     if not asset_path:
         return "アンコモン"
 
     norm = normalize_asset_path(asset_path)
-    # キャッシュ優先（ここに日本語が入る運用）
     if norm in RARITY_CACHE:
         return RARITY_CACHE[norm]
 
@@ -684,9 +722,14 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         draw.rectangle([(0, 0), (canvas.width - 1, canvas.height - 1)], outline=border_color, width=2)
 
         # 保存
-        weapon_id = re.sub(r'[\\/:"*?<>|]', "_", data.get("Name", "Unknown"))
         safe_weapon_name = re.sub(r'[\\/:"*?<>|]', "_", weapon_name)
-        filename = f"{weapon_id} - {safe_weapon_name}.png"
+
+        # レアリティを日本語に変換してティアを取得
+        rarity_ja = RARITY_JP_MAP.get(rarity.lower(), rarity)
+        tier = RARITY_TO_TIER.get(rarity_ja, "ティア?")
+
+        # 保存名 = アイテム名 - ティアX.png
+        filename = f"{safe_weapon_name} - {tier}.png"
         os.makedirs(out_dir, exist_ok=True)
         out_path = os.path.join(out_dir, filename)
         if os.path.exists(out_path):
@@ -895,10 +938,12 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                         for c in worldlist_map.get(call, []):
                             if c["Weight"] > 0.0 and c.get("AssetPathName"):
                                 list_items.append({
+                                    "WorldListID": c["Key"],           # ★ 追加：WorldList の行キー（例: WorldList.ApolloLoot... .01）
                                     "Weight": c["Weight"],
                                     "AssetPathName": c["AssetPathName"],
-                                    "CountItem": c.get("CountItem"),
+                                    "CountItem": c.get("CountItem")
                                 })
+
 
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
@@ -953,7 +998,6 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                         for li in v_pkg.get("ListItems", []):
                             if tw > 0:
                                 if use_special:
-                                    # SPECIAL かつ percent==100 → weight * (li/tw)
                                     if percent == 100:
                                         list_percent = round(pkg_weight * (li["Weight"] / tw)*100, 4)
                                     else:
@@ -966,14 +1010,16 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                             asset_path = li.get("AssetPathName")
 
                             new_list_items.append({
+                                "WorldListID": li.get("WorldListID"),            # ★ 追加：①で入れたIDを引き継ぐ
                                 "Weight": li["Weight"],
                                 "ListPercent": list_percent,
-                                "rarity": get_rarity_by_asset(asset_path),  # ★キャッシュ利用
+                                "rarity": get_rarity_by_asset(asset_path),
                                 "AssetPathName": asset_path,
                                 "CountItem": li.get("CountItem")
                             })
 
                         v_pkg["ListItems"] = new_list_items
+
 
             ordered = {
                 "RowName": item["RowName"],
@@ -998,28 +1044,20 @@ def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:
 
 
 # ===== summary から画像化タスクを作る（TierGroup/WorldListごと保存先） =====
-def iter_tasks_from_summary(summary: dict):
-    """
-    yield (asset_path, out_dir, list_percent_text, tiergroup, worldlist_key)
-    out_dir は IMAGE_DIR_MODE に応じて resolve_out_dir() が決定
-    """
+def iter_tasks_from_summary_all(summary: dict):
+    """summaryに含まれる全AssetPathNameを必ず対象にする版"""
     for tiergroup, tg_block in summary.items():
-        items = tg_block.get("Items", [])
-        for item in items:
-            rowname = item.get("RowName", "")
+        for item in tg_block.get("Items", []):
             for group in item.get("ValidLootPackages", []):
                 for v_pkg in group.get("Packages", []):
                     worldlist_key = v_pkg.get("Call") or "_NoWorldList"
-                    if not _allow_emit(tiergroup, rowname, worldlist_key):
-                        continue
                     out_dir = resolve_out_dir(tiergroup, worldlist_key)
                     for li in v_pkg.get("ListItems", []):
                         ap = li.get("AssetPathName")
                         if not ap:
                             continue
-                        lp = li.get("ListPercent", 0.0)
-                        txt = f"{lp:.2f}%" if SHOW_PERCENT else None
-                        yield (ap, out_dir, txt, tiergroup, worldlist_key)
+                        # パーセントは無くてもOK
+                        yield (ap, out_dir, None, tiergroup, worldlist_key)
 
 
 def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None,
@@ -1045,11 +1083,25 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None,
         elif IMAGE_DIR_MODE == "tg" and worldlist_key:
             prefix = f"[{worldlist_key}] "
 
-        filename = f"{prefix}{weapon_id} - {safe}.png"
+        rarity_ja = get_rarity_by_asset(asset_path)  # 日本語レアリティ
+        tier = RARITY_TO_TIER.get(rarity_ja, "ティア?")
+        filename = f"{prefix}{safe} - {tier}.png"
 
         os.makedirs(out_dir, exist_ok=True)
-        if os.path.exists(os.path.join(out_dir, filename)):
+        out_path = os.path.join(out_dir, filename)
+        if SKIP_IF_FINAL_EXISTS and os.path.exists(out_path):
+            print(f"[SKIP] 既存: {out_path}")
             return
+
+        # 透過アイコンが既にキャッシュ済みでも、pipeline では作り続ける（オプション）
+        base = asset_path.strip("/").split("/")[-1].split(".")[0]
+        if base in ICON_PATH_CACHE:
+            cache_fp = os.path.join(ICON_CACHE_DIR, icon_cache_key(ICON_PATH_CACHE[base]))
+            if SKIP_IF_ICON_ALREADY_CACHED and os.path.exists(cache_fp):
+                print(f"[SKIP] 透過アイコン既存: {cache_fp}")
+                return
+
+        print(f"[...] 生成開始: {out_path}")
     except Exception:
         pass
 
@@ -1160,7 +1212,7 @@ def main():
         return  # ← ここで終了。以降の画像処理は走らない
 
     # タスク収集（tiergroup/worldlist_key も受け取る）
-    tasks = list(iter_tasks_from_summary(summary))
+    tasks = list(iter_tasks_from_summary_all(summary))
 
     # 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
     uniq = []

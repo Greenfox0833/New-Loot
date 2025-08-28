@@ -10755,6 +10755,74 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_Reward_Special;LPKG:WorldPKG.Reward.Special"
       },
+      "Loot_POICapture_01": {
+        "TierGroup": "Loot_POICapture",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.POICapture",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_POICapture;LPKG:WorldPKG.POICapture"
+      },
       "Loot_AthenaTest_04": {
         "TierGroup": "Loot_AthenaTest",
         "Weight": 0.0,

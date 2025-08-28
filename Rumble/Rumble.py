@@ -147,10 +147,10 @@ ONLY_WORLDLIST_KEYS = None
 
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json"
-INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json"
+INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Rumble/AthenaLootPackages_Client__final.json"
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Rumble"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -234,8 +234,7 @@ AMMO_ICON_MAP = {}  # 必要に応じて追記
 # --- 先にHotfix適用 ---
 import subprocess
 if DO_HOTFIX:
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True)
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True)
+    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Rumble/LootPackage変更.py"], check=True)
 # --- Hotfix適用ここまで ---
 
 # リトライ付きHTTPセッション
@@ -1190,7 +1189,7 @@ def main():
     # 3) JSON保存（常に実行）
     versioned_filename = get_versioned_filename(
         VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
+        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Rumble"
     )
     Path(versioned_filename).write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),

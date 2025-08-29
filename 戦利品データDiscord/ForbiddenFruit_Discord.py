@@ -230,19 +230,15 @@ def group_diffs_by_weapon(diffs: List[Dict]) -> Dict[str, List[Dict]]:
     return g
 
 def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], attachment_name: Optional[str]) -> Dict:
-    # タイトル（モード固定）
     title = "Blitz Royale"
-
-    # 2段目（黒帯）＝武器名（ご要望の「上から二番目 = 武器名」）
     header = f"```\n{weapon_name}（{items[0].get('rarity','???')}）\n```"
 
-    # 表示順：日本語ラベルの昇順（必要なら並び替え規則をここでカスタム）
     def label_of(d):
         return GROUP_NAME_MAP.get(d['group'], d['group'])
 
     fields = []
 
-    # 含まれる差分の種類を調べて更新タイプを決定
+    # 更新タイプ
     types = {d["type"] for d in items}
     if types == {"changed"}:
         type_label = "更新"
@@ -250,18 +246,30 @@ def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], atta
         type_label = "追加"
     elif types == {"removed"}:
         type_label = "削除"
-    elif "added" in types and "removed" not in types and "changed" not in types:
-        type_label = "追加"
-    elif "removed" in types and "added" not in types and "changed" not in types:
-        type_label = "削除"
     else:
-        type_label = "更新"  # 複合の場合は「更新」
-
+        type_label = "更新"
     fields.append({"name": "更新タイプ", "value": type_label, "inline": False})
 
-    for d in sorted(items, key=label_of):
+    # --- Discord制限対策: 最大25フィールド ---
+    MAX_FIELDS = 25
+    RESERVED = 2  # 「更新タイプ」と「ID」を確保
+    groups_sorted = sorted(items, key=label_of)
+
+    # まず、更新タイプ+ID を除いたベースの空き
+    base_avail = max(0, MAX_FIELDS - RESERVED)
+
+    # 省略行が必要な場合は、その1枠も確保する
+    if len(groups_sorted) > base_avail:
+        avail = max(0, base_avail - 1)  # ← 省略行の席を確保
+        use_items = groups_sorted[:avail]
+        overflow = len(groups_sorted) - len(use_items)
+    else:
+        avail = base_avail
+        use_items = groups_sorted[:avail]
+        overflow = 0
+
+    for d in use_items:
         group_label = GROUP_NAME_MAP.get(d['group'], d['group'])
-        # パーセント表示（追加/削除/変更を統一表記）
         if d["type"] == "added":
             op, np = 0.0, (d["new_percent"] or 0.0)
         elif d["type"] == "removed":
@@ -271,20 +279,23 @@ def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], atta
         percent_info = f"`{op:.2g}%` → **`{np:.2g}%`**"
 
         fields.append({
-            "name": group_label,
-            "value": percent_info,
+            "name": str(group_label)[:256] or " ",
+            "value": str(percent_info)[:1024] or " ",
+            "inline": False
+        })
+
+    if overflow > 0:
+        fields.append({
+            "value": f"他 {overflow} 件",
             "inline": False
         })
 
     # 最後に武器ID
     fields.append({"name": "ID", "value": f"`{weapon_id}`", "inline": False})
 
-    # フッター（現在時刻）
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    # 最初のアイテムの type を代表にして色を決める
-    main_type = items[0]["type"] if items else "changed"
-    color = COLORS.get(main_type, 0x2B2D31)
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    color = COLORS.get(items[0]["type"], 0x2B2D31)
 
     embed = {
         "title": title,
@@ -293,12 +304,11 @@ def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], atta
         "footer": {"text": f"更新時刻: {now_str}"},
         "fields": fields
     }
-
     if attachment_name:
         embed["thumbnail"] = {"url": f"attachment://{attachment_name}"}
     return embed
 
-def send_one_weapon(weapon_name: str, rarity: str, weapon_id: str, items: List[Dict]):
+def send_one_weapon(weapon_name: str, rarity: str, weapon_id: str, items: List[Dict], with_content: bool = False):
     attach_name = None
     files_mp = []
     attachments_meta = None
@@ -314,11 +324,17 @@ def send_one_weapon(weapon_name: str, rarity: str, weapon_id: str, items: List[D
         safe_name = _safe_filename(NO_IMAGE_PATH)
         attach_name = safe_name
         files_mp.append(("files[0]", (safe_name, open(NO_IMAGE_PATH, "rb"), _guess_mime(NO_IMAGE_PATH.suffix))))
-        attachments_meta = [{"id": "0", "filename": safe_name}]
+        attachments_meta = [{"id": 0, "filename": safe_name}]
 
     embed = build_weapon_embed(weapon_name, weapon_id, items, attach_name)
 
-    payload = {"embeds": [embed]}
+    if with_content:
+        payload = {
+            "content": "**Blitz Royaleの戦利品データ更新**",
+            "embeds": [embed]
+        }
+    else:
+        payload = {"embeds": [embed]}
     if attachments_meta:
         payload["attachments"] = attachments_meta
 
@@ -362,13 +378,14 @@ def main():
 
     # 1武器 = 1メッセージ
     weapons = group_diffs_by_weapon(diffs)
+    first = True
     for k, items in weapons.items():
-        # k = "name|rarity|id"
         parts   = k.split("|")
         w_name  = parts[0] if len(parts) > 0 else "???"
         w_rarity= parts[1] if len(parts) > 1 else "???"
         w_id    = parts[2] if len(parts) > 2 else ""
-        send_one_weapon(w_name, w_rarity, w_id, items)
+        send_one_weapon(w_name, w_rarity, w_id, items, with_content=first)
+        first = False
 
 if __name__ == "__main__":
     main()

@@ -18,7 +18,7 @@ import subprocess, sys
 from pathlib import Path
 
 # ---------------- 設定（シンプル版） ----------------
-VERSION_PREFIX = "TEST"  # 必要に応じて変更
+VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成   ← これがご希望の流れ

@@ -25,7 +25,7 @@ VERSION_PREFIX = "Week11"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "json"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {

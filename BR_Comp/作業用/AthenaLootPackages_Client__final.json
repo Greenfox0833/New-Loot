@@ -21001,7 +21001,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.01": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -116668,7 +116668,7 @@
       },
       "WorldPKG_OrbitalBombardment.01": {
         "LootPackageID": "WorldPKG_OrbitalBombardment",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -116689,19 +116689,19 @@
         },
         "LootPackageCall": "WorldList_OrbitalBombardment_OBItem",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG_OrbitalBombardment.C0;Call:WorldList_OrbitalBombardment_OBItem",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG_OrbitalBombardment.02": {
         "LootPackageID": "WorldPKG_OrbitalBombardment",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -116722,14 +116722,14 @@
         },
         "LootPackageCall": "WorldList_OrbitalBombardment_Extras",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG_OrbitalBombardment.C1;Call:WorldList_OrbitalBombardment_Extras",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG_PiewPistol.01": {
@@ -118318,7 +118318,7 @@
       },
       "PKG_Launcher_Shockwave_Athena_X.01": {
         "LootPackageID": "PKG_Launcher_Shockwave_Athena_X",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -118351,7 +118351,7 @@
       },
       "PKG_Launcher_Shockwave_Athena_X.02": {
         "LootPackageID": "PKG_Launcher_Shockwave_Athena_X",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -119143,7 +119143,7 @@
       },
       "PKG_Bombardment.01": {
         "LootPackageID": "PKG_Bombardment",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -174368,16 +174368,16 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Rare",
+        "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "/TidalCraneBoonGameplay/Gameplay/StormForecast/PAID_TidalCrane_StormForecast.PAID_TidalCrane_StormForecast",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:List_MapObjective_A_Boon.C0;Item:PAID_TidalCrane_StormForecast",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_Utility.01": {
@@ -174712,7 +174712,7 @@
       },
       "List_MapObjective_C_Boon.01": {
         "LootPackageID": "List_MapObjective_C_Boon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -174740,7 +174740,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:List_MapObjective_C_Boon.C0;Item:WID_OrbitalBombardment_Designator",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_C_Solo_Gold.01": {
@@ -177316,7 +177316,7 @@
       },
       "List_Drop_Premium_Orb.01": {
         "LootPackageID": "List_Drop_Premium_Orb",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -177344,7 +177344,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:List_Drop_Premium_Orb.C0;Item:WID_OrbitalBombardment_Designator",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "List_Drop_Premium_Mythic.01": {
@@ -179876,16 +179876,16 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "List_Drop_Premium_Consumable",
+        "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList_OrbitalBombardment_OBItem.C0;Item:WID_OrbitalBombardment_Designator",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList_OrbitalBombardment_Extras.01": {
@@ -181771,7 +181771,7 @@
       },
       "LIST_Bombardment.01": {
         "LootPackageID": "LIST_Bombardment",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -181790,16 +181790,16 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Assault_Heavy_Recoil_Athena_VR",
+        "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Bombardment.C0;Item:WID_OrbitalBombardment_Designator",
+        "Annotation": "",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_InjuredPrey.01": {

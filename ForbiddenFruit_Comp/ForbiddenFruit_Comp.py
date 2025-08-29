@@ -25,7 +25,7 @@ VERSION_PREFIX = "Week11"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "json"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -43,9 +43,9 @@ RUN_OPTIONS = {
 PROFILE_PRESETS = {
     "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
     "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
-    "prewarm":  dict(do_hotfix=False, enable_icon_cache_prewarm=True,  enable_image_creation=False),
+    "prewarm":  dict(do_hotfix=True, enable_icon_cache_prewarm=True,  enable_image_creation=False),
     "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
-    "dryrun":   dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "dryrun":   dict(do_hotfix=True, enable_icon_cache_prewarm=False, enable_image_creation=False),
 }
 _p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
 
@@ -115,22 +115,42 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.AthenaSupplyDrop.Sp.Weapon.01",
         "WorldPKG.AthenaSupplyDrop.Ex.01",
         "WorldPKG.AthenaSupplyDrop.Mythic.01",
+    },
+    "LTG_Swarmer": {
+        "WorldPKG_Swarmer.01",
+        "WorldPKG_Swarmer.02",
+        "WorldPKG_Swarmer.03",
     }
 }
 
 # --- 生成対象フィルタ（任意） ---
 # いずれも None なら無効、セット/リストなら一致したものだけ画像を作る
-ONLY_TIERGROUPS = None
+ONLY_TIERGROUPS = {
+    "Loot_AthenaTreasure",
+    "Loot_AthenaFloorLoot",
+    "Loot_ApolloTreasure_Rare",
+    "LTG_MilitaryRank_A",
+    "LTG_MilitaryRank_B",
+    "LTG_MilitaryRank_S",
+    "LTG_MilitaryRank_SPlus",
+    "LTG_Drop_Premium_Squad",
+    "LTG_Drop_Premium_Solo",
+    "LTG_Drop_Premium_Duo",
+    "LTG_Drop_Premium_Trio",
+    "LTG_Chest_Special",
+    "LTG_Bomber",
+    "LTG_Swarmer",
+}
 ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootTierData_Client__final.json"
-INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootPackages_Client__final.json"
+INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit_Comp/AthenaLootTierData_Client__final.json"
+INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit_Comp/AthenaLootPackages_Client__final.json"
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/ForbiddenFruit"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/ForbiddenFruit_Comp"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -214,8 +234,8 @@ AMMO_ICON_MAP = {}  # 必要に応じて追記
 # --- 先にHotfix適用 ---
 import subprocess
 if DO_HOTFIX:
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/LootPackage変更.py"], check=True)
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/LootTier変更.py"], check=True)
+    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit_Comp/LootPackage変更.py"], check=True)
+    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit_Comp/LootTier変更.py"], check=True)
 # --- Hotfix適用ここまで ---
 
 # リトライ付きHTTPセッション
@@ -1170,7 +1190,7 @@ def main():
     # 3) JSON保存（常に実行）
     versioned_filename = get_versioned_filename(
         VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/ForbiddenFruit"
+        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/ForbiddenFruit_Comp"
     )
     Path(versioned_filename).write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),

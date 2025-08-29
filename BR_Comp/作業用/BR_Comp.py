@@ -17,7 +17,7 @@ from requests.adapters import HTTPAdapter
 from PIL import Image, ImageDraw, ImageFont
 
 # ---------------- 設定（シンプル版） ----------------
-VERSION_PREFIX = "v37.00"  # 必要に応じて変更
+VERSION_PREFIX = "TEST"  # 必要に応じて変更
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成   ← これがご希望の流れ
@@ -25,7 +25,7 @@ VERSION_PREFIX = "v37.00"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "json"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {

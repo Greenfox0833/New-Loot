@@ -74677,7 +74677,7 @@
       },
       "LTG_MapObjective_C_Solo_01": {
         "TierGroup": "LTG_MapObjective_C_Solo",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -74745,7 +74745,7 @@
       },
       "LTG_MapObjective_C_Duo_01": {
         "TierGroup": "LTG_MapObjective_C_Duo",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -74813,7 +74813,7 @@
       },
       "LTG_MapObjective_C_Trio_01": {
         "TierGroup": "LTG_MapObjective_C_Trio",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -74881,7 +74881,7 @@
       },
       "LTG_MapObjective_C_Squad_01": {
         "TierGroup": "LTG_MapObjective_C_Squad",
-        "Weight": 0.66,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -74949,7 +74949,7 @@
       },
       "LTG_MapObjective_C_Solo_02": {
         "TierGroup": "LTG_MapObjective_C_Solo",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -75017,7 +75017,7 @@
       },
       "LTG_MapObjective_C_Duo_02": {
         "TierGroup": "LTG_MapObjective_C_Duo",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -75085,7 +75085,7 @@
       },
       "LTG_MapObjective_C_Trio_02": {
         "TierGroup": "LTG_MapObjective_C_Trio",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -75153,7 +75153,7 @@
       },
       "LTG_MapObjective_C_Squad_02": {
         "TierGroup": "LTG_MapObjective_C_Squad",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -78417,7 +78417,7 @@
       },
       "LTG_Launcher_Shockwave_Athena_X_01": {
         "TierGroup": "LTG_Launcher_Shockwave_Athena_X",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -81134,74 +81134,6 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Revolver_TidalCrane_Athena_X;LPKG:PKG_Revolver_TidalCrane_Athena_X"
-      },
-      "LTG_WasherDryer_Gold_01": {
-        "TierGroup": "LTG_WasherDryer_Gold",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_WasherDryer_Gold",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_WasherDryer_Gold;LPKG:PKG_WasherDryer_Gold"
       }
     }
   }

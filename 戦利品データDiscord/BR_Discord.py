@@ -6,11 +6,45 @@ import requests
 from typing import Dict, List, Tuple, Optional
 import uuid
 from datetime import datetime
+import time
 
 # ===== 設定 =====
-BASE_DIR = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/ForbiddenFruit")
+BASE_DIR = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR")
 WEBHOOK_URL = "https://discord.com/api/webhooks/1410895751482970202/yvCeLIZ8efdWY00jWtFdb2nlGAR3nG59He8zm8M_6ccXCtY_cLNRgS8gNbIZneI6L0WQ"  # ←差し替え
-NO_IMAGE_PATH = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/No Image.png")  # ←任意。無ければ自動で画像なし
+NO_IMAGE_PATH = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/イメージなし.png")  # ←任意。無ければ自動で画像なし
+
+def post_with_retry(url: str, *, json_payload=None, files_payload=None, max_retry: int = 5):
+    """
+    Discord Webhook用: 429時は retry_after 秒待ってリトライ。
+    それ以外のエラーも指数バックオフで再試行。
+    """
+    attempt = 0
+    backoff = 0.5
+    while True:
+        attempt += 1
+        if files_payload is not None:
+            r = requests.post(url, files=files_payload)
+        else:
+            r = requests.post(url, json=json_payload)
+
+        if r.status_code < 300:
+            return r
+
+        if r.status_code == 429:
+            try:
+                data = r.json()
+                wait = float(data.get("retry_after", 1.0))
+            except Exception:
+                wait = 1.0
+            print(f"[RateLimit] {wait}秒待機して再試行します…")
+            time.sleep(wait)
+            continue
+
+        print("[Webhook Error]", r.status_code, r.text)
+        if attempt >= max_retry:
+            return r
+        time.sleep(backoff)
+        backoff = min(backoff * 2, 8.0)
 
 # 追加=緑 / 削除=赤 / 変更=黄
 COLORS = {"added": 0x57F287, "removed": 0xED4245, "changed": 0xFEE75C}
@@ -42,26 +76,30 @@ def load_json(p: Path) -> Dict:
 
 # あなたのJSON構造に合わせて、AssetPathNameごとに Percent / 名称 / レア を引ける索引を作る
 def build_index(data: Dict) -> Dict[str, Dict]:
-    """
-    返り値: { asset_path: {"percent": float|None, "name": str, "rarity": str, "group": str} }
-    """
     idx = {}
-    # 例: data[group]["Items"][...]["ValidLootPackages"][...]["Packages"][...]["ListItems"][...]
     for group, block in data.items():
         for itm in block.get("Items", []):
             for pkg in itm.get("ValidLootPackages", []):
                 for pk in pkg.get("Packages", []):
                     for li in pk.get("ListItems", []):
                         asset = li.get("AssetPathName")
+                        wlid  = li.get("WorldListID") or ""
+                        pkgid = pk.get("ID") or ""
                         if not asset:
                             continue
-                        idx[asset] = {
+                        # ★ 複合キー：Group / Package / WorldListID / Asset
+                        key = f"{group}|{pkgid}|{wlid}|{asset}"
+                        idx[key] = {
                             "percent": _to_float(li.get("ListPercent")),
                             "name": li.get("LocalizedName", "???"),
                             "rarity": li.get("rarity", "???"),
-                            "group": group
+                            "group": group,
+                            "asset": asset,          # 元のパスも保持
+                            "world_list_id": wlid,   # 参照用
+                            "package_id": pkgid,
                         }
     return idx
+
 
 def _to_float(v):
     try:
@@ -71,7 +109,7 @@ def _to_float(v):
 
 
 # ここに追加する 👇
-IMAGE_ROOT = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/ForbiddenFruit")
+IMAGE_ROOT = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR")
 IMAGE_EXTS = (".png", ".jpg", ".jpeg", ".webp")
 
 def rarity_to_tier(rarity: str | None) -> int | None:
@@ -177,77 +215,121 @@ GROUP_NAME_MAP = {
     "Loot_Random_Medallion": "ランダムメダリオン",
 }
 
-def build_embed(diff: Dict, latest_name: str, prev_name: str, attachment_name: Optional[str]) -> Dict:
+def _short_id_from_asset(asset: str) -> str:
+    return str(asset).split('.')[-1] if asset else ""
+
+def _weapon_key(diff: Dict) -> str:
+    # 「名前 + レアリティ + 短縮ID」で武器を一意化
+    return f"{diff.get('name','???')}|{diff.get('rarity','???')}|{_short_id_from_asset(diff.get('asset',''))}"
+
+def group_diffs_by_weapon(diffs: List[Dict]) -> Dict[str, List[Dict]]:
+    g: Dict[str, List[Dict]] = {}
+    for d in diffs:
+        k = _weapon_key(d)
+        g.setdefault(k, []).append(d)
+    return g
+
+def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], attachment_name: Optional[str]) -> Dict:
     # タイトル（モード固定）
-    title = "Blitz Royale"
+    title = "バトルロイヤル"
 
-    # グループ名（日本語化マップがあれば適用）
-    group_label = GROUP_NAME_MAP.get(diff['group'], diff['group'])
-    header = f"```\n{group_label}\n```"
+    # 2段目（黒帯）＝武器名（ご要望の「上から二番目 = 武器名」）
+    header = f"```\n{weapon_name}（{items[0].get('rarity','???')}）\n```"
 
-    # IDは末尾だけ
-    short_id = diff['asset'].split('.')[-1]
+    # 表示順：日本語ラベルの昇順（必要なら並び替え規則をここでカスタム）
+    def label_of(d):
+        return GROUP_NAME_MAP.get(d['group'], d['group'])
 
-    # 更新タイプを文字化
-    type_label = {
-        "added": "追加",
-        "removed": "削除",
-        "changed": "変更"
-    }.get(diff["type"], "その他")
+    fields = []
 
-    # パーセント表記（新規・削除・変更で分ける）
-    if diff["type"] == "added" and diff["new_percent"] is not None:
-        percent_info = f"**{diff['new_percent']:.4f}%**（新規）"
-    elif diff["type"] == "removed" and diff["old_percent"] is not None:
-        percent_info = f"{diff['old_percent']:.4f}%（削除）"
-    elif diff["type"] == "changed":
-        op = diff["old_percent"] if diff["old_percent"] is not None else 0.0
-        np = diff["new_percent"] if diff["new_percent"] is not None else 0.0
-        percent_info = f"{op:.4f}% → **{np:.4f}%**"
+    # 含まれる差分の種類を調べて更新タイプを決定
+    types = {d["type"] for d in items}
+    if types == {"changed"}:
+        type_label = "更新"
+    elif types == {"added"}:
+        type_label = "追加"
+    elif types == {"removed"}:
+        type_label = "削除"
+    elif "added" in types and "removed" not in types and "changed" not in types:
+        type_label = "追加"
+    elif "removed" in types and "added" not in types and "changed" not in types:
+        type_label = "削除"
     else:
-        percent_info = "―"
+        type_label = "更新"  # 複合の場合は「更新」
 
-    # 色設定
-    color = COLORS.get(diff["type"], 0x2B2D31)
+    fields.append({"name": "更新タイプ", "value": type_label, "inline": False})
 
-    # フッター = 現在時刻
+    for d in sorted(items, key=label_of):
+        group_label = GROUP_NAME_MAP.get(d['group'], d['group'])
+        # パーセント表示（追加/削除/変更を統一表記）
+        if d["type"] == "added":
+            op, np = 0.0, (d["new_percent"] or 0.0)
+        elif d["type"] == "removed":
+            op, np = (d["old_percent"] or 0.0), 0.0
+        else:
+            op, np = (d["old_percent"] or 0.0), (d["new_percent"] or 0.0)
+        percent_info = f"`{op:.2g}%` → **`{np:.2g}%`**"
+
+        fields.append({
+            "name": group_label,
+            "value": percent_info,
+            "inline": False
+        })
+
+    # 最後に武器ID
+    fields.append({"name": "ID", "value": f"`{weapon_id}`", "inline": False})
+
+    # フッター（現在時刻）
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    # 最初のアイテムの type を代表にして色を決める
+    main_type = items[0]["type"] if items else "changed"
+    color = COLORS.get(main_type, 0x2B2D31)
 
     embed = {
         "title": title,
         "description": header,
         "color": color,
         "footer": {"text": f"更新時刻: {now_str}"},
-        "fields": [
-            {
-                "name": "更新タイプ",
-                "value": type_label,
-                "inline": False
-            },
-            {
-                "name": "Percent",
-                "value": percent_info,
-                "inline": False
-            },
-            {
-                "name": "アイテム名",
-                "value": diff["name"] or "―",
-                "inline": True
-            },
-            {
-                "name": "ID",
-                "value": f"`{short_id}`",
-                "inline": True
-            },
-        ]
+        "fields": fields
     }
 
     if attachment_name:
         embed["thumbnail"] = {"url": f"attachment://{attachment_name}"}
     return embed
 
+def send_one_weapon(weapon_name: str, rarity: str, weapon_id: str, items: List[Dict]):
+    attach_name = None
+    files_mp = []
+    attachments_meta = None
 
+    # 武器画像は武器名+レアで1回だけ解決
+    img = resolve_item_image_path(weapon_name, rarity)
+    if img and img.exists():
+        safe_name = _safe_filename(img)
+        attach_name = safe_name
+        files_mp.append(("files[0]", (safe_name, open(img, "rb"), _guess_mime(img.suffix))))
+        attachments_meta = [{"id": "0", "filename": safe_name}]
+    elif NO_IMAGE_PATH.exists():
+        safe_name = _safe_filename(NO_IMAGE_PATH)
+        attach_name = safe_name
+        files_mp.append(("files[0]", (safe_name, open(NO_IMAGE_PATH, "rb"), _guess_mime(NO_IMAGE_PATH.suffix))))
+        attachments_meta = [{"id": "0", "filename": safe_name}]
 
+    embed = build_weapon_embed(weapon_name, weapon_id, items, attach_name)
+
+    payload = {"embeds": [embed]}
+    if attachments_meta:
+        payload["attachments"] = attachments_meta
+
+    if files_mp:
+        files_mp.append(("payload_json", (None, json.dumps(payload, ensure_ascii=False), "application/json")))
+        r = post_with_retry(WEBHOOK_URL, files_payload=files_mp)
+    else:
+        r = post_with_retry(WEBHOOK_URL, json_payload=payload)
+
+    time.sleep(0.35)
+    return r
 
 
 def _guess_mime(suffix: str) -> str:
@@ -264,39 +346,6 @@ def _safe_filename(path: Path) -> str:
     safe = uuid.uuid4().hex  # 例: "a3f0c9..."
     return f"{safe}{ext}"
 
-def send_one_diff(diff: Dict, latest_name: str, prev_name: str):
-    attach_name = None
-    files_mp = []
-    attachments_meta = None
-
-    img = resolve_item_image_path(diff["name"], diff["rarity"])
-    if img and img.exists():
-        # ←ここで安全な名前に置換
-        safe_name = _safe_filename(img)
-        attach_name = safe_name
-        files_mp.append(("files[0]", (safe_name, open(img, "rb"), _guess_mime(img.suffix))))
-        attachments_meta = [{"id": "0", "filename": safe_name}]
-    elif NO_IMAGE_PATH.exists():
-        attach_name = NO_IMAGE_PATH.name  # ここはASCIIなのでそのまま
-        files_mp.append(("files[0]", (attach_name, open(NO_IMAGE_PATH, "rb"), _guess_mime(NO_IMAGE_PATH.suffix))))
-        attachments_meta = [{"id": "0", "filename": attach_name}]
-
-    embed = build_embed(diff, latest_name, prev_name, attach_name)
-
-    payload = {"embeds": [embed]}
-    if attachments_meta:
-        payload["attachments"] = attachments_meta
-
-    if files_mp:
-        # multipart: files + payload_json（順序は実質無関係だが、先にfilesを渡すのが無難）
-        files_mp.append(("payload_json", (None, json.dumps(payload, ensure_ascii=False), "application/json")))
-        r = requests.post(WEBHOOK_URL, files=files_mp)
-    else:
-        r = requests.post(WEBHOOK_URL, json=payload)
-
-    if r.status_code >= 300:
-        print("[Webhook Error]", r.status_code, r.text)
-
 def main():
     latest, prev = pick_latest_two_json_by_name(BASE_DIR)
     latest_data = load_json(latest)
@@ -311,9 +360,15 @@ def main():
         print("差分なし：送信しません。")
         return
 
-    # 1アイテム = 1メッセージ（テスト運用）
-    for d in diffs:
-        send_one_diff(d, latest.name, prev.name)
+    # 1武器 = 1メッセージ
+    weapons = group_diffs_by_weapon(diffs)
+    for k, items in weapons.items():
+        # k = "name|rarity|id"
+        parts   = k.split("|")
+        w_name  = parts[0] if len(parts) > 0 else "???"
+        w_rarity= parts[1] if len(parts) > 1 else "???"
+        w_id    = parts[2] if len(parts) > 2 else ""
+        send_one_weapon(w_name, w_rarity, w_id, items)
 
 if __name__ == "__main__":
     main()

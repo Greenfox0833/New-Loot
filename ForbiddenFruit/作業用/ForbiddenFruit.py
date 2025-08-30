@@ -10,11 +10,12 @@ from io import BytesIO
 from collections import defaultdict
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
 import requests
 from urllib.parse import quote
 from requests.adapters import HTTPAdapter
 from PIL import Image, ImageDraw, ImageFont
+import subprocess, sys
+from pathlib import Path
 
 # ---------------- 設定（シンプル版） ----------------
 VERSION_PREFIX = "Week11"  # 必要に応じて変更
@@ -1177,6 +1178,13 @@ def main():
         encoding="utf-8"
     )
     print(f"✅ JSONファイルを作成しました: {versioned_filename}")
+
+    try:
+        br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/ForbiddenFruit_Discord.py")
+        subprocess.run([sys.executable, str(br_discord)], check=True)
+        print("✅ BR_Discord を実行しました")
+    except Exception as e:
+        print("[!] BR_Discord 実行に失敗:", e)
 
     # ★プリウォーム（カード生成せず、アイコンだけキャッシュ）
     if ENABLE_ICON_CACHE_PREWARM:

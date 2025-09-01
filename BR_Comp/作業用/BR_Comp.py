@@ -26,7 +26,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "json"
+RUN_MODE = "pipeline"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -176,7 +176,7 @@ except FileNotFoundError:
 
 
 # 画像素材など
-FONT_PATH = "C:/Windows/Fonts/MSYHBD.TTC"
+FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
 RARITY_BG_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Rarity"
 RARITY_ICON_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/icon"
 AMMO_ICON_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Ammo"
@@ -1236,9 +1236,9 @@ def main():
         # 6) ★最後に必ず BR_Discord を実行（保存方法や生成状況に依らず）
         try:
             subprocess.run([sys.executable, str(br_discord)], check=True)
-            print("✅ BR_Discord を実行しました（finally）")
+            print("✅ BR_Comp_Discord を実行しました（finally）")
         except Exception as e:
-            print("[!] BR_Discord 実行に失敗:", e)
+            print("[!] BR_Comp_Discord 実行に失敗:", e)
 
     # タスク収集（tiergroup/worldlist_key も受け取る）
     tasks = list(iter_tasks_from_summary_all(summary))

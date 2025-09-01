@@ -10,14 +10,15 @@ from io import BytesIO
 from collections import defaultdict
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
 import requests
 from urllib.parse import quote
 from requests.adapters import HTTPAdapter
 from PIL import Image, ImageDraw, ImageFont
+import subprocess, sys
+from pathlib import Path
 
 # ---------------- 設定（シンプル版） ----------------
-VERSION_PREFIX = "v37.00"  # 必要に応じて変更
+VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成   ← これがご希望の流れ
@@ -43,9 +44,9 @@ RUN_OPTIONS = {
 PROFILE_PRESETS = {
     "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
     "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
-    "prewarm":  dict(do_hotfix=False, enable_icon_cache_prewarm=True,  enable_image_creation=False),
+    "prewarm":  dict(do_hotfix=True, enable_icon_cache_prewarm=True,  enable_image_creation=False),
     "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
-    "dryrun":   dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "dryrun":   dict(do_hotfix=True, enable_icon_cache_prewarm=False, enable_image_creation=False),
 }
 _p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
 
@@ -160,7 +161,7 @@ except FileNotFoundError:
 
 
 # 画像素材など
-FONT_PATH = "C:/Windows/Fonts/MSYHBD.TTC"
+FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
 RARITY_BG_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Rarity"
 RARITY_ICON_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/icon"
 AMMO_ICON_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Ammo"
@@ -1211,37 +1212,65 @@ def get_versioned_filename(prefix, save_dir):
 
 
 def main():
-    # 1) まとめ作成
-    rows_lt = load_rows(INPUT_LT_JSON)
-    rows_lp = load_rows(INPUT_LP_JSON)
-    summary = build_summary(rows_lt, rows_lp)
+    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/Figment_Discord.py")
+    version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Figment"
 
-    # 2) Localized 名を後付け（必ず実行）
-    enrich_summary_with_names(summary)
+    try:
+        # 1) まとめ作成
+        rows_lt = load_rows(INPUT_LT_JSON)
+        rows_lp = load_rows(INPUT_LP_JSON)
+        summary = build_summary(rows_lt, rows_lp)
 
-    # 3) JSON保存（常に実行）
-    versioned_filename = get_versioned_filename(
-        VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Figment"
-    )
-    Path(versioned_filename).write_text(
-        json.dumps(summary, indent=2, ensure_ascii=False),
-        encoding="utf-8"
-    )
-    print(f"✅ JSONファイルを作成しました: {versioned_filename}")
+        # 2) Localized 名を後付け（必ず実行）
+        enrich_summary_with_names(summary)
 
-    # ★プリウォーム（カード生成せず、アイコンだけキャッシュ）
-    if ENABLE_ICON_CACHE_PREWARM:
-        prewarm_icon_cache(summary)
-        print("✅ アイコンキャッシュをプリウォームしました")
+        # 3) JSON保存（常に実行）
+        versioned_filename = get_versioned_filename(VERSION_PREFIX, version_save_dir)
+        Path(versioned_filename).write_text(
+            json.dumps(summary, indent=2, ensure_ascii=False),
+            encoding="utf-8"
+        )
+        print(f"✅ JSONファイルを作成しました: {versioned_filename}")
 
-    # 4) 画像生成（フラグで可否を切替）
-    if not ENABLE_IMAGE_CREATION:
-        return
+        # 4) プリウォーム（カード生成せず、アイコンだけキャッシュ）
+        if ENABLE_ICON_CACHE_PREWARM:
+            prewarm_icon_cache(summary)
+            print("✅ アイコンキャッシュをプリウォームしました")
 
-    # 4) 画像生成（フラグで可否を切替）
-    if not ENABLE_IMAGE_CREATION:
-        return  # ← ここで終了。以降の画像処理は走らない
+        # 5) 画像生成（フラグで可否を切替）
+        if ENABLE_IMAGE_CREATION:
+            # タスク収集（TierGroup/WorldList含む）
+            tasks = list(iter_tasks_from_summary_all(summary))
+
+            # 重複除去（flat/tgでの衝突回避のためキーに TG/WL を含める）
+            uniq = []
+            seen = set()
+            for ap, od, txt, tg, wl in tasks:
+                key = (normalize_asset_path(ap), od, tg, wl)
+                if key not in seen:
+                    seen.add(key)
+                    uniq.append((ap, od, txt, tg, wl))
+
+            print(f"[i] 画像化タスク数: {len(uniq)}")
+
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+                futs = [ex.submit(worker_task, ap, od, txt, tg, wl) for ap, od, txt, tg, wl in uniq]
+                for _ in as_completed(futs):
+                    pass
+
+            print("✅ 画像生成 完了（TierGroup/WorldListごとに保存）")
+
+    except Exception as e:
+        # 上流でどこか失敗しても、最後の BR_Discord 実行は維持する
+        print("[!] main 処理中にエラーが発生しました:", e)
+
+    finally:
+        # 6) ★最後に必ず BR_Discord を実行（保存方法や生成状況に依らず）
+        try:
+            subprocess.run([sys.executable, str(br_discord)], check=True)
+            print("✅ Figment_Discord を実行しました（finally）")
+        except Exception as e:
+            print("[!] Figment_Discord 実行に失敗:", e)
 
     # タスク収集（tiergroup/worldlist_key も受け取る）
     tasks = list(iter_tasks_from_summary_all(summary))

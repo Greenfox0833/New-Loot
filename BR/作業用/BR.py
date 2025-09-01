@@ -26,7 +26,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "json"
+RUN_MODE = "pipeline"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -176,7 +176,7 @@ except FileNotFoundError:
 
 
 # 画像素材など
-FONT_PATH = "C:/Windows/Fonts/MSYHBD.TTC"
+FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
 RARITY_BG_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Rarity"
 RARITY_ICON_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/icon"
 AMMO_ICON_DIR   = r"E:/フォートナイト/Picture/Loot Pool/TEST4/Ammo"

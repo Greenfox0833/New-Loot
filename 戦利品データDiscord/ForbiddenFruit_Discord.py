@@ -7,6 +7,9 @@ from typing import Dict, List, Tuple, Optional
 import uuid
 from datetime import datetime
 import time
+from datetime import timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 
 # ===== 設定 =====
 BASE_DIR = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/ForbiddenFruit")
@@ -51,6 +54,18 @@ COLORS = {"added": 0x57F287, "removed": 0xED4245, "changed": 0xFEE75C}
 
 # 例: Week10_2025-08-23_23-38.json
 NAME_RE = re.compile(r".*?_(\d{4}-\d{2}-\d{2})_(\d{2}-\d{2})\.json$", re.IGNORECASE)
+
+def build_header_embed(utc_dt: datetime) -> Dict:
+    return {
+        "title": "バトルロイヤル戦利品データ更新",
+        "description": f"**更新日** : `{utc_dt.strftime('%Y-%m-%d %H:%M')}`",
+        "color": 0x5865F2,  # 好みで変更
+    }
+
+def send_header(utc_dt: datetime):
+    embed = build_header_embed(utc_dt)
+    payload = {"embeds": [embed]}
+    post_with_retry(WEBHOOK_URL, json_payload=payload)
 
 def parse_dt_from_filename(name: str) -> Optional[datetime]:
     m = NAME_RE.match(name)
@@ -276,7 +291,7 @@ def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], atta
             op, np = (d["old_percent"] or 0.0), 0.0
         else:
             op, np = (d["old_percent"] or 0.0), (d["new_percent"] or 0.0)
-        percent_info = f"`{op:.2g}%` → **`{np:.2g}%`**"
+        percent_info = f"`{op:.2f}%` → **`{np:.2f}%`**"
 
         fields.append({
             "name": str(group_label)[:256] or " ",
@@ -370,21 +385,25 @@ def main():
     latest_idx = build_index(latest_data)
     prev_idx   = build_index(prev_data)
 
-    diffs = compare_percent_only(prev_idx, latest_idx)  # 「前→最新」で比較
+    diffs = compare_percent_only(prev_idx, latest_idx)
 
     if not diffs:
         print("差分なし：送信しません。")
         return
 
-    # 1武器 = 1メッセージ
+    # ★ ここを追加：見出しボックスを最初に1回だけ送る
+    latest_dt = parse_dt_from_filename(latest.name) or datetime.now()
+    send_header(latest_dt)
+
+    # 以降は通常どおり各武器を送信（先頭だけcontentを付ける運用はやめる）
     weapons = group_diffs_by_weapon(diffs)
-    first = True
     for k, items in weapons.items():
         parts   = k.split("|")
         w_name  = parts[0] if len(parts) > 0 else "???"
         w_rarity= parts[1] if len(parts) > 1 else "???"
         w_id    = parts[2] if len(parts) > 2 else ""
-        send_one_weapon(w_name, w_rarity, w_id, items, with_content=first)
+        # with_content=False でOK（見出しは別で送っているため）
+        send_one_weapon(w_name, w_rarity, w_id, items, with_content=False)
         first = False
 
 if __name__ == "__main__":

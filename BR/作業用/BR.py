@@ -1180,44 +1180,65 @@ def get_versioned_filename(prefix, save_dir):
 
 
 def main():
-    # 1) まとめ作成
-    rows_lt = load_rows(INPUT_LT_JSON)
-    rows_lp = load_rows(INPUT_LP_JSON)
-    summary = build_summary(rows_lt, rows_lp)
-
-    # 2) Localized 名を後付け（必ず実行）
-    enrich_summary_with_names(summary)
-
-    # 3) JSON保存（常に実行）
-    versioned_filename = get_versioned_filename(
-        VERSION_PREFIX,
-        r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
-    )
-    Path(versioned_filename).write_text(
-        json.dumps(summary, indent=2, ensure_ascii=False),
-        encoding="utf-8"
-    )
-    print(f"✅ JSONファイルを作成しました: {versioned_filename}")
+    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discord.py")
+    version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
 
     try:
-        br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discord.py")
-        subprocess.run([sys.executable, str(br_discord)], check=True)
-        print("✅ BR_Discord を実行しました")
+        # 1) まとめ作成
+        rows_lt = load_rows(INPUT_LT_JSON)
+        rows_lp = load_rows(INPUT_LP_JSON)
+        summary = build_summary(rows_lt, rows_lp)
+
+        # 2) Localized 名を後付け（必ず実行）
+        enrich_summary_with_names(summary)
+
+        # 3) JSON保存（常に実行）
+        versioned_filename = get_versioned_filename(VERSION_PREFIX, version_save_dir)
+        Path(versioned_filename).write_text(
+            json.dumps(summary, indent=2, ensure_ascii=False),
+            encoding="utf-8"
+        )
+        print(f"✅ JSONファイルを作成しました: {versioned_filename}")
+
+        # 4) プリウォーム（カード生成せず、アイコンだけキャッシュ）
+        if ENABLE_ICON_CACHE_PREWARM:
+            prewarm_icon_cache(summary)
+            print("✅ アイコンキャッシュをプリウォームしました")
+
+        # 5) 画像生成（フラグで可否を切替）
+        if ENABLE_IMAGE_CREATION:
+            # タスク収集（TierGroup/WorldList含む）
+            tasks = list(iter_tasks_from_summary_all(summary))
+
+            # 重複除去（flat/tgでの衝突回避のためキーに TG/WL を含める）
+            uniq = []
+            seen = set()
+            for ap, od, txt, tg, wl in tasks:
+                key = (normalize_asset_path(ap), od, tg, wl)
+                if key not in seen:
+                    seen.add(key)
+                    uniq.append((ap, od, txt, tg, wl))
+
+            print(f"[i] 画像化タスク数: {len(uniq)}")
+
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+                futs = [ex.submit(worker_task, ap, od, txt, tg, wl) for ap, od, txt, tg, wl in uniq]
+                for _ in as_completed(futs):
+                    pass
+
+            print("✅ 画像生成 完了（TierGroup/WorldListごとに保存）")
+
     except Exception as e:
-        print("[!] BR_Discord 実行に失敗:", e)
+        # 上流でどこか失敗しても、最後の BR_Discord 実行は維持する
+        print("[!] main 処理中にエラーが発生しました:", e)
 
-    # ★プリウォーム（カード生成せず、アイコンだけキャッシュ）
-    if ENABLE_ICON_CACHE_PREWARM:
-        prewarm_icon_cache(summary)
-        print("✅ アイコンキャッシュをプリウォームしました")
-
-    # 4) 画像生成（フラグで可否を切替）
-    if not ENABLE_IMAGE_CREATION:
-        return
-
-    # 4) 画像生成（フラグで可否を切替）
-    if not ENABLE_IMAGE_CREATION:
-        return  # ← ここで終了。以降の画像処理は走らない
+    finally:
+        # 6) ★最後に必ず BR_Discord を実行（保存方法や生成状況に依らず）
+        try:
+            subprocess.run([sys.executable, str(br_discord)], check=True)
+            print("✅ BR_Discord を実行しました（finally）")
+        except Exception as e:
+            print("[!] BR_Discord 実行に失敗:", e)
 
     # タスク収集（tiergroup/worldlist_key も受け取る）
     tasks = list(iter_tasks_from_summary_all(summary))

@@ -12,7 +12,7 @@ from datetime import timezone, timedelta
 JST = timezone(timedelta(hours=9))
 
 # ===== 設定 =====
-BASE_DIR = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/NoBuild")
+BASE_DIR = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Figment_NoBuild")
 WEBHOOK_URL = "https://discord.com/api/webhooks/1410895751482970202/yvCeLIZ8efdWY00jWtFdb2nlGAR3nG59He8zm8M_6ccXCtY_cLNRgS8gNbIZneI6L0WQ"  # ←差し替え
 NO_IMAGE_PATH = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/イメージなし.png")  # ←任意。無ければ自動で画像なし
 
@@ -124,7 +124,7 @@ def _to_float(v):
 
 
 # ここに追加する 👇
-IMAGE_ROOT = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild")
+IMAGE_ROOT = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Figment_NoBuild")
 IMAGE_EXTS = (".png", ".jpg", ".jpeg", ".webp")
 
 def rarity_to_tier(rarity: str | None) -> int | None:
@@ -245,7 +245,7 @@ def group_diffs_by_weapon(diffs: List[Dict]) -> Dict[str, List[Dict]]:
     return g
 
 def build_weapon_embed(weapon_name: str, weapon_id: str, items: List[Dict], attachment_name: Optional[str]) -> Dict:
-    title = "ゼロビルド"
+    title = "フォートナイト ORIGIN ゼロビルド"
     header = f"```\n{weapon_name}（{items[0].get('rarity','???')}）\n```"
 
     def label_of(d):
@@ -345,7 +345,7 @@ def send_one_weapon(weapon_name: str, rarity: str, weapon_id: str, items: List[D
 
     if with_content:
         payload = {
-            "content": "**ゼロビルドの戦利品データ更新**",
+            "content": "**フォートナイト ORIGIN ゼロビルドの戦利品データ更新**",
             "embeds": [embed]
         }
     else:

@@ -26,7 +26,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "json"
+RUN_MODE = "pipeline"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -147,11 +147,11 @@ ONLY_WORLDLIST_KEYS = None
 
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/AthenaLootTierData_Client__final.json"
-INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/AthenaLootPackages_Client__final.json"
+INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload_NoBuild/AthenaLootTierData_Client__final.json"
+INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload_NoBuild/AthenaLootPackages_Client__final.json"
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR_Comp"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Reload_NoBuild"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -235,8 +235,8 @@ AMMO_ICON_MAP = {}  # 必要に応じて追記
 # --- 先にHotfix適用 ---
 import subprocess
 if DO_HOTFIX:
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/LootPackage変更.py"], check=True)
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/LootTier変更.py"], check=True)
+    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload_NoBuild/LootPackage更新.py"], check=True)
+    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload_NoBuild/LootTier更新.py"], check=True)
 # --- Hotfix適用ここまで ---
 
 # リトライ付きHTTPセッション
@@ -1180,8 +1180,8 @@ def get_versioned_filename(prefix, save_dir):
 
 
 def main():
-    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Comp_Discord.py")
-    version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR_Comp"
+    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/Reload_NoBuild_Discord.py")
+    version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Reload_NoBuild"
 
     try:
         # 1) まとめ作成

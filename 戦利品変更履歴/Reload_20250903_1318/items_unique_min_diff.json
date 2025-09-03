@@ -1,0 +1,36 @@
+{
+  "base_source": "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Reload\\v37.00_2025-08-26_18-16.json",
+  "target_source": "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Reload\\v37.00_2025-08-28_01-38.json",
+  "summary": {
+    "added": 0,
+    "removed": 2,
+    "modified": 1,
+    "unchanged": 174
+  },
+  "added": [],
+  "removed": [
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/DanceGrenade/Athena_DanceGrenade_UC.Athena_DanceGrenade_UC",
+      "LocalizedName": "ブギーボム",
+      "rarity": "アンコモン"
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
+      "LocalizedName": "ジェットパック",
+      "rarity": "レジェンド"
+    }
+  ],
+  "modified": [
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/Grenade/WID_CherrySmoke_Grenade_Unstable_Athena.WID_CherrySmoke_Grenade_Unstable_Athena",
+      "before": {
+        "LocalizedName": "???",
+        "rarity": "エキゾチック"
+      },
+      "after": {
+        "LocalizedName": "アンステーブル バウンスグレネード",
+        "rarity": "エキゾチック"
+      }
+    }
+  ]
+}

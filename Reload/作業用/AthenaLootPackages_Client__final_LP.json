@@ -1,24 +1,10 @@
 [
   {
-    "Type": "CompositeDataTable",
-    "Name": "BlastBerryComposite_LP",
-    "Class": "UScriptClass'CompositeDataTable'",
+    "Type": "DataTable",
+    "Name": "AthenaLootPackages_Client",
+    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "ParentTables": [
-        {
-          "ObjectName": "DataTable'AthenaLootPackages_Client'",
-          "ObjectPath": "/Game/Items/Datatables/AthenaLootPackages_Client.0"
-        },
-        {
-          "ObjectName": "DataTable'BlastBerryLootPackages'",
-          "ObjectPath": "/BlastBerryLoot/DataTables/BlastBerryLootPackages.0"
-        },
-        {
-          "ObjectName": "DataTable'AthenaLootPackages_Client_BlastBerryOverride'",
-          "ObjectPath": "/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride.0"
-        }
-      ],
       "RowStruct": {
         "ObjectName": "Class'FortLootPackageData'",
         "ObjectPath": "/Script/FortniteGame"
@@ -35110,8 +35096,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 4,
-          "Y": 4
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -35539,8 +35525,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -55797,7 +55783,7 @@
       },
       "WorldList.ForagedItems.SpookyMist.01": {
         "LootPackageID": "WorldList.ForagedItems.SpookyMist",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55863,7 +55849,7 @@
       },
       "WorldList.ForagedItems.Grassland.01": {
         "LootPackageID": "WorldList.ForagedItems.Grassland",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55929,7 +55915,7 @@
       },
       "WorldList.ForagedItems.Farmland.01": {
         "LootPackageID": "WorldList.ForagedItems.Farmland",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55995,7 +55981,7 @@
       },
       "WorldList.ForagedItems.Forest.01": {
         "LootPackageID": "WorldList.ForagedItems.Forest",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56193,7 +56179,7 @@
       },
       "WorldList.ForagedItems.Arid.03": {
         "LootPackageID": "WorldList.ForagedItems.Arid",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56226,7 +56212,7 @@
       },
       "WorldList.ForagedItems.Jungle.01": {
         "LootPackageID": "WorldList.ForagedItems.Jungle",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56259,7 +56245,7 @@
       },
       "WorldList.ForagedItems.Cream.01": {
         "LootPackageID": "WorldList.ForagedItems.Cream",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56292,7 +56278,7 @@
       },
       "WorldList.ForagedItems.Glitch.01": {
         "LootPackageID": "WorldList.ForagedItems.Glitch",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56325,7 +56311,7 @@
       },
       "WorldList.ForagedItems.Swamp.01": {
         "LootPackageID": "WorldList.ForagedItems.Swamp",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56391,7 +56377,7 @@
       },
       "WorldList.ForagedItems.Fireflies.01": {
         "LootPackageID": "WorldList.ForagedItems.Fireflies",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

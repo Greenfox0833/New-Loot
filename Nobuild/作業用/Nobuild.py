@@ -132,8 +132,8 @@ ONLY_WORLDLIST_KEYS = None
 
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_LT_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootTierData_Client__final.json"
-INPUT_LP_JSON = r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootPackages_Client__final.json"
+INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/items_unique_min.json"
+
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
 OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild"
@@ -834,6 +834,19 @@ def load_rows(path: str, rows_key: str = "Rows"):
     obj = data[0] if isinstance(data, list) else data
     return obj.get(rows_key, {})
 
+def load_minlist(path: str):
+    """items_unique_min.json を読み込む"""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, list):
+            print("⚠️ items_unique_min.json の形式が不正です")
+            return []
+        return data
+    except FileNotFoundError:
+        print(f"❌ {path} が見つかりません")
+        return []
+
 import re as _re
 _num_suffix = _re.compile(r".*?\.([0-9]{2})$")
 def key_suffix_num(key: str) -> int:
@@ -1045,9 +1058,23 @@ def iter_tasks_from_summary_all(summary: dict):
                         # パーセントは無くてもOK
                         yield (ap, out_dir, None, tiergroup, worldlist_key)
 
+def iter_tasks_from_minlist(min_items):
+    """
+    items_unique_min.json から画像生成タスクを作る
+    """
+    DEFAULT_TG = "MinList"
+    DEFAULT_WL = "_FromMinList"
+    for rec in min_items:
+        ap = rec.get("AssetPathName")
+        if not ap:
+            continue
+        out_dir = resolve_out_dir(DEFAULT_TG, DEFAULT_WL)
+        # LocalizedName を優先的に使えるようにタスクに含める
+        yield (ap, out_dir, rec.get("LocalizedName"), DEFAULT_TG, DEFAULT_WL)
 
 def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None,
-                tiergroup: str | None = None, worldlist_key: str | None = None):
+                tiergroup: str | None = None, worldlist_key: str | None = None,
+                preferred_name: str | None = None):
     wjson = export_by_asset_path(asset_path)
     if not wjson:
         return
@@ -1055,7 +1082,7 @@ def worker_task(asset_path: str, out_dir: str, list_percent_text: str | None,
         jo = wjson["jsonOutput"]
         data = jo[0] if isinstance(jo, list) else jo
         weapon_id = re.sub(r'[\\/:"*?<>|]', "_", data.get("Name", "Unknown"))
-        loc = get_name_by_asset(asset_path)
+        loc = preferred_name or get_name_by_asset(asset_path)
         if loc == "???":
             item_key = data.get("Properties", {}).get("ItemName", {}).get("key", "")
             if loc == "???" and item_key:
@@ -1165,85 +1192,98 @@ def get_versioned_filename(prefix, save_dir):
 
 
 def main():
-    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/NoBuild_Discord.py")
+    # ====== 設定 ======
+    # LootSummary の場所
+    loot_summary = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootSummary.py")
+    # LootSummary のスキャン対象（履歴を置いている場所）
     version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/NoBuild"
+    # MinList（LootSummary が上書き出力する抽出JSON）
+    minlist_path = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json  :contentReference[oaicite:0]{index=0}
+
+    # Discord 連携（必要ないならコメントアウト可）
+    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/NoBuild_Discor.py")
 
     try:
-        # 1) まとめ作成
-        rows_lt = load_rows(INPUT_LT_JSON)
-        rows_lp = load_rows(INPUT_LP_JSON)
-        summary = build_summary(rows_lt, rows_lp)
+        print("===== BR: pipeline start =====")
 
-        # 2) Localized 名を後付け（必ず実行）
-        enrich_summary_with_names(summary)
+        # 0) Hotfix（グローバルの DO_HOTFIX 設定に準拠。先頭で既に適用済みなら何もしない想定） :contentReference[oaicite:1]{index=1}
+        if DO_HOTFIX:
+            print("✓ Hotfix 適用済み（前段で実行）")
 
-        # 3) JSON保存（常に実行）
-        versioned_filename = get_versioned_filename(VERSION_PREFIX, version_save_dir)
-        Path(versioned_filename).write_text(
-            json.dumps(summary, indent=2, ensure_ascii=False),
-            encoding="utf-8"
-        )
-        print(f"✅ JSONファイルを作成しました: {versioned_filename}")
+        # 1) JSON 作成（あなたの既存処理が別にある場合はここで実施）
+        #   ※ ここで「戦利品データ/BR」にバージョン付きJSONを書き出す処理があるなら、その直後に LootSummary を呼びます。
+        #   ※ 追加の JSON 生成が無い場合は、そのまま LootSummary へ。
 
-        # 4) プリウォーム（カード生成せず、アイコンだけキャッシュ）
-        if ENABLE_ICON_CACHE_PREWARM:
-            prewarm_icon_cache(summary)
-            print("✅ アイコンキャッシュをプリウォームしました")
+        # 2) LootSummary を実行（抽出→比較 / 抽出は作業用に上書き、比較は履歴フォルダへ）
+        try:
+            subprocess.run(
+                [sys.executable, str(loot_summary),
+                 "--scan", version_save_dir,
+                 "--diff-scan", version_save_dir],
+                check=True
+            )
+            print("✓ LootSummary 実行完了（items_unique_min.json を作成/上書き）")
+        except Exception as e:
+            print("[!] LootSummary 実行に失敗:", e)
+            return
 
-        # 5) 画像生成（フラグで可否を切替）
+        # 3) MinList を読み込み（画像作成のソース）
+        try:
+            with open(minlist_path, "r", encoding="utf-8") as f:
+                min_items = json.load(f)
+            if not isinstance(min_items, list) or not min_items:
+                print(f"[!] MinList が空です: {minlist_path}")
+                return
+        except FileNotFoundError:
+            print(f"[!] 見つかりません: {minlist_path}")
+            return
+
+        # 4) タスク化（MinList ベース）
+        DEFAULT_TG = "MinList"
+        DEFAULT_WL = "_FromMinList"
+        tasks = []
+        for rec in min_items:
+            ap = (rec or {}).get("AssetPathName")
+            if not ap:
+                continue
+            out_dir = resolve_out_dir(DEFAULT_TG, DEFAULT_WL)
+            # 第3引数は表示名のヒント（None 可）。generate 側で未使用でも問題なし。
+            tasks.append((ap, out_dir, rec.get("LocalizedName"), DEFAULT_TG, DEFAULT_WL))
+
+        # 5) 重複除去
+        uniq, seen = [], set()
+        for ap, od, txt, tg, wl in tasks:
+            key = (normalize_asset_path(ap), od, tg, wl)
+            if key not in seen:
+                seen.add(key)
+                uniq.append((ap, od, txt, tg, wl))
+
+        print(f"[i] 画像化タスク数: {len(uniq)}")
+
+        # 6) 画像生成（並列）
         if ENABLE_IMAGE_CREATION:
-            # タスク収集（TierGroup/WorldList含む）
-            tasks = list(iter_tasks_from_summary_all(summary))
-
-            # 重複除去（flat/tgでの衝突回避のためキーに TG/WL を含める）
-            uniq = []
-            seen = set()
-            for ap, od, txt, tg, wl in tasks:
-                key = (normalize_asset_path(ap), od, tg, wl)
-                if key not in seen:
-                    seen.add(key)
-                    uniq.append((ap, od, txt, tg, wl))
-
-            print(f"[i] 画像化タスク数: {len(uniq)}")
-
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
                 futs = [ex.submit(worker_task, ap, od, txt, tg, wl) for ap, od, txt, tg, wl in uniq]
                 for _ in as_completed(futs):
                     pass
-
-            print("✅ 画像生成 完了（TierGroup/WorldListごとに保存）")
+            print("✅ 画像生成 完了（MinList ベース）")
+        else:
+            print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
 
     except Exception as e:
-        # 上流でどこか失敗しても、最後の BR_Discord 実行は維持する
-        print("[!] main 処理中にエラーが発生しました:", e)
+        print("[!] main 内でエラー:", e)
 
     finally:
-        # 6) ★最後に必ず BR_Discord を実行（保存方法や生成状況に依らず）
+        # 7) Discord 送信（任意）
         try:
-            subprocess.run([sys.executable, str(br_discord)], check=True)
-            print("✅ NoBuild_Discord を実行しました（finally）")
+            if br_discord.exists():
+                subprocess.run([sys.executable, str(br_discord)], check=True)
+                print("✓ BR_Discord 実行完了")
         except Exception as e:
-            print("[!] NoBuild_Discord 実行に失敗:", e)
+            print("[!] BR_Discord 実行に失敗:", e)
 
-    # タスク収集（tiergroup/worldlist_key も受け取る）
-    tasks = list(iter_tasks_from_summary_all(summary))
+        print("===== BR: pipeline end =====")
 
-    # 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
-    uniq = []
-    seen = set()
-    for ap, od, txt, tg, wl in tasks:
-        key = (normalize_asset_path(ap), od, tg, wl)
-        if key not in seen:
-            seen.add(key)
-            uniq.append((ap, od, txt, tg, wl))
-
-    print(f"[i] 画像化タスク数: {len(uniq)}")
-
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-        futs = [ex.submit(worker_task, ap, od, txt, tg, wl) for ap, od, txt, tg, wl in uniq]
-        for _ in as_completed(futs):
-            pass
-    print("✅ 画像生成 完了（TierGroup/WorldListごとに保存）")
 
 if __name__ == "__main__":
     main()

@@ -217,13 +217,6 @@ RARITY_TO_TIER = {
 
 AMMO_ICON_MAP = {}  # 必要に応じて追記
 
-# --- 先にHotfix適用 ---
-import subprocess
-if DO_HOTFIX:
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/LootTier更新.py"], check=True)
-    subprocess.run(["python", r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/LootPackage更新.py"], check=True)
-# --- Hotfix適用ここまで ---
-
 # リトライ付きHTTPセッション
 try:
     from urllib3.util.retry import Retry
@@ -1192,42 +1185,47 @@ def get_versioned_filename(prefix, save_dir):
 
 
 def main():
-    # ====== 設定 ======
-    # LootSummary の場所
-    loot_summary = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootSummary.py")
-    # LootSummary のスキャン対象（履歴を置いている場所）
-    version_save_dir = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/NoBuild"
-    # MinList（LootSummary が上書き出力する抽出JSON）
-    minlist_path = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json  :contentReference[oaicite:0]{index=0}
-
-    # Discord 連携（必要ないならコメントアウト可）
-    br_discord = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/NoBuild_Discor.py")
+    # ===== パス設定 =====
+    br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
+    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootSummary.py")
+    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR")  # まとめJSONの保存先
+    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
+    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")
+    minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
         print("===== BR: pipeline start =====")
 
-        # 0) Hotfix（グローバルの DO_HOTFIX 設定に準拠。先頭で既に適用済みなら何もしない想定） :contentReference[oaicite:1]{index=1}
+        # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            print("✓ Hotfix 適用済み（前段で実行）")
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True)
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True)
+            print("✓ Hotfix 適用完了")
 
-        # 1) JSON 作成（あなたの既存処理が別にある場合はここで実施）
-        #   ※ ここで「戦利品データ/BR」にバージョン付きJSONを書き出す処理があるなら、その直後に LootSummary を呼びます。
-        #   ※ 追加の JSON 生成が無い場合は、そのまま LootSummary へ。
-
-        # 2) LootSummary を実行（抽出→比較 / 抽出は作業用に上書き、比較は履歴フォルダへ）
+        # 1) まとめJSONの作成（LT/LP → summary）と保存
+        rows_lt = load_rows(str(lt_json_path))
+        rows_lp = load_rows(str(lp_json_path))
+        summary = build_summary(rows_lt, rows_lp)
         try:
-            subprocess.run(
-                [sys.executable, str(loot_summary),
-                 "--scan", version_save_dir,
-                 "--diff-scan", version_save_dir],
-                check=True
-            )
-            print("✓ LootSummary 実行完了（items_unique_min.json を作成/上書き）")
-        except Exception as e:
-            print("[!] LootSummary 実行に失敗:", e)
-            return
+            enrich_summary_with_names(summary)  # あれば実行（失敗しても続行）
+        except Exception:
+            pass
 
-        # 3) MinList を読み込み（画像作成のソース）
+        version_save_dir.mkdir(parents=True, exist_ok=True)
+        versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
+        Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✅ まとめJSONを作成: {versioned_filename}")
+
+        # 2) LootSummary を実行（抽出 → 比較）
+        subprocess.run(
+            [sys.executable, str(loot_summary_py),
+             "--scan", str(version_save_dir),
+             "--diff-scan", str(version_save_dir)],
+            check=True
+        )
+        print("✅ LootSummary 実行完了（抽出→比較）")
+
+        # 3) MinList を読み込み（items_unique_min.json）
         try:
             with open(minlist_path, "r", encoding="utf-8") as f:
                 min_items = json.load(f)
@@ -1238,7 +1236,7 @@ def main():
             print(f"[!] 見つかりません: {minlist_path}")
             return
 
-        # 4) タスク化（MinList ベース）
+        # 4) タスク化（MinListベースで画像生成）
         DEFAULT_TG = "MinList"
         DEFAULT_WL = "_FromMinList"
         tasks = []
@@ -1247,26 +1245,28 @@ def main():
             if not ap:
                 continue
             out_dir = resolve_out_dir(DEFAULT_TG, DEFAULT_WL)
-            # 第3引数は表示名のヒント（None 可）。generate 側で未使用でも問題なし。
-            tasks.append((ap, out_dir, rec.get("LocalizedName"), DEFAULT_TG, DEFAULT_WL))
+            preferred = rec.get("LocalizedName")
+            # list_percent_text=None / preferred_name=preferred で worker に渡す
+            tasks.append((ap, out_dir, None, DEFAULT_TG, DEFAULT_WL, preferred))
 
-        # 5) 重複除去
+        # 5) 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
         uniq, seen = [], set()
-        for ap, od, txt, tg, wl in tasks:
+        for ap, od, _txt, tg, wl, preferred in tasks:
             key = (normalize_asset_path(ap), od, tg, wl)
             if key not in seen:
                 seen.add(key)
-                uniq.append((ap, od, txt, tg, wl))
+                uniq.append((ap, od, None, tg, wl, preferred))
 
         print(f"[i] 画像化タスク数: {len(uniq)}")
 
         # 6) 画像生成（並列）
         if ENABLE_IMAGE_CREATION:
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-                futs = [ex.submit(worker_task, ap, od, txt, tg, wl) for ap, od, txt, tg, wl in uniq]
+                futs = [ex.submit(worker_task, ap, od, None, tg, wl, preferred)
+                        for ap, od, _txt, tg, wl, preferred in uniq]
                 for _ in as_completed(futs):
                     pass
-            print("✅ 画像生成 完了（MinList ベース）")
+            print("✅ 画像生成 完了（MinListベース）")
         else:
             print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
 
@@ -1274,11 +1274,13 @@ def main():
         print("[!] main 内でエラー:", e)
 
     finally:
-        # 7) Discord 送信（任意）
+        # 7) Discord 送信（常時オン）
         try:
             if br_discord.exists():
                 subprocess.run([sys.executable, str(br_discord)], check=True)
                 print("✓ BR_Discord 実行完了")
+            else:
+                print(f"ℹ️ BR_Discord が見つかりません: {br_discord}")
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
 

@@ -32320,7 +32320,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32340,10 +32340,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Figment_Sniper_BoltAction_Scope_Athena/Gameplay/WID_Figment_Sniper_BoltAction_Scope_Athena_VR.WID_Figment_Sniper_BoltAction_Scope_Athena_VR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Figment_Sniper_AMR_Athena/Gameplay/WID_Figment_Sniper_AMR_Athena_SR.WID_Figment_Sniper_AMR_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

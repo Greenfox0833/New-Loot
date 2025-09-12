@@ -11108,7 +11108,7 @@
           "X": 1,
           "Y": 1
         },
-        "LootPackageCategory": 0,
+        "LootPackageCategory": 1,
         "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
@@ -11129,7 +11129,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.Reward.Special.C0;Call:WorldList.RewardSpecial.Item.2",
+        "Annotation": ";Def:WorldPKG.Reward.Special.C1;Call:WorldList.RewardSpecial.Item.2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.POICapture.01": {
@@ -20902,7 +20902,7 @@
       },
       "WorldList.AthenaHighConsumables.06": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20922,7 +20922,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RocketDrillGameplay/Gameplay/Items/AGID_RocketDrill_JetpackVer.AGID_RocketDrill_JetpackVer",
+        "ItemDefinition": {
+          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -21724,7 +21727,7 @@
       },
       "WorldList.AthenaHighConsumables.31": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21790,7 +21793,7 @@
       },
       "WorldList.AthenaHighConsumables.33": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22516,7 +22519,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.18": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22582,7 +22585,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.20": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23308,7 +23311,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.18": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23374,7 +23377,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.20": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24100,7 +24103,7 @@
       },
       "WorldList.AthenaSupplyDrop.Heals.18": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Heals",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24166,7 +24169,7 @@
       },
       "WorldList.AthenaSupplyDrop.Heals.20": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Heals",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24694,7 +24697,7 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.12": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24760,7 +24763,7 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.14": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25420,7 +25423,7 @@
       },
       "WorldList.AthenaConsumables.18": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25486,7 +25489,7 @@
       },
       "WorldList.AthenaConsumables.20": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25684,7 +25687,7 @@
       },
       "WorldList.GoldChest.Consumable.04": {
         "LootPackageID": "WorldList.GoldChest.Consumable",
-        "Weight": 5.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25704,7 +25707,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RocketDrillGameplay/Gameplay/Items/AGID_RocketDrill_JetpackVer.AGID_RocketDrill_JetpackVer",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp.AGID_VividRazor_Rocket_SlapSlurp",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -26572,7 +26578,7 @@
       },
       "WorldList.GoldChest.Medallions.01": {
         "LootPackageID": "WorldList.GoldChest.Medallions",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26593,14 +26599,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_CombatEfficiency_FF.PAID_SunRose_TDM_CombatEfficiency_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldChest.Medallions.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.GoldChest.Medallions.C0;Item:PAID.CombatEfficiency.FF",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldChest.Medallions.02": {
@@ -27001,7 +27007,7 @@
       },
       "WorldList.GoldChest.Medallions.14": {
         "LootPackageID": "WorldList.GoldChest.Medallions",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -27892,7 +27898,7 @@
       },
       "WorldList.Medallion.Set.1.01": {
         "LootPackageID": "WorldList.Medallion.Set.1",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -27913,14 +27919,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_CombatEfficiency_FF.PAID_SunRose_TDM_CombatEfficiency_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Medallion.Set.1.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.Medallion.Set.1.C0;Item:PAID.CombatEfficiency.FF",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Medallion.Set.1.02": {
@@ -28057,7 +28063,7 @@
       },
       "WorldList.Medallion.Set.2.01": {
         "LootPackageID": "WorldList.Medallion.Set.2",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28078,14 +28084,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_Siphon_FF.PAID_SunRose_TDM_Siphon_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Medallion.Set.2.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.Medallion.Set.2.C0;Item:PAID.Siphon.FF",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Medallion.Set.2.02": {
@@ -29014,7 +29020,7 @@
       },
       "WorldList.RandomExotic.Rewards.26": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29047,7 +29053,7 @@
       },
       "WorldList.RandomExotic.Rewards.27": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29080,7 +29086,7 @@
       },
       "WorldList.RandomExotic.Rewards.28": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29113,7 +29119,7 @@
       },
       "WorldList.RandomExotic.Rewards.29": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29146,7 +29152,7 @@
       },
       "WorldList.RandomExotic.Rewards.30": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29179,7 +29185,7 @@
       },
       "WorldList.RandomExotic.Rewards.31": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29212,7 +29218,7 @@
       },
       "WorldList.RandomExotic.Rewards.32": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29245,7 +29251,7 @@
       },
       "WorldList.RandomExotic.Rewards.33": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29278,7 +29284,7 @@
       },
       "WorldList.RandomExotic.Rewards.34": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32611,7 +32617,7 @@
       },
       "WorldList.AthenaSupplyDrop.Medallion.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Medallion",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32632,14 +32638,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/TidalCraneMedallionGameplay/Gameplay/Carapace/PAID_TidalCrane_Carapace_FF.PAID_TidalCrane_Carapace_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Medallion.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Medallion.C0;Item:PAID_TidalCrane_Carapace",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Medallion.02": {
@@ -33040,7 +33046,7 @@
       },
       "WorldList.AthenaSupplyDrop.Medallion.14": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Medallion",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33733,7 +33739,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33753,7 +33759,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/GrappleWeapon/Items/GrappleKnife/V2/WID_GrappleKnife_Mythic.WID_GrappleKnife_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33763,7 +33772,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33783,7 +33792,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33793,7 +33805,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33813,7 +33825,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MasamuneGameplay/Gameplay/Variants/WID_FirePetal_Masamune_Mythic.WID_FirePetal_Masamune_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "/MasamuneGameplay/Gameplay/WID_FirePetal_Masamune.WID_FirePetal_Masamune",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33823,7 +33838,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33843,7 +33858,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RocketDrillGameplay/Gameplay/Items/AGID_RocketDrill_JetpackVer.AGID_RocketDrill_JetpackVer",
+        "ItemDefinition": {
+          "AssetPathName": "/NitroGauntletsGameplay/Gameplay/WID_Moonflax_NitroGauntlet.WID_Moonflax_NitroGauntlet",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -34546,7 +34564,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.26": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34645,7 +34663,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.29": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35239,7 +35257,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.47": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.01,
+        "Weight": 2.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35305,7 +35323,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35833,7 +35851,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.18": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37186,7 +37204,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37965,7 +37983,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_R.WID_Assault_FirePetal_Fast_Athena_R",
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/TerminatorAR/WID_Assault_TidalCrane_Athena_X.WID_Assault_TidalCrane_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37975,7 +37993,7 @@
       },
       "WorldList.BusWeap.02": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.5,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37995,7 +38013,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_VR.WID_Assault_FirePetal_Fast_Athena_VR",
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/DoubleTrouble/WID_Shotgun_Pump_Standard_Athena_DX.WID_Shotgun_Pump_Standard_Athena_DX",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38025,7 +38043,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/ShockwaveLauncher/WID_Launcher_Shockwave_Athena_X.WID_Launcher_Shockwave_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38035,7 +38053,7 @@
       },
       "WorldList.BusWeap.04": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.5,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38055,7 +38073,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/DoubleTrouble/WID_Shotgun_Pump_Standard_Athena_TX.WID_Shotgun_Pump_Standard_Athena_TX",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38065,7 +38083,7 @@
       },
       "WorldList.BusWeap.05": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38085,10 +38103,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/NitroGauntletsGameplay/Gameplay/WID_Moonflax_NitroGauntlet.WID_Moonflax_NitroGauntlet",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/TrackerSMG/WID_SMG_FirePetal_Athena_TX.WID_SMG_FirePetal_Athena_TX",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38098,7 +38113,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38118,10 +38133,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning_R.WID_Athena_SunRose_Zeus_Lightning_R",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/Exotic/WID_Assault_FirePetal_Fast_Athena_X.WID_Assault_FirePetal_Fast_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38131,7 +38143,7 @@
       },
       "WorldList.BusWeap.07": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38151,10 +38163,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip.WID_ChainWhip",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/WreckerRevolver/Exotic/WID_Revolver_TidalCrane_Athena_X.WID_Revolver_TidalCrane_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -39418,7 +39427,7 @@
       },
       "WorldList.BusGrant.ItemSet.1.01": {
         "LootPackageID": "WorldList.BusGrant.ItemSet.1",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39439,14 +39448,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_Siphon_FF.PAID_SunRose_TDM_Siphon_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusGrant.ItemSet.1.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.BusGrant.ItemSet.1.C0;Item:PAID.Siphon.FF",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.BusGrant.ItemSet.1.02": {
@@ -40131,7 +40140,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/GooBerryFizz/WID_TidalCrane_TeamSpray_X.WID_TidalCrane_TeamSpray_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -42319,7 +42328,7 @@
       },
       "WorldList.Random.Medallion.01": {
         "LootPackageID": "WorldList.Random.Medallion",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42340,14 +42349,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_ZeroPointDash_FF.PAID_SunRose_TDM_ZeroPointDash_FF",
+          "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_CombatEfficiency_FF.PAID_SunRose_TDM_CombatEfficiency_FF",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Random.Medallion.C0;Item:PAID.ZeoPointDash.FF",
+        "Annotation": ";List:WorldList.Random.Medallion.C0;Item:PAID.CombatEfficiency.FF",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Random.Medallion.02": {
@@ -42748,7 +42757,7 @@
       },
       "WorldList.Random.Medallion.14": {
         "LootPackageID": "WorldList.Random.Medallion",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46299,7 +46308,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PostageMinute/Gameplay/Medallion/PAID_PostageMinute_Medallion_Pickaxe_FF.PAID_PostageMinute_Medallion_Pickaxe_FF",
+        "ItemDefinition": {
+          "AssetPathName": "/PostageMinute/Gameplay/Medallion/PAID_PostageMinute_Medallion_Pickaxe_FF.PAID_PostageMinute_Medallion_Pickaxe_FF",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

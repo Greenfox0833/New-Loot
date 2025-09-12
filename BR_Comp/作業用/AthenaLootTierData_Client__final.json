@@ -75233,8 +75233,8 @@
         "LootPackage": "PKG_Chest_Special",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -75253,11 +75253,11 @@
           1,
           1,
           2,
-          1,
-          2,
-          1,
-          2,
-          2,
+          0,
+          0,
+          0,
+          0,
+          0,
           1,
           0,
           0
@@ -75301,8 +75301,8 @@
         "LootPackage": "PKG_Loot_Special",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 8.0,
-          "Y": 8.0
+          "X": 4.0,
+          "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -75321,12 +75321,12 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
           0,
           1,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -76389,8 +76389,8 @@
         "LootPackage": "WorldPKG_Bomber",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 6.0,
-          "Y": 6.0
+          "X": 2.0,
+          "Y": 2.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -76407,11 +76407,11 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          0,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -76457,8 +76457,8 @@
         "LootPackage": "WorldPKG_Spawner_Small",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 2.0,
+          "Y": 2.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -76474,7 +76474,7 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
+          0,
           2,
           0,
           0,
@@ -76525,8 +76525,8 @@
         "LootPackage": "WorldPKG_Spawner_Large",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -76542,10 +76542,10 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          2,
+          0,
           3,
-          1,
-          1,
+          0,
+          0,
           0,
           0,
           0,
@@ -81134,6 +81134,142 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Revolver_TidalCrane_Athena_X;LPKG:PKG_Revolver_TidalCrane_Athena_X"
+      },
+      "LTG_PiewPistol_Only_01": {
+        "TierGroup": "LTG_PiewPistol_Only",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_PiewPistol_Only",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_PiewPistol_Only;LPKG:PKG_PiewPistol_Only"
+      },
+      "LTG_GrappleGloves_01": {
+        "TierGroup": "LTG_GrappleGloves",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_GrappleGrloves",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_GrappleGloves;LPKG:PKG_GrappleGrloves"
       },
       "LTG_NPC_Item_S23_FireflyJar_01": {
         "TierGroup": "LTG_NPC_Item_S23_FireflyJar",

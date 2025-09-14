@@ -855,6 +855,17 @@ def _asset_path_from_row(row: dict) -> str:
         return idf
     return ""
 
+# 追加: 何が来ても float に寄せるユーティリティ
+_float_re = _re.compile(r"\s*([+-]?\d+(?:\.\d+)?)")
+
+def as_float(x, default=0.0):
+    try:
+        return float(x)
+    except Exception:
+        m = _float_re.match(str(x))
+        return float(m.group(1)) if m else default
+
+
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
 
@@ -869,13 +880,14 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         except Exception:
             lp_cat = 0
         lp_call   = row.get("LootPackageCall", "") or ""
-        lp_weight = row.get("Weight", 0.0)
+        lp_weight = as_float(row.get("Weight", 0.0))
 
         lp_by_idcat[(lp_id, lp_cat)].append({
-            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
-            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
-            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
+            "Key": row_key,
+            "Call": lp_call,
+            "Weight": lp_weight,
         })
+
 
     # .NN の昇順で安定化
     for k in lp_by_idcat:
@@ -888,13 +900,14 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         if not isinstance(row, dict):
             continue  # 行そのものがdictじゃない場合はスキップ（任意）
         wl_id = row.get("LootPackageID", "")
+        w = as_float(row.get("Weight", 0.0))
         worldlist_map[wl_id].append({
             "Key": row_key,
-            "Weight": row.get("Weight", 0.0),
+            "Weight": w,
             "AssetPathName": _asset_path_from_row(row),
-            # 追加: このリスト行の CountRange.X を保持（無ければ None）
             "CountItem": (row.get("CountRange") or {}).get("X")
         })
+
 
 
 
@@ -928,22 +941,21 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                     if call:
                         # '.' / '_' ゆれは不要なら省略可（必要なら keys = (call, call.replace(".", "_"), call.replace("_", ".")) で回す）
                         for c in worldlist_map.get(call, []):
-                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                            if as_float(c.get("Weight", 0.0)) > 0.0 and c.get("AssetPathName"):
                                 list_items.append({
-                                    "WorldListID": c["Key"],           # ★ 追加：WorldList の行キー（例: WorldList.ApolloLoot... .01）
-                                    "Weight": c["Weight"],
+                                    "WorldListID": c["Key"],
+                                    "Weight": as_float(c["Weight"]),
                                     "AssetPathName": c["AssetPathName"],
                                     "CountItem": c.get("CountItem")
                                 })
 
-
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
                     packages.append({
-                        "ID": m["Key"],                 # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
+                        "ID": m["Key"],
                         "Call": call,
-                        "Count": int(val),              # MinArray の値
-                        "weight": round(m["Weight"], 6),# ← 各WorldPKG(.NN)のWeightを付与
+                        "Count": int(val),
+                        "weight": round(as_float(m["Weight"]), 6),
                         "TotalListWeight": round(total_list_weight, 6),
                         "ListItems": list_items
                     })

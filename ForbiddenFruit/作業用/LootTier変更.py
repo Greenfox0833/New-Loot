@@ -120,12 +120,41 @@ def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[b
         if not isinstance(cur, dict):
             return False, f"not a dict at '{k}'"
         if k not in cur or not isinstance(cur[k], dict):
-            cur[k] = {}                      # ← 中間を自動生成
+            cur[k] = {}
         cur = cur[k]
     last = keys[-1]
     existing = cur.get(last, None)
     cur[last] = coerce_like(existing, value_str)
     return True, ("OK" if existing is not None else "NEW")
+
+def normalize_addrow_payload(d: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
+    dd = dict(d)
+    row_name = dd.pop("Name", None) or dd.pop("RowName", None)
+    if not row_name or not isinstance(row_name, str):
+        raise ValueError("AddRow payload に Name/RowName がありません")
+    # 既存の整形はそのまま
+    ql = dd.get("QuotaLevel")
+    if isinstance(ql, str) and not ql.startswith("ELootQuotaLevel::"):
+        if ql.lower() == "unlimited":
+            dd["QuotaLevel"] = "ELootQuotaLevel::Unlimited"
+    gt = dd.get("GameplayTags")
+    if isinstance(gt, dict) and "GameplayTags" in gt:
+        dd["GameplayTags"] = gt.get("GameplayTags", [])
+    return row_name, dd
+
+def _parse_bulk_json(text: str):
+    # 二重JSONや \" を吸収して list/dict を返す
+    try:
+        obj = json.loads(text)
+        if isinstance(obj, str):
+            return json.loads(obj)
+        return obj
+    except Exception:
+        t = text.strip()
+        if (t.startswith('"') and t.endswith('"')) or (t.startswith("'") and t.endswith("'")):
+            t = t[1:-1]
+        t = t.replace('\\"', '"')
+        return json.loads(t)
 
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
     line = line.strip()
@@ -141,6 +170,10 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
     if not rest:
         return {"op": "UNKNOWN"}
     op = rest[0].strip()
+    if op == "AddRow":
+        joined = ";".join(rest[1:]).strip()
+        payload = _parse_bulk_json(joined)  # ← ここがポイント
+        return {"op": op, "datatable": dt, "payload": payload}
     if op == "RowDelete":
         return {"op": op, "datatable": dt, "row": rest[1].strip()}
     if len(rest) < 4:
@@ -161,6 +194,23 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
                 rows.pop(h["row"])
                 print(f"[{ln}] DELETE {h['row']}")
             continue
+
+        if h["op"] == "AddRow":
+            try:
+                obj = h["payload"]
+                arr = obj if isinstance(obj, list) else [obj]
+                added = 0
+                for item in arr:
+                    if not isinstance(item, dict):
+                        continue
+                    row_name, payload = normalize_addrow_payload(item)
+                    rows[row_name] = payload
+                    added += 1
+                print(f"[{ln}] AddRow -> added {added} row(s)")
+            except Exception as e:
+                print(f"[{ln}] AddRow -> ERROR: {e}")
+            continue
+
         if h["row"] not in rows:
             rows[h["row"]] = {}
             print(f"[{ln}] {h['op']} {h['row']} (create row)")

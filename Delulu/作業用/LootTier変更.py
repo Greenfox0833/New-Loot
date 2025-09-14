@@ -11,16 +11,26 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 # ==== ファイルパス設定 ====
+# ==== ファイルパス設定 ====
 BASE_PATH = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")
 SEASON_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootTierData_Client.json")
+PARENT_PATHS = [
+    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootTierData_Client.json"),
+    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json"),
+    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Delulu/DeluluOverrideLootTierData_Client.json"),
+]
+
 HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")
 
-OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
+OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/AthenaLootTierData_Client__final.json")
 
 TARGET_TABLE_NAMES = (
     "/Game/Items/Datatables/AthenaLootTierData_Client",
     "/LootCurrentSeason/DataTables/LootCurrentSeasonLootTierData_Client",
+    "/LootCurrentSeason/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
+    "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootTierData_Client",
 )
+
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 

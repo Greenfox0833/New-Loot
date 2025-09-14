@@ -23,7 +23,6 @@ TARGET_TABLE_NAMES = (
     "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootPackages_Client",
 )
 
-
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
 

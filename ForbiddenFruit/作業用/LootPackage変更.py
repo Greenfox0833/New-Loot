@@ -169,14 +169,44 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
         if not rest:
             return {"op": "UNKNOWN"}
 
+        # —— 後（差し替え）
         op = rest[0].strip()
-        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete"):
-            return {"op": "SKIP", "datatable": dt}
+        op_lower = op.lower()
 
+        # AddRow / addrow など大文字小文字を吸収
+        if op_lower == "addrow":
+            raw = ";".join(rest[1:]).strip()
+            if (raw.startswith('"') and raw.endswith('"')) or (raw.startswith("'") and raw.endswith("'")):
+                raw = raw[1:-1]
+
+            # ★ ここを追加：\" でエスケープされた JSON を素の JSON に戻す
+            if raw.startswith('{') and '\\"' in raw:
+                raw = raw.replace('\\"', '"')
+
+            if not (raw.lstrip().startswith("{") and raw.rstrip().endswith("}")):
+                op = "RowAdd"
+            else:
+                try:
+                    row_data = json.loads(raw)
+                    row_key = row_data.get("Name")
+                    if not row_key:
+                        return {"op": "SKIP", "datatable": dt}
+                    return {"op": "RowAddJSON", "datatable": dt, "row": row_key, "data": row_data}
+                except Exception:
+                    return {"op": "SKIP", "datatable": dt}
+        else:
+            op = op  # そのまま
+
+        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete", "RowAddJSON"):
+            return {"op": "SKIP", "datatable": dt}
         if op == "RowDelete":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
             return {"op": op, "datatable": dt, "row": rest[1].strip()}
+
+        if op == "RowAddJSON":
+            # ここまでで return 済みなので到達しないが、保険で残すならここで処理してもOK
+            pass
 
         if len(rest) < 4:
             return {"op": "SKIP", "datatable": dt}
@@ -203,6 +233,8 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
             continue  # 別テーブルの行は無視
 
         op = h["op"]
+
+        # --- ここから：RowDelete 既存処理 ---
         if op == "RowDelete":
             rk = h["row"]
             if rk in rows:
@@ -212,7 +244,18 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
             else:
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
             continue
+        # --- ここまで ---
 
+        # --- ここから：追加したい処理（JSON 丸ごと1行追加）---
+        if op == "RowAddJSON":
+            rk = h["row"]          # ＝ JSON内の "Name"
+            row_data = h["data"]   # ＝ JSON 丸ごと
+            rows[rk] = row_data
+            applied += 1
+            print(f"[{ln}] RowAddJSON {rk} -> CREATED")
+            continue
+
+        # 以降は従来どおり RowAdd/RowUpsert/RowUpdate の Field/Value 形式
         rk, field, val = h["row"], h["field"], h["value"]
 
         if rk not in rows:
@@ -225,7 +268,6 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
                 continue
 
         if not isinstance(rows[rk], dict):
-            # 過去実行の副作用などで行が文字列化していた場合の保険
             rows[rk] = {}
         ok, msg = set_by_path(rows[rk], field, val)
 

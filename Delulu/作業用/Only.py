@@ -147,11 +147,11 @@ ONLY_WORLDLIST_KEYS = None
 
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/items_unique_min.json"
+INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Only"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -870,6 +870,17 @@ def _asset_path_from_row(row: dict) -> str:
         return idf
     return ""
 
+# 追加: 何が来ても float に寄せるユーティリティ
+_float_re = _re.compile(r"\s*([+-]?\d+(?:\.\d+)?)")
+
+def as_float(x, default=0.0):
+    try:
+        return float(x)
+    except Exception:
+        m = _float_re.match(str(x))
+        return float(m.group(1)) if m else default
+
+
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
 
@@ -884,13 +895,14 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         except Exception:
             lp_cat = 0
         lp_call   = row.get("LootPackageCall", "") or ""
-        lp_weight = row.get("Weight", 0.0)
+        lp_weight = as_float(row.get("Weight", 0.0))
 
         lp_by_idcat[(lp_id, lp_cat)].append({
-            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
-            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
-            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
+            "Key": row_key,
+            "Call": lp_call,
+            "Weight": lp_weight,
         })
+
 
     # .NN の昇順で安定化
     for k in lp_by_idcat:
@@ -903,13 +915,14 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         if not isinstance(row, dict):
             continue  # 行そのものがdictじゃない場合はスキップ（任意）
         wl_id = row.get("LootPackageID", "")
+        w = as_float(row.get("Weight", 0.0))
         worldlist_map[wl_id].append({
             "Key": row_key,
-            "Weight": row.get("Weight", 0.0),
+            "Weight": w,
             "AssetPathName": _asset_path_from_row(row),
-            # 追加: このリスト行の CountRange.X を保持（無ければ None）
             "CountItem": (row.get("CountRange") or {}).get("X")
         })
+
 
 
 
@@ -943,22 +956,21 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                     if call:
                         # '.' / '_' ゆれは不要なら省略可（必要なら keys = (call, call.replace(".", "_"), call.replace("_", ".")) で回す）
                         for c in worldlist_map.get(call, []):
-                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                            if as_float(c.get("Weight", 0.0)) > 0.0 and c.get("AssetPathName"):
                                 list_items.append({
-                                    "WorldListID": c["Key"],           # ★ 追加：WorldList の行キー（例: WorldList.ApolloLoot... .01）
-                                    "Weight": c["Weight"],
+                                    "WorldListID": c["Key"],
+                                    "Weight": as_float(c["Weight"]),
                                     "AssetPathName": c["AssetPathName"],
                                     "CountItem": c.get("CountItem")
                                 })
 
-
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
                     packages.append({
-                        "ID": m["Key"],                 # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
+                        "ID": m["Key"],
                         "Call": call,
-                        "Count": int(val),              # MinArray の値
-                        "weight": round(m["Weight"], 6),# ← 各WorldPKG(.NN)のWeightを付与
+                        "Count": int(val),
+                        "weight": round(as_float(m["Weight"]), 6),
                         "TotalListWeight": round(total_list_weight, 6),
                         "ListItems": list_items
                     })
@@ -1202,10 +1214,10 @@ def get_versioned_filename(prefix, save_dir):
 def main():
     # ===== パス設定 =====
     br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
-    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootSummary.py")
-    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR")  # まとめJSONの保存先
-    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
-    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")
+    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/LootSummary.py")
+    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Delulu")  # まとめJSONの保存先
+    lt_json_path     = Path(r"Delulu/作業用/AthenaLootTierData_Client__final.json")
+    lp_json_path     = Path(r"Delulu/作業用/AthenaLootPackages_Client__final.json")
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
@@ -1213,8 +1225,8 @@ def main():
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True)
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True)
+            #subprocess.run([sys.executable, r""], check=True)
+            #subprocess.run([sys.executable, r""], check=True)
             print("✓ Hotfix 適用完了")
 
         # 1) まとめJSONの作成（LT/LP → summary）と保存

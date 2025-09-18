@@ -1345,6 +1345,18 @@ def main():
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
 
+        # 8) GitHub に Push
+        try:
+            repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
+            # BR関連ファイルをすべて add → commit → push
+            subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
+            msg = f"BR update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
+            subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
+            print("✓ GitHub Push 完了")
+        except Exception as e:
+            print("[!] GitHub Push に失敗:", e)
+
         print("===== BR: pipeline end =====")
 
 if __name__ == "__main__":

@@ -16,6 +16,11 @@ OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/
 HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
 HOTFIX_TARGET_COMP   = "/LootCurrentSeason/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp"
 
+TARGET_TABLE_NAMES = [
+    HOTFIX_TARGET_SEASON,
+    HOTFIX_TARGET_COMP,
+]
+
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
 # ---------- 基本処理 ----------
@@ -30,9 +35,11 @@ def read_datatable_json(path: Path) -> Dict[str, Any]:
         raise ValueError(f"{path.name}: DataTable形式ではありません（Rowsがありません）")
     return data
 
+
 def write_datatable_json(meta: Dict[str, Any], path: Path) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump([meta], f, ensure_ascii=False, indent=2)
+
 
 def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tuple[int, int]:
     replaced = added = 0
@@ -45,90 +52,170 @@ def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tupl
             added += 1
     return replaced, added
 
+
 # ---------- 値の型合わせ（数値/真偽/NULL/Unreal形式など） ----------
 def coerce_scalar(s: str) -> Any:
     s = s.strip()
     if _num_re.match(s):
         if "." in s or "e" in s.lower():
-            try: return float(s)
-            except Exception: return s
-        try: return int(s)
-        except Exception: return s
+            try:
+                return float(s)
+            except Exception:
+                return s
+        try:
+            return int(s)
+        except Exception:
+            return s
     sl = s.lower()
-    if sl in ("true", "false"): return sl == "true"
-    if sl == "null": return None
-    try: return json.loads(s)
-    except Exception: return s
+    if sl in ("true", "false"):
+        return sl == "true"
+    if sl == "null":
+        return None
+    try:
+        return json.loads(s)
+    except Exception:
+        return s
+
 
 def parse_unreal_tuple_to_dict(s: str) -> Dict[str, Any]:
+    # "(X=1,Y=2)" -> {"X":1, "Y":2}
     inner = s.strip()[1:-1].strip()
     out: Dict[str, Any] = {}
-    if not inner: return out
+    if not inner:
+        return out
     for seg in inner.split(","):
-        if "=" not in seg: continue
+        if "=" not in seg:
+            continue
         k, v = seg.split("=", 1)
         out[k.strip()] = coerce_scalar(v.strip())
     return out
 
+
 def parse_unreal_tuple_to_list(s: str) -> List[Any]:
+    # "(1,2,3)" -> [1,2,3]
     inner = s.strip()[1:-1].strip()
-    if not inner: return []
+    if not inner:
+        return []
     return [coerce_scalar(v.strip()) for v in inner.split(",") if v.strip()]
+
 
 def coerce_like(existing: Any, new_str: str) -> Any:
     s = new_str.strip()
+
+    # 既存型に関係なく Unreal 形式を優先解釈
     if s.startswith("(") and s.endswith(")"):
         if "=" in s:
-            try: return parse_unreal_tuple_to_dict(s)
-            except Exception: pass
+            try:
+                return parse_unreal_tuple_to_dict(s)
+            except Exception:
+                pass
         else:
-            try: return parse_unreal_tuple_to_list(s)
-            except Exception: pass
+            try:
+                return parse_unreal_tuple_to_list(s)
+            except Exception:
+                pass
+
+    # 既存が dict のときは dict を優先
     if isinstance(existing, dict):
         try:
             parsed = json.loads(s)
-            if isinstance(parsed, dict): return parsed
-        except Exception: pass
+            if isinstance(parsed, dict):
+                return parsed
+        except Exception:
+            pass
         return s
+
+    # 既存が list のときは list を優先
     if isinstance(existing, list):
         try:
             parsed = json.loads(s)
-            if isinstance(parsed, list): return parsed
-        except Exception: pass
+            if isinstance(parsed, list):
+                return parsed
+        except Exception:
+            pass
         return [coerce_scalar(x.strip()) for x in s.split(",") if x.strip()]
+
+    # 既存が None/数値/文字列など → 通常スカラー解釈
     return coerce_scalar(s)
+
+
 
 def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[bool, str]:
     keys = field_path.split(".")
     cur = row
     for k in keys[:-1]:
-        if not isinstance(cur, dict): return False, f"not a dict at '{k}'"
-        if k not in cur or not isinstance(cur[k], dict): cur[k] = {}
+        if not isinstance(cur, dict):
+            return False, f"not a dict at '{k}'"
+        # 中間が無い/辞書でない場合は作る
+        if k not in cur or not isinstance(cur[k], dict):
+            cur[k] = {}
         cur = cur[k]
     last = keys[-1]
     existing = cur.get(last, None)
     cur[last] = coerce_like(existing, value_str)
     return True, ("OK" if existing is not None else "NEW")
 
+
+
 # ---------- Hotfix ----------
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
     # +DataTable=...;RowUpdate;RowKey;Field;Value
     line = line.strip()
-    if not line or line.startswith("#"): return {"op": "COMMENT"}
-    if not (line.startswith("+") or line.startswith("-")): return {"op": "UNKNOWN"}
+    if not line or line.startswith("#"):
+        return {"op": "COMMENT"}
+    if not (line.startswith("+") or line.startswith("-")):
+        return {"op": "UNKNOWN"}
+
     try:
         after = line[1:]
         first_seg, *rest = after.split(";")
-        if "DataTable=" not in first_seg: return {"op": "UNKNOWN"}
+        if "DataTable=" not in first_seg:
+            return {"op": "UNKNOWN"}
         dt = first_seg.split("=", 1)[1].strip()
-        if not rest: return {"op": "UNKNOWN"}
+        if not rest:
+            return {"op": "UNKNOWN"}
+
+        # —— 後（差し替え）
         op = rest[0].strip()
-        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete"):
+        op_lower = op.lower()
+
+        # AddRow / addrow など大文字小文字を吸収
+        if op_lower == "addrow":
+            raw = ";".join(rest[1:]).strip()
+            if (raw.startswith('"') and raw.endswith('"')) or (raw.startswith("'") and raw.endswith("'")):
+                raw = raw[1:-1]
+
+            # ★ ここを追加：\" でエスケープされた JSON を素の JSON に戻す
+            if raw.startswith('{') and '\\"' in raw:
+                raw = raw.replace('\\"', '"')
+
+            if not (raw.lstrip().startswith("{") and raw.rstrip().endswith("}")):
+                op = "RowAdd"
+            else:
+                try:
+                    row_data = json.loads(raw)
+                    row_key = row_data.get("Name")
+                    if not row_key:
+                        return {"op": "SKIP", "datatable": dt}
+                    return {"op": "RowAddJSON", "datatable": dt, "row": row_key, "data": row_data}
+                except Exception:
+                    return {"op": "SKIP", "datatable": dt}
+        else:
+            op = op  # そのまま
+
+        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete", "RowAddJSON"):
             return {"op": "SKIP", "datatable": dt}
         if op == "RowDelete":
-            if len(rest) < 2: return {"op": "SKIP", "datatable": dt}
+            if len(rest) < 2:
+                return {"op": "SKIP", "datatable": dt}
             return {"op": op, "datatable": dt, "row": rest[1].strip()}
-        if len(rest) < 4: return {"op": "SKIP", "datatable": dt}
+
+        if op == "RowAddJSON":
+            # ここまでで return 済みなので到達しないが、保険で残すならここで処理してもOK
+            pass
+
+        if len(rest) < 4:
+            return {"op": "SKIP", "datatable": dt}
         row_key = rest[1].strip()
         field = rest[2].strip()
         value = ";".join(rest[3:]).strip()
@@ -136,79 +223,92 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
     except Exception:
         return {"op": "UNKNOWN"}
 
-def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_exact: str) -> None:
-    print(f"[HOTFIX:{table_name_exact}] start")
+
+def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
+    print("[HOTFIX] start")
     applied = skipped = deleted = 0
+
     for ln, line in enumerate(hotfix_text.splitlines(), 1):
         h = parse_hotfix_line(line)
-        if h.get("op") in ("COMMENT", "UNKNOWN", "SKIP"): continue
-        dt = h.get("datatable", "")
-        # 完全一致（末尾名一致も許容）
-        if dt.split("/")[-1] != table_name_exact and dt != table_name_exact:
+        if h.get("op") in ("COMMENT", "UNKNOWN", "SKIP"):
             continue
+
+        dt = h.get("datatable", "")
+        dt_lower = dt.lower()
+        if not any(name.lower() in dt_lower or dt_lower.endswith(name.lower()) for name in TARGET_TABLE_NAMES):
+            continue  # 別テーブルの行は無視
+
         op = h["op"]
+
+        # --- ここから：RowDelete 既存処理 ---
         if op == "RowDelete":
             rk = h["row"]
             if rk in rows:
-                rows.pop(rk, None); deleted += 1
+                rows.pop(rk, None)
+                deleted += 1
                 print(f"[{ln}] RowDelete {rk} -> DELETED")
             else:
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
             continue
+        # --- ここまで ---
+
+        # --- ここから：追加したい処理（JSON 丸ごと1行追加）---
+        if op == "RowAddJSON":
+            rk = h["row"]          # ＝ JSON内の "Name"
+            row_data = h["data"]   # ＝ JSON 丸ごと
+            rows[rk] = row_data
+            applied += 1
+            print(f"[{ln}] RowAddJSON {rk} -> CREATED")
+            continue
+
+        # 以降は従来どおり RowAdd/RowUpsert/RowUpdate の Field/Value 形式
         rk, field, val = h["row"], h["field"], h["value"]
+
         if rk not in rows:
             if op in ("RowAdd", "RowUpsert"):
-                rows[rk] = {}; print(f"[{ln}] {op} {rk} (create row)")
+                rows[rk] = {}
+                print(f"[{ln}] {op} {rk} (create row)")
             else:
-                skipped += 1; print(f"[{ln}] {op} {rk}.{field}={val} -> SKIP(no row)")
+                skipped += 1
+                print(f"[{ln}] {op} {rk}.{field}={val} -> SKIP(no row)")
                 continue
-        if not isinstance(rows[rk], dict): rows[rk] = {}
+
+        if not isinstance(rows[rk], dict):
+            rows[rk] = {}
         ok, msg = set_by_path(rows[rk], field, val)
+
         if ok:
-            applied += 1; print(f"[{ln}] {op} {rk}.{field}={val} -> {msg}")
+            applied += 1
+            print(f"[{ln}] {op} {rk}.{field}={val} -> {msg}")
         else:
-            skipped += 1; print(f"[{ln}] {op} {rk}.{field}={val} -> NG({msg})")
-    print(f"[HOTFIX:{table_name_exact}] done: applied={applied}, deleted={deleted}, skipped={skipped}")
+            skipped += 1
+            print(f"[{ln}] {op} {rk}.{field}={val} -> NG({msg})")
+
+    print(f"[HOTFIX] done: applied={applied}, deleted={deleted}, skipped={skipped}")
+
 
 # ---------- メイン ----------
 def main():
-    # ① Athena をベース、Season で上書き
-    base_meta   = read_datatable_json(BASE_PATH)
+    # 1) 合成
+    base_meta = read_datatable_json(BASE_PATH)
     season_meta = read_datatable_json(SEASON_PATH)
-    base_rows   = base_meta["Rows"]
+    base_rows = base_meta["Rows"]
     season_rows = season_meta["Rows"]
-    rep1, add1 = merge_rows(base_rows, season_rows)
-    print(f"[STEP1] base <- season : replaced={rep1}, added={add1}")
 
-    # ② Hotfix（LootCurrentSeasonLootPackages_Client のみ）
+    rep, add = merge_rows(base_rows, season_rows)
+    print(f"[MERGE] replaced={rep}, added={add}")
+
+    # 2) Hotfix（あれば適用）
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_SEASON)
+        apply_hotfix(base_rows, text)
     else:
         print("[HOTFIX] skipped (file not found)")
 
-    # ③ comp 上書き
-    comp_meta = read_datatable_json(COMP_PATH)
-    comp_rows = comp_meta["Rows"]
-    rep3, add3 = merge_rows(base_rows, comp_rows)
-    print(f"[STEP3] (hotfixed-season) <- comp : replaced={rep3}, added={add3}")
-
-    # ④ Hotfix（LootCurrentSeasonLootPackages_Client_Comp のみ）
-    if HOTFIX_PATH.exists():
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_COMP)
-    else:
-        print("[HOTFIX] skipped (file not found)")
-
-    # ⑤ comp_backup 上書き
-    comp_bk_meta = read_datatable_json(COMP_BK_PATH)
-    comp_bk_rows = comp_bk_meta["Rows"]
-    rep5, add5 = merge_rows(base_rows, comp_bk_rows)
-    print(f"[STEP5] (hotfixed-comp) <- comp_backup : replaced={rep5}, added={add5}")
-
-    # 出力（メタは base_meta 流用、Rows は最終状態）
+    # 3) 最終だけ保存
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
+
 
 if __name__ == "__main__":
     main()

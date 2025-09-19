@@ -16,8 +16,8 @@ from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
 # ===== 既定パス（/ でOK） =====
-DEFAULT_SCAN_DIR      = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
-DEFAULT_DIFF_SCAN_DIR = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR"
+DEFAULT_SCAN_DIR      = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Delulu"
+DEFAULT_DIFF_SCAN_DIR = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Delulu"
 HISTORY_BASE_DIR      = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品変更履歴"
 
 JST = timezone(timedelta(hours=9))
@@ -155,7 +155,7 @@ def main():
     current_min = to_min_list(latest, args.rarity)
 
     # 抽出の保存先は固定ディレクトリ（上書き更新）
-    extract_dir = r"E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用"
+    extract_dir = r"E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\Delulu\作業用"
     ensure_dir(extract_dir)
     out_min_path = os.path.join(extract_dir, "items_unique_min.json")
     with open(out_min_path, "w", encoding="utf-8") as f:

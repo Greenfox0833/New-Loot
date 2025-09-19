@@ -181,7 +181,7 @@ def main():
 
     # 比較の保存先は日付入りの履歴フォルダ
     now = datetime.now(JST)
-    diff_dir = os.path.join(HISTORY_BASE_DIR, f"BR_{now.strftime('%Y%m%d_%H%M')}")
+    diff_dir = os.path.join(HISTORY_BASE_DIR, f"Delulu_{now.strftime('%Y%m%d_%H%M')}")
     ensure_dir(diff_dir)
 
     diff_obj = {

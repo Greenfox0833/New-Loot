@@ -289,6 +289,7 @@ def fetch_export_image_as_pil(path_like: str):
     try:
         r = session.get(url, timeout=10)
         if not r.ok:
+            print(f"[HTTP×] {r.status_code} {url}")
             return None
         raw = r.content
         im = Image.open(BytesIO(raw)).convert("RGBA")
@@ -689,16 +690,20 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
 
         # アイテムアイコンを合成（中央）
         try:
-            icon_clean = icon_path.strip("/").split(".")[0]
-            icon_image = fetch_export_image_as_pil(icon_clean)
+            # ★ Figment/Juno補正 + /Content 挿入などを必ず適用
+            icon_norm = normalize_asset_path(icon_path)
+            icon_image = fetch_export_image_as_pil(icon_norm)
             if icon_image is None:
+                print(f"[×] アイコン画像取得失敗(URL用パス): {icon_norm}")
                 return
-            # ★追加: キャッシュに登録
+
+            # ★ キャッシュ登録も正規化後のキーで
             base = asset_path.split("/")[-1].split(".")[0]
             if base not in ICON_PATH_CACHE:
-                ICON_PATH_CACHE[base] = icon_clean
+                ICON_PATH_CACHE[base] = icon_norm
                 save_icon_cache()
-        except Exception:
+        except Exception as e:
+            print(f"[×] アイコン合成処理例外: {e}")
             return
         icon_resized = icon_image.resize((400, 400), resample=Image.LANCZOS)
         pos_x = (canvas.width - icon_resized.width) // 2
@@ -1217,7 +1222,9 @@ def prewarm_icon_cache(summary: dict):
             if not icon_path:
                 continue
 
-            _ = fetch_export_image_as_pil(icon_path)  # ★キャッシュ保存（生成はしない）
+            icon_norm = normalize_asset_path(icon_path)
+            _ = fetch_export_image_as_pil(icon_norm)  # ★正規化済みでプリウォーム
+
         except Exception:
             pass
 
@@ -1330,6 +1337,18 @@ def main():
                 print(f"ℹ️ BR_Discord が見つかりません: {br_discord}")
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
+
+        # 8) GitHub に Push
+        try:
+            repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
+            # BR関連ファイルをすべて add → commit → push
+            subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
+            msg = f"BR update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
+            subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
+            print("✓ GitHub Push 完了")
+        except Exception as e:
+            print("[!] GitHub Push に失敗:", e)
 
         print("===== BR: pipeline end =====")
 

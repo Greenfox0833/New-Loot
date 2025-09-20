@@ -18,7 +18,7 @@ HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPacka
 HOTFIX_TARGET_COMP   = "/LootCurrentSeason/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp"
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
-
+_num_head = re.compile(r'^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?')  # ★先頭の数値だけ抜く用
 
 # ---------- 基本処理 ----------
 def read_datatable_json(path: Path) -> Dict[str, Any]:
@@ -98,7 +98,8 @@ def parse_unreal_tuple_to_list(s: str) -> List[Any]:
 
 def coerce_like(existing: Any, new_str: str) -> Any:
     s = new_str.strip()
-    # Unreal 形式を優先
+
+    # 既存型に関係なく Unreal 形式を優先解釈
     if s.startswith("(") and s.endswith(")"):
         if "=" in s:
             try:
@@ -131,9 +132,16 @@ def coerce_like(existing: Any, new_str: str) -> Any:
             pass
         return [coerce_scalar(x.strip()) for x in s.split(",") if x.strip()]
 
-    # 既存が None/数値/文字列など → 通常スカラー解釈
-    return coerce_scalar(s)
+    # ★ここがポイント：既存が数値型なら、行に余計な文字が付いていても
+    # 「先頭の数値だけ」を採用（例: "0.070000+DataTable=..." -> 0.07）
+    if isinstance(existing, (int, float)):
+        m = _num_head.match(s)
+        if m:
+            num = m.group(0)
+            return float(num) if ('.' in num or 'e' in num.lower()) else int(num)
 
+    # それ以外は通常スカラー解釈
+    return coerce_scalar(s)
 
 def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[bool, str]:
     keys = field_path.split(".")

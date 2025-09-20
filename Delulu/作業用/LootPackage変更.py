@@ -5,6 +5,11 @@ from typing import Any, Dict, List, Tuple
 
 # ==== 入出力（必要なら名前だけ変えてOK）====
 # ① LootCurrentSeasonLootPackages_Client（ベース）
+
+ATHENA_PATH = Path(
+    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json"
+)
+
 BASE_PATH = Path(
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json"
 )
@@ -26,6 +31,7 @@ OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delu
 
 
 # Hotfix の対象テーブル名（段階ごとに限定）
+HOTFIX_TARGET_ATHENA   = "/Game/Items/Datatables/AthenaLootPackages_Client"
 HOTFIX_TARGET_BASE     = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
 HOTFIX_TARGET_NOBUILD  = "/LootCurrentSeason/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR"
 HOTFIX_TARGET_DELULU   = "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootPackages_Client"
@@ -380,44 +386,56 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
 
 # ---------- メイン ----------
 def main():
-    # ① Base 読み込み（LootCurrentSeasonLootPackages_Client）
-    base_meta = read_datatable_json(BASE_PATH)
-    rows = base_meta["Rows"]
-    print(f"[LOAD] Base(LootCurrentSeason) rows = {len(rows)}")
+    # ① Athena を読み込み
+    athena_meta = read_datatable_json(ATHENA_PATH)
+    rows = athena_meta["Rows"]
+    print(f"[LOAD] Athena rows = {len(rows)}")
 
-    # ① Hotfix: Base に対して（Addrowが無ければ自然にスキップ）
+    # ① Hotfix: Athena に対して
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_BASE,   stage_name="BASE")
+        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_ATHENA, stage_name="ATHENA")
+    else:
+        print("[HOTFIX] file not found -> skip ATHENA stage")
+
+    # ② LootCurrentSeason を上書き
+    base_meta = read_datatable_json(BASE_PATH)
+    rep_base, add_base = merge_rows(rows, base_meta["Rows"])
+    print(f"[MERGE] Athena <- LootCurrentSeason : replaced={rep_base}, added={add_base}")
+
+    # ③ Hotfix: LootCurrentSeason に対して
+    if HOTFIX_PATH.exists():
+        text = HOTFIX_PATH.read_text(encoding="utf-8")
+        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_BASE, stage_name="BASE")
     else:
         print("[HOTFIX] file not found -> skip BASE stage")
 
-    # ② NoBuildOverride を上書きマージ
+    # ④ NoBuildOverride を上書き
     nobuild_meta = read_datatable_json(NOBUILD_OVERRIDE_PATH)
     rep_nb, add_nb = merge_rows(rows, nobuild_meta["Rows"])
-    print(f"[MERGE] Base <- NoBuildOverride : replaced={rep_nb}, added={add_nb}")
+    print(f"[MERGE] (Base) <- NoBuildOverride : replaced={rep_nb}, added={add_nb}")
 
-    # ③ Hotfix: NoBuildOverride に対して
+    # ⑤ Hotfix: NoBuildOverride
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
         apply_hotfix_for_table(rows, text, HOTFIX_TARGET_NOBUILD, stage_name="NOBUILD")
     else:
         print("[HOTFIX] file not found -> skip NOBUILD stage")
 
-    # ④ DeluluOverride を上書きマージ
+    # ⑥ DeluluOverride を上書き
     delulu_meta = read_datatable_json(DELULU_OVERRIDE_PATH)
     rep_de, add_de = merge_rows(rows, delulu_meta["Rows"])
     print(f"[MERGE] (NoBuildOverride) <- DeluluOverride : replaced={rep_de}, added={add_de}")
 
-    # ⑤ Hotfix: DeluluOverride に対して
+    # ⑦ Hotfix: DeluluOverride
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
         apply_hotfix_for_table(rows, text, HOTFIX_TARGET_DELULU, stage_name="DELULU")
     else:
         print("[HOTFIX] file not found -> skip DELULU stage")
 
-    # 書き出し（Base のメタに最終Rowsが入っている）
-    write_datatable_json(base_meta, OUT_FINAL)
+    # 書き出し（Athena のメタを流用して最終Rowsを保存）
+    write_datatable_json(athena_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
 
 if __name__ == "__main__":

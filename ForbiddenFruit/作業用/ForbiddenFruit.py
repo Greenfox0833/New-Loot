@@ -1325,7 +1325,7 @@ def main():
             repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
             # BR関連ファイルをすべて add → commit → push
             subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
-            msg = f"BR update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            msg = f"ForbiddenFruit update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
             subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
             print("✓ GitHub Push 完了")

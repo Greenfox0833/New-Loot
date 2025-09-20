@@ -1245,8 +1245,8 @@ def main():
     br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
     loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/LootSummary.py")
     version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Delulu")  # まとめJSONの保存先
-    lt_json_path     = Path(r"Delulu/作業用/AthenaLootTierData_Client__final.json")
-    lp_json_path     = Path(r"Delulu/作業用/AthenaLootPackages_Client__final.json")
+    lt_json_path     = Path(r"Delulu/作業用/DeluluCompositeLTD_NoBuild__final.json")
+    lp_json_path     = Path(r"Delulu/作業用/DeluluCompositeLP_NoBuild__final.json")
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:

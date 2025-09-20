@@ -4,27 +4,34 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 # ==== 入出力（必要なら名前だけ変えてOK）====
-BASE_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")
-
-PARENT_PATHS = [
-    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json"),
-    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json"),
-    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Delulu/DeluluOverrideLootPackages_Client.json"),
-]
-
-HOTFIX_PATH  = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")
-
-OUT_FINAL    = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/AthenaLootPackages_Client__final.json")
-
-TARGET_TABLE_NAMES = (
-    "/Game/Items/Datatables/AthenaLootPackages_Client",
-    "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client",
-    "/LootCurrentSeason/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR",
-    "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootPackages_Client",
+# ① LootCurrentSeasonLootPackages_Client（ベース）
+BASE_PATH = Path(
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json"
 )
 
-_num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
+# ② OverrideLootPackagesData_NoBuildBR（ベースへ上書き）
+NOBUILD_OVERRIDE_PATH = Path(
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json"
+)
 
+# ④ DeluluOverrideLootPackages_Client（NoBuildOverrideへ上書き）
+DELULU_OVERRIDE_PATH = Path(
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Delulu/DeluluOverrideLootPackages_Client.json"
+)
+
+HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # 任意（無ければスキップ）
+
+# 出力先（名前はお好みで）
+OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/DeluluCompositeLP_NoBuild__final.json")
+
+
+# Hotfix の対象テーブル名（段階ごとに限定）
+HOTFIX_TARGET_BASE     = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
+HOTFIX_TARGET_NOBUILD  = "/LootCurrentSeason/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR"
+HOTFIX_TARGET_DELULU   = "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootPackages_Client"
+
+_num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
+_num_head = re.compile(r'^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?')  # ★先頭の数値だけ抜く用
 
 # ---------- 基本処理 ----------
 def read_datatable_json(path: Path) -> Dict[str, Any]:
@@ -138,10 +145,16 @@ def coerce_like(existing: Any, new_str: str) -> Any:
             pass
         return [coerce_scalar(x.strip()) for x in s.split(",") if x.strip()]
 
-    # 既存が None/数値/文字列など → 通常スカラー解釈
+    # ★ここがポイント：既存が数値型なら、行に余計な文字が付いていても
+    # 「先頭の数値だけ」を採用（例: "0.070000+DataTable=..." -> 0.07）
+    if isinstance(existing, (int, float)):
+        m = _num_head.match(s)
+        if m:
+            num = m.group(0)
+            return float(num) if ('.' in num or 'e' in num.lower()) else int(num)
+
+    # それ以外は通常スカラー解釈
     return coerce_scalar(s)
-
-
 
 def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[bool, str]:
     keys = field_path.split(".")
@@ -159,13 +172,81 @@ def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[b
     return True, ("OK" if existing is not None else "NEW")
 
 
+# ---------- Addrow 整形（TableUpdate用） ----------
+def _flatten_gameplay_tags(src: Any) -> List[str]:
+    # Hotfix 側は {"GameplayTags":[...], "ParentTags":[...]} のことが多い
+    if isinstance(src, dict):
+        tags = src.get("GameplayTags", [])
+        return tags if isinstance(tags, list) else []
+    if isinstance(src, list):
+        return src
+    return []
 
-# ---------- Hotfix ----------
+
+def _default_required_tag_query() -> Dict[str, Any]:
+    return {
+        "TokenStreamVersion": 0,
+        "TagDictionary": [],
+        "QueryTokenStream": [],
+        "UserDescription": "",
+        "AutoDescription": "",
+    }
+
+
+def _build_annotation(lp_id: str, item_def: str) -> str:
+    tail = ""
+    if isinstance(item_def, str) and item_def and item_def != "None":
+        tail = item_def.split("/")[-1].split(".")[-1]
+    return f";List:{lp_id}.C0;Item:{tail}" if lp_id else (f";Item:{tail}" if tail else "")
+
+
+def normalize_addrow_object(obj: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
+    """
+    Hotfix TableUpdate 1要素を DataTable Rows 1行に整形
+    戻り値: (row_key, row_dict)
+    """
+    row_key = obj.get("Name", "")
+    lp_id   = obj.get("LootPackageID", "")
+    itemdef = obj.get("ItemDefinition", "None")
+
+    row = {
+        "LootPackageID": lp_id,
+        "Weight": obj.get("Weight", 0.0),
+        "NamedWeightMult": obj.get("NamedWeightMult", "None"),
+        "PotentialNamedWeights": obj.get("PotentialNamedWeights", []),
+        "CountRange": obj.get("CountRange", {"X": 1, "Y": 1}),
+        "LootPackageCategory": obj.get("LootPackageCategory", 0),
+        "GameplayTags": _flatten_gameplay_tags(obj.get("GameplayTags", [])),
+        "RequiredLootGroupTag": obj.get("RequiredLootGroupTag", {"TagName": "None"}),
+        "RequiredTagQuery": obj.get("RequiredTagQuery", _default_required_tag_query()),
+        "LootPackageCall": obj.get("LootPackageCall", ""),
+        "ItemDefinition": {
+            "AssetPathName": itemdef if isinstance(itemdef, str) else "None",
+            "SubPathString": ""
+        },
+        "PersistentLevel": obj.get("PersistentLevel", ""),
+        "MinWorldLevel": obj.get("MinWorldLevel", -1),
+        "MaxWorldLevel": obj.get("MaxWorldLevel", -1),
+        "bAllowBonusDrops": obj.get("bAllowBonusDrops", True),
+        "Annotation": obj.get("Annotation") or _build_annotation(lp_id, itemdef),
+        "DurabilityPercentageOverride": obj.get("DurabilityPercentageOverride", 1.0),
+    }
+    return row_key, row
+
+
+# ---------- Hotfix パーサ ----------
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
-    # +DataTable=...;RowUpdate;RowKey;Field;Value
+    """
+    +DataTable=<path>;RowUpdate;RowKey;Field;Value
+    +DataTable=<path>;RowAdd;...
+    +DataTable=<path>;RowUpsert;...
+    +DataTable=<path>;RowDelete;RowKey
+    +DataTable=<path>;TableUpdate;"[{...},{...}]"
+    """
     line = line.strip()
     if not line or line.startswith("#"):
         return {"op": "COMMENT"}
+
     if not (line.startswith("+") or line.startswith("-")):
         return {"op": "UNKNOWN"}
 
@@ -174,18 +255,38 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
         first_seg, *rest = after.split(";")
         if "DataTable=" not in first_seg:
             return {"op": "UNKNOWN"}
+
         dt = first_seg.split("=", 1)[1].strip()
         if not rest:
             return {"op": "UNKNOWN"}
 
         op = rest[0].strip()
-        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete"):
-            return {"op": "SKIP", "datatable": dt}
 
+        # ---- TableUpdate ----
+        if op == "TableUpdate":
+            if len(rest) < 2:
+                return {"op": "SKIP", "datatable": dt}
+            raw = ";".join(rest[1:]).strip()
+            try:
+                # たいてい "..." で JSON 文字列がエスケープされているため二段階デコード
+                if raw.startswith('"') and raw.endswith('"'):
+                    raw = json.loads(raw)  # 外側の "" を unescape
+                rows_array = json.loads(raw)  # 実体の配列を読む
+                if not isinstance(rows_array, list):
+                    return {"op": "SKIP", "datatable": dt}
+                return {"op": "TableUpdate", "datatable": dt, "rows": rows_array}
+            except Exception:
+                return {"op": "SKIP", "datatable": dt}
+
+        # ---- RowDelete ----
         if op == "RowDelete":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
             return {"op": op, "datatable": dt, "row": rest[1].strip()}
+
+        # ---- Row* 系 ----
+        if op not in ("RowUpdate", "RowAdd", "RowUpsert"):
+            return {"op": "SKIP", "datatable": dt}
 
         if len(rest) < 4:
             return {"op": "SKIP", "datatable": dt}
@@ -197,21 +298,30 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
         return {"op": "UNKNOWN"}
 
 
-def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
-    print("[HOTFIX] start")
-    applied = skipped = deleted = 0
+def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: str, stage_name: str) -> None:
+    """
+    指定テーブルだけを対象に Hotfix を適用。
+    - TableUpdate（= Addrow まとめ投入）対応
+    - RowAdd/RowUpsert/RowUpdate/RowDelete 対応
+    """
+    print(f"[HOTFIX:{stage_name}] target={table_key}")
+    applied = deleted = skipped = 0
+    has_addrow = False
 
     for ln, line in enumerate(hotfix_text.splitlines(), 1):
         h = parse_hotfix_line(line)
-        if h.get("op") in ("COMMENT", "UNKNOWN", "SKIP"):
+        op = h.get("op")
+        if op in ("COMMENT", "UNKNOWN", "SKIP"):
             continue
 
         dt = h.get("datatable", "")
-        dt_lower = dt.lower()
-        if not any(name.lower() in dt_lower or dt_lower.endswith(name.lower()) for name in TARGET_TABLE_NAMES):
-            continue  # 別テーブルの行は無視
+        if not dt:
+            continue
 
-        op = h["op"]
+        # 完全一致 or 末尾一致で紐づけ
+        if (dt != table_key) and (dt.split("/")[-1] != table_key.split("/")[-1]):
+            continue
+
         if op == "RowDelete":
             rk = h["row"]
             if rk in rows:
@@ -222,7 +332,27 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
             continue
 
-        rk, field, val = h["row"], h["field"], h["value"]
+        if op == "TableUpdate":
+            arr = h.get("rows", [])
+            if not arr:
+                continue
+            has_addrow = True
+            for obj in arr:
+                rk, new_row = normalize_addrow_object(obj)
+                if not rk:
+                    skipped += 1
+                    print(f"[{ln}] TableUpdate (no Name) -> SKIP")
+                    continue
+                rows[rk] = new_row
+                applied += 1
+                print(f"[{ln}] TableUpdate -> ADD {rk}")
+            continue
+
+        # RowAdd / RowUpsert / RowUpdate
+        rk, field, val = h.get("row"), h.get("field"), h.get("value")
+        if rk is None or field is None:
+            skipped += 1
+            continue
 
         if rk not in rows:
             if op in ("RowAdd", "RowUpsert"):
@@ -234,10 +364,8 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
                 continue
 
         if not isinstance(rows[rk], dict):
-            # 過去実行の副作用などで行が文字列化していた場合の保険
             rows[rk] = {}
         ok, msg = set_by_path(rows[rk], field, val)
-
         if ok:
             applied += 1
             print(f"[{ln}] {op} {rk}.{field}={val} -> {msg}")
@@ -245,34 +373,52 @@ def apply_hotfix(rows: Dict[str, Any], hotfix_text: str) -> None:
             skipped += 1
             print(f"[{ln}] {op} {rk}.{field}={val} -> NG({msg})")
 
-    print(f"[HOTFIX] done: applied={applied}, deleted={deleted}, skipped={skipped}")
+    if not has_addrow:
+        print(f"[HOTFIX:{stage_name}] Addrow(TableUpdate) なし -> スキップ")
+    print(f"[HOTFIX:{stage_name}] done: applied={applied}, deleted={deleted}, skipped={skipped}")
 
 
 # ---------- メイン ----------
 def main():
-    # 1) ベース読み込み
+    # ① Base 読み込み（LootCurrentSeasonLootPackages_Client）
     base_meta = read_datatable_json(BASE_PATH)
-    base_rows = base_meta["Rows"]
+    rows = base_meta["Rows"]
+    print(f"[LOAD] Base(LootCurrentSeason) rows = {len(rows)}")
 
-    # 2) ParentTables 順次マージ
-    for p in PARENT_PATHS:
-        meta = read_datatable_json(p)
-        rows = meta["Rows"]
-        rep, add = merge_rows(base_rows, rows)
-        print(f"[MERGE] {p.name}: replaced={rep}, added={add}")
-
-    # 3) Hotfix（あれば適用）
+    # ① Hotfix: Base に対して（Addrowが無ければ自然にスキップ）
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix(base_rows, text)
+        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_BASE,   stage_name="BASE")
     else:
-        print("[HOTFIX] skipped (file not found)")
+        print("[HOTFIX] file not found -> skip BASE stage")
 
-    # 4) 保存
+    # ② NoBuildOverride を上書きマージ
+    nobuild_meta = read_datatable_json(NOBUILD_OVERRIDE_PATH)
+    rep_nb, add_nb = merge_rows(rows, nobuild_meta["Rows"])
+    print(f"[MERGE] Base <- NoBuildOverride : replaced={rep_nb}, added={add_nb}")
+
+    # ③ Hotfix: NoBuildOverride に対して
+    if HOTFIX_PATH.exists():
+        text = HOTFIX_PATH.read_text(encoding="utf-8")
+        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_NOBUILD, stage_name="NOBUILD")
+    else:
+        print("[HOTFIX] file not found -> skip NOBUILD stage")
+
+    # ④ DeluluOverride を上書きマージ
+    delulu_meta = read_datatable_json(DELULU_OVERRIDE_PATH)
+    rep_de, add_de = merge_rows(rows, delulu_meta["Rows"])
+    print(f"[MERGE] (NoBuildOverride) <- DeluluOverride : replaced={rep_de}, added={add_de}")
+
+    # ⑤ Hotfix: DeluluOverride に対して
+    if HOTFIX_PATH.exists():
+        text = HOTFIX_PATH.read_text(encoding="utf-8")
+        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_DELULU, stage_name="DELULU")
+    else:
+        print("[HOTFIX] file not found -> skip DELULU stage")
+
+    # 書き出し（Base のメタに最終Rowsが入っている）
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
-
-
 
 if __name__ == "__main__":
     main()

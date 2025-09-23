@@ -17,6 +17,47 @@ from PIL import Image, ImageDraw, ImageFont
 import subprocess, sys
 from pathlib import Path
 
+# ==== 必須ユーティリティ（追加） ====
+# 既に同名関数がある場合は上書きしない安全版
+if 'as_float' not in globals():
+    def as_float(x, default: float = 0.0) -> float:
+        try:
+            if x is None:
+                return default
+            # True/False を 1.0/0.0 に
+            if isinstance(x, bool):
+                return float(int(x))
+            return float(x)
+        except Exception:
+            return default
+
+if 'key_suffix_num' not in globals():
+    def key_suffix_num(s: str) -> int:
+        """
+        末尾の .NN（2桁番号）でソートするための数値キー。
+        例: 'WorldPKG.X.03' -> 3 / 'PKG_Chest_Special.11' -> 11
+        """
+        import re
+        m = re.search(r"\.(\d{2})$", str(s))
+        return int(m.group(1)) if m else 0
+
+if '_asset_path_from_row' not in globals():
+    def _asset_path_from_row(row: dict) -> str:
+        """
+        LootPackage の行から AssetPathName を取り出すフォールバック。
+        ItemDefinition.AssetPathName 優先、無ければ直下 AssetPathName。
+        """
+        try:
+            idef = row.get("ItemDefinition")
+            if isinstance(idef, dict):
+                ap = idef.get("AssetPathName", "")
+                if ap:
+                    return ap
+            return row.get("AssetPathName", "") or ""
+        except Exception:
+            return ""
+# ==== 必須ユーティリティここまで ====
+
 # ---------------- 設定（シンプル版） ----------------
 VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 
@@ -30,7 +71,7 @@ RUN_MODE = "pipeline"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
-    "draw_stats": False,
+    "draw_stats": True,
     "show_percent": False,
     "debug_localize": False,
 
@@ -72,56 +113,6 @@ DISABLE_RARITY_ICON        = RUN_OPTIONS["disable_rarity_icon"]
 # True = Percent×(Weight÷TotalListWeight)
 # False = (Weight÷TotalListWeight)×100
 SPECIAL_LIST_PERCENT_RULES = {
-    "Loot_AthenaFloorLoot": {
-        "WorldPKG.AthenaLoot.Weapon.Shotgun.01",
-        "WorldPKG.AthenaLoot.Weapon.Handgun.01",
-        "WorldPKG.AthenaLoot.Weapon.SMG",
-        "WorldPKG.AthenaLoot.Weapon.AssaultAuto.01",
-        "WorldPKG.AthenaLoot.Weapon.Sniper.01",
-        "WorldPKG.AthenaLoot.Weapon.Rocket.01",
-        "WorldPKG.AthenaLoot.Consumable.01",
-        "WorldPKG.AthenaLoot.Ammo",
-        "WorldPKG.AthenaLoot.Resources",
-        "WorldList.AthenaLoot.Empty",
-    },
-    "Loot_AthenaTreasure": {
-        "WorldPKG.AthenaLoot.Weapon.HighShotgun.01",
-        "WorldPKG.AthenaLoot.Weapon.HighSMG.01",
-        "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.01",
-        "WorldPKG.AthenaLoot.Weapon.HighSniper.01",
-        "WorldPKG.AthenaLoot.Weapon.HighRocket.01",
-        "WorldPKG.AthenaLoot.Weapon.HighHandgun.01",
-        "WorldPKG.AthenaLoot.Weapon.Exotic.01",
-        "WorldPKG.AthenaLoot.Weapon.Mythic.01",
-    },
-    "Loot_ApolloTreasure_Rare": {
-        "WorldPKG.ApolloLoot.Weapon.HighShotgun.01",
-        "WorldPKG.ApolloLoot.Weapon.SMG.01",
-        "WorldPKG.ApolloLoot.Weapon.AssaultAuto.01",
-        "WorldPKG.ApolloLoot.Weapon.Sniper.01",
-        "WorldPKG.ApolloLoot.Weapon.Rocket.01",
-        "WorldPKG.ApolloLoot.Weapon.HighHandgun.01",
-        "WorldPKG.ApolloLoot.Weapon.Sp.01",
-        "WorldPKG.ApolloLoot.Weapon.Ex.01",
-        "WorldPKG.ApolloLoot.Weapon.Mythic.01",
-        "WorldPKG.MythicRandom.01",
-        "WorldPKG.ExoticRandom.01",
-        "WorldPKG.MythicGFish.01",
-        "WorldPKG.ExoticBundle.01",
-        "WorldPKG.ExoticBundle.02",
-        "WorldPKG.ExoticBundle.03",
-        "WorldPKG.ExoticBundle.04",
-        "WorldPKG.ExoticBundle.05"
-    },
-    "Loot_AthenaSupplyDrop": {
-        "WorldPKG.AthenaSupplyDrop.Weapon.Assault.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.Handgun.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.SMG.01",
-        "WorldPKG.AthenaSupplyDrop.Sp.Weapon.01",
-        "WorldPKG.AthenaSupplyDrop.Ex.01",
-        "WorldPKG.AthenaSupplyDrop.Mythic.01",
-    },
     "Loot_BirthdayGiftBox": {
         "WorldPKG.BirthdayGiftBox.03",
         "WorldPKG.BirthdayGiftBox.04",
@@ -294,7 +285,6 @@ def fetch_export_image_as_pil(path_like: str):
     try:
         r = session.get(url, timeout=10)
         if not r.ok:
-            print(f"[HTTP×] {r.status_code} {url}")
             return None
         raw = r.content
         im = Image.open(BytesIO(raw)).convert("RGBA")
@@ -923,8 +913,7 @@ def _asset_path_from_row(row: dict) -> str:
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
 
-
-        # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
+    # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
     lp_by_idcat = defaultdict(list)
     for row_key, row in rows_lp.items():
         lp_id = row.get("LootPackageID", "")
@@ -934,34 +923,33 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         except Exception:
             lp_cat = 0
         lp_call   = row.get("LootPackageCall", "") or ""
-        lp_weight = row.get("Weight", 0.0)
+        lp_weight = as_float(row.get("Weight", 0.0))
 
-        lp_by_idcat[(lp_id, lp_cat)].append({
-            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
-            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
-            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
-        })
+        # (A) 0 重みの LootPackage は索引に入れない（根治）
+        if lp_weight > 0.0:
+            lp_by_idcat[(lp_id, lp_cat)].append({
+                "Key": row_key,
+                "Call": lp_call,
+                "Weight": lp_weight,
+            })
 
     # .NN の昇順で安定化
     for k in lp_by_idcat:
         lp_by_idcat[k].sort(key=lambda d: key_suffix_num(d["Key"]))
 
-
     # WorldList.* の中身（重み＆AssetPath）
     worldlist_map = defaultdict(list)
     for row_key, row in rows_lp.items():
         if not isinstance(row, dict):
-            continue  # 行そのものがdictじゃない場合はスキップ（任意）
+            continue
         wl_id = row.get("LootPackageID", "")
+        w = as_float(row.get("Weight", 0.0))
         worldlist_map[wl_id].append({
             "Key": row_key,
-            "Weight": row.get("Weight", 0.0),
+            "Weight": w,
             "AssetPathName": _asset_path_from_row(row),
-            # 追加: このリスト行の CountRange.X を保持（無ければ None）
-            "CountItem": (row.get("CountRange") or {}).get("X")
+            "CountItem": (row.get("CountRange") or {}).get("X"),
         })
-
-
 
     for wl_id in worldlist_map:
         worldlist_map[wl_id].sort(key=lambda x: key_suffix_num(x["Key"]))
@@ -976,9 +964,6 @@ def build_summary(rows_lt: dict, rows_lp: dict):
             continue
 
         loot_pkg = row.get("LootPackage", "")
-        weight_array = row.get("LootPackageCategoryMinArray", [])
-
-                # LootNumber 構造（Category の内容を導入）
         valid_groups = []
         min_array = row.get("LootPackageCategoryMinArray", [])
         for ln, val in enumerate(min_array):  # LootNumber = 0,1,2,...
@@ -986,31 +971,33 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                 matches = lp_by_idcat.get((loot_pkg, ln), [])
                 packages = []
                 for m in matches:
+                    # (B) マッチ後の安全弁：0以下は最終段で弾く
+                    if as_float(m.get("Weight", m.get("weight", 0.0))) <= 0.0:
+                        continue
+
                     call = m["Call"]
 
                     # ListItems（Weight>0 & AssetPathNameありのみ）
                     list_items = []
                     if call:
-                        # '.' / '_' ゆれは不要なら省略可（必要なら keys = (call, call.replace(".", "_"), call.replace("_", ".")) で回す）
                         for c in worldlist_map.get(call, []):
-                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                            if as_float(c.get("Weight", 0.0)) > 0.0 and c.get("AssetPathName"):
                                 list_items.append({
-                                    "WorldListID": c["Key"],           # ★ 追加：WorldList の行キー（例: WorldList.ApolloLoot... .01）
-                                    "Weight": c["Weight"],
+                                    "WorldListID": c["Key"],
+                                    "Weight": as_float(c["Weight"]),
                                     "AssetPathName": c["AssetPathName"],
-                                    "CountItem": c.get("CountItem")
+                                    "CountItem": c.get("CountItem"),
                                 })
-
 
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
                     packages.append({
-                        "ID": m["Key"],                 # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
+                        "ID": m["Key"],
                         "Call": call,
-                        "Count": int(val),              # MinArray の値
-                        "weight": round(m["Weight"], 6),# ← 各WorldPKG(.NN)のWeightを付与
+                        "Count": int(val),
+                        "weight": round(as_float(m["Weight"]), 6),
                         "TotalListWeight": round(total_list_weight, 6),
-                        "ListItems": list_items
+                        "ListItems": list_items,
                     })
 
                 if packages:
@@ -1037,7 +1024,7 @@ def build_summary(rows_lt: dict, rows_lp: dict):
             if "ValidLootPackages" in item:
                 for group in item["ValidLootPackages"]:
                     for v_pkg in group.get("Packages", []):
-                        tw = v_pkg.get("TotalListWeight", 0.0)
+                        tw = as_float(v_pkg.get("TotalListWeight", 0.0))
                         new_list_items = []
 
                         # SPECIAL 判定は v_pkg["ID"]（= 各 .NN のID）で行う
@@ -1049,35 +1036,36 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                         families = {t for t in targets if not re.search(r"\.\d{2}$", t)}
                         use_special = (full_id in exact) or any(family.startswith(t) for t in families)
 
-                        # 追加：パッケージの weight（小文字優先、無ければ大文字Weight）
-                        pkg_weight = v_pkg.get("weight", v_pkg.get("Weight", 0.0))
+                        # (C) 親パッケージの重みを数値化。0以下なら子は常に 0%
+                        pkg_weight = as_float(v_pkg.get("weight", v_pkg.get("Weight", 0.0)))
 
                         for li in v_pkg.get("ListItems", []):
-                            if tw > 0:
+                            w = as_float(li.get("Weight", 0.0))
+                            if pkg_weight <= 0.0 or tw <= 0.0 or w <= 0.0:
+                                list_percent = 0.0
+                            else:
                                 if use_special:
                                     if percent == 100:
-                                        list_percent = round(pkg_weight * (li["Weight"] / tw)*100, 4)
+                                        list_percent = round(pkg_weight * (w / tw) * 100, 4)
                                     else:
-                                        list_percent = round(percent * (li["Weight"] / tw), 4)
+                                        list_percent = round(percent * (w / tw), 4)
                                 else:
-                                    list_percent = round((li["Weight"] / tw) * 100, 4)
-                            else:
-                                list_percent = 0.0
+                                    list_percent = round((w / tw) * 100, 4)
 
                             asset_path = li.get("AssetPathName")
 
                             new_list_items.append({
-                                "WorldListID": li.get("WorldListID"),            # ★ 追加：①で入れたIDを引き継ぐ
-                                "Weight": li["Weight"],
+                                "WorldListID": li.get("WorldListID"),
+                                "Weight": w,
                                 "ListPercent": list_percent,
                                 "rarity": get_rarity_by_asset(asset_path),
                                 "AssetPathName": asset_path,
-                                "CountItem": li.get("CountItem")
+                                "CountItem": li.get("CountItem"),
                             })
 
                         v_pkg["ListItems"] = new_list_items
 
-
+            # 出力順序の整形
             ordered = {
                 "RowName": item["RowName"],
                 "Weight": item["Weight"],
@@ -1087,7 +1075,9 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                 if k not in ("RowName", "Weight"):
                     ordered[k] = v
             items[idx] = ordered
+
         result[tg] = {"TotalWeight": round(total_weight, 6), "Items": items}
+
     return result
 
 def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:

@@ -71,7 +71,7 @@ RUN_MODE = "pipeline"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
-    "draw_stats": True,
+    "draw_stats": False,
     "show_percent": False,
     "debug_localize": False,
 

@@ -172,6 +172,10 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG_Swarmer.01",
         "WorldPKG_Swarmer.02",
         "WorldPKG_Swarmer.03",
+    },
+    "Loot_BirthdayPresents": {
+        "WorldPKG.BirthdayPresent.Weps.09",
+        "WorldPKG.BirthdayPresent.Weps.10",
     }
 }
 

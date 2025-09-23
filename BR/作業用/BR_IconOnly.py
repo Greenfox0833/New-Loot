@@ -176,6 +176,7 @@ SPECIAL_LIST_PERCENT_RULES = {
     "Loot_BirthdayPresents": {
         "WorldPKG.BirthdayPresent.Weps.09",
         "WorldPKG.BirthdayPresent.Weps.10",
+        "WorldPKG.BirthdayPresent.Weps.11"
     }
 }
 

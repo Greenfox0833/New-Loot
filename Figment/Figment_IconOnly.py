@@ -1040,33 +1040,18 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                         tw = as_float(v_pkg.get("TotalListWeight", 0.0))
                         new_list_items = []
 
-                        # SPECIAL 判定は v_pkg["ID"]（= 各 .NN のID）で行う
-                        targets = SPECIAL_LIST_PERCENT_RULES.get(tg, set())
-                        full_id = v_pkg.get("ID", "")
-                        m = re.match(r"^(.*)\.(\d{2})$", full_id)
-                        family = m.group(1) if m else full_id
-                        exact = {t for t in targets if re.search(r"\.\d{2}$", t)}
-                        families = {t for t in targets if not re.search(r"\.\d{2}$", t)}
-                        use_special = (full_id in exact) or any(family.startswith(t) for t in families)
-
-                        # (C) 親パッケージの重みを数値化。0以下なら子は常に 0%
-                        pkg_weight = as_float(v_pkg.get("weight", v_pkg.get("Weight", 0.0)))
+                        # ★ 新式は SPECIAL を使わず、weightPercent を利用して一意に算出
+                        weight_percent = as_float(v_pkg.get("weightPercent", 0.0))  # 0〜1の値（例: 0.333333）
 
                         for li in v_pkg.get("ListItems", []):
                             w = as_float(li.get("Weight", 0.0))
-                            if pkg_weight <= 0.0 or tw <= 0.0 or w <= 0.0:
+                            if tw <= 0.0 or w <= 0.0 or weight_percent <= 0.0:
                                 list_percent = 0.0
                             else:
-                                if use_special:
-                                    if percent == 100:
-                                        list_percent = round(pkg_weight * (w / tw) * 100, 4)
-                                    else:
-                                        list_percent = round(percent * (w / tw), 4)
-                                else:
-                                    list_percent = round((w / tw) * 100, 4)
+                                # { (Weight ÷ TotalListWeight) × weightPercent } × 100
+                                list_percent = round((w / tw) * weight_percent * 100, 4)
 
                             asset_path = li.get("AssetPathName")
-
                             new_list_items.append({
                                 "WorldListID": li.get("WorldListID"),
                                 "Weight": w,

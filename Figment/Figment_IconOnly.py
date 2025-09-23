@@ -122,10 +122,10 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.AthenaSupplyDrop.Ex.01",
         "WorldPKG.AthenaSupplyDrop.Mythic.01",
     },
-    "LTG_Swarmer": {
-        "WorldPKG_Swarmer.01",
-        "WorldPKG_Swarmer.02",
-        "WorldPKG_Swarmer.03",
+    "Loot_BirthdayGiftBox": {
+        "WorldPKG.BirthdayGiftBox.03",
+        "WorldPKG.BirthdayGiftBox.04",
+        "WorldPKG.BirthdayGiftBox.05",
     }
 }
 

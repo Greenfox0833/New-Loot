@@ -1041,16 +1041,14 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                         new_list_items = []
 
                         # ★ 新式は SPECIAL を使わず、weightPercent を利用して一意に算出
-                        weight_percent = as_float(v_pkg.get("weightPercent", 0.0))  # 0〜1の値（例: 0.333333）
+                        weight_percent = as_float(v_pkg.get("weightPercent", 0.0))
 
                         for li in v_pkg.get("ListItems", []):
                             w = as_float(li.get("Weight", 0.0))
                             if tw <= 0.0 or w <= 0.0 or weight_percent <= 0.0:
                                 list_percent = 0.0
                             else:
-                                # { (Weight ÷ TotalListWeight) × weightPercent } × 100
                                 list_percent = round((w / tw) * weight_percent * 100, 4)
-
                             asset_path = li.get("AssetPathName")
                             new_list_items.append({
                                 "WorldListID": li.get("WorldListID"),

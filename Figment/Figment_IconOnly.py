@@ -991,18 +991,31 @@ def build_summary(rows_lt: dict, rows_lp: dict):
 
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
+                    # 先にweightを計算して変数に保持
+                    pkg_weight_val = round(as_float(m["Weight"]), 6)
+
                     packages.append({
                         "ID": m["Key"],
                         "Call": call,
                         "Count": int(val),
-                        "weight": round(as_float(m["Weight"]), 6),
+                        "weight": pkg_weight_val,
+                        # ★ LootWeight計算後に差し込む（仮でNone入れておく）
+                        "weightPercent": None,
                         "TotalListWeight": round(total_list_weight, 6),
                         "ListItems": list_items,
                     })
 
                 if packages:
+                    # LootWeight合計
+                    loot_weight_sum = sum(p.get("weight", 0.0) for p in packages)
+                    for p in packages:
+                        if loot_weight_sum > 0:
+                            p["weightPercent"] = round(p["weight"] / loot_weight_sum, 6)
+                        else:
+                            p["weightPercent"] = 0.0
                     valid_groups.append({
                         "LootNumber": ln,
+                        "LootWeight": round(loot_weight_sum, 6),
                         "Packages": packages
                     })
 
@@ -1225,9 +1238,7 @@ def prewarm_icon_cache(summary: dict):
             if not icon_path:
                 continue
 
-            icon_norm = normalize_asset_path(icon_path)
-            _ = fetch_export_image_as_pil(icon_norm)  # ★正規化済みでプリウォーム
-
+            _ = fetch_export_image_as_pil(icon_path)  # ★キャッシュ保存（生成はしない）
         except Exception:
             pass
 

@@ -181,22 +181,7 @@ SPECIAL_LIST_PERCENT_RULES = {
 
 # --- 生成対象フィルタ（任意） ---
 # いずれも None なら無効、セット/リストなら一致したものだけ画像を作る
-ONLY_TIERGROUPS = {
-    "Loot_AthenaTreasure",
-    "Loot_AthenaFloorLoot",
-    "Loot_ApolloTreasure_Rare",
-    "LTG_MilitaryRank_A",
-    "LTG_MilitaryRank_B",
-    "LTG_MilitaryRank_S",
-    "LTG_MilitaryRank_SPlus",
-    "LTG_Drop_Premium_Squad",
-    "LTG_Drop_Premium_Solo",
-    "LTG_Drop_Premium_Duo",
-    "LTG_Drop_Premium_Trio",
-    "LTG_Chest_Special",
-    "LTG_Bomber",
-    "LTG_Swarmer",
-}
+ONLY_TIERGROUPS = None
 ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 

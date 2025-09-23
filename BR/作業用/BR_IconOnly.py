@@ -67,7 +67,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "icons_only"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -87,11 +87,12 @@ RUN_OPTIONS = {
 
 # ---- プロファイル定義（内部フラグに展開） ----
 PROFILE_PRESETS = {
-    "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
-    "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
-    "prewarm":  dict(do_hotfix=True, enable_icon_cache_prewarm=True,  enable_image_creation=False),
-    "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
-    "dryrun":   dict(do_hotfix=True, enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "pipeline":   dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True,  do_json=True,  only_minlist=False),
+    "images":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True,  do_json=True,  only_minlist=False),
+    "prewarm":    dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=False, do_json=True,  only_minlist=False),
+    "json":       dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False, do_json=True,  only_minlist=False),
+    "icons_only": dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=True,  do_json=False, only_minlist=True),
+    "dryrun":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False, do_json=False, only_minlist=False),
 }
 _p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
 
@@ -105,8 +106,10 @@ ENABLE_IMAGE_CREATION      = _p["enable_image_creation"]
 ENABLE_IMAGE_CACHE         = RUN_OPTIONS["enable_image_cache"]
 SKIP_IF_FINAL_EXISTS       = RUN_OPTIONS["skip_if_final_exists"]
 SKIP_IF_ICON_ALREADY_CACHED= RUN_OPTIONS["skip_if_icon_cached"]
-DISABLE_TEXT_AND_BAR       = RUN_OPTIONS["disable_text_and_bar"]
-DISABLE_RARITY_ICON        = RUN_OPTIONS["disable_rarity_icon"]
+
+# ★追加
+DO_JSON_BUILD              = _p.get("do_json", True)
+ONLY_MINLIST               = _p.get("only_minlist", False)
 
 # ---------------- 設定に追加 ----------------
 # 特別計算ルール: (RowName, ValidLootPackages.ID) のタプルで指定
@@ -186,13 +189,19 @@ ONLY_TIERGROUPS = None
 ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
+# 出力画像のサイズ（縦横ピクセル）
+ICON_SIZE = 150   # ここを 150, 600 などに変えるだけでOK
+ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
+
+DISABLE_TEXT_AND_BAR = False
+DISABLE_RARITY_ICON  = False
 
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR_IconOnly"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR_IconOnly/150"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -673,14 +682,16 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         if not icon_path:
             return
 
+
         # 背景
-        canvas_size = 600
+        canvas_size = ICON_SIZE
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
             bg_image = Image.open(bg_path).convert("RGBA").resize((canvas_size, canvas_size))
         except Exception:
             return
         canvas = bg_image.copy()
+
 
         # 弾薬アイコン（任意）
         ammo_data = props.get("AmmoData")
@@ -709,10 +720,12 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
                 save_icon_cache()
         except Exception:
             return
-        icon_resized = icon_image.resize((400, 400), resample=Image.LANCZOS)
+        icon_size = int(canvas_size * ITEM_ICON_SCALE)
+        icon_resized = icon_image.resize((icon_size, icon_size), resample=Image.LANCZOS)
         pos_x = (canvas.width - icon_resized.width) // 2
         pos_y = (canvas.height - icon_resized.height) // 2
         canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
+
 
         # ステータス（フラグで制御）
         if DRAW_STATS:
@@ -1262,34 +1275,35 @@ def main():
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True) #
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True) #
+            subprocess.run([...])  # 省略
             print("✓ Hotfix 適用完了")
 
-        # 1) まとめJSONの作成（LT/LP → summary）と保存
-        rows_lt = load_rows(str(lt_json_path))
-        rows_lp = load_rows(str(lp_json_path))
-        summary = build_summary(rows_lt, rows_lp)
-        try:
-            enrich_summary_with_names(summary)  # あれば実行（失敗しても続行）
-        except Exception:
-            pass
+        summary = None
+        if DO_JSON_BUILD and not ONLY_MINLIST:
+            # 1) まとめJSONの作成（LT/LP → summary）と保存
+            rows_lt = load_rows(str(lt_json_path))
+            rows_lp = load_rows(str(lp_json_path))
+            summary = build_summary(rows_lt, rows_lp)
+            try:
+                enrich_summary_with_names(summary)
+            except Exception:
+                pass
 
-        version_save_dir.mkdir(parents=True, exist_ok=True)
-        versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
-        Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✅ まとめJSONを作成: {versioned_filename}")
+            version_save_dir.mkdir(parents=True, exist_ok=True)
+            versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
+            Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"✅ まとめJSONを作成: {versioned_filename}")
 
-        # 2) LootSummary を実行（抽出 → 比較）
-        subprocess.run(
-            [sys.executable, str(loot_summary_py),
-             "--scan", str(version_save_dir),
-             "--diff-scan", str(version_save_dir)],
-            check=True
-        )
-        print("✅ LootSummary 実行完了（抽出→比較）")
+            # 2) LootSummary を実行（抽出 → 比較）
+            subprocess.run(
+                [sys.executable, str(loot_summary_py),
+                "--scan", str(version_save_dir),
+                "--diff-scan", str(version_save_dir)],
+                check=True
+            )
+            print("✅ LootSummary 実行完了（抽出→比較）")
 
-        # 3) MinList を読み込み（items_unique_min.json）
+        # 3) MinList を読み込み（icons_only ではここだけ実行）
         try:
             with open(minlist_path, "r", encoding="utf-8") as f:
                 min_items = json.load(f)
@@ -1300,7 +1314,7 @@ def main():
             print(f"[!] 見つかりません: {minlist_path}")
             return
 
-        # 4) タスク化（MinListベースで画像生成）
+        # 4) タスク化（MinListベース）
         DEFAULT_TG = "MinList"
         DEFAULT_WL = "_FromMinList"
         tasks = []
@@ -1310,10 +1324,9 @@ def main():
                 continue
             out_dir = resolve_out_dir(DEFAULT_TG, DEFAULT_WL)
             preferred = rec.get("LocalizedName")
-            # list_percent_text=None / preferred_name=preferred で worker に渡す
             tasks.append((ap, out_dir, None, DEFAULT_TG, DEFAULT_WL, preferred))
 
-        # 5) 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
+        # 5) 重複除去
         uniq, seen = [], set()
         for ap, od, _txt, tg, wl, preferred in tasks:
             key = (normalize_asset_path(ap), od, tg, wl)
@@ -1323,7 +1336,7 @@ def main():
 
         print(f"[i] 画像化タスク数: {len(uniq)}")
 
-        # 6) 画像生成（並列）
+        # 6) 画像生成
         if ENABLE_IMAGE_CREATION:
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
                 futs = [ex.submit(worker_task, ap, od, None, tg, wl, preferred)
@@ -1333,6 +1346,7 @@ def main():
             print("✅ 画像生成 完了（MinListベース）")
         else:
             print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
+
 
     except Exception as e:
         print("[!] main 内でエラー:", e)

@@ -128,11 +128,6 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.AthenaLoot.Resources",
         "WorldList.AthenaLoot.Empty",
     },
-    "LTG_Chest_Special": {
-        "PKG_Chest_Special.05",
-        "PKG_Chest_Special.11"
-
-    },
     "Loot_AthenaTreasure": {
         "WorldPKG.AthenaLoot.Weapon.HighShotgun.01",
         "WorldPKG.AthenaLoot.Weapon.HighSMG.01",
@@ -140,8 +135,14 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.AthenaLoot.Weapon.HighSniper.01",
         "WorldPKG.AthenaLoot.Weapon.HighRocket.01",
         "WorldPKG.AthenaLoot.Weapon.HighHandgun.01",
-        "WorldPKG.AthenaLoot.Weapon.Exotic.01",
-        "WorldPKG.AthenaLoot.Weapon.Mythic.01",
+        "WorldPKG.MythicRandom.01",
+        "WorldPKG.ExoticRandom.01",
+        "WorldPKG.MythicGFish.01",
+        "WorldPKG.ExoticBundle.01",
+        "WorldPKG.ExoticBundle.02",
+        "WorldPKG.ExoticBundle.03",
+        "WorldPKG.ExoticBundle.04",
+        "WorldPKG.ExoticBundle.05"
     },
     "Loot_ApolloTreasure_Rare": {
         "WorldPKG.ApolloLoot.Weapon.HighShotgun.01",
@@ -150,9 +151,6 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.ApolloLoot.Weapon.Sniper.01",
         "WorldPKG.ApolloLoot.Weapon.Rocket.01",
         "WorldPKG.ApolloLoot.Weapon.HighHandgun.01",
-        "WorldPKG.ApolloLoot.Weapon.Sp.01",
-        "WorldPKG.ApolloLoot.Weapon.Ex.01",
-        "WorldPKG.ApolloLoot.Weapon.Mythic.01",
         "WorldPKG.MythicRandom.01",
         "WorldPKG.ExoticRandom.01",
         "WorldPKG.MythicGFish.01",
@@ -163,45 +161,76 @@ SPECIAL_LIST_PERCENT_RULES = {
         "WorldPKG.ExoticBundle.05"
     },
     "Loot_AthenaSupplyDrop": {
-        "WorldPKG.AthenaSupplyDrop.Weapon.Assault.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.Handgun.01",
-        "WorldPKG.AthenaSupplyDrop.Weapon.SMG.01",
-        "WorldPKG.AthenaSupplyDrop.Sp.Weapon.01",
-        "WorldPKG.AthenaSupplyDrop.Ex.01",
-        "WorldPKG.AthenaSupplyDrop.Mythic.01",
-    },
-    "LTG_Swarmer": {
-        "WorldPKG_Swarmer.01",
-        "WorldPKG_Swarmer.02",
-        "WorldPKG_Swarmer.03",
-    },
-    "Loot_BirthdayPresents": {
-        "WorldPKG.BirthdayPresent.Weps.09",
-        "WorldPKG.BirthdayPresent.Weps.10",
-        "WorldPKG.BirthdayPresent.Weps.11"
+        "WorldPKG.BlastBerrySupply.01",
+        "WorldPKG.BlastBerrySupply.02",
+        "WorldPKG.BlastBerrySupply.03",
+        "WorldPKG.BlastBerrySupply.04",
+        "WorldPKG.BlastBerrySupply.05",
+        "WorldPKG.BlastBerrySupply.06",
+        "WorldPKG.BlastBerrySupply.07",
+        "WorldPKG.MythicRandomSupply.01",
+        "WorldPKG.MythicRandomSupply.02",
+        "WorldPKG.MythicRandomSupply.03",
+        "WorldPKG.MythicRandomSupply.04",
+        "WorldPKG.MythicRandomSupply.05",
+        "WorldPKG.MythicRandomSupply.06",
+        "WorldPKG.MythicRandomSupply.07",
+        "WorldPKG.ExoticRandomSupply.01",
+        "WorldPKG.ExoticRandomSupply.02",
+        "WorldPKG.ExoticRandomSupply.03",
+        "WorldPKG.ExoticRandomSupply.04",
+        "WorldPKG.ExoticRandomSupply.05",
+        "WorldPKG.ExoticRandomSupply.06",
+        "WorldPKG.ExoticRandomSupply.07",
+        "WorldPKG.MythicGFishSupply.01",
+        "WorldPKG.MythicGFishSupply.02",
+        "WorldPKG.MythicGFishSupply.03",
+        "WorldPKG.MythicGFishSupply.04",
+        "WorldPKG.MythicGFishSupply.05",
+        "WorldPKG.MythicGFishSupply.06",
+        "WorldPKG.MythicGFishSupply.07",
+        "WorldPKG.ExoticBundleSupply.01",
+        "WorldPKG.ExoticBundleSupply.02",
+        "WorldPKG.ExoticBundleSupply.03",
+        "WorldPKG.ExoticBundleSupply.04",
+        "WorldPKG.ExoticBundleSupply.05",
     }
 }
 
 # --- 生成対象フィルタ（任意） ---
 # いずれも None なら無効、セット/リストなら一致したものだけ画像を作る
-ONLY_TIERGROUPS = None
+ONLY_TIERGROUPS = {
+    "Loot_AthenaTreasure",
+    "Loot_AthenaFloorLoot",
+    "Loot_ApolloTreasure_Rare",
+    "LTG_MilitaryRank_A",
+    "LTG_MilitaryRank_B",
+    "LTG_MilitaryRank_S",
+    "LTG_MilitaryRank_SPlus",
+    "LTG_Drop_Premium_Squad",
+    "LTG_Drop_Premium_Solo",
+    "LTG_Drop_Premium_Duo",
+    "LTG_Drop_Premium_Trio",
+    "LTG_Chest_Special",
+    "LTG_Bomber",
+    "LTG_Swarmer",
+}
 ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
 # 出力画像のサイズ（縦横ピクセル）
-ICON_SIZE = 150   # ここを 150, 600 などに変えるだけでOK
+ICON_SIZE = 600   # ここを 150, 600 などに変えるだけでOK
 ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
 
 DISABLE_TEXT_AND_BAR = False
 DISABLE_RARITY_ICON  = False
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/items_unique_min.json"
+INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR_IconOnly/150"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Reload_IconOnly"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -1263,11 +1292,11 @@ def get_versioned_filename(prefix, save_dir):
 
 def main():
     # ===== パス設定 =====
-    br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
-    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootSummary.py")
-    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR")  # まとめJSONの保存先
-    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
-    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")
+    br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/Reload_Discor.py")
+    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/LootSummary.py")
+    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Reload")  # まとめJSONの保存先
+    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/AthenaLootTierData_Client__final_LT.json")
+    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/AthenaLootPackages_Client__final_LP.json")
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
@@ -1275,8 +1304,8 @@ def main():
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True) #
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True) #
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/LootPackage更新.py"], check=True)
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Reload/作業用/LootTier更新.py"], check=True)
             print("✓ Hotfix 適用完了")
 
         summary = None
@@ -1327,7 +1356,7 @@ def main():
             preferred = rec.get("LocalizedName")
             tasks.append((ap, out_dir, None, DEFAULT_TG, DEFAULT_WL, preferred))
 
-        # 5) 重複除去
+        # 5) 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
         uniq, seen = [], set()
         for ap, od, _txt, tg, wl, preferred in tasks:
             key = (normalize_asset_path(ap), od, tg, wl)
@@ -1337,7 +1366,7 @@ def main():
 
         print(f"[i] 画像化タスク数: {len(uniq)}")
 
-        # 6) 画像生成
+        # 6) 画像生成（並列）
         if ENABLE_IMAGE_CREATION:
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
                 futs = [ex.submit(worker_task, ap, od, None, tg, wl, preferred)
@@ -1347,7 +1376,6 @@ def main():
             print("✅ 画像生成 完了（MinListベース）")
         else:
             print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
-
 
     except Exception as e:
         print("[!] main 内でエラー:", e)

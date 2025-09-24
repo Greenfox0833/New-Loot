@@ -10,7 +10,7 @@ COMP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Sh
 COMP_BK_PATH  = None  # 追加のbackup層は無し
 HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")   # 任意
 
-OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/AthenaLootPackages_Client__final.json")
+OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/AthenaCompositeLP_Showdown__final.json")
 
 # Hotfix の対象テーブル名（Showdown用）
 HOTFIX_TARGET_SEASON = "/BRPlaylists/Athena/Playlists/Showdown/OverrideLootPackagesData"

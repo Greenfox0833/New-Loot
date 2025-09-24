@@ -8789,6 +8789,171 @@
         "Annotation": ";Def:WorldPKG.ApolloAmmoBox.Consumables.C6;Call:WorldList.ApolloAmmoBox.Consumables.2",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldPKG.BirthdayGiftBox.01": {
+        "LootPackageID": "WorldPKG.BirthdayGiftBox",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ForagedItem.BirthdayCake",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayGiftBox.C0;Call:WorldList.ForagedItem.BirthdayCake",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayGiftBox.02": {
+        "LootPackageID": "WorldPKG.BirthdayGiftBox",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaSupplyDropConsumables",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayGiftBox.C1;Call:WorldList.AthenaSupplyDropConsumables",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayGiftBox.03": {
+        "LootPackageID": "WorldPKG.BirthdayGiftBox",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Assault",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayGiftBox.C2;Call:WorldList.AthenaSupplyDrop.Weapon.Assault",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayGiftBox.04": {
+        "LootPackageID": "WorldPKG.BirthdayGiftBox",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayGiftBox.C2;Call:WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayGiftBox.05": {
+        "LootPackageID": "WorldPKG.BirthdayGiftBox",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Rocket",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayGiftBox.C2;Call:WorldList.AthenaSupplyDrop.Weapon.Rocket",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldPKG.AthenaIceBox.01": {
         "LootPackageID": "WorldPKG.AthenaIceBox",
         "Weight": 1.0,
@@ -12887,8 +13052,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -12904,14 +13069,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item.Figment_Athena_Rift_Item",
+          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Consumable.AthenaRiftShard",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Legendary.01": {
@@ -13312,7 +13477,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Medium.02": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15445,14 +15610,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_ExplosiveBow_Athena_SR.WID_ExplosiveBow_Athena_SR",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Dub.WID_Figment_Dub",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Explosive.Crossbow.Athena.SR",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.BreakBarrel.Athena.X.Ore.T04",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.25": {
@@ -16600,14 +16765,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_UC_Ore_T03.WID_Shotgun_Charge_Athena_UC_Ore_T03",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Dub.WID_Figment_Dub",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Charge.Athena.UC.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.BreakBarrel.Athena.X.Ore.T04",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.24": {
@@ -17260,6 +17425,39 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
+          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_HopRockDualies.WID_Figment_HopRockDualies",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.X.Ore.T04",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Handgun.07": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
           "AssetPathName": "/Figment_Pistol_SixShooter_Athena/Gameplay/WID_Figment_Pistol_SixShooter_Athena_C.WID_Figment_Pistol_SixShooter_Athena_C",
           "SubPathString": ""
         },
@@ -17270,7 +17468,7 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.SixShooter.Athena.C",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.07": {
+      "WorldList.AthenaLoot.Weapon.Handgun.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -17303,7 +17501,7 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.SixShooter.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.08": {
+      "WorldList.AthenaLoot.Weapon.Handgun.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -17336,7 +17534,7 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.SixShooter.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.09": {
+      "WorldList.AthenaLoot.Weapon.Handgun.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
         "Weight": 0.016,
         "NamedWeightMult": "None",
@@ -17369,7 +17567,7 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.10": {
+      "WorldList.AthenaLoot.Weapon.Handgun.11": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
         "Weight": 0.004,
         "NamedWeightMult": "None",
@@ -17402,7 +17600,7 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.Handgun.11": {
+      "WorldList.AthenaLoot.Weapon.Handgun.12": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
         "Weight": 0.07,
         "NamedWeightMult": "None",
@@ -17994,6 +18192,39 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.DualPistol.SemiAuto.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.18": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_HopRockDualies.WID_Figment_HopRockDualies",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.DualPistol.SemiAuto.Athena.X.Ore.T04",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HandCannon.01": {
@@ -21793,7 +22024,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.20": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21826,7 +22057,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23608,7 +23839,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29965,7 +30196,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -32833,14 +33064,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR.WID_Figment_Shotgun_Standard_Athena_VR",
+          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Dub.WID_Figment_Dub",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Standard.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.BreakBarrel.Athena.X.Ore.T04",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.04": {
@@ -34021,14 +34252,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_VR_Ore_T03.WID_Figment_DualPistol_SemiAuto_Athena_VR_Ore_T03",
+          "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_HopRockDualies.WID_Figment_HopRockDualies",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.VR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.DualPistol.SemiAuto.Athena.X.Ore.T04",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.02": {
@@ -35417,6 +35648,39 @@
         "Annotation": ";List:WorldList.RiftEncounterChest.key.C0;Item:Consumable.AthenaBandage",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.ForagedItem.BirthdayCake.01": {
+        "LootPackageID": "WorldList.ForagedItem.BirthdayCake",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Forage_Cake/Gameplay/FID_Figment_Foraged_HealthShieldRegen.FID_Figment_Foraged_HealthShieldRegen",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ForagedItem.BirthdayCake.C0;Item:Consumable.GatheredItem.BirthdayCake",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.ForagedItem.GravityRock.01": {
         "LootPackageID": "WorldList.ForagedItem.GravityRock",
         "Weight": 1.0,
@@ -36376,7 +36640,7 @@
       },
       "WorldList.AthenaHighConsumables.27": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.7,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36397,7 +36661,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -36904,7 +37168,7 @@
       },
       "WorldList.AthenaHighConsumables.43": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36925,7 +37189,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
+          "AssetPathName": "/Figment_BirthdayGiftBox/Gameplay/SuperTowerGrenade/Figment_BirthdayGiftBox.Figment_BirthdayGiftBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -38092,7 +38356,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.25": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38113,7 +38377,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -38620,7 +38884,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.41": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38641,7 +38905,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
+          "AssetPathName": "/Figment_BirthdayGiftBox/Gameplay/SuperTowerGrenade/Figment_BirthdayGiftBox.Figment_BirthdayGiftBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40006,7 +40270,7 @@
       },
       "WorldList.AthenaConsumables.37": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -40027,7 +40291,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
+          "AssetPathName": "/Figment_BirthdayGiftBox/Gameplay/SuperTowerGrenade/Figment_BirthdayGiftBox.Figment_BirthdayGiftBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40237,7 +40501,7 @@
       },
       "WorldList.AthenaConsumables.44": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -40258,7 +40522,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",

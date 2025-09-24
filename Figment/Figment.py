@@ -1374,10 +1374,10 @@ def main():
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
         br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Figment/LootPercent")
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
-        br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
+        br_out = br_lootdata_dir / f"Figment_LootData_{br_now}.json"
         br_view = build_br_lootdata_all_tgs(summary)  # ← 全TG対応の新関数を使う
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✅ BR_LootData を作成: {br_out}")
+        print(f"✅ Figment_LootData を作成: {br_out}")
 
         # 2) LootSummary を実行（抽出 → 比較）
         subprocess.run(

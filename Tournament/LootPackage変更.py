@@ -13,7 +13,7 @@ HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Ho
 OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/AthenaLootPackages_Client__final.json")
 
 # Hotfix の対象テーブル名（Showdown用）
-HOTFIX_TARGET_SEASON = "/BRPlaylists/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData"
+HOTFIX_TARGET_SEASON = "/BRPlaylists/Athena/Playlists/Showdown/OverrideLootPackagesData"
 HOTFIX_TARGET_COMP   = "/Game/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup"
 
 

@@ -1,0 +1,5090 @@
+{
+  "Loot_AI_Llama_Eliminated": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AI_Llama_Eliminated_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AI.Llama.Eliminated",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.01",
+                "Call": "WorldList.AI.Llama.Eliminated.Ammo.Shells",
+                "Count": 6,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Ammo.Shells.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 8,
+                    "LocalizedName": "弾薬: 散弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.02",
+                "Call": "WorldList.AI.Llama.Eliminated.Ammo.Light",
+                "Count": 6,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Ammo.Light.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 40,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.03",
+                "Call": "WorldList.AI.Llama.Eliminated.Ammo.Medium",
+                "Count": 6,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Ammo.Medium.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 20,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.04",
+                "Call": "WorldList.AI.Llama.Eliminated.Ammo.Heavy",
+                "Count": 6,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.05",
+                "Call": "WorldList.AI.Llama.Eliminated.Ammo.Rocket",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.06",
+                "Call": "WorldList.AI.Llama.Eliminated.Resources.Wood",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Resources.Wood.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 500,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 6,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.07",
+                "Call": "WorldList.AI.Llama.Eliminated.Resources.Stone",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Resources.Stone.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 500,
+                    "LocalizedName": "石材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 7,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.08",
+                "Call": "WorldList.AI.Llama.Eliminated.Resources.Metal",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Resources.Metal.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 500,
+                    "LocalizedName": "金属"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 8,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.09",
+                "Call": "WorldList.AI.Llama.Eliminated.Consumables",
+                "Count": 4,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 9,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Eliminated.10",
+                "Call": "WorldList.AI.Llama.Eliminated.Traps",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Eliminated.Traps.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/Game/Athena/Items/Gameplay/WaffleTruck/AGID_WaffleTruck_Rocket_Slurp.AGID_WaffleTruck_Rocket_Slurp",
+                    "CountItem": 0,
+                    "LocalizedName": "チャグキャノン"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AI_Llama_Flee": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AI_Llama_Flee_01",
+        "Weight": 0.6,
+        "Percent": 60.0,
+        "LootPackage": "WorldPKG.AI.Llama.Flee.Ammo",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Flee.Ammo.01",
+                "Call": "WorldList.AI.Llama.Flee.Ammo",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Ammo.01",
+                    "Weight": 0.15,
+                    "ListPercentLocal": 15.0,
+                    "EffectivePercentPerRoll": 9.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 16,
+                    "LocalizedName": "弾薬: 散弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Ammo.02",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 35.0,
+                    "EffectivePercentPerRoll": 21.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 80,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Ammo.03",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 30.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 40,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AI_Llama_Flee_02",
+        "Weight": 0.2,
+        "Percent": 20.0,
+        "LootPackage": "WorldPKG.AI.Llama.Flee.Consumable",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Flee.Consumable.01",
+                "Call": "WorldList.AI.Llama.Flee.Consumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AI_Llama_Flee_04",
+        "Weight": 0.2,
+        "Percent": 20.0,
+        "LootPackage": "WorldPKG.AI.Llama.Flee.Resources",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AI.Llama.Flee.Resources.01",
+                "Call": "WorldList.AI.Llama.Flee.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Resources.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 9.52381,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 7.142857,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AI.Llama.Flee.Resources.03",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 3.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ApolloAmmoBox_Rare": {
+    "TotalWeight": 0.5,
+    "Items": [
+      {
+        "RowName": "Loot_ApolloAmmoBox_Rare_04",
+        "Weight": 0.5,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.ApolloAmmoBox.Consumables",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.01",
+                "Call": "WorldList.AthenaLoot.Ammo.Shells",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Shells.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 4,
+                    "LocalizedName": "弾薬: 散弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.02",
+                "Call": "WorldList.AthenaLoot.Ammo.Light",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Light.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 20,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.03",
+                "Call": "WorldList.AthenaLoot.Ammo.Medium",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 3.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 10,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 14,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 18,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.04",
+                "Call": "WorldList.AthenaLoot.Ammo.Heavy",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.05",
+                "Call": "WorldList.AthenaLoot.Ammo.Rockets",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.06",
+                "Call": "WorldList.ApolloAmmoBox.Consumables.1",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 6,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloAmmoBox.Consumables.07",
+                "Call": "WorldList.ApolloAmmoBox.Consumables.2",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ApolloRodBox": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ApolloRodBox_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.ApolloRodBox",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloRodBox.01",
+                "Call": "WorldList.ApolloRodBox",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 3.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloRodBox.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
+                    "CountItem": 1,
+                    "LocalizedName": "フィッシングフック"
+                  },
+                  {
+                    "WorldListID": "WorldList.ApolloRodBox.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
+                    "CountItem": 2,
+                    "LocalizedName": "フィッシングフック"
+                  },
+                  {
+                    "WorldListID": "WorldList.ApolloRodBox.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
+                    "CountItem": 3,
+                    "LocalizedName": "フィッシングフック"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ApolloTreasure_Rare": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_01",
+        "Weight": 0.25,
+        "Percent": 25.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.HighShotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighShotgun.01",
+                "Call": "WorldList.ApolloLoot.Weapon.HighShotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighShotgun.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighShotgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 4.166667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 8.928572,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 11.904762,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighShotgun.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 25.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_02",
+        "Weight": 0.25,
+        "Percent": 25.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.SMG",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.SMG.01",
+                "Call": "WorldList.ApolloLoot.Weapon.SMG",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.SMG.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.SMG.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 4.166667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 8.928572,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 11.904762,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.SMG.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 25.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_03",
+        "Weight": 0.25,
+        "Percent": 25.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.AssaultAuto",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.AssaultAuto.01",
+                "Call": "WorldList.ApolloLoot.Weapon.AssaultAuto",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.AssaultAuto.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.AssaultAuto.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 4.166667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 8.928572,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 11.904762,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.AssaultAuto.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 25.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_04",
+        "Weight": 0.05,
+        "Percent": 5.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.Sniper",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Sniper.01",
+                "Call": "WorldList.ApolloLoot.Weapon.Sniper",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloLoot.Weapon.Sniper.08",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.5,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/HopscotchWeaponsGameplay/Items/GrenadeLauncher/WID_GrenadeLauncher_Hopscotch_Athena_X.WID_GrenadeLauncher_Hopscotch_Athena_X",
+                    "CountItem": 1,
+                    "LocalizedName": "ローレス 裂け目ランチャー"
+                  },
+                  {
+                    "WorldListID": "WorldList.ApolloLoot.Weapon.Sniper.09",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.5,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/VividRazorExotics/Gameplay/RocketLauncher/WID_VividRazor_RocketLauncher_Athena_X.WID_VividRazor_RocketLauncher_Athena_X",
+                    "CountItem": 1,
+                    "LocalizedName": "ローレス ショックウェーブロケットランチャー"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Sniper.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Sniper.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 0.833333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 1.785714,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 2.380952,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Sniper.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 5.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_05",
+        "Weight": 0.1,
+        "Percent": 10.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.Rocket",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Rocket.01",
+                "Call": "WorldList.ApolloLoot.Weapon.Rocket",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloLoot.Weapon.Rocket.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 5.0,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UR.WID_CQB_AR_UR",
+                    "CountItem": 1,
+                    "LocalizedName": "エンハンスド・コラテラルダメージ アサルトライフル"
+                  },
+                  {
+                    "WorldListID": "WorldList.ApolloLoot.Weapon.Rocket.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 5.0,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UR.WID_SMG_FirePetal_Athena_UR",
+                    "CountItem": 1,
+                    "LocalizedName": "夜薔薇のヴェールド プレシジョンSMG"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Rocket.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Rocket.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 1.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 3.571429,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 4.761905,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.Rocket.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 10.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_ApolloTreasure_Rare_06",
+        "Weight": 0.1,
+        "Percent": 10.0,
+        "LootPackage": "WorldPKG.ApolloLoot.Weapon.HighHandgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighHandgun.01",
+                "Call": "WorldList.ApolloLoot.Weapon.HighHandgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighHandgun.03",
+                "Call": "WorldList.AthenaHighConsumablesRare",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighHandgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 1.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 3.571429,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 4.761905,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.ApolloLoot.Weapon.HighHandgun.06",
+                "Call": "WorldList.ApolloWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ApolloWadChests.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 10.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 26,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaAmmoLarge": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaAmmoLarge_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.AthenaAmmoLarge",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.AthenaAmmoLarge.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 0.5,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldList.AthenaAmmoLarge.02",
+                "Call": "",
+                "Count": 2,
+                "weight": 0.8,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldList.AthenaAmmoLarge.03",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldList.AthenaAmmoLarge.04",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldList.AthenaAmmoLarge.05",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaFloorLoot": {
+    "TotalWeight": 10.95,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaFloorLoot_01",
+        "Weight": 1.3,
+        "Percent": 11.8721,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Shotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.Shotgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.Shotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_02",
+        "Weight": 0.5,
+        "Percent": 4.5662,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Handgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.Handgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.Handgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_04",
+        "Weight": 0.75,
+        "Percent": 6.8493,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.SMG",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.SMG.01",
+                "Call": "WorldList.AthenaLoot.Weapon.SMG",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_05",
+        "Weight": 1.2,
+        "Percent": 10.9589,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.AssaultAuto",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.AssaultAuto.01",
+                "Call": "WorldList.AthenaLoot.Weapon.AssaultAuto",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_12",
+        "Weight": 2.1,
+        "Percent": 19.1781,
+        "LootPackage": "WorldPKG.AthenaLoot.Consumable",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Consumable.01",
+                "Call": "WorldList.AthenaConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_14",
+        "Weight": 0.6,
+        "Percent": 5.4795,
+        "LootPackage": "WorldPKG.AthenaLoot.Ammo",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Ammo.01",
+                "Call": "WorldList.AthenaLoot.Ammo",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 4.4,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.01",
+                    "Weight": 0.7,
+                    "ListPercentLocal": 15.909091,
+                    "EffectivePercentPerRoll": 0.871739,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 4,
+                    "LocalizedName": "弾薬: 散弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 22.727273,
+                    "EffectivePercentPerRoll": 1.245341,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 20,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.03",
+                    "Weight": 0.9,
+                    "ListPercentLocal": 20.454545,
+                    "EffectivePercentPerRoll": 1.120807,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 10,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.04",
+                    "Weight": 0.9,
+                    "ListPercentLocal": 20.454545,
+                    "EffectivePercentPerRoll": 1.120807,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 14,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.05",
+                    "Weight": 0.9,
+                    "ListPercentLocal": 20.454545,
+                    "EffectivePercentPerRoll": 1.120807,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 18,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_15",
+        "Weight": 0.8,
+        "Percent": 7.3059,
+        "LootPackage": "WorldPKG.AthenaLoot.Resources",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Resources.01",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 1.21765,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 2.60925,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 3.479,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_16",
+        "Weight": 3.7,
+        "Percent": 33.79,
+        "LootPackage": "WorldList.AthenaLoot.Empty",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.AthenaLoot.Empty.01",
+                "Call": "",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaFloorLoot_Warmup": {
+    "TotalWeight": 4.4,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaFloorLoot_Warmup_01",
+        "Weight": 1.0,
+        "Percent": 22.7273,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Shotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.Shotgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.Shotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_Warmup_02",
+        "Weight": 1.0,
+        "Percent": 22.7273,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Handgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.Handgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.Handgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_Warmup_04",
+        "Weight": 1.0,
+        "Percent": 22.7273,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.SMG",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.SMG.01",
+                "Call": "WorldList.AthenaLoot.Weapon.SMG",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_Warmup_05",
+        "Weight": 1.0,
+        "Percent": 22.7273,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.AssaultAuto",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.AssaultAuto.01",
+                "Call": "WorldList.AthenaLoot.Weapon.AssaultAuto",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFloorLoot_Warmup_09",
+        "Weight": 0.4,
+        "Percent": 9.0909,
+        "LootPackage": "WorldPKG.AthenaLoot.Resources",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Resources.01",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 1.51515,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 3.24675,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 4.329,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaFlopper_Default": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaFlopper_Default_05",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.FlopperDefault.Consumable",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FlopperDefault.Consumable.01",
+                "Call": "WorldList.FlopperDefault.Consumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.FlopperDefault.Consumables.01",
+                    "Weight": 0.6,
+                    "ListPercentLocal": 60.0,
+                    "EffectivePercentPerRoll": 60.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall.WID_Athena_FlopperSmall",
+                    "CountItem": 1,
+                    "LocalizedName": "スモールフィッシュ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FlopperDefault.Consumables.02",
+                    "Weight": 0.3,
+                    "ListPercentLocal": 30.0,
+                    "EffectivePercentPerRoll": 30.0,
+                    "rarity": "アンコモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/WID_Athena_Flopper.WID_Athena_Flopper",
+                    "CountItem": 1,
+                    "LocalizedName": "フロッパー"
+                  },
+                  {
+                    "WorldListID": "WorldList.FlopperDefault.Consumables.06",
+                    "Weight": 0.1,
+                    "ListPercentLocal": 10.0,
+                    "EffectivePercentPerRoll": 10.0,
+                    "rarity": "レア",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/WID_Athena_Flopper_Shield.WID_Athena_Flopper_Shield",
+                    "CountItem": 1,
+                    "LocalizedName": "シールドフィッシュ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaFlopper_High": {
+    "TotalWeight": 1.1,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaFlopper_High_01",
+        "Weight": 0.1,
+        "Percent": 9.0909,
+        "LootPackage": "WorldPKG.FlopperHigh.Light",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FlopperHigh.Light.01",
+                "Call": "WorldList.FlopperHigh.Light",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFlopper_High_02",
+        "Weight": 0.1,
+        "Percent": 9.0909,
+        "LootPackage": "WorldPKG.FlopperHigh.Shell",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FlopperHigh.Shell.01",
+                "Call": "WorldList.FlopperHigh.Shell",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFlopper_High_03",
+        "Weight": 0.1,
+        "Percent": 9.0909,
+        "LootPackage": "WorldPKG.FlopperHigh.Medium",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FlopperHigh.Medium.01",
+                "Call": "WorldList.FlopperHigh.Medium",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaFlopper_High_06",
+        "Weight": 0.8,
+        "Percent": 72.7273,
+        "LootPackage": "WorldPKG.FlopperHigh.Consumable",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FlopperHigh.Consumable.01",
+                "Call": "WorldList.FlopperHigh.Consumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.FlopperHigh.Consumables.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 36.36365,
+                    "rarity": "アンコモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/WID_Athena_Flopper.WID_Athena_Flopper",
+                    "CountItem": 1,
+                    "LocalizedName": "フロッパー"
+                  },
+                  {
+                    "WorldListID": "WorldList.FlopperHigh.Consumables.07",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 36.36365,
+                    "rarity": "レア",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/WID_Athena_Flopper_Shield.WID_Athena_Flopper_Shield",
+                    "CountItem": 1,
+                    "LocalizedName": "シールドフィッシュ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaIceBox": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaIceBox_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaIceBox",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaIceBox.01",
+                "Call": "WorldList.AthenaIceBox",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 5.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaIceBox.01",
+                    "Weight": 0.6,
+                    "ListPercentLocal": 12.0,
+                    "EffectivePercentPerRoll": 12.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall.WID_Athena_FlopperSmall",
+                    "CountItem": 2,
+                    "LocalizedName": "スモールフィッシュ"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaIceBox.02",
+                    "Weight": 4.0,
+                    "ListPercentLocal": 80.0,
+                    "EffectivePercentPerRoll": 80.0,
+                    "rarity": "アンコモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/WID_Athena_Flopper.WID_Athena_Flopper",
+                    "CountItem": 1,
+                    "LocalizedName": "フロッパー"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaIceBox.05",
+                    "Weight": 0.4,
+                    "ListPercentLocal": 8.0,
+                    "EffectivePercentPerRoll": 8.0,
+                    "rarity": "レア",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/WID_Athena_Flopper_Shield.WID_Athena_Flopper_Shield",
+                    "CountItem": 1,
+                    "LocalizedName": "シールドフィッシュ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaLlama": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaLlama_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaLlama",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.01",
+                "Call": "WorldList.AthenaLoot.Ammo.Shells",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Shells.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 4,
+                    "LocalizedName": "弾薬: 散弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.02",
+                "Call": "WorldList.AthenaLoot.Ammo.Light",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Light.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 20,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.03",
+                "Call": "WorldList.AthenaLoot.Ammo.Medium",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 3.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 10,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 14,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Medium.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 33.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 18,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.04",
+                "Call": "WorldList.AthenaLoot.Ammo.Heavy",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.05",
+                "Call": "WorldList.AthenaLoot.Ammo.Rockets",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 5,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.06",
+                "Call": "WorldList.AthenaLlama.Wood",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLlama.Wood.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 350,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 6,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.07",
+                "Call": "WorldList.AthenaLlama.Stone",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLlama.Stone.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 350,
+                    "LocalizedName": "石材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 7,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.08",
+                "Call": "WorldList.AthenaLlama.Metal",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLlama.Metal.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 350,
+                    "LocalizedName": "金属"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 8,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.09",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 3,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 9,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLlama.10",
+                "Call": "WorldList.AthenaTraps",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaMeteorDrop": {
+    "TotalWeight": 10.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaMeteorDrop_01",
+        "Weight": 9.0,
+        "Percent": 90.0,
+        "LootPackage": "WorldList.AthenaLoot.Empty",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.AthenaLoot.Empty.01",
+                "Call": "",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaMeteorDrop_02",
+        "Weight": 1.0,
+        "Percent": 10.0,
+        "LootPackage": "WorldPKG.AthenaLoot.Meteor.Metal"
+      }
+    ]
+  },
+  "Loot_AthenaSCM": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaSCM_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaSCM",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSCM.01",
+                "Call": "WorldList.AthenaSCM.Pistol",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSCM.02",
+                "Call": "WorldList.AthenaLoot.Ammo.Light",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Ammo.Light.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 20,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSCM.03",
+                "Call": "WorldList.AthenaSCM.Wood",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaSCM.Wood.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 100,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaSupplyDrop": {
+    "TotalWeight": 2.2,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaSupplyDrop_01",
+        "Weight": 1.2,
+        "Percent": 54.5455,
+        "LootPackage": "WorldPKG.AthenaSupplyDrop.Weapon.Assault",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Assault.01",
+                "Call": "WorldList.AthenaSupplyDrop.Weapon.Assault",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Assault.03",
+                "Call": "WorldList.AthenaSupplyDropConsumables",
+                "Count": 4,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Assault.04",
+                "Call": "WorldList.AthenaLoot.SupplyDropResources",
+                "Count": 8,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Assault.05",
+                "Call": "WorldList.AthenaSupplyDropTraps",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaSupplyDrop_04",
+        "Weight": 0.6,
+        "Percent": 27.2727,
+        "LootPackage": "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.01",
+                "Call": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.03",
+                "Call": "WorldList.AthenaSupplyDropConsumables",
+                "Count": 4,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.04",
+                "Call": "WorldList.AthenaLoot.SupplyDropResources",
+                "Count": 8,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.05",
+                "Call": "WorldList.AthenaSupplyDropTraps",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaSupplyDrop_05",
+        "Weight": 0.4,
+        "Percent": 18.1818,
+        "LootPackage": "WorldPKG.AthenaSupplyDrop.Weapon.HandCannon",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.HandCannon.01",
+                "Call": "WorldList.AthenaSupplyDrop.Weapon.HandCannon",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.HandCannon.03",
+                "Call": "WorldList.AthenaSupplyDropConsumables",
+                "Count": 4,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.HandCannon.04",
+                "Call": "WorldList.AthenaLoot.SupplyDropResources",
+                "Count": 8,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaSupplyDrop.Weapon.HandCannon.05",
+                "Call": "WorldList.AthenaSupplyDropTraps",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaTest": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaTest_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.AthenaTest",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.AthenaTest.01",
+                "Call": "",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaTreasure": {
+    "TotalWeight": 1.07,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaTreasure_01",
+        "Weight": 0.22,
+        "Percent": 20.5607,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighShotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighShotgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighShotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighShotgun.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighShotgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 3.426783,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 7.343107,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 9.79081,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighShotgun.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.28035,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.28035,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_02",
+        "Weight": 0.22,
+        "Percent": 20.5607,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighSMG",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSMG.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSMG.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSMG.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 3.426783,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 7.343107,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 9.79081,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSMG.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.28035,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.28035,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_03",
+        "Weight": 0.33,
+        "Percent": 30.8411,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 5.140183,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 11.014679,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 14.686238,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 15.42055,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 15.42055,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_04",
+        "Weight": 0.05,
+        "Percent": 4.6729,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighSniper",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSniper.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighSniper",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 3.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighSniper.06",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_X.WID_CQB_AR_X",
+                    "CountItem": 1,
+                    "LocalizedName": "ローレス トリニティアサルトライフル"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighSniper.07",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/VividRazorExotics/Gameplay/TrackerSniper/WID_Sniper_MoonFlax_Athena_X.WID_Sniper_MoonFlax_Athena_X",
+                    "CountItem": 1,
+                    "LocalizedName": "ローレス ヘビーインパクト トラッキングライフル"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighSniper.08",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "エキゾチック",
+                    "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_X.WID_Assault_FirePetal_Mid_Athena_X",
+                    "CountItem": 1,
+                    "LocalizedName": "ローレス アクセララント ホロツイスター アサルトライフル"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSniper.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSniper.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 0.778817,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 1.668893,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 2.22519,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighSniper.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.33645,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.33645,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_07",
+        "Weight": 0.05,
+        "Percent": 4.6729,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighRocket",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighRocket.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighRocket",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 3.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighRocket.15",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UR.WID_Assault_CherrySmoke_SpireGun_Athena_UR",
+                    "CountItem": 1,
+                    "LocalizedName": "強化型スパイア・ライフル"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighRocket.16",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UR.WID_Assault_FirePetal_Mid_Athena_UR",
+                    "CountItem": 1,
+                    "LocalizedName": "強化型ホロツイスター アサルトライフル"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Weapon.HighRocket.17",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 33.333333,
+                    "EffectivePercentPerRoll": 1.557633,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_UR.WID_Shotgun_Pump_FirePetal_Athena_UR",
+                    "CountItem": 1,
+                    "LocalizedName": "強化型センチネル ポンプショットガン"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighRocket.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighRocket.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 0.778817,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 1.668893,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 2.22519,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighRocket.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.33645,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 2.33645,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_08",
+        "Weight": 0.2,
+        "Percent": 18.6916,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighHandgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighHandgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighHandgun.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighHandgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 3.115267,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 6.675571,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 8.900762,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaLoot.Weapon.HighHandgun.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 9.3458,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 9.3458,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaTreasure_RiftEncounter": {
+    "TotalWeight": 1.5,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaTreasure_RiftEncounter_01",
+        "Weight": 0.3,
+        "Percent": 20.0,
+        "LootPackage": "WorldPKG.RiftEncounterLoot.Weapon.HighShotgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighShotgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighShotgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighShotgun.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighShotgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 3.333333,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 7.142857,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 9.52381,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighShotgun.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 10.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_RiftEncounter_02",
+        "Weight": 0.4,
+        "Percent": 26.6667,
+        "LootPackage": "WorldPKG.RiftEncounterLoot.Weapon.HighSMG",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighSMG.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighSMG.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighSMG.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 4.44445,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 9.523822,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 12.698429,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighSMG.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 13.33335,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 13.33335,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_RiftEncounter_03",
+        "Weight": 0.6,
+        "Percent": 40.0,
+        "LootPackage": "WorldPKG.RiftEncounterLoot.Weapon.HighAssaultAuto",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighAssaultAuto.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighAssaultAuto.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighAssaultAuto.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 6.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 14.285714,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 19.047619,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighAssaultAuto.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 20.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 20.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RowName": "Loot_AthenaTreasure_RiftEncounter_08",
+        "Weight": 0.2,
+        "Percent": 13.3333,
+        "LootPackage": "WorldPKG.RiftEncounterLoot.Weapon.HighHandgun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighHandgun.01",
+                "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 2,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighHandgun.03",
+                "Call": "WorldList.AthenaHighConsumables",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 3,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighHandgun.04",
+                "Call": "WorldList.AthenaLoot.Resources",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 2.1,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.01",
+                    "Weight": 0.35,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 2.222217,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData.MetalItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "金属"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.02",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 35.714286,
+                    "EffectivePercentPerRoll": 4.761893,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "石材"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Resources.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 47.619048,
+                    "EffectivePercentPerRoll": 6.349191,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 30,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 4,
+            "Packages": [
+              {
+                "ID": "WorldPKG.RiftEncounterLoot.Weapon.HighHandgun.05",
+                "Call": "WorldList.AthenaWadChests",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.01",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 6.66665,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 9,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadChests.02",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 6.66665,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadGoldBarStack_Large": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadGoldBarStack_Large_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadGoldBarStack.Large",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Large.01",
+                "Call": "WorldList.AthenaWadGoldBarStack.Large",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadGoldBarStack.Large.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 96,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Large.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadGoldBarStack_Medium": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadGoldBarStack_Medium_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadGoldBarStack.Medium",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Medium.01",
+                "Call": "WorldList.AthenaWadGoldBarStack.Medium",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadGoldBarStack.Medium.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 48,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Medium.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadGoldBarStack_Small": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadGoldBarStack_Small_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadGoldBarStack.Small",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Small.01",
+                "Call": "WorldList.AthenaWadGoldBarStack.Small",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadGoldBarStack.Small.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 6,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadGoldBarStack.Small.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadSafe": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadSafe_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadSafe",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadSafe.01",
+                "Call": "WorldList.AthenaWadSafe",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadSafe.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 131,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadSafe.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadStash_Large": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadStash_Large_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadStash.Large",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Large.01",
+                "Call": "WorldList.AthenaWadStash.Large",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Large.01",
+                    "Weight": 0.49,
+                    "ListPercentLocal": 49.0,
+                    "EffectivePercentPerRoll": 49.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 18,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Large.02",
+                    "Weight": 0.01,
+                    "ListPercentLocal": 1.0,
+                    "EffectivePercentPerRoll": 1.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 123,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Large.03",
+                    "Weight": 0.5,
+                    "ListPercentLocal": 50.0,
+                    "EffectivePercentPerRoll": 50.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Large.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadStash_Medium": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadStash_Medium_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadStash.Medium",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Medium.01",
+                "Call": "WorldList.AthenaWadStash.Medium",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Medium.01",
+                    "Weight": 0.99,
+                    "ListPercentLocal": 99.0,
+                    "EffectivePercentPerRoll": 99.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 7,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Medium.02",
+                    "Weight": 0.01,
+                    "ListPercentLocal": 1.0,
+                    "EffectivePercentPerRoll": 1.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 44,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Medium.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_AthenaWadStash_Small": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_AthenaWadStash_Small_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.AthenaWadStash.Small",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Small.01",
+                "Call": "WorldList.AthenaWadStash.Small",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Small.01",
+                    "Weight": 0.99,
+                    "ListPercentLocal": 99.0,
+                    "EffectivePercentPerRoll": 99.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 25,
+                    "LocalizedName": "インゴット"
+                  },
+                  {
+                    "WorldListID": "WorldList.AthenaWadStash.Small.02",
+                    "Weight": 0.01,
+                    "ListPercentLocal": 1.0,
+                    "EffectivePercentPerRoll": 1.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+                    "CountItem": 50,
+                    "LocalizedName": "インゴット"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.AthenaWadStash.Small.02",
+                "Call": "WorldList.DiamondChance",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_FoodBox_Apples": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_FoodBox_Apples_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.FoodBox.Apples",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FoodBox.Apples.01",
+                "Call": "WorldList.FoodBox.Apples",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.FoodBox.Apples.01",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 75.0,
+                    "EffectivePercentPerRoll": 75.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple.WID_Athena_Apple",
+                    "CountItem": 1,
+                    "LocalizedName": "リンゴ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Apples.02",
+                    "Weight": 0.25,
+                    "ListPercentLocal": 25.0,
+                    "EffectivePercentPerRoll": 25.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple.WID_Athena_Apple",
+                    "CountItem": 2,
+                    "LocalizedName": "リンゴ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_FoodBox_Corn": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_FoodBox_Corn_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.FoodBox.Corn",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FoodBox.Corn.01",
+                "Call": "WorldList.FoodBox.Corn",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.FoodBox.Corn.01",
+                    "Weight": 0.75,
+                    "ListPercentLocal": 75.0,
+                    "EffectivePercentPerRoll": 75.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn.WID_Athena_Corn",
+                    "CountItem": 1,
+                    "LocalizedName": "コーン"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Corn.02",
+                    "Weight": 0.25,
+                    "ListPercentLocal": 25.0,
+                    "EffectivePercentPerRoll": 25.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn.WID_Athena_Corn",
+                    "CountItem": 2,
+                    "LocalizedName": "コーン"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_FoodBox_Produce": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_FoodBox_Produce_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.FoodBox.Produce",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FoodBox.Produce.01",
+                "Call": "WorldList.FoodBox.Produce",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 6.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage.WID_Athena_Cabbage",
+                    "CountItem": 2,
+                    "LocalizedName": "キャベツ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.02",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn.WID_Athena_Corn",
+                    "CountItem": 2,
+                    "LocalizedName": "コーン"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.03",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple.WID_Athena_Apple",
+                    "CountItem": 2,
+                    "LocalizedName": "リンゴ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.04",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Banana/WID_Athena_Banana.WID_Athena_Banana",
+                    "CountItem": 2,
+                    "LocalizedName": "バナナ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.05",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/WID_Athena_Coconut.WID_Athena_Coconut",
+                    "CountItem": 2,
+                    "LocalizedName": "ココナッツ"
+                  },
+                  {
+                    "WorldListID": "WorldList.FoodBox.Produce.08",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 16.666667,
+                    "EffectivePercentPerRoll": 16.666667,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/ShieldMushroom/WID_Athena_ShieldMushroom.WID_Athena_ShieldMushroom",
+                    "CountItem": 2,
+                    "LocalizedName": "シールドキノコ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_Arid": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Arid_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Arid"
+      }
+    ]
+  },
+  "Loot_ForagedItem_Cream": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Cream_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Cream"
+      }
+    ]
+  },
+  "Loot_ForagedItem_Farmland": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Farmland_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Farmland",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.Farmland.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_Fireflies": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Fireflies_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Fireflies"
+      }
+    ]
+  },
+  "Loot_ForagedItem_Forest": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Forest_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Forest",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.Forest.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_Glitch": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Glitch_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Glitch"
+      }
+    ]
+  },
+  "Loot_ForagedItem_Grassland": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Grassland_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Grassland",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.Grassland.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_GravityRocks": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_GravityRocks_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.GravityRocks"
+      }
+    ]
+  },
+  "Loot_ForagedItem_HopDrops": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_HopDrops_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.ShieldHops"
+      }
+    ]
+  },
+  "Loot_ForagedItem_Jungle": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Jungle_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Jungle",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.Jungle.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_Mountain": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Mountain_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Mountain"
+      }
+    ]
+  },
+  "Loot_ForagedItem_SpookyMist": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_SpookyMist_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.SpookyMist",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.SpookyMist.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_Swamp": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_Swamp_02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.Swamp",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldList.ForagedItems.Swamp.01",
+                "Call": "",
+                "Count": 2,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_ForagedItem_TempEvent": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ForagedItem_TempEvent_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldList.ForagedItems.TempEvent"
+      }
+    ]
+  },
+  "Loot_FundingStations_DonateReward": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_FundingStations_DonateReward_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.FundingStations.DonateReward",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.FundingStations.DonateReward.01",
+                "Call": "WorldList.FundingStations.DonateReward.Consumable",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_Apple": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_Apple_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.Apple",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.Apple.01",
+                "Call": "WorldList.GatheredItem.Apple",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.Apple.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple.WID_Athena_Apple",
+                    "CountItem": 1,
+                    "LocalizedName": "リンゴ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_Banana": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_Banana_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.Banana",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.Banana.01",
+                "Call": "WorldList.GatheredItem.Banana",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.Banana.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Banana/WID_Athena_Banana.WID_Athena_Banana",
+                    "CountItem": 1,
+                    "LocalizedName": "バナナ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_Cabbage": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_Cabbage_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.Cabbage",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.Cabbage.01",
+                "Call": "WorldList.GatheredItem.Cabbage",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.Cabbage.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage.WID_Athena_Cabbage",
+                    "CountItem": 1,
+                    "LocalizedName": "キャベツ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_Coconut": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_Coconut_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.Coconut",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.Coconut.01",
+                "Call": "WorldList.GatheredItem.Coconut",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.Coconut.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/WID_Athena_Coconut.WID_Athena_Coconut",
+                    "CountItem": 1,
+                    "LocalizedName": "ココナッツ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_Corn": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_Corn_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.Corn",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.Corn.01",
+                "Call": "WorldList.GatheredItem.Corn",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.Corn.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn.WID_Athena_Corn",
+                    "CountItem": 1,
+                    "LocalizedName": "コーン"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_ShieldMushroom": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_ShieldMushroom_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.ShieldMushroom",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.ShieldMushroom.01",
+                "Call": "WorldList.GatheredItem.ShieldMushroom",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.ShieldMushroom.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/ShieldMushroom/WID_Athena_ShieldMushroom.WID_Athena_ShieldMushroom",
+                    "CountItem": 1,
+                    "LocalizedName": "シールドキノコ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_GatheredItem_SlurpMushroom": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_GatheredItem_SlurpMushroom_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.GatheredItem.SlurpMushroom",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.GatheredItem.SlurpMushroom.01",
+                "Call": "WorldList.GatheredItem.SlurpMushroom",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.GatheredItem.SlurpMushroom.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/WID_Athena_SlurpMushroom.WID_Athena_SlurpMushroom",
+                    "CountItem": 1,
+                    "LocalizedName": "スラープキノコ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_Gibson_Type01": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_Gibson_Type01_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.Gibson.Type01",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type01.01",
+                "Call": "WorldList.Gibson.Ammo.Light",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.Gibson.Ammo.Light.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+                    "CountItem": 60,
+                    "LocalizedName": "弾薬: 小口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type01.03",
+                "Call": "WorldList.Gibson.Type02.Consumables",
+                "Count": 1,
+                "weight": 0.1,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldPKG.Gibson.Type01.04",
+                "Call": "WorldList.AthenaLoot.Empty",
+                "Count": 1,
+                "weight": 0.7,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Empty.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 87.5,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_Gibson_Type02": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_Gibson_Type02_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.Gibson.Type02",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type02.01",
+                "Call": "WorldList.Gibson.Ammo.Shells",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.Gibson.Ammo.Shells.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+                    "CountItem": 12,
+                    "LocalizedName": "弾薬: 散弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type02.03",
+                "Call": "WorldList.Gibson.Type02.Consumables",
+                "Count": 1,
+                "weight": 0.1,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldPKG.Gibson.Type02.04",
+                "Call": "WorldList.AthenaLoot.Empty",
+                "Count": 1,
+                "weight": 0.7,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Empty.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 87.5,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_Gibson_Type03": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_Gibson_Type03_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.Gibson.Type03",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type03.01",
+                "Call": "WorldList.Gibson.Ammo.Heavy",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type03.03",
+                "Call": "WorldList.Gibson.Type02.Consumables",
+                "Count": 1,
+                "weight": 0.1,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldPKG.Gibson.Type03.04",
+                "Call": "WorldList.AthenaLoot.Empty",
+                "Count": 1,
+                "weight": 0.7,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Empty.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 87.5,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_Gibson_Type04": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_Gibson_Type04_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.Gibson.Type04",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type04.01",
+                "Call": "WorldList.Gibson.Ammo.Medium",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.Gibson.Ammo.Medium.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+                    "CountItem": 10,
+                    "LocalizedName": "弾薬: 中口径弾"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type04.03",
+                "Call": "WorldList.Gibson.Type02.Consumables",
+                "Count": 1,
+                "weight": 0.1,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldPKG.Gibson.Type04.04",
+                "Call": "WorldList.AthenaLoot.Empty",
+                "Count": 1,
+                "weight": 0.7,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Empty.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 87.5,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_Gibson_Type05": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_Gibson_Type05_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.Gibson.Type05",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type05.01",
+                "Call": "WorldList.Gibson.Ammo.Rockets",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          },
+          {
+            "LootNumber": 1,
+            "Packages": [
+              {
+                "ID": "WorldPKG.Gibson.Type05.03",
+                "Call": "WorldList.Gibson.Type02.Consumables",
+                "Count": 1,
+                "weight": 0.1,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              },
+              {
+                "ID": "WorldPKG.Gibson.Type05.04",
+                "Call": "WorldList.AthenaLoot.Empty",
+                "Count": 1,
+                "weight": 0.7,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.AthenaLoot.Empty.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 87.5,
+                    "rarity": "コモン",
+                    "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData",
+                    "CountItem": 0,
+                    "LocalizedName": "木材"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Loot_PlayerBots": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_PlayerBots_01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "WorldPKG.PlayerBots",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "WorldPKG.PlayerBots.01",
+                "Call": "WorldList.PlayerBots.Weapons",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 0.0,
+                "ListItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

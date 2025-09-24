@@ -67,7 +67,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "json"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -125,11 +125,11 @@ ONLY_WORLDLIST_KEYS = None
 
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/items_unique_min.json"
+INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/TEST"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -1019,7 +1019,6 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                     ordered[k] = v
             items[idx] = ordered
         result[tg] = {"TotalWeight": round(total_weight, 6), "Items": items}
-
     return result
 
 def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:
@@ -1314,19 +1313,19 @@ def get_versioned_filename(prefix, save_dir):
 def main():
     # ===== パス設定 =====
     br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
-    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootSummary.py")
-    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR")  # まとめJSONの保存先
-    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
-    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")
-    minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
+    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/LootSummary.py")
+    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/TEST")  # まとめJSONの保存先
+    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/AthenaLootTierData_Client__final.json")
+    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/AthenaLootPackages_Client__final.json")
+    minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../TEST/items_unique_min.json
 
     try:
         print("===== BR: pipeline start =====")
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootPackage変更.py"], check=True) #
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/LootTier変更.py"], check=True) #
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/LootPackage変更.py"], check=True) #
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/TEST/LootTier変更.py"], check=True) #
             print("✓ Hotfix 適用完了")
 
         # 1) まとめJSONの作成（LT/LP → summary）と保存
@@ -1346,7 +1345,7 @@ def main():
         # ✅ 追加: BR_LootData_日付時間.json を出力（Loot_ApolloTreasure_Rare 先頭・全LootNumberを含む）
         from datetime import datetime
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR/LootPercent")
+        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/TEST/LootPercent")
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
         br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
         br_view = build_br_lootdata_all_tgs(summary)  # ← 全TG対応の新関数を使う
@@ -1420,18 +1419,6 @@ def main():
                 print(f"ℹ️ BR_Discord が見つかりません: {br_discord}")
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
-
-        # 8) GitHub に Push
-        try:
-            repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
-            # BR関連ファイルをすべて add → commit → push
-            subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
-            msg = f"BR update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-            subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
-            subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
-            print("✓ GitHub Push 完了")
-        except Exception as e:
-            print("[!] GitHub Push に失敗:", e)
 
         print("===== BR: pipeline end =====")
 

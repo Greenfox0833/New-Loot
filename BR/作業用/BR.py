@@ -1149,15 +1149,6 @@ def build_br_lootdata_all_tgs(summary: dict) -> dict:
             "TotalWeight": tg_block.get("TotalWeight", 0.0),
             "Items": [ln_blocks] if ln_blocks else []
         }
-
-    # 先頭を Loot_ApolloTreasure_Rare に揃える（存在する場合）
-    if "Loot_ApolloTreasure_Rare" in out:
-        ordered = {"Loot_ApolloTreasure_Rare": out["Loot_ApolloTreasure_Rare"]}
-        for k, v in out.items():
-            if k != "Loot_ApolloTreasure_Rare":
-                ordered[k] = v
-        return ordered
-
     return out
 
 # ===== summary から画像化タスクを作る（TierGroup/WorldListごと保存先） =====

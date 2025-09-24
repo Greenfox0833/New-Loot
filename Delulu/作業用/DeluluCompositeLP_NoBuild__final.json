@@ -59306,99 +59306,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Rare",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C6": "Call:WorldList.BirthdayPresent.Weps.ExoticWep"
-            }
-          }
-        }
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.BirthdayPresent.Weps.ExoticWep",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Weps.09": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 0.75,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 6,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Common",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Epic",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C6": "Call:WorldList.Weapons.Rarity.Common"
-            }
-          }
-        }
-      },
-      "WorldPKG.BirthdayPresent.Weps.10": {
-        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
-        "Weight": 0.25,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 6,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Uncommon",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Legendary",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C6": "Call:WorldList.Weapons.Rarity.Uncommon"
-            }
-          }
-        }
-      },
-      "WorldPKG.BirthdayPresent.Weps.11": {
-        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
-        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59426,15 +59339,74 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C7;Call:WorldList.BirthdayPresent.Consumable",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C6": "Call:WorldList.Weapons.Rarity.Rare"
-            }
-          }
-        }
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Rare",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.10": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Weapons.Rarity.Epic",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Epic",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.11": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.05,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Weapons.Rarity.Legendary",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Legendary",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Weps.12": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
@@ -59466,15 +59438,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C8;Call:WorldList.BirthdayPresent.FireworksGun",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C7": "Call:WorldList.BirthdayPresent.Consumable"
-            }
-          }
-        }
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C7;Call:WorldList.BirthdayPresent.Consumable",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Weps.13": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
@@ -59507,14 +59472,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C8;Call:WorldList.Empty",
-        "DurabilityPercentageOverride": 1.0,
-        "Def:WorldPKG": {
-          "BirthdayPresent": {
-            "Weps": {
-              "C8": "Call:WorldList.BirthdayPresent.FireworksGun"
-            }
-          }
-        }
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Mobility.01": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Mobility",
@@ -133900,7 +133858,7 @@
       },
       "WorldList.BirthdayPresent.Medallion.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Medallion",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

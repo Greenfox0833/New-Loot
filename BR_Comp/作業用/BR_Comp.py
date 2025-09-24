@@ -1343,7 +1343,7 @@ def main():
         # ✅ 追加: BR_LootData_日付時間.json を出力（Loot_ApolloTreasure_Rare 先頭・全LootNumberを含む）
         from datetime import datetime
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/TEST/LootPercent")
+        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/BR_Comp/LootPercent")
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
         br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
         br_view = build_br_lootdata_all_tgs(summary)  # ← 全TG対応の新関数を使う

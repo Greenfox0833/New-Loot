@@ -26,8 +26,8 @@ def overwrite_loottier(client_path, showdown_path, out_path):
     print(f"✅ 出力完了: {out_path}")
 
 if __name__ == "__main__":
-    client_file = Path("BR_Comp/作業用/AthenaLootTierData_Client__final.json")
-    showdown_file = Path("Tournament/AthenaCompositeLTD_Showdown__final.json")
+    client_file = Path("Tournament/AthenaCompositeLTD_Showdown__final.json")
+    showdown_file = Path("BR_Comp/作業用/AthenaLootTierData_Client__final.json")
     out_file = Path("Tournament/AthenaLootTierData_Client__merged.json")
 
     overwrite_loottier(client_file, showdown_file, out_file)

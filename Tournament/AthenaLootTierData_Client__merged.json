@@ -829,7 +829,7 @@
       },
       "Loot_AthenaFloorLoot_12": {
         "TierGroup": "Loot_AthenaFloorLoot",
-        "Weight": 2.1,
+        "Weight": 2.43,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -1101,7 +1101,7 @@
       },
       "Loot_AthenaFloorLoot_16": {
         "TierGroup": "Loot_AthenaFloorLoot",
-        "Weight": 3.7,
+        "Weight": 2.5,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -4365,74 +4365,6 @@
       },
       "Loot_AthenaTreasure_04": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.05,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighSniper",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 5.0,
-          "Y": 5.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          1,
-          1,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.HighSniper"
-      },
-      "Loot_AthenaTreasure_05": {
-        "TierGroup": "Loot_AthenaTreasure",
         "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -4442,7 +4374,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Crossbow",
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighSniper",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 4.0,
@@ -4497,7 +4429,75 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.Crossbow"
+        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.HighSniper"
+      },
+      "Loot_AthenaTreasure_05": {
+        "TierGroup": "Loot_AthenaTreasure",
+        "Weight": 0.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighCrossbow",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.HighCrossbow"
       },
       "Loot_AthenaTreasure_06": {
         "TierGroup": "Loot_AthenaTreasure",
@@ -4569,7 +4569,7 @@
       },
       "Loot_AthenaTreasure_07": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -4581,8 +4581,8 @@
         "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighRocket",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 5.0,
-          "Y": 5.0
+          "X": 4.0,
+          "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -4603,7 +4603,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -4637,7 +4637,7 @@
       },
       "Loot_AthenaTreasure_08": {
         "TierGroup": "Loot_AthenaTreasure",
-        "Weight": 0.2,
+        "Weight": 0.12,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -4649,8 +4649,8 @@
         "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighHandgun",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 5.0,
-          "Y": 5.0
+          "X": 4.0,
+          "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -4671,7 +4671,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -4850,11 +4850,11 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighCrossbow",
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.HighHero",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 5.0,
-          "Y": 5.0
+          "X": 4.0,
+          "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -4862,7 +4862,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -4875,7 +4875,7 @@
           1,
           1,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -4905,7 +4905,7 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.HighCrossbow"
+        "Annotation": "TG:Loot_AthenaTreasure;LPKG:WorldPKG.AthenaLoot.Weapon.HighHero"
       },
       "Loot_AthenaTreasure_RiftEncounter_01": {
         "TierGroup": "Loot_AthenaTreasure_RiftEncounter",
@@ -5113,7 +5113,7 @@
       },
       "Loot_AthenaTreasure_RiftEncounter_04": {
         "TierGroup": "Loot_AthenaTreasure_RiftEncounter",
-        "Weight": 0.0,
+        "Weight": 0.05,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -5317,7 +5317,7 @@
       },
       "Loot_AthenaTreasure_RiftEncounter_07": {
         "TierGroup": "Loot_AthenaTreasure_RiftEncounter",
-        "Weight": 0.0,
+        "Weight": 0.07,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -6337,7 +6337,7 @@
       },
       "Loot_ApolloTreasure_Rare_04": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 2,
         "MinWorldLevel": -1,
@@ -6349,8 +6349,8 @@
         "LootPackage": "WorldPKG.ApolloLoot.Weapon.Sniper",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -6372,7 +6372,7 @@
           2,
           0,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -6405,7 +6405,7 @@
       },
       "Loot_ApolloTreasure_Rare_05": {
         "TierGroup": "Loot_ApolloTreasure_Rare",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 2,
         "MinWorldLevel": -1,
@@ -6417,8 +6417,8 @@
         "LootPackage": "WorldPKG.ApolloLoot.Weapon.Rocket",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -6440,7 +6440,7 @@
           2,
           0,
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -9205,8 +9205,8 @@
         "LootPackage": "WorldPKG.AthenaSupplyDrop.Weapon.Rocket",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 14.0,
+          "Y": 14.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -9224,8 +9224,8 @@
         "LootPackageCategoryMinArray": [
           1,
           0,
-          3,
-          2,
+          4,
+          8,
           1,
           0,
           0,
@@ -9613,8 +9613,8 @@
         "LootPackage": "WorldPKG.AthenaSupplyDrop.Weapon.Crossbow",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 7.0,
-          "Y": 7.0
+          "X": 14.0,
+          "Y": 14.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -9632,8 +9632,8 @@
         "LootPackageCategoryMinArray": [
           1,
           0,
-          3,
-          2,
+          4,
+          8,
           1,
           0,
           0,
@@ -16469,7 +16469,7 @@
       },
       "Loot_ForagedItem_Fireflies_01": {
         "TierGroup": "Loot_ForagedItem_Fireflies",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -16537,7 +16537,7 @@
       },
       "Loot_ForagedItem_Fireflies_02": {
         "TierGroup": "Loot_ForagedItem_Fireflies",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,

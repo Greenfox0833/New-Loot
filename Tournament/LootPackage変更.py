@@ -3,23 +3,25 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-# ==== 入出力（Showdown用）====
-BASE_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")  # ①ベース
-SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/OverrideLootPackagesData.json")  # ②上書き
-COMP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup.json")       # ③上書き
-COMP_BK_PATH  = None  # 追加のbackup層は無し
-HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")   # 任意
+# ====== 入出力（必要に応じて各自のパスに変更してください） ======
+BASE_FINAL_PATH = Path("BR_Comp/作業用/AthenaLootPackages_Client__final.json")          # ①ベース
+LAYER_ORIG_PATH = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")                 # ②上書き
+OVERRIDE_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/OverrideLootPackagesData.json")                  # ④上書き
+BACKUP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup.json")           # ⑥上書き
 
-OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/AthenaCompositeLP_Showdown__final.json")
+HOTFIX_PATH     = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")                                     # ③/⑤/⑦ で使用
+OUT_FINAL       = Path("Tournament/AthenaCompositeLP_Showdown__final.json")         # 出力
 
-# Hotfix の対象テーブル名（Showdown用）
-HOTFIX_TARGET_SEASON = "/BRPlaylists/Athena/Playlists/Showdown/OverrideLootPackagesData"
-HOTFIX_TARGET_COMP   = "/Game/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup"
+# Hotfix 対象テーブル名（末尾名一致でも適用されるように簡潔名で指定）
+HOTFIX_TARGET_BASE    = "AthenaLootPackages_Client"          # ③
+HOTFIX_TARGET_OVERRIDE= "OverrideLootPackagesData"           # ⑤
+HOTFIX_TARGET_BACKUP  = "OverrideLootPackagesData_Backup"    # ⑦
+HOTFIX_TARGET_FINAL = None
 
 
+# ====== 共通ユーティリティ ======
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
-# ---------- 基本処理 ----------
 def read_datatable_json(path: Path) -> Dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
@@ -46,7 +48,6 @@ def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tupl
             added += 1
     return replaced, added
 
-# ---------- 値の型合わせ（数値/真偽/NULL/Unreal形式など） ----------
 def coerce_scalar(s: str) -> Any:
     s = s.strip()
     if _num_re.match(s):
@@ -111,14 +112,13 @@ def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[b
     cur[last] = coerce_like(existing, value_str)
     return True, ("OK" if existing is not None else "NEW")
 
-# ---------- Hotfix ----------
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
     # サポート:
     # +DataTable=...;RowUpdate;RowKey;Field;Value
     # +DataTable=...;RowAdd;RowKey;Field;Value
     # +DataTable=...;RowUpsert;RowKey;Field;Value
     # +DataTable=...;RowDelete;RowKey
-    # +DataTable=...;AddRow;"{...行JSON...}"   ← 新規対応
+    # +DataTable=...;AddRow;"{...json...}"
     line = line.strip()
     if not line or line.startswith("#"):
         return {"op": "COMMENT"}
@@ -139,20 +139,17 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
         if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete", "AddRow"):
             return {"op": "SKIP", "datatable": dt}
 
-        # RowDelete: +...;RowDelete;RowKey
         if op == "RowDelete":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
             return {"op": op, "datatable": dt, "row": rest[1].strip()}
 
-        # AddRow(行JSONまるごと): +...;AddRow;"{...json...}"
         if op == "AddRow":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
             row_json = rest[1].strip()
             return {"op": "AddRow", "datatable": dt, "rowobj": row_json}
 
-        # RowUpdate/RowAdd/RowUpsert: +...;Op;RowKey;Field;Value
         if len(rest) < 4:
             return {"op": "SKIP", "datatable": dt}
         row_key = rest[1].strip()
@@ -162,7 +159,6 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
 
     except Exception:
         return {"op": "UNKNOWN"}
-
 
 def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_exact: str) -> None:
     print(f"[HOTFIX:{table_name_exact}] start")
@@ -174,13 +170,12 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
             continue
 
         dt = h.get("datatable", "")
-        # 完全一致 または フルパス一致（末尾名一致も許容）
+        # 末尾名一致 or 完全一致を許容
         if dt.split("/")[-1] != table_name_exact and dt != table_name_exact:
             continue
 
         op = h["op"]
 
-        # RowDelete
         if op == "RowDelete":
             rk = h["row"]
             if rk in rows:
@@ -191,11 +186,9 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
             continue
 
-        # AddRow（行JSONをそのまま追加）
         if op == "AddRow":
             try:
                 obj = json.loads(h.get("rowobj", ""))
-                # 行キーは Name または RowName を優先的に採用
                 row_key = obj.get("Name") or obj.get("RowName")
                 if not row_key:
                     print(f"[{ln}] AddRow -> SKIP(no Name/RowName)")
@@ -206,7 +199,6 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
                 print(f"[{ln}] AddRow parse error: {e}")
             continue
 
-        # RowUpdate / RowAdd / RowUpsert
         rk, field, val = h["row"], h["field"], h["value"]
         if rk not in rows:
             if op in ("RowAdd", "RowUpsert"):
@@ -230,51 +222,61 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
 
     print(f"[HOTFIX:{table_name_exact}] done: applied={applied}, deleted={deleted}, skipped={skipped}")
 
-# ---------- メイン ----------
+
+# ====== メイン（7ステップ） ======
 def main():
-    # ① Athena をベース、Season で上書き
-    base_meta   = read_datatable_json(BASE_PATH)
-    season_meta = read_datatable_json(SEASON_PATH)
-    base_rows   = base_meta["Rows"]
-    season_rows = season_meta["Rows"]
-    rep1, add1 = merge_rows(base_rows, season_rows)
-    print(f"[STEP1] base <- season : replaced={rep1}, added={add1}")
-
-    # ② Hotfix（LootCurrentSeasonLootPackages_Client のみ）
-    if HOTFIX_PATH.exists():
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_SEASON)
+    # ① LAYER_ORIG_PATH をベース
+    if LAYER_ORIG_PATH and LAYER_ORIG_PATH.exists():
+        base_meta = read_datatable_json(LAYER_ORIG_PATH)
+        base_rows = base_meta["Rows"]
+        print("[STEP1] base = AthenaLootPackages_Client")
+        # ①-Hotfix（AthenaLootPackages_Client）
+        if HOTFIX_PATH and HOTFIX_PATH.exists() and HOTFIX_TARGET_BASE:
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_BASE)
     else:
-        print("[HOTFIX] skipped (file not found)")
+        raise FileNotFoundError("LAYER_ORIG_PATH が見つかりません")
 
-    # ③ comp 上書き（None/未存在ならスキップ）
-    if COMP_PATH and isinstance(COMP_PATH, Path) and COMP_PATH.exists():
-        comp_meta = read_datatable_json(COMP_PATH)
-        comp_rows = comp_meta["Rows"]
-        rep3, add3 = merge_rows(base_rows, comp_rows)
-        print(f"[STEP3] (hotfixed-season) <- comp : replaced={rep3}, added={add3}")
+    # ② OverrideLootPackagesData を上書き
+    if OVERRIDE_PATH and OVERRIDE_PATH.exists():
+        ov_meta = read_datatable_json(OVERRIDE_PATH)
+        rep, add = merge_rows(base_rows, ov_meta["Rows"])
+        print(f"[STEP2] base <- OverrideLootPackagesData : replaced={rep}, added={add}")
+        # ②-Hotfix（OverrideLootPackagesData）
+        if HOTFIX_PATH and HOTFIX_PATH.exists() and HOTFIX_TARGET_OVERRIDE:
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_OVERRIDE)
     else:
-        print("[STEP3] skipped (COMP_PATH is None or not found)")
+        print("[STEP2] skipped (OverrideLootPackagesData.json not found)")
 
-    # ④ Hotfix（Comp側。テーブル名が無効(None)なら適用スキップ）
-    if HOTFIX_PATH.exists() and HOTFIX_TARGET_COMP:
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_COMP)
+    # ③ OverrideLootPackagesData_Backup を上書き（任意）
+    if BACKUP_PATH and isinstance(BACKUP_PATH, Path) and BACKUP_PATH.exists():
+        bk_meta = read_datatable_json(BACKUP_PATH)
+        rep, add = merge_rows(base_rows, bk_meta["Rows"])
+        print(f"[STEP3] (override) <- OverrideLootPackagesData_Backup : replaced={rep}, added={add}")
+        # ③-Hotfix（OverrideLootPackagesData_Backup）
+        if HOTFIX_PATH and HOTFIX_PATH.exists() and HOTFIX_TARGET_BACKUP:
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_BACKUP)
     else:
-        print("[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)")
+        print("[STEP3] skipped (OverrideLootPackagesData_Backup.json not found)")
 
-    # ⑤ comp_backup 上書き（None/未存在ならスキップ）
-    if COMP_BK_PATH and isinstance(COMP_BK_PATH, Path) and COMP_BK_PATH.exists():
-        comp_bk_meta = read_datatable_json(COMP_BK_PATH)
-        comp_bk_rows = comp_bk_meta["Rows"]
-        rep5, add5 = merge_rows(base_rows, comp_bk_rows)
-        print(f"[STEP5] (hotfixed-comp) <- comp_backup : replaced={rep5}, added={add5}")
+    # ④ 最後に AthenaLootPackages_Client__final を上書き
+    """if BASE_FINAL_PATH and BASE_FINAL_PATH.exists():
+        final_meta = read_datatable_json(BASE_FINAL_PATH)
+        rep, add = merge_rows(base_rows, final_meta["Rows"])
+        print(f"[STEP4] (all) <- AthenaLootPackages_Client__final : replaced={rep}, added={add}")
+        # ④-Hotfix（final 用がある場合のみ）
+        if HOTFIX_PATH and HOTFIX_PATH.exists() and 'HOTFIX_TARGET_FINAL' in globals() and HOTFIX_TARGET_FINAL:
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_FINAL)
     else:
-        print("[STEP5] skipped (COMP_BK_PATH is None or not found)")
+        print("[STEP4] skipped (AthenaLootPackages_Client__final.json not found)")"""
 
-    # 出力（メタは base_meta 流用、Rows は最終状態）
+    # 出力
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
+
 
 if __name__ == "__main__":
     main()

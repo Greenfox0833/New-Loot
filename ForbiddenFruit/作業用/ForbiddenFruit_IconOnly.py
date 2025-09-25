@@ -59,7 +59,7 @@ if '_asset_path_from_row' not in globals():
 # ==== 必須ユーティリティここまで ====
 
 # ---------------- 設定（シンプル版） ----------------
-VERSION_PREFIX = "v37.10"  # 必要に応じて変更
+VERSION_PREFIX = "Week14"  # 必要に応じて変更
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成   ← これがご希望の流れ
@@ -197,11 +197,11 @@ DISABLE_TEXT_AND_BAR = False
 DISABLE_RARITY_ICON  = False
 
 # 入力（LT/LPのFModelエクスポートJSON）
-INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/items_unique_min.json"
+INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Tournament_IconOnly"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/ForbiddenFruit"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -935,8 +935,7 @@ def _asset_path_from_row(row: dict) -> str:
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
 
-
-        # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
+    # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
     lp_by_idcat = defaultdict(list)
     for row_key, row in rows_lp.items():
         lp_id = row.get("LootPackageID", "")
@@ -946,13 +945,15 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         except Exception:
             lp_cat = 0
         lp_call   = row.get("LootPackageCall", "") or ""
-        lp_weight = as_float(row.get("Weight", row.get("weight", 0.0)))
+        lp_weight = as_float(row.get("Weight", 0.0))
 
-        lp_by_idcat[(lp_id, lp_cat)].append({
-            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
-            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
-            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
-        })
+        # (A) 0 重みの LootPackage は索引に入れない（根治）
+        if lp_weight > 0.0:
+            lp_by_idcat[(lp_id, lp_cat)].append({
+                "Key": row_key,
+                "Call": lp_call,
+                "Weight": lp_weight,
+            })
 
     # .NN の昇順で安定化
     for k in lp_by_idcat:
@@ -1262,20 +1263,20 @@ def get_versioned_filename(prefix, save_dir):
 
 def main():
     # ===== パス設定 =====
-    br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
-    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/LootSummary.py")
-    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Tournament")  # まとめJSONの保存先
-    lt_json_path     = Path(r"Tournament/AthenaLootTierData_Client__merged.json")
-    lp_json_path     = Path(r"Tournament/AthenaLootPackages_Client__merged.json")
+    br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/ForbiddenFruit_Discor.py")
+    loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/LootSummary.py")
+    version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/ForbiddenFruit")  # まとめJSONの保存先
+    lt_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootTierData_Client__final.json")
+    lp_json_path     = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/AthenaLootPackages_Client__final.json")
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
-        print("===== Tournament: pipeline start =====")
+        print("===== BR: pipeline start =====")
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/LootPackage変更.py"], check=True) #
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/LootTier変更.py"], check=True) #
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/LootPackage変更.py"], check=True)
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/ForbiddenFruit/作業用/LootTier変更.py"], check=True)
             print("✓ Hotfix 適用完了")
 
         summary = None
@@ -1362,7 +1363,19 @@ def main():
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
 
-        print("===== Tournament: pipeline end =====")
+        # 8) GitHub に Push
+        try:
+            repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
+            # BR関連ファイルをすべて add → commit → push
+            subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
+            msg = f"ForbiddenFruit update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
+            subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
+            print("✓ GitHub Push 完了")
+        except Exception as e:
+            print("[!] GitHub Push に失敗:", e)
+
+        print("===== ForbiddenFruit: pipeline end =====")
 
 if __name__ == "__main__":
     main()

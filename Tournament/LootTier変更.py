@@ -3,38 +3,21 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-# ==== ファイルパス設定（必要に応じて書き換えOK） ====
-# ① AthenaLootTierData_Client（ベース）
-BASE_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json"
-)
+# ====== 入出力（必要に応じて変更） ======
+BASE_FINAL_PATH = Path("BR_Comp/作業用/AthenaLootTierData_Client__final.json")         # ①ベース
+LAYER_ORIG_PATH = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")                # ②上書き
+OVERRIDE_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/OverrideLootTierData.json")                     # ④上書き
 
-# ② Showdown用 Override（Athena に上書き）
-SEASON_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/OverrideLootTierData.json"
-)
-# ※ FModelのエクスポート配置に合わせてパスは必要なら微調整
-#   例）"e:/Fmodel/Exports/FortniteGame/Content/Game/Athena/Playlists/Showdown/OverrideLootTierData.json"
+HOTFIX_PATH     = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")                                    # ③/⑤/⑦
+OUT_FINAL       = Path("Tournament/AthenaCompositeLTD_Showdown__final.json")       # 出力
 
-# 以降の上書き層は不要（Noneにする）
-NOBUILD_OVERRIDE_PATH = None
-DELULU_OVERRIDE_PATH  = None
+# Hotfix 対象テーブル名（末尾名一致も許容）
+HOTFIX_TARGET_BASE     = "AthenaLootTierData_Client"       # ③
+HOTFIX_TARGET_OVERRIDE = "OverrideLootTierData"            # ⑤
 
-HOTFIX_PATH = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ←実在しない場合は None に
-
-# 出力先はShowdown用に分けるのが安全
-OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/AthenaCompositeLTD_Showdown__final.json")
-
-# Hotfix対象は2つだけ
-HOTFIX_TARGET_ATHENA   = "/Game/Items/Datatables/AthenaLootTierData_Client"
-HOTFIX_TARGET_SEASON   = "/Game/Athena/Playlists/Showdown/OverrideLootTierData"
-# 使わないので None
-HOTFIX_TARGET_NOBUILD  = None
-HOTFIX_TARGET_DELULU   = None
-
+# ====== 共通ユーティリティ ======
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
-# ---------- 基本関数 ----------
 def read_datatable_json(path: Path) -> Dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
@@ -61,7 +44,6 @@ def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tupl
             added += 1
     return replaced, added
 
-# ---------- 値の型合わせ（数値/真偽/NULL/Unreal形式など） ----------
 def coerce_scalar(s: str) -> Any:
     s = s.strip()
     if _num_re.match(s):
@@ -93,7 +75,6 @@ def parse_unreal_tuple_to_list(s: str) -> List[Any]:
 
 def coerce_like(existing: Any, new_str: str) -> Any:
     s = new_str.strip()
-    # Unreal 形式を優先解釈
     if s.startswith("(") and s.endswith(")"):
         if "=" in s:
             try: return parse_unreal_tuple_to_dict(s)
@@ -101,7 +82,6 @@ def coerce_like(existing: Any, new_str: str) -> Any:
         else:
             try: return parse_unreal_tuple_to_list(s)
             except Exception: pass
-    # 既存型に寄せる
     if isinstance(existing, dict):
         try:
             parsed = json.loads(s)
@@ -128,42 +108,47 @@ def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[b
     cur[last] = coerce_like(existing, value_str)
     return True, ("OK" if existing is not None else "NEW")
 
-# ---------- Hotfix ----------
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
-    # +DataTable=...;RowUpdate;RowKey;Field;Value  /  +...;RowDelete;RowKey
+    # +DataTable=...;RowUpdate;RowKey;Field;Value
+    # +DataTable=...;RowAdd;RowKey;Field;Value
+    # +DataTable=...;RowUpsert;RowKey;Field;Value
+    # +DataTable=...;RowDelete;RowKey
+    # +DataTable=...;AddRow;"{...json...}"
     line = line.strip()
-    if not line or line.startswith("#"): return {"op": "COMMENT"}
-    if not (line.startswith("+") or line.startswith("-")): return {"op": "UNKNOWN"}
+    if not line or line.startswith("#"):
+        return {"op": "COMMENT"}
+    if not (line.startswith("+") or line.startswith("-")):
+        return {"op": "UNKNOWN"}
     try:
         after = line[1:]
         first_seg, *rest = after.split(";")
-        if "DataTable=" not in first_seg: return {"op": "UNKNOWN"}
+        if "DataTable=" not in first_seg:
+            return {"op": "UNKNOWN"}
         dt = first_seg.split("=", 1)[1].strip()
         if not rest: return {"op": "UNKNOWN"}
         op = rest[0].strip()
-        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete"):
+        if op not in ("RowUpdate", "RowAdd", "RowUpsert", "RowDelete", "AddRow"):
             return {"op": "SKIP", "datatable": dt}
         if op == "RowDelete":
             if len(rest) < 2: return {"op": "SKIP", "datatable": dt}
             return {"op": op, "datatable": dt, "row": rest[1].strip()}
+        if op == "AddRow":
+            if len(rest) < 2: return {"op": "SKIP", "datatable": dt}
+            return {"op": "AddRow", "datatable": dt, "rowobj": rest[1].strip()}
         if len(rest) < 4: return {"op": "SKIP", "datatable": dt}
-        row_key = rest[1].strip()
-        field = rest[2].strip()
-        value = ";".join(rest[3:]).strip()
-        return {"op": op, "datatable": dt, "row": row_key, "field": field, "value": value}
+        return {"op": op, "datatable": dt, "row": rest[1].strip(),
+                "field": rest[2].strip(), "value": ";".join(rest[3:]).strip()}
     except Exception:
         return {"op": "UNKNOWN"}
 
 def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_exact: str) -> None:
-    """
-    Hotfix を“特定の DataTable 名だけ”に適用（厳密一致 or 末尾一致）。
-    """
     print(f"[HOTFIX:{table_name_exact}] start")
     applied = skipped = deleted = 0
     for ln, line in enumerate(hotfix_text.splitlines(), 1):
         h = parse_hotfix_line(line)
         if h.get("op") in ("COMMENT", "UNKNOWN", "SKIP"): continue
         dt = h.get("datatable", "")
+        # 末尾セグメント一致 or 完全一致
         if dt.split("/")[-1] != table_name_exact and dt != table_name_exact:
             continue
         op = h["op"]
@@ -175,12 +160,24 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
             else:
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
             continue
+        if op == "AddRow":
+            try:
+                obj = json.loads(h.get("rowobj", ""))
+                row_key = obj.get("Name") or obj.get("RowName")
+                if not row_key:
+                    print(f"[{ln}] AddRow -> SKIP(no Name/RowName)"); continue
+                rows[row_key] = obj
+                print(f"[{ln}] AddRow {row_key} -> NEW")
+            except Exception as e:
+                print(f"[{ln}] AddRow parse error: {e}")
+            continue
         rk, field, val = h["row"], h["field"], h["value"]
         if rk not in rows:
             if op in ("RowAdd", "RowUpsert"):
                 rows[rk] = {}; print(f"[{ln}] {op} {rk} (create row)")
             else:
-                skipped += 1; print(f"[{ln}] {op} {rk}.{field}={val} -> SKIP(no row)")
+                skipped += 1
+                print(f"[{ln}] {op} {rk}.{field}={val} -> SKIP(no row)")
                 continue
         if not isinstance(rows[rk], dict): rows[rk] = {}
         ok, msg = set_by_path(rows[rk], field, val)
@@ -190,39 +187,44 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
             skipped += 1; print(f"[{ln}] {op} {rk}.{field}={val} -> NG({msg})")
     print(f"[HOTFIX:{table_name_exact}] done: applied={applied}, deleted={deleted}, skipped={skipped}")
 
-# ---------- メイン ----------
+# ====== メイン（7ステップ） ======
 def main():
-    # === ① Athena（ベース）読み込み ===
-    base_meta = read_datatable_json(BASE_PATH)
-    rows = base_meta["Rows"]
-    print(f"[LOAD] Athena rows = {len(rows)}")
+    # ① LAYER_ORIG_PATH をベース
+    if LAYER_ORIG_PATH.exists():
+        base_meta = read_datatable_json(LAYER_ORIG_PATH)
+        base_rows = base_meta["Rows"]
+        print("[STEP1] base = AthenaLootTierData_Client")
 
-    # === ② Hotfix: Athena に適用（任意） ===
-    if 'HOTFIX_PATH' in globals() and HOTFIX_PATH and HOTFIX_PATH.exists():
-        txt = HOTFIX_PATH.read_text(encoding="utf-8")
-        if 'HOTFIX_TARGET_ATHENA' in globals() and HOTFIX_TARGET_ATHENA:
-            apply_hotfix_for_table(rows, txt, HOTFIX_TARGET_ATHENA)
-        else:
-            print("[HOTFIX] ATHENA target is None -> skip")
+        # Hotfix（AthenaLootTierData_Client 用）
+        if HOTFIX_PATH.exists():
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_BASE)
     else:
-        print("[HOTFIX] file not found -> skip ATHENA stage")
+        raise FileNotFoundError("LAYER_ORIG_PATH が見つかりません")
 
-    # === ③ Showdown Override を上書き ===
-    season_meta = read_datatable_json(SEASON_PATH)
-    rep_s, add_s = merge_rows(rows, season_meta["Rows"])
-    print(f"[MERGE] Athena <- ShowdownOverride : replaced={rep_s}, added={add_s}")
+    # ② OverrideLootTierData を上書き
+    if OVERRIDE_PATH.exists():
+        ov_meta = read_datatable_json(OVERRIDE_PATH)
+        rep, add = merge_rows(base_rows, ov_meta["Rows"])
+        print(f"[STEP2] base <- OverrideLootTierData : replaced={rep}, added={add}")
 
-    # === ④ Hotfix: Showdown Override に適用（任意） ===
-    if 'HOTFIX_PATH' in globals() and HOTFIX_PATH and HOTFIX_PATH.exists():
-        txt = HOTFIX_PATH.read_text(encoding="utf-8")
-        if 'HOTFIX_TARGET_SEASON' in globals() and HOTFIX_TARGET_SEASON:
-            apply_hotfix_for_table(rows, txt, HOTFIX_TARGET_SEASON)
-        else:
-            print("[HOTFIX] SHOWDOWN target is None -> skip")
+        # Hotfix（OverrideLootTierData 用）
+        if HOTFIX_PATH.exists():
+            text = HOTFIX_PATH.read_text(encoding="utf-8")
+            apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_OVERRIDE)
     else:
-        print("[HOTFIX] file not found -> skip SHOWDOWN stage")
+        print("[STEP2] skipped (OverrideLootTierData.json not found)")
 
-    # === ⑤ 出力 ===
+    # ③ 最後に AthenaLootTierData_Client__final を上書き
+    """if BASE_FINAL_PATH.exists():
+        final_meta = read_datatable_json(BASE_FINAL_PATH)
+        rep, add = merge_rows(base_rows, final_meta["Rows"])
+        print(f"[STEP3] (override) <- AthenaLootTierData_Client__final : replaced={rep}, added={add}")
+        # この層専用の Hotfix があるならここに追加可能
+    else:
+        print("[STEP3] skipped (AthenaLootTierData_Client__final.json not found)")"""
+
+    # 出力
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
 

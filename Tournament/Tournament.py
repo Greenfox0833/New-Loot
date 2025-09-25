@@ -83,11 +83,11 @@ RUN_OPTIONS = {
 
 # ---- プロファイル定義（内部フラグに展開） ----
 PROFILE_PRESETS = {
-    "pipeline": dict(do_hotfix=False,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
-    "images":   dict(do_hotfix=False,  enable_icon_cache_prewarm=False, enable_image_creation=True),
-    "prewarm":  dict(do_hotfix=False, enable_icon_cache_prewarm=True,  enable_image_creation=False),
-    "json":     dict(do_hotfix=False,  enable_icon_cache_prewarm=False, enable_image_creation=False),
-    "dryrun":   dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
+    "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
+    "prewarm":  dict(do_hotfix=True, enable_icon_cache_prewarm=True,  enable_image_creation=False),
+    "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "dryrun":   dict(do_hotfix=True, enable_icon_cache_prewarm=False, enable_image_creation=False),
 }
 _p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
 
@@ -1307,8 +1307,8 @@ def main():
     br_discord       = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データDiscord/BR_Discor.py")
     loot_summary_py  = Path(r"e:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Tournament/LootSummary.py")
     version_save_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Tournament")  # まとめJSONの保存先
-    lt_json_path     = Path(r"Tournament/AthenaLootTierData_Client__merged.json")
-    lp_json_path     = Path(r"Tournament/AthenaLootPackages_Client__merged.json")
+    lt_json_path     = Path(r"Tournament/AthenaCompositeLTD_Showdown__final.json")
+    lp_json_path     = Path(r"Tournament/AthenaCompositeLP_Showdown__final.json")
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
@@ -1411,18 +1411,6 @@ def main():
                 print(f"ℹ️ BR_Discord が見つかりません: {br_discord}")
         except Exception as e:
             print("[!] BR_Discord 実行に失敗:", e)
-
-        # 8) GitHub に Push
-        try:
-            repo_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot")
-            # BR関連ファイルをすべて add → commit → push
-            subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
-            msg = f"Tournament update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-            subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False)
-            subprocess.run(["git", "-C", str(repo_dir), "push"], check=True)
-            print("✓ GitHub Push 完了")
-        except Exception as e:
-            print("[!] GitHub Push に失敗:", e)
 
         print("===== Tournament: pipeline end =====")
 

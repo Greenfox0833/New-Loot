@@ -9409,12 +9409,12 @@
         "LootPackage": "WorldPKG.BusGrant",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 9.0,
-          "Y": 9.0
+          "X": 10.0,
+          "Y": 10.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
+          1,
           1,
           1,
           1,
@@ -9427,7 +9427,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
+          1,
           1,
           1,
           1,
@@ -9462,6 +9462,74 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_Bus_Grant;LPKG:WorldPKG.BusGrant"
+      },
+      "Loot_Bus_Grant_02": {
+        "TierGroup": "Loot_Bus_Grant",
+        "Weight": 0.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.BusGrant2",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_Bus_Grant;LPKG:WorldPKG.BusGrant2"
       },
       "Loot_Random_Boon_01": {
         "TierGroup": "Loot_Random_Boon",
@@ -11026,80 +11094,6 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_AthenaTest;LPKG:WorldList.AthenaTest"
-      },
-      "Loot_Bus_Grant_02": {
-        "TierGroup": "Loot_Bus_Grant",
-        "Weight": 1,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.BusGrant2",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 9,
-          "Y": 9
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "",
-        "NumLootPackageDrops": 0,
-        "RequiredGameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredTag": "None"
       }
     }
   }

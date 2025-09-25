@@ -19836,9 +19836,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.02": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighShotgun.02",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19846,10 +19845,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -19861,15 +19857,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_R.WID_Shotgun_FirePetal_Flavor_Athena_R",
+        "ItemDefinition": "/TidalCraneExotics/Gameplay/DoubleTrouble/WID_Shotgun_Pump_Standard_Athena_DX.WID_Shotgun_Pump_Standard_Athena_DX",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.FirePetal.Flavor.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
@@ -19902,9 +19896,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.04": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighShotgun.04",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19912,10 +19905,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -19927,15 +19917,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.FirePetal.Flavor.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
@@ -20982,9 +20970,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.01": {
-        "Name": "WorldList.AthenaLoot.Weapon.Handgun.01",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20992,10 +20979,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -21007,15 +20991,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
@@ -21249,7 +21234,6 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.01": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighHandgun.01",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
         "Weight": 0.4,
         "NamedWeightMult": "None",
@@ -21259,10 +21243,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -21274,15 +21255,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CherrySmokeWeaponGameplay/Gameplay/Pistol/WID_Pistol_Auto_CherrySmoke_Athena_UC.WID_Pistol_Auto_CherrySmoke_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/Pistol/WID_Pistol_Auto_CherrySmoke_Athena_UC.WID_Pistol_Auto_CherrySmoke_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Auto.CherrySmoke.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
@@ -21384,9 +21366,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.05": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighHandgun.05",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21394,10 +21375,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -21409,20 +21387,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.06": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighHandgun.06",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21430,10 +21408,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -21445,20 +21420,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.07": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighHandgun.07",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -21466,10 +21441,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -21481,15 +21453,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
@@ -23142,9 +23115,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.SMG.12": {
-        "Name": "WorldList.AthenaLoot.Weapon.SMG.12",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -23152,10 +23124,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -23167,15 +23136,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_ExplosiveBow_Athena_SR.WID_ExplosiveBow_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.SMG.C0;Item:WID.SMGShotgun.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.SMG.13": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
@@ -24816,9 +24783,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.07": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.07",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24826,10 +24792,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -24841,20 +24804,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.08": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.08",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24862,10 +24825,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -24877,20 +24837,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.09": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.09",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24898,10 +24858,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -24913,15 +24870,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
@@ -25023,9 +24981,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.13": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.13",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25033,10 +24990,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -25048,20 +25002,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.14": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.14",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25069,10 +25023,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -25084,20 +25035,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.15": {
-        "Name": "WorldList.AthenaLoot.Weapon.AssaultAuto.15",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25105,10 +25056,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -25120,15 +25068,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.16": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
@@ -26601,9 +26550,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.09": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.09",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26611,10 +26559,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26626,20 +26571,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.10": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.10",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26647,10 +26592,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26662,20 +26604,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.11": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.11",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26683,10 +26625,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26698,20 +26637,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.12": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.12",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26719,10 +26658,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26734,15 +26670,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.13": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
@@ -26877,9 +26814,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.17": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.17",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26887,10 +26823,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26902,20 +26835,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.18": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.18",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26923,10 +26856,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26938,20 +26868,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.19": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.19",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26959,10 +26889,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -26974,20 +26901,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.20": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.20",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26995,10 +26922,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -27010,15 +26934,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
@@ -27978,9 +27903,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Sniper.01": {
-        "Name": "WorldList.AthenaLoot.Weapon.Sniper.01",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -27988,10 +27912,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28003,20 +27924,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_C.WID_ToggleZoomSniper_C",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_C.WID_ToggleZoomSniper_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Sniper.02": {
-        "Name": "WorldList.AthenaLoot.Weapon.Sniper.02",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28024,10 +27945,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28039,20 +27957,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Sniper.03": {
-        "Name": "WorldList.AthenaLoot.Weapon.Sniper.03",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28060,10 +27978,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28075,15 +27990,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Sniper.04": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
@@ -28614,9 +28530,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.01": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighSniper.01",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28624,10 +28539,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28639,20 +28551,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.Sniper.ToggleZoom.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.02": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighSniper.02",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28660,10 +28572,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28675,20 +28584,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.Sniper.ToggleZoom.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.03": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighSniper.03",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28696,10 +28605,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28711,20 +28617,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.Sniper.ToggleZoom.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.04": {
-        "Name": "WorldList.AthenaLoot.Weapon.HighSniper.04",
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28732,10 +28638,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -28747,15 +28650,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.Sniper.ToggleZoom.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
@@ -31002,9 +30906,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.02": {
-        "Name": "WorldList.ApolloLoot.Weapon.HighShotgun.02",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31012,10 +30915,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -31027,15 +30927,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.FirePetal.Flavor.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.03": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
@@ -31527,9 +31425,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.SMG.02": {
-        "Name": "WorldList.ApolloLoot.Weapon.SMG.02",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31537,10 +31434,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -31552,15 +31446,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/TidalCraneExotics/Gameplay/ShockwaveLauncher/WID_Launcher_Shockwave_Athena_X.WID_Launcher_Shockwave_Athena_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.SMG.C0;Item:WID.SMG.FirePetal.Quirky.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.SMG.03": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
@@ -32217,9 +32112,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.13": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.13",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32227,10 +32121,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -32242,20 +32133,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.14": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.14",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32263,10 +32154,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -32278,15 +32166,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.15": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
@@ -32553,9 +32442,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.Sniper.07": {
-        "Name": "WorldList.ApolloLoot.Weapon.Sniper.07",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32563,10 +32451,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -32578,20 +32463,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.Sniper.08": {
-        "Name": "WorldList.ApolloLoot.Weapon.Sniper.08",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32599,10 +32484,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -32614,15 +32496,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.Sniper.09": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
@@ -32988,9 +32871,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.01": {
-        "Name": "WorldList.ApolloLoot.Weapon.HighHandgun.01",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32998,10 +32880,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -33013,20 +32892,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.02": {
-        "Name": "WorldList.ApolloLoot.Weapon.HighHandgun.02",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33034,10 +32913,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -33049,15 +32925,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.03": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
@@ -36591,9 +36468,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.01": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Sniper.01",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36601,10 +36477,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -36616,20 +36489,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.02": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Sniper.02",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36637,10 +36510,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -36652,15 +36522,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Sniper.C0;Item:WID.Sniper.ToggleZoom.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
@@ -37707,9 +37578,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.05": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Assault.05",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37717,10 +37587,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -37732,20 +37599,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.06": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Assault.06",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37753,10 +37620,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -37768,15 +37632,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
@@ -38340,9 +38205,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.05": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Handgun.05",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38350,10 +38214,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -38365,20 +38226,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.06": {
-        "Name": "WorldList.AthenaSupplyDrop.Weapon.Handgun.06",
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38386,10 +38247,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -38401,15 +38259,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
@@ -42174,9 +42033,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.18": {
-        "Name": "WorldList.AthenaHighConsumables.18",
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42184,10 +42042,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -42199,15 +42054,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TidalCraneDropPod/Gameplay/WID_CallADropPod.WID_CallADropPod",
+        "ItemDefinition": "/GrappleGloves/Items/GrappleGloves/WID_GrappleGloves.WID_GrappleGloves",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_CallADropPod",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.19": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
@@ -42243,20 +42096,16 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.20": {
-        "Name": "WorldList.AthenaHighConsumables.20",
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0,
+        "Weight": 0.04,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 0,
-          "Y": 0
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -42268,15 +42117,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/ClusterLauncher/Gameplay/WID_TidalCrane_ClusterLauncher_Laser_VR.WID_TidalCrane_ClusterLauncher_Laser_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.21": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
@@ -44458,7 +44305,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.11": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.11,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46701,9 +46548,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.15": {
-        "Name": "WorldList.AthenaConsumables.15",
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46711,10 +46557,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -46726,15 +46569,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TidalCraneDropPod/Gameplay/WID_CallADropPod.WID_CallADropPod",
+        "ItemDefinition": "/GrappleGloves/Items/GrappleGloves/WID_GrappleGloves.WID_GrappleGloves",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_CallADropPod",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.16": {
         "LootPackageID": "WorldList.AthenaConsumables",
@@ -46770,20 +46611,16 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.17": {
-        "Name": "WorldList.AthenaConsumables.17",
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0,
+        "Weight": 0.02,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 0,
-          "Y": 0
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -46795,15 +46632,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/ClusterLauncher/Gameplay/WID_TidalCrane_ClusterLauncher_Laser_VR.WID_TidalCrane_ClusterLauncher_Laser_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.BandagesV2",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.18": {
         "LootPackageID": "WorldList.AthenaConsumables",
@@ -52767,9 +52602,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.01": {
-        "Name": "WorldList.FlopperHigh.Medium.01",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -52777,10 +52611,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -52792,20 +52623,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.Heavy.Recoil.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.02": {
-        "Name": "WorldList.FlopperHigh.Medium.02",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -52813,10 +52644,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -52828,20 +52656,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.Heavy.Recoil.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.03": {
-        "Name": "WorldList.FlopperHigh.Medium.03",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -52849,10 +52677,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -52864,15 +52689,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.Heavy.Recoil.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.04": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
@@ -52974,9 +52800,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.07": {
-        "Name": "WorldList.FlopperHigh.Medium.07",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -52984,10 +52809,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -52999,20 +52821,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.FirePetal.Mid.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.08": {
-        "Name": "WorldList.FlopperHigh.Medium.08",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -53020,10 +52842,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -53035,20 +52854,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.FirePetal.Mid.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.09": {
-        "Name": "WorldList.FlopperHigh.Medium.09",
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -53056,10 +52875,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -53071,15 +52887,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.Assault.FirePetal.Mid.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.10": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
@@ -53700,9 +53517,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Heavy.01": {
-        "Name": "WorldList.FlopperHigh.Heavy.01",
         "LootPackageID": "WorldList.FlopperHigh.Heavy",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -53710,10 +53526,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -53725,20 +53538,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_C.WID_ToggleZoomSniper_C",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_C.WID_ToggleZoomSniper_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Heavy.C0;Item:WID.Sniper.ToggleZoom.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Heavy.02": {
-        "Name": "WorldList.FlopperHigh.Heavy.02",
         "LootPackageID": "WorldList.FlopperHigh.Heavy",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -53746,10 +53559,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -53761,20 +53571,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Heavy.C0;Item:WID.Sniper.ToggleZoom.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Heavy.03": {
-        "Name": "WorldList.FlopperHigh.Heavy.03",
         "LootPackageID": "WorldList.FlopperHigh.Heavy",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -53782,10 +53592,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -53797,15 +53604,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.FlopperHigh.Heavy.C0;Item:WID.Sniper.ToggleZoom.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Heavy.04": {
         "LootPackageID": "WorldList.FlopperHigh.Heavy",
@@ -100437,9 +100245,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Market_Boon_Vulture.01": {
-        "Name": "PKG_Market_Boon_Vulture.01",
         "LootPackageID": "PKG_Market_Boon_Vulture",
-        "Weight": 0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100447,10 +100254,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -100462,15 +100266,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "WorldList_Market_Boon_Vulture",
-        "ItemDefinition": "None",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";Def:PKG_Market_Boon_Vulture.C0;Call:WorldList_Market_Boon_Vulture",
+        "DurabilityPercentageOverride": 1.0
       },
       "PKG_Market_Pistol_CherrySmoke_C.01": {
         "LootPackageID": "PKG_Market_Pistol_CherrySmoke_C",
@@ -117237,9 +117042,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG_OrbitalBombardment.01": {
-        "Name": "WorldPKG_OrbitalBombardment.01",
         "LootPackageID": "WorldPKG_OrbitalBombardment",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -117247,10 +117051,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -117262,20 +117063,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "WorldList_OrbitalBombardment_OBItem",
-        "ItemDefinition": "None",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";Def:WorldPKG_OrbitalBombardment.C0;Call:WorldList_OrbitalBombardment_OBItem",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG_OrbitalBombardment.02": {
-        "Name": "WorldPKG_OrbitalBombardment.02",
         "LootPackageID": "WorldPKG_OrbitalBombardment",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -117283,10 +117084,7 @@
           "Y": 1
         },
         "LootPackageCategory": 1,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -117298,15 +117096,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "WorldList_OrbitalBombardment_Extras",
-        "ItemDefinition": "None",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";Def:WorldPKG_OrbitalBombardment.C1;Call:WorldList_OrbitalBombardment_Extras",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG_PiewPistol.01": {
         "LootPackageID": "WorldPKG_PiewPistol",
@@ -122751,9 +122550,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.17": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.17",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -122761,10 +122559,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -122776,20 +122571,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.18": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.18",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -122797,10 +122592,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -122812,15 +122604,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.19": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
@@ -122889,9 +122682,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.21": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.21",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -122899,10 +122691,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -122914,20 +122703,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.22": {
-        "Name": "WorldList.ApolloLoot.Weapon.AssaultAuto.22",
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -122935,10 +122724,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -122950,15 +122736,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.Assault.FirePetal.Mid.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.23": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
@@ -123717,9 +123504,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Common.09": {
-        "Name": "WorldList.Weapons.Rarity.Common.09",
         "LootPackageID": "WorldList.Weapons.Rarity.Common",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -123727,10 +123513,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -123742,15 +123525,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_C.WID_Assault_FirePetal_Mid_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Common.C0;Item:WID.Assault.FirePetal.Mid.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Common.10": {
         "LootPackageID": "WorldList.Weapons.Rarity.Common",
@@ -123816,9 +123600,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Common.12": {
-        "Name": "WorldList.Weapons.Rarity.Common.12",
         "LootPackageID": "WorldList.Weapons.Rarity.Common",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -123826,10 +123609,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -123841,15 +123621,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Common.C0;Item:WID.Assault.Heavy.Recoil.Athena.C",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Common.13": {
         "LootPackageID": "WorldList.Weapons.Rarity.Common",
@@ -124146,9 +123927,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Uncommon.09": {
-        "Name": "WorldList.Weapons.Rarity.Uncommon.09",
         "LootPackageID": "WorldList.Weapons.Rarity.Uncommon",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124156,10 +123936,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124171,15 +123948,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Uncommon.C0;Item:WID.Assault.FirePetal.Mid.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Uncommon.10": {
         "LootPackageID": "WorldList.Weapons.Rarity.Uncommon",
@@ -124212,9 +123990,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Uncommon.11": {
-        "Name": "WorldList.Weapons.Rarity.Uncommon.11",
         "LootPackageID": "WorldList.Weapons.Rarity.Uncommon",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124222,10 +123999,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124237,15 +124011,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Uncommon.C0;Item:WID.Assault.Heavy.Recoil.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Uncommon.12": {
         "LootPackageID": "WorldList.Weapons.Rarity.Uncommon",
@@ -124380,9 +124155,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.03": {
-        "Name": "WorldList.Weapons.Rarity.Rare.03",
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124390,10 +124164,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124405,15 +124176,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:WID.Pistol.HandCannon.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.04": {
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
@@ -124644,9 +124416,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.11": {
-        "Name": "WorldList.Weapons.Rarity.Rare.11",
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124654,10 +124425,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124669,15 +124437,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:WID.Assault.FirePetal.Mid.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.12": {
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
@@ -124710,9 +124479,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.13": {
-        "Name": "WorldList.Weapons.Rarity.Rare.13",
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124720,10 +124488,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124735,15 +124500,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:WID.Assault.Heavy.Recoil.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.14": {
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
@@ -124812,9 +124578,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.16": {
-        "Name": "WorldList.Weapons.Rarity.Rare.16",
         "LootPackageID": "WorldList.Weapons.Rarity.Rare",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124822,10 +124587,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124837,15 +124599,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:WID.Sniper.ToggleZoom.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.01": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
@@ -124881,9 +124644,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.02": {
-        "Name": "WorldList.Weapons.Rarity.Epic.02",
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -124891,10 +124653,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -124906,15 +124665,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.03": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
@@ -125178,9 +124938,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.11": {
-        "Name": "WorldList.Weapons.Rarity.Epic.11",
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -125188,10 +124947,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -125203,15 +124959,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.12": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
@@ -125310,9 +125067,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.15": {
-        "Name": "WorldList.Weapons.Rarity.Epic.15",
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -125320,10 +125076,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -125335,15 +125088,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:WID.Sniper.ToggleZoom.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.16": {
         "LootPackageID": "WorldList.Weapons.Rarity.Epic",
@@ -125445,9 +125199,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.02": {
-        "Name": "WorldList.Weapons.Rarity.Legendary.02",
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -125455,10 +125208,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -125470,15 +125220,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Legendary.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.03": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
@@ -125742,9 +125493,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.11": {
-        "Name": "WorldList.Weapons.Rarity.Legendary.11",
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -125752,10 +125502,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -125767,15 +125514,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Legendary.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.12": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
@@ -125874,9 +125622,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.15": {
-        "Name": "WorldList.Weapons.Rarity.Legendary.15",
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -125884,10 +125631,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -125899,15 +125643,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Legendary.C0;Item:WID.Sniper.ToggleZoom.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.16": {
         "LootPackageID": "WorldList.Weapons.Rarity.Legendary",
@@ -126306,9 +126051,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Mythic.11": {
-        "Name": "WorldList.Weapons.Rarity.Mythic.11",
         "LootPackageID": "WorldList.Weapons.Rarity.Mythic",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -126316,10 +126060,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -126331,15 +126072,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UR.WID_ToggleZoomSniper_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UR.WID_ToggleZoomSniper_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.Weapons.Rarity.Mythic.C0;Item:WID.Sniper.ToggleZoom.UR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Mythic.12": {
         "LootPackageID": "WorldList.Weapons.Rarity.Mythic",
@@ -126507,9 +126249,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.05": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.05",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -126517,10 +126258,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -126532,20 +126270,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_R_Ore_T03.WID_Pistol_HandCannon_Athena_R_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Pistol.HandCannon.Athena.R.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.06": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.06",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -126553,10 +126291,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -126568,20 +126303,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.07": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.07",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -126589,10 +126324,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -126604,15 +126336,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.08": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
@@ -127548,9 +127281,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.37": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.37",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -127558,10 +127290,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -127573,20 +127302,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Assault.Heavy.Recoil.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.38": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.38",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -127594,10 +127323,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -127609,20 +127335,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Assault.Heavy.Recoil.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.39": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.39",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.032,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -127630,10 +127356,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -127645,20 +127368,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.40": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.40",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0.008,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -127666,10 +127389,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -127681,15 +127401,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.41": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
@@ -127956,9 +127677,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.49": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.49",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -127966,10 +127686,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -127981,20 +127698,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_UC.WID_ToggleZoomSniper_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Sniper.ToggleZoom.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.50": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.50",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -128002,10 +127719,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -128017,20 +127731,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_R.WID_ToggleZoomSniper_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Sniper.ToggleZoom.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.51": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.51",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -128038,10 +127752,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -128053,20 +127764,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_VR.WID_ToggleZoomSniper_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Sniper.ToggleZoom.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.52": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Wep.52",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -128074,10 +127785,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -128089,31 +127797,28 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SniperToggleZoom/WID_ToggleZoomSniper_SR.WID_ToggleZoomSniper_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID.Sniper.ToggleZoom.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.01": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Consumables.01",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
         "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -128125,15 +127830,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+        "ItemDefinition": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Consumables.C0;Item:Consumable.MedKitV2",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.02": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
@@ -128232,9 +127935,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.05": {
-        "Name": "WorldList.GoldenPOI.DroneLoot.Consumables.05",
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
-        "Weight": 0,
+        "Weight": 0.05,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -128242,10 +127944,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -128257,15 +127956,13 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Consumables.C0;Item:WID.Athena.GoldenFruit",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.06": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
@@ -138888,9 +138585,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.13": {
-        "Name": "WorldList.AthenaHighConsumablesRare.13",
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -138898,10 +138594,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -138913,15 +138606,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Birthday.GiftBox",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.14": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
@@ -138957,20 +138651,16 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.15": {
-        "Name": "WorldList.AthenaHighConsumablesRare.15",
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -138982,15 +138672,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Aug.OnTheGoBag.01": {
         "LootPackageID": "WorldList.Aug.OnTheGoBag",
@@ -141402,9 +141093,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MMO.RTBoss.Wep.01": {
-        "Name": "WorldList.MMO.RTBoss.Wep.01",
         "LootPackageID": "WorldList.MMO.RTBoss.Wep",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -141412,10 +141102,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -141427,15 +141114,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.MMO.RTBoss.Wep.C0;Item:WID.Assault.FirePetal.Mid.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MMO.RTBoss.Wep.02": {
         "LootPackageID": "WorldList.MMO.RTBoss.Wep",
@@ -146619,9 +146307,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Assault.UC.01": {
-        "Name": "NPCItemList.Assault.UC.01",
         "LootPackageID": "NPCItemList.Assault.UC",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -146629,10 +146316,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -146644,20 +146328,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:NPCItemList.Assault.UC.C0;Item:WID.Assault.FirePetal.Mid.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Assault.R.01": {
-        "Name": "NPCItemList.Assault.R.01",
         "LootPackageID": "NPCItemList.Assault.R",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -146665,10 +146349,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -146680,20 +146361,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:NPCItemList.Assault.R.C0;Item:WID.Assault.FirePetal.Mid.Athena.R",
+        "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Assault.VR.01": {
-        "Name": "NPCItemList.Assault.VR.01",
         "LootPackageID": "NPCItemList.Assault.VR",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -146701,10 +146382,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -146716,20 +146394,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:NPCItemList.Assault.VR.C0;Item:WID.Assault.FirePetal.Mid.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Assault.SR.01": {
-        "Name": "NPCItemList.Assault.SR.01",
         "LootPackageID": "NPCItemList.Assault.SR",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -146737,10 +146415,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -146752,15 +146427,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:NPCItemList.Assault.SR.C0;Item:WID.Assault.FirePetal.Mid.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "NPCItemList.Assault.UC.02": {
         "LootPackageID": "NPCItemList.Assault.UC",
@@ -174351,9 +174027,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_Boss_D_Utility_3.01": {
-        "Name": "List_Boss_D_Utility_3.01",
         "LootPackageID": "List_Boss_D_Utility_3",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -174361,10 +174036,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -174376,15 +174048,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_Boss_D_Utility_3.C0;Item:WID.GrappleGloves",
+        "DurabilityPercentageOverride": 1.0
       },
       "List_Boss_D_Consumable.01": {
         "LootPackageID": "List_Boss_D_Consumable",
@@ -174948,9 +174621,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_Boss_Utility.06": {
-        "Name": "List_Boss_Utility.06",
         "LootPackageID": "List_Boss_Utility",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -174958,10 +174630,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -174973,15 +174642,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_Boss_Utility.C0;Item:WID.GrappleGloves",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_NPC_Solo_Consumable.01": {
         "LootPackageID": "LIST_NPC_Solo_Consumable",
@@ -175236,9 +174906,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_MapObjective_A_Boon.01": {
-        "Name": "List_MapObjective_A_Boon.01",
         "LootPackageID": "List_MapObjective_A_Boon",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -175246,10 +174915,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -175260,16 +174926,17 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "",
-        "ItemDefinition": "/TidalCraneBoonGameplay/Gameplay/StormForecast/PAID_TidalCrane_StormForecast.PAID_TidalCrane_StormForecast",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Rare",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_MapObjective_A_Boon.C0;Item:PAID_TidalCrane_StormForecast",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_Utility.01": {
         "LootPackageID": "LIST_MapObjective_Utility",
@@ -175371,9 +175038,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_Utility.04": {
-        "Name": "LIST_MapObjective_Utility.04",
         "LootPackageID": "LIST_MapObjective_Utility",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -175381,10 +175047,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -175396,15 +175059,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_MapObjective_Utility.C0;Item:WID.GrappleGloves",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_Consumable.01": {
         "LootPackageID": "LIST_MapObjective_Consumable",
@@ -175572,9 +175236,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_MapObjective_B_Boon.01": {
-        "Name": "List_MapObjective_B_Boon.01",
         "LootPackageID": "List_MapObjective_B_Boon",
-        "Weight": 0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -175582,10 +175245,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -175597,20 +175257,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TidalCraneBoonGameplay/Gameplay/Vulture/PAID_TidalCrane_Vulture.PAID_TidalCrane_Vulture",
+        "ItemDefinition": {
+          "AssetPathName": "/TidalCraneBoonGameplay/Gameplay/Vulture/PAID_TidalCrane_Vulture.PAID_TidalCrane_Vulture",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_MapObjective_B_Boon.C0;Item:PAID_TidalCrane_Vulture",
+        "DurabilityPercentageOverride": 1.0
       },
       "List_MapObjective_C_Boon.01": {
-        "Name": "List_MapObjective_C_Boon.01",
         "LootPackageID": "List_MapObjective_C_Boon",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -175618,10 +175278,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -175633,15 +175290,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+        "ItemDefinition": {
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_MapObjective_C_Boon.C0;Item:WID_OrbitalBombardment_Designator",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MapObjective_C_Solo_Gold.01": {
         "LootPackageID": "LIST_MapObjective_C_Solo_Gold",
@@ -178188,9 +177846,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_Drop_Premium_Orb.01": {
-        "Name": "List_Drop_Premium_Orb.01",
         "LootPackageID": "List_Drop_Premium_Orb",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -178198,10 +177855,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -178213,15 +177867,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+        "ItemDefinition": {
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_Drop_Premium_Orb.C0;Item:WID_OrbitalBombardment_Designator",
+        "DurabilityPercentageOverride": 1.0
       },
       "List_Drop_Premium_Mythic.01": {
         "LootPackageID": "List_Drop_Premium_Mythic",
@@ -178356,9 +178011,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "List_Drop_Premium_Utility.03": {
-        "Name": "List_Drop_Premium_Utility.03",
         "LootPackageID": "List_Drop_Premium_Utility",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -178366,10 +178020,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -178381,15 +178032,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:List_Drop_Premium_Utility.C0;Item:WID.GrappleGloves",
+        "DurabilityPercentageOverride": 1.0
       },
       "List_Drop_Premium_Piew.01": {
         "LootPackageID": "List_Drop_Premium_Piew",
@@ -180768,9 +180420,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList_OrbitalBombardment_OBItem.01": {
-        "Name": "WorldList_OrbitalBombardment_OBItem.01",
         "LootPackageID": "WorldList_OrbitalBombardment_OBItem",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -180778,10 +180429,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -180793,15 +180441,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+        "ItemDefinition": {
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList_OrbitalBombardment_OBItem.C0;Item:WID_OrbitalBombardment_Designator",
+        "DurabilityPercentageOverride": 1.0
       },
       "WorldList_OrbitalBombardment_Extras.01": {
         "LootPackageID": "WorldList_OrbitalBombardment_Extras",
@@ -181431,9 +181080,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Assault_Heavy_Recoil_Athena_SR.01": {
-        "Name": "LIST_Assault_Heavy_Recoil_Athena_SR.01",
         "LootPackageID": "LIST_Assault_Heavy_Recoil_Athena_SR",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -181441,10 +181089,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -181456,15 +181101,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_Assault_Heavy_Recoil_Athena_SR.C0;Item:WID.Assault.Heavy.Recoil.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_Assault_FirePetal_Fast_Athena_SR.01": {
         "LootPackageID": "LIST_Assault_FirePetal_Fast_Athena_SR",
@@ -181797,9 +181443,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Pistol_HandCannon_Athena_SR.01": {
-        "Name": "LIST_Pistol_HandCannon_Athena_SR.01",
         "LootPackageID": "LIST_Pistol_HandCannon_Athena_SR",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -181807,10 +181452,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -181822,20 +181464,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_SR_Ore_T03.WID_Pistol_HandCannon_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_Pistol_HandCannon_Athena_SR.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_Assault_Heavy_Recoil_Athena_VR.01": {
-        "Name": "LIST_Assault_Heavy_Recoil_Athena_VR.01",
         "LootPackageID": "LIST_Assault_Heavy_Recoil_Athena_VR",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -181843,10 +181485,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -181858,15 +181497,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_Assault_Heavy_Recoil_Athena_VR.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_Assault_FirePetal_Fast_Athena_VR.01": {
         "LootPackageID": "LIST_Assault_FirePetal_Fast_Athena_VR",
@@ -182133,9 +181773,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Pistol_HandCannon_Athena_VR.01": {
-        "Name": "LIST_Pistol_HandCannon_Athena_VR.01",
         "LootPackageID": "LIST_Pistol_HandCannon_Athena_VR",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -182143,10 +181782,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -182158,15 +181794,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_Pistol_HandCannon_Athena_VR.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_ExtendedMag.01": {
         "LootPackageID": "LIST_ExtendedMag",
@@ -182697,9 +182334,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Bombardment.01": {
-        "Name": "LIST_Bombardment.01",
         "LootPackageID": "LIST_Bombardment",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -182707,10 +182343,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -182722,15 +182355,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+        "ItemDefinition": {
+          "AssetPathName": "/OrbitalBombardment/Gameplay/WID_OrbitalBombardment_Designator.WID_OrbitalBombardment_Designator",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_Bombardment.C0;Item:WID_OrbitalBombardment_Designator",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_InjuredPrey.01": {
         "LootPackageID": "LIST_InjuredPrey",
@@ -183690,9 +183324,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_A_Weapon_1.01": {
-        "Name": "LIST_MilitaryRank_A_Weapon_1.01",
         "LootPackageID": "LIST_MilitaryRank_A_Weapon_1",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -183700,10 +183333,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -183715,15 +183345,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_MilitaryRank_A_Weapon_1.C0;Item:WID.Assault.Heavy.Recoil.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_A_Weapon_1.02": {
         "LootPackageID": "LIST_MilitaryRank_A_Weapon_1",
@@ -183822,9 +183453,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_A_Weapon_1.05": {
-        "Name": "LIST_MilitaryRank_A_Weapon_1.05",
         "LootPackageID": "LIST_MilitaryRank_A_Weapon_1",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -183832,10 +183462,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -183847,15 +183474,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_HandCannon_Athena_VR_Ore_T03.WID_Pistol_HandCannon_Athena_VR_Ore_T03",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_MilitaryRank_A_Weapon_1.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_A_Weapon_2.01": {
         "LootPackageID": "LIST_MilitaryRank_A_Weapon_2",
@@ -184350,9 +183978,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_S_Utility1.04": {
-        "Name": "LIST_MilitaryRank_S_Utility1.04",
         "LootPackageID": "LIST_MilitaryRank_S_Utility1",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -184360,10 +183987,7 @@
           "Y": 1
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -184375,15 +183999,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:LIST_MilitaryRank_S_Utility1.C0;Item:WID.GrappleGloves",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_MilitaryRank_S_Utility2.01": {
         "LootPackageID": "LIST_MilitaryRank_S_Utility2",
@@ -189564,9 +189189,8 @@
         "DurabilityPercentageOverride": 1.0
       },
       "AthenaHighConsumablesRare.09": {
-        "Name": "AthenaHighConsumablesRare.09",
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -189574,10 +189198,7 @@
           "Y": 2
         },
         "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
+        "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
         },
@@ -189589,303 +189210,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.HighShotgun.03": {
-        "Name": "AthenaLoot.Weapon.HighShotgun.03",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.HighSMG.16": {
-        "Name": "AthenaLoot.Weapon.HighSMG.16",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.AssaultAuto.14": {
-        "Name": "AthenaLoot.Weapon.AssaultAuto.14",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.AssaultAuto.15": {
-        "Name": "AthenaLoot.Weapon.AssaultAuto.15",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R.WID_Assault_FirePetal_Mid_Athena_R",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.HighAssaultAuto.04": {
-        "Name": "AthenaLoot.Weapon.HighAssaultAuto.04",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_SR.WID_Assault_CherrySmoke_SpireGun_Athena_SR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "AthenaLoot.Weapon.HighAssaultAuto.17": {
-        "Name": "AthenaLoot.Weapon.HighAssaultAuto.17",
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC.WID_Assault_FirePetal_Mid_Athena_UC",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "ApolloLoot.Weapon.AssaultAuto.21": {
-        "Name": "ApolloLoot.Weapon.AssaultAuto.21",
-        "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR.WID_Assault_FirePetal_Mid_Athena_VR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "ApolloLoot.Weapon.AssaultAuto.22": {
-        "Name": "ApolloLoot.Weapon.AssaultAuto.22",
-        "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR.WID_Assault_FirePetal_Mid_Athena_SR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Consumable.AthenaShockGrenade",
+        "DurabilityPercentageOverride": 1.0
       }
     }
   }

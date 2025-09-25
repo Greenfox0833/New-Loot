@@ -4,37 +4,18 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 # ==== 入出力（必要なら名前だけ変えてOK）====
-# ① LootCurrentSeasonLootPackages_Client（ベース）
+BASE_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")  # ①ベース
+SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")  # ①上書き
+COMP_PATH   = None          # ← カジュアルなので不要
+COMP_BK_PATH= None   # ← カジュアルなので不要
+HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")      # ② 任意
 
-ATHENA_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json"
-)
+OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootPackages_Client__final.json")
 
-BASE_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json"
-)
+# Hotfix の対象テーブル名（カジュアル BR 用）
+HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
+HOTFIX_TARGET_COMP   = None   # ← Comp は無効化
 
-# ② OverrideLootPackagesData_NoBuildBR（ベースへ上書き）
-NOBUILD_OVERRIDE_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json"
-)
-
-# ④ DeluluOverrideLootPackages_Client（NoBuildOverrideへ上書き）
-DELULU_OVERRIDE_PATH = Path(
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Delulu/DeluluOverrideLootPackages_Client.json"
-)
-
-HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # 任意（無ければスキップ）
-
-# 出力先（名前はお好みで）
-OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/DeluluCompositeLP_NoBuild__final.json")
-
-
-# Hotfix の対象テーブル名（段階ごとに限定）
-HOTFIX_TARGET_ATHENA   = "/Game/Items/Datatables/AthenaLootPackages_Client"
-HOTFIX_TARGET_BASE     = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
-HOTFIX_TARGET_NOBUILD  = "/LootCurrentSeason/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR"
-HOTFIX_TARGET_DELULU   = "/LootCurrentSeason/DataTables/Delulu/DeluluOverrideLootPackages_Client"
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 _num_head = re.compile(r'^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?')  # ★先頭の数値だけ抜く用
@@ -386,57 +367,50 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
 
 # ---------- メイン ----------
 def main():
-    # ① Athena を読み込み
-    athena_meta = read_datatable_json(ATHENA_PATH)
-    rows = athena_meta["Rows"]
-    print(f"[LOAD] Athena rows = {len(rows)}")
+    # ① Athena をベース、Season で上書き
+    base_meta   = read_datatable_json(BASE_PATH)
+    season_meta = read_datatable_json(SEASON_PATH)
+    base_rows   = base_meta["Rows"]
+    season_rows = season_meta["Rows"]
+    rep1, add1 = merge_rows(base_rows, season_rows)
+    print(f"[STEP1] base <- season : replaced={rep1}, added={add1}")
 
-    # ① Hotfix: Athena に対して
+    # ② Hotfix（LootCurrentSeasonLootPackages_Client のみ）
     if HOTFIX_PATH.exists():
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_ATHENA, stage_name="ATHENA")
+        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_SEASON, "SEASON")
     else:
-        print("[HOTFIX] file not found -> skip ATHENA stage")
+        print("[HOTFIX] skipped (file not found)")
 
-    # ② LootCurrentSeason を上書き
-    base_meta = read_datatable_json(BASE_PATH)
-    rep_base, add_base = merge_rows(rows, base_meta["Rows"])
-    print(f"[MERGE] Athena <- LootCurrentSeason : replaced={rep_base}, added={add_base}")
+    # ③ comp 上書き（None/未存在ならスキップ）
+    if COMP_PATH and isinstance(COMP_PATH, Path) and COMP_PATH.exists():
+        comp_meta = read_datatable_json(COMP_PATH)
+        comp_rows = comp_meta["Rows"]
+        rep3, add3 = merge_rows(base_rows, comp_rows)
+        print(f"[STEP3] (hotfixed-season) <- comp : replaced={rep3}, added={add3}")
+    else:
+        print("[STEP3] skipped (COMP_PATH is None or not found)")
 
-    # ③ Hotfix: LootCurrentSeason に対して
-    if HOTFIX_PATH.exists():
+    # ④ Hotfix（Comp側。テーブル名が無効(None)なら適用スキップ）
+    if HOTFIX_PATH.exists() and HOTFIX_TARGET_COMP:
         text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_BASE, stage_name="BASE")
+        apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_COMP, "COMP")
     else:
-        print("[HOTFIX] file not found -> skip BASE stage")
+        print("[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)")
 
-    # ④ NoBuildOverride を上書き
-    nobuild_meta = read_datatable_json(NOBUILD_OVERRIDE_PATH)
-    rep_nb, add_nb = merge_rows(rows, nobuild_meta["Rows"])
-    print(f"[MERGE] (Base) <- NoBuildOverride : replaced={rep_nb}, added={add_nb}")
-
-    # ⑤ Hotfix: NoBuildOverride
-    if HOTFIX_PATH.exists():
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_NOBUILD, stage_name="NOBUILD")
+    # ⑤ comp_backup 上書き（None/未存在ならスキップ）
+    if COMP_BK_PATH and isinstance(COMP_BK_PATH, Path) and COMP_BK_PATH.exists():
+        comp_bk_meta = read_datatable_json(COMP_BK_PATH)
+        comp_bk_rows = comp_bk_meta["Rows"]
+        rep5, add5 = merge_rows(base_rows, comp_bk_rows)
+        print(f"[STEP5] (hotfixed-comp) <- comp_backup : replaced={rep5}, added={add5}")
     else:
-        print("[HOTFIX] file not found -> skip NOBUILD stage")
+        print("[STEP5] skipped (COMP_BK_PATH is None or not found)")
 
-    # ⑥ DeluluOverride を上書き
-    delulu_meta = read_datatable_json(DELULU_OVERRIDE_PATH)
-    rep_de, add_de = merge_rows(rows, delulu_meta["Rows"])
-    print(f"[MERGE] (NoBuildOverride) <- DeluluOverride : replaced={rep_de}, added={add_de}")
-
-    # ⑦ Hotfix: DeluluOverride
-    if HOTFIX_PATH.exists():
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        apply_hotfix_for_table(rows, text, HOTFIX_TARGET_DELULU, stage_name="DELULU")
-    else:
-        print("[HOTFIX] file not found -> skip DELULU stage")
-
-    # 書き出し（Athena のメタを流用して最終Rowsを保存）
-    write_datatable_json(athena_meta, OUT_FINAL)
+    # 出力（メタは base_meta 流用、Rows は最終状態）
+    write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
+
 
 if __name__ == "__main__":
     main()

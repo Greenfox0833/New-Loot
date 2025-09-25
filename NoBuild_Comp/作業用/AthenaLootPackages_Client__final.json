@@ -32311,7 +32311,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.03": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -32344,7 +32344,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.04": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42005,8 +42005,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42022,14 +42022,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_VR.WID_Launcher_Shockwave_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_Launcher_Shockwave_Athena_VR",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.18": {
@@ -44305,7 +44305,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.11": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44326,14 +44326,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_JetPack_VR.AGID_JetPack_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:AGID.JetPack.VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Birthday.GiftBox",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.12": {
@@ -44342,8 +44342,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44359,14 +44359,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_VR.WID_Launcher_Shockwave_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_Launcher_Shockwave_Athena_VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.13": {
@@ -46487,8 +46487,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46504,14 +46504,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_JetPack_VR.AGID_JetPack_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:AGID.JetPack.VR",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.14": {
@@ -58930,7 +58930,7 @@
       },
       "WorldPKG.BirthdayPresent.Weps.01": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
-        "Weight": 1.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -58949,7 +58949,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.BirthdayPresent.Weps",
+        "LootPackageCall": "WorldList.BirthdayPresent.Medallion",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -58958,10 +58958,43 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C0;Call:WorldList.BirthdayPresent.Weps",
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C0;Call:WorldList.BirthdayPresent.Medallion",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Weps.02": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Empty",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C0;Call:WorldList.Empty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.03": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -58994,7 +59027,7 @@
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C1;Call:WorldList.BirthdayPresent.Weps.LightAmmo",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.BirthdayPresent.Weps.03": {
+      "WorldPKG.BirthdayPresent.Weps.04": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -59027,7 +59060,7 @@
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C2;Call:WorldList.BirthdayPresent.Weps.ShellAmmo",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.BirthdayPresent.Weps.04": {
+      "WorldPKG.BirthdayPresent.Weps.05": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -59060,7 +59093,7 @@
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C3;Call:WorldList.BirthdayPresent.Weps.MedAmmo",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.BirthdayPresent.Weps.05": {
+      "WorldPKG.BirthdayPresent.Weps.06": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -59093,7 +59126,7 @@
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C4;Call:WorldList.BirthdayPresent.Weps.RocketAmmo",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.BirthdayPresent.Weps.06": {
+      "WorldPKG.BirthdayPresent.Weps.07": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -59126,9 +59159,9 @@
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C5;Call:WorldList.BirthdayPresent.Weps.GoldBars",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.BirthdayPresent.Weps.07": {
+      "WorldPKG.BirthdayPresent.Weps.08": {
         "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59157,6 +59190,171 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.BirthdayPresent.Weps.ExoticWep",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.09": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.75,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Weapons.Rarity.Rare",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Rare",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.10": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Weapons.Rarity.Epic",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Epic",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.11": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.05,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Weapons.Rarity.Legendary",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C6;Call:WorldList.Weapons.Rarity.Legendary",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.12": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 7,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.BirthdayPresent.Consumable",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C7;Call:WorldList.BirthdayPresent.Consumable",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.13": {
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.35,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 8,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.BirthdayPresent.FireworksGun",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BirthdayPresent.Weps.C8;Call:WorldList.Empty",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BirthdayPresent.Mobility.01": {
@@ -127642,7 +127840,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.02": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -131557,7 +131755,7 @@
       },
       "WorldList.MMO.Bunker.FloorLoot.MythicWep.01": {
         "LootPackageID": "WorldList.MMO.Bunker.FloorLoot.MythicWep",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -131578,14 +131776,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_UR.WID_Shotgun_RadicalPump_Athena_UR",
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_UR.WID_Shotgun_Pump_FirePetal_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.Bunker.FloorLoot.MythicWep.C0;Item:WID.Shotgun.RadicalPump.Athena.UR",
+        "Annotation": ";List:WorldList.MMO.Bunker.FloorLoot.MythicWep.C0;Item:WID.Shotgun.Pump.FirePetal.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MMO.Bunker.FloorLoot.MythicWep.02": {
@@ -133172,6 +133370,171 @@
         "Annotation": ";List:WorldList.Aug.Harvester.Bush.C0;Item:Consumable.BushGrenade",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.BirthdayPresent.Consumable.01": {
+        "LootPackageID": "WorldList.BirthdayPresent.Consumable",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 10,
+          "Y": 10
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.Consumable.C0;Item:Gadget.BalloonsV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BirthdayPresent.Consumable.02": {
+        "LootPackageID": "WorldList.BirthdayPresent.Consumable",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.Consumable.C0;Item:Birthday.GiftBox",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BirthdayPresent.Consumable.03": {
+        "LootPackageID": "WorldList.BirthdayPresent.Consumable",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.Consumable.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BirthdayPresent.Consumable.04": {
+        "LootPackageID": "WorldList.BirthdayPresent.Consumable",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.Consumable.C0;Item:Consumable.Pizza",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BirthdayPresent.FireworksGun.01": {
+        "LootPackageID": "WorldList.BirthdayPresent.FireworksGun",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Fringeplank_Firework/Items/WIDs/WID_Firework_Gun.WID_Firework_Gun",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.FireworksGun.C0;Item:Consumable.FireworkGun",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.BirthdayPresent.Weps.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps",
         "Weight": 0.0,
@@ -133304,9 +133667,42 @@
         "Annotation": ";List:WorldList.BirthdayPresent.Weps.C0;Item:WID.FlexLegend.Pistol.Athena.VR",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.BirthdayPresent.Medallion.01": {
+        "LootPackageID": "WorldList.BirthdayPresent.Medallion",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/TidalCraneMedallionGameplay/Gameplay/BirthdayMedallion_8th/PAID_8thBirthday.PAID_8thBirthday",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BirthdayPresent.Medallion.C0;Item:PAID_8thBirthday",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.BirthdayPresent.Weps.LightAmmo.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.LightAmmo",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -133339,7 +133735,7 @@
       },
       "WorldList.BirthdayPresent.Weps.ShellAmmo.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.ShellAmmo",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -133372,7 +133768,7 @@
       },
       "WorldList.BirthdayPresent.Weps.MedAmmo.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.MedAmmo",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -133405,7 +133801,7 @@
       },
       "WorldList.BirthdayPresent.Weps.RocketAmmo.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.RocketAmmo",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -133438,7 +133834,7 @@
       },
       "WorldList.BirthdayPresent.Weps.GoldBars.01": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.GoldBars",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -133471,7 +133867,7 @@
       },
       "WorldList.BirthdayPresent.Weps.GoldBars.02": {
         "LootPackageID": "WorldList.BirthdayPresent.Weps.GoldBars",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -134053,7 +134449,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -138058,12 +138454,12 @@
       },
       "WorldList.AthenaHighConsumablesRare.09": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -138079,14 +138475,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+          "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown_Super.WID_Athena_LaunchPadThrown_Super",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Consumable.AthenaShockGrenade",
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_Athena_LaunchPadThrown_Super",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.10": {
@@ -138190,7 +138586,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.13": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -138211,14 +138607,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/Exotic/WID_Assault_FirePetal_Fast_Athena_X.WID_Assault_FirePetal_Fast_Athena_X",
+          "AssetPathName": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_Assault_FirePetal_Fast_Athena_X",
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Birthday.GiftBox",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.14": {
@@ -138260,8 +138656,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -138277,14 +138673,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_VR.WID_Launcher_Shockwave_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_Launcher_Shockwave_Athena_VR",
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Aug.OnTheGoBag.01": {
@@ -138458,8 +138854,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 10,
+          "Y": 10
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -138475,14 +138871,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/TidalCraneWeaponGameplay/Gameplay/Weapons/TerminatorAR/WID_Assault_TidalCrane_Athena_X.WID_Assault_TidalCrane_Athena_X",
+          "AssetPathName": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloAmmoBox.Consumables.2.C0;Item:WID_Assault_TidalCrane_Athena_X",
+        "Annotation": ";List:WorldList.ApolloAmmoBox.Consumables.2.C0;Item:Gadget.BalloonsV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloAmmoBox.Consumables.2.08": {
@@ -144592,7 +144988,7 @@
       },
       "WorldList.Boss.PB.Medallion.01": {
         "LootPackageID": "WorldList.Boss.PB.Medallion",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -144613,7 +145009,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/TidalCraneMedallionGameplay/Gameplay/FNMMedallions/InjuredPrey/PAID_TidalCrane_InjuredPrey.PAID_TidalCrane_InjuredPrey",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -148309,7 +148705,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty.WID_Athena_PizzaParty",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -169837,7 +170233,7 @@
       },
       "NPCItemList_Sniper_ReactorGrade_Athena_R_Ore_T03.01": {
         "LootPackageID": "NPCItemList_Sniper_ReactorGrade_Athena_R_Ore_T03",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -173467,7 +173863,7 @@
       },
       "List_Boss_D_Weapon.05": {
         "LootPackageID": "List_Boss_D_Weapon",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -173500,7 +173896,7 @@
       },
       "List_Boss_D_Weapon.06": {
         "LootPackageID": "List_Boss_D_Weapon",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -173562,6 +173958,39 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:List_Boss_D_Utility_1.C0;Item:WID_Launcher_Shockwave_Athena_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "List_Boss_D_Utility_1.02": {
+        "LootPackageID": "List_Boss_D_Utility_1",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 3,
+          "Y": 3
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:List_Boss_D_Utility_1.C0;Item:Consumable.MiniCrashPad",
         "DurabilityPercentageOverride": 1.0
       },
       "List_Boss_D_Utility_2.01": {
@@ -173628,39 +174057,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:List_Boss_D_Utility_3.C0;Item:WID.GrappleGloves",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "List_Boss_D_Utility_2.02": {
-        "LootPackageID": "List_Boss_D_Utility_2",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SilverBlazer/Athena_SilverBlazer_V2.Athena_SilverBlazer_V2",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:List_Boss_D_Utility_2.C0;Item:Consumable.ShieldBubble",
         "DurabilityPercentageOverride": 1.0
       },
       "List_Boss_D_Consumable.01": {
@@ -175600,7 +175996,7 @@
       },
       "List_Chest_Special_Item.05": {
         "LootPackageID": "List_Chest_Special_Item",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -175625,7 +176021,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:List_Chest_Special_Item.C0;Item:Consumable.MiniCrashPad",
+        "Annotation": ";List:List_Chest_Special_Item.C0;Item:Consumable.ThrownLaunchpad",
         "DurabilityPercentageOverride": 1.0
       },
       "List_Chest_Special_Item.06": {
@@ -175634,8 +176030,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -175651,14 +176047,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown_Super.WID_Athena_LaunchPadThrown_Super",
+          "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall.WID_Athena_AppleSunSmall",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:List_Chest_Special_Item.C0;Item:WID_Athena_LaunchPadThrown_Super",
+        "Annotation": ";List:List_Chest_Special_Item.C0;Item:Consumable.MiniCrashPad",
         "DurabilityPercentageOverride": 1.0
       },
       "List_Chest_Special_Consumable.01": {
@@ -182434,7 +182830,7 @@
       },
       "LIST_Bday_Consumable.01": {
         "LootPackageID": "LIST_Bday_Consumable",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -183877,7 +184273,7 @@
       },
       "LIST_MilitaryRank_SPlus_Weapon.03": {
         "LootPackageID": "LIST_MilitaryRank_SPlus_Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -183898,7 +184294,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_UR.WID_Assault_AutoHigh_Athena_UR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -185788,6 +186184,42 @@
         "bAllowBonusDrops": true,
         "Annotation": ";List:LIST_GrappleGloves.C0;Item:WID.GrappleGloves",
         "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BirthdayPresent.Weps.14": {
+        "Name": "WorldPKG.BirthdayPresent.Weps.14",
+        "LootPackageID": "WorldPKG.BirthdayPresent.Weps",
+        "Weight": 0.65,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 8,
+        "GameplayTags": {
+          "GameplayTags": [],
+          "ParentTags": []
+        },
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.Empty",
+        "ItemDefinition": "None",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1,
+        "Count": 0,
+        "RequiredTag": "None"
       },
       "NPCItemList.Consumable.16": {
         "LootPackageID": "NPCItemList.Consumable",

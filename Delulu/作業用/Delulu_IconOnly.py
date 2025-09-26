@@ -205,7 +205,7 @@ ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
 # 出力画像のサイズ（縦横ピクセル）
-ICON_SIZE = 150   # ここを 150, 600 などに変えるだけでOK
+ICON_SIZE = 600   # ここを 150, 600 などに変えるだけでOK
 ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
 
 DISABLE_TEXT_AND_BAR = False

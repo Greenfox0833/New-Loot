@@ -208,8 +208,9 @@ ONLY_WORLDLIST_KEYS = None
 ICON_SIZE = 600   # ここを 150, 600 などに変えるだけでOK
 ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
 
-DISABLE_TEXT_AND_BAR = False
-DISABLE_RARITY_ICON  = False
+# RUN_OPTIONS の値に合わせて無効化フラグを適用
+DISABLE_TEXT_AND_BAR = RUN_OPTIONS.get("disable_text_and_bar", True)
+DISABLE_RARITY_ICON  = RUN_OPTIONS.get("disable_rarity_icon", True)
 
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/items_unique_min.json"

@@ -190,7 +190,7 @@ ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
 # 出力画像のサイズ（縦横ピクセル）
-ICON_SIZE = 150   # ここを 150, 600 などに変えるだけでOK
+ICON_SIZE = 600   # ここを 150, 600 などに変えるだけでOK
 ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
 
 # RUN_OPTIONS の値に合わせて無効化フラグを適用
@@ -202,7 +202,7 @@ INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR/IconOnly/150"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/BR/IconOnly"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:

@@ -67,7 +67,7 @@ VERSION_PREFIX = "v37.10"  # 必要に応じて変更
 # "prewarm"  : JSON作成 → アイコンDLのみ（画像は作らない）
 # "json"     : JSON作成のみ
 # "dryrun"   : 何もしない
-RUN_MODE = "pipeline"
+RUN_MODE = "icons_only"
 
 # 追加オプション（必要時だけ調整）
 RUN_OPTIONS = {
@@ -79,15 +79,20 @@ RUN_OPTIONS = {
     "skip_if_final_exists": True,  # 生成済み最終pngがあればスキップ
     "skip_if_icon_cached": False,  # ★pipelineではFalseにして、キャッシュがあっても画像は作る
     "enable_image_cache": True,    # エクスポートPNGのローカルキャッシュを使う
+
+    # ★追加: 描画の無効化スイッチ
+    "disable_text_and_bar": True,  # 黒帯（下部の半透明バー）とアイテム名テキストを無効化
+    "disable_rarity_icon":  True,  # レアリティアイコン（センター下の小アイコン）を無効化
 }
 
 # ---- プロファイル定義（内部フラグに展開） ----
 PROFILE_PRESETS = {
-    "pipeline": dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True),
-    "images":   dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True),
-    "prewarm":  dict(do_hotfix=True, enable_icon_cache_prewarm=True,  enable_image_creation=False),
-    "json":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False),
-    "dryrun":   dict(do_hotfix=True, enable_icon_cache_prewarm=False, enable_image_creation=False),
+    "pipeline":   dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=True,  do_json=True,  only_minlist=False),
+    "images":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=True,  do_json=True,  only_minlist=False),
+    "prewarm":    dict(do_hotfix=True,  enable_icon_cache_prewarm=True,  enable_image_creation=False, do_json=True,  only_minlist=False),
+    "json":       dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False, do_json=True,  only_minlist=False),
+    "icons_only": dict(do_hotfix=False, enable_icon_cache_prewarm=False, enable_image_creation=True,  do_json=False, only_minlist=True),
+    "dryrun":     dict(do_hotfix=True,  enable_icon_cache_prewarm=False, enable_image_creation=False, do_json=False, only_minlist=False),
 }
 _p = PROFILE_PRESETS.get(RUN_MODE, PROFILE_PRESETS["pipeline"])
 
@@ -101,6 +106,82 @@ ENABLE_IMAGE_CREATION      = _p["enable_image_creation"]
 ENABLE_IMAGE_CACHE         = RUN_OPTIONS["enable_image_cache"]
 SKIP_IF_FINAL_EXISTS       = RUN_OPTIONS["skip_if_final_exists"]
 SKIP_IF_ICON_ALREADY_CACHED= RUN_OPTIONS["skip_if_icon_cached"]
+
+# ★追加
+DO_JSON_BUILD              = _p.get("do_json", True)
+ONLY_MINLIST               = _p.get("only_minlist", False)
+
+# ---------------- 設定に追加 ----------------
+# 特別計算ルール: (RowName, ValidLootPackages.ID) のタプルで指定
+# True = Percent×(Weight÷TotalListWeight)
+# False = (Weight÷TotalListWeight)×100
+SPECIAL_LIST_PERCENT_RULES = {
+    "Loot_AthenaFloorLoot": {
+        "WorldPKG.AthenaLoot.Weapon.Shotgun.01",
+        "WorldPKG.AthenaLoot.Weapon.Handgun.01",
+        "WorldPKG.AthenaLoot.Weapon.SMG",
+        "WorldPKG.AthenaLoot.Weapon.AssaultAuto.01",
+        "WorldPKG.AthenaLoot.Weapon.Sniper.01",
+        "WorldPKG.AthenaLoot.Weapon.Rocket.01",
+        "WorldPKG.AthenaLoot.Consumable.01",
+        "WorldPKG.AthenaLoot.Ammo",
+        "WorldPKG.AthenaLoot.Resources",
+        "WorldList.AthenaLoot.Empty",
+    },
+    "LTG_Chest_Special": {
+        "PKG_Chest_Special.05",
+        "PKG_Chest_Special.11"
+
+    },
+    "Loot_AthenaTreasure": {
+        "WorldPKG.AthenaLoot.Weapon.HighShotgun.01",
+        "WorldPKG.AthenaLoot.Weapon.HighSMG.01",
+        "WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.01",
+        "WorldPKG.AthenaLoot.Weapon.HighSniper.01",
+        "WorldPKG.AthenaLoot.Weapon.HighRocket.01",
+        "WorldPKG.AthenaLoot.Weapon.HighHandgun.01",
+        "WorldPKG.AthenaLoot.Weapon.Exotic.01",
+        "WorldPKG.AthenaLoot.Weapon.Mythic.01",
+    },
+    "Loot_ApolloTreasure_Rare": {
+        "WorldPKG.ApolloLoot.Weapon.HighShotgun.01",
+        "WorldPKG.ApolloLoot.Weapon.SMG.01",
+        "WorldPKG.ApolloLoot.Weapon.AssaultAuto.01",
+        "WorldPKG.ApolloLoot.Weapon.Sniper.01",
+        "WorldPKG.ApolloLoot.Weapon.Rocket.01",
+        "WorldPKG.ApolloLoot.Weapon.HighHandgun.01",
+        "WorldPKG.ApolloLoot.Weapon.Sp.01",
+        "WorldPKG.ApolloLoot.Weapon.Ex.01",
+        "WorldPKG.ApolloLoot.Weapon.Mythic.01",
+        "WorldPKG.MythicRandom.01",
+        "WorldPKG.ExoticRandom.01",
+        "WorldPKG.MythicGFish.01",
+        "WorldPKG.ExoticBundle.01",
+        "WorldPKG.ExoticBundle.02",
+        "WorldPKG.ExoticBundle.03",
+        "WorldPKG.ExoticBundle.04",
+        "WorldPKG.ExoticBundle.05"
+    },
+    "Loot_AthenaSupplyDrop": {
+        "WorldPKG.AthenaSupplyDrop.Weapon.Assault.01",
+        "WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.01",
+        "WorldPKG.AthenaSupplyDrop.Weapon.Handgun.01",
+        "WorldPKG.AthenaSupplyDrop.Weapon.SMG.01",
+        "WorldPKG.AthenaSupplyDrop.Sp.Weapon.01",
+        "WorldPKG.AthenaSupplyDrop.Ex.01",
+        "WorldPKG.AthenaSupplyDrop.Mythic.01",
+    },
+    "LTG_Swarmer": {
+        "WorldPKG_Swarmer.01",
+        "WorldPKG_Swarmer.02",
+        "WorldPKG_Swarmer.03",
+    },
+    "Loot_BirthdayPresents": {
+        "WorldPKG.BirthdayPresent.Weps.09",
+        "WorldPKG.BirthdayPresent.Weps.10",
+        "WorldPKG.BirthdayPresent.Weps.11"
+    }
+}
 
 # --- 生成対象フィルタ（任意） ---
 # いずれも None なら無効、セット/リストなら一致したものだけ画像を作る
@@ -123,13 +204,19 @@ ONLY_TIERGROUPS = {
 ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
+# 出力画像のサイズ（縦横ピクセル）
+ICON_SIZE = 150   # ここを 150, 600 などに変えるだけでOK
+ITEM_ICON_SCALE = 0.67  # アイテムアイコンをキャンバスに対して何倍で配置するか（0.67=約2/3）
+
+DISABLE_TEXT_AND_BAR = False
+DISABLE_RARITY_ICON  = False
 
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Delulu/作業用/items_unique_min.json"
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Delulu"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Delulu/IconOnly"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -610,14 +697,16 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         if not icon_path:
             return
 
+
         # 背景
-        canvas_size = 600
+        canvas_size = ICON_SIZE
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
             bg_image = Image.open(bg_path).convert("RGBA").resize((canvas_size, canvas_size))
         except Exception:
             return
         canvas = bg_image.copy()
+
 
         # 弾薬アイコン（任意）
         ammo_data = props.get("AmmoData")
@@ -646,10 +735,12 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
                 save_icon_cache()
         except Exception:
             return
-        icon_resized = icon_image.resize((400, 400), resample=Image.LANCZOS)
+        icon_size = int(canvas_size * ITEM_ICON_SCALE)
+        icon_resized = icon_image.resize((icon_size, icon_size), resample=Image.LANCZOS)
         pos_x = (canvas.width - icon_resized.width) // 2
         pos_y = (canvas.height - icon_resized.height) // 2
         canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
+
 
         # ステータス（フラグで制御）
         if DRAW_STATS:
@@ -657,33 +748,41 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
             if stats:
                 overlay_stat_template_with_numbers(canvas, stats, STAT_TEMPLATE_PATH)
 
-        # 下部バー（半透明）
-        overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
-        od = ImageDraw.Draw(overlay)
-        od.rectangle([(0, 500), (canvas.width, 600)], fill=(0, 0, 0, 128))
-        canvas = Image.alpha_composite(canvas, overlay)
-
+        # === 下部バー（半透明）＋レアリティアイコン＋アイテム名テキスト ===
+        # それぞれ個別にON/OFFできるように分岐
         draw = ImageDraw.Draw(canvas)
 
-        # レアリティアイコン（テキストより先に描画して、文字が上に来るようにする）
-        rarity_icon_path = os.path.join(RARITY_ICON_DIR, f"{rarity}.png")
-        if os.path.exists(rarity_icon_path):
-            try:
-                rimg = Image.open(rarity_icon_path).convert("RGBA")
-                target_h = 32
-                tw = int(target_h * rimg.width / rimg.height)
-                rimg = rimg.resize((tw, target_h), Image.LANCZOS)
-                canvas.paste(rimg, ((canvas.width - tw)//2, 515), rimg)
-            except Exception:
-                pass
+        # 黒帯＋テキストを描く場合のみ、下地となる半透明バーを描画
+        if not DISABLE_TEXT_AND_BAR:
+            overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+            od = ImageDraw.Draw(overlay)
+            od.rectangle([(0, 500), (canvas.width, 600)], fill=(0, 0, 0, 128))
+            canvas = Image.alpha_composite(canvas, overlay)
+            draw = ImageDraw.Draw(canvas)  # 合成後に描画対象を更新
 
-        # アイテム名（最後に描画して最前面にする）
-        font = fit_font(draw, weapon_name, canvas.width - 40, max_size=28, min_size=14)
-        bbox = draw.textbbox((0, 0), weapon_name, font=font)
-        text_w = bbox[2] - bbox[0]
-        text_h = bbox[3] - bbox[1]
-        text_y = 500 + (100 - text_h)//2 + 14
-        draw.text(((canvas.width - text_w)//2, text_y), weapon_name, font=font, fill="white")
+        # レアリティアイコン（個別に制御）
+        if not DISABLE_RARITY_ICON:
+            rarity_icon_path = os.path.join(RARITY_ICON_DIR, f"{rarity}.png")
+            if os.path.exists(rarity_icon_path):
+                try:
+                    rimg = Image.open(rarity_icon_path).convert("RGBA")
+                    target_h = 32
+                    tw = int(target_h * rimg.width / rimg.height)
+                    rimg = rimg.resize((tw, target_h), Image.LANCZOS)
+                    # 黒帯あり：従来どおり 515px 近辺に配置
+                    # 黒帯なし：同位置にそのまま配置（必要なら後で調整可）
+                    canvas.paste(rimg, ((canvas.width - tw)//2, 515), rimg)
+                except Exception:
+                    pass
+
+        # アイテム名（個別に制御）
+        if not DISABLE_TEXT_AND_BAR:
+            font = fit_font(draw, weapon_name, canvas.width - 40, max_size=28, min_size=14)
+            bbox = draw.textbbox((0, 0), weapon_name, font=font)
+            text_w = bbox[2] - bbox[0]
+            text_h = bbox[3] - bbox[1]
+            text_y = 500 + (100 - text_h)//2 + 14
+            draw.text(((canvas.width - text_w)//2, text_y), weapon_name, font=font, fill="white")
 
         # 右上パーセント表示
         if SHOW_PERCENT and list_percent_text:
@@ -851,8 +950,7 @@ def _asset_path_from_row(row: dict) -> str:
 def build_summary(rows_lt: dict, rows_lp: dict):
     id_to_call = {k: v.get("LootPackageCall", "") for k, v in rows_lp.items()}
 
-
-        # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
+    # (LootPackageID, LootPackageCategory) -> [.NN行…] の索引
     lp_by_idcat = defaultdict(list)
     for row_key, row in rows_lp.items():
         lp_id = row.get("LootPackageID", "")
@@ -862,32 +960,33 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         except Exception:
             lp_cat = 0
         lp_call   = row.get("LootPackageCall", "") or ""
-        lp_weight = as_float(row.get("Weight", row.get("weight", 0.0)))
+        lp_weight = as_float(row.get("Weight", 0.0))
 
-        lp_by_idcat[(lp_id, lp_cat)].append({
-            "Key": row_key,      # 例: WorldPKG.AthenaLoot.Weapon.HighShotgun.03
-            "Call": lp_call,     # 例: WorldList.AthenaHighConsumables
-            "Weight": lp_weight, # LP行のWeight（Packagesに書く）
-        })
+        # (A) 0 重みの LootPackage は索引に入れない（根治）
+        if lp_weight > 0.0:
+            lp_by_idcat[(lp_id, lp_cat)].append({
+                "Key": row_key,
+                "Call": lp_call,
+                "Weight": lp_weight,
+            })
 
     # .NN の昇順で安定化
     for k in lp_by_idcat:
         lp_by_idcat[k].sort(key=lambda d: key_suffix_num(d["Key"]))
 
-
     # WorldList.* の中身（重み＆AssetPath）
     worldlist_map = defaultdict(list)
     for row_key, row in rows_lp.items():
         if not isinstance(row, dict):
-            continue  # 行そのものがdictじゃない場合はスキップ（任意）
+            continue
         wl_id = row.get("LootPackageID", "")
+        w = as_float(row.get("Weight", 0.0))
         worldlist_map[wl_id].append({
             "Key": row_key,
-            "Weight": as_float(row.get("Weight", row.get("weight", 0.0))),  # ← floatへ強制変換
+            "Weight": w,
             "AssetPathName": _asset_path_from_row(row),
-            "CountItem": (row.get("CountRange") or {}).get("X")
+            "CountItem": (row.get("CountRange") or {}).get("X"),
         })
-
 
     for wl_id in worldlist_map:
         worldlist_map[wl_id].sort(key=lambda x: key_suffix_num(x["Key"]))
@@ -898,13 +997,10 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         tg = row.get("TierGroup", "")
         if not tg or (FILTER_TIERGROUP and tg != FILTER_TIERGROUP):
             continue
-        if as_float(row.get("Weight", row.get("weight", 0.0))) == 0.0:
+        if row.get("Weight", 0.0) == 0.0:
             continue
 
         loot_pkg = row.get("LootPackage", "")
-        weight_array = row.get("LootPackageCategoryMinArray", [])
-
-                # LootNumber 構造（Category の内容を導入）
         valid_groups = []
         min_array = row.get("LootPackageCategoryMinArray", [])
         for ln, val in enumerate(min_array):  # LootNumber = 0,1,2,...
@@ -912,35 +1008,33 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                 matches = lp_by_idcat.get((loot_pkg, ln), [])
                 packages = []
                 for m in matches:
+                    # (B) マッチ後の安全弁：0以下は最終段で弾く
+                    if as_float(m.get("Weight", m.get("weight", 0.0))) <= 0.0:
+                        continue
+
                     call = m["Call"]
 
                     # ListItems（Weight>0 & AssetPathNameありのみ）
                     list_items = []
                     if call:
-                        # '.' / '_' ゆれは不要なら省略可（必要なら keys = (call, call.replace(".", "_"), call.replace("_", ".")) で回す）
                         for c in worldlist_map.get(call, []):
-                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                            if as_float(c.get("Weight", 0.0)) > 0.0 and c.get("AssetPathName"):
                                 list_items.append({
-                                    "WorldListID": c["Key"],           # ★ 追加：WorldList の行キー（例: WorldList.ApolloLoot... .01）
-                                    "Weight": c["Weight"],
+                                    "WorldListID": c["Key"],
+                                    "Weight": as_float(c["Weight"]),
                                     "AssetPathName": c["AssetPathName"],
-                                    "CountItem": c.get("CountItem")
+                                    "CountItem": c.get("CountItem"),
                                 })
 
-
                     total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
-
-                    pkg_weight = as_float(m.get("Weight", m.get("weight", 0.0)))
-                    if pkg_weight <= 0.0:
-                        continue  # 0.0 のパッケージは追加しない
 
                     packages.append({
                         "ID": m["Key"],
                         "Call": call,
                         "Count": int(val),
-                        "weight": round(pkg_weight, 6),
+                        "weight": round(as_float(m["Weight"]), 6),
                         "TotalListWeight": round(total_list_weight, 6),
-                        "ListItems": list_items
+                        "ListItems": list_items,
                     })
 
                 if packages:
@@ -951,7 +1045,7 @@ def build_summary(rows_lt: dict, rows_lp: dict):
 
         entry = {
             "RowName": row_name,
-            "Weight": round(as_float(row.get("Weight", row.get("weight", 0.0))), 6),
+            "Weight": round(row.get("Weight", 0.0), 6),
             "LootPackage": loot_pkg
         }
         if valid_groups:
@@ -966,49 +1060,49 @@ def build_summary(rows_lt: dict, rows_lp: dict):
             percent = round((item["Weight"] / total_weight) * 100, 4) if total_weight else 0.0
             if "ValidLootPackages" in item:
                 for group in item["ValidLootPackages"]:
-
-                    # ★追加: 同一 LootNumber 内の Package 合計weight（Package%算出用）
-                    pkg_sum_in_group = sum(
-                        as_float(p.get("weight", p.get("Weight", 0.0)))
-                        for p in group.get("Packages", [])
-                    ) or 0.0
-
                     for v_pkg in group.get("Packages", []):
-                        tw = v_pkg.get("TotalListWeight", 0.0)
+                        tw = as_float(v_pkg.get("TotalListWeight", 0.0))
                         new_list_items = []
 
-                        # SPECIAL 判定（既存のまま）
-                        pkg_weight = v_pkg.get("weight", v_pkg.get("Weight", 0.0))
-                        package_percent = round(
-                            (as_float(pkg_weight) / pkg_sum_in_group) * 100, 6
-                        ) if pkg_sum_in_group > 0 else 0.0
+                        # SPECIAL 判定は v_pkg["ID"]（= 各 .NN のID）で行う
+                        targets = SPECIAL_LIST_PERCENT_RULES.get(tg, set())
+                        full_id = v_pkg.get("ID", "")
+                        m = re.match(r"^(.*)\.(\d{2})$", full_id)
+                        family = m.group(1) if m else full_id
+                        exact = {t for t in targets if re.search(r"\.\d{2}$", t)}
+                        families = {t for t in targets if not re.search(r"\.\d{2}$", t)}
+                        use_special = (full_id in exact) or any(family.startswith(t) for t in families)
+
+                        # (C) 親パッケージの重みを数値化。0以下なら子は常に 0%
+                        pkg_weight = as_float(v_pkg.get("weight", v_pkg.get("Weight", 0.0)))
 
                         for li in v_pkg.get("ListItems", []):
-                            list_percent = round((li["Weight"] / tw) * 100, 4) if tw > 0 else 0.0
-                            list_percent_local = round((li["Weight"] / tw) * 100, 6) if tw > 0 else 0.0
-                            effective_percent_per_roll = round(
-                                (percent / 100.0) * (package_percent / 100.0) * list_percent_local,
-                                6
-                            )
+                            w = as_float(li.get("Weight", 0.0))
+                            if pkg_weight <= 0.0 or tw <= 0.0 or w <= 0.0:
+                                list_percent = 0.0
+                            else:
+                                if use_special:
+                                    if percent == 100:
+                                        list_percent = round(pkg_weight * (w / tw) * 100, 4)
+                                    else:
+                                        list_percent = round(percent * (w / tw), 4)
+                                else:
+                                    list_percent = round((w / tw) * 100, 4)
+
                             asset_path = li.get("AssetPathName")
 
                             new_list_items.append({
                                 "WorldListID": li.get("WorldListID"),
-                                "Weight": li["Weight"],
-
-                                # ✅ ListPercent / RowPercent / PackagePercent を削除
-                                #    ListPercentLocal と EffectivePercentPerRoll のみ残す
-                                "ListPercentLocal": list_percent_local,
-                                "EffectivePercentPerRoll": effective_percent_per_roll,
-
+                                "Weight": w,
+                                "ListPercent": list_percent,
                                 "rarity": get_rarity_by_asset(asset_path),
                                 "AssetPathName": asset_path,
-                                "CountItem": li.get("CountItem")
+                                "CountItem": li.get("CountItem"),
                             })
 
                         v_pkg["ListItems"] = new_list_items
 
-
+            # 出力順序の整形
             ordered = {
                 "RowName": item["RowName"],
                 "Weight": item["Weight"],
@@ -1018,7 +1112,9 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                 if k not in ("RowName", "Weight"):
                     ordered[k] = v
             items[idx] = ordered
+
         result[tg] = {"TotalWeight": round(total_weight, 6), "Items": items}
+
     return result
 
 def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:
@@ -1030,125 +1126,6 @@ def _allow_emit(tg: str, rowname: str, worldlist_key: str) -> bool:
         return False
     return True
 
-def build_br_lootdata_compact_all(summary: dict, target_tg: str = "Loot_ApolloTreasure_Rare") -> dict:
-    """
-    先頭キーが target_tg（既定: Loot_ApolloTreasure_Rare）の JSON を作る。
-    形:
-    {
-      "Loot_ApolloTreasure_Rare": {
-        "TotalWeight": <元のまま>,
-        "Items": [
-          {
-            "LootNumber_0": {"Packages": [...]},  # 同一LN内は Call重複を1件に間引き
-            "LootNumber_1": {"Packages": [...]},
-            ...
-          }
-        ]
-      }
-    }
-    ・合計値やPercent等の再計算はしない
-    ・Packages の ListItems などは元summaryのままコピー
-    """
-    if not isinstance(summary, dict) or target_tg not in summary:
-        return {}
-
-    tg_block = summary[target_tg]
-    items = tg_block.get("Items", []) or []
-
-    # LNごとの集約バケット
-    ln_to_packages: dict[int, list] = {}
-    ln_seen_calls: dict[int, set] = {}
-
-    for item in items:
-        for group in (item.get("ValidLootPackages") or []):
-            ln = group.get("LootNumber")
-            if not isinstance(ln, int):
-                continue
-
-            if ln not in ln_to_packages:
-                ln_to_packages[ln] = []
-                ln_seen_calls[ln] = set()
-
-            for pkg in (group.get("Packages") or []):
-                call = (pkg.get("Call") or "").strip()
-                # 同一LN内で Call が重複していたら最初の1件だけ残す
-                if call in ln_seen_calls[ln]:
-                    continue
-                ln_seen_calls[ln].add(call)
-                ln_to_packages[ln].append(pkg)  # 内容はそのまま（再計算なし）
-
-    # Items[0] の中に LootNumber_X を横並びで格納
-    ln_blocks = {}
-    for ln in sorted(ln_to_packages.keys()):
-        pkgs = ln_to_packages[ln]
-        call_count = len(pkgs)  # ★ 同一LootNumber内のCall数（重複間引き後）
-        # ★ Call数に応じて表示キーを削除
-        for _p in pkgs:
-            for _li in (_p.get("ListItems") or []):
-                if call_count <= 1:
-                    _li.pop("EffectivePercentPerRoll", None)
-                else:
-                    _li.pop("ListPercentLocal", None)
-        ln_blocks[f"LootNumber_{ln}"] = {"Packages": pkgs}
-
-    return {
-        target_tg: {
-            "TotalWeight": tg_block.get("TotalWeight", 0.0),
-            "Items": [ ln_blocks ] if ln_blocks else []
-        }
-    }
-
-def build_br_lootdata_all_tgs(summary: dict) -> dict:
-    """
-    すべてのTierGroupを対象に、各TGの中身を
-    Items[0] に LootNumber_X をキーとして横並びにした形でまとめる。
-    ・同一LootNumber内の Call 重複は“最初の1件だけ”残す
-    ・再計算なし（値は元summaryのまま）
-    """
-    if not isinstance(summary, dict):
-        return {}
-
-    out = {}
-    for tg, tg_block in summary.items():
-        items = (tg_block or {}).get("Items", []) or []
-
-        ln_to_packages = {}
-        ln_seen_calls = {}
-
-        for item in items:
-            for group in (item.get("ValidLootPackages") or []):
-                ln = group.get("LootNumber")
-                if not isinstance(ln, int):
-                    continue
-                ln_to_packages.setdefault(ln, [])
-                ln_seen_calls.setdefault(ln, set())
-
-                for pkg in (group.get("Packages") or []):
-                    call = (pkg.get("Call") or "").strip()
-                    if call in ln_seen_calls[ln]:
-                        continue
-                    ln_seen_calls[ln].add(call)
-                    ln_to_packages[ln].append(pkg)
-
-        ln_blocks = {}
-        for ln in sorted(ln_to_packages.keys()):
-            pkgs = ln_to_packages[ln]
-            call_count = len(pkgs)  # ★ 同一LootNumber内のCall数（重複間引き後）
-            # ★ Call数に応じて表示キーを削除
-            for _p in pkgs:
-                for _li in (_p.get("ListItems") or []):
-                    if call_count <= 1:
-                        _li.pop("EffectivePercentPerRoll", None)
-                    else:
-                        _li.pop("ListPercentLocal", None)
-            ln_blocks[f"LootNumber_{ln}"] = {"Packages": pkgs}
-
-
-        out[tg] = {
-            "TotalWeight": tg_block.get("TotalWeight", 0.0),
-            "Items": [ln_blocks] if ln_blocks else []
-        }
-    return out
 
 # ===== summary から画像化タスクを作る（TierGroup/WorldListごと保存先） =====
 def iter_tasks_from_summary_all(summary: dict):
@@ -1285,9 +1262,7 @@ def prewarm_icon_cache(summary: dict):
             if not icon_path:
                 continue
 
-            icon_norm = normalize_asset_path(icon_path)
-            _ = fetch_export_image_as_pil(icon_norm)  # ★正規化済みでプリウォーム
-
+            _ = fetch_export_image_as_pil(icon_path)  # ★キャッシュ保存（生成はしない）
         except Exception:
             pass
 
@@ -1311,7 +1286,7 @@ def main():
     minlist_path     = Path(INPUT_MINLIST_JSON)  # 例: E:/.../BR/作業用/items_unique_min.json
 
     try:
-        print("===== BR: pipeline start =====")
+        print("===== Delulu: pipeline start =====")
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
@@ -1319,40 +1294,32 @@ def main():
             subprocess.run([sys.executable, r"Delulu/作業用/LootTier変更.py"], check=True)
             print("✓ Hotfix 適用完了")
 
-        # 1) まとめJSONの作成（LT/LP → summary）と保存
-        rows_lt = load_rows(str(lt_json_path))
-        rows_lp = load_rows(str(lp_json_path))
-        summary = build_summary(rows_lt, rows_lp)
-        try:
-            enrich_summary_with_names(summary)  # あれば実行（失敗しても続行）
-        except Exception:
-            pass
+        summary = None
+        if DO_JSON_BUILD and not ONLY_MINLIST:
+            # 1) まとめJSONの作成（LT/LP → summary）と保存
+            rows_lt = load_rows(str(lt_json_path))
+            rows_lp = load_rows(str(lp_json_path))
+            summary = build_summary(rows_lt, rows_lp)
+            try:
+                enrich_summary_with_names(summary)
+            except Exception:
+                pass
 
-        version_save_dir.mkdir(parents=True, exist_ok=True)
-        versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
-        Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✅ まとめJSONを作成: {versioned_filename}")
+            version_save_dir.mkdir(parents=True, exist_ok=True)
+            versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
+            Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"✅ まとめJSONを作成: {versioned_filename}")
 
-        # ✅ 追加: BR_LootData_日付時間.json を出力（Loot_ApolloTreasure_Rare 先頭・全LootNumberを含む）
-        from datetime import datetime
-        br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/Delulu/LootPercent")
-        br_lootdata_dir.mkdir(parents=True, exist_ok=True)
-        br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
-        br_view = build_br_lootdata_all_tgs(summary)  # ← 全TG対応の新関数を使う
-        Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✅ BR_LootData を作成: {br_out}")
+            # 2) LootSummary を実行（抽出 → 比較）
+            subprocess.run(
+                [sys.executable, str(loot_summary_py),
+                "--scan", str(version_save_dir),
+                "--diff-scan", str(version_save_dir)],
+                check=True
+            )
+            print("✅ LootSummary 実行完了（抽出→比較）")
 
-        # 2) LootSummary を実行（抽出 → 比較）
-        subprocess.run(
-            [sys.executable, str(loot_summary_py),
-             "--scan", str(version_save_dir),
-             "--diff-scan", str(version_save_dir)],
-            check=True
-        )
-        print("✅ LootSummary 実行完了（抽出→比較）")
-
-        # 3) MinList を読み込み（items_unique_min.json）
+        # 3) MinList を読み込み（icons_only ではここだけ実行）
         try:
             with open(minlist_path, "r", encoding="utf-8") as f:
                 min_items = json.load(f)
@@ -1363,7 +1330,7 @@ def main():
             print(f"[!] 見つかりません: {minlist_path}")
             return
 
-        # 4) タスク化（MinListベースで画像生成）
+        # 4) タスク化（MinListベース）
         DEFAULT_TG = "MinList"
         DEFAULT_WL = "_FromMinList"
         tasks = []
@@ -1373,10 +1340,9 @@ def main():
                 continue
             out_dir = resolve_out_dir(DEFAULT_TG, DEFAULT_WL)
             preferred = rec.get("LocalizedName")
-            # list_percent_text=None / preferred_name=preferred で worker に渡す
             tasks.append((ap, out_dir, None, DEFAULT_TG, DEFAULT_WL, preferred))
 
-        # 5) 重複除去（flat/tg でも衝突しないようにキーに TG/WL を含める）
+        # 5) 重複除去
         uniq, seen = [], set()
         for ap, od, _txt, tg, wl, preferred in tasks:
             key = (normalize_asset_path(ap), od, tg, wl)
@@ -1386,7 +1352,7 @@ def main():
 
         print(f"[i] 画像化タスク数: {len(uniq)}")
 
-        # 6) 画像生成（並列）
+        # 6) 画像生成
         if ENABLE_IMAGE_CREATION:
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
                 futs = [ex.submit(worker_task, ap, od, None, tg, wl, preferred)
@@ -1396,6 +1362,7 @@ def main():
             print("✅ 画像生成 完了（MinListベース）")
         else:
             print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
+
 
     except Exception as e:
         print("[!] main 内でエラー:", e)
@@ -1423,7 +1390,7 @@ def main():
         except Exception as e:
             print("[!] GitHub Push に失敗:", e)
 
-        print("===== BR: pipeline end =====")
+        print("===== Delulu: pipeline end =====")
 
 if __name__ == "__main__":
     main()

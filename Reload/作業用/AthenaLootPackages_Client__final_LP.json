@@ -16942,7 +16942,7 @@
       },
       "WorldList.AthenaCandyBucket.01": {
         "LootPackageID": "WorldList.AthenaCandyBucket",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16975,7 +16975,7 @@
       },
       "WorldList.AthenaCandyBucket.02": {
         "LootPackageID": "WorldList.AthenaCandyBucket",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17008,7 +17008,7 @@
       },
       "WorldList.AthenaCandyBucket.03": {
         "LootPackageID": "WorldList.AthenaCandyBucket",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17041,7 +17041,7 @@
       },
       "WorldList.AthenaCandyBucket.04": {
         "LootPackageID": "WorldList.AthenaCandyBucket",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -17074,7 +17074,7 @@
       },
       "WorldList.AthenaCandyBucket.05": {
         "LootPackageID": "WorldList.AthenaCandyBucket",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42884,8 +42884,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42901,19 +42901,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/AirStrike/Athena_AppleSauce.Athena_AppleSauce",
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaAirStrike",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_Athena_LemonExam_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.42": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42934,24 +42934,24 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SilverBlazer/Athena_SilverBlazer_V2.Athena_SilverBlazer_V2",
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaShieldDome",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_PoliteDinner",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.43": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42967,14 +42967,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/JollyRascal/WID_Athena_JollyRascal.WID_Athena_JollyRascal",
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaJunkRift",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_Athena_ValidCandy",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.44": {
@@ -42983,8 +42983,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43000,14 +43000,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/ZippyTrout/Athena_ZippyTrout.Athena_ZippyTrout",
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.AthenaZapTrap",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_WinterDecay_Teleport",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.45": {
@@ -45409,24 +45409,24 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Badger_Grape_VR.WID_Badger_Grape_VR",
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.BadgerGrape",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_Athena_LemonExam_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.42": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -45442,19 +45442,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/Wumba/AGID_Wumba.AGID_Wumba",
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.Wumba",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_PoliteDinner",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.43": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45475,14 +45475,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.Athena_Bandage",
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Consumable.CloneMachine",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_Athena_ValidCandy",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.44": {
@@ -45508,14 +45508,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/Lotus/Mustache/AGID_Lotus_Mustache.AGID_Lotus_Mustache",
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:Gadget.Mustache",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_WinterDecay_Teleport",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.45": {
@@ -47504,8 +47504,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -47521,24 +47521,24 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/Prototype/Badger_Bangs/WID_Athena_BadgerBangsNew.WID_Athena_BadgerBangsNew",
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Gadget.BadgerBangs",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_Athena_LemonExam_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.42": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -47554,19 +47554,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.Rod",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_PoliteDinner",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.43": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47587,14 +47587,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/HappyGhost/WID_Athena_HappyGhost.WID_Athena_HappyGhost",
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.Harpoon",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_Athena_ValidCandy",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.44": {
@@ -47620,14 +47620,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.Athena_Bandage",
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.TornadoGrenade",
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_WinterDecay_Teleport",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.45": {
@@ -86042,6 +86042,138 @@
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID.Athena.DanceGrenade.UC",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.AthenaHighConsumablesRare.41": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_Athena_LemonExam_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumablesRare.42": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_PoliteDinner",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumablesRare.43": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_Athena_ValidCandy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaHighConsumablesRare.44": {
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_WinterDecay_Teleport",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaSupplyDropHeals.01": {
         "LootPackageID": "WorldList.AthenaSupplyDropHeals",
         "Weight": 0.0,
@@ -86601,6 +86733,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID.Chrono.SlapSplash",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.18": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID_Athena_LemonExam_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.19": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.15,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID_PoliteDinner",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.20": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID_Athena_ValidCandy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropHeals.21": {
+        "LootPackageID": "WorldList.AthenaSupplyDropHeals",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropHeals.C0;Item:WID_WinterDecay_Teleport",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropUtility.01": {
@@ -87360,6 +87624,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID.Athena.DanceGrenade.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.24": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID_Athena_LemonExam_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.25": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID_PoliteDinner",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.26": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.15,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID_Athena_ValidCandy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDropUtility.27": {
+        "LootPackageID": "WorldList.AthenaSupplyDropUtility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDropUtility.C0;Item:WID_WinterDecay_Teleport",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ExoticSupply1.01": {

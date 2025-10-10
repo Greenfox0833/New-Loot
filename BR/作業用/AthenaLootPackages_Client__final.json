@@ -42061,7 +42061,7 @@
       },
       "WorldList.AthenaHighConsumables.19": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.14,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46515,7 +46515,7 @@
       },
       "WorldList.AthenaConsumables.14": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.09,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -123144,12 +123144,12 @@
       },
       "WorldList.AthenaSCMEnchanced.Med.01": {
         "LootPackageID": "WorldList.AthenaSCMEnchanced.Med",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 300,
+          "Y": 300
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -123164,10 +123164,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -129483,7 +129480,7 @@
       },
       "WorldList.GoldenPOI.DroneLoot.Consumables.05": {
         "LootPackageID": "WorldList.GoldenPOI.DroneLoot.Consumables",
-        "Weight": 0.05,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -177642,7 +177639,7 @@
       },
       "List_Chest_Special_Item.01": {
         "LootPackageID": "List_Chest_Special_Item",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

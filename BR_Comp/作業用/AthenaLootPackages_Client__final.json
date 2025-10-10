@@ -123180,12 +123180,12 @@
       },
       "WorldList.AthenaSCMEnchanced.Med.01": {
         "LootPackageID": "WorldList.AthenaSCMEnchanced.Med",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 300,
+          "Y": 300
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -123200,10 +123200,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Game/Items/ResourcePickups/StoneItemData.StoneItemData",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

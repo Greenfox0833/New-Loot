@@ -660,7 +660,7 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         if not icon_path:
             return
 
-        # 背景
+        # 背景サイズ（最終画像の一辺）
         canvas_size = 150
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
@@ -700,7 +700,12 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         except Exception as e:
             print(f"[×] アイコン合成処理例外: {e}")
             return
-        icon_resized = icon_image.resize((400, 400), resample=Image.LANCZOS)
+        # キャンバスに対して適切な比率で中央アイコンをリサイズ
+        # 旧: 600pxキャンバスに対して400px(=約0.66倍) → 現在の150pxでも同率で縮小
+        target_icon_side = max(1, int(canvas_size * (400/600)))  # 約0.66倍
+        # 万一非正方形でも短辺基準でフィットさせる
+        icon_resized = icon_image.copy()
+        icon_resized.thumbnail((target_icon_side, target_icon_side), resample=Image.LANCZOS)
         pos_x = (canvas.width - icon_resized.width) // 2
         pos_y = (canvas.height - icon_resized.height) // 2
         canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)

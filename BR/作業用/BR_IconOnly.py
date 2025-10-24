@@ -721,11 +721,18 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
                 save_icon_cache()
         except Exception:
             return
-        icon_size = int(canvas_size * ITEM_ICON_SCALE)
-        icon_resized = icon_image.resize((icon_size, icon_size), resample=Image.LANCZOS)
-        pos_x = (canvas.width - icon_resized.width) // 2
-        pos_y = (canvas.height - icon_resized.height) // 2
-        canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
+        # アイコンをキャンバスに対して ITEM_ICON_SCALE 倍で等比縮小
+        # 最長辺が (ICON_SIZE * ITEM_ICON_SCALE) になるようにスケール
+        iw, ih = icon_image.size
+        if iw > 0 and ih > 0:
+            target_long = int(canvas_size * ITEM_ICON_SCALE)
+            scale = target_long / max(iw, ih)
+            new_w = max(1, int(round(iw * scale)))
+            new_h = max(1, int(round(ih * scale)))
+            icon_resized = icon_image.resize((new_w, new_h), resample=Image.LANCZOS)
+            pos_x = (canvas.width - icon_resized.width) // 2
+            pos_y = (canvas.height - icon_resized.height) // 2
+            canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
 
 
         # ステータス（フラグで制御）

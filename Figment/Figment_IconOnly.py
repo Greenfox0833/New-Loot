@@ -127,6 +127,12 @@ ONLY_ROWS = None
 ONLY_WORLDLIST_KEYS = None
 
 
+# 出力画像のサイズ（縦横ピクセル）とアイテムアイコンのスケール
+# 例: ICON_SIZE=150, ITEM_ICON_SCALE=0.67 でキャンバス150pxの約2/3サイズで中央配置
+ICON_SIZE = 150
+ITEM_ICON_SCALE = 0.67
+
+
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Figment/items_unique_min.json"
 
@@ -661,7 +667,7 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
             return
 
         # 背景サイズ（最終画像の一辺）
-        canvas_size = 150
+        canvas_size = ICON_SIZE
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
             bg_image = Image.open(bg_path).convert("RGBA").resize((canvas_size, canvas_size))
@@ -700,22 +706,18 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         except Exception as e:
             print(f"[×] アイコン合成処理例外: {e}")
             return
-        # キャンバス(150x150)を完全に覆うように等比拡大し、中央を150x150で切り出す（カバー）
+        # アイコンをキャンバスに対して ITEM_ICON_SCALE 倍で等比縮小（フィット＆中央配置）
         iw, ih = icon_image.size
         if iw <= 0 or ih <= 0:
             return
-        scale = max(canvas_size / iw, canvas_size / ih)
+        target_long = int(canvas_size * ITEM_ICON_SCALE)
+        scale = target_long / max(iw, ih)
         new_w = max(1, int(round(iw * scale)))
         new_h = max(1, int(round(ih * scale)))
-        icon_scaled = icon_image.resize((new_w, new_h), resample=Image.LANCZOS)
-        # 中央を150x150にクロップ
-        left = max(0, (new_w - canvas_size) // 2)
-        top = max(0, (new_h - canvas_size) // 2)
-        right = left + canvas_size
-        bottom = top + canvas_size
-        icon_cropped = icon_scaled.crop((left, top, right, bottom))
-        # 左上にそのまま貼る（背景も150x150）
-        canvas.paste(icon_cropped, (0, 0), icon_cropped)
+        icon_resized = icon_image.resize((new_w, new_h), resample=Image.LANCZOS)
+        pos_x = (canvas.width - icon_resized.width) // 2
+        pos_y = (canvas.height - icon_resized.height) // 2
+        canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
 
         # ステータス（フラグで制御）
         if DRAW_STATS:

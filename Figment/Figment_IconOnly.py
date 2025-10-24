@@ -661,7 +661,7 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
             return
 
         # 背景
-        canvas_size = 150
+        canvas_size = 600
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
             bg_image = Image.open(bg_path).convert("RGBA").resize((canvas_size, canvas_size))

@@ -700,15 +700,22 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         except Exception as e:
             print(f"[×] アイコン合成処理例外: {e}")
             return
-        # キャンバスに対して適切な比率で中央アイコンをリサイズ
-        # 旧: 600pxキャンバスに対して400px(=約0.66倍) → 現在の150pxでも同率で縮小
-        target_icon_side = max(1, int(canvas_size * (400/600)))  # 約0.66倍
-        # 万一非正方形でも短辺基準でフィットさせる
-        icon_resized = icon_image.copy()
-        icon_resized.thumbnail((target_icon_side, target_icon_side), resample=Image.LANCZOS)
-        pos_x = (canvas.width - icon_resized.width) // 2
-        pos_y = (canvas.height - icon_resized.height) // 2
-        canvas.paste(icon_resized, (pos_x, pos_y), icon_resized)
+        # キャンバス(150x150)を完全に覆うように等比拡大し、中央を150x150で切り出す（カバー）
+        iw, ih = icon_image.size
+        if iw <= 0 or ih <= 0:
+            return
+        scale = max(canvas_size / iw, canvas_size / ih)
+        new_w = max(1, int(round(iw * scale)))
+        new_h = max(1, int(round(ih * scale)))
+        icon_scaled = icon_image.resize((new_w, new_h), resample=Image.LANCZOS)
+        # 中央を150x150にクロップ
+        left = max(0, (new_w - canvas_size) // 2)
+        top = max(0, (new_h - canvas_size) // 2)
+        right = left + canvas_size
+        bottom = top + canvas_size
+        icon_cropped = icon_scaled.crop((left, top, right, bottom))
+        # 左上にそのまま貼る（背景も150x150）
+        canvas.paste(icon_cropped, (0, 0), icon_cropped)
 
         # ステータス（フラグで制御）
         if DRAW_STATS:

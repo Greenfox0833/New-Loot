@@ -132,7 +132,7 @@ INPUT_MINLIST_JSON = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot
 
 
 # 画像の保存先（親）:  <OUTPUT_BASE_DIR>/<TierGroup>/<WorldListKey>/ に振り分け保存
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Figment_IconOnly"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Figment/IconOnly/150"
 IMAGE_DIR_MODE = "flat"  # tg_wl:従来どおり | tg:<OUTPUT_BASE_DIR>/<TierGroup> | flat:<OUTPUT_BASE_DIR> にすべて平置き
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -661,7 +661,7 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
             return
 
         # 背景
-        canvas_size = 600
+        canvas_size = 150
         bg_path = os.path.join(RARITY_BG_DIR, f"{rarity}.png")
         try:
             bg_image = Image.open(bg_path).convert("RGBA").resize((canvas_size, canvas_size))

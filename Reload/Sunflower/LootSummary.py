@@ -155,7 +155,7 @@ def main():
     current_min = to_min_list(latest, args.rarity)
 
     # 抽出の保存先は固定ディレクトリ（上書き更新）
-    extract_dir = r"E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\Reload\Sunflower\作業用"
+    extract_dir = r"E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\Reload\Sunflower"
     ensure_dir(extract_dir)
     out_min_path = os.path.join(extract_dir, "items_unique_min.json")
     with open(out_min_path, "w", encoding="utf-8") as f:

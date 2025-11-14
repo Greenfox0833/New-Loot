@@ -20341,7 +20341,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.17": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20361,7 +20361,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorExotics/Gameplay/LawlessShotgunSlap/WID_Shotgun_Auto_FirePetal_Athena_X.WID_Shotgun_Auto_FirePetal_Athena_X",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -20371,7 +20374,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.18": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20391,7 +20394,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_X.WID_Pistol_Chrono_Athena_X",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -20401,7 +20407,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.19": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -20421,7 +20427,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp.AGID_VividRazor_Rocket_SlapSlurp",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -22860,10 +22869,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_C.WID_WildEstate_ColdFern_DualWeapon_Athena_C",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -22873,7 +22879,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.04": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22893,10 +22899,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_UC.WID_WildEstate_ColdFern_DualWeapon_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -22906,7 +22909,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22926,10 +22929,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_R.WID_WildEstate_ColdFern_DualWeapon_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -23995,7 +23995,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.024,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24015,7 +24015,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/MarkExecuteSniper/WID_MarkExecute_Sniper.WID_MarkExecute_Sniper",
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_UC.WID_WildEstate_ColdFern_DualWeapon_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24025,7 +24025,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.024,
+        "Weight": 0.07,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24045,7 +24045,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorExotics/Gameplay/TrackerSniper/WID_Sniper_MoonFlax_Athena_X.WID_Sniper_MoonFlax_Athena_X",
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_R.WID_WildEstate_ColdFern_DualWeapon_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24055,7 +24055,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.07": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.024,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24075,7 +24075,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorExotics/Gameplay/RocketLauncher/WID_VividRazor_RocketLauncher_Athena_X.WID_VividRazor_RocketLauncher_Athena_X",
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_VR.WID_WildEstate_ColdFern_DualWeapon_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24085,7 +24085,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24105,10 +24105,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_SR.WID_WildEstate_ColdFern_DualWeapon_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -26857,7 +26854,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.17": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26877,7 +26874,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_X.WID_CQB_AR_X",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -26887,7 +26887,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.18": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26907,7 +26907,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_X.WID_Assault_FirePetal_Mid_Athena_X",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -26917,7 +26920,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.19": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26937,7 +26940,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorExotics/Gameplay/SlapJug/WID_VividRazor_SlapAgileChug.WID_VividRazor_SlapAgileChug",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -31501,7 +31507,7 @@
       },
       "WorldList.ApolloLoot.Weapon.SMG.03": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31521,10 +31527,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_VR.WID_WildEstate_ColdFern_DualWeapon_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -31534,7 +31537,7 @@
       },
       "WorldList.ApolloLoot.Weapon.SMG.04": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31554,10 +31557,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_SR.WID_WildEstate_ColdFern_DualWeapon_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38398,7 +38398,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38418,10 +38418,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_VR.WID_WildEstate_ColdFern_DualWeapon_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38431,7 +38428,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38451,10 +38448,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/ColdFern/DualWeapon/WID_WildEstate_ColdFern_DualWeapon_Athena_SR.WID_WildEstate_ColdFern_DualWeapon_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41698,7 +41692,7 @@
       },
       "WorldList.AthenaHighConsumables.06": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.22,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41718,10 +41712,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/BigBushGrenade/Items/Athena_ShrubBomb.Athena_ShrubBomb",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/DeerPlum/AGID_DeerPlum_VR.AGID_DeerPlum_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41995,12 +41986,12 @@
       },
       "WorldList.AthenaHighConsumables.15": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.2,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42016,7 +42007,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "AssetPathName": "/ShieldBubble/Gameplay/FZ/Athena_SilverBlazer_FZ.Athena_SilverBlazer_FZ",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42391,7 +42382,7 @@
       },
       "WorldList.AthenaHighConsumables.27": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.2,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44338,7 +44329,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.10": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.3,
+        "Weight": 0.35,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44358,10 +44349,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/WildEstateConsumables/Gameplay/BrickSail/WID_Athena_BrickSail_Zero.WID_Athena_BrickSail_Zero",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShieldBubble/Gameplay/FZ/Athena_SilverBlazer_FZ.Athena_SilverBlazer_FZ",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46285,12 +46273,12 @@
       },
       "WorldList.AthenaConsumables.05": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.22,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46305,10 +46293,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WildEstateWeapons/Gameplay/DeerPlum/AGID_DeerPlum_VR.AGID_DeerPlum_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46648,12 +46633,12 @@
       },
       "WorldList.AthenaConsumables.16": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.2,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46668,10 +46653,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/JollyRascal/WID_Athena_JollyRascal.WID_Athena_JollyRascal",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShieldBubble/Gameplay/FZ/Athena_SilverBlazer_FZ.Athena_SilverBlazer_FZ",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -144889,7 +144871,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.02": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -145153,7 +145135,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.10": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.2,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -145173,10 +145155,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/WildEstateConsumables/Gameplay/BrickSail/WID_Athena_BrickSail_Zero.WID_Athena_BrickSail_Zero",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShieldBubble/Gameplay/FZ/Athena_SilverBlazer_FZ.Athena_SilverBlazer_FZ",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -196996,7 +196975,7 @@
       },
       "LIST_BuzzCool_Spawn_A_Weapon.01": {
         "LootPackageID": "LIST_BuzzCool_Spawn_A_Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -197017,7 +196996,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Assault_Auto_Athena_UR.WID_Assault_Auto_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -197029,7 +197008,7 @@
       },
       "LIST_BuzzCool_Spawn_B_Weapon.01": {
         "LootPackageID": "LIST_BuzzCool_Spawn_B_Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -197050,7 +197029,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Shotgun_BreakBarrel_Athena_UR.WID_Shotgun_BreakBarrel_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -197062,7 +197041,7 @@
       },
       "LIST_BuzzCool_Spawn_C_Weapon.01": {
         "LootPackageID": "LIST_BuzzCool_Spawn_C_Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -197083,7 +197062,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UR.WID_SMG_MusterQuick_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -197095,7 +197074,7 @@
       },
       "LIST_BuzzCool_Spawn_D_Weapon.01": {
         "LootPackageID": "LIST_BuzzCool_Spawn_D_Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -197116,7 +197095,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_UR.WID_Assault_MusterScoped_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",

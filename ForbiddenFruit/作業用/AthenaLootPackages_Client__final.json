@@ -28459,7 +28459,7 @@
       },
       "WorldList.GoldChest.Boons.01": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28479,7 +28479,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CoffeePuffGameplay/Items/WID_CoffeePuff.WID_CoffeePuff",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/RevellingRevealer/PAID_FirePetal_RevellingRevealer.PAID_FirePetal_RevellingRevealer",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -28489,7 +28492,7 @@
       },
       "WorldList.GoldChest.Boons.02": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28509,7 +28512,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MotoWrestleGameplay/Items/WID_MotoWrestle.WID_MotoWrestle",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/HotHands/PAID_FirePetal_HotHands.PAID_FirePetal_HotHands",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -30763,7 +30769,7 @@
       },
       "WorldList.RandomExotic.Rewards.02": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36327,7 +36333,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CoffeePuffGameplay/Items/WID_CoffeePuff_Mythic.WID_CoffeePuff_Mythic",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/Exotics/WID_Shotgun_Stack_Athena_X.WID_Shotgun_Stack_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36337,7 +36343,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36357,7 +36363,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MotoWrestleGameplay/Items/WID_MotoWrestle.WID_MotoWrestle",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37872,7 +37881,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CoffeePuffGameplay/Items/WID_CoffeePuff.WID_CoffeePuff",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/Exotics/WID_Shotgun_Stack_Athena_X.WID_Shotgun_Stack_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37882,7 +37891,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37902,7 +37911,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MotoWrestleGameplay/Items/WID_MotoWrestle.WID_MotoWrestle",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -39780,7 +39792,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CoffeePuffGameplay/Items/WID_CoffeePuff_Mythic.WID_CoffeePuff_Mythic",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/Exotics/WID_Shotgun_Stack_Athena_X.WID_Shotgun_Stack_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -39790,7 +39802,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39810,7 +39822,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MotoWrestleGameplay/Items/WID_MotoWrestle.WID_MotoWrestle",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport_Mythic.WID_DemonMask_VoidTeleport_Mythic",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -42127,7 +42142,7 @@
       },
       "WorldList.BusGrant3.BusWeap.01": {
         "LootPackageID": "WorldList.BusGrant3.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42147,7 +42162,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CoffeePuffGameplay/Items/WID_CoffeePuff.WID_CoffeePuff",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -42157,7 +42175,7 @@
       },
       "WorldList.BusGrant3.BusWeap.02": {
         "LootPackageID": "WorldList.BusGrant3.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42177,7 +42195,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MotoWrestleGameplay/Items/WID_MotoWrestle.WID_MotoWrestle",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44881,12 +44902,12 @@
       },
       "WorldList.BusGrant3.ItemSet.1.02": {
         "LootPackageID": "WorldList.BusGrant3.ItemSet.1",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44901,7 +44922,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

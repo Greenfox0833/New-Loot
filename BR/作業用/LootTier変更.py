@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Tuple
 
 # ==== ファイルパス設定（必要に応じて書き換えOK） ====
 BASE_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")  # ①ベース
-SEASON_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootTierData_Client.json")  # ①上書き
+SEASON_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json")  # ①上書き
 COMP_PATH    = None  # ← カジュアルなので不要
 COMP_BK_PATH = None  # ← カジュアルなので不要
 HOTFIX_PATH    = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ② 任意
@@ -13,7 +13,7 @@ HOTFIX_PATH    = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/H
 OUT_FINAL      = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
 
 # Hotfix の対象テーブル名（カジュアル BR 用）
-HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootTierData_Client"
+HOTFIX_TARGET_SEASON = "/DragonCartLoot/DataTables/DragonCartLootTierData_Client"
 HOTFIX_TARGET_COMP   = None   # ← Comp 無効化
 
 

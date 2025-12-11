@@ -14,7 +14,7 @@ except ImportError:
     ImageFont = None
 
 # Paths
-DEFAULT_JSON_PATH = os.path.join("戦利品データ", "BR", "LootPercent", "BR_LootData_2025-12-06_05-30.json")
+DEFAULT_JSON_PATH = os.path.join("戦利品データ", "Reload", "LootPercent", "Reload_LootData_2025-12-11_19-45.json")
 DEFAULT_ICON_DIR = r"E:\フォートナイト\Picture\Loot Pool\TEST4\アイテム画像\BR\IconOnly"
 DEFAULT_SAVE_DIR = r"E:\フォートナイト\Picture\Loot Pool\TEST4\アイテム画像"
 DEFAULT_TITLE = "チャプター7 シーズン1 : 戦利品データ"
@@ -683,4 +683,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     build_ui(root, items, rarities, sources, icon_dir, save_dir, dataset_name, title_text, subtitle_text)
     root.mainloop()
-

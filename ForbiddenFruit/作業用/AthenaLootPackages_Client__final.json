@@ -10769,6 +10769,39 @@
         "Annotation": ";Def:WorldPKG.BusGrant3.C9;Call:WorldList.BusAmmoRockets",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldPKG.BusGrant3.11": {
+        "LootPackageID": "WorldPKG.BusGrant3",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 10,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.BusGold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BusGrant3.C10;Call:WorldList.BusGold",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldPKG.BusGrant2.01": {
         "LootPackageID": "WorldPKG.BusGrant2",
         "Weight": 1.0,
@@ -11099,6 +11132,39 @@
         "Annotation": ";Def:WorldPKG.BusGrant2.C9;Call:WorldList.BusAmmoRockets",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldPKG.BusGrant2.11": {
+        "LootPackageID": "WorldPKG.BusGrant2",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 10,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.BusGold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BusGrant2.C10;Call:WorldList.BusGold",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldPKG.BusGrant.01": {
         "LootPackageID": "WorldPKG.BusGrant",
         "Weight": 1.0,
@@ -11427,6 +11493,39 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:WorldPKG.BusGrant.C9;Call:WorldList.BusAmmoRockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.BusGrant.11": {
+        "LootPackageID": "WorldPKG.BusGrant",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 10,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.BusGold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.BusGrant.C10;Call:WorldList.BusGold",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.RandomConsumable.01": {
@@ -24165,6 +24264,39 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaWadChests.C0;Item:Resource.Wad",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusGold.01": {
+        "LootPackageID": "WorldList.BusGold",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 500,
+          "Y": 500
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusGold.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloWadChests.01": {
@@ -37456,7 +37588,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37476,7 +37608,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UR.WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37486,7 +37621,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37506,7 +37641,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37516,7 +37654,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37536,7 +37674,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UR.WID_SMG_DragonCart_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38998,7 +39139,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39018,7 +39159,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UR.WID_Assault_FirePetal_Fast_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -40909,7 +41053,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -40929,7 +41073,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_UR.WID_DragonCart_LightningGun_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire_Mythic.WID_DemonMask_Fire_Mythic",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41685,7 +41832,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UC.WID_Shotgun_Pump_DragonCart_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41694,102 +41844,6 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.BusWeap.02": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Fire",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.03": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Void",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.04": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.5,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_R.WID_Shotgun_Pump_DragonCart_Athena_R",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.Melee.Masamune",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.05": {
         "LootPackageID": "WorldList.BusWeap",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -41811,7 +41865,103 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
+        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_R.WID_SMG_FirePetal_Quirky_Athena_R",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Fire",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.03": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/MilitaryAR/WID_Assault_TidalCrane_Athena_R.WID_Assault_TidalCrane_Athena_R",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Void",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.04": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.Melee.Masamune",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.05": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41821,7 +41971,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41841,7 +41991,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R.WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41851,7 +42004,7 @@
       },
       "WorldList.BusWeap.07": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41871,7 +42024,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41881,7 +42037,7 @@
       },
       "WorldList.BusWeap.08": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41901,7 +42057,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44089,12 +44248,12 @@
       },
       "WorldList.BusGrant.ItemSet.1.01": {
         "LootPackageID": "WorldList.BusGrant.ItemSet.1",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44109,7 +44268,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44251,12 +44413,12 @@
       },
       "WorldList.BusGrant.ItemSet.2.01": {
         "LootPackageID": "WorldList.BusGrant.ItemSet.2",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44271,7 +44433,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -51472,150 +51637,6 @@
         "bAllowBonusDrops": false,
         "Annotation": "",
         "DurabilityPercentageOverride": 0.0
-      },
-      "WorldPKG.BusGrant3.11": {
-        "Name": "WorldPKG.BusGrant3.11",
-        "LootPackageID": "WorldPKG.BusGrant3",
-        "Weight": 1,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 10,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "WorldList.BusGold",
-        "ItemDefinition": "None",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "WorldPKG.BusGrant2.11": {
-        "Name": "WorldPKG.BusGrant2.11",
-        "LootPackageID": "WorldPKG.BusGrant2",
-        "Weight": 1,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 10,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "WorldList.BusGold",
-        "ItemDefinition": "None",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "WorldPKG.BusGrant.11": {
-        "Name": "WorldPKG.BusGrant.11",
-        "LootPackageID": "WorldPKG.BusGrant",
-        "Weight": 1,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 10,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "WorldList.BusGold",
-        "ItemDefinition": "None",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
-      },
-      "WorldList.BusGold.01": {
-        "Name": "WorldList.BusGold.01",
-        "LootPackageID": "WorldList.BusGold",
-        "Weight": 1,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 250,
-          "Y": 250
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": "",
-        "DurabilityPercentageOverride": 1,
-        "Count": 0,
-        "RequiredTag": "None"
       }
     }
   }

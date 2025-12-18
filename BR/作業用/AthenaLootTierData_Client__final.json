@@ -22,7 +22,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldList.AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -77,7 +77,7 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": "TG:Loot_AthenaTest;LPKG:WorldList.AthenaTest"
       },
       "Loot_AthenaFloorLoot_01": {
         "TierGroup": "Loot_AthenaFloorLoot",
@@ -18167,7 +18167,75 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_AthenaDingo;LPKG:WorldPKG.AthenaDingo.Rocket"
       },
-      "Loot_AthenaTest_02": {
+      "Loot_AthenaTest.01": {
+        "TierGroup": "Loot_AthenaTest",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_AthenaTest",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": ""
+      },
+      "Loot_AthenaTest.02": {
         "TierGroup": "Loot_AthenaTest",
         "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18185,7 +18253,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18211,17 +18279,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18231,11 +18299,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": ""
       },
-      "Loot_MedSupplyDrop_01": {
+      "Loot_MedSupplyDrop.01": {
         "TierGroup": "Loot_MedSupplyDrop",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18253,11 +18321,11 @@
           "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -18279,17 +18347,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18299,11 +18367,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_MedSupplyDrop;LPKG:WorldPKG.MedSupplyDrop.A"
+        "Annotation": ""
       },
-      "Loot_GoldenPOI_Drones_01": {
+      "Loot_GoldenPOI_Drones.01": {
         "TierGroup": "Loot_GoldenPOI_Drones",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18321,8 +18389,8 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
+          0,
+          0,
           0,
           0,
           0,
@@ -18347,17 +18415,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18367,11 +18435,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_GoldenPOI_Drones;LPKG:WorldPKG.GoldenPOI.DroneLoot"
+        "Annotation": ""
       },
-      "Loot_AthenaSCM_Enhanced_01": {
+      "Loot_AthenaSCM_Enhanced.01": {
         "TierGroup": "Loot_AthenaSCM_Enhanced",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18389,9 +18457,9 @@
           "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -18415,17 +18483,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18435,11 +18503,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaSCM_Enhanced;LPKG:WorldPKG.AthenaSCM"
+        "Annotation": ""
       },
-      "LTG_Wad_XXS_01": {
+      "LTG_Wad_XXS.01": {
         "TierGroup": "LTG_Wad_XXS",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18457,7 +18525,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18483,17 +18551,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18503,11 +18571,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Wad_XXS;LPKG:PKG_Wad_XXS"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Heal_ShieldGen_01": {
+      "LTG_Vend_Item_Heal_ShieldGen.01": {
         "TierGroup": "LTG_Vend_Item_Heal_ShieldGen",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18525,7 +18593,7 @@
           "Y": 10.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18551,17 +18619,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18571,11 +18639,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Heal_ShieldGen;LPKG:PKG_Vend_Item_Heal_ShieldGen"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Heal_Shield_01": {
+      "LTG_Vend_Item_Heal_Shield.01": {
         "TierGroup": "LTG_Vend_Item_Heal_Shield",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18593,7 +18661,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18619,17 +18687,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18639,11 +18707,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Heal_Shield;LPKG:PKG_Vend_Item_Heal_Shield"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Heal_Revive_01": {
+      "LTG_Vend_Item_Heal_Revive.01": {
         "TierGroup": "LTG_Vend_Item_Heal_Revive",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18661,7 +18729,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18687,17 +18755,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18707,11 +18775,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Heal_Revive;LPKG:PKG_Vend_Item_Heal_Revive"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Pistol_Green_01": {
+      "LTG_Vend_Item_Pistol_Green.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Green",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18729,7 +18797,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18755,17 +18823,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18775,11 +18843,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Pistol_Green;LPKG:PKG_Vend_Item_Pistol_Green"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Pistol_Blue_01": {
+      "LTG_Vend_Item_Pistol_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Blue",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18797,7 +18865,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18823,17 +18891,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18843,11 +18911,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Pistol_Blue;LPKG:PKG_Vend_Item_Pistol_Blue"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Pistol_Purple_01": {
+      "LTG_Vend_Item_Pistol_Purple.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Purple",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18865,7 +18933,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18891,17 +18959,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18911,11 +18979,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Pistol_Purple;LPKG:PKG_Vend_Item_Pistol_Purple"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Pistol_Yellow_01": {
+      "LTG_Vend_Item_Pistol_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Yellow",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -18933,7 +19001,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -18959,17 +19027,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -18979,11 +19047,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Pistol_Yellow;LPKG:PKG_Vend_Item_Pistol_Yellow"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Pistol_Ammo_01": {
+      "LTG_Vend_Item_Pistol_Ammo.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Ammo",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19001,7 +19069,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19027,17 +19095,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19047,11 +19115,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Pistol_Ammo;LPKG:PKG_Vend_Item_Pistol_Ammo"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Shotgun_Green_01": {
+      "LTG_Vend_Item_Shotgun_Green.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Green",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19069,7 +19137,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19095,17 +19163,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19115,11 +19183,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Shotgun_Green;LPKG:PKG_Vend_Item_Shotgun_Green"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Shotgun_Blue_01": {
+      "LTG_Vend_Item_Shotgun_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Blue",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19137,7 +19205,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19163,17 +19231,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19183,11 +19251,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Shotgun_Blue;LPKG:PKG_Vend_Item_Shotgun_Blue"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Shotgun_Purple_01": {
+      "LTG_Vend_Item_Shotgun_Purple.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Purple",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19205,7 +19273,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19231,17 +19299,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19251,11 +19319,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Shotgun_Purple;LPKG:PKG_Vend_Item_Shotgun_Purple"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Shotgun_Yellow_01": {
+      "LTG_Vend_Item_Shotgun_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Yellow",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19273,7 +19341,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19299,17 +19367,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19319,11 +19387,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Shotgun_Yellow;LPKG:PKG_Vend_Item_Shotgun_Yellow"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Shotgun_Ammo_01": {
+      "LTG_Vend_Item_Shotgun_Ammo.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Ammo",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19341,7 +19409,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19367,17 +19435,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19387,11 +19455,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Shotgun_Ammo;LPKG:PKG_Vend_Item_Shotgun_Ammo"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_SMG_Green_01": {
+      "LTG_Vend_Item_SMG_Green.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Green",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19409,7 +19477,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19435,17 +19503,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19455,11 +19523,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_SMG_Green;LPKG:PKG_Vend_Item_SMG_Green"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_SMG_Blue_01": {
+      "LTG_Vend_Item_SMG_Blue.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Blue",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19477,7 +19545,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19503,17 +19571,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19523,11 +19591,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_SMG_Blue;LPKG:PKG_Vend_Item_SMG_Blue"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_SMG_Purple_01": {
+      "LTG_Vend_Item_SMG_Purple.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Purple",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19545,7 +19613,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19571,17 +19639,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19591,11 +19659,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_SMG_Purple;LPKG:PKG_Vend_Item_SMG_Purple"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_SMG_Yellow_01": {
+      "LTG_Vend_Item_SMG_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Yellow",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19613,7 +19681,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19639,17 +19707,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19659,11 +19727,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_SMG_Yellow;LPKG:PKG_Vend_Item_SMG_Yellow"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_SMG_Ammo_01": {
+      "LTG_Vend_Item_SMG_Ammo.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Ammo",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19681,7 +19749,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19707,17 +19775,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19727,11 +19795,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_SMG_Ammo;LPKG:PKG_Vend_Item_SMG_Ammo"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Assault_Green_01": {
+      "LTG_Vend_Item_Assault_Green.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Green",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19749,7 +19817,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19775,17 +19843,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19795,11 +19863,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Assault_Green;LPKG:PKG_Vend_Item_Assault_Green"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Assault_Blue_01": {
+      "LTG_Vend_Item_Assault_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Blue",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19817,7 +19885,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19843,17 +19911,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19863,11 +19931,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Assault_Blue;LPKG:PKG_Vend_Item_Assault_Blue"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Assault_Purple_01": {
+      "LTG_Vend_Item_Assault_Purple.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Purple",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19885,7 +19953,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19911,17 +19979,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19931,11 +19999,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Assault_Purple;LPKG:PKG_Vend_Item_Assault_Purple"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Assault_Yellow_01": {
+      "LTG_Vend_Item_Assault_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Yellow",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -19953,7 +20021,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -19979,17 +20047,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -19999,11 +20067,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Assault_Yellow;LPKG:PKG_Vend_Item_Assault_Yellow"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Assault_Ammo_01": {
+      "LTG_Vend_Item_Assault_Ammo.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Ammo",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20021,7 +20089,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20047,17 +20115,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20067,11 +20135,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Assault_Ammo;LPKG:PKG_Vend_Item_Assault_Ammo"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Sniper_Green_01": {
+      "LTG_Vend_Item_Sniper_Green.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Green",
         "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20089,7 +20157,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20115,17 +20183,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20135,11 +20203,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Sniper_Green;LPKG:PKG_Vend_Item_Sniper_Green"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Sniper_Blue_01": {
+      "LTG_Vend_Item_Sniper_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Blue",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20157,7 +20225,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20183,17 +20251,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20203,11 +20271,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Sniper_Blue;LPKG:PKG_Vend_Item_Sniper_Blue"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Sniper_Purple_01": {
+      "LTG_Vend_Item_Sniper_Purple.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Purple",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20225,7 +20293,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20251,17 +20319,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20271,11 +20339,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Sniper_Purple;LPKG:PKG_Vend_Item_Sniper_Purple"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Sniper_Yellow_01": {
+      "LTG_Vend_Item_Sniper_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Yellow",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20293,7 +20361,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20319,17 +20387,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20339,11 +20407,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Sniper_Yellow;LPKG:PKG_Vend_Item_Sniper_Yellow"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Sniper_Ammo_01": {
+      "LTG_Vend_Item_Sniper_Ammo.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Ammo",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20361,7 +20429,7 @@
           "Y": 20.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20387,17 +20455,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20407,11 +20475,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Sniper_Ammo;LPKG:PKG_Vend_Item_Sniper_Ammo"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Seasonal_1_01": {
+      "LTG_Vend_Item_Seasonal_1.01": {
         "TierGroup": "LTG_Vend_Item_Seasonal_1",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20429,7 +20497,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20455,17 +20523,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20475,11 +20543,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Seasonal_1;LPKG:PKG_Vend_Item_Seasonal_1"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Seasonal_2_01": {
+      "LTG_Vend_Item_Seasonal_2.01": {
         "TierGroup": "LTG_Vend_Item_Seasonal_2",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20497,7 +20565,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20523,17 +20591,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20543,11 +20611,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Seasonal_2;LPKG:PKG_Vend_Item_Seasonal_2"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Seasonal_3_01": {
+      "LTG_Vend_Item_Seasonal_3.01": {
         "TierGroup": "LTG_Vend_Item_Seasonal_3",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20565,7 +20633,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20591,17 +20659,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20611,11 +20679,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Seasonal_3;LPKG:PKG_Vend_Item_Seasonal_3"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Gold_1_01": {
+      "LTG_Vend_Item_Gold_1.01": {
         "TierGroup": "LTG_Vend_Item_Gold_1",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20633,7 +20701,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20659,17 +20727,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20679,11 +20747,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Gold_1;LPKG:PKG_Vend_Item_Gold_1"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Gold_2_01": {
+      "LTG_Vend_Item_Gold_2.01": {
         "TierGroup": "LTG_Vend_Item_Gold_2",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20701,7 +20769,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20727,17 +20795,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20747,11 +20815,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Gold_2;LPKG:PKG_Vend_Item_Gold_2"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Gold_3_01": {
+      "LTG_Vend_Item_Gold_3.01": {
         "TierGroup": "LTG_Vend_Item_Gold_3",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20769,7 +20837,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20795,17 +20863,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20815,11 +20883,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Gold_3;LPKG:PKG_Vend_Item_Gold_3"
+        "Annotation": ""
       },
-      "LTG_Vend_Item_Gold_4_01": {
+      "LTG_Vend_Item_Gold_4.01": {
         "TierGroup": "LTG_Vend_Item_Gold_4",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20837,7 +20905,7 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20863,17 +20931,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20883,11 +20951,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Vend_Item_Gold_4;LPKG:PKG_Vend_Item_Gold_4"
+        "Annotation": ""
       },
-      "LTG_GoldenWaterfall_Consumable_01": {
+      "LTG_GoldenWaterfall_Consumable.01": {
         "TierGroup": "LTG_GoldenWaterfall_Consumable",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20905,7 +20973,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20931,17 +20999,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -20951,11 +21019,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_GoldenWaterfall_Consumable;LPKG:PKG_GoldenWaterfall_Consumable"
+        "Annotation": ""
       },
-      "LTG_GoldenWaterfall_Item_01": {
+      "LTG_GoldenWaterfall_Item.01": {
         "TierGroup": "LTG_GoldenWaterfall_Item",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -20973,7 +21041,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -20999,17 +21067,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21019,11 +21087,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_GoldenWaterfall_Item;LPKG:PKG_GoldenWaterfall_Item"
+        "Annotation": ""
       },
-      "LTG_GoldenWaterfall_Weapon_01": {
+      "LTG_GoldenWaterfall_Weapon.01": {
         "TierGroup": "LTG_GoldenWaterfall_Weapon",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21041,7 +21109,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -21067,17 +21135,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21087,11 +21155,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_GoldenWaterfall_Weapon;LPKG:PKG_GoldenWaterfall_Weapon"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Solo_Small_01": {
+      "LTG_ThemeParkCannon_Solo_Small.01": {
         "TierGroup": "LTG_ThemeParkCannon_Solo_Small",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21109,15 +21177,15 @@
           "Y": 9.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21135,17 +21203,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21155,11 +21223,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Solo_Small;LPKG:PKG_ThemeParkCannon_Solo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Duo_Small_01": {
+      "LTG_ThemeParkCannon_Duo_Small.01": {
         "TierGroup": "LTG_ThemeParkCannon_Duo_Small",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21177,15 +21245,15 @@
           "Y": 14.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21203,17 +21271,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21223,11 +21291,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Duo_Small;LPKG:PKG_ThemeParkCannon_Duo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Trio_Small_01": {
+      "LTG_ThemeParkCannon_Trio_Small.01": {
         "TierGroup": "LTG_ThemeParkCannon_Trio_Small",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21245,15 +21313,15 @@
           "Y": 22.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21271,17 +21339,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21291,11 +21359,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Trio_Small;LPKG:PKG_ThemeParkCannon_Trio"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Squad_Small_01": {
+      "LTG_ThemeParkCannon_Squad_Small.01": {
         "TierGroup": "LTG_ThemeParkCannon_Squad_Small",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21313,15 +21381,15 @@
           "Y": 27.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21339,17 +21407,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21359,11 +21427,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Squad_Small;LPKG:PKG_ThemeParkCannon_Squad"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Solo_Medium_01": {
+      "LTG_ThemeParkCannon_Solo_Medium.01": {
         "TierGroup": "LTG_ThemeParkCannon_Solo_Medium",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21381,15 +21449,15 @@
           "Y": 14.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21407,17 +21475,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21427,11 +21495,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Solo_Medium;LPKG:PKG_ThemeParkCannon_Solo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Duo_Medium_01": {
+      "LTG_ThemeParkCannon_Duo_Medium.01": {
         "TierGroup": "LTG_ThemeParkCannon_Duo_Medium",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21449,15 +21517,15 @@
           "Y": 19.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21475,17 +21543,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21495,11 +21563,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Duo_Medium;LPKG:PKG_ThemeParkCannon_Duo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Trio_Medium_01": {
+      "LTG_ThemeParkCannon_Trio_Medium.01": {
         "TierGroup": "LTG_ThemeParkCannon_Trio_Medium",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21517,15 +21585,15 @@
           "Y": 27.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21543,17 +21611,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21563,11 +21631,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Trio_Medium;LPKG:PKG_ThemeParkCannon_Trio"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Squad_Medium_01": {
+      "LTG_ThemeParkCannon_Squad_Medium.01": {
         "TierGroup": "LTG_ThemeParkCannon_Squad_Medium",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21585,15 +21653,15 @@
           "Y": 32.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21611,17 +21679,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21631,11 +21699,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Squad_Medium;LPKG:PKG_ThemeParkCannon_Squad"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Solo_Large_01": {
+      "LTG_ThemeParkCannon_Solo_Large.01": {
         "TierGroup": "LTG_ThemeParkCannon_Solo_Large",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21653,15 +21721,15 @@
           "Y": 19.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21679,17 +21747,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21699,11 +21767,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Solo_Large;LPKG:PKG_ThemeParkCannon_Solo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Duo_Large_01": {
+      "LTG_ThemeParkCannon_Duo_Large.01": {
         "TierGroup": "LTG_ThemeParkCannon_Duo_Large",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21721,15 +21789,15 @@
           "Y": 24.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21747,17 +21815,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21767,11 +21835,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Duo_Large;LPKG:PKG_ThemeParkCannon_Duo"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Trio_Large_01": {
+      "LTG_ThemeParkCannon_Trio_Large.01": {
         "TierGroup": "LTG_ThemeParkCannon_Trio_Large",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21789,15 +21857,15 @@
           "Y": 32.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21815,17 +21883,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21835,11 +21903,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Trio_Large;LPKG:PKG_ThemeParkCannon_Trio"
+        "Annotation": ""
       },
-      "LTG_ThemeParkCannon_Squad_Large_01": {
+      "LTG_ThemeParkCannon_Squad_Large.01": {
         "TierGroup": "LTG_ThemeParkCannon_Squad_Large",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21857,15 +21925,15 @@
           "Y": 37.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -21883,17 +21951,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21903,11 +21971,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ThemeParkCannon_Squad_Large;LPKG:PKG_ThemeParkCannon_Squad"
+        "Annotation": ""
       },
-      "LTG_Boss_Alpha_01": {
+      "LTG_Boss_Alpha.01": {
         "TierGroup": "LTG_Boss_Alpha",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21925,12 +21993,12 @@
           "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -21951,17 +22019,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -21971,11 +22039,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Boss_Alpha;LPKG:PKG_Boss_Alpha"
+        "Annotation": ""
       },
-      "LTG_Boss_Beta_01": {
+      "LTG_Boss_Beta.01": {
         "TierGroup": "LTG_Boss_Beta",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -21993,12 +22061,12 @@
           "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22019,17 +22087,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22039,11 +22107,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Boss_Beta;LPKG:PKG_Boss_Beta"
+        "Annotation": ""
       },
-      "LTG_Boss_Gamma_01": {
+      "LTG_Boss_Gamma.01": {
         "TierGroup": "LTG_Boss_Gamma",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22061,12 +22129,12 @@
           "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22087,17 +22155,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22107,11 +22175,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Boss_Gamma;LPKG:PKG_Boss_Gamma"
+        "Annotation": ""
       },
-      "LTG_Henchmen_01": {
+      "LTG_Henchmen.01": {
         "TierGroup": "LTG_Henchmen",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22129,9 +22197,9 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22155,17 +22223,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22175,11 +22243,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Henchmen;LPKG:PKG_Henchmen"
+        "Annotation": ""
       },
-      "LTG_UmbramoltKipper_01": {
+      "LTG_UmbramoltKipper.01": {
         "TierGroup": "LTG_UmbramoltKipper",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22197,7 +22265,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22223,17 +22291,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22243,11 +22311,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_UmbramoltKipper;LPKG:PKG_UmbramoltKipper"
+        "Annotation": ""
       },
-      "LTG_CareDrop_01": {
+      "LTG_CareDrop.01": {
         "TierGroup": "LTG_CareDrop",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22265,10 +22333,10 @@
           "Y": 4.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22291,17 +22359,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22311,11 +22379,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_CareDrop;LPKG:PKG_CareDrop"
+        "Annotation": ""
       },
-      "LTG_SecretFacility_01": {
+      "LTG_SecretFacility.01": {
         "TierGroup": "LTG_SecretFacility",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22333,7 +22401,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22359,17 +22427,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22379,11 +22447,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_SecretFacility;LPKG:PKG_SecretFacility"
+        "Annotation": ""
       },
-      "Loot_JobBoard_Gold_BuriedTreasure_01": {
+      "Loot_JobBoard_Gold_BuriedTreasure.01": {
         "TierGroup": "Loot_JobBoard_Gold_BuriedTreasure",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22401,7 +22469,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22427,17 +22495,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22447,11 +22515,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_JobBoard_Gold_BuriedTreasure;LPKG:PKG_JobBoard_Gold_BuriedTreasure"
+        "Annotation": ""
       },
-      "LTG_ShadowBriefing_01": {
+      "LTG_ShadowBriefing.01": {
         "TierGroup": "LTG_ShadowBriefing",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22469,7 +22537,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22495,17 +22563,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22515,11 +22583,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_ShadowBriefing;LPKG:PKG_ShadowBriefing"
+        "Annotation": ""
       },
-      "LTG_Twins_01": {
+      "LTG_Twins.01": {
         "TierGroup": "LTG_Twins",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22537,9 +22605,9 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22563,17 +22631,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22583,11 +22651,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Twins;LPKG:PKG_Twins"
+        "Annotation": ""
       },
-      "LTG_Balloon_01": {
+      "LTG_Balloon.01": {
         "TierGroup": "LTG_Balloon",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22605,10 +22673,10 @@
           "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22631,17 +22699,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22651,11 +22719,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_Balloon;LPKG:PKG_Balloon"
+        "Annotation": ""
       },
-      "LTG_DeadliftRecord_01": {
+      "LTG_DeadliftRecord.01": {
         "TierGroup": "LTG_DeadliftRecord",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22673,9 +22741,9 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22699,17 +22767,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22719,11 +22787,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_DeadliftRecord;LPKG:PKG_DeadliftRecord"
+        "Annotation": ""
       },
-      "LTG_GreatRamp_01": {
+      "LTG_GreatRamp.01": {
         "TierGroup": "LTG_GreatRamp",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22741,9 +22809,9 @@
           "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -22767,17 +22835,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22787,11 +22855,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_GreatRamp;LPKG:PKG_GreatRamp"
+        "Annotation": ""
       },
-      "LTG_DragonCart_Shotgun_Pump_Common_01": {
+      "LTG_DragonCart_Shotgun_Pump_Common.01": {
         "TierGroup": "LTG_DragonCart_Shotgun_Pump_Common",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22809,7 +22877,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22835,17 +22903,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22855,11 +22923,11 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_DragonCart_Shotgun_Pump_Common;LPKG:PKG_DragonCart_Shotgun_Pump_Common"
+        "Annotation": ""
       },
-      "LTG_DragonCart_Shotgun_Dual_Common_01": {
+      "LTG_DragonCart_Shotgun_Dual_Common.01": {
         "TierGroup": "LTG_DragonCart_Shotgun_Dual_Common",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
@@ -22877,7 +22945,7 @@
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22903,17 +22971,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22923,13 +22991,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:LTG_DragonCart_Shotgun_Dual_Common;LPKG:PKG_DragonCart_Shotgun_Dual_Common"
+        "Annotation": ""
       },
-      "Loot_AthenaTest_03": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "Loot_Specialist_Supply_Extra.01": {
+        "TierGroup": "Loot_Specialist_Supply_Extra",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -22938,14 +23006,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldPKG.Specialist.Supply.Extra.Loot",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
           "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -22971,17 +23039,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -22991,13 +23059,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": ""
       },
-      "Loot_AthenaTest_04": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "LTG_HolidayGiftBox.01": {
+        "TierGroup": "LTG_HolidayGiftBox",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23006,14 +23074,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "PKG_HolidayGiftBox",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23027,6 +23095,19 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23038,19 +23119,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23059,13 +23127,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": ""
       },
-      "Loot_AthenaTest_05": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "LTG_WinterEvent.01": {
+        "TierGroup": "LTG_WinterEvent",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23074,14 +23142,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "PKG_WinterEvent",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23095,6 +23163,19 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23106,19 +23187,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23127,13 +23195,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": ""
       },
-      "Loot_AthenaTest_06": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "LTG_YuleTrooper.01": {
+        "TierGroup": "LTG_YuleTrooper",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23142,14 +23210,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "PKG_YuleTrooper",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23163,6 +23231,19 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23174,19 +23255,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23195,13 +23263,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
+        "bAllowBonusLootDrops": false,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "Annotation": ""
       },
-      "Loot_AthenaTest_07": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "LTG_OG_Rift_GC.01": {
+        "TierGroup": "LTG_OG_Rift_GC",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23210,14 +23278,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "PKG_OG_Rift_GC",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23231,6 +23299,19 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23242,19 +23323,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23263,13 +23331,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
       },
-      "Loot_AthenaTest_08": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "Loot_GCDunmurry_Solo.01": {
+        "TierGroup": "Loot_GCDunmurry_Solo",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23278,14 +23346,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldPKG.GCDunmurry",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23299,6 +23367,19 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23310,19 +23391,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23331,13 +23399,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
       },
-      "Loot_AthenaTest_09": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "Loot_GCDunmurry_Duo.01": {
+        "TierGroup": "Loot_GCDunmurry_Duo",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23346,14 +23414,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldPKG.GCDunmurry",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 8.0,
+          "Y": 8.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23366,7 +23434,20 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23378,19 +23459,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23399,13 +23467,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
       },
-      "Loot_AthenaTest_10": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "Loot_GCDunmurry_Trio.01": {
+        "TierGroup": "Loot_GCDunmurry_Trio",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23414,14 +23482,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldPKG.GCDunmurry",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 12.0,
+          "Y": 12.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23434,7 +23502,20 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
           0,
           0,
           0,
@@ -23446,19 +23527,6 @@
           0,
           0
         ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
         "GameplayTags": [],
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
@@ -23467,13 +23535,13 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
       },
-      "Loot_AthenaTest_11": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
+      "Loot_GCDunmurry_Squad.01": {
+        "TierGroup": "Loot_GCDunmurry_Squad",
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23482,14 +23550,14 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
+        "LootPackage": "WorldPKG.GCDunmurry",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 16.0,
+          "Y": 16.0
         },
         "LootPackageCategoryWeightArray": [
-          1,
+          0,
           0,
           0,
           0,
@@ -23502,78 +23570,10 @@
           0
         ],
         "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_12": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
+          4,
+          4,
+          4,
+          4,
           0,
           0,
           0,
@@ -23583,17 +23583,17 @@
           0
         ],
         "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "GameplayTags": [],
         "RequiredTagQuery": {
@@ -23603,893 +23603,9 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_13": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_14": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_15": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_16": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_17": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_18": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_19": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_20": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_21": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_22": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_23": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_24": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
-      },
-      "Loot_AthenaTest_25": {
-        "TierGroup": "Loot_AthenaTest",
-        "Weight": 0.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_AthenaTest",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaTest;LPKG:PKG_AthenaTest"
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
       }
     }
   }

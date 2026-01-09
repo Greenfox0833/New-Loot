@@ -1,5 +1,20 @@
 [
   {
+    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/HopFlopper/WID_Athena_Flopper_HopFlopper.WID_Athena_Flopper_HopFlopper",
+    "LocalizedName": "???",
+    "rarity": "エピック"
+  },
+  {
+    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/RiftFlopper/WID_Athena_Flopper_Rift.WID_Athena_Flopper_Rift",
+    "LocalizedName": "???",
+    "rarity": "エピック"
+  },
+  {
+    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle.WID_Athena_GoldenTruffle",
+    "LocalizedName": "???",
+    "rarity": "ミシック"
+  },
+  {
     "AssetPathName": "/ForbiddenFruitWeaponsGameplay/Gameplay/Weapons/PumpShotgun/WID_Shotgun_Standard_Athena_UR_BB.WID_Shotgun_Standard_Athena_UR_BB",
     "LocalizedName": "Blitz ポンプショットガン",
     "rarity": "ミシック"
@@ -90,9 +105,9 @@
     "rarity": "ミシック"
   },
   {
-    "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability_VR.WID_Athena_WitchBroom_Durability_VR",
-    "LocalizedName": "ウィッチブルーム",
-    "rarity": "エピック"
+    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_R.WID_Sniper_NoScope_ExSword_Athena_R",
+    "LocalizedName": "エクス・キャリバーライフル",
+    "rarity": "レア"
   },
   {
     "AssetPathName": "/TidalCraneWeaponGameplay/Gameplay/Weapons/TerminatorAR/WID_Assault_TidalCrane_Athena_X.WID_Assault_TidalCrane_Athena_X",
@@ -270,8 +285,8 @@
     "rarity": "ミシック"
   },
   {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-    "LocalizedName": "ショックウェーブグレネード",
+    "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
+    "LocalizedName": "ショックウェーブハンマー",
     "rarity": "エピック"
   },
   {
@@ -320,14 +335,9 @@
     "rarity": "ミシック"
   },
   {
-    "AssetPathName": "/Game/Athena/Items/Weapons/Seasonal/WID_Launcher_Snowball_Athena_SR_Ore_T03.WID_Launcher_Snowball_Athena_SR_Ore_T03",
-    "LocalizedName": "スノーボールランチャー",
-    "rarity": "レジェンド"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Weapons/Seasonal/WID_Launcher_Snowball_Athena_VR_Ore_T03.WID_Launcher_Snowball_Athena_VR_Ore_T03",
-    "LocalizedName": "スノーボールランチャー",
-    "rarity": "エピック"
+    "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/GasFlopper/WID_Athena_Flopper_GasFlopper.WID_Athena_Flopper_GasFlopper",
+    "LocalizedName": "スティンクフィッシュ",
+    "rarity": "アンコモン"
   },
   {
     "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_VR.WID_Assault_CherrySmoke_SpireGun_Athena_VR",
@@ -385,11 +395,6 @@
     "rarity": "レア"
   },
   {
-    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC",
-    "LocalizedName": "タクティカルピストル",
-    "rarity": "アンコモン"
-  },
-  {
     "AssetPathName": "/Game/Athena/Items/Weapons/WaffleTruck/WID_WaffleTruck_Dub.WID_WaffleTruck_Dub",
     "LocalizedName": "ダブ",
     "rarity": "エキゾチック"
@@ -403,11 +408,6 @@
     "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
     "LocalizedName": "チャグジャグ",
     "rarity": "レジェンド"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ThrownConsumables/IceGrenade/Athena_IceGrenade.Athena_IceGrenade",
-    "LocalizedName": "チラーグレネード",
-    "rarity": "コモン"
   },
   {
     "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR.WID_Shotgun_Auto_Dual_DragonCart_Athena_VR",
@@ -605,6 +605,11 @@
     "rarity": "レア"
   },
   {
+    "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UC.WID_SMG_DragonCart_Athena_UC",
+    "LocalizedName": "フレックス サブマシンガン",
+    "rarity": "アンコモン"
+  },
+  {
     "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UR.WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
     "LocalizedName": "ブルータスのツインハンマーショットガン",
     "rarity": "ミシック"
@@ -695,16 +700,6 @@
     "rarity": "エキゾチック"
   },
   {
-    "AssetPathName": "/PlacidMelon/Gameplay/PlacidMelon/WID_PlacidMelon.WID_PlacidMelon",
-    "LocalizedName": "一護の完全虚化の仮面",
-    "rarity": "ミシック"
-  },
-  {
-    "AssetPathName": "/SinisterMelon/Gameplay/SinisterMelon/WID_SinisterMelon.WID_SinisterMelon",
-    "LocalizedName": "二刀の斬月",
-    "rarity": "ミシック"
-  },
-  {
     "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
     "LocalizedName": "医療キット",
     "rarity": "アンコモン"
@@ -775,13 +770,13 @@
     "rarity": "コモン"
   },
   {
-    "AssetPathName": "/SunRoseConsumablesGameplay/Gameplay/GoldenFruit/WID_Athena_GoldenFruit.WID_Athena_GoldenFruit",
-    "LocalizedName": "神々のバナナ",
-    "rarity": "レジェンド"
+    "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
+    "LocalizedName": "王者エイジレスのショックウェーブハンマー",
+    "rarity": "ミシック"
   },
   {
-    "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-    "LocalizedName": "自己蘇生デバイス",
+    "AssetPathName": "/SunRoseConsumablesGameplay/Gameplay/GoldenFruit/WID_Athena_GoldenFruit.WID_Athena_GoldenFruit",
+    "LocalizedName": "神々のバナナ",
     "rarity": "レジェンド"
   }
 ]

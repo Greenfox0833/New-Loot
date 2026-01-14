@@ -44565,8 +44565,8 @@
         "LootPackage": "WorldPKG.AthenaSCM.Enchanced",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 13.0,
-          "Y": 13.0
+          "X": 10.0,
+          "Y": 10.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -44579,7 +44579,7 @@
           1,
           1,
           1,
-          0
+          1
         ],
         "LootPackageCategoryMinArray": [
           1,
@@ -84073,8 +84073,8 @@
         "LootPackage": "PKG_Henchmen",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -84094,8 +84094,8 @@
           1,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -85894,6 +85894,78 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_NPC_Item_S23_ExCaliberRifle;LPKG:NPCItemPKG.S23.ExCaliberRifle"
+      },
+      "AthenaHighConsumablesRare.09": {
+        "Name": "AthenaHighConsumablesRare.09",
+        "LootPackageID": "WorldList.AthenaHighConsumablesRare",
+        "Weight": 0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": {
+          "GameplayTags": [],
+          "ParentTags": []
+        },
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1,
+        "Count": 0,
+        "RequiredTag": "None"
+      },
+      "WorldList.FlopperDefault.Consumables.02": {
+        "Name": "WorldList.FlopperDefault.Consumables.02",
+        "LootPackageID": "WorldList.FlopperDefault.Consumables",
+        "Weight": 0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": {
+          "GameplayTags": [],
+          "ParentTags": []
+        },
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/WildEstateConsumables/Gameplay/BrickSail/WID_Athena_BrickSail_Zero.WID_Athena_BrickSail_Zero",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1,
+        "Count": 0,
+        "RequiredTag": "None"
       }
     }
   }

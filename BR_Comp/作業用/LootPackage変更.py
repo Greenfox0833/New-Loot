@@ -5,17 +5,17 @@ from typing import Any, Dict, List, Tuple
 
 # ==== 入出力（必要なら名前だけ変えてOK）====
 BASE_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")  # ①ベース
-SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")  # ②上書き
-COMP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp.json")  # ④上書き
-COMP_BK_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp_Backup.json")  # ⑥上書き
+SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json")  # ②上書き
+COMP_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/Comp/DragonCartLootPackages_Client_Comp.json")  # ④上書き
+COMP_BK_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/Comp/DragonCartLootPackages_Client_Comp_Backup.json")  # ⑥上書き
 HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # 任意（無ければスキップ）
 
 OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/AthenaLootPackages_Client__final.json")
 
 # Hotfix の対象テーブル名（段階ごとに限定）
 HOTFIX_TARGET_ATHENA = "/Game/Items/Datatables/AthenaLootPackages_Client"
-HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client"
-HOTFIX_TARGET_COMP   = "/LootCurrentSeason/DataTables/Comp/LootCurrentSeasonLootPackages_Client_Comp"
+HOTFIX_TARGET_SEASON = "/DragonCartLoot/DataTables/DragonCartLootPackages_Client"
+HOTFIX_TARGET_COMP   = "/DragonCartLoot/DataTables/Comp/DragonCartLootPackages_Client_Comp"
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 _num_head = re.compile(r'^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?')  # ★先頭の数値だけ抜く用

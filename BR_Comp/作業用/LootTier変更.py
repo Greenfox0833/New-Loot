@@ -5,16 +5,16 @@ from typing import Any, Dict, List, Tuple
 
 # ==== ファイルパス設定（必要に応じて書き換えOK） ====
 BASE_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")  # ①ベース
-SEASON_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootTierData_Client.json")  # ①上書き
-COMP_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootTierData_Client_Comp.json")  # ③上書き
-COMP_BK_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/Comp/LootCurrentSeasonLootTierData_Client_Comp_Backup.json")  # ⑤上書き
+SEASON_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json")  # ①上書き
+COMP_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/Comp/DragonCartLootTierData_Client_Comp.json")  # ③上書き
+COMP_BK_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/Comp/DragonCartLootTierData_Client_Comp_Backup.json")  # ⑤上書き
 HOTFIX_PATH    = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ②＆④ 任意（無ければスキップ）
 
 OUT_FINAL      = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR_Comp/作業用/AthenaLootTierData_Client__final.json")
 
 # Hotfix の対象テーブル名（厳密一致）
-HOTFIX_TARGET_SEASON = "/LootCurrentSeason/DataTables/LootCurrentSeasonLootTierData_Client"
-HOTFIX_TARGET_COMP   = "/LootCurrentSeason/DataTables/Comp/LootCurrentSeasonLootTierData_Client_Comp"
+HOTFIX_TARGET_SEASON = "/DragonCartLoot/DataTables/DragonCartLootTierData_Client"
+HOTFIX_TARGET_COMP   = "DragonCartLootPackages_Client_Comp"
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 

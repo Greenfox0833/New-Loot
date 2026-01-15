@@ -4,42 +4,54 @@
   "summary": {
     "added": 1,
     "removed": 5,
-    "modified": 0,
+    "change": 0,
     "unchanged": 128
   },
   "added": [
+  {
+    "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
+    "LocalizedName": "ショックウェーブハンマー",
+    "rarity": "エピック",
+    "addrow": [
+      "LTG_ThemeParkCannon_Solo_Small",
+      "LTG_Balloon"
+    ]
+  }
+],
+"removed": [
+  {
+    "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
+    "LocalizedName": "ショックウェーブハンマー",
+    "rarity": "エピック",
+    "removedrow": [
+      "LTG_ThemeParkCannon_Solo_Small",
+      "LTG_Balloon"
+    ]
+  }
+],
+  "change": [
     {
-      "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
-      "LocalizedName": "ショックウェーブハンマー",
-      "rarity": "エピック"
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C",
+      "LocalizedName": "ハンマーアサルトライフル",
+      "rarity": "コモン",
+      "Percent": {
+        "LTG_Balloon": {
+          "before": {
+            "probability": 0.05
+          },
+          "after": {
+            "probability": 0.08
+          }
+        },
+        "LTG_ThemeParkCannon_Solo_Small": {
+          "before": {
+            "probability": 0.05
+          },
+          "after": {
+            "probability": 0.08
+          }
+        }
+      }
     }
-  ],
-  "removed": [
-    {
-      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C.WID_Assault_Heavy_Recoil_Athena_C",
-      "LocalizedName": "ハンマーアサルトライフル",
-      "rarity": "コモン"
-    },
-    {
-      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_R.WID_Assault_Heavy_Recoil_Athena_R",
-      "LocalizedName": "ハンマーアサルトライフル",
-      "rarity": "レア"
-    },
-    {
-      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_SR.WID_Assault_Heavy_Recoil_Athena_SR",
-      "LocalizedName": "ハンマーアサルトライフル",
-      "rarity": "レジェンド"
-    },
-    {
-      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_UC.WID_Assault_Heavy_Recoil_Athena_UC",
-      "LocalizedName": "ハンマーアサルトライフル",
-      "rarity": "アンコモン"
-    },
-    {
-      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_VR.WID_Assault_Heavy_Recoil_Athena_VR",
-      "LocalizedName": "ハンマーアサルトライフル",
-      "rarity": "エピック"
-    }
-  ],
-  "modified": []
+  ]
 }

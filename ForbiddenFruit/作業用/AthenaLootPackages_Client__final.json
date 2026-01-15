@@ -29647,7 +29647,7 @@
       },
       "WorldList.GoldChest.Boons.01": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29667,7 +29667,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle.WID_Athena_GoldenTruffle",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/RevellingRevealer/PAID_FirePetal_RevellingRevealer.PAID_FirePetal_RevellingRevealer",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

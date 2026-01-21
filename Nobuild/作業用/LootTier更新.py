@@ -14,15 +14,15 @@ from typing import Any, Dict, List, Tuple
 
 # ==== ファイルパス設定 ====
 BASE_PATH     = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")  # ①ベース
-SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootTierData_Client.json")  # ①上書き対象
-OVERRIDE_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json")  # ③最終上書き
+SEASON_PATH   = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json")  # ①上書き対象
+OVERRIDE_PATH = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json")  # ③最終上書き
 HOTFIX_PATH   = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ② 任意（無ければスキップ）
 
 OUT_FINAL     = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootTierData_Client__final.json")
 
 # Hotfix の対象テーブル名（厳密一致）
 HOTFIX_TARGET_TABLE = {
-    "/LootCurrentSeason/DataTables/LootCurrentSeasonLootTierData_Client",
+    "/DragonCartLoot/DataTables/DragonCartLootTierData_Client",
     "/Game/Items/Datatables/AthenaLootTierData_Client"
 }
 

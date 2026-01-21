@@ -5,8 +5,8 @@ from typing import Any, Dict, List, Tuple
 
 # ==== 入出力（必要なら名前だけ変えてOK）====
 BASE_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json")  # ①ベース
-SEASON_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/LootCurrentSeasonLootPackages_Client.json")  # ①上書き対象
-OVERRIDE_PATH= Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LootCurrentSeason/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json")  # ③最終上書き
+SEASON_PATH  = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json")  # ①上書き対象
+OVERRIDE_PATH= Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json")  # ③最終上書き
 HOTFIX_PATH  = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ② 任意（無ければスキップ）
 
 OUT_FINAL    = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/Nobuild/作業用/AthenaLootPackages_Client__final.json")
@@ -14,7 +14,8 @@ OUT_FINAL    = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/N
 # Hotfixを適用する“対象テーブル名”を厳密にシーズン表に限定
 HOTFIX_TARGET_TABLE = {
     "/LootCurrentSeason/DataTables/LootCurrentSeasonLootPackages_Client",
-    "/Game/Items/Datatables/AthenaLootPackages_Client"
+    "/DragonCartLoot/DataTables/DragonCartLootPackages_Client",
+    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR"
 }
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")

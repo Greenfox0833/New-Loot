@@ -404,3 +404,50 @@
 2026-01-22 23:09:30 | INFO | build summary start
 2026-01-22 23:09:47 | INFO | build summary done (16.57s)
 2026-01-22 23:09:47 | INFO | enrich summary with names start
+2026-01-22 23:10:17 | INFO | enrich summary done (30.04s)
+2026-01-22 23:10:17 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-01-22_23-10.json
+2026-01-22 23:10:17 | INFO | build BR_LootData start
+2026-01-22 23:10:17 | INFO | build BR_LootData done (0.00s)
+2026-01-22 23:10:17 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\lootdata\Reload\Reload_LootData_2026-01-22_23-10.json
+2026-01-22 23:10:17 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\LootSummary.py
+2026-01-22 23:10:17 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\scripts\\LootSummary.py', '--scan', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\output\\summary', '--diff-scan', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\output\\summary']' returned non-zero exit status 2.
+2026-01-22 23:10:17 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\pipeline.py", line 160, in main
+    res_sum = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\scripts\\LootSummary.py', '--scan', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\output\\summary', '--diff-scan', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\Reload\\output\\summary']' returned non-zero exit status 2.
+2026-01-22 23:10:17 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\BR_Discor.py
+2026-01-22 23:10:17 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-22 23:10:21 | INFO | git commit stdout: [main 0f2c7f7] Reload update 2026-01-22 23:10:19
+ 33 files changed, 438785 insertions(+), 15 deletions(-)
+ create mode 100644 System Update/Reload/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/Reload/input/AthenaLootPackages_Client_BlastBerryOverride__final.json
+ create mode 100644 System Update/Reload/input/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/Reload/input/AthenaLootTierData_Client_BlastBerryOverride__final.json
+ create mode 100644 System Update/Reload/input/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/Reload/input/BlastBerryLootPackages__final.json
+ create mode 100644 System Update/Reload/input/BlastBerryTierData__final.json
+ create mode 100644 System Update/Reload/output/logs/pipeline_2026-01-22_23-09-29.log
+ create mode 100644 System Update/Reload/output/summary/v39.30_2026-01-22_23-10.json
+ create mode 100644 System Update/Reload/pipeline.py
+ create mode 100644 System Update/Reload/scripts/scripts/LootSummary.py
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_19-24.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_19-30.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_20-43.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_20-49.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_21-05.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_21-07.json (100%)
+ rename System Update/lootdata/BR/{LootPercent => }/BR_LootData_2026-01-22_22-18.json (100%)
+ rename System Update/lootdata/BR_Comp/{LootPercent/BR_LootData_2026-01-22_22-00.json => BR_Comp_LootData_2026-01-22_22-00.json} (100%)
+ rename System Update/lootdata/BR_Comp/{LootPercent/BR_LootData_2026-01-22_22-09.json => BR_Comp_LootData_2026-01-22_22-09.json} (100%)
+ rename System Update/lootdata/BR_Comp/{LootPercent/BR_LootData_2026-01-22_22-18.json => BR_Comp_LootData_2026-01-22_22-18.json} (100%)
+ rename System Update/lootdata/ForbiddenFruit/{LootPercent/BR_LootData_2026-01-22_22-30.json => ForbiddenFruit_LootData_2026-01-22_22-30.json} (100%)
+ rename System Update/lootdata/ForbiddenFruit/{LootPercent/BR_LootData_2026-01-22_22-32.json => ForbiddenFruit_LootData_2026-01-22_22-32.json} (100%)
+ rename System Update/lootdata/ForbiddenFruit/{LootPercent/BR_LootData_2026-01-22_22-44.json => ForbiddenFruit_LootData_2026-01-22_22-44.json} (100%)
+ create mode 100644 System Update/lootdata/Reload/Reload_LootData_2026-01-22_23-10.json
+2026-01-22 23:10:27 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   68aee2c..0f2c7f7  main -> main
+2026-01-22 23:10:27 | INFO | ✓ GitHub Push 完了
+2026-01-22 23:10:27 | INFO | ===== Reload: pipeline end =====

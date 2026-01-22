@@ -4,18 +4,22 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 # ==== ファイルパス設定（必要に応じて書き換えOK） ====
-BASE_PATH      = Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json")  # ①ベース
-SEASON_PATH    = Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json")  # ①上書き
-COMP_PATH    = None  # ← カジュアルなので不要
-COMP_BK_PATH = None  # ← カジュアルなので不要
-HOTFIX_PATH    = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # ② 任意
+# 単体指定も複数指定もOK（Path or List[Path]）
+BASE_PATHS = [
+    Path("e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json"),
+]
+SEASON_PATHS = [
+    Path("e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json"),
+]
+COMP_PATHS = []
+COMP_BK_PATHS = []
+HOTFIX_PATH = Path("e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini")  # 任意
 
-OUT_FINAL      = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
+OUT_FINAL = Path("E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/BR/作業用/AthenaLootTierData_Client__final.json")
 
 # Hotfix の対象テーブル名（カジュアル BR 用）
 HOTFIX_TARGET_SEASON = "/DragonCartLoot/DataTables/DragonCartLootTierData_Client"
-HOTFIX_TARGET_COMP   = None   # ← Comp 無効化
-
+HOTFIX_TARGET_COMP = None  # Comp 無効化
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
@@ -47,6 +51,24 @@ def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tupl
             base_rows[k] = v
             added += 1
     return replaced, added
+
+def _as_paths(value) -> List[Path]:
+    if value is None:
+        return []
+    if isinstance(value, Path):
+        return [value]
+    if isinstance(value, (list, tuple)):
+        return [p for p in value if isinstance(p, Path)]
+    return []
+
+def _existing(paths: List[Path]) -> List[Path]:
+    return [p for p in paths if p.exists()]
+
+def _merge_many(base_rows: Dict[str, Any], paths: List[Path], label: str) -> None:
+    for p in paths:
+        meta = read_datatable_json(p)
+        rep, add = merge_rows(base_rows, meta["Rows"])
+        print(f"[{label}] {p.name}: replaced={rep}, added={add}")
 
 # ---------- 値の型合わせ（数値/真偽/NULL/Unreal形式など） ----------
 def coerce_scalar(s: str) -> Any:
@@ -179,47 +201,46 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_name_ex
 
 # ---------- メイン ----------
 def main():
-    # ① Athena をベース、Season で上書き
-    base_meta   = read_datatable_json(BASE_PATH)
-    season_meta = read_datatable_json(SEASON_PATH)
-    base_rows   = base_meta["Rows"]
-    season_rows = season_meta["Rows"]
-    rep1, add1 = merge_rows(base_rows, season_rows)
-    print(f"[STEP1] base <- season : replaced={rep1}, added={add1}")
+    base_paths = _existing(_as_paths(BASE_PATHS))
+    season_paths = _existing(_as_paths(SEASON_PATHS))
+    comp_paths = _existing(_as_paths(COMP_PATHS))
+    comp_bk_paths = _existing(_as_paths(COMP_BK_PATHS))
 
-    # ② Hotfix（LootCurrentSeasonLootTierData_Client だけ）
-    if HOTFIX_PATH.exists():
+    if not base_paths:
+        raise ValueError("BASE_PATHS に有効なパスがありません")
+
+    # ① BASE を読み込み、SEASONで上書き
+    base_meta = read_datatable_json(base_paths[0])
+    base_rows = base_meta["Rows"]
+    _merge_many(base_rows, base_paths[1:], "BASE")
+    _merge_many(base_rows, season_paths, "SEASON")
+
+    # ② Hotfix（Season 側）
+    if HOTFIX_PATH.exists() and HOTFIX_TARGET_SEASON:
         text = HOTFIX_PATH.read_text(encoding="utf-8")
         apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_SEASON)
     else:
-        print("[HOTFIX] skipped (file not found)")
+        print("[HOTFIX:SEASON] skipped (file not found or target is None)")
 
-    # ③ comp 上書き（None/未存在ならスキップ）
-    if COMP_PATH and isinstance(COMP_PATH, Path) and COMP_PATH.exists():
-        comp_meta = read_datatable_json(COMP_PATH)
-        comp_rows = comp_meta["Rows"]
-        rep3, add3 = merge_rows(base_rows, comp_rows)
-        print(f"[STEP3] (hotfixed-season) <- comp : replaced={rep3}, added={add3}")
+    # ③ comp 上書き
+    if comp_paths:
+        _merge_many(base_rows, comp_paths, "COMP")
     else:
-        print("[STEP3] skipped (COMP_PATH is None or not found)")
+        print("[COMP] skipped (no paths)")
 
-    # ④ Hotfix（Comp側。テーブル名がNoneなら適用スキップ）
+    # ④ Hotfix（Comp 側）
     if HOTFIX_PATH.exists() and HOTFIX_TARGET_COMP:
         text = HOTFIX_PATH.read_text(encoding="utf-8")
         apply_hotfix_for_table(base_rows, text, HOTFIX_TARGET_COMP)
     else:
-        print("[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)")
+        print("[HOTFIX:COMP] skipped (file not found or target is None)")
 
-    # ⑤ comp_backup 上書き（None/未存在ならスキップ）
-    if COMP_BK_PATH and isinstance(COMP_BK_PATH, Path) and COMP_BK_PATH.exists():
-        comp_bk_meta = read_datatable_json(COMP_BK_PATH)
-        comp_bk_rows = comp_bk_meta["Rows"]
-        rep5, add5 = merge_rows(base_rows, comp_bk_rows)
-        print(f"[STEP5] (hotfixed-comp) <- comp_backup : replaced={rep5}, added={add5}")
+    # ⑤ comp_backup 上書き
+    if comp_bk_paths:
+        _merge_many(base_rows, comp_bk_paths, "COMP_BK")
     else:
-        print("[STEP5] skipped (COMP_BK_PATH is None or not found)")
+        print("[COMP_BK] skipped (no paths)")
 
-    # 出力（メタは base_meta 流用、Rows は最終状態）
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
 

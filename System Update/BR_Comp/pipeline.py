@@ -1,4 +1,5 @@
 ﻿import json
+import os
 import subprocess
 import sys
 import time
@@ -14,6 +15,9 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
+
+# Ensure child scripts use BR_Comp profile by default
+os.environ.setdefault("SYSTEM_PROFILE", "BR_Comp")
 
 from cache import enrich_summary_with_names
 from config import (

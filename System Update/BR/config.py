@@ -168,11 +168,11 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json",
+    str(INPUT_DIR / "AthenaLootPackages_Client.json"),
+    str(INPUT_DIR / "DragonCartLootPackages_Client.json"),
 ]
 HOTFIX_LP_MAX_PATHS = 10
-HOTFIX_LP_INI_PATH = "e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
+HOTFIX_LP_INI_PATH = str(INPUT_DIR / "Hotfix.ini")
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
@@ -181,11 +181,11 @@ HOTFIX_LP_TARGETS = [
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json",
+    str(INPUT_DIR / "AthenaLootTierData_Client.json"),
+    str(INPUT_DIR / "DragonCartLootTierData_Client.json"),
 ]
 HOTFIX_LT_MAX_PATHS = 10
-HOTFIX_LT_INI_PATH = "e:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
+HOTFIX_LT_INI_PATH = str(INPUT_DIR / "Hotfix.ini")
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",

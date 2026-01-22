@@ -106,3 +106,24 @@
   """
 2026-01-22 22:18:46 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.27s)
 2026-01-22 22:18:46 | INFO | prewarm start
+2026-01-22 22:19:09 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (22.75s)
+2026-01-22 22:19:09 | INFO | 画像化タスク数: 115
+2026-01-22 22:19:09 | INFO | 画像生成 進捗: 1/115
+2026-01-22 22:19:11 | INFO | 画像生成 進捗: 50/115
+2026-01-22 22:19:12 | INFO | 画像生成 進捗: 100/115
+2026-01-22 22:19:13 | INFO | 画像生成 進捗: 115/115
+2026-01-22 22:19:13 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-22 22:19:13 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\BR_Discor.py
+2026-01-22 22:19:13 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-22 22:19:14 | INFO | git commit stdout: [main f988d9f] BR update 2026-01-22 22:19:14
+ 10 files changed, 155654 insertions(+), 274 deletions(-)
+ create mode 100644 System Update/BR/input/DragonCartLootPackages_Client__final.json
+ create mode 100644 System Update/BR/input/DragonCartLootTierData_Client__final.json
+ create mode 100644 System Update/BR/output/history/BR_20260122_2218/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-01-22_22-18-45.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-01-22_22-18.json
+ create mode 100644 System Update/lootdata/BR/LootPercent/BR_LootData_2026-01-22_22-18.json
+2026-01-22 22:19:18 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   d5e1142..f988d9f  main -> main
+2026-01-22 22:19:18 | INFO | ✓ GitHub Push 完了
+2026-01-22 22:19:18 | INFO | ===== BR: pipeline end =====

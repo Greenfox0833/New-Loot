@@ -94,3 +94,13 @@
 FileNotFoundError: [Errno 2] No such file or directory: 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\NoBuild\\input\\AthenaLootTierData_Client__final.json'
 2026-01-23 00:18:46 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\BR_Discor.py
 2026-01-23 00:18:46 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-23 00:18:51 | INFO | git commit stdout: [main 9efbb4f] BR update 2026-01-23 00:18:49
+ 7 files changed, 799 insertions(+), 9 deletions(-)
+ create mode 100644 System Update/NoBuild/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/NoBuild/output/logs/pipeline_2026-01-23_00-18-45.log
+ create mode 100644 System Update/NoBuild/pipeline.py
+ create mode 100644 System Update/NoBuild/scripts/LootSummary.py
+2026-01-23 00:18:53 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   94507aa..9efbb4f  main -> main
+2026-01-23 00:18:53 | INFO | ✓ GitHub Push 完了
+2026-01-23 00:18:53 | INFO | ===== BR: pipeline end =====

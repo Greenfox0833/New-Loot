@@ -1316,8 +1316,8 @@ def main():
 
         # 0) Hotfix（必要時のみ実行）
         if DO_HOTFIX:
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootPackage変更.py"], check=True)
-            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootTier変更.py"], check=True)
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootPackage更新.py"], check=True)
+            subprocess.run([sys.executable, r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/NoBuild/作業用/LootTier更新.py"], check=True)
             print("✓ Hotfix 適用完了")
 
         # 1) まとめJSONの作成（LT/LP → summary）と保存

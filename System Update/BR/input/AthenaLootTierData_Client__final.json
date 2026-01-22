@@ -24152,6 +24152,7 @@
         "Annotation": ""
       },
       "Loot_Specialist_Supply_Extra_01": {
+        "Name": "Loot_Specialist_Supply_Extra_01",
         "TierGroup": "Loot_Specialist_Supply_Extra",
         "Weight": 1,
         "QuotaLevel": "Unlimited",
@@ -24207,7 +24208,10 @@
           -1,
           -1
         ],
-        "GameplayTags": [],
+        "GameplayTags": {
+          "GameplayTags": [],
+          "ParentTags": []
+        },
         "RequiredTagQuery": {
           "TokenStreamVersion": 0,
           "TagDictionary": [],
@@ -24219,7 +24223,11 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "",
         "NumLootPackageDrops": 0,
-        "RequiredGameplayTags": []
+        "RequiredGameplayTags": {
+          "GameplayTags": [],
+          "ParentTags": []
+        },
+        "RequiredTag": "None"
       }
     }
   }

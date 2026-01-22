@@ -179,6 +179,20 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
 
         op = rest[0].strip()
 
+        if op == "AddRow":
+            if len(rest) < 2:
+                return {"op": "SKIP", "datatable": dt}
+            raw = ";".join(rest[1:]).strip()
+            try:
+                if raw.startswith("\"") and raw.endswith("\""):
+                    raw = json.loads(raw)
+                obj = json.loads(raw)
+                if not isinstance(obj, dict):
+                    return {"op": "SKIP", "datatable": dt}
+                return {"op": "AddRow", "datatable": dt, "rowobj": obj}
+            except Exception:
+                return {"op": "SKIP", "datatable": dt}
+
         if op == "RowDelete":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
@@ -212,6 +226,22 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
             continue
 
         if (dt != table_key) and (dt.split("/")[-1] != table_key.split("/")[-1]):
+            continue
+
+        if op == "AddRow":
+            obj = h.get("rowobj")
+            if not isinstance(obj, dict):
+                skipped += 1
+                print(f"[{ln}] AddRow -> SKIP")
+                continue
+            rk = obj.get("Name", "")
+            if not rk:
+                skipped += 1
+                print(f"[{ln}] AddRow (no Name) -> SKIP")
+                continue
+            rows[rk] = obj
+            applied += 1
+            print(f"[{ln}] AddRow -> ADD {rk}")
             continue
 
         if op == "RowDelete":

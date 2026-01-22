@@ -1,4 +1,4 @@
-BR.py 分割版 説明書
+﻿BR.py 分割版 説明書
 
 場所
   BR/作業用/BR.py
@@ -24,7 +24,7 @@ BASE_PATH / SEASON_PATH 複数対応
         SEASON_PATHS = ["TEST4/New Loot"]
 
 実行順番（pipeline の流れ）
-  1) Hotfix 実行 (LootPackage変更.py / LootTier変更.py)
+  1) Hotfix 実行 (LootPackage.py / LootTier.py)
   2) LT/LP 読み込み → summary 作成
   3) summary を保存 (versioned JSON)
   4) BR_LootData を生成・保存
@@ -59,3 +59,4 @@ RUN_MODE の意味
   - パスは環境依存です。必要なら config.py で変更してください。
   - BR.py は SyStem Update を sys.path に追加してから pipeline を呼びます。
   - 対話入力を無効にする場合は環境変数 BR_INTERACTIVE=0 を設定してください。
+

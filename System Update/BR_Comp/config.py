@@ -178,8 +178,8 @@ def _coerce_path_list(value, default_list):
 
 # パス一式
 PATH_BR_DISCORD = str(SCRIPTS_DIR / "BR_Discor.py")
-PATH_HOTFIX_LP = str(COMMON_DIR / "LootPackage変更.py")
-PATH_HOTFIX_LT = str(COMMON_DIR / "LootTier変更.py")
+PATH_HOTFIX_LP = str(COMMON_DIR / "LootPackage.py")
+PATH_HOTFIX_LT = str(COMMON_DIR / "LootTier.py")
 PATH_LOOT_SUMMARY = str(SCRIPTS_DIR / "LootSummary.py")
 PATH_VERSION_SAVE_DIR = str(OUTPUT_DIR / "summary")
 PATH_LT_JSON = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
@@ -229,3 +229,4 @@ AUTO_RESOLVE_PATHS = False
 PROFILE_NAME = "BR_Comp"
 BASE_PATHS = []
 SEASON_PATHS = []
+

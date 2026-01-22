@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import re
 import sys
@@ -15,27 +15,28 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from config import (
-    HOTFIX_LP_INI_PATH,
-    HOTFIX_LP_MAX_PATHS,
-    HOTFIX_LP_OUT_FINAL,
-    HOTFIX_LP_PATHS,
-    HOTFIX_LP_TARGETS,
+    HOTFIX_LT_INI_PATH,
+    HOTFIX_LT_MAX_PATHS,
+    HOTFIX_LT_OUT_FINAL,
+    HOTFIX_LT_PATHS,
+    HOTFIX_LT_TARGETS,
 )
 
 # ==== 入出力（config.py 側で管理）====
-PATH_LIST = [Path(p) for p in (HOTFIX_LP_PATHS or [])][: int(HOTFIX_LP_MAX_PATHS or 10)]
-HOTFIX_PATH = Path(HOTFIX_LP_INI_PATH)
-OUT_FINAL = Path(HOTFIX_LP_OUT_FINAL)
+PATH_LIST = [Path(p) for p in (HOTFIX_LT_PATHS or [])][: int(HOTFIX_LT_MAX_PATHS or 10)]
+HOTFIX_PATH = Path(HOTFIX_LT_INI_PATH)
+OUT_FINAL = Path(HOTFIX_LT_OUT_FINAL)
 
 # Hotfix の対象テーブル名（PATHSと同じ順で適用）
-TARGET_LIST = list(HOTFIX_LP_TARGETS or [])
+TARGET_LIST = list(HOTFIX_LT_TARGETS or [])
 
 
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
-_num_head = re.compile(r"^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?")
 
 
 def read_datatable_json(path: Path) -> Dict[str, Any]:
+    if path is None:
+        raise ValueError("read_datatable_json: path is None（引数がNoneです）")
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     if isinstance(data, list):
@@ -51,6 +52,26 @@ def write_datatable_json(meta: Dict[str, Any], path: Path) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump([meta], f, ensure_ascii=False, indent=2)
 
+
+def _write_per_input_outputs(meta: Dict[str, Any], out_final: Path, path_list: List[Path]) -> None:
+    out_dir = out_final.parent
+    written = set()
+    try:
+        written.add(out_final.resolve())
+    except Exception:
+        written.add(out_final)
+    for p in path_list:
+        stem = p.stem
+        out_path = out_dir / f"{stem}__final.json"
+        try:
+            key = out_path.resolve()
+        except Exception:
+            key = out_path
+        if key in written:
+            continue
+        write_datatable_json(meta, out_path)
+        print(f"[WRITE] per-input -> {out_path.resolve()}")
+        written.add(key)
 
 def merge_rows(base_rows: Dict[str, Any], override_rows: Dict[str, Any]) -> Tuple[int, int]:
     replaced = added = 0
@@ -140,12 +161,6 @@ def coerce_like(existing: Any, new_str: str) -> Any:
             pass
         return [coerce_scalar(x.strip()) for x in s.split(",") if x.strip()]
 
-    if isinstance(existing, (int, float)):
-        m = _num_head.match(s)
-        if m:
-            num = m.group(0)
-            return float(num) if ("." in num or "e" in num.lower()) else int(num)
-
     return coerce_scalar(s)
 
 
@@ -162,62 +177,6 @@ def set_by_path(row: Dict[str, Any], field_path: str, value_str: str) -> Tuple[b
     existing = cur.get(last, None)
     cur[last] = coerce_like(existing, value_str)
     return True, ("OK" if existing is not None else "NEW")
-
-
-def _flatten_gameplay_tags(src: Any) -> List[str]:
-    if isinstance(src, dict):
-        tags = src.get("GameplayTags", [])
-        return tags if isinstance(tags, list) else []
-    if isinstance(src, list):
-        return src
-    return []
-
-
-def _default_required_tag_query() -> Dict[str, Any]:
-    return {
-        "TokenStreamVersion": 0,
-        "TagDictionary": [],
-        "QueryTokenStream": [],
-        "UserDescription": "",
-        "AutoDescription": "",
-    }
-
-
-def _build_annotation(lp_id: str, item_def: str) -> str:
-    tail = ""
-    if isinstance(item_def, str) and item_def and item_def != "None":
-        tail = item_def.split("/")[-1].split(".")[-1]
-    return f";List:{lp_id}.C0;Item:{tail}" if lp_id else (f";Item:{tail}" if tail else "")
-
-
-def normalize_addrow_object(obj: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
-    row_key = obj.get("Name", "")
-    lp_id = obj.get("LootPackageID", "")
-    itemdef = obj.get("ItemDefinition", "None")
-
-    row = {
-        "LootPackageID": lp_id,
-        "Weight": obj.get("Weight", 0.0),
-        "NamedWeightMult": obj.get("NamedWeightMult", "None"),
-        "PotentialNamedWeights": obj.get("PotentialNamedWeights", []),
-        "CountRange": obj.get("CountRange", {"X": 1, "Y": 1}),
-        "LootPackageCategory": obj.get("LootPackageCategory", 0),
-        "GameplayTags": _flatten_gameplay_tags(obj.get("GameplayTags", [])),
-        "RequiredLootGroupTag": obj.get("RequiredLootGroupTag", {"TagName": "None"}),
-        "RequiredTagQuery": obj.get("RequiredTagQuery", _default_required_tag_query()),
-        "LootPackageCall": obj.get("LootPackageCall", ""),
-        "ItemDefinition": {
-            "AssetPathName": itemdef if isinstance(itemdef, str) else "None",
-            "SubPathString": "",
-        },
-        "PersistentLevel": obj.get("PersistentLevel", ""),
-        "MinWorldLevel": obj.get("MinWorldLevel", -1),
-        "MaxWorldLevel": obj.get("MaxWorldLevel", -1),
-        "bAllowBonusDrops": obj.get("bAllowBonusDrops", True),
-        "Annotation": obj.get("Annotation") or _build_annotation(lp_id, itemdef),
-        "DurabilityPercentageOverride": obj.get("DurabilityPercentageOverride", 1.0),
-    }
-    return row_key, row
 
 
 def parse_hotfix_line(line: str) -> Dict[str, Any]:
@@ -254,20 +213,6 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
             except Exception:
                 return {"op": "SKIP", "datatable": dt}
 
-        if op == "TableUpdate":
-            if len(rest) < 2:
-                return {"op": "SKIP", "datatable": dt}
-            raw = ";".join(rest[1:]).strip()
-            try:
-                if raw.startswith("\"") and raw.endswith("\""):
-                    raw = json.loads(raw)
-                rows_array = json.loads(raw)
-                if not isinstance(rows_array, list):
-                    return {"op": "SKIP", "datatable": dt}
-                return {"op": "TableUpdate", "datatable": dt, "rows": rows_array}
-            except Exception:
-                return {"op": "SKIP", "datatable": dt}
-
         if op == "RowDelete":
             if len(rest) < 2:
                 return {"op": "SKIP", "datatable": dt}
@@ -289,7 +234,6 @@ def parse_hotfix_line(line: str) -> Dict[str, Any]:
 def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: str, stage_name: str) -> None:
     print(f"[HOTFIX:{stage_name}] target={table_key}")
     applied = deleted = skipped = 0
-    has_addrow = False
 
     for ln, line in enumerate(hotfix_text.splitlines(), 1):
         h = parse_hotfix_line(line)
@@ -304,6 +248,22 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
         if (dt != table_key) and (dt.split("/")[-1] != table_key.split("/")[-1]):
             continue
 
+        if op == "AddRow":
+            obj = h.get("rowobj")
+            if not isinstance(obj, dict):
+                skipped += 1
+                print(f"[{ln}] AddRow -> SKIP")
+                continue
+            rk = obj.get("Name", "")
+            if not rk:
+                skipped += 1
+                print(f"[{ln}] AddRow (no Name) -> SKIP")
+                continue
+            rows[rk] = obj
+            applied += 1
+            print(f"[{ln}] AddRow -> ADD {rk}")
+            continue
+
         if op == "RowDelete":
             rk = h["row"]
             if rk in rows:
@@ -312,39 +272,6 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
                 print(f"[{ln}] RowDelete {rk} -> DELETED")
             else:
                 print(f"[{ln}] RowDelete {rk} -> SKIP(no row)")
-            continue
-
-        if op == "AddRow":
-            obj = h.get("rowobj")
-            if not isinstance(obj, dict):
-                skipped += 1
-                print(f"[{ln}] AddRow -> SKIP")
-                continue
-            rk, new_row = normalize_addrow_object(obj)
-            if not rk:
-                skipped += 1
-                print(f"[{ln}] AddRow (no Name) -> SKIP")
-                continue
-            rows[rk] = new_row
-            applied += 1
-            has_addrow = True
-            print(f"[{ln}] AddRow -> ADD {rk}")
-            continue
-
-        if op == "TableUpdate":
-            arr = h.get("rows", [])
-            if not arr:
-                continue
-            has_addrow = True
-            for obj in arr:
-                rk, new_row = normalize_addrow_object(obj)
-                if not rk:
-                    skipped += 1
-                    print(f"[{ln}] TableUpdate (no Name) -> SKIP")
-                    continue
-                rows[rk] = new_row
-                applied += 1
-                print(f"[{ln}] TableUpdate -> ADD {rk}")
             continue
 
         rk, field, val = h.get("row"), h.get("field"), h.get("value")
@@ -371,14 +298,12 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
             skipped += 1
             print(f"[{ln}] {op} {rk}.{field}={val} -> NG({msg})")
 
-    if not has_addrow:
-        print(f"[HOTFIX:{stage_name}] Addrow(TableUpdate) なし -> スキップ")
     print(f"[HOTFIX:{stage_name}] done: applied={applied}, deleted={deleted}, skipped={skipped}")
 
 
 def main():
     if not PATH_LIST:
-        raise ValueError("HOTFIX_LP_PATHS が空です")
+        raise ValueError("HOTFIX_LT_PATHS が空です")
     base_meta = read_datatable_json(PATH_LIST[0])
     base_rows = base_meta["Rows"]
     for idx, p in enumerate(PATH_LIST[1:], 2):
@@ -398,7 +323,9 @@ def main():
 
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")
+    _write_per_input_outputs(base_meta, OUT_FINAL, PATH_LIST)
 
 
 if __name__ == "__main__":
     main()
+

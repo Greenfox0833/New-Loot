@@ -1334,6 +1334,15 @@ def main():
         Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✅ まとめJSONを作成: {versioned_filename}")
 
+        # 1.5) BR_LootData を生成・保存（LootPercent）
+        br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
+        br_lootdata_dir = Path(r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/戦利品データ/NoBuild/LootPercent")
+        br_lootdata_dir.mkdir(parents=True, exist_ok=True)
+        br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
+        br_view = build_br_lootdata_all_tgs(summary)
+        Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✅ BR_LootData を作成: {br_out}")
+
         # 2) LootSummary を実行（抽出 → 比較）
         subprocess.run(
             [sys.executable, str(loot_summary_py),

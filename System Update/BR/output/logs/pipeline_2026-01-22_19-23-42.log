@@ -1,0 +1,80 @@
+2026-01-22 19:23:42 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-01-22_19-23-42.log
+2026-01-22 19:23:42 | INFO | ===== BR: pipeline start =====
+2026-01-22 19:23:42 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-01-22 19:23:42 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\lootdata\BR\LootPercent
+2026-01-22 19:23:42 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-01-22 19:23:42 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootPackage変更.py
+2026-01-22 19:23:42 | INFO | hotfix lp stdout: [STEP1] base <- season : replaced=435, added=742
+[HOTFIX:SEASON] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
+[336] RowUpdate WorldList.AthenaHighConsumables.23.Weight=0.050000 -> OK
+[337] RowUpdate WorldList.AthenaHighConsumablesRare.24.Weight=0.050000 -> OK
+[338] RowUpdate WorldList.AthenaSupplyDropConsumables.23.Weight=0.050000 -> OK
+[339] RowUpdate WorldList.AthenaConsumables.24.Weight=0.050000 -> OK
+[346] RowUpdate PKG_ThemeParkCannon_Solo.01.Weight=0.250000 -> OK
+[347] RowUpdate PKG_ThemeParkCannon_Solo.02.Weight=0.750000 -> OK
+[348] RowUpdate PKG_ThemeParkCannon_Solo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[349] RowUpdate PKG_ThemeParkCannon_Solo.04.Weight=0.000000 -> OK
+[350] RowUpdate PKG_ThemeParkCannon_Duo.01.Weight=0.250000 -> OK
+[351] RowUpdate PKG_ThemeParkCannon_Duo.02.Weight=0.750000 -> OK
+[352] RowUpdate PKG_ThemeParkCannon_Duo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[353] RowUpdate PKG_ThemeParkCannon_Duo.04.Weight=0.000000 -> OK
+[354] RowUpdate PKG_ThemeParkCannon_Trio.01.Weight=0.250000 -> OK
+[355] RowUpdate PKG_ThemeParkCannon_Trio.02.Weight=0.750000 -> OK
+[356] RowUpdate PKG_ThemeParkCannon_Trio.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[357] RowUpdate PKG_ThemeParkCannon_Trio.04.Weight=0.000000 -> OK
+[358] RowUpdate PKG_ThemeParkCannon_Squad.01.Weight=0.250000 -> OK
+[359] RowUpdate PKG_ThemeParkCannon_Squad.02.Weight=0.750000 -> OK
+[360] RowUpdate PKG_ThemeParkCannon_Squad.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[361] RowUpdate PKG_ThemeParkCannon_Squad.04.Weight=0.000000 -> OK
+[362] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[363] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.100000 -> OK
+[364] RowUpdate LIST_ThemeParkCannon_Consumable.05.CountRange=(X=2,Y=2) -> OK
+[365] RowUpdate LIST_ThemeParkCannon_Consumable.05.ItemDefinition=/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot -> OK
+[366] RowUpdate LIST_ThemeParkCannon_Consumable.06.Weight=0.100000 -> OK
+[367] RowUpdate LIST_ThemeParkCannon_Consumable.06.CountRange=(X=1,Y=1) -> OK
+[368] RowUpdate LIST_ThemeParkCannon_Consumable.06.ItemDefinition=/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox -> OK
+[369] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[407] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[449] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.040000 -> OK
+[450] RowUpdate WorldList.AthenaConsumables.18.Weight=0.010000 -> OK
+[451] RowUpdate WorldList.Weapons.Rarity.Legendary.20.Weight=1.000000 -> OK
+[492] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=2,Y=2) -> OK
+[493] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=2,Y=2) -> OK
+[494] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=2,Y=2) -> OK
+[495] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=2,Y=2) -> OK
+[496] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=2,Y=2) -> OK
+[497] RowUpdate LIST_Balloon_Item.02.CountRange=(X=2,Y=2) -> OK
+[498] RowUpdate PKG_CareDrop.04.LootPackageCall=WorldList.AthenaHighConsumables -> OK
+[515] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.000000 -> OK
+[516] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.000000 -> OK
+[517] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.000000 -> OK
+[518] RowUpdate WorldList.AthenaConsumables.14.Weight=0.000000 -> OK
+[528] RowUpdate WorldList.AthenaHighConsumables.14.CountRange=(X=3,Y=3) -> OK
+[531] RowUpdate WorldList.AthenaHighConsumables.20.Weight=0.150000 -> OK
+[532] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=3,Y=3) -> OK
+[533] RowUpdate WorldList.AthenaHighConsumablesRare.20.Weight=0.200000 -> OK
+[534] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=3,Y=3) -> OK
+[535] RowUpdate WorldList.AthenaSupplyDropConsumables.22.Weight=0.200000 -> OK
+[536] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=3,Y=3) -> OK
+[537] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=3,Y=3) -> OK
+[538] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=3,Y=3) -> OK
+[539] RowUpdate LIST_Balloon_Item.02.CountRange=(X=3,Y=3) -> OK
+[HOTFIX:SEASON] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON] done: applied=53, deleted=0, skipped=0
+[STEP3] skipped (COMP_PATH is None or not found)
+[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)
+[STEP5] skipped (COMP_BK_PATH is None or not found)
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用\AthenaLootPackages_Client__final.json
+2026-01-22 19:23:42 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootTier変更.py
+2026-01-22 19:23:42 | INFO | hotfix lt stdout: [STEP1] base <- season : replaced=0, added=89
+[HOTFIX:/DragonCartLoot/DataTables/DragonCartLootTierData_Client] start
+[HOTFIX:/DragonCartLoot/DataTables/DragonCartLootTierData_Client] done: applied=0, deleted=0, skipped=0
+[STEP3] skipped (COMP_PATH is None or not found)
+[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)
+[STEP5] skipped (COMP_BK_PATH is None or not found)
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用\AthenaLootTierData_Client__final.json
+2026-01-22 19:23:42 | INFO | ✓ Hotfix 適用完了 (0.56s)
+2026-01-22 19:23:42 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-01-22 19:23:42 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-01-22 19:23:42 | INFO | load done (0.02s)
+2026-01-22 19:23:42 | INFO | build summary start

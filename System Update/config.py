@@ -1,4 +1,4 @@
-import os
+﻿import os
 import runpy
 from pathlib import Path
 
@@ -297,3 +297,4 @@ if AUTO_RESOLVE_PATHS and BASE_PATHS:
         PATH_LOOTDATA_DIR = _ld
     if _out:
         OUTPUT_BASE_DIR = _out
+

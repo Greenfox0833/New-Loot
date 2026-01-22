@@ -1,4 +1,4 @@
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild"
+﻿OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild"
 IMAGE_DIR_MODE = "flat"
 
 AUTO_RESOLVE_PATHS = True
@@ -10,3 +10,4 @@ BASE_PATHS = [
 SEASON_PATHS = [
     r"TEST4/New Loot",
 ]
+

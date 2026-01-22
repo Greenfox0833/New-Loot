@@ -100,10 +100,10 @@ ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
 
 # 画像素材など（必要なら System Update/BR/assets に移して更新）
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
-RARITY_BG_DIR = str(BASE_DIR / "assets" / "Rarity")
-RARITY_ICON_DIR = str(BASE_DIR / "assets" / "icon")
-AMMO_ICON_DIR = str(BASE_DIR / "assets" / "Ammo")
-STAT_TEMPLATE_PATH = str(BASE_DIR / "assets" / "Template.png")
+RARITY_BG_DIR = str(COMMON_DIR / "shared" / "assets" / "Rarity")
+RARITY_ICON_DIR = str(COMMON_DIR / "shared" / "assets" / "icon")
+AMMO_ICON_DIR = str(COMMON_DIR / "shared" / "assets" / "Ammo")
+STAT_TEMPLATE_PATH = str(COMMON_DIR / "shared" / "assets" / "Template.png")
 
 # スレッド数
 MAX_WORKERS = 8
@@ -168,11 +168,11 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
-    str(INPUT_DIR / "AthenaLootPackages_Client.json"),
-    str(INPUT_DIR / "DragonCartLootPackages_Client.json"),
+    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json",
 ]
 HOTFIX_LP_MAX_PATHS = 10
-HOTFIX_LP_INI_PATH = str(INPUT_DIR / "Hotfix.ini")
+HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
@@ -181,11 +181,11 @@ HOTFIX_LP_TARGETS = [
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
-    str(INPUT_DIR / "AthenaLootTierData_Client.json"),
-    str(INPUT_DIR / "DragonCartLootTierData_Client.json"),
+    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json",
 ]
 HOTFIX_LT_MAX_PATHS = 10
-HOTFIX_LT_INI_PATH = str(INPUT_DIR / "Hotfix.ini")
+HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",

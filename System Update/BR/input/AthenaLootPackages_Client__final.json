@@ -59017,7 +59017,7 @@
       },
       "WorldPKG.Specialist.Supply.Extra.Loot.01": {
         "LootPackageID": "WorldPKG.Specialist.Supply.Extra.Loot",
-        "Weight": 1.0,
+        "Weight": 1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59038,15 +59038,15 @@
         },
         "LootPackageCall": "WorldList.Ammo.Random",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.Specialist.Supply.Extra.Loot.C0;Call:WorldList.Ammo.Random",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldPKG.Specialist.Supply.Extra.Loot.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "PKG_Vend_Item_Mend_ShieldGen.01": {
         "LootPackageID": "PKG_Vend_Item_Mend_ShieldGen",

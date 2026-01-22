@@ -34,6 +34,24 @@ def extract_itemname_key(export_json: dict) -> str | None:
         return im2["key"]
     return None
 
+
+
+def extract_itemname_text(export_json: dict) -> str | None:
+    arr = (export_json or {}).get("jsonOutput") or []
+    if not arr:
+        return None
+    root = arr[0] if isinstance(arr, list) else arr
+    props = root.get("Properties", {}) if isinstance(root, dict) else {}
+    cand = None
+    if isinstance(props, dict):
+        im = props.get("ItemName")
+        if isinstance(im, dict):
+            cand = im.get("localizedString") or im.get("sourceString")
+    if not cand and isinstance(root, dict):
+        im2 = root.get("ItemName")
+        if isinstance(im2, dict):
+            cand = im2.get("localizedString") or im2.get("sourceString")
+    return cand
 def fetch_localized_name(key: str) -> str:
     url = "https://export-service.dillyapis.com/v1/export/localize"
     payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}

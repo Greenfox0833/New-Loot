@@ -17,6 +17,7 @@ from config import (
 )
 from export_api import (
     extract_itemname_key,
+    extract_itemname_text,
     fetch_export_json,
     fetch_localized_name,
     normalize_asset_path,
@@ -214,15 +215,19 @@ def get_name_by_asset(asset_path: str) -> str:
     key = extract_itemname_key(export_json)
     if key:
         name = fetch_localized_name(key)
+        if not name or name == "???":
+            fallback = extract_itemname_text(export_json)
+            name = fallback or name
         ASSET_LOC_CACHE[norm] = name or "???"
         _ASSET_LC_STATE["dirty"] += 1
         _flush_asset_loc_cache_if_needed()
         return ASSET_LOC_CACHE[norm]
 
-    ASSET_LOC_CACHE[norm] = "???"
+    fallback = extract_itemname_text(export_json)
+    ASSET_LOC_CACHE[norm] = fallback or "???"
     _ASSET_LC_STATE["dirty"] += 1
     _flush_asset_loc_cache_if_needed()
-    return "???"
+    return ASSET_LOC_CACHE[norm]
 
 def enrich_summary_with_names(summary: dict):
     if not isinstance(summary, dict) or not summary:

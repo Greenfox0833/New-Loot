@@ -157,3 +157,22 @@
   """
 2026-01-22 22:18:02 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.26s)
 2026-01-22 22:18:02 | INFO | prewarm start
+2026-01-22 22:18:24 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (21.94s)
+2026-01-22 22:18:24 | INFO | 画像化タスク数: 105
+2026-01-22 22:18:24 | INFO | 画像生成 進捗: 1/105
+2026-01-22 22:18:26 | INFO | 画像生成 進捗: 50/105
+2026-01-22 22:18:27 | INFO | 画像生成 進捗: 100/105
+2026-01-22 22:18:27 | INFO | 画像生成 進捗: 105/105
+2026-01-22 22:18:27 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-22 22:18:27 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\BR_Discor.py
+2026-01-22 22:18:27 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-22 22:18:29 | INFO | git commit stdout: [main d5e1142] BR_Comp update 2026-01-22 22:18:28
+ 14 files changed, 45266 insertions(+), 1681 deletions(-)
+ create mode 100644 System Update/BR_Comp/output/history/BR_20260122_2218/items_unique_min_diff.json
+ create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-01-22_22-18-00.log
+ create mode 100644 System Update/BR_Comp/output/summary/v39.30_2026-01-22_22-18.json
+ create mode 100644 System Update/lootdata/BR_Comp/LootPercent/BR_LootData_2026-01-22_22-18.json
+2026-01-22 22:18:34 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   bdaf0fa..d5e1142  main -> main
+2026-01-22 22:18:34 | INFO | ✓ GitHub Push 完了
+2026-01-22 22:18:34 | INFO | ===== BR_Comp: pipeline end =====

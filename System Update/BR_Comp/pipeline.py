@@ -37,6 +37,7 @@ from config import (
     PATH_HOTFIX_LP,
     PATH_HOTFIX_LT,
     PATH_VERSION_SAVE_DIR,
+    PROFILE_NAME,
     VERSION_PREFIX,
 )
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
@@ -146,7 +147,7 @@ def main():
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
         br_lootdata_dir = Path(PATH_LOOTDATA_DIR)
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
-        br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
+        br_out = br_lootdata_dir / f"{PROFILE_NAME}_LootData_{br_now}.json"
         logger.info("build BR_LootData start")
         t0 = time.time()
         br_view = build_br_lootdata_all_tgs(summary)
@@ -271,4 +272,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 

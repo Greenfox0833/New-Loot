@@ -16,8 +16,8 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-# Ensure child scripts use ForbiddenFruit profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "ForbiddenFruit")
+# Ensure child scripts use Reload profile by default
+os.environ.setdefault("SYSTEM_PROFILE", "Reload")
 
 from cache import enrich_summary_with_names
 from config import (
@@ -49,7 +49,7 @@ def _setup_logger():
     log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / f"pipeline_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 
-    logger = logging.getLogger("pipeline_forbiddenfruit")
+    logger = logging.getLogger("pipeline_reload")
     if logger.handlers:
         return logger
     logger.setLevel(getattr(logging, LOG_LEVEL.upper(), logging.INFO))
@@ -87,7 +87,7 @@ def main():
     minlist_path = Path(PATH_MINLIST_JSON)
 
     try:
-        logger.info("===== ForbiddenFruit: pipeline start =====")
+        logger.info("===== Reload: pipeline start =====")
         logger.info("paths: lt=%s lp=%s minlist=%s", lt_json_path, lp_json_path, minlist_path)
         logger.info("output: summary=%s lootdata=%s", version_save_dir, PATH_LOOTDATA_DIR)
         logger.info("flags: hotfix=%s prewarm=%s image=%s workers=%s", DO_HOTFIX, ENABLE_ICON_CACHE_PREWARM, ENABLE_IMAGE_CREATION, MAX_WORKERS)
@@ -251,7 +251,7 @@ def main():
             repo_dir = Path(PATH_REPO_DIR)
             logger.info("git add: %s", repo_dir)
             subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True, capture_output=True, text=True)
-            msg = f"ForbiddenFruit update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            msg = f"Reload update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             res_commit = subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False, capture_output=True, text=True)
             if res_commit.stdout:
                 logger.info("git commit stdout: %s", res_commit.stdout.strip())
@@ -267,7 +267,7 @@ def main():
             logger.warning("[!] GitHub Push に失敗: %s", e)
             logger.warning(traceback.format_exc().strip())
 
-        logger.info("===== ForbiddenFruit: pipeline end =====")
+        logger.info("===== Reload: pipeline end =====")
 
 
 if __name__ == "__main__":

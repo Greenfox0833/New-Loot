@@ -1,4 +1,5 @@
 ﻿import json
+import os
 import subprocess
 import sys
 import time
@@ -89,6 +90,8 @@ def main():
         logger.info("flags: hotfix=%s prewarm=%s image=%s workers=%s", DO_HOTFIX, ENABLE_ICON_CACHE_PREWARM, ENABLE_IMAGE_CREATION, MAX_WORKERS)
 
         if DO_HOTFIX:
+            hotfix_env = os.environ.copy()
+            hotfix_env["SYSTEM_PROFILE"] = PROFILE_NAME
             logger.info("hotfix start: %s", PATH_HOTFIX_LP)
             hotfix_start = time.time()
             res_lp = subprocess.run(
@@ -96,6 +99,7 @@ def main():
                 check=True,
                 capture_output=True,
                 text=True,
+                env=hotfix_env,
             )
             if res_lp.stdout:
                 logger.info("hotfix lp stdout: %s", res_lp.stdout.strip())
@@ -108,6 +112,7 @@ def main():
                 check=True,
                 capture_output=True,
                 text=True,
+                env=hotfix_env,
             )
             if res_lt.stdout:
                 logger.info("hotfix lt stdout: %s", res_lt.stdout.strip())

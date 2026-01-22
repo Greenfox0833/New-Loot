@@ -1,4 +1,4 @@
-# ============================
+﻿# ============================
 # 戦利品まとめ + ローカライズ + 画像生成（Loot/TierGroup→WorldListごと保存） 完全版
 # ============================
 
@@ -714,43 +714,41 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
 def get_name_by_asset(asset_path: str) -> str:
     """
     AssetPathName を主キーに日本語名を返す。
-    1) ASSET_LOC_CACHE を最優先
-    2) 無ければ 1回だけ Export → ItemName.key を抽出
-    3) key が取れたら LOCALIZE_CACHE を優先参照、無ければ get_localized_name()
-    4) 結果を ASSET_LOC_CACHE に保存（以後はキーを読まずに即ヒット）
+    1) ASSET_LOC_CACHE を最優先（"???" はキャッシュ扱いしない）
+    2) 無ければ Export → ItemName.key を抽出
+    3) key が取れたら localize API で日本語名取得
+    4) 取得できた場合のみ ASSET_LOC_CACHE に保存
     """
     if not asset_path:
         return "???"
     norm = normalize_asset_path(asset_path)
 
-    # 1) Assetキャッシュ
+    # 1) Assetキャッシュ（"???" は無視して再取得）
     hit = ASSET_LOC_CACHE.get(norm)
-    if hit:
+    if hit and hit != "???":
         if DEBUG_LOCALIZE:
             print(f"[asset-loc:CACHE] {norm} -> {hit}")
         return hit
+    if hit == "???":
+        ASSET_LOC_CACHE.pop(norm, None)
 
-    # 2) 初回だけ Export → ItemKey 抽出
+    # 2) Export → ItemKey 抽出
     export_json = export_by_asset_path(asset_path)
     if not export_json:
-        ASSET_LOC_CACHE[norm] = "???"
-        _ASSET_LC_STATE["dirty"] += 1
-        _flush_asset_loc_cache_if_needed()
         return "???"
 
     key = extract_itemname_key(export_json)
     if key:
         # 直接 API で日本語名を取得
-        name = fetch_localized_name(key)  # 新しく軽量API呼び出し関数を作る
-        ASSET_LOC_CACHE[norm] = name or "???"
-        _ASSET_LC_STATE["dirty"] += 1
-        _flush_asset_loc_cache_if_needed()
-        return ASSET_LOC_CACHE[norm]
+        name = fetch_localized_name(key)
+        if name and name != "???":
+            ASSET_LOC_CACHE[norm] = name
+            _ASSET_LC_STATE["dirty"] += 1
+            _flush_asset_loc_cache_if_needed()
+            return name
+        return "???"
 
     # keyが取れなかった場合
-    ASSET_LOC_CACHE[norm] = "???"
-    _ASSET_LC_STATE["dirty"] += 1
-    _flush_asset_loc_cache_if_needed()
     return "???"
 
 def enrich_summary_with_names(summary: dict):
@@ -1428,3 +1426,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+

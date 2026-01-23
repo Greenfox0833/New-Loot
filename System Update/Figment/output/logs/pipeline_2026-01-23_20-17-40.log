@@ -1,0 +1,48 @@
+2026-01-23 20:17:40 | INFO | log file (Figment): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\logs\pipeline_2026-01-23_20-17-40.log
+2026-01-23 20:17:40 | INFO | ===== Figment: pipeline start =====
+2026-01-23 20:17:40 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+2026-01-23 20:17:40 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment
+2026-01-23 20:17:40 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-01-23 20:17:40 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-01-23 20:17:41 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[424] RowUpdate WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium.01.Weight=0.000000 -> OK
+[425] RowUpdate WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Medium.01.Weight=0.000000 -> OK
+[426] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.24.Weight=0.000000 -> OK
+[427] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.25.Weight=0.000000 -> OK
+[428] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.26.Weight=0.000000 -> OK
+[429] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.21.Weight=0.000000 -> OK
+[430] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.22.Weight=0.000000 -> OK
+[431] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.23.Weight=0.000000 -> OK
+[432] RowUpdate WorldList.AthenaHighConsumables.33.Weight=0.000000 -> OK
+[433] RowUpdate WorldList.AthenaSupplyDropConsumables.32.Weight=0.000000 -> OK
+[434] RowUpdate WorldList.AthenaConsumables.28.Weight=0.000000 -> OK
+[435] RowUpdate WorldList.AthenaHighConsumables.32.Weight=0.000000 -> OK
+[436] RowUpdate WorldList.AthenaSupplyDropConsumables.31.Weight=0.000000 -> OK
+[437] RowUpdate WorldList.AthenaConsumables.27.Weight=0.000000 -> OK
+[438] RowUpdate WorldList.AthenaHighConsumables.31.Weight=0.000000 -> OK
+[439] RowUpdate WorldList.AthenaSupplyDropConsumables.30.Weight=0.000000 -> OK
+[440] RowUpdate WorldList.AthenaConsumables.26.Weight=0.000000 -> OK
+[479] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=18, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootPackages_Backup
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages_Backup__final.json
+2026-01-23 20:17:41 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-01-23 20:17:41 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootTierData_Backup
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData_Backup__final.json
+2026-01-23 20:17:41 | INFO | ✓ Hotfix 適用完了 (0.70s)
+2026-01-23 20:17:41 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+2026-01-23 20:17:41 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+2026-01-23 20:17:41 | INFO | load done (0.01s)
+2026-01-23 20:17:41 | INFO | build summary start

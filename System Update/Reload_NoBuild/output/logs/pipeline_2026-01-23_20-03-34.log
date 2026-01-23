@@ -431,3 +431,63 @@
   """
 2026-01-23 20:03:35 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.27s)
 2026-01-23 20:03:35 | INFO | prewarm start
+2026-01-23 20:04:08 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (32.28s)
+2026-01-23 20:04:08 | INFO | 画像化タスク数: 160
+2026-01-23 20:04:08 | INFO | 画像生成 進捗: 1/160
+2026-01-23 20:04:10 | INFO | 画像生成 進捗: 50/160
+2026-01-23 20:04:12 | INFO | 画像生成 進捗: 100/160
+2026-01-23 20:04:14 | INFO | 画像生成 進捗: 150/160
+2026-01-23 20:04:14 | INFO | 画像生成 進捗: 160/160
+2026-01-23 20:04:14 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-23 20:04:14 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\scripts\BR_Discor.py
+2026-01-23 20:04:14 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-23 20:04:22 | INFO | git commit stdout: [main 202266a] Reload_NoBuild update 2026-01-23 20:04:19
+ 51 files changed, 813006 insertions(+), 6 deletions(-)
+ create mode 100644 System Update/Reload_NoBuild/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/Reload_NoBuild/config.py
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootPackages_Client_BlastBerryOverride_NoBuild__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootPackages_Client_BlastBerryOverride__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootTierData_Client_BlastBerryOverride_NoBuild__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootTierData_Client_BlastBerryOverride__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/BlastBerryLootPackages__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/BlastBerryTierData__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/DragonCartLootPackages_Client__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/DragonCartLootTierData_Client__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/OverrideLootPackagesData_NoBuildBR__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/OverrideLootTierData_NoBuildBR__final.json
+ create mode 100644 System Update/Reload_NoBuild/input/items_unique_min.json
+ create mode 100644 System Update/Reload_NoBuild/output/history/BR_20260123_2003/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_NoBuild/output/logs/pipeline_2026-01-23_00-18-45.log
+ create mode 100644 System Update/Reload_NoBuild/output/logs/pipeline_2026-01-23_00-19-06.log
+ create mode 100644 System Update/Reload_NoBuild/output/logs/pipeline_2026-01-23_00-22-31.log
+ create mode 100644 System Update/Reload_NoBuild/output/logs/pipeline_2026-01-23_20-03-34.log
+ create mode 100644 System Update/Reload_NoBuild/output/summary/v39.30_2026-01-23_00-22.json
+ create mode 100644 System Update/Reload_NoBuild/output/summary/v39.30_2026-01-23_20-03.json
+ create mode 100644 System Update/Reload_NoBuild/pipeline.py
+ create mode 100644 System Update/Reload_NoBuild/scripts/LootSummary.py
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_19-24.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_19-24.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_19-30.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_19-30.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_20-43.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_20-43.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_20-49.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_20-49.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_21-05.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_21-05.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_21-07.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_21-07.json" (100%)
+ rename System Update/lootdata/BR/BR_LootData_2026-01-22_22-18.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-01-22_22-18.json" (100%)
+ rename System Update/lootdata/BR_Comp/BR_Comp_LootData_2026-01-22_22-00.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-01-22_22-00.json" (100%)
+ rename System Update/lootdata/BR_Comp/BR_Comp_LootData_2026-01-22_22-09.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-01-22_22-09.json" (100%)
+ rename System Update/lootdata/BR_Comp/BR_Comp_LootData_2026-01-22_22-18.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-01-22_22-18.json" (100%)
+ rename System Update/lootdata/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-30.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-30.json" (100%)
+ rename System Update/lootdata/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-32.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-32.json" (100%)
+ rename System Update/lootdata/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-44.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-01-22_22-44.json" (100%)
+ rename System Update/lootdata/NoBuild/NoBuild_LootData_2026-01-23_00-22.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild/NoBuild_LootData_2026-01-23_00-22.json" (100%)
+ rename System Update/lootdata/NoBuild_Comp/NoBuild_Comp_LootData_2026-01-23_19-20.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild_Comp/NoBuild_Comp_LootData_2026-01-23_19-20.json" (100%)
+ rename System Update/lootdata/Reload/Reload_LootData_2026-01-22_23-10.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-10.json" (100%)
+ rename System Update/lootdata/Reload/Reload_LootData_2026-01-22_23-23.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-23.json" (100%)
+ rename System Update/lootdata/Reload/Reload_LootData_2026-01-22_23-24.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-24.json" (100%)
+ rename System Update/lootdata/Reload/Reload_LootData_2026-01-22_23-33.json => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-33.json" (100%)
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild/Reload_NoBuild_LootData_2026-01-23_20-03.json"
+2026-01-23 20:04:27 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   58334f6..202266a  main -> main
+2026-01-23 20:04:27 | INFO | ✓ GitHub Push 完了
+2026-01-23 20:04:27 | INFO | ===== Reload_NoBuild: pipeline end =====

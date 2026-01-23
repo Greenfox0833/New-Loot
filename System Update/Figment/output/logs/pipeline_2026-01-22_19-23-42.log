@@ -1,0 +1,185 @@
+2026-01-22 19:23:42 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-01-22_19-23-42.log
+2026-01-22 19:23:42 | INFO | ===== BR: pipeline start =====
+2026-01-22 19:23:42 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-01-22 19:23:42 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\lootdata\BR\LootPercent
+2026-01-22 19:23:42 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-01-22 19:23:42 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootPackage変更.py
+2026-01-22 19:23:42 | INFO | hotfix lp stdout: [STEP1] base <- season : replaced=435, added=742
+[HOTFIX:SEASON] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
+[336] RowUpdate WorldList.AthenaHighConsumables.23.Weight=0.050000 -> OK
+[337] RowUpdate WorldList.AthenaHighConsumablesRare.24.Weight=0.050000 -> OK
+[338] RowUpdate WorldList.AthenaSupplyDropConsumables.23.Weight=0.050000 -> OK
+[339] RowUpdate WorldList.AthenaConsumables.24.Weight=0.050000 -> OK
+[346] RowUpdate PKG_ThemeParkCannon_Solo.01.Weight=0.250000 -> OK
+[347] RowUpdate PKG_ThemeParkCannon_Solo.02.Weight=0.750000 -> OK
+[348] RowUpdate PKG_ThemeParkCannon_Solo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[349] RowUpdate PKG_ThemeParkCannon_Solo.04.Weight=0.000000 -> OK
+[350] RowUpdate PKG_ThemeParkCannon_Duo.01.Weight=0.250000 -> OK
+[351] RowUpdate PKG_ThemeParkCannon_Duo.02.Weight=0.750000 -> OK
+[352] RowUpdate PKG_ThemeParkCannon_Duo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[353] RowUpdate PKG_ThemeParkCannon_Duo.04.Weight=0.000000 -> OK
+[354] RowUpdate PKG_ThemeParkCannon_Trio.01.Weight=0.250000 -> OK
+[355] RowUpdate PKG_ThemeParkCannon_Trio.02.Weight=0.750000 -> OK
+[356] RowUpdate PKG_ThemeParkCannon_Trio.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[357] RowUpdate PKG_ThemeParkCannon_Trio.04.Weight=0.000000 -> OK
+[358] RowUpdate PKG_ThemeParkCannon_Squad.01.Weight=0.250000 -> OK
+[359] RowUpdate PKG_ThemeParkCannon_Squad.02.Weight=0.750000 -> OK
+[360] RowUpdate PKG_ThemeParkCannon_Squad.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[361] RowUpdate PKG_ThemeParkCannon_Squad.04.Weight=0.000000 -> OK
+[362] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[363] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.100000 -> OK
+[364] RowUpdate LIST_ThemeParkCannon_Consumable.05.CountRange=(X=2,Y=2) -> OK
+[365] RowUpdate LIST_ThemeParkCannon_Consumable.05.ItemDefinition=/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot -> OK
+[366] RowUpdate LIST_ThemeParkCannon_Consumable.06.Weight=0.100000 -> OK
+[367] RowUpdate LIST_ThemeParkCannon_Consumable.06.CountRange=(X=1,Y=1) -> OK
+[368] RowUpdate LIST_ThemeParkCannon_Consumable.06.ItemDefinition=/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox -> OK
+[369] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[407] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[449] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.040000 -> OK
+[450] RowUpdate WorldList.AthenaConsumables.18.Weight=0.010000 -> OK
+[451] RowUpdate WorldList.Weapons.Rarity.Legendary.20.Weight=1.000000 -> OK
+[492] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=2,Y=2) -> OK
+[493] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=2,Y=2) -> OK
+[494] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=2,Y=2) -> OK
+[495] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=2,Y=2) -> OK
+[496] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=2,Y=2) -> OK
+[497] RowUpdate LIST_Balloon_Item.02.CountRange=(X=2,Y=2) -> OK
+[498] RowUpdate PKG_CareDrop.04.LootPackageCall=WorldList.AthenaHighConsumables -> OK
+[515] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.000000 -> OK
+[516] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.000000 -> OK
+[517] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.000000 -> OK
+[518] RowUpdate WorldList.AthenaConsumables.14.Weight=0.000000 -> OK
+[528] RowUpdate WorldList.AthenaHighConsumables.14.CountRange=(X=3,Y=3) -> OK
+[531] RowUpdate WorldList.AthenaHighConsumables.20.Weight=0.150000 -> OK
+[532] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=3,Y=3) -> OK
+[533] RowUpdate WorldList.AthenaHighConsumablesRare.20.Weight=0.200000 -> OK
+[534] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=3,Y=3) -> OK
+[535] RowUpdate WorldList.AthenaSupplyDropConsumables.22.Weight=0.200000 -> OK
+[536] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=3,Y=3) -> OK
+[537] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=3,Y=3) -> OK
+[538] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=3,Y=3) -> OK
+[539] RowUpdate LIST_Balloon_Item.02.CountRange=(X=3,Y=3) -> OK
+[HOTFIX:SEASON] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON] done: applied=53, deleted=0, skipped=0
+[STEP3] skipped (COMP_PATH is None or not found)
+[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)
+[STEP5] skipped (COMP_BK_PATH is None or not found)
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用\AthenaLootPackages_Client__final.json
+2026-01-22 19:23:42 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootTier変更.py
+2026-01-22 19:23:42 | INFO | hotfix lt stdout: [STEP1] base <- season : replaced=0, added=89
+[HOTFIX:/DragonCartLoot/DataTables/DragonCartLootTierData_Client] start
+[HOTFIX:/DragonCartLoot/DataTables/DragonCartLootTierData_Client] done: applied=0, deleted=0, skipped=0
+[STEP3] skipped (COMP_PATH is None or not found)
+[HOTFIX:COMP] skipped (file not found or HOTFIX_TARGET_COMP is None)
+[STEP5] skipped (COMP_BK_PATH is None or not found)
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用\AthenaLootTierData_Client__final.json
+2026-01-22 19:23:42 | INFO | ✓ Hotfix 適用完了 (0.56s)
+2026-01-22 19:23:42 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-01-22 19:23:42 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-01-22 19:23:42 | INFO | load done (0.02s)
+2026-01-22 19:23:42 | INFO | build summary start
+2026-01-22 19:24:05 | INFO | build summary done (22.73s)
+2026-01-22 19:24:05 | INFO | enrich summary with names start
+2026-01-22 19:24:49 | INFO | enrich summary done (44.20s)
+2026-01-22 19:24:49 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-01-22_19-24.json
+2026-01-22 19:24:49 | INFO | build BR_LootData start
+2026-01-22 19:24:49 | INFO | build BR_LootData done (0.00s)
+2026-01-22 19:24:49 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\lootdata\BR\LootPercent\BR_LootData_2026-01-22_19-24.json
+2026-01-22 19:24:49 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-01-22 19:24:50 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-01-22_19-24.json
+✅ 抽出件数: 119
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\BR\作業用\items_unique_min.json
+ℹ️ 比較対象が1件以下のため比較スキップ（探索先: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary）
+2026-01-22 19:24:50 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-01-22 19:24:50 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.08s)
+2026-01-22 19:24:50 | INFO | prewarm start
+2026-01-22 19:25:27 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (37.25s)
+2026-01-22 19:25:27 | INFO | 画像化タスク数: 119
+2026-01-22 19:25:27 | INFO | 画像生成 進捗: 1/119
+2026-01-22 19:25:28 | INFO | 画像生成 進捗: 50/119
+2026-01-22 19:25:29 | INFO | 画像生成 進捗: 100/119
+2026-01-22 19:25:30 | INFO | 画像生成 進捗: 119/119
+2026-01-22 19:25:30 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-22 19:25:30 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\BR_Discor.py
+2026-01-22 19:25:30 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-22 19:25:33 | INFO | git commit stdout: [main 54f7a10] BR update 2026-01-22 19:25:32
+ 78 files changed, 157950 insertions(+), 21 deletions(-)
+ create mode 100644 System Update/BR/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/BR/input/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/BR/input/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/BR/input/items_unique_min.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-01-22_19-23-42.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-01-22_19-24.json
+ create mode 100644 System Update/BR/pipeline.py
+ create mode 100644 "System Update/BR/scripts/LootPackage\345\244\211\346\233\264.py"
+ create mode 100644 System Update/BR/scripts/LootSummary.py
+ create mode 100644 "System Update/BR/scripts/LootTier\345\244\211\346\233\264.py"
+ create mode 100644 System Update/lootdata/BR/LootPercent/BR_LootData_2026-01-22_19-24.json
+ create mode 100644 System Update/shared/cache/asset_rarity_cache.json
+ create mode 100644 System Update/shared/icon_cache/Area51Gun__Gameplay__Icons__T_Icon_Weapons_Heavy_Area51_L.png
+ create mode 100644 System Update/shared/icon_cache/DragonCartWeaponGameplay__Gameplay__DragonCart_DualShotguns__Icons__T_Icon_Weapons_Shotgun_Auto_DualWield_L.png
+ create mode 100644 System Update/shared/icon_cache/DragonCartWeaponGameplay__Gameplay__DragonCart_Grenade__Icons__T_Icon_BR_Explosive_Grenade_Military_L.png
+ create mode 100644 System Update/shared/icon_cache/DragonCartWeaponGameplay__Gameplay__DragonCart_Pump__Icons__T_Icon_Weapons_ShotGurn_PumpDragonCart_L.png
+ create mode 100644 System Update/shared/icon_cache/DragonCartWeaponGameplay__Gameplay__DragonCart_SMG__SMG_Standard_DragonCart__Icon__T_Icon_Weapons_SMG_DragonCart_L.png
+ create mode 100644 System Update/shared/icon_cache/DragonCartWeaponGameplay__Gameplay__DragonCart_ScopedAR__Icons__T_Icon_Weapons_Rifle_Assault_ScopedRecoil_L.png
+ create mode 100644 System Update/shared/icon_cache/FlexLegendWeaponGameplay__Gameplay__DualSMGs__Icons__T_Icon_Weapons_DualMicro_L.png
+ create mode 100644 System Update/shared/icon_cache/FlexLegendWeaponGameplay__Gameplay__LeverShotgun__Icon__T_Icon_Weapons_Shotgun_FlexLengend_L.png
+ create mode 100644 System Update/shared/icon_cache/FlipperGameplay__Icons__T-T-Icon-BR-ShieldSprinklerItem-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__Athena__Items__Consumables__PurpleStuff__T-Icon-Items-PurpleStuff-01-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__Athena__Items__Consumables__SuperMedkit__T-Icon-BR-SM-Athena-ChugJug-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__Athena__Items__Traps__Launchpad__Textures__T-Icon_Trap_Athena_Launchpad-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-BandagesMk2-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-ShieldPotionMk2-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-SmallShieldPotionMk2-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-AppleItem-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-Banana.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-Cabbage-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-Corn-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-FlopperGadget-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-FloppingRabbitGadget-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-GoldBars-UI-Icon.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-LessEffectiveFlopper-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-Mushroom2-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-SM-Sticky-Grenade-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-ShieldFish-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-SlurpShroom-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-TNT-Bundle-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T-Icon-IBeam-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T-Icon-Logs-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T-Icon-MedKit-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T-Icon-S-Loot-Stone-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T-Items2-WholeCoconut-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T_Icon_Ammo_Heavy_256.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T_Icon_Ammo_Light_256.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T_Icon_Ammo_Medium_256.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T_Icon_Ammo_Rockets_256.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Items__T_Icon_Ammo_Shells_256.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-AssaultRifleMark2TT-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-InfantryRifle-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-OldHuntingRifle-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-PumpShotgunMark2TT-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-BattleRifleSixties-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Bolt-Rifle-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-DrumGun-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-M-Med-Soldier-04-Minigun-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Pistol-Cowboy-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SawedShotgun-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__MilitaryCore__T-Icon-Weapons-PDW-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Winter__T-Icon-Weapons-Snowballer-L.png
+ create mode 100644 System Update/shared/icon_cache/GoliathBurst__Gameplay__Ch7__Weapons__SMG__Icon__T_Icon_Weapons_SMG_HoloRush_L.png
+ create mode 100644 System Update/shared/icon_cache/GoliathBurst__Gameplay__Ch7__Weapons__Sniper__Icons__T_Icon_Weapons_Sniper_FeralCorgi_Alt_L.png
+ create mode 100644 System Update/shared/icon_cache/HoneyFiberLoafHill__Gameplay__Placeholder_UI__T_UI_HoneyFiberLoafHill_Medallion_L.png
+ create mode 100644 System Update/shared/icon_cache/HoneyFiberWaiter__Icon__T_IconWeapons_Blunt_HoneyFiber.png
+ create mode 100644 System Update/shared/icon_cache/HoneyFiber_Incident__Icon__T_Icon_BR_HoneyFiber_CosmeticRender.png
+ create mode 100644 System Update/shared/icon_cache/HopscotchWeaponsGameplay__Items__Proto__Icons__T-T-Icon-BR-Gadget-Crashpad-Mini-L.png
+ create mode 100644 System Update/shared/icon_cache/MusterCoreWeapons__Items__Weapons__MusterPistol__Icons__T-Icon-Weapons-CoreS23Pistol-L.png
+ create mode 100644 System Update/shared/icon_cache/PaprikaCoreWeapons__Items__Weapons__PaprikaAR_Infantry__Icon__T-Icon-Weapons-Rifle-Infantry-Paprika-L.png
+ create mode 100644 System Update/shared/icon_cache/StealthSplash__Icon__T_Icon_BR_Consumable_GooCanister_L.png
+ create mode 100644 System Update/shared/icon_cache/Umbramolt_Kipper__HUD__Icons__T_Icon_Weapons_Sharp_UmbraMolt_L.png
+ create mode 100644 System Update/shared/icon_cache/WeaponsUpdated__Gameplay__TacticalAR__Icons__T-Icon-Weapons-Rifle-Assault-Tactical-L.png
+ create mode 100644 System Update/shared/icon_cache/WingSuit__HUD__Icons__T_Icon_BR_Gadget_Wingsuit.png
+2026-01-22 19:25:36 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   c876ba2..54f7a10  main -> main
+2026-01-22 19:25:36 | INFO | ✓ GitHub Push 完了
+2026-01-22 19:25:36 | INFO | ===== BR: pipeline end =====

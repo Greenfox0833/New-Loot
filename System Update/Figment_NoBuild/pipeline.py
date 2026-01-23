@@ -42,6 +42,7 @@ from config import (
     PROFILE_NAME,
     VERSION_PREFIX,
 )
+from diff_loot_auto import run_latest_diff
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
@@ -239,6 +240,22 @@ def main():
             logger.info("✅ 画像生成 完了（MinListベース）")
         else:
             logger.info("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
+
+        try:
+            diff_result = run_latest_diff(PROFILE_NAME)
+            if diff_result is None:
+                logger.info("✅ Loot diff: 変更なし（作成スキップ）")
+            else:
+                out_path, diff = diff_result
+                logger.info(
+                    "✅ Loot diff を作成: %s (added=%s removed=%s change=%s)",
+                    out_path,
+                    len(diff["added"]),
+                    len(diff["removed"]),
+                    len(diff["change"]),
+                )
+        except Exception:
+            logger.warning("Loot diff に失敗: %s", traceback.format_exc().strip())
 
     except Exception as e:
         logger.error("[!] main 内でエラー: %s", e)

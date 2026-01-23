@@ -19,8 +19,10 @@ from config import (
     PATH_MINLIST_JSON,
     PATH_REPO_DIR,
     PATH_VERSION_SAVE_DIR,
+    PROFILE_NAME,
     VERSION_PREFIX,
 )
+from diff_loot_auto import run_latest_diff
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
@@ -126,6 +128,19 @@ def main():
             print("✅ 画像生成 完了（MinListベース）")
         else:
             print("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
+
+        try:
+            diff_result = run_latest_diff(PROFILE_NAME)
+            if diff_result is None:
+                print("ℹ️ Loot diff: 変更なし（作成スキップ）")
+            else:
+                out_path, diff = diff_result
+                print(
+                    f"✅ Loot diff を作成: {out_path} "
+                    f"(added={len(diff['added'])} removed={len(diff['removed'])} change={len(diff['change'])})"
+                )
+        except Exception as e:
+            print("[!] Loot diff に失敗:", e)
 
     except Exception as e:
         print("[!] main 内でエラー:", e)

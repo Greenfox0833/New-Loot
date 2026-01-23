@@ -15,6 +15,8 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/BR_LootPool.json"
+
 from cache import enrich_summary_with_names
 from config import (
     DO_HOTFIX,
@@ -150,6 +152,14 @@ def main():
         logger.info("build BR_LootData done (%.2fs)", time.time() - t0)
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info("✅ BR_LootData を作成: %s", br_out)
+        if WEB_LOOTPOOL_OUT:
+            try:
+                web_out = Path(WEB_LOOTPOOL_OUT)
+                web_out.parent.mkdir(parents=True, exist_ok=True)
+                web_out.write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
+                logger.info("✅ Web LootPool を更新: %s", web_out)
+            except Exception:
+                logger.warning("Web LootPool 更新に失敗: %s", traceback.format_exc().strip())
 
         logger.info("LootSummary start: %s", loot_summary_py)
         t0 = time.time()
@@ -268,6 +278,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 

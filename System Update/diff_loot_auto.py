@@ -35,7 +35,7 @@ def _diff_is_empty(diff: dict) -> bool:
 
 
 def run_latest_diff(mode_key: str) -> tuple[Path, dict] | None:
-    folder = DATA_ROOT / mode_key / "LootPercent"
+    folder = DATA_ROOT / mode_key
     if not folder.exists():
         raise FileNotFoundError(f"Folder not found: {folder}")
 

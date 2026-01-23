@@ -11,6 +11,8 @@ from config import (
     ENABLE_IMAGE_CACHE,
     ICON_CACHE_DIR,
     ICON_CACHE_FILE,
+    ICON_CACHE_DIR_SECONDARY,
+    ICON_CACHE_FILE_SECONDARY,
     RARITY_CACHE_FILE,
     RARITY_JP_MAP,
     RARITY_MAP,
@@ -29,6 +31,17 @@ try:
         ICON_PATH_CACHE = json.load(f)
 except FileNotFoundError:
     ICON_PATH_CACHE = {}
+try:
+    if ICON_CACHE_FILE_SECONDARY:
+        with open(ICON_CACHE_FILE_SECONDARY, "r", encoding="utf-8") as f:
+            _secondary_cache = json.load(f)
+        if isinstance(_secondary_cache, dict):
+            for k, v in _secondary_cache.items():
+                ICON_PATH_CACHE.setdefault(k, v)
+except FileNotFoundError:
+    pass
+except Exception:
+    pass
 
 def icon_cache_key(path_like: str) -> str:
     clean = path_like.strip().strip("/").split(".")[0]
@@ -44,6 +57,14 @@ def load_icon_from_cache(path_like: str):
             return Image.open(fp).convert("RGBA")
     except Exception:
         pass
+    try:
+        if ICON_CACHE_DIR_SECONDARY:
+            os.makedirs(ICON_CACHE_DIR_SECONDARY, exist_ok=True)
+            fp = os.path.join(ICON_CACHE_DIR_SECONDARY, icon_cache_key(path_like))
+            if os.path.exists(fp):
+                return Image.open(fp).convert("RGBA")
+    except Exception:
+        pass
     return None
 
 def save_icon_to_cache(path_like: str, content: bytes) -> None:
@@ -56,6 +77,15 @@ def save_icon_to_cache(path_like: str, content: bytes) -> None:
             return
         with open(fp, "wb") as f:
             f.write(content)
+    except Exception:
+        pass
+    try:
+        if ICON_CACHE_DIR_SECONDARY:
+            os.makedirs(ICON_CACHE_DIR_SECONDARY, exist_ok=True)
+            fp2 = os.path.join(ICON_CACHE_DIR_SECONDARY, icon_cache_key(path_like))
+            if not os.path.exists(fp2):
+                with open(fp2, "wb") as f:
+                    f.write(content)
     except Exception:
         pass
 
@@ -83,6 +113,12 @@ def save_icon_cache() -> None:
     try:
         with open(ICON_CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(ICON_PATH_CACHE, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+    try:
+        if ICON_CACHE_FILE_SECONDARY:
+            with open(ICON_CACHE_FILE_SECONDARY, "w", encoding="utf-8") as f:
+                json.dump(ICON_PATH_CACHE, f, ensure_ascii=False, indent=2)
     except Exception:
         pass
 

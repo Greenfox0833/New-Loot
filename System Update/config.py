@@ -2,6 +2,10 @@
 import runpy
 from pathlib import Path
 
+# System Update 内で完結するため、基準ディレクトリをここに固定
+BASE_DIR = Path(__file__).resolve().parent
+COMMON_DIR = BASE_DIR
+
 # ---------------- 設定（シンプル版） ----------------
 VERSION_PREFIX = "v37.50"  # 必要に応じて変更
 
@@ -80,10 +84,13 @@ def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
     return OUTPUT_BASE_DIR
 
 # キャッシュ保存先
-RARITY_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_rarity_cache.json"
-ASSET_LOC_CACHE_FILE = "E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_localize_cache.json"
-ICON_CACHE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイコンキャッシュ"
-ICON_CACHE_FILE = r"E:/フォートナイト/Picture/Loot Pool/TEST4/New Loot/asset_icon_cache.json"
+RARITY_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_rarity_cache.json")
+ASSET_LOC_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_localize_cache.json")
+ICON_CACHE_DIR = str(COMMON_DIR / "shared" / "icon_cache")
+ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
+
+ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/assets/img/Loot_Icon"
+ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/assets/data/asset_icon_cache.json"
 
 # 画像素材など
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
@@ -297,4 +304,5 @@ if AUTO_RESOLVE_PATHS and BASE_PATHS:
         PATH_LOOTDATA_DIR = _ld
     if _out:
         OUTPUT_BASE_DIR = _out
+
 

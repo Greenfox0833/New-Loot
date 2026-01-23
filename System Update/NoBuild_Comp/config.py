@@ -4,6 +4,8 @@ from pathlib import Path
 # ---------------- 設定（System Update/NoBuild_Comp 完結版） ----------------
 VERSION_PREFIX = "v39.30"  # 必要に応じて変更
 
+PROFILE_NAME = "NoBuild_Comp"
+
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成
 # "images"   : JSON作成 → 画像生成（プリウォームはしない）
@@ -83,7 +85,7 @@ ICON_CACHE_DIR = str(COMMON_DIR / "shared" / "icon_cache")
 INPUT_MINLIST_JSON = str(INPUT_DIR / "items_unique_min.json")
 
 # 画像の保存先
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild_Comp"
+OUTPUT_BASE_DIR = str(COMMON_DIR / "shared" / "images" / PROFILE_NAME)
 IMAGE_DIR_MODE = "flat"  # tg_wl | tg | flat
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -97,6 +99,9 @@ def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
 RARITY_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_rarity_cache.json")
 ASSET_LOC_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_localize_cache.json")
 ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
+
+ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/assets/img/Loot_Icon"
+ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/assets/data/asset_icon_cache.json"
 
 # 画像素材など（必要なら System Update/NoBuild/assets に移して更新）
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
@@ -202,6 +207,6 @@ HOTFIX_LT_TARGETS = [
 
 # パス解決（System Update 完結のため無効化）
 AUTO_RESOLVE_PATHS = False
-PROFILE_NAME = "NoBuild_Comp"
 BASE_PATHS = []
 SEASON_PATHS = []
+

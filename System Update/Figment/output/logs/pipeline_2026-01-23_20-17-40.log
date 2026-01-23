@@ -46,3 +46,115 @@
 2026-01-23 20:17:41 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
 2026-01-23 20:17:41 | INFO | load done (0.01s)
 2026-01-23 20:17:41 | INFO | build summary start
+2026-01-23 20:17:57 | INFO | build summary done (16.10s)
+2026-01-23 20:17:57 | INFO | enrich summary with names start
+2026-01-23 20:18:25 | INFO | enrich summary done (28.05s)
+2026-01-23 20:18:25 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-01-23_20-18.json
+2026-01-23 20:18:25 | INFO | build Figment_LootData start
+2026-01-23 20:18:25 | INFO | build BR_LootData done (0.00s)
+2026-01-23 20:18:25 | INFO | ✅ Figment_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment\Figment_LootData_2026-01-23_20-18.json
+2026-01-23 20:18:25 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py
+2026-01-23 20:18:26 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-01-23_20-18.json
+✅ 抽出件数: 91
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-01-22_22-18.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-01-23_20-18.json
+✅ 差分作成 完了
+  追加   : 82 / 削除 : 106 / 変更 : 0 / 変化なし : 9
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\history\BR_20260123_2018\items_unique_min_diff.json
+2026-01-23 20:18:26 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-01-23 20:18:26 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.24s)
+2026-01-23 20:18:26 | INFO | prewarm start
+2026-01-23 20:18:54 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (28.39s)
+2026-01-23 20:18:54 | INFO | 画像化タスク数: 91
+2026-01-23 20:18:55 | INFO | 画像生成 進捗: 1/91
+2026-01-23 20:18:57 | INFO | 画像生成 進捗: 50/91
+2026-01-23 20:18:58 | INFO | 画像生成 進捗: 91/91
+2026-01-23 20:18:58 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-23 20:18:58 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-01-23 20:18:58 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-23 20:19:09 | INFO | git commit stdout: [main eef95b9] Figment update 2026-01-23 20:19:05
+ 80 files changed, 612784 insertions(+), 1 deletion(-)
+ create mode 100644 System Update/Figment/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/Figment/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/Figment/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/Figment/config.py
+ create mode 100644 System Update/Figment/input/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/Figment/input/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/Figment/input/DragonCartLootPackages_Client__final.json
+ create mode 100644 System Update/Figment/input/DragonCartLootTierData_Client__final.json
+ create mode 100644 System Update/Figment/input/FigmentLootPackages_Backup__final.json
+ create mode 100644 System Update/Figment/input/FigmentLootPackages__final.json
+ create mode 100644 System Update/Figment/input/FigmentLootTierData_Backup__final.json
+ create mode 100644 System Update/Figment/input/FigmentLootTierData__final.json
+ create mode 100644 System Update/Figment/input/items_unique_min.json
+ create mode 100644 System Update/Figment/output/history/BR_20260122_2049/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/history/BR_20260122_2105/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/history/BR_20260122_2107/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/history/BR_20260122_2218/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/history/BR_20260123_2018/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_19-23-42.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_19-30-13.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_20-43-14.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_20-49-10.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_21-05-53.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_21-07-21.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-22_22-18-45.log
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-01-23_20-17-40.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_19-24.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_19-30.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_20-43.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_20-49.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_21-05.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_21-07.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-22_22-18.json
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-01-23_20-18.json
+ create mode 100644 System Update/Figment/pipeline.py
+ create mode 100644 System Update/Figment/scripts/LootSummary.py
+ create mode 100644 System Update/shared/icon_cache/BRCosmetics__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-SCAR-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Assault_Auto_Athena__Gameplay__T-Icon-Weapons-SK-MachineGun-01-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Assault_Surgical_Athena__Gameplay__T-Icon-Weapons-SK-Death-Stalker-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Assault_Surgical_Thermal_Athena__Gameplay__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-ThermalScope-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_BandageV2__Gameplay__TIconMedBandageL.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_Glider_Item__Gameplay__T-Icon_Glider-S-VinderTech-Glider-SKIN-Default-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_Grenade__Gameplay__TTIconBRGrenadeL.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_ShieldPotV2__Gameplay__TIconItemsMineralPowder06L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_Shields__Gameplay__TIconItemsMineralPowder06L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Athena_SmallShieldV2__Gameplay__TIconItemsAthenaSmallShieldL.png
+ create mode 100644 System Update/shared/icon_cache/Figment_CompactSMG_Athena__UI__Foundation__Textures__Icons__Weapons__MilitaryCore__T-Icon-Weapons-PDW-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Pistol_SemiAuto_Athena__Gameplay__Textures__T-Icon-Weapons-SK-Vigilante-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Pistol_SubmachineGun_Athena__Gameplay__T-Icon-Weapons-SK-MilitarySMG-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Shotgun_SemiAuto_Athena__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Longarm-Enforcer-Athena-L.png
+ create mode 100644 System Update/shared/icon_cache/Figment_Sniper_NoScope_Athena__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Bolt-Rifle-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__Athena__Items__Traps__Campfire__T-Icon-BR-SM-Athena-Campfire-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-Rift-Globe-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-SK-Floatation-Balloon-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-BR-SK-Legendary-Tower-Grenade-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Icon-Weapons-S-Grenade-Gas-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-FNBRBoomBox-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-SM-Athena-Bush-01-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-SM-Athena-DanceGrenade-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-Arctic-Sniper-Silencer-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-BurstRifleMark2Base-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-50cal-Barret-Sniper-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-AssaultWoodForend-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-AutoHigh-Suppressed-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Dual-45-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Grenade-Launcher-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Military-M202-Launcher-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Pistol-02BR-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Post-Apocalyptic-Pistol-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Shotgun-04-Heavy-Athena-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Shotgun-Combat-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-ScopedPistol-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-Spike-Trap-Floor-Base-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-Turret-Gun-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T_Icon_Weapons_SK_Crusader_Figment_L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T_Icon_Weapons_SK_RPG7_Figment_L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T_Icon_Weapons_Sniper_01_L.png
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-01-23_20-18.json"
+2026-01-23 20:19:14 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   202266a..eef95b9  main -> main
+2026-01-23 20:19:14 | INFO | ✓ GitHub Push 完了
+2026-01-23 20:19:14 | INFO | ===== Figment: pipeline end =====

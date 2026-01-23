@@ -200,16 +200,13 @@ def get_name_by_asset(asset_path: str) -> str:
     norm = normalize_asset_path(asset_path)
 
     hit = ASSET_LOC_CACHE.get(norm)
-    if hit:
+    if hit and hit != "???":
         if DEBUG_LOCALIZE:
             print(f"[asset-loc:CACHE] {norm} -> {hit}")
         return hit
 
     export_json = export_by_asset_path(asset_path)
     if not export_json:
-        ASSET_LOC_CACHE[norm] = "???"
-        _ASSET_LC_STATE["dirty"] += 1
-        _flush_asset_loc_cache_if_needed()
         return "???"
 
     key = extract_itemname_key(export_json)
@@ -218,16 +215,20 @@ def get_name_by_asset(asset_path: str) -> str:
         if not name or name == "???":
             fallback = extract_itemname_text(export_json)
             name = fallback or name
-        ASSET_LOC_CACHE[norm] = name or "???"
+        if name and name != "???":
+            ASSET_LOC_CACHE[norm] = name
+            _ASSET_LC_STATE["dirty"] += 1
+            _flush_asset_loc_cache_if_needed()
+            return ASSET_LOC_CACHE[norm]
+        return "???"
+
+    fallback = extract_itemname_text(export_json)
+    if fallback and fallback != "???":
+        ASSET_LOC_CACHE[norm] = fallback
         _ASSET_LC_STATE["dirty"] += 1
         _flush_asset_loc_cache_if_needed()
         return ASSET_LOC_CACHE[norm]
-
-    fallback = extract_itemname_text(export_json)
-    ASSET_LOC_CACHE[norm] = fallback or "???"
-    _ASSET_LC_STATE["dirty"] += 1
-    _flush_asset_loc_cache_if_needed()
-    return ASSET_LOC_CACHE[norm]
+    return "???"
 
 def enrich_summary_with_names(summary: dict):
     if not isinstance(summary, dict) or not summary:

@@ -161,3 +161,40 @@
   """
 2026-01-23 19:20:10 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.13s)
 2026-01-23 19:20:10 | INFO | prewarm start
+2026-01-23 19:20:32 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (22.11s)
+2026-01-23 19:20:32 | INFO | 画像化タスク数: 110
+2026-01-23 19:20:33 | INFO | 画像生成 進捗: 1/110
+2026-01-23 19:20:34 | INFO | 画像生成 進捗: 50/110
+2026-01-23 19:20:36 | INFO | 画像生成 進捗: 100/110
+2026-01-23 19:20:37 | INFO | 画像生成 進捗: 110/110
+2026-01-23 19:20:37 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-01-23 19:20:37 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\BR_Discor.py
+2026-01-23 19:20:37 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-01-23 19:20:44 | INFO | git commit stdout: [main 58334f6] NoBuild_Comp update 2026-01-23 19:20:40
+ 25 files changed, 565808 insertions(+), 2 deletions(-)
+ create mode 100644 System Update/NoBuild_Comp/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/NoBuild_Comp/config.py
+ create mode 100644 System Update/NoBuild_Comp/input/AthenaLootPackages_Client__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/AthenaLootTierData_Client__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/DragonCartLootPackages_Client_Comp_Backup__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/DragonCartLootPackages_Client_Comp_NoBuild__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/DragonCartLootPackages_Client__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/DragonCartLootTierData_Client__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/OverrideLootPackagesData_NoBuildBR__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/OverrideLootTierData_NoBuildBR__final.json
+ create mode 100644 System Update/NoBuild_Comp/input/items_unique_min.json
+ create mode 100644 System Update/NoBuild_Comp/output/history/BR_20260123_1920/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-01-23_00-18-45.log
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-01-23_00-19-06.log
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-01-23_00-22-31.log
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-01-23_19-20-09.log
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-01-23_00-22.json
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-01-23_19-20.json
+ create mode 100644 System Update/NoBuild_Comp/pipeline.py
+ create mode 100644 System Update/NoBuild_Comp/scripts/LootSummary.py
+ create mode 100644 System Update/NoBuild_Comp/tempCodeRunnerFile.py
+ create mode 100644 System Update/lootdata/NoBuild_Comp/NoBuild_Comp_LootData_2026-01-23_19-20.json
+2026-01-23 19:20:46 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   efd4da8..58334f6  main -> main
+2026-01-23 19:20:46 | INFO | ✓ GitHub Push 完了
+2026-01-23 19:20:46 | INFO | ===== NoBuild_Comp: pipeline end =====

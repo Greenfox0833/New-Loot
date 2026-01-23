@@ -1,7 +1,7 @@
 ﻿import os
 from pathlib import Path
 
-# ---------------- 設定（System Update/NoBuild 完結版） ----------------
+# ---------------- 設定（System Update/Reload_NoBuild 完結版） ----------------
 VERSION_PREFIX = "v39.30"  # 必要に応じて変更
 
 # 実行プロファイル：
@@ -83,7 +83,7 @@ ICON_CACHE_DIR = str(COMMON_DIR / "shared" / "icon_cache")
 INPUT_MINLIST_JSON = str(INPUT_DIR / "items_unique_min.json")
 
 # 画像の保存先
-OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/NoBuild"
+OUTPUT_BASE_DIR = r"E:/フォートナイト/Picture/Loot Pool/TEST4/アイテム画像/Reload_NoBuild"
 IMAGE_DIR_MODE = "flat"  # tg_wl | tg | flat
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -163,42 +163,45 @@ PATH_VERSION_SAVE_DIR = str(OUTPUT_DIR / "summary")
 PATH_LT_JSON = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 PATH_LP_JSON = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 PATH_MINLIST_JSON = INPUT_MINLIST_JSON
-PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "NoBuild" )
+PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "Reload_NoBuild" )
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/NoBuild/AthenaLootPackages_Client_BlastBerryOverride_NoBuild.json"
 ]
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
-    "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootPackages_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR",
+    "/Game/Items/Datatables/AthenaLootPackages_Client",
+    "/BlastBerryLoot/DataTables/BlastBerryLootPackages",
+    "/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride",
+    "/BlastBerryLoot/DataTables/NoBuild/AthenaLootPackages_Client_BlastBerryOverride_NoBuild"
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/NoBuild/AthenaLootTierData_Client_BlastBerryOverride_NoBuild.json"
 ]
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
-    "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootTierData_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
+    "/Game/Items/Datatables/AthenaLootTierData_Client",
+    "/BlastBerryLoot/DataTables/BlastBerryTierData",
+    "/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride",
+    "/BlastBerryLoot/DataTables/NoBuild/AthenaLootTierData_Client_BlastBerryOverride_NoBuild"
 ]
 
 # パス解決（System Update 完結のため無効化）
 AUTO_RESOLVE_PATHS = False
-PROFILE_NAME = "NoBuild"
+PROFILE_NAME = "Reload_NoBuild"
 BASE_PATHS = []
 SEASON_PATHS = []
-

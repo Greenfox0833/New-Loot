@@ -163,7 +163,7 @@ PATH_VERSION_SAVE_DIR = str(OUTPUT_DIR / "summary")
 PATH_LT_JSON = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 PATH_LP_JSON = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 PATH_MINLIST_JSON = INPUT_MINLIST_JSON
-PATH_LOOTDATA_DIR = str(COMMON_DIR / "lootdata" / "ForbiddenFruit" )
+PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "ForbiddenFruit" )
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
@@ -197,4 +197,5 @@ AUTO_RESOLVE_PATHS = False
 PROFILE_NAME = "ForbiddenFruit"
 BASE_PATHS = []
 SEASON_PATHS = []
+
 

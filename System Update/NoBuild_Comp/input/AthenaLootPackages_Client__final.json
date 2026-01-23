@@ -42224,8 +42224,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42352,12 +42352,12 @@
       },
       "WorldList.AthenaHighConsumables.25": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42373,15 +42373,15 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/TNT/Athena_TNT.Athena_TNT",
+          "AssetPathName": "/HoneyFiber_Incident/Gameplay/WID_HoneyFiber_Incident_UC.WID_HoneyFiber_Incident_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Athena_TNT",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_HoneyFiber_Incident_UC",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.26": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
@@ -44732,8 +44732,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44860,7 +44860,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.25": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.1,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44889,7 +44889,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_HoneyFiber_Incident_UC",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSupplyDropConsumables.26": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
@@ -46877,8 +46877,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -47005,7 +47005,7 @@
       },
       "WorldList.AthenaConsumables.26": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.1,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47034,7 +47034,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_HoneyFiber_Incident_UC",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.27": {
         "LootPackageID": "WorldList.AthenaConsumables",
@@ -65584,7 +65584,7 @@
       },
       "PKG_Kenny_1.02": {
         "LootPackageID": "PKG_Kenny_1",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -65605,15 +65605,15 @@
         },
         "LootPackageCall": "LIST_HoneyFiber_Incident",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Kenny_1.C1;Call:LIST_HoneyFiber_Incident",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:PKG_Kenny_1.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "PKG_Kenny_1.03": {
         "LootPackageID": "PKG_Kenny_1",
@@ -65716,7 +65716,7 @@
       },
       "PKG_Kenny_2.02": {
         "LootPackageID": "PKG_Kenny_2",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -65737,15 +65737,15 @@
         },
         "LootPackageCall": "LIST_HoneyFiber_Incident",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Kenny_2.C1;Call:LIST_HoneyFiber_Incident",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:PKG_Kenny_2.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "PKG_Kenny_2.03": {
         "LootPackageID": "PKG_Kenny_2",
@@ -65848,7 +65848,7 @@
       },
       "PKG_Kenny_3.02": {
         "LootPackageID": "PKG_Kenny_3",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -65869,15 +65869,15 @@
         },
         "LootPackageCall": "LIST_HoneyFiber_Incident",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Kenny_3.C1;Call:LIST_HoneyFiber_Incident",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:PKG_Kenny_3.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "PKG_Kenny_3.03": {
         "LootPackageID": "PKG_Kenny_3",
@@ -67007,8 +67007,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -67135,7 +67135,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.26": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.1,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67164,7 +67164,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaHighConsumablesRare.C0;Item:WID_HoneyFiber_Incident_UC",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.ApolloAmmoBox.Consumables.2.03": {
         "LootPackageID": "WorldList.ApolloAmmoBox.Consumables.2",
@@ -74857,7 +74857,7 @@
       },
       "WorldList.FlopperDefault.Light.23": {
         "LootPackageID": "WorldList.FlopperDefault.Light",
-        "Weight": 0.01,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74886,7 +74886,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.FlopperDefault.Light.C0;Item:WID_HoneyFiber_Incident_UC",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.FlopperDefault.Light.24": {
         "LootPackageID": "WorldList.FlopperDefault.Light",
@@ -78718,7 +78718,7 @@
       },
       "LIST_Vend_Item_Seasonal_1.01": {
         "LootPackageID": "LIST_Vend_Item_Seasonal_1",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -78739,15 +78739,15 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/HoneyFiber_Incident/Gameplay/WID_HoneyFiber_Incident_UC.WID_HoneyFiber_Incident_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Vend_Item_Seasonal_1.C0;Item:WID_Proto_WingSuit_FlyingPhysics",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:LIST_Vend_Item_Seasonal_1.C0;Item:WID_HoneyFiber_Incident_UC",
+        "DurabilityPercentageOverride": 1
       },
       "LIST_Vend_Item_Seasonal_2.01": {
         "LootPackageID": "LIST_Vend_Item_Seasonal_2",
@@ -82969,7 +82969,7 @@
       },
       "LIST_HoneyFiber_Incident.01": {
         "LootPackageID": "LIST_HoneyFiber_Incident",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -82998,7 +82998,7 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:LIST_HoneyFiber_Incident.C0;Item:WID_HoneyFiber_Incident_UC",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.Rare.01": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Rare",

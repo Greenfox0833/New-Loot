@@ -1,0 +1,425 @@
+2026-01-23 21:26:06 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\logs\pipeline_2026-01-23_21-26-06.log
+2026-01-23 21:26:06 | INFO | ===== Reload: pipeline start =====
+2026-01-23 21:26:06 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\items_unique_min.json
+2026-01-23 21:26:06 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload
+2026-01-23 21:26:06 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-01-23 21:26:06 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-01-23 21:26:06 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryLootPackages.json : replaced=613, added=1445
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootPackages_Client_BlastBerryOverride.json : replaced=32, added=0
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/BlastBerryLootPackages
+[758] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.60.Weight=0.000000 -> OK
+[759] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.61.Weight=0.000000 -> OK
+[760] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.62.Weight=0.000000 -> OK
+[761] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.87.Weight=0.000000 -> OK
+[762] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.88.Weight=0.000000 -> OK
+[763] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.89.Weight=0.000000 -> OK
+[764] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.90.Weight=0.000000 -> OK
+[765] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.01.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_C.WID_Pistol_Muster_Athena_C -> OK
+[766] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.02.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC -> OK
+[767] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.03.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_R.WID_Pistol_Muster_Athena_R -> OK
+[768] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.17.Weight=0.000000 -> OK
+[769] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.18.Weight=0.000000 -> OK
+[770] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.01.Weight=0.400000 -> OK
+[771] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.01.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC -> OK
+[772] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.02.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_R.WID_Pistol_Muster_Athena_R -> OK
+[773] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.03.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_VR.WID_Pistol_Muster_Athena_VR -> OK
+[774] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.04.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_SR.WID_Pistol_Muster_Athena_SR -> OK
+[775] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.24.Weight=0.000000 -> OK
+[776] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.25.Weight=0.000000 -> OK
+[777] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.26.Weight=0.000000 -> OK
+[778] RowUpdate WorldList.AthenaLoot.Weapon.SMG.06.Weight=0.000000 -> OK
+[779] RowUpdate WorldList.AthenaLoot.Weapon.SMG.07.Weight=0.000000 -> OK
+[780] RowUpdate WorldList.AthenaLoot.Weapon.SMG.08.Weight=0.000000 -> OK
+[781] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.09.Weight=0.000000 -> OK
+[782] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.10.Weight=0.000000 -> OK
+[783] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.11.Weight=0.000000 -> OK
+[784] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.12.Weight=0.000000 -> OK
+[785] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.13.Weight=0.000000 -> OK
+[786] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.14.Weight=0.000000 -> OK
+[787] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.15.Weight=0.000000 -> OK
+[788] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.25.Weight=0.000000 -> OK
+[789] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.26.Weight=0.000000 -> OK
+[790] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.27.Weight=0.000000 -> OK
+[791] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.17.Weight=0.000000 -> OK
+[792] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.18.Weight=0.000000 -> OK
+[793] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.19.Weight=0.000000 -> OK
+[794] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.20.Weight=0.000000 -> OK
+[795] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.33.Weight=0.000000 -> OK
+[796] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.34.Weight=0.000000 -> OK
+[797] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.35.Weight=0.000000 -> OK
+[798] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.36.Weight=0.000000 -> OK
+[799] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.47.Weight=0.000000 -> OK
+[800] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.03.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_VR.WID_Pistol_Muster_Athena_VR -> OK
+[801] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.04.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_SR.WID_Pistol_Muster_Athena_SR -> OK
+[802] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.13.Weight=0.000000 -> OK
+[803] RowUpdate WorldList.ApolloLoot.Weapon.SMG.05.Weight=0.000000 -> OK
+[804] RowUpdate WorldList.ApolloLoot.Weapon.SMG.06.Weight=0.000000 -> OK
+[805] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.09.Weight=0.000000 -> OK
+[806] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.10.Weight=0.000000 -> OK
+[807] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.17.Weight=0.000000 -> OK
+[808] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.18.Weight=0.000000 -> OK
+[809] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.88.Weight=0.000000 -> OK
+[810] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.89.Weight=0.000000 -> OK
+[811] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.90.Weight=0.000000 -> OK
+[812] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.01.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_C.WID_Pistol_Muster_Athena_C -> OK
+[813] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.250000 -> OK
+[814] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC -> OK
+[815] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.03.Weight=0.125000 -> OK
+[816] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.03.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_R.WID_Pistol_Muster_Athena_R -> OK
+[817] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.04.Weight=0.075000 -> OK
+[818] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.04.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_VR.WID_Pistol_Muster_Athena_VR -> OK
+[819] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.24.Weight=0.000000 -> OK
+[820] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.25.Weight=0.000000 -> OK
+[821] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.26.Weight=0.000000 -> OK
+[822] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.10.Weight=0.000000 -> OK
+[823] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.11.Weight=0.000000 -> OK
+[824] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.12.Weight=0.000000 -> OK
+[825] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.17.Weight=0.000000 -> OK
+[826] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.18.Weight=0.000000 -> OK
+[827] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.19.Weight=0.000000 -> OK
+[828] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.20.Weight=0.000000 -> OK
+[829] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.34.Weight=0.000000 -> OK
+[830] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.35.Weight=0.000000 -> OK
+[831] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.36.Weight=0.000000 -> OK
+[832] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.101.Weight=0.250000 -> OK
+[833] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.102.Weight=0.125000 -> OK
+[834] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.103.Weight=0.075000 -> OK
+[835] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.51.Weight=0.750000 -> OK
+[836] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.52.Weight=0.250000 -> OK
+[837] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.100.Weight=0.400000 -> OK
+[838] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.101.Weight=0.080000 -> OK
+[839] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.102.Weight=0.016000 -> OK
+[840] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.103.Weight=0.004000 -> OK
+[1182] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.77.Weight=0.000000 -> OK
+[1183] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.80.Weight=0.000000 -> OK
+[1184] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.108.Weight=0.016000 -> OK
+[1185] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.109.Weight=0.000000 -> OK
+[1186] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.110.Weight=0.000000 -> OK
+[1187] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.112.Weight=0.016000 -> OK
+[1188] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.113.Weight=0.000000 -> OK
+[1189] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.114.Weight=0.000000 -> OK
+[1190] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.52.Weight=0.200000 -> OK
+[1191] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.53.Weight=0.000000 -> OK
+[1192] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.54.Weight=0.000000 -> OK
+[1193] RowUpdate WorldList.AthenaLoot.Weapon.SMG.56.Weight=0.000000 -> OK
+[1194] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.77.Weight=0.016000 -> OK
+[1195] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.78.Weight=0.000000 -> OK
+[1196] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.79.Weight=0.000000 -> OK
+[1197] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.92.Weight=0.000000 -> OK
+[1198] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.95.Weight=0.000000 -> OK
+[1199] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.125.Weight=0.016000 -> OK
+[1200] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.126.Weight=0.000000 -> OK
+[1201] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.127.Weight=0.000000 -> OK
+[1202] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.129.Weight=0.016000 -> OK
+[1203] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.130.Weight=0.000000 -> OK
+[1204] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.131.Weight=0.000000 -> OK
+[1205] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.57.Weight=0.100000 -> OK
+[1206] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.58.Weight=0.000000 -> OK
+[1207] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.59.Weight=0.100000 -> OK
+[1208] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.60.Weight=0.000000 -> OK
+[1209] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.28.Weight=0.100000 -> OK
+[1210] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.29.Weight=0.000000 -> OK
+[1211] RowUpdate WorldList.ApolloLoot.Weapon.SMG.39.Weight=0.100000 -> OK
+[1212] RowUpdate WorldList.ApolloLoot.Weapon.SMG.40.Weight=0.000000 -> OK
+[1213] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.63.Weight=0.100000 -> OK
+[1214] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.64.Weight=0.000000 -> OK
+[1215] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.65.Weight=0.100000 -> OK
+[1216] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.66.Weight=0.000000 -> OK
+[1217] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.108.Weight=0.075000 -> OK
+[1218] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.109.Weight=0.000000 -> OK
+[1219] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.110.Weight=0.000000 -> OK
+[1220] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.112.Weight=0.075000 -> OK
+[1221] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.113.Weight=0.000000 -> OK
+[1222] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.114.Weight=0.000000 -> OK
+[1223] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.51.Weight=0.250000 -> OK
+[1224] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.52.Weight=0.000000 -> OK
+[1225] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.53.Weight=0.000000 -> OK
+[1226] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.75.Weight=0.075000 -> OK
+[1227] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.76.Weight=0.000000 -> OK
+[1228] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.77.Weight=0.000000 -> OK
+[1229] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.125.Weight=0.075000 -> OK
+[1230] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.126.Weight=0.000000 -> OK
+[1231] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.127.Weight=0.000000 -> OK
+[1232] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.129.Weight=0.075000 -> OK
+[1233] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.130.Weight=0.000000 -> OK
+[1234] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.131.Weight=0.000000 -> OK
+[1235] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.13.Weight=0.400000 -> OK
+[1236] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.14.Weight=0.080000 -> OK
+[1237] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.15.Weight=0.016000 -> OK
+[1238] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.16.Weight=0.004000 -> OK
+[1239] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.76.Weight=0.000000 -> OK
+[1240] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.77.Weight=0.000000 -> OK
+[1241] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.78.Weight=0.000000 -> OK
+[1242] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.79.Weight=0.000000 -> OK
+[1243] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.34.Weight=0.000000 -> OK
+[1244] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.58.Weight=0.000000 -> OK
+[1245] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.59.Weight=0.000000 -> OK
+[1246] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.60.Weight=0.000000 -> OK
+[1247] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.31.Weight=0.000000 -> OK
+[1248] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.32.Weight=0.000000 -> OK
+[1249] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.58.Weight=0.000000 -> OK
+[1250] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.59.Weight=0.000000 -> OK
+[1251] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.60.Weight=0.000000 -> OK
+[1269] RowUpdate WorldList.AthenaWadStash.Medium.01.CountRange=(X=100,Y=100) -> OK
+[1270] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=200,Y=200) -> OK
+[1271] RowUpdate WorldList.AthenaWadSafe.01.CountRange=(X=300,Y=300) -> OK
+[1272] RowUpdate WorldList.AthenaWadGoldBarStack.Small.01.CountRange=(X=50,Y=50) -> OK
+[1273] RowUpdate WorldList.AthenaWadGoldBarStack.Medium.01.CountRange=(X=100,Y=100) -> OK
+[1274] RowUpdate WorldList.AthenaWadGoldBarStack.Large.01.CountRange=(X=200,Y=200) -> OK
+[1275] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[1276] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=75,Y=75) -> OK
+[1277] RowUpdate WorldList.AthenaWadChests.03.Weight=0.050000 -> OK
+[1278] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[1279] RowUpdate WorldList.ApolloWadChests.01.CountRange=(X=100,Y=100) -> OK
+[1280] RowUpdate WorldList.ApolloWadChests.02.CountRange=(X=150,Y=150) -> OK
+[1281] RowUpdate WorldList.ApolloWadChests.03.CountRange=(X=250,Y=250) -> OK
+[1282] RowUpdate WorldList.AGSupply4.01.Weight=0.000000 -> OK
+[1283] RowUpdate WorldList.ExoticRandom.01.Weight=0.000000 -> OK
+[1284] RowUpdate WorldList.ExoticRandom.02.Weight=0.000000 -> OK
+[1285] RowUpdate WorldList.ExoticRandom.03.Weight=0.000000 -> OK
+[1286] RowUpdate WorldList.ExoticRandom.04.Weight=0.000000 -> OK
+[1287] RowUpdate WorldList.ExoticRandom.05.Weight=0.000000 -> OK
+[1288] RowUpdate WorldList.ExoticRandom.06.Weight=0.000000 -> OK
+[1289] RowUpdate WorldList.ExoticRandom.10.Weight=0.000000 -> OK
+[1290] RowUpdate WorldList.ExoticRandom.22.Weight=0.000000 -> OK
+[1291] RowUpdate WorldList.MythicRandom.03.Weight=0.000000 -> OK
+[1292] RowUpdate WorldList.MythicRandom.04.Weight=0.000000 -> OK
+[1293] RowUpdate WorldList.MythicRandom.08.Weight=0.000000 -> OK
+[1294] RowUpdate WorldList.MythicRandom.09.Weight=0.000000 -> OK
+[1295] RowUpdate WorldList.MythicRandom.11.Weight=0.000000 -> OK
+[1296] RowUpdate WorldList.MythicRandom.12.Weight=0.000000 -> OK
+[1297] RowUpdate WorldList.MythicRandom.13.Weight=0.000000 -> OK
+[1298] RowUpdate WorldList.MythicRandom.21.Weight=0.000000 -> OK
+[1299] RowUpdate WorldList.MythicRandom.23.Weight=0.000000 -> OK
+[1300] RowUpdate WorldList.MythicRandom.29.Weight=0.000000 -> OK
+[1301] RowUpdate WorldList.MythicRandom.45.Weight=1.000000 -> OK
+[1302] RowUpdate WorldList.MythicRandom.48.Weight=1.000000 -> OK
+[1303] RowUpdate WorldList.MythicRandom.50.Weight=1.000000 -> OK
+[1304] RowUpdate WorldList.MythicRandom.51.Weight=1.000000 -> OK
+[1305] RowUpdate WorldList.MythicRandom.52.Weight=1.000000 -> OK
+[1306] RowUpdate WorldList.MythicRandom.53.Weight=1.000000 -> OK
+[1363] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.24.Weight=0.000000 -> OK
+[1364] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.25.Weight=0.000000 -> OK
+[1365] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.48.Weight=1.000000 -> OK
+[1366] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.49.Weight=0.400000 -> OK
+[1367] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.50.Weight=0.080000 -> OK
+[1368] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.60.Weight=0.000000 -> OK
+[1369] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.61.Weight=0.000000 -> OK
+[1370] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.62.Weight=0.000000 -> OK
+[1371] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.32.Weight=0.000000 -> OK
+[1372] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.33.Weight=0.000000 -> OK
+[1373] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.34.Weight=0.000000 -> OK
+[1374] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.35.Weight=0.000000 -> OK
+[1375] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.71.Weight=0.400000 -> OK
+[1376] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.72.Weight=0.080000 -> OK
+[1377] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.73.Weight=0.016000 -> OK
+[1378] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.74.Weight=0.004000 -> OK
+[1379] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.87.Weight=0.000000 -> OK
+[1380] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.88.Weight=0.000000 -> OK
+[1381] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.89.Weight=0.000000 -> OK
+[1382] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.90.Weight=0.000000 -> OK
+[1383] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.21.Weight=1.000000 -> OK
+[1384] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.22.Weight=0.400000 -> OK
+[1385] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.23.Weight=0.080000 -> OK
+[1386] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.32.Weight=0.400000 -> OK
+[1387] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.33.Weight=0.080000 -> OK
+[1388] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.34.Weight=0.016000 -> OK
+[1389] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.35.Weight=0.004000 -> OK
+[1390] RowUpdate WorldList.AthenaLoot.Weapon.SMG.35.Weight=0.000000 -> OK
+[1391] RowUpdate WorldList.AthenaLoot.Weapon.SMG.36.Weight=0.000000 -> OK
+[1392] RowUpdate WorldList.AthenaLoot.Weapon.SMG.52.Weight=0.000000 -> OK
+[1393] RowUpdate WorldList.AthenaLoot.Weapon.SMG.53.Weight=0.080000 -> OK
+[1394] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.48.Weight=0.000000 -> OK
+[1395] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.49.Weight=0.000000 -> OK
+[1396] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.50.Weight=0.000000 -> OK
+[1397] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.51.Weight=0.000000 -> OK
+[1398] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.72.Weight=0.000000 -> OK
+[1399] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.73.Weight=0.080000 -> OK
+[1400] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.74.Weight=0.016000 -> OK
+[1401] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.75.Weight=0.004000 -> OK
+[1402] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.05.Weight=0.000000 -> OK
+[1403] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.06.Weight=0.000000 -> OK
+[1404] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.87.Weight=1.000000 -> OK
+[1405] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.88.Weight=0.400000 -> OK
+[1406] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.89.Weight=0.080000 -> OK
+[1407] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.05.Weight=0.000000 -> OK
+[1408] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.06.Weight=0.000000 -> OK
+[1409] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.07.Weight=0.000000 -> OK
+[1410] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.08.Weight=0.000000 -> OK
+[1411] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.120.Weight=0.400000 -> OK
+[1412] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.121.Weight=0.080000 -> OK
+[1413] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.123.Weight=0.004000 -> OK
+[1414] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.24.Weight=0.400000 -> OK
+[1415] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.25.Weight=0.080000 -> OK
+[1416] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.34.Weight=0.000000 -> OK
+[1417] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.41.Weight=0.400000 -> OK
+[1418] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.42.Weight=0.080000 -> OK
+[1419] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.43.Weight=0.016000 -> OK
+[1420] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.44.Weight=0.004000 -> OK
+[1421] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.58.Weight=0.000000 -> OK
+[1422] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.59.Weight=0.000000 -> OK
+[1423] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.60.Weight=0.000000 -> OK
+[1424] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.17.Weight=0.000000 -> OK
+[1425] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.18.Weight=0.000000 -> OK
+[1426] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.39.Weight=0.750000 -> OK
+[1427] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.40.Weight=0.250000 -> OK
+[1428] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.47.Weight=0.000000 -> OK
+[1429] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.48.Weight=0.000000 -> OK
+[1430] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.18.Weight=0.750000 -> OK
+[1431] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.19.Weight=0.250000 -> OK
+[1432] RowUpdate WorldList.ApolloLoot.Weapon.SMG.25.Weight=0.000000 -> OK
+[1433] RowUpdate WorldList.ApolloLoot.Weapon.SMG.26.Weight=0.000000 -> OK
+[1434] RowUpdate WorldList.ApolloLoot.Weapon.SMG.37.Weight=0.750000 -> OK
+[1435] RowUpdate WorldList.ApolloLoot.Weapon.SMG.38.Weight=0.250000 -> OK
+[1436] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.05.Weight=0.000000 -> OK
+[1437] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.06.Weight=0.000000 -> OK
+[1438] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.62.Weight=0.250000 -> OK
+[1439] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.23.Weight=0.750000 -> OK
+[1440] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.24.Weight=0.250000 -> OK
+[1441] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.31.Weight=0.000000 -> OK
+[1442] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.32.Weight=0.000000 -> OK
+[1443] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.33.Weight=0.000000 -> OK
+[1444] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.34.Weight=0.000000 -> OK
+[1445] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.35.Weight=0.000000 -> OK
+[1446] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.72.Weight=0.250000 -> OK
+[1447] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.73.Weight=0.125000 -> OK
+[1448] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.74.Weight=0.025000 -> OK
+[1449] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.88.Weight=0.000000 -> OK
+[1450] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.89.Weight=0.000000 -> OK
+[1451] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.90.Weight=0.000000 -> OK
+[1452] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.32.Weight=0.250000 -> OK
+[1453] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.33.Weight=0.125000 -> OK
+[1454] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.34.Weight=0.025000 -> OK
+[1455] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.47.Weight=0.000000 -> OK
+[1456] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.48.Weight=0.000000 -> OK
+[1457] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.49.Weight=0.000000 -> OK
+[1458] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.71.Weight=0.250000 -> OK
+[1459] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.72.Weight=0.125000 -> OK
+[1460] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.73.Weight=0.025000 -> OK
+[1461] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.06.Weight=0.000000 -> OK
+[1462] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.07.Weight=0.000000 -> OK
+[1463] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.08.Weight=0.000000 -> OK
+[1464] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.121.Weight=0.250000 -> OK
+[1465] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.123.Weight=0.025000 -> OK
+[1466] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.42.Weight=0.250000 -> OK
+[1467] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.43.Weight=0.125000 -> OK
+[1468] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.44.Weight=0.025000 -> OK
+[1469] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.58.Weight=0.000000 -> OK
+[1470] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.59.Weight=0.000000 -> OK
+[1471] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.60.Weight=0.000000 -> OK
+[1472] RowUpdate WorldList.AthenaHighConsumables.34.Weight=0.000000 -> OK
+[1473] RowUpdate WorldList.AthenaHighConsumables.36.Weight=0.150000 -> OK
+[1474] RowUpdate WorldList.AthenaHighConsumables.37.Weight=0.150000 -> OK
+[1475] RowUpdate WorldList.AthenaHighConsumables.38.Weight=0.150000 -> OK
+[1476] RowUpdate WorldList.AthenaHighConsumablesRare.34.Weight=0.000000 -> OK
+[1477] RowUpdate WorldList.AthenaHighConsumablesRare.36.Weight=0.150000 -> OK
+[1478] RowUpdate WorldList.AthenaHighConsumablesRare.37.Weight=0.100000 -> OK
+[1479] RowUpdate WorldList.AthenaHighConsumablesRare.38.Weight=0.200000 -> OK
+[1480] RowUpdate WorldList.AthenaSupplyDropConsumables.34.Weight=0.000000 -> OK
+[1481] RowUpdate WorldList.AthenaSupplyDropConsumables.36.Weight=0.200000 -> OK
+[1482] RowUpdate WorldList.AthenaSupplyDropConsumables.37.Weight=0.200000 -> OK
+[1483] RowUpdate WorldList.AthenaSupplyDropConsumables.38.Weight=0.150000 -> OK
+[1484] RowUpdate WorldList.AthenaSupplyDropHeals.13.Weight=0.000000 -> OK
+[1485] RowUpdate WorldList.AthenaSupplyDropHeals.15.Weight=0.150000 -> OK
+[1486] RowUpdate WorldList.AthenaSupplyDropHeals.16.Weight=0.150000 -> OK
+[1487] RowUpdate WorldList.AthenaSupplyDropHeals.17.Weight=0.200000 -> OK
+[1488] RowUpdate WorldList.AthenaConsumables.34.Weight=0.000000 -> OK
+[1489] RowUpdate WorldList.AthenaConsumables.36.Weight=0.200000 -> OK
+[1490] RowUpdate WorldList.AthenaConsumables.37.Weight=0.200000 -> OK
+[1491] RowUpdate WorldList.AthenaConsumables.38.Weight=0.100000 -> OK
+[1492] RowUpdate WorldList.MythicRandom.30.Weight=1.000000 -> OK
+[1493] RowUpdate WorldList.MythicRandom.50.Weight=1.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=322, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\BlastBerryLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+2026-01-23 21:26:06 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-01-23 21:26:07 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=60
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride.json : replaced=264, added=0
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
+[304] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
+[305] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
+[306] RowUpdate Loot_AthenaSupplyDrop_03.Weight=0.300000 -> OK
+[372] RowUpdate Loot_AthenaFlopper_High_01.Weight=0.000000 -> OK
+[373] RowUpdate Loot_AthenaFlopper_High_02.Weight=0.000000 -> OK
+[374] RowUpdate Loot_AthenaFlopper_High_03.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] done: applied=6, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/BlastBerryTierData
+[1307] RowUpdate Loot_AthenaTreasure_15.Weight=0.004800 -> OK
+[1308] RowUpdate Loot_AthenaTreasure_16.Weight=0.003500 -> OK
+[1309] RowUpdate Loot_AthenaTreasure_19.Weight=0.000000 -> OK
+[1310] RowUpdate Loot_AthenaTreasure_20.Weight=0.000000 -> OK
+[1311] RowUpdate Loot_AthenaTreasure_21.Weight=0.000050 -> OK
+[1312] RowUpdate Loot_AthenaTreasure_22.Weight=0.000050 -> OK
+[1313] RowUpdate Loot_AthenaTreasure_23.Weight=0.000050 -> OK
+[1314] RowUpdate Loot_AthenaTreasure_24.Weight=0.000050 -> OK
+[1315] RowUpdate Loot_AthenaTreasure_25.Weight=0.000050 -> OK
+[1316] RowUpdate Loot_ApolloTreasure_Rare_15.Weight=0.008500 -> OK
+[1317] RowUpdate Loot_ApolloTreasure_Rare_16.Weight=0.006500 -> OK
+[1318] RowUpdate Loot_ApolloTreasure_Rare_19.Weight=0.000000 -> OK
+[1319] RowUpdate Loot_ApolloTreasure_Rare_20.Weight=0.000000 -> OK
+[1320] RowUpdate Loot_ApolloTreasure_Rare_21.Weight=0.000670 -> OK
+[1321] RowUpdate Loot_ApolloTreasure_Rare_22.Weight=0.000670 -> OK
+[1322] RowUpdate Loot_ApolloTreasure_Rare_23.Weight=0.000670 -> OK
+[1323] RowUpdate Loot_ApolloTreasure_Rare_24.Weight=0.000670 -> OK
+[1324] RowUpdate Loot_ApolloTreasure_Rare_25.Weight=0.000670 -> OK
+[1325] RowUpdate Loot_AthenaSupplyDrop_15.Weight=0.006200 -> OK
+[1326] RowUpdate Loot_AthenaSupplyDrop_16.Weight=0.003200 -> OK
+[1327] RowUpdate Loot_AthenaSupplyDrop_17.Weight=0.002000 -> OK
+[1328] RowUpdate Loot_AthenaSupplyDrop_19.Weight=0.000000 -> OK
+[1329] RowUpdate Loot_AthenaSupplyDrop_20.Weight=0.000000 -> OK
+[1330] RowUpdate Loot_AthenaSupplyDrop_21.Weight=0.000400 -> OK
+[1331] RowUpdate Loot_AthenaSupplyDrop_22.Weight=0.000400 -> OK
+[1332] RowUpdate Loot_AthenaSupplyDrop_23.Weight=0.000400 -> OK
+[1333] RowUpdate Loot_AthenaSupplyDrop_24.Weight=0.000400 -> OK
+[1334] RowUpdate Loot_AthenaSupplyDrop_25.Weight=0.000400 -> OK
+[1335] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_02.Weight=0.006200 -> OK
+[1336] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_03.Weight=0.003200 -> OK
+[1337] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_04.Weight=0.002000 -> OK
+[1338] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_06.Weight=0.000000 -> OK
+[1339] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_07.Weight=0.000000 -> OK
+[1340] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_08.Weight=0.000400 -> OK
+[1341] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_09.Weight=0.000400 -> OK
+[1342] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_10.Weight=0.000400 -> OK
+[1343] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_11.Weight=0.000400 -> OK
+[1344] RowUpdate Loot_BlastBerry_AthenaSupplyDrop_12.Weight=0.000400 -> OK
+[HOTFIX:SEASON2] done: applied=38, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride
+[1268] RowUpdate Loot_AthenaCandyBucket_01.Weight=0.000000 -> OK
+[HOTFIX:SEASON3] done: applied=1, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\BlastBerryTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+2026-01-23 21:26:07 | INFO | ✓ Hotfix 適用完了 (1.01s)
+2026-01-23 21:26:07 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json
+2026-01-23 21:26:07 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json
+2026-01-23 21:26:07 | INFO | load done (0.04s)
+2026-01-23 21:26:07 | INFO | build summary start
+2026-01-23 21:26:07 | INFO | build summary done (0.03s)
+2026-01-23 21:26:07 | INFO | enrich summary with names start
+2026-01-23 21:26:07 | INFO | enrich summary done (0.00s)
+2026-01-23 21:26:07 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-01-23_21-26.json
+2026-01-23 21:26:07 | INFO | build BR_LootData start
+2026-01-23 21:26:07 | INFO | build BR_LootData done (0.00s)
+2026-01-23 21:26:07 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\Reload_LootData_2026-01-23_21-26.json
+2026-01-23 21:26:07 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_LootPool.json
+2026-01-23 21:26:07 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\LootSummary.py
+2026-01-23 21:26:07 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-01-23_21-26.json
+✅ 抽出件数: 158
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-01-22_23-33.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-01-23_21-26.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 158
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\history\BR_20260123_2126\items_unique_min_diff.json
+2026-01-23 21:26:07 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-01-23 21:26:07 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.28s)
+2026-01-23 21:26:07 | INFO | prewarm start

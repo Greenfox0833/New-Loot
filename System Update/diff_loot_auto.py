@@ -9,6 +9,7 @@ JST = timezone(timedelta(hours=9))
 BASE_DIR = Path(__file__).resolve().parent
 DATA_ROOT = BASE_DIR / "戦利品データ"
 OUTPUT_DIR = Path(r"E:\フォートナイト\Web\assets\data\Loot\diff")
+INDEX_PATH = OUTPUT_DIR / "index.json"
 
 MODE_OUTPUT_NAMES = {
     "Figment": "ORIGIN",
@@ -34,6 +35,29 @@ def _diff_is_empty(diff: dict) -> bool:
     return not diff.get("added") and not diff.get("removed") and not diff.get("change")
 
 
+def update_diff_index(out_path: Path) -> None:
+    name = out_path.name
+    if INDEX_PATH.exists():
+        try:
+            data = json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            data = {}
+    else:
+        data = {}
+
+    entries = data.get("entries")
+    if not isinstance(entries, list):
+        entries = []
+
+    # Keep newest entries at the end, avoid duplicates.
+    entries = [e for e in entries if e != name]
+    entries.append(name)
+
+    data["entries"] = entries
+    INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+    INDEX_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def run_latest_diff(mode_key: str) -> tuple[Path, dict] | None:
     folder = DATA_ROOT / mode_key
     if not folder.exists():
@@ -56,4 +80,5 @@ def run_latest_diff(mode_key: str) -> tuple[Path, dict] | None:
     with out_path.open("w", encoding="utf-8") as f:
         json.dump(diff, f, ensure_ascii=False, indent=2)
 
+    update_diff_index(out_path)
     return out_path, diff

@@ -135,3 +135,23 @@
   """
 2026-02-01 05:36:01 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.22s)
 2026-02-01 05:36:01 | INFO | prewarm start
+2026-02-01 05:36:25 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (23.73s)
+2026-02-01 05:36:25 | INFO | 画像化タスク数: 117
+2026-02-01 05:36:25 | INFO | 画像生成 進捗: 1/117
+2026-02-01 05:36:27 | INFO | 画像生成 進捗: 50/117
+2026-02-01 05:36:29 | INFO | 画像生成 進捗: 100/117
+2026-02-01 05:36:30 | INFO | 画像生成 進捗: 117/117
+2026-02-01 05:36:30 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-01 05:36:30 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_2026-02-01_05-36-30.json (added=0 removed=0 change=18)
+2026-02-01 05:36:30 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\BR_Discor.py
+2026-02-01 05:36:30 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-01 05:36:36 | INFO | git commit stdout: [main da06e32] BR update 2026-02-01 05:36:33
+ 8 files changed, 47566 insertions(+), 36 deletions(-)
+ create mode 100644 System Update/NoBuild/output/history/BR_20260201_0536/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild/output/logs/pipeline_2026-02-01_05-36-00.log
+ create mode 100644 System Update/NoBuild/output/summary/v39.30_2026-02-01_05-36.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild/NoBuild_LootData_2026-02-01_05-36.json"
+2026-02-01 05:36:39 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   b5c4702..da06e32  main -> main
+2026-02-01 05:36:39 | INFO | ✓ GitHub Push 完了
+2026-02-01 05:36:39 | INFO | ===== BR: pipeline end =====

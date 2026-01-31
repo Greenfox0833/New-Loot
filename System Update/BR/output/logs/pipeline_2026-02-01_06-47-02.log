@@ -1,0 +1,117 @@
+2026-02-01 06:47:02 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-02-01_06-47-02.log
+2026-02-01 06:47:02 | INFO | ===== BR: pipeline start =====
+2026-02-01 06:47:02 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-02-01 06:47:02 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
+2026-02-01 06:47:02 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-01 06:47:02 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-01 06:47:02 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootPackages_Client.json : replaced=435, added=742
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
+[347] AddRow -> ADD WorldPKG.Specialist.Supply.Extra.Loot.01
+[348] RowUpdate WorldList.AthenaHighConsumables.23.Weight=0.050000 -> OK
+[349] RowUpdate WorldList.AthenaHighConsumablesRare.24.Weight=0.050000 -> OK
+[350] RowUpdate WorldList.AthenaSupplyDropConsumables.23.Weight=0.050000 -> OK
+[351] RowUpdate WorldList.AthenaConsumables.24.Weight=0.050000 -> OK
+[358] RowUpdate PKG_ThemeParkCannon_Solo.01.Weight=0.250000 -> OK
+[359] RowUpdate PKG_ThemeParkCannon_Solo.02.Weight=0.750000 -> OK
+[360] RowUpdate PKG_ThemeParkCannon_Solo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[361] RowUpdate PKG_ThemeParkCannon_Solo.04.Weight=0.000000 -> OK
+[362] RowUpdate PKG_ThemeParkCannon_Duo.01.Weight=0.250000 -> OK
+[363] RowUpdate PKG_ThemeParkCannon_Duo.02.Weight=0.750000 -> OK
+[364] RowUpdate PKG_ThemeParkCannon_Duo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[365] RowUpdate PKG_ThemeParkCannon_Duo.04.Weight=0.000000 -> OK
+[366] RowUpdate PKG_ThemeParkCannon_Trio.01.Weight=0.250000 -> OK
+[367] RowUpdate PKG_ThemeParkCannon_Trio.02.Weight=0.750000 -> OK
+[368] RowUpdate PKG_ThemeParkCannon_Trio.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[369] RowUpdate PKG_ThemeParkCannon_Trio.04.Weight=0.000000 -> OK
+[370] RowUpdate PKG_ThemeParkCannon_Squad.01.Weight=0.250000 -> OK
+[371] RowUpdate PKG_ThemeParkCannon_Squad.02.Weight=0.750000 -> OK
+[372] RowUpdate PKG_ThemeParkCannon_Squad.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[373] RowUpdate PKG_ThemeParkCannon_Squad.04.Weight=0.000000 -> OK
+[374] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[375] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.100000 -> OK
+[376] RowUpdate LIST_ThemeParkCannon_Consumable.05.CountRange=(X=2,Y=2) -> OK
+[377] RowUpdate LIST_ThemeParkCannon_Consumable.05.ItemDefinition=/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot -> OK
+[378] RowUpdate LIST_ThemeParkCannon_Consumable.06.Weight=0.100000 -> OK
+[379] RowUpdate LIST_ThemeParkCannon_Consumable.06.CountRange=(X=1,Y=1) -> OK
+[380] RowUpdate LIST_ThemeParkCannon_Consumable.06.ItemDefinition=/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox -> OK
+[381] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[419] RowUpdate LIST_Vend_Item_Sniper_Ammo.01.CountRange=(X=10,Y=10) -> OK
+[461] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.040000 -> OK
+[462] RowUpdate WorldList.AthenaConsumables.18.Weight=0.010000 -> OK
+[463] RowUpdate WorldList.Weapons.Rarity.Legendary.20.Weight=1.000000 -> OK
+[504] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=2,Y=2) -> OK
+[505] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=2,Y=2) -> OK
+[506] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=2,Y=2) -> OK
+[507] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=2,Y=2) -> OK
+[508] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=2,Y=2) -> OK
+[509] RowUpdate LIST_Balloon_Item.02.CountRange=(X=2,Y=2) -> OK
+[510] RowUpdate PKG_CareDrop.04.LootPackageCall=WorldList.AthenaHighConsumables -> OK
+[527] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.000000 -> OK
+[528] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.000000 -> OK
+[529] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.000000 -> OK
+[530] RowUpdate WorldList.AthenaConsumables.14.Weight=0.000000 -> OK
+[540] RowUpdate WorldList.AthenaHighConsumables.14.CountRange=(X=3,Y=3) -> OK
+[543] RowUpdate WorldList.AthenaHighConsumables.20.Weight=0.150000 -> OK
+[544] RowUpdate WorldList.AthenaHighConsumables.20.CountRange=(X=3,Y=3) -> OK
+[545] RowUpdate WorldList.AthenaHighConsumablesRare.20.Weight=0.200000 -> OK
+[546] RowUpdate WorldList.AthenaHighConsumablesRare.20.CountRange=(X=3,Y=3) -> OK
+[547] RowUpdate WorldList.AthenaSupplyDropConsumables.22.Weight=0.200000 -> OK
+[548] RowUpdate WorldList.AthenaSupplyDropConsumables.22.CountRange=(X=3,Y=3) -> OK
+[549] RowUpdate WorldList.AthenaConsumables.20.CountRange=(X=3,Y=3) -> OK
+[550] RowUpdate LIST_Boss_Gamma_Consumable.01.CountRange=(X=3,Y=3) -> OK
+[551] RowUpdate LIST_Balloon_Item.02.CountRange=(X=3,Y=3) -> OK
+[626] RowUpdate WorldList.AthenaHighConsumables.21.CountRange=(X=2,Y=2) -> OK
+[627] RowUpdate WorldList.AthenaHighConsumablesRare.22.CountRange=(X=2,Y=2) -> OK
+[628] RowUpdate WorldList.AthenaSupplyDropConsumables.21.CountRange=(X=2,Y=2) -> OK
+[629] RowUpdate WorldList.AthenaConsumables.22.CountRange=(X=2,Y=2) -> OK
+[HOTFIX:SEASON2] done: applied=58, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\DragonCartLootPackages_Client__final.json
+2026-02-01 06:47:02 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-01 06:47:03 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootTierData_Client.json : replaced=0, added=88
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[319] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
+[320] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
+[321] RowUpdate Loot_AthenaSupplyDrop_03.Weight=0.300000 -> OK
+[384] RowUpdate Loot_AthenaFlopper_High_01.Weight=0.000000 -> OK
+[385] RowUpdate Loot_AthenaFlopper_High_02.Weight=0.000000 -> OK
+[386] RowUpdate Loot_AthenaFlopper_High_03.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] done: applied=6, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootTierData_Client
+[346] AddRow -> ADD Loot_Specialist_Supply_Extra_01
+[630] RowUpdate LTG_Vend_Item_Pistol_Green.01.Weight=0.000000 -> OK
+[631] RowUpdate LTG_Vend_Item_Shotgun_Green.01.Weight=0.000000 -> OK
+[632] RowUpdate LTG_Vend_Item_SMG_Green.01.Weight=0.000000 -> OK
+[633] RowUpdate LTG_Vend_Item_Assault_Green.01.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] done: applied=5, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\DragonCartLootTierData_Client__final.json
+2026-02-01 06:47:03 | INFO | ✓ Hotfix 適用完了 (0.91s)
+2026-02-01 06:47:03 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-02-01 06:47:03 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-02-01 06:47:03 | INFO | load done (0.03s)
+2026-02-01 06:47:03 | INFO | build summary start
+2026-02-01 06:47:03 | INFO | build summary done (0.02s)
+2026-02-01 06:47:03 | INFO | enrich summary with names start
+2026-02-01 06:47:03 | INFO | enrich summary done (0.00s)
+2026-02-01 06:47:03 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-01_06-47.json
+2026-02-01 06:47:03 | INFO | build BR_LootData start
+2026-02-01 06:47:03 | INFO | build BR_LootData done (0.00s)
+2026-02-01 06:47:03 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-02-01_06-47.json
+2026-02-01 06:47:03 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-02-01 06:47:03 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-02-01 06:47:03 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-01_06-47.json
+✅ 抽出件数: 115
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-01_05-34.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-01_06-47.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 115
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260201_0647\items_unique_min_diff.json
+2026-02-01 06:47:03 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-01 06:47:03 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.26s)
+2026-02-01 06:47:03 | INFO | prewarm start

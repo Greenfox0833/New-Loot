@@ -12729,7 +12729,7 @@
       },
       "Loot_AthenaFlopper_High_01": {
         "TierGroup": "Loot_AthenaFlopper_High",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -12797,7 +12797,7 @@
       },
       "Loot_AthenaFlopper_High_02": {
         "TierGroup": "Loot_AthenaFlopper_High",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -12865,7 +12865,7 @@
       },
       "Loot_AthenaFlopper_High_03": {
         "TierGroup": "Loot_AthenaFlopper_High",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -18232,7 +18232,7 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": false,
-        "bAvoidDuplicateLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
         "Annotation": ""
       },
       "Loot_AthenaTest.02": {
@@ -19461,7 +19461,7 @@
       },
       "LTG_Vend_Item_Mend_3.01": {
         "TierGroup": "LTG_Vend_Item_Mend_3",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -19529,7 +19529,7 @@
       },
       "LTG_Vend_Item_Mend_4.01": {
         "TierGroup": "LTG_Vend_Item_Mend_4",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -19665,7 +19665,7 @@
       },
       "LTG_Vend_Item_Pistol_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Blue",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -19801,7 +19801,7 @@
       },
       "LTG_Vend_Item_Pistol_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Pistol_Yellow",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20005,7 +20005,7 @@
       },
       "LTG_Vend_Item_Shotgun_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Blue",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20141,7 +20141,7 @@
       },
       "LTG_Vend_Item_Shotgun_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Shotgun_Yellow",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20345,7 +20345,7 @@
       },
       "LTG_Vend_Item_SMG_Blue.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Blue",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20481,7 +20481,7 @@
       },
       "LTG_Vend_Item_SMG_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_SMG_Yellow",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20685,7 +20685,7 @@
       },
       "LTG_Vend_Item_Assault_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Blue",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -20821,7 +20821,7 @@
       },
       "LTG_Vend_Item_Assault_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Assault_Yellow",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -21025,7 +21025,7 @@
       },
       "LTG_Vend_Item_Sniper_Blue.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Blue",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -21161,7 +21161,7 @@
       },
       "LTG_Vend_Item_Sniper_Yellow.01": {
         "TierGroup": "LTG_Vend_Item_Sniper_Yellow",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -21499,6 +21499,74 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": ""
       },
+      "LTG_Vend_Item_Seasonal_4.01": {
+        "TierGroup": "LTG_Vend_Item_Seasonal_4",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_Vend_Item_Seasonal_4",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": ""
+      },
       "LTG_Vend_Item_Gold_1.01": {
         "TierGroup": "LTG_Vend_Item_Gold_1",
         "Weight": 1.0,
@@ -21705,7 +21773,7 @@
       },
       "LTG_Vend_Item_Gold_4.01": {
         "TierGroup": "LTG_Vend_Item_Gold_4",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -23879,8 +23947,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": ""
       },
-      "LTG_Stick.01": {
-        "TierGroup": "LTG_Stick",
+      "LTG_Boss_BF.01": {
+        "TierGroup": "LTG_Boss_BF",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -23890,7 +23958,75 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Stick",
+        "LootPackage": "PKG_Boss_BF",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": ""
+      },
+      "LTG_RumiSword.01": {
+        "TierGroup": "LTG_RumiSword",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_RumiSword",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -23947,8 +24083,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": ""
       },
-      "LTG_Kenny_1.01": {
-        "TierGroup": "LTG_Kenny_1",
+      "LTG_JinuMask.01": {
+        "TierGroup": "LTG_JinuMask",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -23958,7 +24094,75 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Kenny_1",
+        "LootPackage": "PKG_JinuMask",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": ""
+      },
+      "Loot_BusLoadout.01": {
+        "TierGroup": "Loot_BusLoadout",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_BusLoadout",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 4.0,
@@ -24015,8 +24219,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": ""
       },
-      "LTG_Kenny_2.01": {
-        "TierGroup": "LTG_Kenny_2",
+      "LTG_FriendshipBubble.01": {
+        "TierGroup": "LTG_FriendshipBubble",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -24026,11 +24230,11 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Kenny_2",
+        "LootPackage": "PKG_FriendshipBubble",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
+          "X": 6.0,
+          "Y": 6.0
         },
         "LootPackageCategoryWeightArray": [
           0,
@@ -24050,76 +24254,8 @@
           1,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": false,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": ""
-      },
-      "LTG_Kenny_3.01": {
-        "TierGroup": "LTG_Kenny_3",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Kenny_3",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 4.0,
-          "Y": 4.0
-        },
-        "LootPackageCategoryWeightArray": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
           1,
           1,
-          1,
-          1,
-          0,
-          0,
           0,
           0,
           0,
@@ -24490,84 +24626,6 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Vend_Item_Sniper_Ammo;LPKG:PKG_Vend_Item_Sniper_Ammo"
-      },
-      "Loot_Specialist_Supply_Extra_01": {
-        "Name": "Loot_Specialist_Supply_Extra_01",
-        "TierGroup": "Loot_Specialist_Supply_Extra",
-        "Weight": 1,
-        "QuotaLevel": "Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.Specialist.Supply.Extra.Loot",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
-        "Annotation": "",
-        "NumLootPackageDrops": 0,
-        "RequiredGameplayTags": {
-          "GameplayTags": [],
-          "ParentTags": []
-        },
-        "RequiredTag": "None"
       }
     }
   }

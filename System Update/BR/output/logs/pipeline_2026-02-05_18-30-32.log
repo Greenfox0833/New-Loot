@@ -70,3 +70,66 @@
 2026-02-05 18:30:33 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
 2026-02-05 18:30:33 | INFO | load done (0.04s)
 2026-02-05 18:30:33 | INFO | build summary start
+2026-02-05 18:30:36 | INFO | build summary done (2.99s)
+2026-02-05 18:30:36 | INFO | enrich summary with names start
+2026-02-05 18:30:41 | INFO | enrich summary done (5.66s)
+2026-02-05 18:30:41 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-05_18-30.json
+2026-02-05 18:30:41 | INFO | build BR_LootData start
+2026-02-05 18:30:41 | INFO | build BR_LootData done (0.00s)
+2026-02-05 18:30:41 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-02-05_18-30.json
+2026-02-05 18:30:42 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-02-05 18:30:42 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-02-05 18:30:42 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-05_18-30.json
+✅ 抽出件数: 122
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-01_06-47.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-02-05_18-30.json
+✅ 差分作成 完了
+  追加   : 18 / 削除 : 11 / 変更 : 0 / 変化なし : 104
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260205_1830\items_unique_min_diff.json
+2026-02-05 18:30:42 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-05 18:30:42 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.42s)
+2026-02-05 18:30:42 | INFO | prewarm start
+2026-02-05 18:31:09 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (26.90s)
+2026-02-05 18:31:09 | INFO | 画像化タスク数: 122
+2026-02-05 18:31:09 | INFO | 画像生成 進捗: 1/122
+2026-02-05 18:31:11 | INFO | 画像生成 進捗: 50/122
+2026-02-05 18:31:12 | INFO | 画像生成 進捗: 100/122
+2026-02-05 18:31:13 | INFO | 画像生成 進捗: 122/122
+2026-02-05 18:31:13 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-05 18:31:13 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-02-05_18-31-13.json (added=18 removed=11 change=62)
+2026-02-05 18:31:13 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\BR_Discor.py
+2026-02-05 18:31:13 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-05 18:31:20 | INFO | git commit stdout: [main a259a8a] BR update 2026-02-05 18:31:19
+ 36 files changed, 63678 insertions(+), 8278 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260205_1830/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-02-05_18-30-32.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-02-05_18-30.json
+ create mode 100644 System Update/shared/icon_cache/FizzyCloudGameplay__Assets__Icons__T_Icon_BR_fizzycloud_L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-Crossbow-Valentines-L.png
+ create mode 100644 System Update/shared/icon_cache/SmartRifle__Gameplay__Icons__T_Icon_Weapons_Rifle_Assault_LockOn_L.png
+ create mode 100644 System Update/shared/icon_cache/SunRoseFlyingGameplay__Items__Wings__Icons__T-Icon-BR-WingsSunrose-Gadget-L.png
+ create mode 100644 "System Update/shared/images/BR/MK\343\202\273\343\203\226\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/MK\343\202\273\343\203\226\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/MK\343\202\273\343\203\226\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/MK\343\202\273\343\203\226\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/MK\343\202\273\343\203\226\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\244\343\202\253\343\203\255\343\202\271\343\201\256\347\277\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\245\343\203\274\343\203\224\343\203\203\343\203\211\343\202\257\343\203\255\343\202\271\343\203\234\343\202\246 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\276\343\203\274\343\202\244\343\201\256\343\203\220\343\203\226\343\203\253\343\202\267\343\203\274\343\203\253\343\203\211 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\210\343\203\251\343\201\256\343\203\206\343\203\254\343\203\235\343\203\274\343\203\210\343\201\256\344\273\256\351\235\242 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\203\254\343\203\203\343\202\257\343\202\271 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\203\255\343\203\274\343\203\231\343\203\252\343\203\274\343\203\237\343\202\271\343\203\210\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\237\343\203\251\343\201\256\346\277\200\350\276\233\343\203\251\343\203\274\343\203\241\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\253\343\203\237\343\201\256\343\203\221\343\203\257\343\203\274\343\202\275\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\255\343\203\203\343\202\257\343\202\252\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\255\343\203\203\343\202\257\343\202\252\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\345\274\267\345\214\226\345\236\213\343\202\255\343\203\245\343\203\274\343\203\224\343\203\203\343\203\211\343\202\257\343\203\255\343\202\271\343\203\234\343\202\246 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-02-05_18-30.json"
+2026-02-05 18:31:24 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   c58c3f3..a259a8a  main -> main
+2026-02-05 18:31:24 | INFO | ✓ GitHub Push 完了
+2026-02-05 18:31:24 | INFO | ===== BR: pipeline end =====

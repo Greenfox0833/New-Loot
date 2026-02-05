@@ -1,11 +1,12 @@
-2026-02-06 08:10:59 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\logs\pipeline_2026-02-06_08-10-59.log
-2026-02-06 08:10:59 | INFO | ===== Reload: pipeline start =====
-2026-02-06 08:10:59 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\items_unique_min.json
-2026-02-06 08:10:59 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload
-2026-02-06 08:10:59 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-02-06 08:10:59 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-02-06 08:11:00 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryLootPackages.json : replaced=613, added=1445
+2026-02-06 08:12:02 | INFO | log file (Reload_NoBuild): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\logs\pipeline_2026-02-06_08-12-02.log
+2026-02-06 08:12:02 | INFO | ===== Reload_NoBuild: pipeline start =====
+2026-02-06 08:12:02 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\items_unique_min.json
+2026-02-06 08:12:02 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_NoBuild
+2026-02-06 08:12:02 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-06 08:12:02 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-06 08:12:03 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryLootPackages.json : replaced=613, added=1445
 [STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootPackages_Client_BlastBerryOverride.json : replaced=32, added=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\NoBuild\AthenaLootPackages_Client_BlastBerryOverride_NoBuild.json : replaced=56, added=0
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
 [HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
@@ -339,12 +340,17 @@
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride
 [HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\BlastBerryLootPackages__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
-2026-02-06 08:11:00 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-02-06 08:11:00 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=60
+[HOTFIX:SEASON4] target=/BlastBerryLoot/DataTables/NoBuild/AthenaLootPackages_Client_BlastBerryOverride_NoBuild
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\BlastBerryLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootPackages_Client_BlastBerryOverride_NoBuild__final.json
+2026-02-06 08:12:03 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-06 08:12:03 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=60
 [STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride.json : replaced=264, added=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\NoBuild\AthenaLootTierData_Client_BlastBerryOverride_NoBuild.json : replaced=0, added=0
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
 [357] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
 [358] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
@@ -393,53 +399,35 @@
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride
 [1284] RowUpdate Loot_AthenaCandyBucket_01.Weight=0.000000 -> OK
 [HOTFIX:SEASON3] done: applied=1, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\BlastBerryTierData__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
-2026-02-06 08:11:00 | INFO | ✓ Hotfix 適用完了 (0.80s)
-2026-02-06 08:11:00 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootTierData_Client__final.json
-2026-02-06 08:11:00 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\AthenaLootPackages_Client__final.json
-2026-02-06 08:11:00 | INFO | load done (0.03s)
-2026-02-06 08:11:00 | INFO | build summary start
-2026-02-06 08:11:00 | INFO | build summary done (0.02s)
-2026-02-06 08:11:00 | INFO | enrich summary with names start
-2026-02-06 08:11:00 | INFO | enrich summary done (0.00s)
-2026-02-06 08:11:00 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-02-06_08-11.json
-2026-02-06 08:11:00 | INFO | build BR_LootData start
-2026-02-06 08:11:00 | INFO | build BR_LootData done (0.00s)
-2026-02-06 08:11:00 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\Reload_LootData_2026-02-06_08-11.json
-2026-02-06 08:11:00 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_LootPool.json
-2026-02-06 08:11:00 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\LootSummary.py
-2026-02-06 08:11:01 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-02-06_08-11.json
-✅ 抽出件数: 161
-💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-02-05_20-08.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\summary\v39.30_2026-02-06_08-11.json
+[HOTFIX:SEASON4] target=/BlastBerryLoot/DataTables/NoBuild/AthenaLootTierData_Client_BlastBerryOverride_NoBuild
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\BlastBerryTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootTierData_Client_BlastBerryOverride_NoBuild__final.json
+2026-02-06 08:12:03 | INFO | ✓ Hotfix 適用完了 (0.76s)
+2026-02-06 08:12:03 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootTierData_Client__final.json
+2026-02-06 08:12:03 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\AthenaLootPackages_Client__final.json
+2026-02-06 08:12:03 | INFO | load done (0.02s)
+2026-02-06 08:12:03 | INFO | build summary start
+2026-02-06 08:12:03 | INFO | build summary done (0.02s)
+2026-02-06 08:12:03 | INFO | enrich summary with names start
+2026-02-06 08:12:03 | INFO | enrich summary done (0.00s)
+2026-02-06 08:12:03 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\summary\v39.30_2026-02-06_08-12.json
+2026-02-06 08:12:03 | INFO | build Reload_NoBuild_LootData start
+2026-02-06 08:12:03 | INFO | build BR_LootData done (0.00s)
+2026-02-06 08:12:03 | INFO | ✅ Reload_NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_NoBuild\Reload_NoBuild_LootData_2026-02-06_08-12.json
+2026-02-06 08:12:03 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_ZB_LootPool.json
+2026-02-06 08:12:03 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\scripts\LootSummary.py
+2026-02-06 08:12:03 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\summary\v39.30_2026-02-06_08-12.json
+✅ 抽出件数: 163
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\summary\v39.30_2026-01-23_21-27.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\summary\v39.30_2026-02-06_08-12.json
 ✅ 差分作成 完了
-  追加   : 0 / 削除 : 1 / 変更 : 0 / 変化なし : 161
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\output\history\BR_20260206_0811\items_unique_min_diff.json
-2026-02-06 08:11:01 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 13 / 削除 : 10 / 変更 : 0 / 変化なし : 150
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\output\history\BR_20260206_0812\items_unique_min_diff.json
+2026-02-06 08:12:03 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-02-06 08:11:01 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.22s)
-2026-02-06 08:11:01 | INFO | prewarm start
-2026-02-06 08:11:32 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (31.76s)
-2026-02-06 08:11:32 | INFO | 画像化タスク数: 161
-2026-02-06 08:11:33 | INFO | 画像生成 進捗: 1/161
-2026-02-06 08:11:34 | INFO | 画像生成 進捗: 50/161
-2026-02-06 08:11:36 | INFO | 画像生成 進捗: 100/161
-2026-02-06 08:11:37 | INFO | 画像生成 進捗: 150/161
-2026-02-06 08:11:37 | INFO | 画像生成 進捗: 161/161
-2026-02-06 08:11:37 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-02-06 08:11:37 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_2026-02-06_08-11-37.json (added=0 removed=1 change=28)
-2026-02-06 08:11:37 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\scripts\BR_Discor.py
-2026-02-06 08:11:37 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-02-06 08:11:39 | INFO | git commit stdout: [main 2623a43] Reload update 2026-02-06 08:11:38
- 9 files changed, 52793 insertions(+), 8 deletions(-)
- create mode 100644 System Update/Reload/output/history/BR_20260206_0811/items_unique_min_diff.json
- create mode 100644 System Update/Reload/output/logs/pipeline_2026-02-06_08-10-59.log
- create mode 100644 System Update/Reload/output/summary/v39.30_2026-02-06_08-11.json
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-02-06_08-11.json"
-2026-02-06 08:11:41 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   ffee02c..2623a43  main -> main
-2026-02-06 08:11:41 | INFO | ✓ GitHub Push 完了
-2026-02-06 08:11:41 | INFO | ===== Reload: pipeline end =====
+2026-02-06 08:12:03 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.20s)
+2026-02-06 08:12:03 | INFO | prewarm start

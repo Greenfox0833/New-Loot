@@ -1,10 +1,10 @@
-2026-02-06 07:58:21 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-02-06_07-58-21.log
-2026-02-06 07:58:21 | INFO | ===== ForbiddenFruit: pipeline start =====
-2026-02-06 07:58:21 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
-2026-02-06 07:58:21 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
-2026-02-06 07:58:21 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-02-06 07:58:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-02-06 07:58:21 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
+2026-02-06 08:03:52 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-02-06_08-03-52.log
+2026-02-06 08:03:52 | INFO | ===== ForbiddenFruit: pipeline start =====
+2026-02-06 08:03:52 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+2026-02-06 08:03:52 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
+2026-02-06 08:03:52 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-06 08:03:52 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-06 08:03:52 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
 [HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages
 [636] RowUpdate WorldList.BusGold.01.CountRange=(X=500,Y=500) -> OK
 [637] RowUpdate WorldList.BusWeap.02.Weight=1.000000 -> OK
@@ -69,8 +69,8 @@
 [WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootPackages__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
-2026-02-06 07:58:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-02-06 07:58:21 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
+2026-02-06 08:03:52 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-06 08:03:52 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
 [HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
 [HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
@@ -78,56 +78,29 @@
 [WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootTierData__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
-2026-02-06 07:58:21 | INFO | ✓ Hotfix 適用完了 (0.52s)
-2026-02-06 07:58:21 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
-2026-02-06 07:58:21 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
-2026-02-06 07:58:21 | INFO | load done (0.01s)
-2026-02-06 07:58:21 | INFO | build summary start
-2026-02-06 07:58:22 | INFO | build summary done (0.60s)
-2026-02-06 07:58:22 | INFO | enrich summary with names start
-2026-02-06 07:58:23 | INFO | enrich summary done (1.10s)
-2026-02-06 07:58:23 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_07-58.json
-2026-02-06 07:58:23 | INFO | build BR_LootData start
-2026-02-06 07:58:23 | INFO | build BR_LootData done (0.00s)
-2026-02-06 07:58:23 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit\ForbiddenFruit_LootData_2026-02-06_07-58.json
-2026-02-06 07:58:23 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Blitz_LootPool.json
-2026-02-06 07:58:23 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py
-2026-02-06 07:58:23 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_07-58.json
+2026-02-06 08:03:52 | INFO | ✓ Hotfix 適用完了 (0.34s)
+2026-02-06 08:03:52 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+2026-02-06 08:03:52 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+2026-02-06 08:03:52 | INFO | load done (0.01s)
+2026-02-06 08:03:52 | INFO | build summary start
+2026-02-06 08:03:52 | INFO | build summary done (0.01s)
+2026-02-06 08:03:52 | INFO | enrich summary with names start
+2026-02-06 08:03:52 | INFO | enrich summary done (0.00s)
+2026-02-06 08:03:52 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_08-03.json
+2026-02-06 08:03:52 | INFO | build BR_LootData start
+2026-02-06 08:03:52 | INFO | build BR_LootData done (0.00s)
+2026-02-06 08:03:52 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit\ForbiddenFruit_LootData_2026-02-06_08-03.json
+2026-02-06 08:03:52 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Blitz_LootPool.json
+2026-02-06 08:03:52 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py
+2026-02-06 08:03:52 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_08-03.json
 ✅ 抽出件数: 159
 💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-01-23_21-23.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_07-58.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_07-58.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-02-06_08-03.json
 ✅ 差分作成 完了
-  追加   : 7 / 削除 : 5 / 変更 : 0 / 変化なし : 152
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\history\BR_20260206_0758\items_unique_min_diff.json
-2026-02-06 07:58:23 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 159
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\history\BR_20260206_0803\items_unique_min_diff.json
+2026-02-06 08:03:52 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-02-06 07:58:23 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.17s)
-2026-02-06 07:58:23 | INFO | prewarm start
-2026-02-06 07:58:54 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (31.19s)
-2026-02-06 07:58:54 | INFO | 画像化タスク数: 159
-2026-02-06 07:58:55 | INFO | 画像生成 進捗: 1/159
-2026-02-06 07:58:56 | INFO | 画像生成 進捗: 50/159
-2026-02-06 07:58:57 | INFO | 画像生成 進捗: 100/159
-2026-02-06 07:58:59 | INFO | 画像生成 進捗: 150/159
-2026-02-06 07:58:59 | INFO | 画像生成 進捗: 159/159
-2026-02-06 07:58:59 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-02-06 07:58:59 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Blitz_2026-02-06_07-58-59.json (added=12 removed=11 change=11)
-2026-02-06 07:58:59 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\BR_Discor.py
-2026-02-06 07:58:59 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-02-06 07:59:01 | INFO | git commit stdout: [main 2854902] ForbiddenFruit update 2026-02-06 07:59:00
- 16 files changed, 23130 insertions(+), 340 deletions(-)
- create mode 100644 System Update/ForbiddenFruit/output/history/BR_20260206_0758/items_unique_min_diff.json
- create mode 100644 System Update/ForbiddenFruit/output/logs/pipeline_2026-02-06_07-58-21.log
- create mode 100644 System Update/ForbiddenFruit/output/summary/v39.30_2026-02-06_07-58.json
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\276\343\203\274\343\202\244\343\201\256\343\203\220\343\203\226\343\203\253\343\202\267\343\203\274\343\203\253\343\203\211 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\210\343\203\251\343\201\256\343\203\206\343\203\254\343\203\235\343\203\274\343\203\210\343\201\256\344\273\256\351\235\242 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\225\343\203\251\343\203\203\343\203\227\343\202\270\343\203\243\343\203\203\343\202\257\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\237\343\203\251\343\201\256\346\277\200\350\276\233\343\203\251\343\203\274\343\203\241\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\253\343\203\237\343\201\256\343\203\221\343\203\257\343\203\274\343\202\275\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2427.png"
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-02-06_07-58.json"
-2026-02-06 07:59:04 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   e6ec1a3..2854902  main -> main
-2026-02-06 07:59:04 | INFO | ✓ GitHub Push 完了
-2026-02-06 07:59:04 | INFO | ===== ForbiddenFruit: pipeline end =====
+2026-02-06 08:03:52 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.09s)
+2026-02-06 08:03:52 | INFO | prewarm start

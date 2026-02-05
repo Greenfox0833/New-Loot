@@ -208,6 +208,8 @@ def diff_items(old_items: Dict[str, Dict[str, Any]], new_items: Dict[str, Dict[s
 
     moved = []
     probability_changed_items = []
+    prob_added_entries = []
+    prob_removed_entries = []
     for item_id in common_ids:
         old_group = old_items[item_id].get("group")
         new_group = new_items[item_id].get("group")
@@ -226,6 +228,22 @@ def diff_items(old_items: Dict[str, Dict[str, Any]], new_items: Dict[str, Dict[s
             before_prob = _normalize_probability(old_group_probs.get(group_key))
             after_prob = _normalize_probability(new_group_probs.get(group_key))
             if before_prob == after_prob:
+                continue
+            if before_prob is None and after_prob is not None:
+                prob_added_entries.append(
+                    {
+                        "id": item_id,
+                        "group": group_key,
+                    }
+                )
+                continue
+            if before_prob is not None and after_prob is None:
+                prob_removed_entries.append(
+                    {
+                        "id": item_id,
+                        "group": group_key,
+                    }
+                )
                 continue
             probability_changed_items.append(
                 {
@@ -254,6 +272,28 @@ def diff_items(old_items: Dict[str, Dict[str, Any]], new_items: Dict[str, Dict[s
         }
         for entry in removed
     ]
+    for entry in prob_added_entries:
+        item_id = entry["id"]
+        group_key = entry["group"]
+        added_out.append(
+            {
+                "AssetPathName": new_items[item_id].get("asset_path", item_id),
+                "LocalizedName": new_items[item_id].get("localized_name"),
+                "rarity": new_items[item_id].get("rarity"),
+                "addrow": [group_key],
+            }
+        )
+    for entry in prob_removed_entries:
+        item_id = entry["id"]
+        group_key = entry["group"]
+        removed_out.append(
+            {
+                "AssetPathName": old_items[item_id].get("asset_path", item_id),
+                "LocalizedName": old_items[item_id].get("localized_name"),
+                "rarity": old_items[item_id].get("rarity"),
+                "removedrow": [group_key],
+            }
+        )
 
     change_out = []
     for item_id in common_ids:

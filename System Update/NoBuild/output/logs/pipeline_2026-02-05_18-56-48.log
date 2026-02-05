@@ -79,3 +79,34 @@
 2026-02-05 18:56:49 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\AthenaLootPackages_Client__final.json
 2026-02-05 18:56:49 | INFO | load done (0.02s)
 2026-02-05 18:56:49 | INFO | build summary start
+2026-02-05 18:56:51 | INFO | build summary done (2.51s)
+2026-02-05 18:56:51 | INFO | enrich summary with names start
+2026-02-05 18:56:51 | INFO | enrich summary done (0.00s)
+2026-02-05 18:56:52 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-02-05_18-56.json
+2026-02-05 18:56:52 | INFO | build BR_LootData start
+2026-02-05 18:56:52 | INFO | build BR_LootData done (0.00s)
+2026-02-05 18:56:52 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild\NoBuild_LootData_2026-02-05_18-56.json
+2026-02-05 18:56:52 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ZB_LootPool.json
+2026-02-05 18:56:52 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py
+2026-02-05 18:56:53 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-02-05_18-56.json
+✅ 抽出件数: 124
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-02-01_06-47.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-02-05_18-56.json
+✅ 差分作成 完了
+  追加   : 18 / 削除 : 11 / 変更 : 0 / 変化なし : 106
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\history\BR_20260205_1856\items_unique_min_diff.json
+2026-02-05 18:56:53 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-05 18:56:53 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.76s)
+2026-02-05 18:56:53 | INFO | prewarm start
+2026-02-05 18:57:30 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (36.76s)
+2026-02-05 18:57:30 | INFO | 画像化タスク数: 124
+2026-02-05 18:57:30 | INFO | 画像生成 進捗: 1/124
+2026-02-05 18:57:33 | INFO | 画像生成 進捗: 50/124
+2026-02-05 18:57:35 | INFO | 画像生成 進捗: 100/124
+2026-02-05 18:57:36 | INFO | 画像生成 進捗: 124/124
+2026-02-05 18:57:36 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-05 18:57:36 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_2026-02-05_18-57-36.json (added=18 removed=11 change=64)
+2026-02-05 18:57:36 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\BR_Discor.py
+2026-02-05 18:57:36 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot

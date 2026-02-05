@@ -51,3 +51,32 @@
   """
 2026-02-06 07:57:14 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.17s)
 2026-02-06 07:57:14 | INFO | prewarm start
+2026-02-06 07:57:32 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (18.17s)
+2026-02-06 07:57:32 | INFO | 画像化タスク数: 92
+2026-02-06 07:57:33 | INFO | 画像生成 進捗: 1/92
+2026-02-06 07:57:34 | INFO | 画像生成 進捗: 50/92
+2026-02-06 07:57:35 | INFO | 画像生成 進捗: 92/92
+2026-02-06 07:57:35 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-06 07:57:35 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Figment_NoBuild_2026-02-06_07-57-35.json (added=19 removed=33 change=68)
+2026-02-06 07:57:35 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\BR_Discor.py
+2026-02-06 07:57:35 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-06 07:57:38 | INFO | git commit stdout: [main e6ec1a3] Figment_NoBuild update 2026-02-06 07:57:36
+ 22 files changed, 21749 insertions(+), 851 deletions(-)
+ create mode 100644 System Update/Figment_NoBuild/output/history/BR_20260206_0757/items_unique_min_diff.json
+ create mode 100644 System Update/Figment_NoBuild/output/logs/pipeline_2026-02-06_07-57-14.log
+ create mode 100644 System Update/Figment_NoBuild/output/summary/v39.30_2026-02-06_07-57.json
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\201\217\343\201\243\343\201\244\343\201\215\347\210\206\345\274\276 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\271\343\203\213\343\203\274\343\202\255\343\203\274\343\202\271\343\203\216\343\203\274\343\203\236\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\201\343\203\251\343\203\274\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\255\343\202\261\343\203\203\343\203\210\350\212\261\347\201\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment_NoBuild/Figment_NoBuild_LootData_2026-02-06_07-57.json"
+2026-02-06 07:57:40 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   e37650b..e6ec1a3  main -> main
+2026-02-06 07:57:40 | INFO | ✓ GitHub Push 完了
+2026-02-06 07:57:40 | INFO | ===== Figment_NoBuild: pipeline end =====

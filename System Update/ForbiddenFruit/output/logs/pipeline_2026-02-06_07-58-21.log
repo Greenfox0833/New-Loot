@@ -1,0 +1,87 @@
+2026-02-06 07:58:21 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-02-06_07-58-21.log
+2026-02-06 07:58:21 | INFO | ===== ForbiddenFruit: pipeline start =====
+2026-02-06 07:58:21 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+2026-02-06 07:58:21 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
+2026-02-06 07:58:21 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-06 07:58:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-06 07:58:21 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages
+[636] RowUpdate WorldList.BusGold.01.CountRange=(X=500,Y=500) -> OK
+[637] RowUpdate WorldList.BusWeap.02.Weight=1.000000 -> OK
+[638] RowUpdate WorldList.BusWeap.02.ItemDefinition=/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_R.WID_SMG_FirePetal_Quirky_Athena_R -> OK
+[639] RowUpdate WorldList.BusWeap.03.Weight=1.000000 -> OK
+[640] RowUpdate WorldList.BusWeap.03.ItemDefinition=/TidalCraneWeaponGameplay/Gameplay/Weapons/MilitaryAR/WID_Assault_TidalCrane_Athena_R.WID_Assault_TidalCrane_Athena_R -> OK
+[643] RowUpdate WorldList.BusAmmoRockets.01.Weight=1.000000 -> OK
+[644] RowUpdate WorldList.BusAmmoRockets.01.CountRange=(X=12,Y=12) -> OK
+[645] RowUpdate WorldList.BusWeap.01.Weight=0.330000 -> OK
+[646] RowUpdate WorldList.BusWeap.01.ItemDefinition=/Game/Athena/Items/Weapons/WID_Athena_SMG_VR.WID_Athena_SMG_VR -> OK
+[647] RowUpdate WorldList.BusWeap.02.Weight=1.000000 -> OK
+[648] RowUpdate WorldList.BusWeap.02.ItemDefinition=/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_UC.WID_Assault_Chrono_Pan_Rifle_Athena_UC -> OK
+[649] RowUpdate WorldList.BusWeap.03.Weight=1.000000 -> OK
+[650] RowUpdate WorldList.BusWeap.03.ItemDefinition=/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_UC.WID_Shotgun_FirePetal_Flavor_Athena_UC -> OK
+[651] RowUpdate WorldList.BusWeap.04.Weight=1.000000 -> OK
+[652] RowUpdate WorldList.BusWeap.04.ItemDefinition=/TidalCraneWeaponGameplay/Gameplay/Weapons/WreckerRevolver/WID_Revolver_TidalCrane_Athena_UC.WID_Revolver_TidalCrane_Athena_UC -> OK
+[653] RowUpdate WorldList.BusWeap.05.Weight=0.100000 -> OK
+[654] RowUpdate WorldList.BusWeap.05.ItemDefinition=/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR -> OK
+[655] RowUpdate WorldList.BusGrant.ItemSet.1.01.Weight=1.000000 -> OK
+[656] RowUpdate WorldList.BusGrant.ItemSet.1.01.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[657] RowUpdate WorldList.BusConsumable.02.ItemDefinition=/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy -> OK
+[658] RowUpdate WorldList.AthenaSupplyDrop.Heals.01.Weight=1.000000 -> OK
+[659] RowUpdate WorldList.AthenaSupplyDrop.Heals.01.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[660] RowUpdate WorldList.AthenaSupplyDrop.Utility.01.Weight=1.500000 -> OK
+[661] RowUpdate WorldList.AthenaSupplyDrop.Utility.01.ItemDefinition=/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy -> OK
+[662] RowUpdate WorldList.AthenaSupplyDrop.Utility.02.Weight=1.500000 -> OK
+[663] RowUpdate WorldList.AthenaSupplyDrop.Utility.02.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
+[664] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.Weight=1.000000 -> OK
+[665] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.ItemDefinition=/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR -> OK
+[666] RowUpdate WorldList.GoldLlama.Consumable.04.Weight=1.000000 -> OK
+[667] RowUpdate WorldList.GoldLlama.Consumable.04.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[668] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.Weight=1.000000 -> OK
+[669] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.ItemDefinition=/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR -> OK
+[670] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.Weight=1.000000 -> OK
+[671] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.ItemDefinition=/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR -> OK
+[672] RowUpdate WorldList.AthenaHighConsumables.06.Weight=0.500000 -> OK
+[673] RowUpdate WorldList.AthenaHighConsumables.06.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[674] RowUpdate WorldList.AthenaHighConsumables.07.Weight=0.500000 -> OK
+[675] RowUpdate WorldList.AthenaHighConsumables.07.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
+[676] RowUpdate WorldList.AthenaHighConsumables.08.Weight=0.500000 -> OK
+[677] RowUpdate WorldList.AthenaHighConsumables.08.ItemDefinition=/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy -> OK
+[678] RowUpdate WorldList.AthenaConsumables.05.Weight=0.250000 -> OK
+[679] RowUpdate WorldList.AthenaConsumables.05.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[680] RowUpdate WorldList.AthenaConsumables.06.Weight=0.250000 -> OK
+[681] RowUpdate WorldList.AthenaConsumables.06.ItemDefinition=/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy -> OK
+[682] RowUpdate WorldList.AthenaConsumables.07.Weight=0.250000 -> OK
+[683] RowUpdate WorldList.AthenaConsumables.07.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
+[684] RowUpdate WorldList.AthenaHighConsumables.07.CountRange=(X=1,Y=1) -> OK
+[685] RowUpdate WorldList.AthenaSupplyDrop.Utility.02.CountRange=(X=1,Y=1) -> OK
+[686] RowUpdate WorldList.AthenaConsumables.07.CountRange=(X=1,Y=1) -> OK
+[687] RowUpdate WorldList.GoldChest.Boons.01.Weight=1.000000 -> OK
+[688] RowUpdate WorldList.GoldChest.Boons.01.ItemDefinition=/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy -> OK
+[689] RowUpdate WorldList.GoldChest.Boons.02.Weight=1.000000 -> OK
+[690] RowUpdate WorldList.GoldChest.Boons.02.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
+[691] RowUpdate WorldList.GoldChest.Boons.03.Weight=1.000000 -> OK
+[692] RowUpdate WorldList.GoldChest.Boons.03.ItemDefinition=/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=55, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-02-06 07:58:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-06 07:58:21 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-02-06 07:58:21 | INFO | ✓ Hotfix 適用完了 (0.52s)
+2026-02-06 07:58:21 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+2026-02-06 07:58:21 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+2026-02-06 07:58:21 | INFO | load done (0.01s)
+2026-02-06 07:58:21 | INFO | build summary start
+2026-02-06 07:58:22 | INFO | build summary done (0.60s)
+2026-02-06 07:58:22 | INFO | enrich summary with names start

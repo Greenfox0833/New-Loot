@@ -4,3 +4,72 @@
 2026-02-06 06:59:17 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment
 2026-02-06 06:59:17 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-02-06 06:59:17 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-06 06:59:17 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[614] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.000000) -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=1, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootPackages_Backup
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages_Backup__final.json
+2026-02-06 06:59:17 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-06 06:59:17 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootTierData_Backup
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData_Backup__final.json
+2026-02-06 06:59:17 | INFO | ✓ Hotfix 適用完了 (0.48s)
+2026-02-06 06:59:17 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+2026-02-06 06:59:17 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+2026-02-06 06:59:17 | INFO | load done (0.01s)
+2026-02-06 06:59:17 | INFO | build summary start
+2026-02-06 06:59:18 | INFO | build summary done (0.63s)
+2026-02-06 06:59:18 | INFO | enrich summary with names start
+2026-02-06 06:59:19 | INFO | enrich summary done (1.48s)
+2026-02-06 06:59:19 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-06_06-59.json
+2026-02-06 06:59:19 | INFO | build Figment_LootData start
+2026-02-06 06:59:19 | INFO | build BR_LootData done (0.00s)
+2026-02-06 06:59:19 | INFO | ✅ Figment_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment\Figment_LootData_2026-02-06_06-59.json
+2026-02-06 06:59:19 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_LootPool.json
+2026-02-06 06:59:19 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py
+2026-02-06 06:59:20 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-06_06-59.json
+✅ 抽出件数: 91
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-05_20-09.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-06_06-59.json
+✅ 差分作成 完了
+  追加   : 3 / 削除 : 1 / 変更 : 0 / 変化なし : 88
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\history\BR_20260206_0659\items_unique_min_diff.json
+2026-02-06 06:59:20 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-06 06:59:20 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.24s)
+2026-02-06 06:59:20 | INFO | prewarm start
+2026-02-06 06:59:39 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (18.98s)
+2026-02-06 06:59:39 | INFO | 画像化タスク数: 91
+2026-02-06 06:59:39 | INFO | 画像生成 進捗: 1/91
+2026-02-06 06:59:40 | INFO | 画像生成 進捗: 50/91
+2026-02-06 06:59:42 | INFO | 画像生成 進捗: 91/91
+2026-02-06 06:59:42 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-06 06:59:42 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\ORIGIN_2026-02-06_06-59-42.json (added=3 removed=1 change=14)
+2026-02-06 06:59:42 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-02-06 06:59:42 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-06 06:59:44 | INFO | git commit stdout: [main 89ae62e] Figment update 2026-02-06 06:59:42
+ 14 files changed, 20913 insertions(+), 52 deletions(-)
+ create mode 100644 System Update/Figment/output/history/BR_20260206_0659/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-02-06_06-59-17.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-02-06_06-59.json
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-FireworkMortar-L.png
+ create mode 100644 "System Update/shared/images/Figment/\343\202\271\343\203\213\343\203\274\343\202\255\343\203\274\343\202\271\343\203\216\343\203\274\343\203\236\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\203\201\343\203\251\343\203\274\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\203\255\343\202\261\343\203\203\343\203\210\350\212\261\347\201\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-02-06_06-59.json"
+2026-02-06 06:59:46 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   63aaf9f..89ae62e  main -> main
+2026-02-06 06:59:46 | INFO | ✓ GitHub Push 完了
+2026-02-06 06:59:46 | INFO | ===== Figment: pipeline end =====

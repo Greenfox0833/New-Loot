@@ -124,7 +124,10 @@ def _normalize_from_lootpercent(data: dict) -> Dict[str, Dict[str, Any]]:
                 localized_name_map[item_id] = str(item.get("LocalizedName"))
             if item.get("rarity") and item_id not in rarity_map:
                 rarity_map[item_id] = str(item.get("rarity"))
+            # Prefer ListPercentLocal; fall back to EffectivePercentPerRoll when local percent is absent.
             prob = item.get("ListPercentLocal")
+            if not isinstance(prob, (int, float)):
+                prob = item.get("EffectivePercentPerRoll")
             if isinstance(prob, (int, float)):
                 probability_sums[item_id] = probability_sums.get(item_id, 0.0) + float(prob)
                 group_probabilities.setdefault(item_id, {})

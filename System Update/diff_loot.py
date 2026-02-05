@@ -317,9 +317,38 @@ def diff_items(old_items: Dict[str, Dict[str, Any]], new_items: Dict[str, Dict[s
             }
         )
 
+    def _merge_by_asset(entries: list[dict], key: str) -> list[dict]:
+        merged: Dict[str, dict] = {}
+        for entry in entries:
+            asset = entry.get("AssetPathName")
+            if not asset:
+                # Keep unkeyed entries as-is.
+                merged_key = f"__no_asset__:{id(entry)}"
+                merged[merged_key] = entry
+                continue
+            item = merged.get(asset)
+            if item is None:
+                item = {
+                    "AssetPathName": asset,
+                    "LocalizedName": entry.get("LocalizedName"),
+                    "rarity": entry.get("rarity"),
+                    key: [],
+                }
+                merged[asset] = item
+            rows = entry.get(key) or []
+            for r in rows:
+                if r not in item[key]:
+                    item[key].append(r)
+        # Sort rows for stable output.
+        for item in merged.values():
+            rows = item.get(key)
+            if isinstance(rows, list):
+                rows.sort()
+        return list(merged.values())
+
     return {
-        "added": added_out,
-        "removed": removed_out,
+        "added": _merge_by_asset(added_out, "addrow"),
+        "removed": _merge_by_asset(removed_out, "removedrow"),
         "change": change_out,
     }
 

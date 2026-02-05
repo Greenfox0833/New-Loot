@@ -1,0 +1,53 @@
+2026-02-06 07:57:14 | INFO | log file (Figment_NoBuild): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\logs\pipeline_2026-02-06_07-57-14.log
+2026-02-06 07:57:14 | INFO | ===== Figment_NoBuild: pipeline start =====
+2026-02-06 07:57:14 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\items_unique_min.json
+2026-02-06 07:57:14 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment_NoBuild
+2026-02-06 07:57:14 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-06 07:57:14 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-06 07:57:14 | INFO | hotfix lp stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\NoBuild\NoBuildFigmentLootPackages_Override.json : replaced=75, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[614] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.000000) -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=1, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/NoBuild/NoBuildFigmentLootPackages_Override
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\NoBuildFigmentLootPackages_Override__final.json
+2026-02-06 07:57:14 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-06 07:57:14 | INFO | hotfix lt stdout: [STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\NoBuild\NoBuildFigmentLootTierData_Override.json : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[614] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.000000) -> SKIP(no row)
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=1
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/NoBuild/NoBuildFigmentLootPackages_Override
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\NoBuildFigmentLootTierData_Override__final.json
+2026-02-06 07:57:14 | INFO | ✓ Hotfix 適用完了 (0.42s)
+2026-02-06 07:57:14 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json
+2026-02-06 07:57:14 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json
+2026-02-06 07:57:14 | INFO | load done (0.01s)
+2026-02-06 07:57:14 | INFO | build summary start
+2026-02-06 07:57:14 | INFO | build summary done (0.01s)
+2026-02-06 07:57:14 | INFO | enrich summary with names start
+2026-02-06 07:57:14 | INFO | enrich summary done (0.00s)
+2026-02-06 07:57:14 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-02-06_07-57.json
+2026-02-06 07:57:14 | INFO | build Figment_NoBuild_LootData start
+2026-02-06 07:57:14 | INFO | build BR_LootData done (0.00s)
+2026-02-06 07:57:14 | INFO | ✅ Figment_NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment_NoBuild\Figment_NoBuild_LootData_2026-02-06_07-57.json
+2026-02-06 07:57:14 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_ZB_LootPool.json
+2026-02-06 07:57:14 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\LootSummary.py
+2026-02-06 07:57:14 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-02-06_07-57.json
+✅ 抽出件数: 92
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-01-23_21-22.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-02-06_07-57.json
+✅ 差分作成 完了
+  追加   : 11 / 削除 : 11 / 変更 : 0 / 変化なし : 81
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\history\BR_20260206_0757\items_unique_min_diff.json
+2026-02-06 07:57:14 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-06 07:57:14 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.17s)
+2026-02-06 07:57:14 | INFO | prewarm start

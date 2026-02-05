@@ -321,8 +321,12 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
         if not dt:
             continue
 
-        if (dt != table_key) and (dt.split("/")[-1] != table_key.split("/")[-1]):
-            continue
+        if dt != table_key:
+            # Only allow basename match when dt has no path (legacy hotfix format)
+            if "/" in dt:
+                continue
+            if dt != table_key.split("/")[-1]:
+                continue
 
         if op == "RowDelete":
             rk = h["row"]

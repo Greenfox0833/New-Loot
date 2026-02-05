@@ -476,12 +476,12 @@
               "Call": "WorldList.AthenaHighConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.28,
+              "TotalListWeight": 1.08,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.03",
                   "Weight": 0.09,
-                  "ListPercentLocal": 7.03125,
+                  "ListPercentLocal": 8.333333,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -490,7 +490,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.04",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -499,7 +499,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -508,7 +508,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.06",
                   "Weight": 0.14,
-                  "ListPercentLocal": 10.9375,
+                  "ListPercentLocal": 12.962963,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -517,25 +517,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumables.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
+                  "ListPercentLocal": 18.518519,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -544,7 +535,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.20",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -553,7 +544,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -562,7 +553,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.23",
                   "Weight": 0.05,
-                  "ListPercentLocal": 3.90625,
+                  "ListPercentLocal": 4.62963,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -579,18 +570,8 @@
               "Call": "LIST_Balloon_Item",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Balloon_Item.02",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -2313,18 +2294,8 @@
               "Call": "LIST_Boss_Gamma_Consumable",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Boss_Gamma_Consumable.01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         },
@@ -2636,12 +2607,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -2650,7 +2621,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -2659,25 +2630,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -2686,7 +2648,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -2695,7 +2657,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -2704,7 +2666,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -3095,12 +3057,12 @@
               "Call": "WorldList.AthenaConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.03",
                   "Weight": 0.18,
-                  "ListPercentLocal": 18.0,
+                  "ListPercentLocal": 22.5,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -3109,7 +3071,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.04",
                   "Weight": 0.13,
-                  "ListPercentLocal": 13.0,
+                  "ListPercentLocal": 16.25,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -3118,7 +3080,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -3127,25 +3089,16 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.06",
                   "Weight": 0.09,
-                  "ListPercentLocal": 9.0,
+                  "ListPercentLocal": 11.25,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
                   "LocalizedName": "シールドポーション"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaConsumables.17",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -3154,7 +3107,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.19",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -3163,7 +3116,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.21",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -3172,7 +3125,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.22",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -3181,7 +3134,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -3297,12 +3250,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -3311,7 +3264,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -3320,25 +3273,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -3347,7 +3291,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -3356,7 +3300,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -3365,7 +3309,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -3931,12 +3875,12 @@
               "Call": "WorldList.AthenaConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.03",
                   "Weight": 0.18,
-                  "ListPercentLocal": 18.0,
+                  "ListPercentLocal": 22.5,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -3945,7 +3889,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.04",
                   "Weight": 0.13,
-                  "ListPercentLocal": 13.0,
+                  "ListPercentLocal": 16.25,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -3954,7 +3898,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -3963,25 +3907,16 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.06",
                   "Weight": 0.09,
-                  "ListPercentLocal": 9.0,
+                  "ListPercentLocal": 11.25,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
                   "LocalizedName": "シールドポーション"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaConsumables.17",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -3990,7 +3925,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.19",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -3999,7 +3934,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.21",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -4008,7 +3943,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.22",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -4017,7 +3952,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -4041,12 +3976,12 @@
               "Call": "WorldList.AthenaConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.03",
                   "Weight": 0.18,
-                  "ListPercentLocal": 18.0,
+                  "ListPercentLocal": 22.5,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -4055,7 +3990,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.04",
                   "Weight": 0.13,
-                  "ListPercentLocal": 13.0,
+                  "ListPercentLocal": 16.25,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -4064,7 +3999,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -4073,25 +4008,16 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.06",
                   "Weight": 0.09,
-                  "ListPercentLocal": 9.0,
+                  "ListPercentLocal": 11.25,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
                   "LocalizedName": "シールドポーション"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaConsumables.17",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -4100,7 +4026,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.19",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -4109,7 +4035,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.21",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -4118,7 +4044,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.22",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -4127,7 +4053,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -4853,12 +4779,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -4867,7 +4793,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -4876,25 +4802,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -4903,7 +4820,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -4912,7 +4829,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -4921,7 +4838,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -5424,12 +5341,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -5438,7 +5355,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -5447,25 +5364,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -5474,7 +5382,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -5483,7 +5391,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -5492,7 +5400,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -5995,12 +5903,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -6009,7 +5917,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -6018,25 +5926,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -6045,7 +5944,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -6054,7 +5953,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -6063,7 +5962,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -6566,12 +6465,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -6580,7 +6479,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -6589,25 +6488,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -6616,7 +6506,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -6625,7 +6515,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -6634,7 +6524,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -7137,12 +7027,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -7151,7 +7041,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -7160,25 +7050,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -7187,7 +7068,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -7196,7 +7077,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -7205,7 +7086,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -7708,12 +7589,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -7722,7 +7603,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -7731,25 +7612,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -7758,7 +7630,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -7767,7 +7639,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -7776,7 +7648,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -8279,12 +8151,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -8293,7 +8165,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -8302,25 +8174,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -8329,7 +8192,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -8338,7 +8201,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -8347,7 +8210,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -8850,12 +8713,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -8864,7 +8727,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -8873,25 +8736,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -8900,7 +8754,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -8909,7 +8763,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -8918,7 +8772,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -9421,12 +9275,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -9435,7 +9289,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -9444,25 +9298,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -9471,7 +9316,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -9480,7 +9325,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -9489,7 +9334,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -9992,12 +9837,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -10006,7 +9851,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -10015,25 +9860,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -10042,7 +9878,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -10051,7 +9887,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -10060,7 +9896,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -10563,12 +10399,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -10577,7 +10413,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -10586,25 +10422,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -10613,7 +10440,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -10622,7 +10449,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -10631,7 +10458,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -11134,12 +10961,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -11148,7 +10975,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -11157,25 +10984,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -11184,7 +11002,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -11193,7 +11011,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -11202,7 +11020,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -11342,12 +11160,12 @@
               "Call": "WorldList.AthenaConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.03",
                   "Weight": 0.18,
-                  "ListPercentLocal": 18.0,
+                  "ListPercentLocal": 22.5,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -11356,7 +11174,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.04",
                   "Weight": 0.13,
-                  "ListPercentLocal": 13.0,
+                  "ListPercentLocal": 16.25,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -11365,7 +11183,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -11374,25 +11192,16 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.06",
                   "Weight": 0.09,
-                  "ListPercentLocal": 9.0,
+                  "ListPercentLocal": 11.25,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
                   "LocalizedName": "シールドポーション"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaConsumables.17",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -11401,7 +11210,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.19",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -11410,7 +11219,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.21",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -11419,7 +11228,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.22",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -11428,7 +11237,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -13241,12 +13050,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.04",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -13255,7 +13064,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.06",
                   "Weight": 0.15,
-                  "ListPercentLocal": 15.0,
+                  "ListPercentLocal": 18.75,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -13264,25 +13073,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumablesRare.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
+                  "ListPercentLocal": 25.0,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -13291,7 +13091,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -13300,7 +13100,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.22",
                   "Weight": 0.1,
-                  "ListPercentLocal": 10.0,
+                  "ListPercentLocal": 12.5,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -13309,7 +13109,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.24",
                   "Weight": 0.05,
-                  "ListPercentLocal": 5.0,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -13738,12 +13538,12 @@
               "Call": "WorldList.AthenaConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.8,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.03",
                   "Weight": 0.18,
-                  "EffectivePercentPerRoll": 4.339278,
+                  "EffectivePercentPerRoll": 5.424097,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -13752,7 +13552,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.04",
                   "Weight": 0.13,
-                  "EffectivePercentPerRoll": 3.133923,
+                  "EffectivePercentPerRoll": 3.917404,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -13761,7 +13561,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.05",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 3.616065,
+                  "EffectivePercentPerRoll": 4.520081,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -13770,25 +13570,16 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.06",
                   "Weight": 0.09,
-                  "EffectivePercentPerRoll": 2.169639,
+                  "EffectivePercentPerRoll": 2.712049,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
                   "LocalizedName": "シールドポーション"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaConsumables.14",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 4.82142,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaConsumables.17",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 1.205355,
+                  "EffectivePercentPerRoll": 1.506694,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -13797,7 +13588,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.19",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 1.205355,
+                  "EffectivePercentPerRoll": 1.506694,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -13806,7 +13597,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.21",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 1.205355,
+                  "EffectivePercentPerRoll": 1.506694,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -13815,7 +13606,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.22",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 1.205355,
+                  "EffectivePercentPerRoll": 1.506694,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -13824,7 +13615,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.24",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 1.205355,
+                  "EffectivePercentPerRoll": 1.506694,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -15039,12 +14830,12 @@
               "Call": "WorldList.AthenaHighConsumables",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 1.28,
+              "TotalListWeight": 1.08,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.03",
                   "Weight": 0.09,
-                  "ListPercentLocal": 7.03125,
+                  "ListPercentLocal": 8.333333,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -15053,7 +14844,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.04",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -15062,7 +14853,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -15071,7 +14862,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.06",
                   "Weight": 0.14,
-                  "ListPercentLocal": 10.9375,
+                  "ListPercentLocal": 12.962963,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -15080,25 +14871,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumables.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
+                  "ListPercentLocal": 18.518519,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -15107,7 +14889,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.20",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -15116,7 +14898,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -15125,7 +14907,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.23",
                   "Weight": 0.05,
-                  "ListPercentLocal": 3.90625,
+                  "ListPercentLocal": 4.62963,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -15490,12 +15272,12 @@
               "Call": "WorldList.AthenaSupplyDropConsumables",
               "Count": 4,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.55,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.03",
                   "Weight": 0.25,
-                  "ListPercentLocal": 13.888889,
+                  "ListPercentLocal": 16.129032,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -15504,7 +15286,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.04",
                   "Weight": 0.25,
-                  "ListPercentLocal": 13.888889,
+                  "ListPercentLocal": 16.129032,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -15513,7 +15295,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 9.677419,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -15522,25 +15304,16 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.12",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 9.677419,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaSupplyDropConsumables.13",
-                  "Weight": 0.25,
-                  "ListPercentLocal": 13.888889,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.17",
                   "Weight": 0.2,
-                  "ListPercentLocal": 11.111111,
+                  "ListPercentLocal": 12.903226,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -15549,7 +15322,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 11.111111,
+                  "ListPercentLocal": 12.903226,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -15558,7 +15331,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.19",
                   "Weight": 0.2,
-                  "ListPercentLocal": 11.111111,
+                  "ListPercentLocal": 12.903226,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -15567,7 +15340,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 6.451613,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -15576,7 +15349,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropConsumables.23",
                   "Weight": 0.05,
-                  "ListPercentLocal": 2.777778,
+                  "ListPercentLocal": 3.225806,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -16036,12 +15809,12 @@
               "Call": "WorldList.AthenaHighConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.28,
+              "TotalListWeight": 1.08,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.03",
                   "Weight": 0.09,
-                  "ListPercentLocal": 7.03125,
+                  "ListPercentLocal": 8.333333,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -16050,7 +15823,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.04",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -16059,7 +15832,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -16068,7 +15841,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.06",
                   "Weight": 0.14,
-                  "ListPercentLocal": 10.9375,
+                  "ListPercentLocal": 12.962963,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -16077,25 +15850,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumables.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
+                  "ListPercentLocal": 18.518519,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -16104,7 +15868,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.20",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -16113,7 +15877,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -16122,7 +15886,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.23",
                   "Weight": 0.05,
-                  "ListPercentLocal": 3.90625,
+                  "ListPercentLocal": 4.62963,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,
@@ -16642,12 +16406,12 @@
               "Call": "WorldList.AthenaHighConsumables",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.28,
+              "TotalListWeight": 1.08,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.03",
                   "Weight": 0.09,
-                  "ListPercentLocal": 7.03125,
+                  "ListPercentLocal": 8.333333,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -16656,7 +16420,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.04",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -16665,7 +16429,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.05",
                   "Weight": 0.15,
-                  "ListPercentLocal": 11.71875,
+                  "ListPercentLocal": 13.888889,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -16674,7 +16438,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.06",
                   "Weight": 0.14,
-                  "ListPercentLocal": 10.9375,
+                  "ListPercentLocal": 12.962963,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -16683,25 +16447,16 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.13",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
                   "CountItem": 1,
                   "LocalizedName": "ジャンプパッド"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaHighConsumables.14",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade.Athena_ShockGrenade",
-                  "CountItem": 2,
-                  "LocalizedName": "ショックウェーブグレネード"
-                },
-                {
                   "WorldListID": "WorldList.AthenaHighConsumables.18",
                   "Weight": 0.2,
-                  "ListPercentLocal": 15.625,
+                  "ListPercentLocal": 18.518519,
                   "rarity": "エピック",
                   "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
                   "CountItem": 1,
@@ -16710,7 +16465,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.20",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "エピック",
                   "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
                   "CountItem": 1,
@@ -16719,7 +16474,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.21",
                   "Weight": 0.1,
-                  "ListPercentLocal": 7.8125,
+                  "ListPercentLocal": 9.259259,
                   "rarity": "レア",
                   "AssetPathName": "/StealthSplash/Gameplay/WID_StealthSplash.WID_StealthSplash",
                   "CountItem": 2,
@@ -16728,7 +16483,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.23",
                   "Weight": 0.05,
-                  "ListPercentLocal": 3.90625,
+                  "ListPercentLocal": 4.62963,
                   "rarity": "レジェンド",
                   "AssetPathName": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
                   "CountItem": 1,

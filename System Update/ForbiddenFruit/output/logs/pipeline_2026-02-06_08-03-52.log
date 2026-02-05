@@ -104,3 +104,24 @@
   """
 2026-02-06 08:03:52 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.09s)
 2026-02-06 08:03:52 | INFO | prewarm start
+2026-02-06 08:04:24 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (31.39s)
+2026-02-06 08:04:24 | INFO | 画像化タスク数: 159
+2026-02-06 08:04:24 | INFO | 画像生成 進捗: 1/159
+2026-02-06 08:04:26 | INFO | 画像生成 進捗: 50/159
+2026-02-06 08:04:27 | INFO | 画像生成 進捗: 100/159
+2026-02-06 08:04:29 | INFO | 画像生成 進捗: 150/159
+2026-02-06 08:04:29 | INFO | 画像生成 進捗: 159/159
+2026-02-06 08:04:29 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-06 08:04:29 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-02-06 08:04:29 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\BR_Discor.py
+2026-02-06 08:04:29 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-06 08:04:30 | INFO | git commit stdout: [main eef1ccd] ForbiddenFruit update 2026-02-06 08:04:29
+ 7 files changed, 22851 insertions(+), 2 deletions(-)
+ create mode 100644 System Update/ForbiddenFruit/output/history/BR_20260206_0803/items_unique_min_diff.json
+ create mode 100644 System Update/ForbiddenFruit/output/logs/pipeline_2026-02-06_08-03-52.log
+ create mode 100644 System Update/ForbiddenFruit/output/summary/v39.30_2026-02-06_08-03.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-02-06_08-03.json"
+2026-02-06 08:04:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   2854902..eef1ccd  main -> main
+2026-02-06 08:04:32 | INFO | ✓ GitHub Push 完了
+2026-02-06 08:04:32 | INFO | ===== ForbiddenFruit: pipeline end =====

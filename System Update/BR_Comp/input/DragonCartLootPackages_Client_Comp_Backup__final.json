@@ -42022,7 +42022,7 @@
       },
       "WorldList.AthenaHighConsumables.15": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42051,11 +42051,11 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Athena_StickyGrenade",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.16": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42084,16 +42084,16 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Athena_TNT",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.17": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42109,15 +42109,15 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_DragonCart_LightningGun_VR",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:WID_DragonCart_Grenade_Athena",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.18": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
@@ -44563,12 +44563,12 @@
       },
       "WorldList.AthenaSupplyDropConsumables.16": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44584,15 +44584,15 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_DragonCart_LightningGun_VR",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.C0;Item:WID_DragonCart_Grenade_Athena",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSupplyDropConsumables.17": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
@@ -46642,7 +46642,7 @@
       },
       "WorldList.AthenaConsumables.15": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46671,16 +46671,16 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Athena_StickyGrenade",
-        "DurabilityPercentageOverride": 1.0
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.16": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46696,24 +46696,24 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/TNT/Athena_TNT.Athena_TNT",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_DragonCart_LightningGun_VR",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Athena_TNT",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.17": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.05,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46729,15 +46729,15 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_Proto_WingSuit_FlyingPhysics",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:WID_DragonCart_Grenade_Athena",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.18": {
         "LootPackageID": "WorldList.AthenaConsumables",

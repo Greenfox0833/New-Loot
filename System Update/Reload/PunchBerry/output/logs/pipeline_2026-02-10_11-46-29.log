@@ -1,0 +1,97 @@
+2026-02-10 11:46:29 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\logs\pipeline_2026-02-10_11-46-29.log
+2026-02-10 11:46:29 | INFO | ===== PiperBoot: pipeline start =====
+2026-02-10 11:46:29 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
+2026-02-10 11:46:29 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot
+2026-02-10 11:46:29 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-10 11:46:29 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-10 11:46:29 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-02-10 11:46:29 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\pipeline.py", line 101, in main
+    res_lp = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-02-10 11:46:29 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\BR_Discor.py
+2026-02-10 11:46:29 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-10 11:46:42 | INFO | git commit stdout: [main bb0fa69] PiperBoot update 2026-02-10 11:46:38
+ 82 files changed, 801 insertions(+), 27 deletions(-)
+ create mode 100644 System Update/Reload/PiperBoot/__pycache__/config.cpython-312.pyc
+ create mode 100644 System Update/Reload/PiperBoot/__pycache__/config.cpython-312.pyc.2182211934640
+ create mode 100644 System Update/Reload/PiperBoot/__pycache__/config.cpython-312.pyc.2601654842064
+ create mode 100644 System Update/Reload/PiperBoot/__pycache__/pipeline.cpython-312.pyc.2601651062512
+ create mode 100644 System Update/Reload/PiperBoot/config.py
+ create mode 100644 System Update/Reload/PiperBoot/output/logs/pipeline_2026-02-10_11-46-29.log
+ create mode 100644 System Update/Reload/PiperBoot/pipeline.py
+ rename System Update/Reload/{ => PiperBoot}/scripts/LootSummary.py (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/__pycache__/config.cpython-312.pyc (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/config.py (98%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/AthenaLootPackages_Client_BlastBerryOverride_NoBuild__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/AthenaLootPackages_Client_BlastBerryOverride__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/AthenaLootPackages_Client__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/AthenaLootTierData_Client_BlastBerryOverride_NoBuild__final.json (100%)
+ rename System Update/{Reload => Reload_NoBuild_Ranked}/input/AthenaLootTierData_Client_BlastBerryOverride__final.json (100%)
+ rename System Update/{Reload => Reload_NoBuild_Ranked}/input/AthenaLootTierData_Client__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/BlastBerryLootPackages__final.json (100%)
+ rename System Update/{Reload => Reload_NoBuild_Ranked}/input/BlastBerryTierData__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/DragonCartLootPackages_Client__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/DragonCartLootTierData_Client__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/OverrideLootPackagesData_NoBuildBR__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/OverrideLootTierData_NoBuildBR__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/input/items_unique_min.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/history/BR_20260123_2003/items_unique_min_diff.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/history/BR_20260123_2127/items_unique_min_diff.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/history/BR_20260206_0812/items_unique_min_diff.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-01-23_00-18-45.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-01-23_00-19-06.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-01-23_00-22-31.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-01-23_20-03-34.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-01-23_21-27-45.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/logs/pipeline_2026-02-06_08-12-02.log (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/summary/v39.30_2026-01-23_00-22.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/summary/v39.30_2026-01-23_20-03.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/summary/v39.30_2026-01-23_21-27.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/output/summary/v39.30_2026-02-06_08-12.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/pipeline.py (94%)
+ rename System Update/{Reload_NoBuild => Reload_NoBuild_Ranked}/scripts/LootSummary.py (100%)
+ rename System Update/{Reload => Reload_Ranked}/__pycache__/config.cpython-312.pyc (100%)
+ create mode 100644 System Update/Reload_Ranked/__pycache__/config.cpython-312.pyc.2182211934640
+ rename System Update/{Reload => Reload_Ranked}/config.py (99%)
+ rename System Update/{Reload => Reload_Ranked}/input/AthenaLootPackages_Client_BlastBerryOverride__final.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/input/AthenaLootPackages_Client__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_Ranked}/input/AthenaLootTierData_Client_BlastBerryOverride__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_Ranked}/input/AthenaLootTierData_Client__final.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/input/BlastBerryLootPackages__final.json (100%)
+ rename System Update/{Reload_NoBuild => Reload_Ranked}/input/BlastBerryTierData__final.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/input/items_unique_min.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/history/BR_20260122_2324/items_unique_min_diff.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/history/BR_20260122_2333/items_unique_min_diff.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/history/BR_20260123_2126/items_unique_min_diff.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/history/BR_20260205_2008/items_unique_min_diff.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/history/BR_20260206_0811/items_unique_min_diff.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-01-22_23-09-29.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-01-22_23-23-42.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-01-22_23-24-56.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-01-22_23-33-16.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-01-23_21-26-06.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-02-05_20-08-19.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/logs/pipeline_2026-02-06_08-10-59.log (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-01-22_23-10.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-01-22_23-23.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-01-22_23-24.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-01-22_23-33.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-01-23_21-26.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-02-05_20-08.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/output/summary/v39.30_2026-02-06_08-11.json (100%)
+ rename System Update/{Reload => Reload_Ranked}/pipeline.py (97%)
+ create mode 100644 System Update/Reload_Ranked/scripts/LootSummary.py
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild/Reload_NoBuild_LootData_2026-01-23_20-03.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild_Ranked/Reload_NoBuild_Ranked_LootData_2026-01-23_20-03.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild/Reload_NoBuild_LootData_2026-01-23_21-27.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild_Ranked/Reload_NoBuild_Ranked_LootData_2026-01-23_21-27.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild/Reload_NoBuild_LootData_2026-02-06_08-12.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild_Ranked/Reload_NoBuild_Ranked_LootData_2026-02-06_08-12.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-10.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-01-22_23-10.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-23.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-01-22_23-23.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-24.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-01-22_23-24.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-22_23-33.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-01-22_23-33.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-01-23_21-26.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-01-23_21-26.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-02-05_20-08.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-02-05_20-08.json" (100%)
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Reload_LootData_2026-02-06_08-11.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-02-06_08-11.json" (100%)

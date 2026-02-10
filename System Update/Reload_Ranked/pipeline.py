@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -16,10 +16,10 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Reload_ZB_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Reload_Ranked_LootPool.json"
 
-# Ensure child scripts use Reload_NoBuild profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "Reload_NoBuild")
+# Ensure child scripts use Reload profile by default
+os.environ.setdefault("SYSTEM_PROFILE", "Reload_Ranked")
 
 from cache import enrich_summary_with_names
 from config import (
@@ -52,7 +52,7 @@ def _setup_logger():
     log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / f"pipeline_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 
-    logger = logging.getLogger("pipeline_reload_nobuild")
+    logger = logging.getLogger("pipeline_reload_ranked")
     if logger.handlers:
         return logger
     logger.setLevel(getattr(logging, LOG_LEVEL.upper(), logging.INFO))
@@ -70,7 +70,7 @@ def _setup_logger():
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
-    logger.info("log file (Reload_NoBuild): %s", log_path)
+    logger.info("log file: %s", log_path)
     return logger
 
 def get_versioned_filename(prefix, save_dir):
@@ -90,14 +90,12 @@ def main():
     minlist_path = Path(PATH_MINLIST_JSON)
 
     try:
-        logger.info("===== Reload_NoBuild: pipeline start =====")
+        logger.info("===== Reload_Ranked: pipeline start =====")
         logger.info("paths: lt=%s lp=%s minlist=%s", lt_json_path, lp_json_path, minlist_path)
         logger.info("output: summary=%s lootdata=%s", version_save_dir, PATH_LOOTDATA_DIR)
         logger.info("flags: hotfix=%s prewarm=%s image=%s workers=%s", DO_HOTFIX, ENABLE_ICON_CACHE_PREWARM, ENABLE_IMAGE_CREATION, MAX_WORKERS)
 
         if DO_HOTFIX:
-            hotfix_env = os.environ.copy()
-            hotfix_env["SYSTEM_PROFILE"] = PROFILE_NAME
             logger.info("hotfix start: %s", PATH_HOTFIX_LP)
             hotfix_start = time.time()
             res_lp = subprocess.run(
@@ -105,7 +103,6 @@ def main():
                 check=True,
                 capture_output=True,
                 text=True,
-                env=hotfix_env,
             )
             if res_lp.stdout:
                 logger.info("hotfix lp stdout: %s", res_lp.stdout.strip())
@@ -118,7 +115,6 @@ def main():
                 check=True,
                 capture_output=True,
                 text=True,
-                env=hotfix_env,
             )
             if res_lt.stdout:
                 logger.info("hotfix lt stdout: %s", res_lt.stdout.strip())
@@ -155,12 +151,12 @@ def main():
         br_lootdata_dir = Path(PATH_LOOTDATA_DIR)
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
         br_out = br_lootdata_dir / f"{PROFILE_NAME}_LootData_{br_now}.json"
-        logger.info("build Reload_NoBuild_LootData start")
+        logger.info("build BR_LootData start")
         t0 = time.time()
         br_view = build_br_lootdata_all_tgs(summary)
         logger.info("build BR_LootData done (%.2fs)", time.time() - t0)
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
-        logger.info("✅ Reload_NoBuild_LootData を作成: %s", br_out)
+        logger.info("✅ BR_LootData を作成: %s", br_out)
         if WEB_LOOTPOOL_OUT:
             try:
                 web_out = Path(WEB_LOOTPOOL_OUT)
@@ -282,7 +278,7 @@ def main():
             repo_dir = Path(PATH_REPO_DIR)
             logger.info("git add: %s", repo_dir)
             subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True, capture_output=True, text=True)
-            msg = f"Reload_NoBuild update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            msg = f"Reload_Ranked update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             res_commit = subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False, capture_output=True, text=True)
             if res_commit.stdout:
                 logger.info("git commit stdout: %s", res_commit.stdout.strip())
@@ -298,11 +294,12 @@ def main():
             logger.warning("[!] GitHub Push に失敗: %s", e)
             logger.warning(traceback.format_exc().strip())
 
-        logger.info("===== Reload_NoBuild: pipeline end =====")
+        logger.info("===== Reload_Ranked: pipeline end =====")
 
 
 if __name__ == "__main__":
     main()
+
 
 
 

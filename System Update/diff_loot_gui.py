@@ -7,8 +7,8 @@ from diff_loot_auto import run_latest_diff
 MODE_LABEL_TO_KEY = {
     "BR": "BR",
     "BR_Comp": "BR_Comp",
-    "Reload": "Reload",
-    "Reload_NoBuild": "Reload_NoBuild",
+    "Reload_Ranked": "Reload_Ranked",
+    "Reload_NoBuild_Ranked": "Reload_NoBuild_Ranked",
     "ORIGIN (Figment)": "Figment",
     "Figment_NoBuild": "Figment_NoBuild",
     "Blitz (ForbiddenFruit)": "ForbiddenFruit",
@@ -64,3 +64,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

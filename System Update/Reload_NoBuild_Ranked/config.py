@@ -1,10 +1,10 @@
-﻿import os
+import os
 from pathlib import Path
 
-# ---------------- 設定（System Update/Reload_NoBuild 完結版） ----------------
+# ---------------- 設定（System Update/Reload_NoBuild_Ranked 完結版） ----------------
 VERSION_PREFIX = "v39.30"  # 必要に応じて変更
 
-PROFILE_NAME = "Reload_NoBuild"
+PROFILE_NAME = "Reload_NoBuild_Ranked"
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成
@@ -168,7 +168,7 @@ PATH_VERSION_SAVE_DIR = str(OUTPUT_DIR / "summary")
 PATH_LT_JSON = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 PATH_LP_JSON = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 PATH_MINLIST_JSON = INPUT_MINLIST_JSON
-PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "Reload_NoBuild" )
+PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "Reload_NoBuild_Ranked" )
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
@@ -209,5 +209,7 @@ HOTFIX_LT_TARGETS = [
 AUTO_RESOLVE_PATHS = False
 BASE_PATHS = []
 SEASON_PATHS = []
+
+
 
 

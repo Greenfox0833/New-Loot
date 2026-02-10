@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -10,16 +10,16 @@ from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-COMMON_DIR = BASE_DIR.parent
+COMMON_DIR = BASE_DIR.parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Reload_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/PiperBoot_LootPool.json"
 
-# Ensure child scripts use Reload profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "Reload")
+# Ensure child scripts use PiperBoot profile by default
+os.environ.setdefault("SYSTEM_PROFILE", "PiperBoot")
 
 from cache import enrich_summary_with_names
 from config import (
@@ -52,7 +52,7 @@ def _setup_logger():
     log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / f"pipeline_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 
-    logger = logging.getLogger("pipeline_reload")
+    logger = logging.getLogger("pipeline_piperboot")
     if logger.handlers:
         return logger
     logger.setLevel(getattr(logging, LOG_LEVEL.upper(), logging.INFO))
@@ -90,7 +90,7 @@ def main():
     minlist_path = Path(PATH_MINLIST_JSON)
 
     try:
-        logger.info("===== Reload: pipeline start =====")
+        logger.info("===== PiperBoot: pipeline start =====")
         logger.info("paths: lt=%s lp=%s minlist=%s", lt_json_path, lp_json_path, minlist_path)
         logger.info("output: summary=%s lootdata=%s", version_save_dir, PATH_LOOTDATA_DIR)
         logger.info("flags: hotfix=%s prewarm=%s image=%s workers=%s", DO_HOTFIX, ENABLE_ICON_CACHE_PREWARM, ENABLE_IMAGE_CREATION, MAX_WORKERS)
@@ -278,7 +278,7 @@ def main():
             repo_dir = Path(PATH_REPO_DIR)
             logger.info("git add: %s", repo_dir)
             subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True, capture_output=True, text=True)
-            msg = f"Reload update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            msg = f"PiperBoot update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             res_commit = subprocess.run(["git", "-C", str(repo_dir), "commit", "-m", msg], check=False, capture_output=True, text=True)
             if res_commit.stdout:
                 logger.info("git commit stdout: %s", res_commit.stdout.strip())
@@ -294,11 +294,12 @@ def main():
             logger.warning("[!] GitHub Push に失敗: %s", e)
             logger.warning(traceback.format_exc().strip())
 
-        logger.info("===== Reload: pipeline end =====")
+        logger.info("===== PiperBoot: pipeline end =====")
 
 
 if __name__ == "__main__":
     main()
+
 
 
 

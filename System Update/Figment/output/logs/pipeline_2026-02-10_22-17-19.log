@@ -50,3 +50,26 @@
   """
 2026-02-10 22:17:20 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.12s)
 2026-02-10 22:17:20 | INFO | prewarm start
+2026-02-10 22:17:39 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (18.70s)
+2026-02-10 22:17:39 | INFO | 画像化タスク数: 91
+2026-02-10 22:17:39 | INFO | 画像生成 進捗: 1/91
+2026-02-10 22:17:41 | INFO | 画像生成 進捗: 50/91
+2026-02-10 22:17:42 | INFO | 画像生成 進捗: 91/91
+2026-02-10 22:17:42 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-10 22:17:42 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-02-10 22:17:42 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-02-10 22:17:42 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-10 22:17:59 | INFO | git commit stdout: [main a06d674] Figment update 2026-02-10 22:17:53
+ 13 files changed, 21110 insertions(+), 12 deletions(-)
+ create mode 100644 System Update/Figment/output/history/BR_20260210_2217/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-02-10_22-17-19.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-02-10_22-17.json
+ create mode 100644 System Update/__pycache__/cache.cpython-312.pyc.2642147408224
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-ChillerGrenade-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-SneakySnowman-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-SK-MilitarySMG-Silenced-L.png
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-02-10_22-17.json"
+2026-02-10 22:18:01 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   8b73f66..a06d674  main -> main
+2026-02-10 22:18:01 | INFO | ✓ GitHub Push 完了
+2026-02-10 22:18:01 | INFO | ===== Figment: pipeline end =====

@@ -18,8 +18,8 @@ if str(COMMON_DIR) not in sys.path:
 
 WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/PiperBoot_LootPool.json"
 
-# Ensure child scripts use PiperBoot profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "PiperBoot")
+# Ensure child scripts resolve profile config at System Update/Reload/PiperBoot
+os.environ["SYSTEM_PROFILE"] = "Reload/PiperBoot"
 
 from cache import enrich_summary_with_names
 from config import (

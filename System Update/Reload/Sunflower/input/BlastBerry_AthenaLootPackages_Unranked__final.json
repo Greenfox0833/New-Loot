@@ -106648,7 +106648,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.200": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 1.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106669,7 +106669,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C.WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -106681,7 +106681,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106702,7 +106702,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_UC.WID_Shotgun_Moonflax_Combat_HS_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -106714,7 +106714,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.202": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106735,7 +106735,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R.WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_R.WID_Shotgun_Moonflax_Combat_HS_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -106846,39 +106846,6 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.200": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.UC",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaLoot.Weapon.HighShotgun.201": {
-        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
         "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -106900,17 +106867,17 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R.WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.R",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.HighShotgun.202": {
+      "WorldList.AthenaLoot.Weapon.HighShotgun.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
         "Weight": 0.016,
         "NamedWeightMult": "None",
@@ -106933,17 +106900,17 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR.WID_Shotgun_Auto_Dual_DragonCart_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaLoot.Weapon.HighShotgun.203": {
+      "WorldList.AthenaLoot.Weapon.HighShotgun.202": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
         "Weight": 0.004,
         "NamedWeightMult": "None",
@@ -106966,7 +106933,40 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR.WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WaffleTruck/WID_WaffleTruck_Dub.WID_WaffleTruck_Dub",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighShotgun.203": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_SR.WID_Shotgun_Moonflax_Combat_HS_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -107110,7 +107110,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.200": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107143,7 +107143,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107341,7 +107341,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107770,7 +107770,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.200": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.02,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107790,7 +107790,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UC.WID_SunRose_DrumGun_HS_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108051,7 +108054,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_C.WID_Assault_DragonCart_Scoped_Athena_C",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_C.WID_Assault_Update_StrikerBurst_HS_Athena_C",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108061,7 +108067,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108081,7 +108087,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_UC.WID_Assault_Update_StrikerBurst_HS_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108091,7 +108100,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.202": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108111,7 +108120,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_R.WID_Assault_Update_StrikerBurst_HS_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108220,7 +108232,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.200": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108240,7 +108252,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_UC.WID_Assault_Update_StrikerBurst_HS_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108250,7 +108265,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.201": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108270,7 +108285,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_R.WID_Assault_Update_StrikerBurst_HS_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108280,7 +108298,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.202": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108300,7 +108318,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -108310,7 +108331,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.203": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -108330,7 +108351,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_SR.WID_Assault_Update_StrikerBurst_HS_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -109417,7 +109441,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR.WID_Shotgun_Auto_Dual_DragonCart_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -109450,7 +109474,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR.WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -109462,7 +109486,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.102": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -109660,7 +109684,7 @@
       },
       "WorldList.ApolloLoot.Weapon.SMG.100": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.SMG",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -109680,7 +109704,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_VR.WID_SunRose_DrumGun_HS_Athena_VR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -109789,7 +109816,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.100": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -109809,7 +109836,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -109819,7 +109849,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.101": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -109839,7 +109869,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_SR.WID_Assault_Update_StrikerBurst_HS_Athena_SR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -110179,39 +110212,6 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.200": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.UC",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.201": {
-        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
         "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -110233,17 +110233,17 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R.WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.R",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.202": {
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.201": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
         "Weight": 0.125,
         "NamedWeightMult": "None",
@@ -110266,17 +110266,17 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR.WID_Shotgun_Auto_Dual_DragonCart_Athena_VR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03.WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.203": {
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.202": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
         "Weight": 0.025,
         "NamedWeightMult": "None",
@@ -110299,7 +110299,40 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR.WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WaffleTruck/WID_WaffleTruck_Dub.WID_WaffleTruck_Dub",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Moonflax.Combat.HS.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Shotgun.203": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_SR.WID_Shotgun_Moonflax_Combat_HS_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -110476,7 +110509,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.201": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.325,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -110707,7 +110740,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.200": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.SMG",
-        "Weight": 0.025,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -110727,7 +110760,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UC.WID_SunRose_DrumGun_HS_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -110968,7 +111004,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.200": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -110988,7 +111024,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_UC.WID_Assault_Update_StrikerBurst_HS_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -110998,7 +111037,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.201": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.125,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -111018,7 +111057,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR/Hitscan/WID_Assault_Update_StrikerBurst_HS_Athena_R.WID_Assault_Update_StrikerBurst_HS_Athena_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -111028,7 +111070,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.202": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.075,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -111048,7 +111090,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -111784,7 +111829,7 @@
       },
       "WorldList.AthenaHighConsumables.101": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -111805,7 +111850,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -111838,7 +111883,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -111916,7 +111961,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.101": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare",
-        "Weight": 0.12,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -111937,7 +111982,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -111970,7 +112015,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112048,7 +112093,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.101": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -112069,7 +112114,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112102,7 +112147,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112312,7 +112357,7 @@
       },
       "WorldList.AthenaSupplyDropUtility.101": {
         "LootPackageID": "WorldList.AthenaSupplyDropUtility",
-        "Weight": 0.12,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -112333,7 +112378,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112366,7 +112411,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112444,7 +112489,7 @@
       },
       "WorldList.AthenaConsumables.101": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -112465,7 +112510,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+          "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack.AGID_BoostJumpPack",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -112498,7 +112543,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+          "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
           "SubPathString": ""
         },
         "PersistentLevel": "",

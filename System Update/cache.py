@@ -2,6 +2,7 @@ import atexit
 import json
 import os
 from io import BytesIO
+import shutil
 
 from PIL import Image
 
@@ -47,22 +48,38 @@ def icon_cache_key(path_like: str) -> str:
     clean = path_like.strip().strip("/").split(".")[0]
     return clean.replace("\\", "/").replace("/", "__") + ".png"
 
+def _mirror_cache_file(src: str, dst: str) -> None:
+    try:
+        if not src or not dst:
+            return
+        if not os.path.exists(src) or os.path.exists(dst):
+            return
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copyfile(src, dst)
+    except Exception:
+        pass
+
 def load_icon_from_cache(path_like: str):
     if not ENABLE_IMAGE_CACHE:
         return None
     try:
         os.makedirs(ICON_CACHE_DIR, exist_ok=True)
-        fp = os.path.join(ICON_CACHE_DIR, icon_cache_key(path_like))
-        if os.path.exists(fp):
-            return Image.open(fp).convert("RGBA")
+        fp_primary = os.path.join(ICON_CACHE_DIR, icon_cache_key(path_like))
+        if os.path.exists(fp_primary):
+            if ICON_CACHE_DIR_SECONDARY:
+                fp_secondary = os.path.join(ICON_CACHE_DIR_SECONDARY, icon_cache_key(path_like))
+                _mirror_cache_file(fp_primary, fp_secondary)
+            return Image.open(fp_primary).convert("RGBA")
     except Exception:
         pass
     try:
         if ICON_CACHE_DIR_SECONDARY:
             os.makedirs(ICON_CACHE_DIR_SECONDARY, exist_ok=True)
-            fp = os.path.join(ICON_CACHE_DIR_SECONDARY, icon_cache_key(path_like))
-            if os.path.exists(fp):
-                return Image.open(fp).convert("RGBA")
+            fp_secondary = os.path.join(ICON_CACHE_DIR_SECONDARY, icon_cache_key(path_like))
+            if os.path.exists(fp_secondary):
+                fp_primary = os.path.join(ICON_CACHE_DIR, icon_cache_key(path_like))
+                _mirror_cache_file(fp_secondary, fp_primary)
+                return Image.open(fp_secondary).convert("RGBA")
     except Exception:
         pass
     return None
@@ -73,10 +90,9 @@ def save_icon_to_cache(path_like: str, content: bytes) -> None:
     try:
         os.makedirs(ICON_CACHE_DIR, exist_ok=True)
         fp = os.path.join(ICON_CACHE_DIR, icon_cache_key(path_like))
-        if os.path.exists(fp):
-            return
-        with open(fp, "wb") as f:
-            f.write(content)
+        if not os.path.exists(fp):
+            with open(fp, "wb") as f:
+                f.write(content)
     except Exception:
         pass
     try:

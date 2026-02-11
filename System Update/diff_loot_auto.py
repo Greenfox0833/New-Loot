@@ -35,6 +35,30 @@ def _diff_is_empty(diff: dict) -> bool:
     return not diff.get("added") and not diff.get("removed") and not diff.get("change")
 
 
+def resolve_mode_folder(mode_key: str) -> Path:
+    # Standard layout: 戦利品データ/<mode_key>
+    direct = DATA_ROOT / mode_key
+    if direct.exists() and direct.is_dir():
+        return direct
+
+    # Nested layout support: e.g. 戦利品データ/Reload/Sunflower
+    nested = DATA_ROOT / Path(mode_key)
+    if nested.exists() and nested.is_dir():
+        return nested
+
+    candidates = []
+    for p in DATA_ROOT.rglob(mode_key):
+        if p.is_dir():
+            candidates.append(p)
+
+    if len(candidates) == 1:
+        return candidates[0]
+    if len(candidates) > 1:
+        found = ", ".join(str(p) for p in candidates)
+        raise FileNotFoundError(f"Ambiguous mode folder for '{mode_key}': {found}")
+    raise FileNotFoundError(f"Folder not found for mode '{mode_key}' under: {DATA_ROOT}")
+
+
 def update_diff_index(out_path: Path) -> None:
     name = out_path.name
     if INDEX_PATH.exists():
@@ -59,9 +83,7 @@ def update_diff_index(out_path: Path) -> None:
 
 
 def run_latest_diff(mode_key: str) -> tuple[Path, dict] | None:
-    folder = DATA_ROOT / mode_key
-    if not folder.exists():
-        raise FileNotFoundError(f"Folder not found: {folder}")
+    folder = resolve_mode_folder(mode_key)
 
     old_file, new_file = latest_two_files(folder)
     old_data = load_json(old_file)

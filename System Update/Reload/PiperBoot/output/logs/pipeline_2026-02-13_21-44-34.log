@@ -1,13 +1,13 @@
-2026-02-13 21:43:24 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\logs\pipeline_2026-02-13_21-43-24.log
-2026-02-13 21:43:24 | INFO | ===== DashBerry: pipeline start =====
-2026-02-13 21:43:24 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\items_unique_min.json
-2026-02-13 21:43:24 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\DashBerry
-2026-02-13 21:43:24 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-02-13 21:43:24 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-02-13 21:43:25 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryLootPackages.json : replaced=613, added=1445
+2026-02-13 21:44:34 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\logs\pipeline_2026-02-13_21-44-34.log
+2026-02-13 21:44:34 | INFO | ===== PiperBoot: pipeline start =====
+2026-02-13 21:44:34 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
+2026-02-13 21:44:34 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot
+2026-02-13 21:44:34 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-13 21:44:34 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-13 21:44:36 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryLootPackages.json : replaced=613, added=1445
 [STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootPackages_Client_BlastBerryOverride.json : replaced=32, added=0
 [STEP1-4] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerry_AthenaLootPackages_Unranked.json : replaced=0, added=16
-[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\DashBerry\DashBerryLootPackages.json : replaced=3, added=180
+[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\PiperBoot\PiperBootLootPackages.json : replaced=3, added=180
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
 [HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
@@ -698,16 +698,75 @@
 [1718] RowUpdate WorldList.AthenaConsumables.93.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
 [HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON4] done: applied=48, deleted=0, skipped=0
-[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/DashBerry/DashBerryLootPackages
+[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/PiperBoot/PiperBootLootPackages
+[909] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_C.WID_Assault_DragonCart_Scoped_Athena_C -> OK
+[910] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.201.Weight=0.400000 -> OK
+[911] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[912] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.202.Weight=0.080000 -> OK
+[913] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[914] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.200.Weight=0.400000 -> OK
+[915] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[916] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.201.Weight=0.080000 -> OK
+[917] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[918] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.202.Weight=0.016000 -> OK
+[919] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[920] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.203.Weight=0.004000 -> OK
+[921] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.203.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR -> OK
+[922] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.100.Weight=0.750000 -> OK
+[923] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.100.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[924] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.101.Weight=0.250000 -> OK
+[925] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.101.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR -> OK
+[926] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.200.Weight=0.250000 -> OK
+[927] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[928] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.201.Weight=0.125000 -> OK
+[929] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[930] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.202.Weight=0.075000 -> OK
+[931] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[1521] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.200.Weight=0.020000 -> OK
+[1522] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.200.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1523] RowUpdate WorldList.ApolloLoot.Weapon.SMG.100.Weight=0.600000 -> OK
+[1524] RowUpdate WorldList.ApolloLoot.Weapon.SMG.100.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1525] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.200.Weight=0.025000 -> OK
+[1526] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.200.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1527] RowUpdate WorldList.AthenaHighConsumables.101.Weight=0.100000 -> OK
+[1528] RowUpdate WorldList.AthenaHighConsumables.102.Weight=0.000000 -> OK
+[1529] RowUpdate WorldList.AthenaHighConsumablesRare.101.Weight=0.120000 -> OK
+[1530] RowUpdate WorldList.AthenaHighConsumablesRare.102.Weight=0.000000 -> OK
+[1531] RowUpdate WorldList.AthenaSupplyDropConsumables.101.Weight=0.100000 -> OK
+[1532] RowUpdate WorldList.AthenaSupplyDropConsumables.102.Weight=0.000000 -> OK
+[1533] RowUpdate WorldList.AthenaSupplyDropUtility.101.Weight=0.120000 -> OK
+[1534] RowUpdate WorldList.AthenaSupplyDropUtility.102.Weight=0.000000 -> OK
+[1535] RowUpdate WorldList.AthenaConsumables.101.Weight=0.100000 -> OK
+[1536] RowUpdate WorldList.AthenaConsumables.102.Weight=0.000000 -> OK
+[1793] RowUpdate WorldList.AthenaHighConsumables.101.Weight=0.140000 -> OK
+[1794] RowUpdate WorldList.AthenaHighConsumables.102.Weight=0.080000 -> OK
+[1795] RowUpdate WorldList.AthenaHighConsumables.103.Weight=0.050000 -> OK
+[1796] RowUpdate WorldList.AthenaHighConsumables.103.CountRange=(X=1,Y=1) -> OK
+[1797] RowUpdate WorldList.AthenaHighConsumables.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1798] RowUpdate WorldList.AthenaHighConsumablesRare.101.Weight=0.120000 -> OK
+[1799] RowUpdate WorldList.AthenaHighConsumablesRare.102.Weight=0.120000 -> OK
+[1800] RowUpdate WorldList.AthenaHighConsumablesRare.103.Weight=0.100000 -> OK
+[1801] RowUpdate WorldList.AthenaHighConsumablesRare.103.CountRange=(X=1,Y=1) -> OK
+[1802] RowUpdate WorldList.AthenaHighConsumablesRare.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1803] RowUpdate WorldList.AthenaSupplyDropUtility.101.Weight=0.140000 -> OK
+[1804] RowUpdate WorldList.AthenaSupplyDropUtility.102.Weight=0.100000 -> OK
+[1805] RowUpdate WorldList.AthenaSupplyDropUtility.103.Weight=0.080000 -> OK
+[1806] RowUpdate WorldList.AthenaSupplyDropUtility.103.CountRange=(X=1,Y=1) -> OK
+[1807] RowUpdate WorldList.AthenaSupplyDropUtility.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1808] RowUpdate WorldList.AthenaConsumables.101.Weight=0.120000 -> OK
+[1809] RowUpdate WorldList.AthenaConsumables.102.Weight=0.100000 -> OK
+[1810] RowUpdate WorldList.AthenaConsumables.103.Weight=0.050000 -> OK
+[1811] RowUpdate WorldList.AthenaConsumables.103.CountRange=(X=1,Y=1) -> OK
+[1812] RowUpdate WorldList.AthenaConsumables.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
 [HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
-[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerryLootPackages__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerry_AthenaLootPackages_Unranked__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\DashBerryLootPackages__final.json
-2026-02-13 21:43:25 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-02-13 21:43:26 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=60
+[HOTFIX:SEASON5] done: applied=59, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerry_AthenaLootPackages_Unranked__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\PiperBootLootPackages__final.json
+2026-02-13 21:44:36 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-13 21:44:36 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=60
 [STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride.json : replaced=264, added=0
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
 [383] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
@@ -757,100 +816,32 @@
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride
 [1442] RowUpdate Loot_AthenaCandyBucket_01.Weight=0.000000 -> OK
 [HOTFIX:SEASON3] done: applied=1, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerryTierData__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
-2026-02-13 21:43:26 | INFO | ✓ Hotfix 適用完了 (1.40s)
-2026-02-13 21:43:26 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json
-2026-02-13 21:43:26 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json
-2026-02-13 21:43:26 | INFO | load done (0.03s)
-2026-02-13 21:43:26 | INFO | build summary start
-2026-02-13 21:43:26 | INFO | build summary done (0.02s)
-2026-02-13 21:43:26 | INFO | enrich summary with names start
-2026-02-13 21:43:26 | INFO | enrich summary done (0.00s)
-2026-02-13 21:43:26 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-13_21-43.json
-2026-02-13 21:43:26 | INFO | build BR_LootData start
-2026-02-13 21:43:26 | INFO | build BR_LootData done (0.00s)
-2026-02-13 21:43:26 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\DashBerry\DashBerry_LootData_2026-02-13_21-43.json
-2026-02-13 21:43:26 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\DashBerry_LootPool.json
-2026-02-13 21:43:26 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py
-2026-02-13 21:43:26 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-13_21-43.json
-✅ 抽出件数: 209
-💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-11_08-23.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-13_21-43.json
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+2026-02-13 21:44:36 | INFO | ✓ Hotfix 適用完了 (1.50s)
+2026-02-13 21:44:36 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
+2026-02-13 21:44:36 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
+2026-02-13 21:44:36 | INFO | load done (0.03s)
+2026-02-13 21:44:36 | INFO | build summary start
+2026-02-13 21:44:36 | INFO | build summary done (0.02s)
+2026-02-13 21:44:36 | INFO | enrich summary with names start
+2026-02-13 21:44:36 | INFO | enrich summary done (0.00s)
+2026-02-13 21:44:36 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-13_21-44.json
+2026-02-13 21:44:36 | INFO | build BR_LootData start
+2026-02-13 21:44:36 | INFO | build BR_LootData done (0.00s)
+2026-02-13 21:44:36 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot\PiperBoot_LootData_2026-02-13_21-44.json
+2026-02-13 21:44:36 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\PiperBoot_LootPool.json
+2026-02-13 21:44:36 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py
+2026-02-13 21:44:36 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-13_21-44.json
+✅ 抽出件数: 210
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-12_00-29.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-13_21-44.json
 ✅ 差分作成 完了
-  追加   : 46 / 削除 : 21 / 変更 : 0 / 変化なし : 163
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\history\BR_20260213_2143\items_unique_min_diff.json
-2026-02-13 21:43:26 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 46 / 削除 : 21 / 変更 : 0 / 変化なし : 164
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\history\BR_20260213_2144\items_unique_min_diff.json
+2026-02-13 21:44:36 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-02-13 21:43:26 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.24s)
-2026-02-13 21:43:26 | INFO | prewarm start
-2026-02-13 21:44:07 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (41.03s)
-2026-02-13 21:44:07 | INFO | 画像化タスク数: 209
-2026-02-13 21:44:07 | INFO | 画像生成 進捗: 1/209
-2026-02-13 21:44:09 | INFO | 画像生成 進捗: 50/209
-2026-02-13 21:44:11 | INFO | 画像生成 進捗: 100/209
-2026-02-13 21:44:13 | INFO | 画像生成 進捗: 150/209
-2026-02-13 21:44:15 | INFO | 画像生成 進捗: 200/209
-2026-02-13 21:44:15 | INFO | 画像生成 進捗: 209/209
-2026-02-13 21:44:15 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-02-13 21:44:15 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\DashBerry_2026-02-13_21-44-15.json (added=49 removed=22 change=117)
-2026-02-13 21:44:15 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\BR_Discor.py
-2026-02-13 21:44:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-02-13 21:44:17 | INFO | git commit stdout: [main fda169c] DashBerry update 2026-02-13 21:44:16
- 57 files changed, 70308 insertions(+), 1238 deletions(-)
- create mode 100644 System Update/Reload/DashBerry/output/history/BR_20260213_2143/items_unique_min_diff.json
- create mode 100644 System Update/Reload/DashBerry/output/logs/pipeline_2026-02-13_21-43-24.log
- create mode 100644 System Update/Reload/DashBerry/output/summary/v39.30_2026-02-13_21-43.json
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\271\343\203\221\343\202\244\343\202\242\343\203\273\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\271\343\203\221\343\202\244\343\202\242\343\203\273\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\271\343\203\221\343\202\244\343\202\242\343\203\273\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\271\343\203\221\343\202\244\343\202\242\343\203\273\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\271\343\203\221\343\202\244\343\202\242\343\203\273\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\234\343\203\203\343\202\257\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\234\343\203\203\343\202\257\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\234\343\203\203\343\202\257\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\234\343\203\203\343\202\257\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\221\343\203\263\343\203\227\343\202\255\343\203\263\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274    - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\221\343\203\263\343\203\227\343\202\255\343\203\263\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274    - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\221\343\203\263\343\203\227\343\202\255\343\203\263\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274    - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\230\343\203\223\343\203\274\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\230\343\203\223\343\203\274\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\230\343\203\223\343\203\274\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\233\343\203\255\343\203\251\343\203\203\343\202\267\343\203\245 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\233\343\203\255\343\203\251\343\203\203\343\202\267\343\203\245 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\233\343\203\255\343\203\251\343\203\203\343\202\267\343\203\245 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\233\343\203\255\343\203\251\343\203\203\343\202\267\343\203\245 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\233\343\203\255\343\203\251\343\203\203\343\202\267\343\203\245 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/DashBerry/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/DashBerry/DashBerry_LootData_2026-02-13_21-43.json"
-2026-02-13 21:44:23 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   06d03a8..fda169c  main -> main
-2026-02-13 21:44:23 | INFO | ✓ GitHub Push 完了
-2026-02-13 21:44:23 | INFO | ===== DashBerry: pipeline end =====
+2026-02-13 21:44:36 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.32s)
+2026-02-13 21:44:36 | INFO | prewarm start

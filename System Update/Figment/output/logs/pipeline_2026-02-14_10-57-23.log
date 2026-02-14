@@ -44,3 +44,42 @@
 2026-02-14 10:57:25 | INFO | build summary start
 2026-02-14 10:57:25 | INFO | build summary done (0.34s)
 2026-02-14 10:57:25 | INFO | enrich summary with names start
+2026-02-14 10:57:26 | INFO | enrich summary done (0.73s)
+2026-02-14 10:57:26 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-14_10-57.json
+2026-02-14 10:57:26 | INFO | build Figment_LootData start
+2026-02-14 10:57:26 | INFO | build BR_LootData done (0.00s)
+2026-02-14 10:57:26 | INFO | ✅ Figment_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment\Figment_LootData_2026-02-14_10-57.json
+2026-02-14 10:57:26 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_LootPool.json
+2026-02-14 10:57:26 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py
+2026-02-14 10:57:26 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-14_10-57.json
+✅ 抽出件数: 92
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-14_07-02.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-14_10-57.json
+✅ 差分作成 完了
+  追加   : 1 / 削除 : 0 / 変更 : 0 / 変化なし : 91
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\history\BR_20260214_1057\items_unique_min_diff.json
+2026-02-14 10:57:26 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-02-14 10:57:26 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.37s)
+2026-02-14 10:57:26 | INFO | prewarm start
+2026-02-14 10:57:46 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (19.42s)
+2026-02-14 10:57:46 | INFO | 画像化タスク数: 92
+2026-02-14 10:57:46 | INFO | 画像生成 進捗: 1/92
+2026-02-14 10:57:48 | INFO | 画像生成 進捗: 50/92
+2026-02-14 10:57:49 | INFO | 画像生成 進捗: 92/92
+2026-02-14 10:57:49 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-14 10:57:50 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\ORIGIN_2026-02-14_10-57-49.json (added=1 removed=0 change=21)
+2026-02-14 10:57:50 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-02-14 10:57:50 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-14 10:58:01 | INFO | git commit stdout: [main 4d1ae4d] Figment update 2026-02-14 10:57:57
+ 11 files changed, 20845 insertions(+), 61 deletions(-)
+ create mode 100644 System Update/Figment/output/history/BR_20260214_1057/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-02-14_10-57-23.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-02-14_10-57.json
+ create mode 100644 "System Update/shared/images/Figment/\343\202\255\343\203\245\343\203\274\343\203\224\343\203\203\343\203\211\343\202\257\343\203\255\343\202\271\343\203\234\343\202\246 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-02-14_10-57.json"
+2026-02-14 10:58:06 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   127e071..4d1ae4d  main -> main
+2026-02-14 10:58:06 | INFO | ✓ GitHub Push 完了
+2026-02-14 10:58:06 | INFO | ===== Figment: pipeline end =====

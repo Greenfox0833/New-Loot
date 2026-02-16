@@ -209,3 +209,27 @@
   """
 2026-02-16 13:14:50 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.29s)
 2026-02-16 13:14:50 | INFO | prewarm start
+2026-02-16 13:15:11 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (21.44s)
+2026-02-16 13:15:11 | INFO | 画像化タスク数: 101
+2026-02-16 13:15:12 | INFO | 画像生成 進捗: 1/101
+2026-02-16 13:15:13 | INFO | 画像生成 進捗: 50/101
+2026-02-16 13:15:15 | INFO | 画像生成 進捗: 100/101
+2026-02-16 13:15:15 | INFO | 画像生成 進捗: 101/101
+2026-02-16 13:15:15 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-16 13:15:15 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_Comp_2026-02-16_13-15-15.json (added=2 removed=4 change=19)
+2026-02-16 13:15:15 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\BR_Discor.py
+2026-02-16 13:15:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-16 13:15:18 | INFO | git commit stdout: [main 64a20f8] BR_Comp update 2026-02-16 13:15:16
+ 16 files changed, 41210 insertions(+), 122 deletions(-)
+ create mode 100644 System Update/BR_Comp/output/history/BR_20260216_1314/items_unique_min_diff.json
+ create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-02-16_13-14-48.log
+ create mode 100644 System Update/BR_Comp/output/summary/v39.30_2026-02-16_13-14.json
+ create mode 100644 System Update/__pycache__/LootPackage.cpython-312.pyc
+ create mode 100644 System Update/__pycache__/LootPackage.cpython-312.pyc.2281668959552
+ create mode 100644 System Update/__pycache__/LootTier.cpython-312.pyc
+ create mode 100644 System Update/__pycache__/LootTier.cpython-312.pyc.2800588381504
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-02-16_13-14.json"
+2026-02-16 13:15:21 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   fe71b38..64a20f8  main -> main
+2026-02-16 13:15:21 | INFO | ✓ GitHub Push 完了
+2026-02-16 13:15:21 | INFO | ===== BR_Comp: pipeline end =====

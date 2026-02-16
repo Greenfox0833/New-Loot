@@ -1,15 +1,14 @@
-2026-02-16 13:03:01 | INFO | log file (BR_Comp): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\logs\pipeline_2026-02-16_13-03-01.log
-2026-02-16 13:03:01 | INFO | ===== BR_Comp: pipeline start =====
-2026-02-16 13:03:01 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\items_unique_min.json
-2026-02-16 13:03:01 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp
-2026-02-16 13:03:01 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-02-16 13:03:01 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-02-16 13:03:02 | INFO | hotfix lp stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootPackages_Client.json : replaced=438, added=794
-[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootPackages_Client_Comp.json : replaced=175, added=14
-[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootPackages_Client_Comp_Backup.json : replaced=2, added=0
+2026-02-16 13:14:48 | INFO | log file (BR_Comp): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\logs\pipeline_2026-02-16_13-14-48.log
+2026-02-16 13:14:48 | INFO | ===== BR_Comp: pipeline start =====
+2026-02-16 13:14:48 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\items_unique_min.json
+2026-02-16 13:14:48 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp
+2026-02-16 13:14:48 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-16 13:14:48 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-16 13:14:49 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
 [HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootPackages_Client.json : replaced=438, added=794
 [HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
 [389] RowUpdate WorldList.AthenaHighConsumables.23.Weight=0.050000 -> OK
 [390] RowUpdate WorldList.AthenaHighConsumablesRare.24.Weight=0.050000 -> OK
@@ -77,7 +76,7 @@
 [756] RowUpdate WorldList.AthenaConsumables.16.CountRange=(X=1,Y=1) -> OK
 [757] RowUpdate WorldList.AthenaConsumables.16.ItemDefinition=/Game/Athena/Items/Consumables/Bush/Athena_Bush.Athena_Bush -> OK
 [758] RowUpdate WorldList.AthenaConsumables.17.Weight=0.000000 -> OK
-[759] RowUpdate LIST_GCDunmurry_Consumable_2_A.01.Weight=0.000000 -> OK
+[759] RowUpdate LIST_GCDunmurry_Consumable_2_A.01.Weight=0.000000 -> SKIP(no row)
 [780] RowUpdate WorldList.AthenaHighConsumables.18.Weight=0.060000 -> OK
 [781] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.000000 -> OK
 [782] RowUpdate WorldList.AthenaHighConsumables.20.Weight=0.010000 -> OK
@@ -104,10 +103,12 @@
 [804] RowUpdate PKG_FriendshipBubble.01.CountRange=(X=1,Y=1) -> OK
 [805] RowUpdate PKG_FriendshipBubble.01.LootPackageCall=LIST_FriendshipBubble_Weapon -> OK
 [HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
-[HOTFIX:SEASON2] done: applied=92, deleted=0, skipped=0
+[HOTFIX:SEASON2] done: applied=91, deleted=0, skipped=1
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootPackages_Client_Comp.json : replaced=175, added=14
 [HOTFIX:SEASON3] target=/DragonCartLoot/DataTables/Comp/DragonCartLootPackages_Client_Comp
 [HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootPackages_Client_Comp_Backup.json : replaced=2, added=0
 [HOTFIX:SEASON4] target=/DragonCartLoot/DataTables/Comp/DragonCartLootPackages_Client_Comp_Backup
 [520] TableUpdate -> ADD WorldList.AthenaHighConsumables.19
 [520] TableUpdate -> ADD WorldList.AthenaConsumables.18
@@ -158,72 +159,53 @@
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootPackages_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootPackages_Client_Comp__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootPackages_Client_Comp_Backup__final.json
-2026-02-16 13:03:02 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-02-16 13:03:03 | INFO | hotfix lt stdout: [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootTierData_Client.json : replaced=0, added=90
-[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootTierData_Client_Comp.json : replaced=0, added=5
-[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootTierData_Client_Comp_Backup.json : replaced=1, added=0
+2026-02-16 13:14:49 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-16 13:14:49 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
 [383] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
 [384] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
 [385] RowUpdate Loot_AthenaSupplyDrop_03.Weight=0.300000 -> OK
 [HOTFIX:SEASON1] done: applied=3, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootTierData_Client.json : replaced=0, added=90
 [HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootTierData_Client
 [604] RowUpdate LTG_Vend_Item_Pistol_Green.01.Weight=0.000000 -> OK
 [605] RowUpdate LTG_Vend_Item_Shotgun_Green.01.Weight=0.000000 -> OK
 [606] RowUpdate LTG_Vend_Item_SMG_Green.01.Weight=0.000000 -> OK
 [607] RowUpdate LTG_Vend_Item_Assault_Green.01.Weight=0.000000 -> OK
 [HOTFIX:SEASON2] done: applied=4, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootTierData_Client_Comp.json : replaced=0, added=5
 [HOTFIX:SEASON3] target=/DragonCartLoot/DataTables/Comp/DragonCartLootTierData_Client_Comp
 [HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\Comp\DragonCartLootTierData_Client_Comp_Backup.json : replaced=1, added=0
 [HOTFIX:SEASON4] target=/DragonCartLoot/DataTables/Comp/DragonCartLootTierData_Client_Comp_Backup
 [HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
 [WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootTierData_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootTierData_Client_Comp__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\DragonCartLootTierData_Client_Comp_Backup__final.json
-2026-02-16 13:03:03 | INFO | ✓ Hotfix 適用完了 (1.60s)
-2026-02-16 13:03:03 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json
-2026-02-16 13:03:03 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json
-2026-02-16 13:03:03 | INFO | load done (0.03s)
-2026-02-16 13:03:03 | INFO | build summary start
-2026-02-16 13:03:03 | INFO | build summary done (0.02s)
-2026-02-16 13:03:03 | INFO | enrich summary with names start
-2026-02-16 13:03:03 | INFO | enrich summary done (0.00s)
-2026-02-16 13:03:03 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-03.json
-2026-02-16 13:03:03 | INFO | build BR_LootData start
-2026-02-16 13:03:03 | INFO | build BR_LootData done (0.00s)
-2026-02-16 13:03:03 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp\BR_Comp_LootData_2026-02-16_13-03.json
-2026-02-16 13:03:04 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_Comp_LootPool.json
-2026-02-16 13:03:04 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\LootSummary.py
-2026-02-16 13:03:04 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-03.json
-✅ 抽出件数: 105
+2026-02-16 13:14:49 | INFO | ✓ Hotfix 適用完了 (1.44s)
+2026-02-16 13:14:49 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json
+2026-02-16 13:14:49 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json
+2026-02-16 13:14:49 | INFO | load done (0.02s)
+2026-02-16 13:14:49 | INFO | build summary start
+2026-02-16 13:14:49 | INFO | build summary done (0.02s)
+2026-02-16 13:14:49 | INFO | enrich summary with names start
+2026-02-16 13:14:49 | INFO | enrich summary done (0.00s)
+2026-02-16 13:14:49 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-14.json
+2026-02-16 13:14:49 | INFO | build BR_LootData start
+2026-02-16 13:14:49 | INFO | build BR_LootData done (0.00s)
+2026-02-16 13:14:49 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp\BR_Comp_LootData_2026-02-16_13-14.json
+2026-02-16 13:14:50 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_Comp_LootPool.json
+2026-02-16 13:14:50 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\LootSummary.py
+2026-02-16 13:14:50 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-14.json
+✅ 抽出件数: 101
 💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_12-50.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-03.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-03.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-02-16_13-14.json
 ✅ 差分作成 完了
-  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 105
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\history\BR_20260216_1303\items_unique_min_diff.json
-2026-02-16 13:03:04 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 0 / 削除 : 4 / 変更 : 0 / 変化なし : 101
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\history\BR_20260216_1314\items_unique_min_diff.json
+2026-02-16 13:14:50 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-02-16 13:03:04 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.43s)
-2026-02-16 13:03:04 | INFO | prewarm start
-2026-02-16 13:03:25 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (21.48s)
-2026-02-16 13:03:25 | INFO | 画像化タスク数: 105
-2026-02-16 13:03:26 | INFO | 画像生成 進捗: 1/105
-2026-02-16 13:03:27 | INFO | 画像生成 進捗: 50/105
-2026-02-16 13:03:29 | INFO | 画像生成 進捗: 100/105
-2026-02-16 13:03:29 | INFO | 画像生成 進捗: 105/105
-2026-02-16 13:03:29 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-02-16 13:03:29 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
-2026-02-16 13:03:29 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\BR_Discor.py
-2026-02-16 13:03:29 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-02-16 13:03:35 | INFO | git commit stdout: [main fe71b38] BR_Comp update 2026-02-16 13:03:34
- 5 files changed, 43004 insertions(+)
- create mode 100644 System Update/BR_Comp/output/history/BR_20260216_1303/items_unique_min_diff.json
- create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-02-16_13-03-01.log
- create mode 100644 System Update/BR_Comp/output/summary/v39.30_2026-02-16_13-03.json
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-02-16_13-03.json"
-2026-02-16 13:03:38 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   e68c54f..fe71b38  main -> main
-2026-02-16 13:03:38 | INFO | ✓ GitHub Push 完了
-2026-02-16 13:03:38 | INFO | ===== BR_Comp: pipeline end =====
+2026-02-16 13:14:50 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.29s)
+2026-02-16 13:14:50 | INFO | prewarm start

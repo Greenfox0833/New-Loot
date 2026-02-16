@@ -306,20 +306,25 @@ def main():
         raise ValueError("HOTFIX_LT_PATHS が空です")
     base_meta = read_datatable_json(PATH_LIST[0])
     base_rows = base_meta["Rows"]
-    for idx, p in enumerate(PATH_LIST[1:], 2):
-        meta = read_datatable_json(p)
-        rows = meta["Rows"]
-        rep, add = merge_rows(base_rows, rows)
-        print(f"[STEP1-{idx}] merge {p} : replaced={rep}, added={add}")
-
-    if HOTFIX_PATH.exists():
-        text = HOTFIX_PATH.read_text(encoding="utf-8")
-        for idx, target in enumerate(TARGET_LIST[: len(PATH_LIST)], 1):
-            if not target:
-                continue
-            apply_hotfix_for_table(base_rows, text, target, f"SEASON{idx}")
-    else:
+    hotfix_text = HOTFIX_PATH.read_text(encoding="utf-8") if HOTFIX_PATH.exists() else None
+    if hotfix_text is None:
         print("[HOTFIX] skipped (file not found)")
+
+    print(f"[STEP1-1] base {PATH_LIST[0]}")
+    for idx, p in enumerate(PATH_LIST, 1):
+        if idx >= 2:
+            meta = read_datatable_json(p)
+            rows = meta["Rows"]
+            rep, add = merge_rows(base_rows, rows)
+            print(f"[STEP1-{idx}] merge {p} : replaced={rep}, added={add}")
+
+        target = TARGET_LIST[idx - 1] if idx - 1 < len(TARGET_LIST) else ""
+        if not hotfix_text:
+            continue
+        if not target:
+            print(f"[HOTFIX:SEASON{idx}] skipped (target not configured)")
+            continue
+        apply_hotfix_for_table(base_rows, hotfix_text, target, f"SEASON{idx}")
 
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")

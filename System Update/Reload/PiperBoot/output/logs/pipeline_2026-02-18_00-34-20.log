@@ -1,10 +1,10 @@
-2026-02-18 00:27:03 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\logs\pipeline_2026-02-18_00-27-03.log
-2026-02-18 00:27:03 | INFO | ===== DashBerry: pipeline start =====
-2026-02-18 00:27:03 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\items_unique_min.json
-2026-02-18 00:27:03 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\DashBerry
-2026-02-18 00:27:03 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-02-18 00:27:03 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-02-18 00:27:05 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+2026-02-18 00:34:20 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\logs\pipeline_2026-02-18_00-34-20.log
+2026-02-18 00:34:20 | INFO | ===== PiperBoot: pipeline start =====
+2026-02-18 00:34:20 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
+2026-02-18 00:34:20 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot
+2026-02-18 00:34:20 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-18 00:34:20 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-18 00:34:20 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
 [HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
@@ -698,17 +698,76 @@
 [1737] RowUpdate WorldList.AthenaConsumables.93.ItemDefinition=/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport -> OK
 [HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON4] done: applied=48, deleted=0, skipped=0
-[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\DashBerry\DashBerryLootPackages.json : replaced=3, added=180
-[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/DashBerry/DashBerryLootPackages
+[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\PiperBoot\PiperBootLootPackages.json : replaced=3, added=180
+[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/PiperBoot/PiperBootLootPackages
+[928] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_C.WID_Assault_DragonCart_Scoped_Athena_C -> OK
+[929] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.201.Weight=0.400000 -> OK
+[930] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[931] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.202.Weight=0.080000 -> OK
+[932] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[933] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.200.Weight=0.400000 -> OK
+[934] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[935] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.201.Weight=0.080000 -> OK
+[936] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[937] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.202.Weight=0.016000 -> OK
+[938] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[939] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.203.Weight=0.004000 -> OK
+[940] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.203.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR -> OK
+[941] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.100.Weight=0.750000 -> OK
+[942] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.100.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[943] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.101.Weight=0.250000 -> OK
+[944] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.101.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR.WID_Assault_DragonCart_Scoped_Athena_SR -> OK
+[945] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.200.Weight=0.250000 -> OK
+[946] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.200.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC.WID_Assault_DragonCart_Scoped_Athena_UC -> OK
+[947] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.201.Weight=0.125000 -> OK
+[948] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.201.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R.WID_Assault_DragonCart_Scoped_Athena_R -> OK
+[949] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.202.Weight=0.075000 -> OK
+[950] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.202.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR.WID_Assault_DragonCart_Scoped_Athena_VR -> OK
+[1540] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.200.Weight=0.020000 -> OK
+[1541] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.200.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1542] RowUpdate WorldList.ApolloLoot.Weapon.SMG.100.Weight=0.600000 -> OK
+[1543] RowUpdate WorldList.ApolloLoot.Weapon.SMG.100.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1544] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.200.Weight=0.025000 -> OK
+[1545] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.200.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[1546] RowUpdate WorldList.AthenaHighConsumables.101.Weight=0.100000 -> OK
+[1547] RowUpdate WorldList.AthenaHighConsumables.102.Weight=0.000000 -> OK
+[1548] RowUpdate WorldList.AthenaHighConsumablesRare.101.Weight=0.120000 -> OK
+[1549] RowUpdate WorldList.AthenaHighConsumablesRare.102.Weight=0.000000 -> OK
+[1550] RowUpdate WorldList.AthenaSupplyDropConsumables.101.Weight=0.100000 -> OK
+[1551] RowUpdate WorldList.AthenaSupplyDropConsumables.102.Weight=0.000000 -> OK
+[1552] RowUpdate WorldList.AthenaSupplyDropUtility.101.Weight=0.120000 -> OK
+[1553] RowUpdate WorldList.AthenaSupplyDropUtility.102.Weight=0.000000 -> OK
+[1554] RowUpdate WorldList.AthenaConsumables.101.Weight=0.100000 -> OK
+[1555] RowUpdate WorldList.AthenaConsumables.102.Weight=0.000000 -> OK
+[1812] RowUpdate WorldList.AthenaHighConsumables.101.Weight=0.140000 -> OK
+[1813] RowUpdate WorldList.AthenaHighConsumables.102.Weight=0.080000 -> OK
+[1814] RowUpdate WorldList.AthenaHighConsumables.103.Weight=0.050000 -> OK
+[1815] RowUpdate WorldList.AthenaHighConsumables.103.CountRange=(X=1,Y=1) -> OK
+[1816] RowUpdate WorldList.AthenaHighConsumables.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1817] RowUpdate WorldList.AthenaHighConsumablesRare.101.Weight=0.120000 -> OK
+[1818] RowUpdate WorldList.AthenaHighConsumablesRare.102.Weight=0.120000 -> OK
+[1819] RowUpdate WorldList.AthenaHighConsumablesRare.103.Weight=0.100000 -> OK
+[1820] RowUpdate WorldList.AthenaHighConsumablesRare.103.CountRange=(X=1,Y=1) -> OK
+[1821] RowUpdate WorldList.AthenaHighConsumablesRare.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1822] RowUpdate WorldList.AthenaSupplyDropUtility.101.Weight=0.140000 -> OK
+[1823] RowUpdate WorldList.AthenaSupplyDropUtility.102.Weight=0.100000 -> OK
+[1824] RowUpdate WorldList.AthenaSupplyDropUtility.103.Weight=0.080000 -> OK
+[1825] RowUpdate WorldList.AthenaSupplyDropUtility.103.CountRange=(X=1,Y=1) -> OK
+[1826] RowUpdate WorldList.AthenaSupplyDropUtility.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
+[1827] RowUpdate WorldList.AthenaConsumables.101.Weight=0.120000 -> OK
+[1828] RowUpdate WorldList.AthenaConsumables.102.Weight=0.100000 -> OK
+[1829] RowUpdate WorldList.AthenaConsumables.103.Weight=0.050000 -> OK
+[1830] RowUpdate WorldList.AthenaConsumables.103.CountRange=(X=1,Y=1) -> OK
+[1831] RowUpdate WorldList.AthenaConsumables.103.ItemDefinition=/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03.WID_Hook_Gun_VR_Ore_T03 -> OK
 [HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
-[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerryLootPackages__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerry_AthenaLootPackages_Unranked__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\DashBerryLootPackages__final.json
-2026-02-18 00:27:05 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-02-18 00:27:06 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON5] done: applied=59, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerry_AthenaLootPackages_Unranked__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\PiperBootLootPackages__final.json
+2026-02-18 00:34:20 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-18 00:34:21 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
 [385] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
 [386] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
@@ -759,54 +818,32 @@
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride
 [1461] RowUpdate Loot_AthenaCandyBucket_01.Weight=0.000000 -> OK
 [HOTFIX:SEASON3] done: applied=1, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\BlastBerryTierData__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
-2026-02-18 00:27:06 | INFO | ✓ Hotfix 適用完了 (2.33s)
-2026-02-18 00:27:06 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootTierData_Client__final.json
-2026-02-18 00:27:06 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\AthenaLootPackages_Client__final.json
-2026-02-18 00:27:06 | INFO | load done (0.07s)
-2026-02-18 00:27:06 | INFO | build summary start
-2026-02-18 00:27:06 | INFO | build summary done (0.20s)
-2026-02-18 00:27:06 | INFO | enrich summary with names start
-2026-02-18 00:27:06 | INFO | enrich summary done (0.02s)
-2026-02-18 00:27:06 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-18_00-27.json
-2026-02-18 00:27:06 | INFO | build BR_LootData start
-2026-02-18 00:27:06 | INFO | build BR_LootData done (0.00s)
-2026-02-18 00:27:06 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\DashBerry\DashBerry_LootData_2026-02-18_00-27.json
-2026-02-18 00:27:07 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\DashBerry_LootPool.json
-2026-02-18 00:27:07 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py
-2026-02-18 00:27:07 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-18_00-27.json
-✅ 抽出件数: 209
-💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-14_01-18.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-02-18_00-27.json
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+2026-02-18 00:34:21 | INFO | ✓ Hotfix 適用完了 (0.91s)
+2026-02-18 00:34:21 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
+2026-02-18 00:34:21 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
+2026-02-18 00:34:21 | INFO | load done (0.02s)
+2026-02-18 00:34:21 | INFO | build summary start
+2026-02-18 00:34:21 | INFO | build summary done (0.02s)
+2026-02-18 00:34:21 | INFO | enrich summary with names start
+2026-02-18 00:34:21 | INFO | enrich summary done (0.00s)
+2026-02-18 00:34:21 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-18_00-34.json
+2026-02-18 00:34:21 | INFO | build BR_LootData start
+2026-02-18 00:34:21 | INFO | build BR_LootData done (0.00s)
+2026-02-18 00:34:21 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot\PiperBoot_LootData_2026-02-18_00-34.json
+2026-02-18 00:34:21 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\PiperBoot_LootPool.json
+2026-02-18 00:34:21 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py
+2026-02-18 00:34:21 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-18_00-34.json
+✅ 抽出件数: 210
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-14_01-20.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-02-18_00-34.json
 ✅ 差分作成 完了
-  追加   : 46 / 削除 : 21 / 変更 : 0 / 変化なし : 163
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\history\BR_20260218_0027\items_unique_min_diff.json
-2026-02-18 00:27:07 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 46 / 削除 : 21 / 変更 : 0 / 変化なし : 164
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\history\BR_20260218_0034\items_unique_min_diff.json
+2026-02-18 00:34:21 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-02-18 00:27:07 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.74s)
-2026-02-18 00:27:07 | INFO | prewarm start
-2026-02-18 00:27:48 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (41.21s)
-2026-02-18 00:27:48 | INFO | 画像化タスク数: 209
-2026-02-18 00:27:49 | INFO | 画像生成 進捗: 1/209
-2026-02-18 00:27:51 | INFO | 画像生成 進捗: 50/209
-2026-02-18 00:27:53 | INFO | 画像生成 進捗: 100/209
-2026-02-18 00:27:55 | INFO | 画像生成 進捗: 150/209
-2026-02-18 00:27:56 | INFO | 画像生成 進捗: 200/209
-2026-02-18 00:27:57 | INFO | 画像生成 進捗: 209/209
-2026-02-18 00:27:57 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-02-18 00:27:57 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\DashBerry_2026-02-18_00-27-57.json (added=49 removed=23 change=151)
-2026-02-18 00:27:57 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\BR_Discor.py
-2026-02-18 00:27:57 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-02-18 00:27:59 | INFO | git commit stdout: [main 45829f3] DashBerry update 2026-02-18 00:27:57
- 14 files changed, 69482 insertions(+), 1247 deletions(-)
- create mode 100644 System Update/Reload/DashBerry/output/history/BR_20260218_0027/items_unique_min_diff.json
- create mode 100644 System Update/Reload/DashBerry/output/logs/pipeline_2026-02-18_00-27-03.log
- create mode 100644 System Update/Reload/DashBerry/output/summary/v39.30_2026-02-18_00-27.json
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/DashBerry/DashBerry_LootData_2026-02-18_00-27.json"
-2026-02-18 00:28:02 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   c7b0126..45829f3  main -> main
-2026-02-18 00:28:02 | INFO | ✓ GitHub Push 完了
-2026-02-18 00:28:02 | INFO | ===== DashBerry: pipeline end =====
+2026-02-18 00:34:21 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.12s)
+2026-02-18 00:34:21 | INFO | prewarm start

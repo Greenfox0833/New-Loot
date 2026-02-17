@@ -61,3 +61,23 @@
   """
 2026-02-17 07:13:56 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.17s)
 2026-02-17 07:13:56 | INFO | prewarm start
+2026-02-17 07:14:14 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (18.29s)
+2026-02-17 07:14:14 | INFO | 画像化タスク数: 93
+2026-02-17 07:14:14 | INFO | 画像生成 進捗: 1/93
+2026-02-17 07:14:16 | INFO | 画像生成 進捗: 50/93
+2026-02-17 07:14:17 | INFO | 画像生成 進捗: 93/93
+2026-02-17 07:14:17 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-17 07:14:17 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Figment_NoBuild_2026-02-17_07-14-17.json (added=3 removed=1 change=16)
+2026-02-17 07:14:17 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\BR_Discor.py
+2026-02-17 07:14:17 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-17 07:14:23 | INFO | git commit stdout: [main 8f05141] Figment_NoBuild update 2026-02-17 07:14:20
+ 12 files changed, 20980 insertions(+), 38 deletions(-)
+ create mode 100644 System Update/Figment_NoBuild/output/history/BR_20260217_0713/items_unique_min_diff.json
+ create mode 100644 System Update/Figment_NoBuild/output/logs/pipeline_2026-02-17_07-13-55.log
+ create mode 100644 System Update/Figment_NoBuild/output/summary/v39.30_2026-02-17_07-13.json
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\207\343\203\223\343\203\253\343\203\217\343\203\263\343\202\277\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment_NoBuild/Figment_NoBuild_LootData_2026-02-17_07-13.json"
+2026-02-17 07:14:25 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   729016f..8f05141  main -> main
+2026-02-17 07:14:25 | INFO | ✓ GitHub Push 完了
+2026-02-17 07:14:25 | INFO | ===== Figment_NoBuild: pipeline end =====

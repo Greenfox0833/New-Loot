@@ -505,3 +505,27 @@
   """
 2026-02-19 18:40:33 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.32s)
 2026-02-19 18:40:33 | INFO | prewarm start
+2026-02-19 18:40:35 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.35s)
+2026-02-19 18:40:35 | INFO | 画像化タスク数: 175
+2026-02-19 18:40:35 | INFO | 画像生成 進捗: 1/175
+2026-02-19 18:40:36 | INFO | 画像生成 進捗: 50/175
+2026-02-19 18:40:36 | INFO | 画像生成 進捗: 100/175
+2026-02-19 18:40:37 | INFO | 画像生成 進捗: 150/175
+2026-02-19 18:40:37 | INFO | 画像生成 進捗: 175/175
+2026-02-19 18:40:37 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-19 18:40:37 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_NoBuild_Ranked_2026-02-19_18-40-37.json (added=25 removed=49 change=107)
+2026-02-19 18:40:37 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\scripts\BR_Discor.py
+2026-02-19 18:40:37 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-19 18:40:40 | INFO | git commit stdout: [main 1e556d8] Reload_NoBuild_Ranked update 2026-02-19 18:40:38
+ 17 files changed, 67407 insertions(+), 1467 deletions(-)
+ create mode 100644 System Update/Reload_NoBuild_Ranked/output/history/BR_20260219_1840/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_NoBuild_Ranked/output/logs/pipeline_2026-02-19_18-40-31.log
+ create mode 100644 System Update/Reload_NoBuild_Ranked/output/summary/v39.30_2026-02-19_18-40.json
+ create mode 100644 "System Update/shared/images/Reload_NoBuild_Ranked/\343\202\242\343\203\254\343\202\271\343\201\256\343\202\246\343\202\251\343\203\274\343\203\225\343\202\251\343\203\274\343\202\270\343\203\211\343\203\273\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/Reload_NoBuild_Ranked/\343\203\217\343\203\207\343\202\271\343\201\256\343\203\217\343\203\274\343\203\223\343\203\263\343\202\270\343\203\243\343\203\274\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/Reload_NoBuild_Ranked/\343\203\236\343\202\267\343\203\274\343\203\213\343\202\271\343\203\210\343\201\256\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_NoBuild_Ranked/Reload_NoBuild_Ranked_LootData_2026-02-19_18-40.json"
+2026-02-19 18:40:43 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   92bf2ef..1e556d8  main -> main
+2026-02-19 18:40:43 | INFO | ✓ GitHub Push 完了
+2026-02-19 18:40:43 | INFO | ===== Reload_NoBuild_Ranked: pipeline end =====

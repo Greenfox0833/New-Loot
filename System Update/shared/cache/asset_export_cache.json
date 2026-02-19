@@ -100129,5 +100129,1540 @@
         }
       ]
     }
+  },
+  "/BigBushGrenade/Items/Athena_BushGrenade": {
+    "ts": 1771494033,
+    "data": {
+      "hash": "d1d809fafa6b610ab2fea2f1c35db05eb7d16024c85cf907c132dd13241e9733",
+      "entries": 1,
+      "bytes": 7386,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "Athena_BushGrenade",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/BigBushGrenade/Items/B_BushGrenade_Athena.B_BushGrenade_Athena_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Athena_Grenade"
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/BigBushGrenade/Items/GA_Athena_Bush_WithTrajectory.GA_Athena_Bush_WithTrajectory_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/BigBushGrenade/Items/GA_Athena_Bush_SecondaryTrajectory.GA_Athena_Bush_SecondaryTrajectory_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade.Athena_BushGrenade",
+              "SubPathString": ""
+            },
+            "bCanFireWhileNotTargetedInVehicle": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [],
+            "AnalyticTags": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.BigLeafGrenade"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Granted.ItemEquipped.Consumable.BigLeafGrenade.VR"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.BigLeafGrenade",
+              "Tag:Consumable:athena_bushgrenade"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Concealment",
+                "ConsumableItem",
+                "Deployable",
+                "Item",
+                "RareItem",
+                "S23",
+                "Throwable"
+              ]
+            },
+            "ItemType": "EFortItemType::Consumable",
+            "Rarity": "EFortRarity::Rare",
+            "ItemName": {
+              "namespace": "",
+              "key": "82808AA64E4424DED81210A697548C09",
+              "sourceString": "Big Bush Bomb",
+              "localizedString": "Big Bush Bomb"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "E7BB7F2E40193E6BA26FDEB918A4CF30",
+              "sourceString": "Deploys a big bush that you can hide in.",
+              "localizedString": "Deploys a big bush that you can hide in."
+            },
+            "ItemShortDescription": {
+              "namespace": "",
+              "key": "01160A1F4AEC0F385E49DA997A641930",
+              "sourceString": "Deploys a big bush that you can hide in.",
+              "localizedString": "Deploys a big bush that you can hide in."
+            },
+            "DataList": [
+              {
+                "MaxStackSize": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'BigBushGrenadeGameData'",
+                      "ObjectPath": "/BigBushGrenade/DataTables/BigBushGrenadeGameData.0"
+                    },
+                    "RowName": "Default.LeafPileGrenade.MaxStackAmount"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "/BigBushGrenade/Meshes/Leaf_Grenade.Leaf_Grenade",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.16773173,
+                    "y": 0.044943612,
+                    "z": 0.95125026,
+                    "w": 0.2548903,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.6,
+                    "y": 1.6,
+                    "z": 1.6
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+                    "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/BigBushGrenade/Items/Audio/BigBushGrenade_PickUp_Cue.BigBushGrenade_PickUp_Cue",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/BigBushGrenade/Items/Audio/BigBushGrenade_Drop_Cue.BigBushGrenade_Drop_Cue",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "/BigBushGrenade/Items/Audio/UI_DropWeaponImpact_LeafGrenade_Cue.UI_DropWeaponImpact_LeafGrenade_Cue",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickupDestroyOnEmpty",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": true,
+                "bDropOnLogout": true,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 12.613218,
+                  "y": 10.445456,
+                  "z": 13.210435
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "FC769382439BE86ADCBC79986D89B152",
+                  "sourceString": "Gadget UtilityItem Grenade",
+                  "localizedString": "Gadget UtilityItem Grenade"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::III",
+                "MaxTier": "EFortItemTier::III"
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/BigBushGrenade/Items/B_Prj_BushGrenade_Athena.B_Prj_BushGrenade_Athena_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'BigBushGrenade_Lib'",
+                    "ObjectPath": "/BigBushGrenade/Items/Audio/BigBushGrenade_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "WeaponRechargeAmmoRate": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "Infiltration.Crashpad.RechargeRate"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "WeaponRechargeAmmoQuantity": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/BigBushGrenade/Items/Icons/T-T-Icon-BR-LeafGrenadeGadget.T-T-Icon-BR-LeafGrenadeGadget",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/BigBushGrenade/Items/Icons/T-T-Icon-BR-LeafGrenadeGadget-L.T-T-Icon-BR-LeafGrenadeGadget-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "FilterCategory": "EFortInventoryFilter::WeaponRanged"
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Ability",
+                  "Athena.Item.Utility",
+                  "Athena.ItemAction.Throw",
+                  "Weapon.Ranged.Heavy.Grenade",
+                  "Bacchus.Throw.Grenade.Explosive",
+                  "Item.SortsRight",
+                  "Item.Consumable.BigLeafGrenade",
+                  "Rarity.Rare",
+                  "Athena.ItemAction.Secondary.Throw",
+                  "Athena.ItemAction.ThrowDown"
+                ]
+              },
+              {
+                "Traits": [
+                  "Item.Trait.Transient",
+                  "Item.Trait.InventorySizeLimited"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown": {
+    "ts": 1771494033,
+    "data": {
+      "hash": "d4f6ba30c366a49db5e2cbebc2b029c248ce7f46f97bf56655ac8093414688fc",
+      "entries": 1,
+      "bytes": 7467,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Athena_LaunchPadThrown",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/LaunchPadItemGameplay/B_Grenade_LaunchPadThrown.B_Grenade_LaunchPadThrown_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Mesh/SK_Athena_Launchpad_Pickup.SK_Athena_Launchpad_Pickup",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_NonDamaging"
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/LaunchPadItemGameplay/GAs/GA_Athena_LaunchPadThrowableWithTrajectory_A.GA_Athena_LaunchPadThrowableWithTrajectory_A_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/LaunchPadItemGameplay/GAs/GA_Athena_ThrownItemLaunchpad_Secondary.GA_Athena_ThrownItemLaunchpad_Secondary_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown.WID_Athena_LaunchPadThrown",
+              "SubPathString": ""
+            },
+            "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+            "bCanFireWhileNotTargetedInVehicle": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [],
+            "AnalyticTags": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.LaunchPad"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.LaunchPad",
+              "Tag:Weapon:wid_athena_launchpadthrown"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Instabuild",
+                "Item",
+                "MobilityItem",
+                "Paradise",
+                "RareItem",
+                "Throwable"
+              ]
+            },
+            "Rarity": "EFortRarity::Rare",
+            "ItemName": {
+              "namespace": "",
+              "key": "DB98BF914BD15B99056B01B8B627759D",
+              "sourceString": "Launch Pad",
+              "localizedString": "Launch Pad"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "2576DA3D48D939EF61FE6498A0470E5C",
+              "sourceString": "Launches players into the air and allows them to deploy a glider.",
+              "localizedString": "Launches players into the air and allows them to deploy a glider."
+            },
+            "ItemShortDescription": {
+              "namespace": "",
+              "key": "161AFFF14FBCD96A0DA4D0936D685AC1",
+              "sourceString": "Launches players into the air and allows them to deploy a glider.",
+              "localizedString": "Launches players into the air and allows them to deploy a glider."
+            },
+            "DataList": [
+              {
+                "MaxStackSize": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'LaunchPadItemGameplayGameData'",
+                      "ObjectPath": "/LaunchPadItemGameplay/DataTables/LaunchPadItemGameplayGameData.0"
+                    },
+                    "RowName": "Default.Consumables.MaxStackAmount.Launchpad"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad.S_Athena_Launchpad",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.16773131,
+                    "y": 0.044942476,
+                    "z": 0.95125055,
+                    "w": 0.25488964,
+                    "isNormalized": true,
+                    "size": 0.99999994,
+                    "sizeSquared": 0.99999994
+                  },
+                  "Translation": {
+                    "x": 20.0,
+                    "y": 50.0,
+                    "z": -10.0
+                  },
+                  "Scale3D": {
+                    "x": 0.18,
+                    "y": 0.18,
+                    "z": 0.18
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+                    "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Game/Athena/Sounds/LaunchPad/ItemizedLaunchpad_Pickup_Cue.ItemizedLaunchpad_Pickup_Cue",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Game/Athena/Sounds/LaunchPad/ItemizedLaunchpad_Drop_Cue.ItemizedLaunchpad_Drop_Cue",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 160.68105,
+                  "y": 160.68103,
+                  "z": 38.15551
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "5C863F1B4F13ECE0A429EBBB1043FF0A",
+                  "sourceString": "Gadget UtilityItem LaunchPad",
+                  "localizedString": "Gadget UtilityItem LaunchPad"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::III",
+                "MaxTier": "EFortItemTier::III"
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/LaunchPadItemGameplay/Items/Projectiles/B_Prj_Athena_LaunchPadThrowable_A.B_Prj_Athena_LaunchPadThrowable_A_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'ItemizedLaunchpad_Lib'",
+                    "ObjectPath": "/Game/Athena/Sounds/LaunchPad/ItemizedLaunchpad_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Traits": [
+                  "Item.Trait.AutoCombineStacks",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.InventorySizeLimited"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Textures/T-Icon_Trap_Athena_Launchpad.T-Icon_Trap_Athena_Launchpad",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/Athena/Items/Traps/Launchpad/Textures/T-Icon_Trap_Athena_Launchpad-L.T-Icon_Trap_Athena_Launchpad-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Weapon.Ranged.Heavy.Grenade",
+                  "Athena.ItemAction.Throw",
+                  "Weapon.Ranged.Grenade.Standard",
+                  "Item.Consumable.Grenade",
+                  "Item.SortsRight",
+                  "Cosmetics.OverrideWrapBehavior.DoNotOverride",
+                  "HUD.PreferredSlotType.Utility",
+                  "Athena.Item.Utility",
+                  "Rarity.Rare",
+                  "Item.Consumable.LaunchPad"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A": {
+    "ts": 1771494034,
+    "data": {
+      "hash": "6c70a48007e3dfdea58c6a1512d3bc3c06488e7175cce36bf4f8f9872425d758",
+      "entries": 1,
+      "bytes": 7261,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "Athena_PortaShackGrenade_A",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_Grenade_Tower_Athena.B_Grenade_Tower_Athena_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/PortAShackGameplay/Items/Meshes/Port_A_Shack_Gadget.Port_A_Shack_Gadget",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_NonDamaging"
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/PortAShackGameplay/Items/GA/GA_Athena_PortaShackGrenadeWithTrajectory_A.GA_Athena_PortaShackGrenadeWithTrajectory_A_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/PortAShackGameplay/Items/GA/GA_Athena_PortaShackGrenade_Secondary.GA_Athena_PortaShackGrenade_Secondary_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+              "SubPathString": ""
+            },
+            "bCanFireWhileNotTargetedInVehicle": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [],
+            "AnalyticTags": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.PortAShack"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Grenade",
+              "Item.Consumable.PortAShack",
+              "Tag:Weapon:athena_portashackgrenade_a"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "ConsumableItem",
+                "Instabuild",
+                "Item",
+                "Paradise",
+                "UncommonItem"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "6413BBB3470018E7057B0EBEA6A4B784",
+              "sourceString": "Port-A-Bunker",
+              "localizedString": "Port-A-Bunker"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "42D425B2445A6EA4432300BD2B4D8D2B",
+              "sourceString": "It's a portable bunker. It's Port-a-Bunker!",
+              "localizedString": "It's a portable bunker. It's Port-a-Bunker!"
+            },
+            "ItemShortDescription": {
+              "namespace": "",
+              "key": "0568F11D4970A447F23298B8A6ADD0B9",
+              "sourceString": "It's a portable bunker. It's Port-a-Bunker!",
+              "localizedString": "It's a portable bunker. It's Port-a-Bunker!"
+            },
+            "DataList": [
+              {
+                "MaxStackSize": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'PortAShackGameplayGameData'",
+                      "ObjectPath": "/PortAShackGameplay/DataTables/PortAShackGameplayGameData.0"
+                    },
+                    "RowName": "Default.PortAShackGameplay.MaxStackSize"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/PortAShackGameplay/Items/Meshes/Port_A_Shack_Gadget.Port_A_Shack_Gadget",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.16773172,
+                    "y": 0.04494361,
+                    "z": 0.9512503,
+                    "w": 0.25489032,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0000001
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.5,
+                    "y": 1.5,
+                    "z": 1.5
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+                    "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_Gadgets/PopupGrenade/PopupGrenade_Pickup_Cue.PopupGrenade_Pickup_Cue",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Game/Athena/Sounds/Items/Item_Consumables_Generic_Drop_Cue.Item_Consumables_Generic_Drop_Cue",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 6.688628,
+                  "y": 6.688628,
+                  "z": 6.658413
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "CA77A9AB45C909EB5247D5A7AC109350",
+                  "sourceString": "Gadget UtilityItem TowerGrenade",
+                  "localizedString": "Gadget UtilityItem TowerGrenade"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::II",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/PortAShackGameplay/Items/Projectiles/B_Prj_Athena_PortaShackGrenade_A.B_Prj_Athena_PortaShackGrenade_A_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'PortaShack_Lib'",
+                    "ObjectPath": "/PortAShackGameplay/Items/Audio/PortaShack_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Traits": [
+                  "Item.Trait.AutoCombineStacks",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.InventorySizeLimited"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/PortAShackGameplay/Icons/T-T-Icon-BR-PortAShack.T-T-Icon-BR-PortAShack",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/PortAShackGameplay/Icons/T-T-Icon-BR-PortAShack-L.T-T-Icon-BR-PortAShack-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "weapon.ranged.heavy.grenade",
+                  "Athena.Item.Utility",
+                  "Gameplay.Action.Player.Medium",
+                  "Athena.ItemAction.Throw",
+                  "Item.SortsRight",
+                  "HUD.PreferredSlotType.Utility",
+                  "Item.Consumable.PortAShack",
+                  "Rarity.Uncommon",
+                  "Athena.HUD.Pickup.ShowTotalAmmo",
+                  "Athena.ItemAction.ThrowDown"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC": {
+    "ts": 1771494035,
+    "data": {
+      "hash": "b77e0b530216f78682126684bbdaf9fc6f2599ae2b5e9727b8b32dd29c736bd1",
+      "entries": 1,
+      "bytes": 7620,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "Athena_SilverBlazer_Mini_UC",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/B_HeldItem_SilverBlazer_Mini.B_HeldItem_SilverBlazer_Mini_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Gadgets/Assets/SilverBlazer/Meshes/SilverBlazer.SilverBlazer",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_NonDamaging"
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/GA_Athena_SilverBlazer_Primary_Mini.GA_Athena_SilverBlazer_Primary_Mini_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/GA_Athena_SilverBlazer_Mini_Secondary.GA_Athena_SilverBlazer_Mini_Secondary_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+              "SubPathString": ""
+            },
+            "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+            "bCanFireWhileNotTargetedInVehicle": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [],
+            "AnalyticTags": [
+              "Item.Consumable.ShieldBubble"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Granted.ItemEquipped.Consumable.ShieldBubble.VR"
+            ],
+            "ActualAnalyticFNames": [
+              "Item.Consumable.ShieldBubble",
+              "Tag:Consumable:athena_silverblazer_mini_uc"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "CH5S2",
+                "ConsumableItem",
+                "Deployable",
+                "Item",
+                "Throwable",
+                "UncommonItem"
+              ]
+            },
+            "ItemType": "EFortItemType::Consumable",
+            "ItemName": {
+              "namespace": "",
+              "key": "C9DE77934511BFBCBF518B91295D6928",
+              "sourceString": "Shield Bubble Jr.",
+              "localizedString": "Shield Bubble Jr."
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "C5B7EA014B2F7733A1084F93AFD51233",
+              "sourceString": "Creates a small bubble that blocks projectiles and explosives. But watch out, players can still run through it!",
+              "localizedString": "Creates a small bubble that blocks projectiles and explosives. But watch out, players can still run through it!"
+            },
+            "DataList": [
+              {
+                "MaxStackSize": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'ShieldBubbleGameData'",
+                      "ObjectPath": "/ShieldBubble/DataTables/ShieldBubbleGameData.0"
+                    },
+                    "RowName": "Default.ShieldBubbleMini.MaxStack"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "/Game/Gadgets/Assets/SilverBlazer/Meshes/S_SilverBlazer_Mini.S_SilverBlazer_Mini",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.011376353,
+                    "y": -0.08641006,
+                    "z": 0.13003238,
+                    "w": 0.98767173,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.65,
+                    "y": 1.65,
+                    "z": 1.65
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": null,
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Game/Athena/Sounds/Items/Bubble_Shield/SilverBlazer_Pickup_Lib.SilverBlazer_Pickup_Lib",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 8000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 7.021553,
+                  "y": 8.082882,
+                  "z": 7.93429
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "38163E144B0DA0B0711313B1333D72AF",
+                  "sourceString": "UtilityItem AoE Silver Blazer shield bubble",
+                  "localizedString": "UtilityItem AoE Silver Blazer shield bubble"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/NoTooltipStats.NoTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::II",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/B_Prj_Athena_SilverBlazer_V2_Mini.B_Prj_Athena_SilverBlazer_V2_Mini_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SilverBlazer_Consumable_Lib'",
+                    "ObjectPath": "/Game/Athena/Sounds/Items/Bubble_Shield/SilverBlazer_Consumable_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "WeaponRechargeAmmoRate": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'AthenaGameData'",
+                      "ObjectPath": "/Game/Athena/Balance/DataTables/AthenaGameData.0"
+                    },
+                    "RowName": "Default.Consumables.RechargeRate.ShieldBubble"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "WeaponRechargeAmmoQuantity": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "Traits": [
+                  "Item.Trait.AutoCombineStacks",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.InventorySizeLimited"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Icons/T-Icon-BR-Gadget-SilverBlazerMini.T-Icon-BR-Gadget-SilverBlazerMini",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Icons/T-Icon-BR-Gadget-SilverBlazerMini-L.T-Icon-BR-Gadget-SilverBlazerMini-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "FilterCategory": "EFortInventoryFilter::Gadget"
+              },
+              {
+                "Tags": [
+                  "Athena.ItemAction.Throw",
+                  "Athena.Item.Utility",
+                  "Item.Consumable.ShieldBubble",
+                  "Item.SortsRight",
+                  "HUD.PreferredSlotType.Utility",
+                  "Rarity.Uncommon",
+                  "Athena.ItemAction.ThrowDown",
+                  "phoebe.items.grenade.shieldbubble"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 }

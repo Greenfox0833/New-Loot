@@ -1,0 +1,129 @@
+2026-02-19 18:41:37 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-02-19_18-41-37.log
+2026-02-19 18:41:37 | INFO | ===== BR: pipeline start =====
+2026-02-19 18:41:37 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-02-19 18:41:37 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
+2026-02-19 18:41:37 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-02-19 18:41:37 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-02-19 18:41:38 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootPackages_Client.json : replaced=435, added=861
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
+[307] RowUpdate WorldList.AthenaHighConsumables.23.Weight=0.050000 -> OK
+[308] RowUpdate WorldList.AthenaHighConsumablesRare.24.Weight=0.050000 -> OK
+[309] RowUpdate WorldList.AthenaSupplyDropConsumables.23.Weight=0.050000 -> OK
+[310] RowUpdate WorldList.AthenaConsumables.24.Weight=0.050000 -> OK
+[317] RowUpdate PKG_ThemeParkCannon_Solo.01.Weight=0.250000 -> OK
+[318] RowUpdate PKG_ThemeParkCannon_Solo.02.Weight=0.750000 -> OK
+[319] RowUpdate PKG_ThemeParkCannon_Solo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[320] RowUpdate PKG_ThemeParkCannon_Solo.04.Weight=0.000000 -> OK
+[321] RowUpdate PKG_ThemeParkCannon_Duo.01.Weight=0.250000 -> OK
+[322] RowUpdate PKG_ThemeParkCannon_Duo.02.Weight=0.750000 -> OK
+[323] RowUpdate PKG_ThemeParkCannon_Duo.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[324] RowUpdate PKG_ThemeParkCannon_Duo.04.Weight=0.000000 -> OK
+[325] RowUpdate PKG_ThemeParkCannon_Trio.01.Weight=0.250000 -> OK
+[326] RowUpdate PKG_ThemeParkCannon_Trio.02.Weight=0.750000 -> OK
+[327] RowUpdate PKG_ThemeParkCannon_Trio.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[328] RowUpdate PKG_ThemeParkCannon_Trio.04.Weight=0.000000 -> OK
+[329] RowUpdate PKG_ThemeParkCannon_Squad.01.Weight=0.250000 -> OK
+[330] RowUpdate PKG_ThemeParkCannon_Squad.02.Weight=0.750000 -> OK
+[331] RowUpdate PKG_ThemeParkCannon_Squad.02.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[332] RowUpdate PKG_ThemeParkCannon_Squad.04.Weight=0.000000 -> OK
+[333] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.100000 -> OK
+[334] RowUpdate LIST_ThemeParkCannon_Consumable.05.CountRange=(X=2,Y=2) -> OK
+[335] RowUpdate LIST_ThemeParkCannon_Consumable.05.ItemDefinition=/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot -> OK
+[336] RowUpdate LIST_ThemeParkCannon_Consumable.06.Weight=0.100000 -> OK
+[337] RowUpdate LIST_ThemeParkCannon_Consumable.06.CountRange=(X=1,Y=1) -> OK
+[338] RowUpdate LIST_ThemeParkCannon_Consumable.06.ItemDefinition=/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox -> OK
+[375] RowUpdate WorldList.AthenaConsumables.18.Weight=0.010000 -> OK
+[376] RowUpdate WorldList.Weapons.Rarity.Legendary.20.Weight=1.000000 -> OK
+[377] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.000000 -> OK
+[378] RowUpdate WorldList.AthenaHighConsumables.26.Weight=0.000000 -> OK
+[379] RowUpdate WorldList.AthenaHighConsumablesRare.27.Weight=0.000000 -> OK
+[380] RowUpdate WorldList.AthenaSupplyDropConsumables.25.Weight=0.000000 -> OK
+[381] RowUpdate WorldList.AthenaConsumables.25.Weight=0.000000 -> OK
+[382] RowUpdate LIST_Vend_Item_Seasonal_2.02.Weight=0.000000 -> SKIP(no row)
+[383] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.000000 -> OK
+[424] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.200000 -> OK
+[425] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.200000 -> OK
+[426] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.2500000 -> OK
+[427] RowUpdate WorldList.AthenaConsumables.14.Weight=0.200000 -> OK
+[432] RowUpdate WorldList.AthenaHighConsumables.21.CountRange=(X=2,Y=2) -> OK
+[433] RowUpdate WorldList.AthenaHighConsumablesRare.22.CountRange=(X=2,Y=2) -> OK
+[434] RowUpdate WorldList.AthenaSupplyDropConsumables.21.CountRange=(X=2,Y=2) -> OK
+[435] RowUpdate WorldList.AthenaConsumables.22.CountRange=(X=2,Y=2) -> OK
+[451] RowUpdate LIST_Vend_Item_Assault_Purple.01.Weight=0.000000 -> OK
+[452] RowUpdate LIST_Vend_Item_Assault_Purple.02.Weight=0.000000 -> OK
+[453] RowUpdate LIST_Vend_Item_Assault_Purple.03.Weight=0.000000 -> OK
+[454] RowUpdate LIST_Vend_Item_Assault_Purple.05.Weight=0.000000 -> OK
+[455] RowUpdate LIST_Vend_Item_Gold_3.01.Weight=0.000000 -> OK
+[456] RowUpdate LIST_Vend_Item_Gold_3.02.Weight=0.000000 -> OK
+[457] RowUpdate LIST_Vend_Item_Gold_3.04.Weight=0.000000 -> OK
+[575] RowUpdate WorldList.AthenaHighConsumables.15.Weight=0.110000 -> OK
+[576] RowUpdate WorldList.AthenaHighConsumables.15.CountRange=(X=1,Y=1) -> OK
+[577] RowUpdate WorldList.AthenaHighConsumables.15.ItemDefinition=/Game/Athena/Items/Consumables/Bush/Athena_Bush.Athena_Bush -> OK
+[578] RowUpdate WorldList.AthenaHighConsumables.16.Weight=0.000000 -> OK
+[579] RowUpdate WorldList.AthenaHighConsumables.16.CountRange=(X=1,Y=1) -> OK
+[580] RowUpdate WorldList.AthenaHighConsumables.16.ItemDefinition=/BigBushGrenade/Items/Athena_ShrubBomb.Athena_ShrubBomb -> OK
+[581] RowUpdate WorldList.AthenaHighConsumables.17.Weight=0.000000 -> OK
+[582] RowUpdate WorldList.AthenaHighConsumablesRare.17.Weight=0.000000 -> OK
+[583] RowUpdate WorldList.AthenaSupplyDropConsumables.16.Weight=0.000000 -> OK
+[584] RowUpdate WorldList.AthenaConsumables.15.Weight=0.000000 -> OK
+[585] RowUpdate WorldList.AthenaConsumables.15.CountRange=(X=1,Y=1) -> OK
+[586] RowUpdate WorldList.AthenaConsumables.15.ItemDefinition=/BigBushGrenade/Items/Athena_ShrubBomb.Athena_ShrubBomb -> OK
+[587] RowUpdate WorldList.AthenaConsumables.16.Weight=0.100000 -> OK
+[588] RowUpdate WorldList.AthenaConsumables.16.CountRange=(X=1,Y=1) -> OK
+[589] RowUpdate WorldList.AthenaConsumables.16.ItemDefinition=/Game/Athena/Items/Consumables/Bush/Athena_Bush.Athena_Bush -> OK
+[590] RowUpdate WorldList.AthenaConsumables.17.Weight=0.000000 -> OK
+[591] RowUpdate LIST_GCDunmurry_Consumable_2_A.01.Weight=0.000000 -> OK
+[605] RowUpdate WorldList.AthenaHighConsumables.18.Weight=0.060000 -> OK
+[606] RowUpdate WorldList.AthenaHighConsumables.19.Weight=0.000000 -> OK
+[607] RowUpdate WorldList.AthenaHighConsumables.20.Weight=0.010000 -> OK
+[608] RowUpdate WorldList.AthenaHighConsumables.27.Weight=0.000000 -> OK
+[609] RowUpdate WorldList.AthenaHighConsumablesRare.18.Weight=0.100000 -> OK
+[610] RowUpdate WorldList.AthenaHighConsumablesRare.21.Weight=0.100000 -> OK
+[611] RowUpdate WorldList.AthenaHighConsumablesRare.27.Weight=0.000000 -> OK
+[612] RowUpdate WorldList.AthenaHighConsumablesRare.28.Weight=0.000000 -> SKIP(no row)
+[613] RowUpdate WorldList.AthenaSupplyDropConsumables.18.Weight=0.200000 -> OK
+[614] RowUpdate WorldList.AthenaSupplyDropConsumables.19.Weight=0.200000 -> OK
+[615] RowUpdate WorldList.AthenaSupplyDropConsumables.25.Weight=0.000000 -> OK
+[616] RowUpdate WorldList.AthenaSupplyDropConsumables.26.Weight=0.000000 -> OK
+[617] RowUpdate WorldList.AthenaConsumables.19.Weight=0.050000 -> OK
+[618] RowUpdate WorldList.AthenaConsumables.21.Weight=0.050000 -> OK
+[619] RowUpdate WorldList.AthenaConsumables.25.Weight=0.000000 -> OK
+[620] RowUpdate WorldList.AthenaConsumables.26.Weight=0.000000 -> OK
+[621] RowUpdate LIST_Vend_Item_Seasonal_2.01.Weight=1.000000 -> OK
+[622] RowUpdate LIST_Vend_Item_Seasonal_2.02.Weight=0.000000 -> SKIP(no row)
+[623] RowUpdate LIST_ThemeParkCannon_Consumable.01.Weight=0.250000 -> OK
+[624] RowUpdate LIST_ThemeParkCannon_Consumable.05.Weight=0.000000 -> OK
+[625] RowUpdate LIST_Boss_BF_Consumable.01.Weight=1.000000 -> OK
+[626] RowUpdate LIST_Boss_BF_Consumable.02.Weight=0.000000 -> OK
+[627] RowUpdate LIST_Boss_BF_Consumable.02.ItemDefinition=/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage -> OK
+[629] RowUpdate PKG_FriendshipBubble.01.CountRange=(X=1,Y=1) -> OK
+[630] RowUpdate PKG_FriendshipBubble.01.LootPackageCall=LIST_FriendshipBubble_Weapon -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=89, deleted=0, skipped=3
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\DragonCartLootPackages_Client__final.json
+2026-02-19 18:41:38 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-02-19 18:41:38 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[301] RowUpdate Loot_AthenaTreasure_04.Weight=0.050000 -> OK
+[302] RowUpdate Loot_ApolloTreasure_Rare_04.Weight=0.150000 -> OK
+[303] RowUpdate Loot_AthenaSupplyDrop_03.Weight=0.300000 -> OK
+[HOTFIX:SEASON1] done: applied=3, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\DragonCartLoot\Content\DataTables\DragonCartLootTierData_Client.json : replaced=0, added=94
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootTierData_Client
+[436] RowUpdate LTG_Vend_Item_Pistol_Green.01.Weight=0.000000 -> OK
+[437] RowUpdate LTG_Vend_Item_Shotgun_Green.01.Weight=0.000000 -> OK
+[438] RowUpdate LTG_Vend_Item_SMG_Green.01.Weight=0.000000 -> OK
+[439] RowUpdate LTG_Vend_Item_Assault_Green.01.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] done: applied=4, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\DragonCartLootTierData_Client__final.json
+2026-02-19 18:41:38 | INFO | ✓ Hotfix 適用完了 (0.56s)
+2026-02-19 18:41:38 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-02-19 18:41:38 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-02-19 18:41:38 | INFO | load done (0.02s)
+2026-02-19 18:41:38 | INFO | build summary start

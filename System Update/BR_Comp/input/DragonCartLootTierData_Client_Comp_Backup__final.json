@@ -19461,7 +19461,7 @@
       },
       "LTG_Vend_Item_Mend_3.01": {
         "TierGroup": "LTG_Vend_Item_Mend_3",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -19470,7 +19470,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Vend_Item_Mend_ShieldGen",
+        "LootPackage": "PKG_Vend_Item_Mend_Revive",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 3.0,
@@ -19529,7 +19529,7 @@
       },
       "LTG_Vend_Item_Mend_4.01": {
         "TierGroup": "LTG_Vend_Item_Mend_4",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -19538,7 +19538,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_Vend_Item_Mend_Revive",
+        "LootPackage": "PKG_Vend_Item_Mend_ShieldGen",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 3.0,
@@ -24015,8 +24015,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": ""
       },
-      "LTG_RumiSword.01": {
-        "TierGroup": "LTG_RumiSword",
+      "LTG_SevenSupply.01": {
+        "TierGroup": "LTG_SevenSupply",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -24026,11 +24026,11 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_RumiSword",
+        "LootPackage": "PKG_SevenSupply_Assault",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           0,
@@ -24047,9 +24047,9 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
-          0,
+          1,
+          2,
+          1,
           0,
           0,
           0,
@@ -24080,11 +24080,11 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": false,
-        "bAvoidDuplicateLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
         "Annotation": ""
       },
-      "LTG_JinuMask.01": {
-        "TierGroup": "LTG_JinuMask",
+      "LTG_SevenSupply.02": {
+        "TierGroup": "LTG_SevenSupply",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -24094,11 +24094,11 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "PKG_JinuMask",
+        "LootPackage": "PKG_SevenSupply_Cannon",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 5.0,
+          "Y": 5.0
         },
         "LootPackageCategoryWeightArray": [
           0,
@@ -24115,9 +24115,9 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
-          0,
+          1,
+          2,
+          1,
           0,
           0,
           0,
@@ -24148,7 +24148,279 @@
           "AutoDescription": ""
         },
         "bAllowBonusLootDrops": false,
-        "bAvoidDuplicateLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
+      },
+      "Loot_GCDunmurry_Solo.01": {
+        "TierGroup": "Loot_GCDunmurry_Solo",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.GCDunmurry",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
+      },
+      "Loot_GCDunmurry_Duo.01": {
+        "TierGroup": "Loot_GCDunmurry_Duo",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.GCDunmurry",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
+      },
+      "Loot_GCDunmurry_Trio.01": {
+        "TierGroup": "Loot_GCDunmurry_Trio",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.GCDunmurry",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 12.0,
+          "Y": 12.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
+        "Annotation": ""
+      },
+      "Loot_GCDunmurry_Squad.01": {
+        "TierGroup": "Loot_GCDunmurry_Squad",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.GCDunmurry",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 16.0,
+          "Y": 16.0
+        },
+        "LootPackageCategoryWeightArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          4,
+          4,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": false,
+        "bAvoidDuplicateLootDrops": true,
         "Annotation": ""
       },
       "Loot_BusLoadout.01": {

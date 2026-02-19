@@ -802,3 +802,25 @@
   """
 2026-02-18 00:35:45 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.12s)
 2026-02-18 00:35:45 | INFO | prewarm start
+2026-02-18 00:35:47 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.37s)
+2026-02-18 00:35:47 | INFO | 画像化タスク数: 205
+2026-02-18 00:35:48 | INFO | 画像生成 進捗: 1/205
+2026-02-18 00:35:48 | INFO | 画像生成 進捗: 50/205
+2026-02-18 00:35:49 | INFO | 画像生成 進捗: 100/205
+2026-02-18 00:35:49 | INFO | 画像生成 進捗: 150/205
+2026-02-18 00:35:50 | INFO | 画像生成 進捗: 200/205
+2026-02-18 00:35:50 | INFO | 画像生成 進捗: 205/205
+2026-02-18 00:35:50 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-18 00:35:50 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Sunflower_2026-02-18_00-35-50.json (added=49 removed=23 change=147)
+2026-02-18 00:35:50 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\Sunflower\scripts\BR_Discor.py
+2026-02-18 00:35:50 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-18 00:35:52 | INFO | git commit stdout: [main 841b9ea] Sunflower update 2026-02-18 00:35:50
+ 15 files changed, 72419 insertions(+), 1247 deletions(-)
+ create mode 100644 System Update/Reload/Sunflower/output/history/BR_20260218_0035/items_unique_min_diff.json
+ create mode 100644 System Update/Reload/Sunflower/output/logs/pipeline_2026-02-18_00-35-44.log
+ create mode 100644 System Update/Reload/Sunflower/output/summary/v39.30_2026-02-18_00-35.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/Sunflower/Sunflower_LootData_2026-02-18_00-35.json"
+2026-02-18 00:35:55 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   2bf36af..841b9ea  main -> main
+2026-02-18 00:35:55 | INFO | ✓ GitHub Push 完了
+2026-02-18 00:35:55 | INFO | ===== Sunflower: pipeline end =====

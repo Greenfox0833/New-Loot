@@ -24631,7 +24631,7 @@
       },
       "WorldList.AthenaHighConsumables.06": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24651,7 +24651,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": {
+          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24661,12 +24664,12 @@
       },
       "WorldList.AthenaHighConsumables.07": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -24681,7 +24684,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24691,7 +24697,7 @@
       },
       "WorldList.AthenaHighConsumables.08": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24711,7 +24717,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+        "ItemDefinition": {
+          "AssetPathName": "/FlipperGameplay/Items/HealSpray/WID_Athena_HealSpray.WID_Athena_HealSpray",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -27282,7 +27291,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -28051,37 +28060,7 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 1.5,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Utility.C0;Item:WID.Athena.PortaCoverGrenade",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDrop.Utility.02": {
-        "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 1.5,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28101,7 +28080,40 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+        "ItemDefinition": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Utility.C0;Item:WID.Athena.PortaCoverGrenade",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Utility.02": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -28705,7 +28717,7 @@
       },
       "WorldList.AthenaConsumables.05": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28725,7 +28737,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -28735,7 +28750,7 @@
       },
       "WorldList.AthenaConsumables.06": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -28755,7 +28770,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+        "ItemDefinition": {
+          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -28765,12 +28783,12 @@
       },
       "WorldList.AthenaConsumables.07": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -28785,7 +28803,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+        "ItemDefinition": {
+          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -29558,8 +29579,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -29574,7 +29595,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -29621,8 +29642,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -29637,7 +29658,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+        "ItemDefinition": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -29667,7 +29688,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WinterDecay/Gameplay/WID_WinterDecay_Teleport.WID_WinterDecay_Teleport",
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_VR.WID_Rifle_AutoAim_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -29677,7 +29698,7 @@
       },
       "WorldList.GoldChest.Boons.03": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -29697,7 +29718,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO.PAID_FirePetal_PickaxeGO",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37581,7 +37605,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_VR.WID_Rifle_AutoAim_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37591,7 +37615,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 0.66,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37611,10 +37635,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_SR.WID_Rifle_AutoAim_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -39129,7 +39150,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_SR.WID_Rifle_AutoAim_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -39139,7 +39160,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.0,
+        "Weight": 2.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -39159,10 +39180,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_VR.WID_Rifle_AutoAim_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41040,7 +41058,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_SR.WID_Rifle_AutoAim_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41776,7 +41794,7 @@
       },
       "WorldList.BusWeap.01": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.33,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41796,7 +41814,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Athena_SMG_VR.WID_Athena_SMG_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41826,7 +41847,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_UC.WID_Assault_Chrono_Pan_Rifle_Athena_UC",
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UC.WID_Shotgun_Pump_DragonCart_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41856,7 +41877,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_UC.WID_Shotgun_FirePetal_Flavor_Athena_UC",
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/MilitaryAR/WID_Assault_TidalCrane_Athena_UC.WID_Assault_TidalCrane_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41886,7 +41907,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/WreckerRevolver/WID_Revolver_TidalCrane_Athena_UC.WID_Revolver_TidalCrane_Athena_UC",
+        "ItemDefinition": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41896,7 +41917,7 @@
       },
       "WorldList.BusWeap.05": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.1,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41916,7 +41937,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LemonExam/Gameplay/WID_Athena_LemonExam_SR.WID_Athena_LemonExam_SR",
+        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UC.WID_SMG_FirePetal_Quirky_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41926,7 +41947,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41946,10 +41967,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/SmartRifle/Gameplay/WID_Rifle_AutoAim_VR.WID_Rifle_AutoAim_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44207,8 +44225,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -44223,7 +44241,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PoliteDinner/Gameplay/WID_PoliteDinner.WID_PoliteDinner",
+        "ItemDefinition": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46497,7 +46515,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ValidCandy/Gameplay/WID_Athena_ValidCandy.WID_Athena_ValidCandy",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/ForbiddenFruit_Athena_SilverBlazer_Mini_UC.ForbiddenFruit_Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

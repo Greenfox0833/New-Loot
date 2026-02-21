@@ -96,3 +96,28 @@
   """
 2026-02-19 19:19:07 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.19s)
 2026-02-19 19:19:07 | INFO | prewarm start
+2026-02-19 19:19:23 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (16.63s)
+2026-02-19 19:19:23 | INFO | 画像化タスク数: 157
+2026-02-19 19:19:23 | INFO | 画像生成 進捗: 1/157
+2026-02-19 19:19:24 | INFO | 画像生成 進捗: 50/157
+2026-02-19 19:19:24 | INFO | 画像生成 進捗: 100/157
+2026-02-19 19:19:25 | INFO | 画像生成 進捗: 150/157
+2026-02-19 19:19:25 | INFO | 画像生成 進捗: 157/157
+2026-02-19 19:19:25 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-02-19 19:19:25 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Blitz_2026-02-19_19-19-25.json (added=10 removed=8 change=12)
+2026-02-19 19:19:25 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\BR_Discor.py
+2026-02-19 19:19:25 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-02-19 19:19:31 | INFO | git commit stdout: [main e112127] ForbiddenFruit update 2026-02-19 19:19:28
+ 13 files changed, 22699 insertions(+), 219 deletions(-)
+ create mode 100644 System Update/ForbiddenFruit/output/history/BR_20260219_1919/items_unique_min_diff.json
+ create mode 100644 System Update/ForbiddenFruit/output/logs/pipeline_2026-02-19_19-19-06.log
+ create mode 100644 System Update/ForbiddenFruit/output/summary/v39.30_2026-02-19_19-19.json
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\225\343\203\255\343\203\274\343\203\231\343\203\252\343\203\274\343\203\237\343\202\271\343\203\210\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\255\343\203\203\343\202\257\343\202\252\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\255\343\203\203\343\202\257\343\202\252\343\203\263\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-02-19_19-19.json"
+2026-02-19 19:19:33 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   998e7b3..e112127  main -> main
+2026-02-19 19:19:33 | INFO | ✓ GitHub Push 完了
+2026-02-19 19:19:33 | INFO | ===== ForbiddenFruit: pipeline end =====

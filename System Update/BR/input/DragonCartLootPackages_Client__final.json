@@ -86089,7 +86089,7 @@
       },
       "WorldList.BusLoadout.Item2.01": {
         "LootPackageID": "WorldList.BusLoadout.Item2",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -86109,10 +86109,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/Seasonal/WID_Sniper_Valentine_Athena_UR.WID_Sniper_Valentine_Athena_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_SR.WID_DragonCart_LightningGun_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

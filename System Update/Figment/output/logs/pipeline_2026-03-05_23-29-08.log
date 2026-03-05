@@ -56,3 +56,23 @@
   """
 2026-03-05 23:29:09 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.30s)
 2026-03-05 23:29:09 | INFO | prewarm start
+2026-03-05 23:29:27 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (17.87s)
+2026-03-05 23:29:27 | INFO | 画像化タスク数: 92
+2026-03-05 23:29:27 | INFO | 画像生成 進捗: 1/92
+2026-03-05 23:29:28 | INFO | 画像生成 進捗: 50/92
+2026-03-05 23:29:28 | INFO | 画像生成 進捗: 92/92
+2026-03-05 23:29:28 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-05 23:29:28 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-03-05 23:29:28 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-03-05 23:29:28 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-05 23:29:30 | INFO | git commit stdout: [main 33bc934] Figment update 2026-03-05 23:29:29
+ 13 files changed, 201466 insertions(+), 8 deletions(-)
+ create mode 100644 System Update/Figment/output/history/BR_20260305_2329/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-03-05_23-29-08.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-03-05_23-29.json
+ delete mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-03-05_23-25.json"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-03-05_23-29.json"
+2026-03-05 23:29:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   271469f..33bc934  main -> main
+2026-03-05 23:29:32 | INFO | ✓ GitHub Push 完了
+2026-03-05 23:29:32 | INFO | ===== Figment: pipeline end =====

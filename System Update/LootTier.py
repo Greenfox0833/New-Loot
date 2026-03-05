@@ -44,7 +44,14 @@ def read_datatable_json(path: Path) -> Dict[str, Any]:
             raise ValueError(f"{path.name}: 空リストです")
         data = data[0]
     if not isinstance(data, dict) or "Rows" not in data:
-        raise ValueError(f"{path.name}: DataTable形式ではありません（Rowsがありません）")
+        raise ValueError(f"{path.name}: DataTable??????????Rows???????")
+
+    rows = data.get("Rows")
+    if rows is None:
+        data["Rows"] = {}
+    elif not isinstance(rows, dict):
+        raise ValueError(f"{path.name}: Rows ? dict ????????{type(rows).__name__}?")
+
     return data
 
 

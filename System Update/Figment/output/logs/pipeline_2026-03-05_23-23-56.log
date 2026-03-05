@@ -1,0 +1,62 @@
+2026-03-05 23:23:57 | INFO | log file (Figment): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\logs\pipeline_2026-03-05_23-23-56.log
+2026-03-05 23:23:57 | INFO | ===== Figment: pipeline start =====
+2026-03-05 23:23:57 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+2026-03-05 23:23:57 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment
+2026-03-05 23:23:57 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-05 23:23:57 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-05 23:23:57 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[430] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.02.Weight=0.000000 -> SKIP(no row)
+[572] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.39.Weight=0.050000 -> SKIP(no row)
+[573] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.19.Weight=0.060000 -> SKIP(no row)
+[574] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.15.Weight=0.500000 -> SKIP(no row)
+[575] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.22.Weight=0.050000 -> SKIP(no row)
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=5
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootPackages_Backup
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages_Backup__final.json
+2026-03-05 23:23:57 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-05 23:23:57 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootTierData_Backup
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData_Backup__final.json
+2026-03-05 23:23:57 | INFO | ✓ Hotfix 適用完了 (0.61s)
+2026-03-05 23:23:57 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+2026-03-05 23:23:57 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+2026-03-05 23:23:57 | INFO | load done (0.07s)
+2026-03-05 23:23:57 | INFO | build summary start
+2026-03-05 23:23:57 | INFO | build summary done (0.00s)
+2026-03-05 23:23:57 | INFO | enrich summary with names start
+2026-03-05 23:23:57 | INFO | enrich summary done (0.00s)
+2026-03-05 23:23:57 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-03-05_23-23.json
+2026-03-05 23:23:57 | INFO | build Figment_LootData start
+2026-03-05 23:23:57 | INFO | build BR_LootData done (0.00s)
+2026-03-05 23:23:57 | INFO | ✅ Figment_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment\Figment_LootData_2026-03-05_23-23.json
+2026-03-05 23:23:57 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_LootPool.json
+2026-03-05 23:23:57 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py
+2026-03-05 23:23:58 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-03-05_23-23.json
+✅ 抽出件数: 0
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-02-17_07-13.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-03-05_23-23.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 92 / 変更 : 0 / 変化なし : 0
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\history\BR_20260305_2323\items_unique_min_diff.json
+2026-03-05 23:23:58 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-03-05 23:23:58 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.30s)
+2026-03-05 23:23:58 | INFO | prewarm start
+2026-03-05 23:23:58 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.00s)
+2026-03-05 23:23:58 | WARNING | MinList が空です: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+2026-03-05 23:23:58 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\BR_Discor.py
+2026-03-05 23:23:58 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot

@@ -338,3 +338,35 @@
   """
 2026-03-05 18:30:25 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.60s)
 2026-03-05 18:30:25 | INFO | prewarm start
+2026-03-05 18:30:27 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.20s)
+2026-03-05 18:30:27 | INFO | 画像化タスク数: 89
+2026-03-05 18:30:27 | INFO | 画像生成 進捗: 1/89
+2026-03-05 18:30:28 | INFO | 画像生成 進捗: 50/89
+2026-03-05 18:30:29 | INFO | 画像生成 進捗: 89/89
+2026-03-05 18:30:29 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-05 18:30:29 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_Comp_2026-03-05_18-30-29.json (added=19 removed=46 change=46)
+2026-03-05 18:30:29 | INFO | ℹ️ BR_Discord が見つかりません: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\scripts\BR_Discor.py
+2026-03-05 18:30:29 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-05 18:30:37 | INFO | git commit stdout: [main e32a5fb] BR_Comp update 2026-03-05 18:30:32
+ 31 files changed, 61567 insertions(+), 22776 deletions(-)
+ create mode 100644 System Update/BR_Comp/output/history/BR_20260305_1830/items_unique_min_diff.json
+ create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-03-05_18-30-24.log
+ create mode 100644 System Update/BR_Comp/output/summary/v39.30_2026-03-05_18-30.json
+ create mode 100644 "System Update/shared/images/BR_Comp/Assault Rifle   - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Assault Rifle   - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Balloons - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Combat Shotgun - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Combat Shotgun - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Combat Shotgun - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Combat Shotgun - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Combat Shotgun - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Suppressed Submachine Gun - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Suppressed Submachine Gun - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Suppressed Submachine Gun - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Suppressed Submachine Gun - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/Suppressed Submachine Gun - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-03-05_18-30.json"
+2026-03-05 18:30:43 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   7208ec8..e32a5fb  main -> main
+2026-03-05 18:30:43 | INFO | ✓ GitHub Push 完了
+2026-03-05 18:30:43 | INFO | ===== BR_Comp: pipeline end =====

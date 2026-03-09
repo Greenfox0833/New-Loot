@@ -1,4 +1,4 @@
-import json
+﻿import json
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -11,7 +11,6 @@ from config import (
     ENABLE_ICON_CACHE_PREWARM,
     ENABLE_IMAGE_CREATION,
     MAX_WORKERS,
-    PATH_BR_DISCORD,
     PATH_LOOTDATA_DIR,
     PATH_LOOT_SUMMARY,
     PATH_LP_JSON,
@@ -23,6 +22,7 @@ from config import (
     VERSION_PREFIX,
 )
 from diff_loot_auto import run_latest_diff
+from new_item_images import copy_new_item_images
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
@@ -34,7 +34,6 @@ def get_versioned_filename(prefix, save_dir):
     return str(filename)
 
 def main():
-    br_discord = Path(PATH_BR_DISCORD)
     loot_summary_py = Path(PATH_LOOT_SUMMARY)
     version_save_dir = Path(PATH_VERSION_SAVE_DIR)
     lt_json_path = Path(PATH_LT_JSON)
@@ -139,6 +138,18 @@ def main():
                     f"✅ Loot diff を作成: {out_path} "
                     f"(added={len(diff['added'])} removed={len(diff['removed'])} change={len(diff['change'])})"
                 )
+                from config import resolve_out_dir
+
+                new_item_dir, copied_count, missing_count = copy_new_item_images(
+                    PROFILE_NAME,
+                    diff,
+                    Path(resolve_out_dir("MinList", "_FromMinList")),
+                    minlist_path,
+                )
+                if copied_count > 0 and new_item_dir is not None:
+                    print(f"✅ NewItem 画像を保存: {new_item_dir} (copied={copied_count} missing={missing_count})")
+                else:
+                    print(f"ℹ️ NewItem 画像の追加対象なし (copied={copied_count} missing={missing_count})")
         except Exception as e:
             print("[!] Loot diff に失敗:", e)
 
@@ -146,15 +157,6 @@ def main():
         print("[!] main 内でエラー:", e)
 
     finally:
-        try:
-            if br_discord.exists():
-                subprocess.run([sys.executable, str(br_discord)], check=True)
-                print("✓ BR_Discord 実行完了")
-            else:
-                print(f"ℹ️ BR_Discord が見つかりません: {br_discord}")
-        except Exception as e:
-            print("[!] BR_Discord 実行に失敗:", e)
-
         try:
             repo_dir = Path(PATH_REPO_DIR)
             subprocess.run(["git", "-C", str(repo_dir), "add", "."], check=True)
@@ -166,3 +168,4 @@ def main():
             print("[!] GitHub Push に失敗:", e)
 
         print("===== BR: pipeline end =====")
+

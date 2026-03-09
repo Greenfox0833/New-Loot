@@ -29,7 +29,6 @@ from config import (
     LOG_EVERY,
     LOG_LEVEL,
     MAX_WORKERS,
-    PATH_BR_DISCORD,
     PATH_LOOTDATA_DIR,
     PATH_LOOT_SUMMARY,
     PATH_LP_JSON,
@@ -43,6 +42,7 @@ from config import (
     VERSION_PREFIX,
 )
 from diff_loot_auto import run_latest_diff
+from new_item_images import copy_new_item_images
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
@@ -82,7 +82,6 @@ def get_versioned_filename(prefix, save_dir):
 
 def main():
     logger = _setup_logger()
-    br_discord = Path(PATH_BR_DISCORD)
     loot_summary_py = Path(PATH_LOOT_SUMMARY)
     version_save_dir = Path(PATH_VERSION_SAVE_DIR)
     lt_json_path = Path(PATH_LT_JSON)
@@ -250,29 +249,26 @@ def main():
                     len(diff["removed"]),
                     len(diff["change"]),
                 )
+
+                from config import resolve_out_dir
+
+                new_item_dir, copied_count, missing_count = copy_new_item_images(
+                    PROFILE_NAME,
+                    diff,
+                    Path(resolve_out_dir("MinList", "_FromMinList")),
+                    minlist_path,
+                )
+                if copied_count > 0 and new_item_dir is not None:
+                    logger.info("✅ NewItem 画像を保存: %s (copied=%s missing=%s)", new_item_dir, copied_count, missing_count)
+                else:
+                    logger.info("ℹ️ NewItem 画像の追加対象なし (copied=%s missing=%s)", copied_count, missing_count)
         except Exception:
             logger.warning("Loot diff に失敗: %s", traceback.format_exc().strip())
-
     except Exception as e:
         logger.error("[!] main 内でエラー: %s", e)
         logger.error(traceback.format_exc().strip())
 
     finally:
-        try:
-            if br_discord.exists():
-                logger.info("BR_Discord start: %s", br_discord)
-                t0 = time.time()
-                res_discord = subprocess.run([sys.executable, str(br_discord)], check=True, capture_output=True, text=True)
-                if res_discord.stdout:
-                    logger.info("BR_Discord stdout: %s", res_discord.stdout.strip())
-                if res_discord.stderr:
-                    logger.warning("BR_Discord stderr: %s", res_discord.stderr.strip())
-                logger.info("✓ BR_Discord 実行完了 (%.2fs)", time.time() - t0)
-            else:
-                logger.info("ℹ️ BR_Discord が見つかりません: %s", br_discord)
-        except Exception as e:
-            logger.warning("[!] BR_Discord 実行に失敗: %s", e)
-            logger.warning(traceback.format_exc().strip())
 
         try:
             repo_dir = Path(PATH_REPO_DIR)
@@ -299,6 +295,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
 
 
 

@@ -147,9 +147,9 @@ def main():
                     minlist_path,
                 )
                 if copied_count > 0 and new_item_dir is not None:
-                    print(f"✅ NewItem 画像を保存: {new_item_dir} (copied={copied_count} missing={missing_count})")
+                    print(f"✅ AddedItems 画像を保存: {new_item_dir} (copied={copied_count} missing={missing_count})")
                 else:
-                    print(f"ℹ️ NewItem 画像の追加対象なし (copied={copied_count} missing={missing_count})")
+                    print(f"ℹ️ AddedItems 画像の追加対象なし (copied={copied_count} missing={missing_count})")
         except Exception as e:
             print("[!] Loot diff に失敗:", e)
 
@@ -168,4 +168,5 @@ def main():
             print("[!] GitHub Push に失敗:", e)
 
         print("===== BR: pipeline end =====")
+
 

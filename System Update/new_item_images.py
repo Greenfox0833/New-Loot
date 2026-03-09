@@ -1,4 +1,4 @@
-import json
+﻿import json
 import re
 import shutil
 from datetime import datetime
@@ -78,8 +78,8 @@ def copy_new_item_images(
             missing += 1
             continue
 
-        filename = f"{_safe_name(localized)} - {tier}.png"
-        src = source_dir / filename
+        src_filename = f"{_safe_name(localized)} - {tier}.png"
+        src = source_dir / src_filename
         if not src.exists():
             missing += 1
             continue
@@ -89,11 +89,13 @@ def copy_new_item_images(
         if dest_dir is None:
             now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
             common_dir = Path(__file__).resolve().parent
-            dest_dir = common_dir / "shared" / "images" / profile_name / "NewItem" / now
+            dest_dir = common_dir / "shared" / "images" / profile_name / "AddedItems" / now
             dest_dir.mkdir(parents=True, exist_ok=True)
 
-        shutil.copy2(src, dest_dir / filename)
+        dest_filename = f"{tier} - {_safe_name(localized)}.png"
+        shutil.copy2(src, dest_dir / dest_filename)
         copied_sources.add(src)
         copied += 1
 
     return dest_dir, copied, missing
+

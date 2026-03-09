@@ -260,9 +260,9 @@ def main():
                     minlist_path,
                 )
                 if copied_count > 0 and new_item_dir is not None:
-                    logger.info("✅ NewItem 画像を保存: %s (copied=%s missing=%s)", new_item_dir, copied_count, missing_count)
+                    logger.info("✅ AddedItems 画像を保存: %s (copied=%s missing=%s)", new_item_dir, copied_count, missing_count)
                 else:
-                    logger.info("ℹ️ NewItem 画像の追加対象なし (copied=%s missing=%s)", copied_count, missing_count)
+                    logger.info("ℹ️ AddedItems 画像の追加対象なし (copied=%s missing=%s)", copied_count, missing_count)
         except Exception:
             logger.warning("Loot diff に失敗: %s", traceback.format_exc().strip())
     except Exception as e:
@@ -296,6 +296,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 

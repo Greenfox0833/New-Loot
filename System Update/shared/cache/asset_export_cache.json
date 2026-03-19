@@ -1,10 +1,10 @@
 {
   "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR": {
-    "ts": 1773359183,
+    "ts": 1773960875,
     "data": {
-      "hash": "bbd6e5d95f690bd74a33f478f5d0f4b886d987e124c8e9ebcea3f595e06c3997",
+      "hash": "ba47afa672060db5781a4937f25e72c3b763998e0d8bb49ab2886a8a78f7b895",
       "entries": 1,
-      "bytes": 7595,
+      "bytes": 7605,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -75,11 +75,9 @@
                 "Ammo:Special",
                 "CH7S1",
                 "Epic",
-                "NewThisSeason",
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "E3662E7E4BBA58901BF6E2A173AE8E15",
@@ -129,7 +127,7 @@
                 "PickupMeshTransform": {
                   "Rotation": {
                     "x": 0.0,
-                    "y": -0.0,
+                    "y": 0.0,
                     "z": 0.0,
                     "w": 1.0,
                     "isNormalized": true,
@@ -335,10 +333,11 @@
                   "MobileHUD.DisplayADS",
                   "Item.Weapon.Ranged.Area51Gun",
                   "HUD.PreferredSlotType.SMG",
+                  "phoebe.weapon.ranged.smg",
+                  "phoebe.weapon.trait.fullauto",
                   "Phoebe.Items.DragonCart.LightningGun",
                   "Item.ExclusivePickupGroup.Area51Gun",
-                  "Rarity.VeryRare",
-                  "phoebe.weapon.ranged.lightning"
+                  "Rarity.VeryRare"
                 ]
               },
               {
@@ -368,6 +367,9 @@
                   "sourceString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> out of energy",
                   "localizedString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> out of energy"
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }
@@ -11319,7 +11321,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C": {
-    "ts": 1773956825,
+    "ts": 1773960875,
     "data": {
       "hash": "d8736a9543851d5eb011658c78c53aa2d63a2841d68d5e1d0bfc6c83602d29d1",
       "entries": 1,
@@ -11714,7 +11716,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R": {
-    "ts": 1773956826,
+    "ts": 1773960876,
     "data": {
       "hash": "773644277ccc1aa387824b325989eee92015fe51918e63611187a2ffcbd86376",
       "entries": 1,
@@ -12109,7 +12111,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR": {
-    "ts": 1773956826,
+    "ts": 1773960876,
     "data": {
       "hash": "8cf4fe2c80fec8dfbd4d519febda8e3da398a91a2273e5cf244bd3eec8b3b5e0",
       "entries": 1,
@@ -12504,7 +12506,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC": {
-    "ts": 1773956826,
+    "ts": 1773960876,
     "data": {
       "hash": "341e4f2b2d4fa6adcb1df5dcc4e4f394d4ad98790b6c44c003352d8217170f32",
       "entries": 1,
@@ -12896,7 +12898,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR": {
-    "ts": 1773956826,
+    "ts": 1773960876,
     "data": {
       "hash": "e064ef81a5b9326fe9f91d64bd5890eebfb34d0f1f13353165e4eea0ef5015c4",
       "entries": 1,
@@ -82651,11 +82653,11 @@
     }
   },
   "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics": {
-    "ts": 1773359208,
+    "ts": 1773960877,
     "data": {
-      "hash": "6ab3c2281f9c53eb19ddfe970c609bf1de33c7d5a98ec3dc856a5979ac407e4b",
+      "hash": "e65582b952c0cff857741cf5bb0d19dfd4c9be7edca45390648ef5d1c21fb4eb",
       "entries": 1,
-      "bytes": 8453,
+      "bytes": 8439,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -82743,11 +82745,9 @@
                 "CH7S1",
                 "EpicItem",
                 "Item",
-                "MobilityItem",
-                "NewThisSeason"
+                "MobilityItem"
               ]
             },
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "4BD718F64340E887748BF7867227A8E7",
@@ -83069,6 +83069,9 @@
                   "AssetPathName": "/MistRaven/UI/Icons/T_IconWide_Combined_MistRaven.T_IconWide_Combined_MistRaven",
                   "SubPathString": ""
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }

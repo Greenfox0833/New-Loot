@@ -100215,11 +100215,11 @@
     }
   },
   "/BigBushGrenade/Items/Athena_BushGrenade": {
-    "ts": 1773095359,
+    "ts": 1773959131,
     "data": {
-      "hash": "d1d809fafa6b610ab2fea2f1c35db05eb7d16024c85cf907c132dd13241e9733",
+      "hash": "90132958b98eb5e4f2c8f5a0d599bf746a6dbf78c45c7e21367d38b37b8f12de",
       "entries": 1,
-      "bytes": 7386,
+      "bytes": 7388,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -100284,7 +100284,6 @@
               ]
             },
             "ItemType": "EFortItemType::Consumable",
-            "Rarity": "EFortRarity::Rare",
             "ItemName": {
               "namespace": "",
               "key": "82808AA64E4424DED81210A697548C09",
@@ -100603,6 +100602,9 @@
                   "Item.Trait.Transient",
                   "Item.Trait.InventorySizeLimited"
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
               }
             ]
           }

@@ -1,0 +1,33 @@
+2026-03-19 15:40:33 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-03-19_15-40-33.log
+2026-03-19 15:40:33 | INFO | ===== BR: pipeline start =====
+2026-03-19 15:40:33 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-03-19 15:40:33 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
+2026-03-19 15:40:33 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-19 15:40:33 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-19 15:40:33 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=427, added=1026
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootPackages_Client
+[362] RowUpdate WorldList.FlopperDefault.Light.18.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UR.WID_Pistol_Muster_S39_Athena_UR -> OK
+[363] RowUpdate WorldList.FlopperHigh.Light.18.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UR.WID_Pistol_Muster_S39_Athena_UR -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=2, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\TeaCakeLootPackages_Client__final.json
+2026-03-19 15:40:33 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-19 15:40:34 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootTierData_Client.json : replaced=1, added=121
+[HOTFIX:SEASON2] target=/DragonCartLoot/DataTables/DragonCartLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\TeaCakeLootTierData_Client__final.json
+2026-03-19 15:40:34 | INFO | ✓ Hotfix 適用完了 (0.84s)
+2026-03-19 15:40:34 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-03-19 15:40:34 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-03-19 15:40:34 | INFO | load done (0.11s)
+2026-03-19 15:40:34 | INFO | build summary start
+2026-03-19 15:41:25 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot

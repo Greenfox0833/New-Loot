@@ -174,7 +174,7 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryLootPackages_Habanero.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.json",
 ]
 HOTFIX_LP_MAX_PATHS = 10
@@ -182,28 +182,26 @@ HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Ho
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/Datatables/AthenaLootPackages_Client",
-    "/BlastBerryLoot/DataTables/BlastBerryLootPackages",
-    "/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride"
+    "/BlastBerryLoot/DataTables/Habanero/BlastBerryLootPackages_Habanero",
+    "/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero"
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryTierData_Habanero.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero.json",
 ]
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/Datatables/AthenaLootTierData_Client",
-    "/BlastBerryLoot/DataTables/BlastBerryTierData",
-    "/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride"
+    "/BlastBerryLoot/DataTables/Habanero/BlastBerryTierData_Habanero",
+    "/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero"
 ]
 
 # パス解決（System Update 完結のため無効化）
 AUTO_RESOLVE_PATHS = False
 BASE_PATHS = []
 SEASON_PATHS = []
-
-

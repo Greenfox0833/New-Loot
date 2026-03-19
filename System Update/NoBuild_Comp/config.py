@@ -174,39 +174,44 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildComp/DragonCartLootPackages_Client_Comp_NoBuild.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildComp/DragonCartLootPackages_Client_Comp_Backup.json"
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootPackages_Client.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootPackages_Client_Comp.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup.json"
 ]
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootPackages_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR",
-    "/DragonCartLoot/DataTables/NoBuildComp/DragonCartLootPackages_Client_Comp_NoBuild",
-    "/DragonCartLoot/DataTables/NoBuildComp/DragonCartLootPackages_Client_Comp_Backup",
+    "/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client",
+    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp",
+    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR",
+    "/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp",
+    "/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup",
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootTierData_Client.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootTierData_Client_Comp.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp.json",
 ]
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootTierData_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
+    "/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client",
+    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp",
+    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR",
+    "/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp",
 ]
 
 # パス解決（System Update 完結のため無効化）
 AUTO_RESOLVE_PATHS = False
 BASE_PATHS = []
 SEASON_PATHS = []
-

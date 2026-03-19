@@ -174,35 +174,34 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootPackages_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootPackages_Client.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR.json",
 ]
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootPackages_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR",
+    "/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client",
+    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR",
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/DragonCartLootTierData_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/DragonCartLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootTierData_Client.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR.json",
 ]
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/DragonCartLoot/DataTables/DragonCartLootTierData_Client",
-    "/DragonCartLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
+    "/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client",
+    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR",
 ]
 
 # パス解決（System Update 完結のため無効化）
 AUTO_RESOLVE_PATHS = False
 BASE_PATHS = []
 SEASON_PATHS = []
-

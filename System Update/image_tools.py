@@ -5,6 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from cache import (
     ICON_PATH_CACHE,
+    extract_raw_rarity,
     fetch_export_image_as_pil,
     get_name_by_asset,
     save_icon_cache,
@@ -123,7 +124,7 @@ def generate_weapon_card_from_export(weapon_json, asset_path: str, out_dir: str,
         data = jo[0] if isinstance(jo, list) else jo
         props = data["Properties"]
 
-        raw_rarity = props.get("Rarity")
+        raw_rarity = extract_raw_rarity(props)
         rarity = RARITY_MAP.get(raw_rarity, "Uncommon") if raw_rarity else "Uncommon"
 
         weapon_name = get_name_by_asset(asset_path)

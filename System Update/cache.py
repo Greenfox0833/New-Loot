@@ -48,6 +48,28 @@ def icon_cache_key(path_like: str) -> str:
     clean = path_like.strip().strip("/").split(".")[0]
     return clean.replace("\\", "/").replace("/", "__") + ".png"
 
+def extract_raw_rarity(props: dict) -> str | None:
+    if not isinstance(props, dict):
+        return None
+
+    raw_rarity = props.get("Rarity")
+    if isinstance(raw_rarity, str) and raw_rarity:
+        return raw_rarity
+
+    data_list = props.get("DataList", [])
+    if isinstance(data_list, dict):
+        data_list = [data_list]
+
+    if isinstance(data_list, list):
+        for entry in data_list:
+            if not isinstance(entry, dict):
+                continue
+            raw_rarity = entry.get("Rarity")
+            if isinstance(raw_rarity, str) and raw_rarity:
+                return raw_rarity
+
+    return None
+
 def _mirror_cache_file(src: str, dst: str) -> None:
     try:
         if not src or not dst:
@@ -208,7 +230,7 @@ def get_rarity_by_asset(asset_path: str) -> str:
             jo = export_json.get("jsonOutput", [])
             data = jo[0] if isinstance(jo, list) else jo
             props = data.get("Properties", {})
-            raw_rarity = props.get("Rarity")
+            raw_rarity = extract_raw_rarity(props)
             rarity_en = RARITY_MAP.get(raw_rarity, "Uncommon") if raw_rarity else "Uncommon"
             rarity_ja = RARITY_JP_MAP.get(rarity_en.lower(), "アンコモン")
     except Exception:

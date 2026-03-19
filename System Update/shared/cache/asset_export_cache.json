@@ -83533,11 +83533,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_R": {
-    "ts": 1773095557,
+    "ts": 1773960861,
     "data": {
-      "hash": "89fc529a9e3df51abc2f214fa27b8ebc303630677b7cd47c306abb6a834963de",
+      "hash": "8d2c1fb2041ecc46a00e0f62a3832bd34f76c9311d73b0c7c0971cdfa1542893",
       "entries": 1,
-      "bytes": 7635,
+      "bytes": 7910,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -83608,7 +83608,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Rare",
             "ItemName": {
               "namespace": "",
               "key": "77FA8CBB4568C4297306B18989B9A1F9",
@@ -83792,7 +83791,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Pickup_Cue.ExplosiveRepeater_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -83800,7 +83799,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Drop_Cue.ExplosiveRepeater_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -83808,10 +83807,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_DropImpact_Cue.ExplosiveRepeater_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon_Pickup.SL_ExplosiveRepeater_Weapon_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -83911,6 +83915,25 @@
                   "roll": -16.679253
                 },
                 "Scale": 1.0
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_ExplosiveRepeater_Weapon'",
+                    "ObjectPath": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
+                  "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
+                }
               }
             ]
           }
@@ -83919,11 +83942,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_SR": {
-    "ts": 1773095558,
+    "ts": 1773960861,
     "data": {
-      "hash": "79310dae1c24aed5c7f189f35ceb2eb6fc76824acefe8e6720421d87f924dce8",
+      "hash": "b2761a89d45c7a769457a56c8c229505ff7c3719cf2c7ec39bc9b109953869d7",
       "entries": 1,
-      "bytes": 7632,
+      "bytes": 7907,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -83994,7 +84017,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Legendary",
             "ItemName": {
               "namespace": "",
               "key": "8FDD7C8743A211BA43C7C9829558D114",
@@ -84178,7 +84200,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Pickup_Cue.ExplosiveRepeater_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -84186,7 +84208,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Drop_Cue.ExplosiveRepeater_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -84194,10 +84216,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_DropImpact_Cue.ExplosiveRepeater_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon_Pickup.SL_ExplosiveRepeater_Weapon_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -84296,6 +84323,25 @@
                   "roll": -16.679253
                 },
                 "Scale": 1.0
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_ExplosiveRepeater_Weapon'",
+                    "ObjectPath": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
+                  "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
+                }
               }
             ]
           }
@@ -84304,11 +84350,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_UC": {
-    "ts": 1773095558,
+    "ts": 1773960861,
     "data": {
-      "hash": "6b9762bd473c583a0975c40b98dd057c55459a3af9520f3df67f1d288d2a0697",
+      "hash": "51bf0a641e940d8d0da0046b10fb7dd3d1ed95b16cacdb550ceb66349fd3348b",
       "entries": 1,
-      "bytes": 7616,
+      "bytes": 7889,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -84562,7 +84608,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Pickup_Cue.ExplosiveRepeater_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -84570,7 +84616,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Drop_Cue.ExplosiveRepeater_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -84578,10 +84624,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_DropImpact_Cue.ExplosiveRepeater_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon_Pickup.SL_ExplosiveRepeater_Weapon_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -84681,6 +84732,22 @@
                   "roll": -16.679253
                 },
                 "Scale": 1.0
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_ExplosiveRepeater_Weapon'",
+                    "ObjectPath": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
+                  "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
+                }
               }
             ]
           }
@@ -84689,11 +84756,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_VR": {
-    "ts": 1773095558,
+    "ts": 1773960862,
     "data": {
-      "hash": "d9e04cf9dfa71f366d3b08bee224a6324b99f81aacc54a28afa3c647e77a4808",
+      "hash": "e1f5e4bda179683721e1c002d71970d3f450ed1171aaebcbb5b2cb6132a09347",
       "entries": 1,
-      "bytes": 7641,
+      "bytes": 7916,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -84764,7 +84831,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "C578F83349C5809A1F76C5B2CE91AA37",
@@ -84948,7 +85014,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Pickup_Cue.ExplosiveRepeater_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -84956,7 +85022,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_Drop_Cue.ExplosiveRepeater_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -84964,10 +85030,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/ExplosiveRepeater_DropImpact_Cue.ExplosiveRepeater_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon_Pickup.SL_ExplosiveRepeater_Weapon_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -85067,6 +85138,25 @@
                   "roll": -16.679253
                 },
                 "Scale": 1.0
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_ExplosiveRepeater_Weapon'",
+                    "ObjectPath": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/Sounds/SL_ExplosiveRepeater_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
+                  "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
+                }
               }
             ]
           }
@@ -85075,11 +85165,11 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_R": {
-    "ts": 1773095559,
+    "ts": 1773960862,
     "data": {
-      "hash": "1f79c0e28cd5c4f731205d4ed4d2bd02030f24179ff30f8de6dbdaf30d9acf23",
+      "hash": "214d1e9e334099aa5e9210cd9d11360f90d2f7c56616d2a1c238cbbea86ef658",
       "entries": 1,
-      "bytes": 7675,
+      "bytes": 7677,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -85156,7 +85246,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Rare",
             "ItemName": {
               "namespace": "",
               "key": "F7F9780B411F6C5C2CFFB898737C4DFB",
@@ -85472,6 +85561,9 @@
                   "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Pistol_NoSound'",
                   "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Pistol_NoSound.0"
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
               }
             ]
           }
@@ -85480,7 +85572,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_UC": {
-    "ts": 1773095559,
+    "ts": 1773960862,
     "data": {
       "hash": "629ad19ee4de6803f513359a4f752c14de2d84dca41eabfa846b1b13b416852b",
       "entries": 1,
@@ -85884,11 +85976,11 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_VR": {
-    "ts": 1773095560,
+    "ts": 1773960862,
     "data": {
-      "hash": "aee268019c4172570421072bbfa2655b41702c63ab5863f6afe90f0e7508f03e",
+      "hash": "f4382970a858ab70912f2d104d5ee72d10af2579ff167f71b9c2e38d413cffb9",
       "entries": 1,
-      "bytes": 7680,
+      "bytes": 7682,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -85965,7 +86057,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "1A0E4ED94D98774252DFAA822A099583",
@@ -86281,6 +86372,9 @@
                   "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Pistol_NoSound'",
                   "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Pistol_NoSound.0"
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }
@@ -86289,11 +86383,11 @@
     }
   },
   "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_R": {
-    "ts": 1773095560,
+    "ts": 1773960863,
     "data": {
-      "hash": "26acee23b6de23783fdb2613b1855b72ed66e08c5645e23b0857bc70f1360f12",
+      "hash": "0697b253c2a2eda6145e91668a4179402d221f5e30dda77346206bdcbe01f3e1",
       "entries": 1,
-      "bytes": 8232,
+      "bytes": 8234,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -86353,7 +86447,6 @@
               "Item.Weapon.Ranged.Bow.Crossbow.Moonflax",
               "Tag:Weapon:wid_crossbow_moonflax_um_athena_r"
             ],
-            "Rarity": "EFortRarity::Rare",
             "ItemName": {
               "namespace": "",
               "key": "6C2229F3465FB404F7E64F95DE614A0E",
@@ -86681,6 +86774,9 @@
                     "bIsDynamic": true
                   }
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
               }
             ]
           }
@@ -86689,11 +86785,11 @@
     }
   },
   "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_SR": {
-    "ts": 1773095560,
+    "ts": 1773960863,
     "data": {
-      "hash": "77745fa33aa1a689208559c15416f0c688c6067e8e8284aa004dbd087b8a344c",
+      "hash": "6343c96d56fc3156c8239dd4158cb35448f82317d0b610d85c72e438b273c630",
       "entries": 1,
-      "bytes": 8243,
+      "bytes": 8245,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -86753,7 +86849,6 @@
               "Item.Weapon.Ranged.Bow.Crossbow.Moonflax",
               "Tag:Weapon:wid_crossbow_moonflax_um_athena_sr"
             ],
-            "Rarity": "EFortRarity::Legendary",
             "ItemName": {
               "namespace": "",
               "key": "B9ED6F7D459CDCCCB7A71F985E922C17",
@@ -87081,6 +87176,9 @@
                     "bIsDynamic": true
                   }
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
               }
             ]
           }
@@ -87089,11 +87187,11 @@
     }
   },
   "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_VR": {
-    "ts": 1773095560,
+    "ts": 1773960863,
     "data": {
-      "hash": "aded0b9593a0f93785c2461f37f17e48e8e1a0b58b71dc1d47b6e3fb091dfc6f",
+      "hash": "418271868ea30f1ef2cfb1176e398552ab4f307763e6b13e3b19ca5b72d21339",
       "entries": 1,
-      "bytes": 8238,
+      "bytes": 8240,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -87153,7 +87251,6 @@
               "Item.Weapon.Ranged.Bow.Crossbow.Moonflax",
               "Tag:Weapon:wid_crossbow_moonflax_um_athena_vr"
             ],
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "86900C4D4FBEEF8E1A8E1BAD31EAD45A",
@@ -87481,6 +87578,9 @@
                     "bIsDynamic": true
                   }
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }
@@ -87489,11 +87589,11 @@
     }
   },
   "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_VR": {
-    "ts": 1773095561,
+    "ts": 1773960863,
     "data": {
-      "hash": "079f97c5460316a5c8c646b6fd89a000f888652efeac5080cd9ba5a6c633220d",
+      "hash": "34cff1152d8c72d48a8b8829b0b850105cb473c838f0dcff0894ba8a33d5cdd4",
       "entries": 1,
-      "bytes": 8144,
+      "bytes": 8146,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -87540,7 +87640,6 @@
               "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax",
               "Tag:Weapon:wid_sniper_moonflax_um_athena_vr"
             ],
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "473D92A24702FE3542E63CBA4338B1E0",
@@ -87881,6 +87980,9 @@
                   "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Prj_MoonFlax_Sniper.Prj_MoonFlax_Sniper_C",
                   "SubPathString": ""
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }
@@ -87889,11 +87991,11 @@
     }
   },
   "/NitroGauntletsGameplay/Gameplay/WID_Moonflax_NitroGauntlet": {
-    "ts": 1773095561,
+    "ts": 1773960864,
     "data": {
-      "hash": "1242563bd2decac82c58d3fcff05c8c55a95c4e7652ecbe6d6aa522062fe9819",
+      "hash": "a31387faf70a7a7579a1cb6af7249a0751e5aa99143736012c610dbb75ae1461",
       "entries": 1,
-      "bytes": 7368,
+      "bytes": 7370,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -87953,7 +88055,6 @@
               ]
             },
             "ItemType": "EFortItemType::WeaponMelee",
-            "Rarity": "EFortRarity::Epic",
             "ItemName": {
               "namespace": "",
               "key": "63C8899B457FD14841B674BD0B61E65F",
@@ -88255,6 +88356,9 @@
                   "Item.Trait.InventorySizeLimited",
                   "Item.Trait.IgnoreAmmoForReload"
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }

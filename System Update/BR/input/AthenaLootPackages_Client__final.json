@@ -34861,12 +34861,12 @@
       },
       "WorldList.ApolloLoot.Weapon.Rocket.01": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Rocket",
-        "Weight": 0.0,
+        "Weight": 1e-05,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -34881,10 +34881,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36350,8 +36347,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 18,
-          "Y": 18
+          "X": 36,
+          "Y": 36
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -92895,10 +92892,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/WID_Assault_Paprika_Heavy_Athena_SR.WID_Assault_Paprika_Heavy_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -92974,12 +92968,12 @@
       },
       "LIST_PaV_04_Boss_Ammo.03": {
         "LootPackageID": "LIST_PaV_04_Boss_Ammo",
-        "Weight": 0.25,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 18,
-          "Y": 18
+          "X": 36,
+          "Y": 36
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -93040,7 +93034,7 @@
       },
       "LIST_PaV_04_Boss_Consume.01": {
         "LootPackageID": "LIST_PaV_04_Boss_Consume",
-        "Weight": 0.2,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -93073,7 +93067,7 @@
       },
       "LIST_PaV_04_Boss_Consume.02": {
         "LootPackageID": "LIST_PaV_04_Boss_Consume",
-        "Weight": 0.08,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -93106,7 +93100,7 @@
       },
       "LIST_PaV_04_Boss_Consume.03": {
         "LootPackageID": "LIST_PaV_04_Boss_Consume",
-        "Weight": 0.48,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -93139,7 +93133,7 @@
       },
       "LIST_PaV_04_Boss_Consume.04": {
         "LootPackageID": "LIST_PaV_04_Boss_Consume",
-        "Weight": 0.24,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

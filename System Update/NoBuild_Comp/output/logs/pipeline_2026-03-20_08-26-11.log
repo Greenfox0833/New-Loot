@@ -101,3 +101,22 @@
   """
 2026-03-20 08:26:13 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.44s)
 2026-03-20 08:26:13 | INFO | prewarm start
+2026-03-20 08:26:14 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.60s)
+2026-03-20 08:26:14 | INFO | 画像化タスク数: 94
+2026-03-20 08:26:14 | INFO | 画像生成 進捗: 1/94
+2026-03-20 08:26:15 | INFO | 画像生成 進捗: 50/94
+2026-03-20 08:26:16 | INFO | 画像生成 進捗: 94/94
+2026-03-20 08:26:16 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-20 08:26:16 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_Comp_2026-03-20_08-26-16.json (added=0 removed=2 change=6)
+2026-03-20 08:26:16 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
+2026-03-20 08:26:16 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-20 08:26:19 | INFO | git commit stdout: [main e3b1b51] NoBuild_Comp update 2026-03-20 08:26:17
+ 12 files changed, 60568 insertions(+), 122 deletions(-)
+ create mode 100644 System Update/NoBuild_Comp/output/history/BR_20260320_0826/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-03-20_08-26-11.log
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-03-20_08-26.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild_Comp/NoBuild_Comp_LootData_2026-03-20_08-26.json"
+2026-03-20 08:26:22 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   7a2bd92..e3b1b51  main -> main
+2026-03-20 08:26:22 | INFO | ✓ GitHub Push 完了
+2026-03-20 08:26:22 | INFO | ===== NoBuild_Comp: pipeline end =====

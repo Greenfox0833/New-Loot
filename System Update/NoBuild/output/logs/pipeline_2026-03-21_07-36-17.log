@@ -78,3 +78,24 @@
   """
 2026-03-21 07:36:18 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.48s)
 2026-03-21 07:36:18 | INFO | prewarm start
+2026-03-21 07:36:20 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.84s)
+2026-03-21 07:36:20 | INFO | 画像化タスク数: 100
+2026-03-21 07:36:20 | INFO | 画像生成 進捗: 1/100
+2026-03-21 07:36:20 | INFO | 画像生成 進捗: 50/100
+2026-03-21 07:36:21 | INFO | 画像生成 進捗: 100/100
+2026-03-21 07:36:21 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 07:36:21 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_2026-03-21_07-36-21.json (added=1 removed=1 change=0)
+2026-03-21 07:36:21 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\NoBuild\AddedItems\2026-03-21_07-36-21 (copied=1 missing=0)
+2026-03-21 07:36:21 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-21 07:36:24 | INFO | git commit stdout: [main da2a883] BR update 2026-03-21 07:36:22
+ 11 files changed, 62515 insertions(+), 13 deletions(-)
+ create mode 100644 System Update/NoBuild/output/history/BR_20260321_0736/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild/output/logs/pipeline_2026-03-21_07-36-17.log
+ create mode 100644 System Update/NoBuild/output/summary/v39.30_2026-03-21_07-36.json
+ create mode 100644 "System Update/shared/images/NoBuild/AddedItems/2026-03-21_07-36-21/\343\203\206\343\202\243\343\202\2427 - \343\202\242\343\202\244\343\202\271\343\202\255\343\203\263\343\202\260\343\201\256\343\202\254\343\203\263\343\203\210\343\203\254\343\203\203\343\203\210.png"
+ create mode 100644 "System Update/shared/images/NoBuild/\343\202\271\343\202\257\343\202\244\343\203\226\343\203\252\343\203\274\343\201\256\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild/NoBuild_LootData_2026-03-21_07-36.json"
+2026-03-21 07:36:27 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   317e2c7..da2a883  main -> main
+2026-03-21 07:36:27 | INFO | ✓ GitHub Push 完了
+2026-03-21 07:36:27 | INFO | ===== BR: pipeline end =====

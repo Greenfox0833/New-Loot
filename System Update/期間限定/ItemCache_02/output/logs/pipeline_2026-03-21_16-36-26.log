@@ -1,0 +1,61 @@
+2026-03-21 16:36:26 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\logs\pipeline_2026-03-21_16-36-26.log
+2026-03-21 16:36:26 | INFO | ===== ItemCache_02: pipeline start =====
+2026-03-21 16:36:26 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\items_unique_min.json
+2026-03-21 16:36:26 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\ItemCache_02
+2026-03-21 16:36:26 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-21 16:36:26 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-21 16:36:26 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\RA_ItemCache_ItemSet2\Content\DataTables\ItemCache_02_LootPackages.json
+[HOTFIX:SEASON1] target=/RA_ItemCache_ItemSet2/DataTables/ItemCache_02_LootPackages
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\ItemCache_02_LootPackages__final.json
+2026-03-21 16:36:26 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-21 16:36:26 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\RA_ItemCache_ItemSet2\Content\DataTables\ItemCache_02_LootTierData.json
+[HOTFIX:SEASON1] target=/RA_ItemCache_ItemSet2/DataTables/ItemCache_02_LootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\ItemCache_02_LootTierData__final.json
+2026-03-21 16:36:26 | INFO | ✓ Hotfix 適用完了 (0.42s)
+2026-03-21 16:36:26 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootTierData_Client__final.json
+2026-03-21 16:36:26 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\AthenaLootPackages_Client__final.json
+2026-03-21 16:36:26 | INFO | load done (0.00s)
+2026-03-21 16:36:26 | INFO | build summary start
+2026-03-21 16:36:26 | INFO | build summary done (0.00s)
+2026-03-21 16:36:26 | INFO | enrich summary with names start
+2026-03-21 16:36:26 | INFO | enrich summary done (0.00s)
+2026-03-21 16:36:26 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\summary\v39.30_2026-03-21_16-36.json
+2026-03-21 16:36:26 | INFO | build BR_LootData start
+2026-03-21 16:36:26 | INFO | build BR_LootData done (0.00s)
+2026-03-21 16:36:26 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\ItemCache_02\ItemCache_02_LootData_2026-03-21_16-36.json
+2026-03-21 16:36:26 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ItemCache_02_LootPool.json
+2026-03-21 16:36:26 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\scripts\LootSummary.py
+2026-03-21 16:36:27 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\summary\v39.30_2026-03-21_16-36.json
+✅ 抽出件数: 3
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\summary\v39.30_2026-03-21_16-34.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\summary\v39.30_2026-03-21_16-36.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 3
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\output\history\BR_20260321_1636\items_unique_min_diff.json
+2026-03-21 16:36:27 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_02\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-03-21 16:36:27 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.23s)
+2026-03-21 16:36:27 | INFO | prewarm start
+2026-03-21 16:36:27 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.04s)
+2026-03-21 16:36:27 | INFO | 画像化タスク数: 3
+2026-03-21 16:36:27 | INFO | 画像生成 進捗: 1/3
+2026-03-21 16:36:27 | INFO | 画像生成 進捗: 3/3
+2026-03-21 16:36:27 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 16:36:27 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-03-21 16:36:27 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 16:36:29 | INFO | git commit stdout: [main 209f9f4] ItemCache_02 update 2026-03-21 16:36:27
+ 11 files changed, 2459 insertions(+), 3 deletions(-)
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_02/ItemCache_02_LootData_2026-03-21_16-36.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_02/output/history/BR_20260321_1636/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_02/output/logs/pipeline_2026-03-21_16-36-26.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_02/output/summary/v39.30_2026-03-21_16-36.json"
+2026-03-21 16:36:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   22ed7ec..209f9f4  main -> main
+2026-03-21 16:36:32 | INFO | ✓ GitHub Push 完了
+2026-03-21 16:36:32 | INFO | ===== ItemCache_02: pipeline end =====

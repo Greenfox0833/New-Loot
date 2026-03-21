@@ -1,0 +1,113 @@
+{
+  "LTG_Loot_ItemCache_01": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ItemCache01",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "ItemCachePKG.ItemCacheLoot.Ch2S2.AR",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "ItemCachePKG.ItemCacheLoot.Ch2S2.AR.01",
+                "Call": "WorldList.ItemCacheLoot.Weapons.AR",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ItemCacheLoot.Weapons.AR.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "ミシック",
+                    "AssetPathName": "/VampireKatanaGameplay/Items/VampireKatana/WID_Melee_Vampire_Katana.WID_Melee_Vampire_Katana",
+                    "CountItem": 1,
+                    "LocalizedName": "ソーンのヴァンパイアブレイド"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "LTG_Loot_ItemCache_02": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ItemCache02",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "ItemCachePKG.ItemCacheLoot.Ch2S2.Minigun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "ItemCachePKG.ItemCacheLoot.Ch2S2.Minigun.01",
+                "Call": "WorldList.ItemCacheLoot.Weapons.Minigun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ItemCacheLoot.Weapons.Minigun.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "レジェンド",
+                    "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_SR.WID_Sniper_ExplosiveRepeater_Athena_SR",
+                    "CountItem": 1,
+                    "LocalizedName": "エクスプローシブ・リピーターライフル"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "LTG_Loot_ItemCache_03": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "RowName": "Loot_ItemCache03",
+        "Weight": 1.0,
+        "Percent": 100.0,
+        "LootPackage": "ItemCachePKG.ItemCacheLoot.Ch2S2.DrumGun",
+        "ValidLootPackages": [
+          {
+            "LootNumber": 0,
+            "Packages": [
+              {
+                "ID": "ItemCachePKG.ItemCacheLoot.Ch2S2.DrumGun.01",
+                "Call": "WorldList.ItemCacheLoot.Weapons.DrumGun",
+                "Count": 1,
+                "weight": 1.0,
+                "TotalListWeight": 1.0,
+                "ListItems": [
+                  {
+                    "WorldListID": "WorldList.ItemCacheLoot.Weapons.DrumGun.01",
+                    "Weight": 1.0,
+                    "ListPercentLocal": 100.0,
+                    "EffectivePercentPerRoll": 100.0,
+                    "rarity": "レジェンド",
+                    "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_SR.WID_Assault_Radical_CoreAR_Athena_SR",
+                    "CountItem": 1,
+                    "LocalizedName": "ハボックサイレンサー付きアサルトライフル"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

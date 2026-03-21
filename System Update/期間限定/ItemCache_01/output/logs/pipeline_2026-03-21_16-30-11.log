@@ -13,3 +13,10 @@
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
 2026-03-21 16:30:11 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 16:30:13 | INFO | git commit stdout: [main b014a79] ItemCache_01 update 2026-03-21 16:30:12
+ 7 files changed, 116 insertions(+), 10 deletions(-)
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/output/logs/pipeline_2026-03-21_16-30-11.log"
+2026-03-21 16:30:18 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   48f5325..b014a79  main -> main
+2026-03-21 16:30:18 | INFO | ✓ GitHub Push 完了
+2026-03-21 16:30:18 | INFO | ===== ItemCache_01: pipeline end =====

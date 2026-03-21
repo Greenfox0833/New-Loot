@@ -4,3 +4,103 @@
 2026-03-21 22:17:02 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp
 2026-03-21 22:17:02 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-03-21 22:17:02 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-21 22:17:04 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=427, added=1026
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client
+[504] RowUpdate WorldList.AthenaHighConsumables.Utility.06.CountRange=(X=2,Y=2) -> OK
+[505] RowUpdate WorldList.AthenaHighConsumablesRare.Utility.07.CountRange=(X=2,Y=2) -> OK
+[506] RowUpdate WorldList.AthenaSupplyDropConsumables.Utility.07.CountRange=(X=2,Y=2) -> OK
+[507] RowUpdate WorldList.AthenaConsumables.Utility.07.CountRange=(X=2,Y=2) -> OK
+[508] RowUpdate LIST_GoldenWaterfall_Item.01.CountRange=(X=2,Y=2) -> OK
+[509] RowUpdate WorldList.AthenaLoot.TowelCommittee.Consumable.06.CountRange=(X=2,Y=2) -> OK
+[510] RowUpdate LIST_RiftDrone_Consume.03.CountRange=(X=4,Y=4) -> OK
+[570] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.Weight=0.000010 -> OK
+[571] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.CountRange=(X=1,Y=1) -> OK
+[572] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.ItemDefinition=/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR -> OK
+[580] RowUpdate WorldList.AthenaLoot.Ammo.Medium.01.CountRange=(X=36,Y=36) -> OK
+[581] RowUpdate LIST_PaV_04_Boss_Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[582] RowUpdate LIST_PaV_04_Boss_Ammo.03.Weight=1.000000 -> OK
+[583] RowUpdate LIST_PaV_04_Boss_Ammo.03.CountRange=(X=36,Y=36) -> OK
+[584] RowUpdate LIST_PaV_04_Boss_Consume.01.Weight=0.500000 -> OK
+[585] RowUpdate LIST_PaV_04_Boss_Consume.02.Weight=0.500000 -> OK
+[586] RowUpdate LIST_PaV_04_Boss_Consume.03.Weight=0.000000 -> OK
+[587] RowUpdate LIST_PaV_04_Boss_Consume.04.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=18, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp.json : replaced=107, added=2
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp_Backup.json : replaced=8, added=1
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp_Backup
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BRPlaylists\Content\Athena\Playlists\Showdown\Tournament\OverrideLootPackagesData.json : replaced=60, added=1
+[HOTFIX:SEASON5] target=/BRPlaylists/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData
+[HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[STEP1-6] merge E:\Fmodel\Exports\FortniteGame\Content\Athena\Playlists\Showdown\Tournament\OverrideLootPackagesData_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON6] target=/Game/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup
+[HOTFIX:SEASON6] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON6] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client_Comp_Backup__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\OverrideLootPackagesData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\OverrideLootPackagesData_Backup__final.json
+2026-03-21 22:17:04 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-21 22:17:04 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootTier.py']' returned non-zero exit status 1.
+2026-03-21 22:17:04 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\pipeline.py", line 112, in main
+    res_lt = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootTier.py']' returned non-zero exit status 1.
+2026-03-21 22:17:04 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-21 22:17:18 | INFO | git commit stdout: [main 8aa61d9] BR_Comp update 2026-03-21 22:17:14
+ 47 files changed, 203593 insertions(+), 559 deletions(-)
+ create mode 100644 System Update/BR_Comp/input/OverrideLootPackagesData_Backup__final.json
+ create mode 100644 System Update/BR_Comp/input/OverrideLootPackagesData__final.json
+ create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-03-21_22-17-02.log
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/__pycache__/config.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/__pycache__/config.cpython-312.pyc.2182211934640"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/__pycache__/pipeline.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/config.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/AthenaLootPackages_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/AthenaLootTierData_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/BetterFishing_LootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/BetterFishing_LootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/HazelnutSpread_AthenaLootPackages_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/HazelnutSpread_AthenaLootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/HazelnutSpread_AthenaLootTierData_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/HazelnutSpread_AthenaLootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/ItemCache_03_LootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/ItemCache_03_LootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/input/items_unique_min.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/history/BR_20260321_1542/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/history/BR_20260321_1552/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/history/BR_20260321_1611/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/history/BR_20260321_1636/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_15-35-03.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_15-36-14.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_15-42-24.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_15-52-44.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_16-11-54.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/logs/pipeline_2026-03-21_16-36-38.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/summary/v39.30_2026-03-21_15-36.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/summary/v39.30_2026-03-21_15-42.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/summary/v39.30_2026-03-21_15-52.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/summary/v39.30_2026-03-21_16-11.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/output/summary/v39.30_2026-03-21_16-36.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/pipeline.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/scripts/LootSummary.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/AthenaCompositeLP_Showdown/scripts/__pycache__/LootSummary.cpython-312.pyc"
+2026-03-21 22:17:25 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   24510b1..8aa61d9  main -> main
+2026-03-21 22:17:25 | INFO | ✓ GitHub Push 完了
+2026-03-21 22:17:25 | INFO | ===== BR_Comp: pipeline end =====

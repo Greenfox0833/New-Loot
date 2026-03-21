@@ -8,8 +8,19 @@ from typing import Any, Dict, List, Tuple
 # prefer profile-specific config if available
 BASE_DIR = Path(__file__).resolve().parent
 PROFILE = os.getenv("SYSTEM_PROFILE", "BR").strip() or "BR"
-PROFILE_DIR = BASE_DIR / PROFILE
-if PROFILE_DIR.exists() and str(PROFILE_DIR) not in sys.path:
+
+def _resolve_profile_dir(base_dir: Path, profile: str) -> Path | None:
+    candidates = [
+        base_dir / profile,
+        base_dir / "期間限定" / profile,
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return None
+
+PROFILE_DIR = _resolve_profile_dir(BASE_DIR, PROFILE)
+if PROFILE_DIR is not None and str(PROFILE_DIR) not in sys.path:
     sys.path.insert(0, str(PROFILE_DIR))
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))

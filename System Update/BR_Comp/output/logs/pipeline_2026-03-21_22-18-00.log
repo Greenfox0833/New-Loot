@@ -99,3 +99,29 @@
   """
 2026-03-21 22:18:02 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.46s)
 2026-03-21 22:18:02 | INFO | prewarm start
+2026-03-21 22:18:22 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (20.12s)
+2026-03-21 22:18:22 | INFO | 画像化タスク数: 93
+2026-03-21 22:18:23 | INFO | 画像生成 進捗: 1/93
+2026-03-21 22:18:23 | INFO | 画像生成 進捗: 50/93
+2026-03-21 22:18:24 | INFO | 画像生成 進捗: 93/93
+2026-03-21 22:18:24 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 22:18:24 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_Comp_2026-03-21_22-18-24.json (added=5 removed=4 change=60)
+2026-03-21 22:18:25 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR_Comp\AddedItems\2026-03-21_22-18-24 (copied=5 missing=0)
+2026-03-21 22:18:25 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-21 22:18:29 | INFO | git commit stdout: [main 3d0d579] BR_Comp update 2026-03-21 22:18:26
+ 17 files changed, 85005 insertions(+), 192 deletions(-)
+ create mode 100644 System Update/BR_Comp/input/OverrideLootTierData__final.json
+ create mode 100644 System Update/BR_Comp/output/history/BR_20260321_2218/items_unique_min_diff.json
+ create mode 100644 System Update/BR_Comp/output/logs/pipeline_2026-03-21_22-18-00.log
+ create mode 100644 System Update/BR_Comp/output/summary/v39.30_2026-03-21_22-18.json
+ create mode 100644 "System Update/shared/images/BR_Comp/AddedItems/2026-03-21_22-18-24/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \343\203\255\343\202\261\343\203\203\343\203\210\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/AddedItems/2026-03-21_22-18-24/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/AddedItems/2026-03-21_22-18-24/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/AddedItems/2026-03-21_22-18-24/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/AddedItems/2026-03-21_22-18-24/\343\203\206\343\202\243\343\202\2426 - \343\203\201\343\203\243\343\202\260\343\202\255\343\203\243\343\203\216\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR_Comp/\343\203\201\343\203\243\343\202\260\343\202\255\343\203\243\343\203\216\343\203\263 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR_Comp/BR_Comp_LootData_2026-03-21_22-18.json"
+2026-03-21 22:18:34 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   8aa61d9..3d0d579  main -> main
+2026-03-21 22:18:34 | INFO | ✓ GitHub Push 完了
+2026-03-21 22:18:34 | INFO | ===== BR_Comp: pipeline end =====

@@ -85,7 +85,11 @@ def update_diff_index(out_path: Path) -> None:
 def run_latest_diff(mode_key: str) -> tuple[Path, dict] | None:
     folder = resolve_mode_folder(mode_key)
 
-    old_file, new_file = latest_two_files(folder)
+    try:
+        old_file, new_file = latest_two_files(folder)
+    except FileNotFoundError:
+        return None
+
     old_data = load_json(old_file)
     new_data = load_json(new_file)
     old_items = normalize_items(old_data)

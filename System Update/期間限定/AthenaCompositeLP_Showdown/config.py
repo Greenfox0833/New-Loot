@@ -1,11 +1,10 @@
-﻿import os
+import os
 from pathlib import Path
-import json
 
 # ---------------- 設定（System Update/BR 完結版） ----------------
 VERSION_PREFIX = "v39.30"  # 必要に応じて変更
 
-PROFILE_NAME = "BR_Comp"
+PROFILE_NAME = "ItemCache_03"
 
 # 実行プロファイル：
 # "pipeline" : JSON作成 → アイコンDL(プリウォーム) → 画像生成
@@ -79,14 +78,14 @@ PROJECT_ROOT = COMMON_DIR.parent
 SCRIPTS_DIR = BASE_DIR / "scripts"
 INPUT_DIR = BASE_DIR / "input"
 OUTPUT_DIR = BASE_DIR / "output"
-CACHE_DIR = COMMON_DIR / "shared" / "cache"
-ICON_CACHE_DIR = str(COMMON_DIR / "shared" / "icon_cache")
+CACHE_DIR = PROJECT_ROOT / "shared" / "cache"
+ICON_CACHE_DIR = str(PROJECT_ROOT / "shared" / "icon_cache")
 
 # 入力（LT/LPのFModelエクスポートJSON）
 INPUT_MINLIST_JSON = str(INPUT_DIR / "items_unique_min.json")
 
 # 画像の保存先
-OUTPUT_BASE_DIR = str(COMMON_DIR / "shared" / "images" / PROFILE_NAME)
+OUTPUT_BASE_DIR = str(PROJECT_ROOT / "shared" / "images" / "期間限定" / PROFILE_NAME)
 IMAGE_DIR_MODE = "flat"  # tg_wl | tg | flat
 
 def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
@@ -97,19 +96,19 @@ def resolve_out_dir(tiergroup: str, worldlist_key: str) -> str:
     return OUTPUT_BASE_DIR
 
 # キャッシュ保存先
-RARITY_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_rarity_cache.json")
-ASSET_LOC_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_localize_cache.json")
-ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
+RARITY_CACHE_FILE = str(PROJECT_ROOT / "shared" / "cache" / "asset_rarity_cache.json")
+ASSET_LOC_CACHE_FILE = str(PROJECT_ROOT / "shared" / "cache" / "asset_localize_cache.json")
+ICON_CACHE_FILE = str(PROJECT_ROOT / "shared" / "cache" / "asset_icon_cache.json")
 
 ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/assets/img/Loot_Icon"
 ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/assets/data/asset_icon_cache.json"
 
 # 画像素材など（必要なら System Update/BR/assets に移して更新）
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"
-RARITY_BG_DIR = str(COMMON_DIR / "shared" / "assets" / "Rarity")
-RARITY_ICON_DIR = str(COMMON_DIR / "shared" / "assets" / "icon")
-AMMO_ICON_DIR = str(COMMON_DIR / "shared" / "assets" / "Ammo")
-STAT_TEMPLATE_PATH = str(COMMON_DIR / "shared" / "assets" / "Template.png")
+RARITY_BG_DIR = str(PROJECT_ROOT / "shared" / "assets" / "Rarity")
+RARITY_ICON_DIR = str(PROJECT_ROOT / "shared" / "assets" / "icon")
+AMMO_ICON_DIR = str(PROJECT_ROOT / "shared" / "assets" / "Ammo")
+STAT_TEMPLATE_PATH = str(PROJECT_ROOT / "shared" / "assets" / "Template.png")
 
 # スレッド数
 MAX_WORKERS = 8
@@ -160,80 +159,40 @@ RARITY_TO_TIER = {
 
 AMMO_ICON_MAP = {}
 
-def _coerce_path_list(value, default_list):
-    if value is None:
-        return default_list
-    if isinstance(value, (list, tuple)):
-        return [str(p) for p in value if str(p)]
-    if isinstance(value, str):
-        s = value.strip()
-        if not s:
-            return default_list
-        if s.startswith("["):
-            try:
-                data = json.loads(s)
-                if isinstance(data, list):
-                    return [str(p) for p in data if str(p)]
-            except json.JSONDecodeError:
-                pass
-        sep = os.pathsep if os.pathsep in s else ","
-        parts = [p.strip() for p in s.split(sep)]
-        return [p for p in parts if p]
-    return default_list
-
 # パス一式
 PATH_BR_DISCORD = str(SCRIPTS_DIR / "BR_Discor.py")
-PATH_HOTFIX_LP = str(COMMON_DIR / "LootPackage.py")
-PATH_HOTFIX_LT = str(COMMON_DIR / "LootTier.py")
+PATH_HOTFIX_LP = str(PROJECT_ROOT / "LootPackage.py")
+PATH_HOTFIX_LT = str(PROJECT_ROOT / "LootTier.py")
 PATH_LOOT_SUMMARY = str(SCRIPTS_DIR / "LootSummary.py")
 PATH_VERSION_SAVE_DIR = str(OUTPUT_DIR / "summary")
 PATH_LT_JSON = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 PATH_LP_JSON = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 PATH_MINLIST_JSON = INPUT_MINLIST_JSON
-PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "BR_Comp" )
+PATH_LOOTDATA_DIR = str(PROJECT_ROOT / "戦利品データ" / "期間限定" / PROFILE_NAME)
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootPackages_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootPackages_Client_Comp.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootPackages_Client_Comp_Backup.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData.json",
-    "E:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup.json"
-
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootPackages.json"
 ]
-HOTFIX_LP_PATHS = _coerce_path_list(os.getenv("HOTFIX_LP_PATHS"), HOTFIX_LP_PATHS)
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
-    "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client",
-    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp",
-    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp_Backup",
+    "/Game/Items/Datatables/AthenaLootPackages_Client",
     "/BRPlaylists/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData",
     "/Game/Athena/Playlists/Showdown/Tournament/OverrideLootPackagesData_Backup"
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
-    "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootTierData_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootTierData_Client_Comp.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/Comp/TeaCakeLootTierData_Client_Comp_Backup.json",
-    "E:/Fmodel/Exports/FortniteGame/Content/Athena/Playlists/Showdown/Tournament/OverrideLootTierData.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootTierData.json"
 ]
-HOTFIX_LT_PATHS = _coerce_path_list(os.getenv("HOTFIX_LT_PATHS"), HOTFIX_LT_PATHS)
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
-    "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client",
-    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp",
-    "/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp_Backup",
-    "/Game/Athena/Playlists/Showdown/Tournament/OverrideLootTierData"
+    "/RA_ItemCache_ItemSet3/DataTables/ItemCache_03_LootTierData"
 ]
 
 # パス解決（System Update 完結のため無効化）

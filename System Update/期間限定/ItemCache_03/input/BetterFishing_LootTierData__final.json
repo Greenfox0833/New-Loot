@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BetterFishing_LootTierData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLootTierData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "LTG_AthenaFlopper_Legendary01": {
+        "TierGroup": "LTG_AthenaFlopper_Legendary_Weapon",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "AthenaFlopper_LegendaryPKG.AthenaFlopper_Legendary.Weapon",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_AthenaFlopper_Legendary;LPKG:AthenaFlopper_LegendaryPKG.AthenaFlopper_Legendary"
+      },
+      "LTG_AthenaFlopper_Legendary02": {
+        "TierGroup": "LTG_AthenaFlopper_Legendary_Fish",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "AthenaFlopper_LegendaryPKG.AthenaFlopper_Legendary.Consumable",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_AthenaFlopper_Legendary;LPKG:AthenaFlopper_LegendaryPKG.AthenaFlopper_Legendary"
+      }
+    }
+  }
+]

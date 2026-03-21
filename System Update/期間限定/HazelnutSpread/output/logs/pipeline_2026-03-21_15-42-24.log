@@ -1,0 +1,38 @@
+2026-03-21 15:42:24 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\logs\pipeline_2026-03-21_15-42-24.log
+2026-03-21 15:42:24 | INFO | ===== HazelnutSpread: pipeline start =====
+2026-03-21 15:42:24 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\items_unique_min.json
+2026-03-21 15:42:24 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\HazelnutSpread
+2026-03-21 15:42:24 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-21 15:42:24 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-21 15:42:24 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\HazelnutSpread\Content\DataTables\HazelnutSpread_AthenaLootPackages.json
+[HOTFIX:SEASON1] target=/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootPackages
+[379] RowUpdate VendItemList.HazelnutSpread.Consumables.02.Weight=0.000000 -> OK
+[500] RowUpdate VendItemList.HazelnutSpread.Consumables04.01.CountRange=(X=5,Y=5) -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=2, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\HazelnutSpread\Content\DataTables\HazelnutSpread_AthenaLootPackages_Override.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootPackages_Override
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\HazelnutSpread_AthenaLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\HazelnutSpread_AthenaLootPackages_Override__final.json
+2026-03-21 15:42:24 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-21 15:42:25 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\HazelnutSpread\Content\DataTables\HazelnutSpread_AthenaLootTierData.json
+[HOTFIX:SEASON1] target=/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootTierData
+[377] RowUpdate LTG_Vend_HazelnutSpread_SeasonalWeapons_Explosive_01.Weight=0.000000 -> OK
+[378] RowUpdate LTG_Vend_HazelnutSpread_SeasonalWeapons_Gauntlets_01.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] done: applied=2, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\HazelnutSpread\Content\DataTables\HazelnutSpread_AthenaLootTierData_Override.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootTierData_Override
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\HazelnutSpread_AthenaLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\HazelnutSpread_AthenaLootTierData_Override__final.json
+2026-03-21 15:42:25 | INFO | ✓ Hotfix 適用完了 (0.86s)
+2026-03-21 15:42:25 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootTierData_Client__final.json
+2026-03-21 15:42:25 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootPackages_Client__final.json
+2026-03-21 15:42:25 | INFO | load done (0.00s)
+2026-03-21 15:42:25 | INFO | build summary start
+2026-03-21 15:42:25 | INFO | build summary done (0.00s)
+2026-03-21 15:42:25 | INFO | enrich summary with names start

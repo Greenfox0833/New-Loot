@@ -34,3 +34,64 @@
 2026-03-21 15:36:14 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootPackages_Client__final.json
 2026-03-21 15:36:14 | INFO | load done (0.00s)
 2026-03-21 15:36:14 | INFO | build summary start
+2026-03-21 15:36:16 | INFO | build summary done (1.39s)
+2026-03-21 15:36:16 | INFO | enrich summary with names start
+2026-03-21 15:36:16 | INFO | enrich summary done (0.58s)
+2026-03-21 15:36:16 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\summary\v39.30_2026-03-21_15-36.json
+2026-03-21 15:36:16 | INFO | build BR_LootData start
+2026-03-21 15:36:16 | INFO | build BR_LootData done (0.00s)
+2026-03-21 15:36:16 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\HazelnutSpread\HazelnutSpread_LootData_2026-03-21_15-36.json
+2026-03-21 15:36:16 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\HazelnutSpread_LootPool.json
+2026-03-21 15:36:16 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\scripts\LootSummary.py
+2026-03-21 15:36:16 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\summary\v39.30_2026-03-21_15-36.json
+✅ 抽出件数: 10
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\items_unique_min.json
+ℹ️ 比較対象が1件以下のため比較スキップ（探索先: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\summary）
+2026-03-21 15:36:16 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-03-21 15:36:16 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.11s)
+2026-03-21 15:36:16 | INFO | prewarm start
+2026-03-21 15:36:19 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.90s)
+2026-03-21 15:36:19 | INFO | 画像化タスク数: 10
+2026-03-21 15:36:20 | INFO | 画像生成 進捗: 1/10
+2026-03-21 15:36:20 | INFO | 画像生成 進捗: 10/10
+2026-03-21 15:36:20 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 15:36:20 | WARNING | Loot diff に失敗: Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\pipeline.py", line 243, in main
+    diff_result = run_latest_diff(PROFILE_NAME)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 88, in run_latest_diff
+    old_file, new_file = latest_two_files(folder)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 23, in latest_two_files
+    raise FileNotFoundError("JSON files are less than 2 in the selected folder.")
+FileNotFoundError: JSON files are less than 2 in the selected folder.
+2026-03-21 15:36:20 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 15:36:24 | INFO | git commit stdout: [main d1facf5] HazelnutSpread update 2026-03-21 15:36:21
+ 27 files changed, 8945 insertions(+), 823 deletions(-)
+ create mode 100644 System Update/shared/icon_cache/ChronoWeaponGameplay__Items__HeavyPistol__Icons__T_Icon_Weapons_Pistol_Chrono_EX_Rivals_L.png
+ create mode 100644 System Update/shared/icon_cache/VividRazorExotics__Gameplay__RocketLauncher__Icons__T_Icon_Weapons_Explosives_VividRazor_EX_Rivals_L.png
+ create mode 100644 System Update/shared/icon_cache/VividRazorExotics__Gameplay__TrackerSniper__Icons__T_Icon_Weapons_Sniper_Moonflax_EX_Rivals_L.png
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\202\253\343\202\252\343\202\271\343\203\252\343\203\255\343\203\274\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\225\343\203\255\343\203\274\343\203\231\343\203\252\343\203\274\343\203\237\343\202\271\343\203\210\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\231\343\202\257\343\202\277\343\203\2747 DMR - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\255\343\203\274\343\203\225\343\203\253 \343\202\250\343\202\257\343\202\271\343\203\227\343\203\255\343\203\274\343\202\267\343\203\226 \343\203\236\343\203\263\343\203\242\343\202\271\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\255\343\203\274\343\203\225\343\203\253 \343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\255\343\202\261\343\203\203\343\203\210\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\255\343\203\274\343\203\225\343\203\253 \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210 \343\203\210\343\203\251\343\203\203\343\202\255\343\203\263\343\202\260\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/HazelnutSpread_LootData_2026-03-21_15-36.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/AthenaLootPackages_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/AthenaLootTierData_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/HazelnutSpread_AthenaLootPackages_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/HazelnutSpread_AthenaLootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/HazelnutSpread_AthenaLootTierData_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/HazelnutSpread_AthenaLootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/logs/pipeline_2026-03-21_15-36-14.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/summary/v39.30_2026-03-21_15-36.json"
+2026-03-21 15:36:27 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   92c3a1f..d1facf5  main -> main
+2026-03-21 15:36:27 | INFO | ✓ GitHub Push 完了
+2026-03-21 15:36:27 | INFO | ===== HazelnutSpread: pipeline end =====

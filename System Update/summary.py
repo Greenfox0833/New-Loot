@@ -75,49 +75,54 @@ def build_summary(rows_lt: dict, rows_lp: dict):
             continue
 
         loot_pkg = row.get("LootPackage", "")
-        weight_array = row.get("LootPackageCategoryMinArray", [])
-
         valid_groups = []
-        min_array = row.get("LootPackageCategoryMinArray", [])
-        for ln, val in enumerate(min_array):
-            if val >= 1:
-                matches = lp_by_idcat.get((loot_pkg, ln), [])
-                packages = []
-                for m in matches:
-                    call = m["Call"]
+        min_array = row.get("LootPackageCategoryMinArray", []) or []
+        weight_array = row.get("LootPackageCategoryWeightArray", []) or []
+        group_len = max(len(min_array), len(weight_array))
 
-                    list_items = []
-                    if call:
-                        for c in worldlist_map.get(call, []):
-                            if c["Weight"] > 0.0 and c.get("AssetPathName"):
-                                list_items.append(
-                                    {
-                                        "WorldListID": c["Key"],
-                                        "Weight": c["Weight"],
-                                        "AssetPathName": c["AssetPathName"],
-                                        "CountItem": c.get("CountItem"),
-                                    }
-                                )
+        for ln in range(group_len):
+            min_val = min_array[ln] if ln < len(min_array) else 0
+            weight_val = as_float(weight_array[ln] if ln < len(weight_array) else 0.0)
+            if min_val < 1 and weight_val <= 0.0:
+                continue
 
-                    total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
+            matches = lp_by_idcat.get((loot_pkg, ln), [])
+            packages = []
+            for m in matches:
+                call = m["Call"]
 
-                    pkg_weight = as_float(m.get("Weight", m.get("weight", 0.0)))
-                    if pkg_weight <= 0.0:
-                        continue
+                list_items = []
+                if call:
+                    for c in worldlist_map.get(call, []):
+                        if c["Weight"] > 0.0 and c.get("AssetPathName"):
+                            list_items.append(
+                                {
+                                    "WorldListID": c["Key"],
+                                    "Weight": c["Weight"],
+                                    "AssetPathName": c["AssetPathName"],
+                                    "CountItem": c.get("CountItem"),
+                                }
+                            )
 
-                    packages.append(
-                        {
-                            "ID": m["Key"],
-                            "Call": call,
-                            "Count": int(val),
-                            "weight": round(pkg_weight, 6),
-                            "TotalListWeight": round(total_list_weight, 6),
-                            "ListItems": list_items,
-                        }
-                    )
+                total_list_weight = sum(li["Weight"] for li in list_items) if list_items else 0.0
 
-                if packages:
-                    valid_groups.append({"LootNumber": ln, "Packages": packages})
+                pkg_weight = as_float(m.get("Weight", m.get("weight", 0.0)))
+                if pkg_weight <= 0.0:
+                    continue
+
+                packages.append(
+                    {
+                        "ID": m["Key"],
+                        "Call": call,
+                        "Count": max(1, int(min_val)),
+                        "weight": round(pkg_weight, 6),
+                        "TotalListWeight": round(total_list_weight, 6),
+                        "ListItems": list_items,
+                    }
+                )
+
+            if packages:
+                valid_groups.append({"LootNumber": ln, "Packages": packages})
 
         entry = {
             "RowName": row_name,

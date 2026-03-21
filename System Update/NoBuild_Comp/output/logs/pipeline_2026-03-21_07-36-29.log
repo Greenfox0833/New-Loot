@@ -101,3 +101,22 @@
   """
 2026-03-21 07:36:31 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.36s)
 2026-03-21 07:36:31 | INFO | prewarm start
+2026-03-21 07:36:31 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.43s)
+2026-03-21 07:36:31 | INFO | 画像化タスク数: 94
+2026-03-21 07:36:31 | INFO | 画像生成 進捗: 1/94
+2026-03-21 07:36:32 | INFO | 画像生成 進捗: 50/94
+2026-03-21 07:36:33 | INFO | 画像生成 進捗: 94/94
+2026-03-21 07:36:33 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 07:36:33 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-03-21 07:36:33 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-03-21 07:36:37 | INFO | git commit stdout: [main f810971] NoBuild_Comp update 2026-03-21 07:36:34
+ 8 files changed, 60501 insertions(+), 7 deletions(-)
+ create mode 100644 System Update/NoBuild_Comp/output/history/BR_20260321_0736/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-03-21_07-36-29.log
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-03-21_07-36.json
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\202\271\343\202\257\343\202\244\343\203\226\343\203\252\343\203\274\343\201\256\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild_Comp/NoBuild_Comp_LootData_2026-03-21_07-36.json"
+2026-03-21 07:36:41 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   da2a883..f810971  main -> main
+2026-03-21 07:36:41 | INFO | ✓ GitHub Push 完了
+2026-03-21 07:36:41 | INFO | ===== NoBuild_Comp: pipeline end =====

@@ -42,3 +42,35 @@
   """
 2026-03-21 16:34:39 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.25s)
 2026-03-21 16:34:39 | INFO | prewarm start
+2026-03-21 16:34:40 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.91s)
+2026-03-21 16:34:40 | INFO | 画像化タスク数: 3
+2026-03-21 16:34:40 | INFO | 画像生成 進捗: 1/3
+2026-03-21 16:34:40 | INFO | 画像生成 進捗: 3/3
+2026-03-21 16:34:40 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 16:34:40 | WARNING | Loot diff に失敗: Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\pipeline.py", line 243, in main
+    diff_result = run_latest_diff(PROFILE_NAME)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 88, in run_latest_diff
+    old_file, new_file = latest_two_files(folder)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 23, in latest_two_files
+    raise FileNotFoundError("JSON files are less than 2 in the selected folder.")
+FileNotFoundError: JSON files are less than 2 in the selected folder.
+2026-03-21 16:34:40 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 16:34:50 | INFO | git commit stdout: [main 6fd6180] ItemCache_01 update 2026-03-21 16:34:45
+ 15 files changed, 1029 insertions(+), 360 deletions(-)
+ create mode 100644 System Update/shared/icon_cache/VampireKatanaGameplay__Items__VampireKatana__Icons__T-T-Icon-BR-SharpKatana-Lazarus-L.png
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/\343\202\250\343\202\257\343\202\271\343\203\227\343\203\255\343\203\274\343\202\267\343\203\226\343\203\273\343\203\252\343\203\224\343\203\274\343\202\277\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/\343\202\275\343\203\274\343\203\263\343\201\256\343\203\264\343\202\241\343\203\263\343\203\221\343\202\244\343\202\242\343\203\226\343\203\254\343\202\244\343\203\211 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/\343\203\217\343\203\234\343\203\203\343\202\257\343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/ItemCache_01_LootData_2026-03-21_16-34.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/input/ItemCache_01_LootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/input/ItemCache_01_LootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/output/history/BR_20260321_1634/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/output/logs/pipeline_2026-03-21_16-34-37.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_01/output/summary/v39.30_2026-03-21_16-34.json"
+2026-03-21 16:34:54 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   b014a79..6fd6180  main -> main
+2026-03-21 16:34:54 | INFO | ✓ GitHub Push 完了
+2026-03-21 16:34:54 | INFO | ===== ItemCache_01: pipeline end =====

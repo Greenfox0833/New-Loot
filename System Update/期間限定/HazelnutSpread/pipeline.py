@@ -21,8 +21,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/HazelnutSpread_LootPool.json"
 
-# Ensure child scripts use HazelnutSpread profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "HazelnutSpread")
+# Ensure child scripts use HazelnutSpread profile
+os.environ["SYSTEM_PROFILE"] = "HazelnutSpread"
 
 from cache import enrich_summary_with_names
 from config import (

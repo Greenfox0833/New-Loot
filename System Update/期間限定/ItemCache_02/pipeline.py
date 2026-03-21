@@ -21,8 +21,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/ItemCache_02_LootPool.json"
 
-# Ensure child scripts use ItemCache_02 profile by default
-os.environ.setdefault("SYSTEM_PROFILE", "ItemCache_02")
+# Ensure child scripts use ItemCache_02 profile
+os.environ["SYSTEM_PROFILE"] = "ItemCache_02"
 
 from cache import enrich_summary_with_names
 from config import (

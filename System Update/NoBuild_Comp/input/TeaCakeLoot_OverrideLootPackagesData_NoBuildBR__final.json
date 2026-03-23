@@ -36772,7 +36772,7 @@
       },
       "WorldList.AthenaLoot.Resources.01": {
         "LootPackageID": "WorldList.AthenaLoot.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36800,12 +36800,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaLoot.Resources.02": {
         "LootPackageID": "WorldList.AthenaLoot.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36833,12 +36833,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaLoot.Resources.03": {
         "LootPackageID": "WorldList.AthenaLoot.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36866,8 +36866,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaLoot.Resources.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaLoot.SupplyDropResources.01": {
         "LootPackageID": "WorldList.AthenaLoot.SupplyDropResources",
@@ -42881,8 +42881,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42914,8 +42914,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 250,
-          "Y": 250
+          "X": 200,
+          "Y": 200
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42947,8 +42947,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 350,
-          "Y": 350
+          "X": 275,
+          "Y": 275
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43079,8 +43079,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1000,
-          "Y": 1000
+          "X": 750,
+          "Y": 750
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43343,8 +43343,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 75,
-          "Y": 75
+          "X": 50,
+          "Y": 50
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43376,8 +43376,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 95,
-          "Y": 95
+          "X": 80,
+          "Y": 80
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -46309,7 +46309,7 @@
       },
       "WorldList.AthenaHighConsumables.Utility.01": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Utility",
-        "Weight": 0.13,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46329,13 +46329,16 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
+        "ItemDefinition": {
+          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldBubbleJr",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumables.Utility.C0;Item:Athena_SilverBlazer_Mini_UC",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.Hero.01": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Hero",
@@ -46466,8 +46469,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldBubbleJr",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.Utility.C0;Item:Athena_SilverBlazer_Mini_UC",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumablesRare.Hero.01": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Hero",
@@ -48677,8 +48680,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldBubbleJr",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.Utility.C0;Item:Athena_SilverBlazer_Mini_UC",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSupplyDropConsumables.Hero.01": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Hero",
@@ -51152,8 +51155,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.ShieldBubbleJr",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaConsumables.Utility.C0;Item:Athena_SilverBlazer_Mini_UC",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.Hero.01": {
         "LootPackageID": "WorldList.AthenaConsumables.Hero",
@@ -52844,8 +52847,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -53834,8 +53837,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -54197,8 +54200,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -61160,8 +61163,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -61193,8 +61196,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -68963,7 +68966,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Mythic",
+        "LootPackageCall": "LIST_DragRace",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -68972,7 +68975,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:WorldList.Weapons.Rarity.Mythic",
+        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:LIST_DragRace",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_DragRace_Winner.05": {
@@ -69340,7 +69343,7 @@
       },
       "PKG_GoldenWaterfall_Weapon.04": {
         "LootPackageID": "PKG_GoldenWaterfall_Weapon",
-        "Weight": 1.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69359,7 +69362,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Legendary",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Rare",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -69368,12 +69371,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Legendary",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Rare",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.05": {
         "LootPackageID": "PKG_GoldenWaterfall_Weapon",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69392,7 +69395,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Mythic",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Epic",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -69401,7 +69404,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Mythic",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Epic",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.06": {
@@ -72776,8 +72779,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 500,
-          "Y": 500
+          "X": 400,
+          "Y": 400
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -72842,8 +72845,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 115,
-          "Y": 115
+          "X": 100,
+          "Y": 100
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -73361,8 +73364,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.PortAShack",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumables.Utility.C0;Item:Athena_PortaShackGrenade_A",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.Utility.03": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Utility ",
@@ -74714,8 +74717,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.PortAShack",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.Utility.C0;Item:Athena_PortaShackGrenade_A",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumablesRare.Utility.03": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Utility",
@@ -75341,8 +75344,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.C0;Item:Consumable.PortAShack",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.Utility.C0;Item:Athena_PortaShackGrenade_A",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSupplyDropConsumables.Utility.03": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Utility",
@@ -75935,8 +75938,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.C0;Item:Consumable.PortAShack",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaConsumables.Utility.C0;Item:Athena_PortaShackGrenade_A",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaConsumables.Utility.03": {
         "LootPackageID": "WorldList.AthenaConsumables.Utility",
@@ -86768,8 +86771,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91652,8 +91655,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91718,8 +91721,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1250,
-          "Y": 1250
+          "X": 1000,
+          "Y": 1000
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -93549,15 +93552,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_SR.WID_SMG_Paprika_Burst_Athena_HS_SR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_SMG_Paprika_Burst_Athena_SR",
+        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_IceKingLieutenant_Weapon.02": {
@@ -93582,15 +93582,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR.WID_SMG_Paprika_Burst_Athena_HS_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_SMG_Paprika_Burst_Athena_UR",
+        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_IceKingLieutenant_Ammo.01": {
@@ -94374,15 +94371,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UR.WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_DeadliftRecord_Mythic.C0;Item:WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
+        "Annotation": ";List:LIST_DeadliftRecord_Mythic.C0;Item:WID_Shotgun_Pump_DragonCart_Athena_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_GreatRamp_Mythic.01": {
@@ -95210,6 +95204,39 @@
         "Annotation": ";List:LIST_CareDrop_Revive.C1;Item:Consumable.MilitiaExpire",
         "DurabilityPercentageOverride": 1.0
       },
+      "LIST_DragRace.01": {
+        "LootPackageID": "LIST_DragRace",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR.WID_SMG_Paprika_Burst_Athena_HS_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_DragRace.C0;Item:WID_SMG_Paprika_Burst_Athena_HS_UR",
+        "DurabilityPercentageOverride": 1
+      },
       "LIST_Vend_Item_Sniper_Purple.01": {
         "LootPackageID": "LIST_Vend_Item_Sniper_Purple",
         "Weight": 1.0,
@@ -95278,7 +95305,7 @@
       },
       "WorldPKG.AthenaSCM.Enchanced.07": {
         "LootPackageID": "WorldPKG.AthenaSCM.Enchanced",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95299,19 +95326,19 @@
         },
         "LootPackageCall": "WorldList.AthenaSCMEnchanced.Wood",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.AthenaSCM.Enchanced.C6;Call:WorldList.AthenaSCMEnchanced.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldPKG.AthenaSCM.Enchanced.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "WorldPKG.AthenaSCM.Enchanced.08": {
         "LootPackageID": "WorldPKG.AthenaSCM.Enchanced",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95332,19 +95359,19 @@
         },
         "LootPackageCall": "WorldList.AthenaSCMEnchanced.Stone",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.AthenaSCM.Enchanced.C7;Call:WorldList.AthenaSCMEnchanced.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldPKG.AthenaSCM.Enchanced.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "WorldPKG.AthenaSCM.Enchanced.09": {
         "LootPackageID": "WorldPKG.AthenaSCM.Enchanced",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95365,19 +95392,19 @@
         },
         "LootPackageCall": "WorldList.AthenaSCMEnchanced.Metal",
         "ItemDefinition": {
-          "AssetPathName": "",
+          "AssetPathName": "None",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.AthenaSCM.Enchanced.C8;Call:WorldList.AthenaSCMEnchanced.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldPKG.AthenaSCM.Enchanced.C0;Item:",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSCMEnchanced.Wood.01": {
         "LootPackageID": "WorldList.AthenaSCMEnchanced.Wood",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95405,12 +95432,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Wood.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Wood.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSCMEnchanced.Stone.01": {
         "LootPackageID": "WorldList.AthenaSCMEnchanced.Stone",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95438,12 +95465,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Stone.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Stone.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaSCMEnchanced.Metal.01": {
         "LootPackageID": "WorldList.AthenaSCMEnchanced.Metal",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95471,12 +95498,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Metal.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.AthenaSCMEnchanced.Metal.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.ClaimPOI.Reward.Resources.01": {
         "LootPackageID": "WorldList.ClaimPOI.Reward.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95504,12 +95531,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.ClaimPOI.Reward.Resources.02": {
         "LootPackageID": "WorldList.ClaimPOI.Reward.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95537,12 +95564,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.ClaimPOI.Reward.Resources.03": {
         "LootPackageID": "WorldList.ClaimPOI.Reward.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95570,12 +95597,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.ClaimPOI.Reward.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.MMO.ChestCache.Resources.01": {
         "LootPackageID": "WorldList.MMO.ChestCache.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95603,12 +95630,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMO.ChestCache.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.MMO.ChestCache.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.MMODrome.Resources.01": {
         "LootPackageID": "WorldList.MMODrome.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95636,12 +95663,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.MMODrome.Resources.02": {
         "LootPackageID": "WorldList.MMODrome.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95669,12 +95696,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.MMODrome.Resources.03": {
         "LootPackageID": "WorldList.MMODrome.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95702,12 +95729,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.MMODrome.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Agent.Resources.01": {
         "LootPackageID": "WorldList.Specialist.Supply.Agent.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95735,12 +95762,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Agent.Resources.02": {
         "LootPackageID": "WorldList.Specialist.Supply.Agent.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95768,12 +95795,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Agent.Resources.03": {
         "LootPackageID": "WorldList.Specialist.Supply.Agent.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95801,12 +95828,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Agent.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Extra.Resources.01": {
         "LootPackageID": "WorldList.Specialist.Supply.Extra.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95834,12 +95861,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:Resource.Wood",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:WoodItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Extra.Resources.02": {
         "LootPackageID": "WorldList.Specialist.Supply.Extra.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95867,12 +95894,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:Resource.Stone",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:StoneItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.Specialist.Supply.Extra.Resources.03": {
         "LootPackageID": "WorldList.Specialist.Supply.Extra.Resources",
-        "Weight": 0.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95900,8 +95927,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:Resource.Metal",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:WorldList.Specialist.Supply.Extra.Resources.C0;Item:MetalItemData",
+        "DurabilityPercentageOverride": 1
       },
       "WorldList.AthenaHighConsumables.Rare.01": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Rare",

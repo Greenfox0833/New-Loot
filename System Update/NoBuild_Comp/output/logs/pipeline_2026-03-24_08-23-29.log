@@ -1,0 +1,165 @@
+2026-03-24 08:23:29 | INFO | log file (NoBuild_Comp): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\logs\pipeline_2026-03-24_08-23-29.log
+2026-03-24 08:23:29 | INFO | ===== NoBuild_Comp: pipeline start =====
+2026-03-24 08:23:29 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\items_unique_min.json
+2026-03-24 08:23:29 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp
+2026-03-24 08:23:29 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-24 08:23:29 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-24 08:23:29 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=427, added=1026
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client
+[505] RowUpdate WorldList.AthenaHighConsumables.Utility.06.CountRange=(X=3,Y=3) -> OK
+[506] RowUpdate WorldList.AthenaHighConsumablesRare.Utility.07.CountRange=(X=3,Y=3) -> OK
+[507] RowUpdate WorldList.AthenaSupplyDropConsumables.Utility.07.CountRange=(X=3,Y=3) -> OK
+[508] RowUpdate WorldList.AthenaConsumables.Utility.07.CountRange=(X=3,Y=3) -> OK
+[509] RowUpdate LIST_GoldenWaterfall_Item.01.CountRange=(X=3,Y=3) -> OK
+[510] RowUpdate WorldList.AthenaLoot.TowelCommittee.Consumable.06.CountRange=(X=3,Y=3) -> OK
+[511] RowUpdate LIST_RiftDrone_Consume.03.CountRange=(X=6,Y=6) -> OK
+[571] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.Weight=0.000010 -> OK
+[572] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.CountRange=(X=1,Y=1) -> OK
+[573] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.ItemDefinition=/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR -> OK
+[583] RowUpdate WorldList.AthenaLoot.Ammo.Medium.01.CountRange=(X=36,Y=36) -> OK
+[584] RowUpdate LIST_PaV_04_Boss_Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[585] RowUpdate LIST_PaV_04_Boss_Ammo.03.Weight=1.000000 -> OK
+[586] RowUpdate LIST_PaV_04_Boss_Ammo.03.CountRange=(X=36,Y=36) -> OK
+[587] RowUpdate LIST_PaV_04_Boss_Consume.01.Weight=0.500000 -> OK
+[588] RowUpdate LIST_PaV_04_Boss_Consume.02.Weight=0.500000 -> OK
+[589] RowUpdate LIST_PaV_04_Boss_Consume.03.Weight=0.000000 -> OK
+[590] RowUpdate LIST_PaV_04_Boss_Consume.04.Weight=0.000000 -> OK
+[633] RowUpdate PKG_DragRace_Winner.04.LootPackageCall=LIST_DragRace -> OK
+[634] RowUpdate PKG_DragRace_Winner.04.Annotation=;Def:PKG_DragRace_Winner.C0;Call:LIST_DragRace -> OK
+[635] RowUpdate PKG_GoldenWaterfall_Weapon.04.Weight=0.600000 -> OK
+[636] RowUpdate PKG_GoldenWaterfall_Weapon.04.LootPackageCall=WorldList.Weapons.Rarity.Rare -> OK
+[637] RowUpdate PKG_GoldenWaterfall_Weapon.04.Annotation=;Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Rare -> OK
+[638] RowUpdate PKG_GoldenWaterfall_Weapon.05.Weight=0.400000 -> OK
+[639] RowUpdate PKG_GoldenWaterfall_Weapon.05.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[640] RowUpdate PKG_GoldenWaterfall_Weapon.05.Annotation=;Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Epic -> OK
+[641] RowUpdate LIST_IceKingLieutenant_Weapon.01.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR -> OK
+[642] RowUpdate LIST_IceKingLieutenant_Weapon.01.Annotation=;List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_SR -> OK
+[643] RowUpdate LIST_IceKingLieutenant_Weapon.02.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR -> OK
+[644] RowUpdate LIST_IceKingLieutenant_Weapon.02.Annotation=;List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_UR -> OK
+[645] RowUpdate LIST_DeadliftRecord_Mythic.01.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR -> OK
+[646] RowUpdate LIST_DeadliftRecord_Mythic.01.Annotation=;List:LIST_DeadliftRecord_Mythic.C0;Item:WID_Shotgun_Pump_DragonCart_Athena_UR -> OK
+[647] AddRow -> ADD LIST_DragRace.01
+[648] RowUpdate WorldList.AthenaWadStash.Small.01.CountRange=(X=150,Y=150) -> OK
+[649] RowUpdate WorldList.AthenaWadStash.Small.02.CountRange=(X=200,Y=200) -> OK
+[650] RowUpdate WorldList.AthenaWadStash.Small.03.CountRange=(X=275,Y=275) -> OK
+[651] RowUpdate WorldList.AthenaWadStash.Small.04.CountRange=(X=400,Y=400) -> OK
+[652] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=750,Y=750) -> OK
+[653] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[654] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=80,Y=80) -> OK
+[655] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[656] RowUpdate WorldList.FlopperDefault.Light.01.CountRange=(X=150,Y=150) -> OK
+[657] RowUpdate WorldList.FlopperHigh.Light.01.CountRange=(X=150,Y=150) -> OK
+[658] RowUpdate WorldList.FlopperHigh.Consumables.03.CountRange=(X=150,Y=150) -> OK
+[659] RowUpdate WorldList.FlopperBetter.Light.01.CountRange=(X=150,Y=150) -> OK
+[660] RowUpdate WorldList.FlopperBetter.Shell.01.CountRange=(X=150,Y=150) -> OK
+[661] RowUpdate WorldList.FlopperBetter.Medium.18.CountRange=(X=150,Y=150) -> OK
+[662] RowUpdate LIST_BountyBoard_Gold.01.CountRange=(X=1000,Y=1000) -> OK
+[HOTFIX:SEASON2] done: applied=48, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp.json : replaced=107, added=2
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildBR\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR.json : replaced=11, added=19
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR
+[581] RowUpdate WorldList.AthenaHighConsumables.Utility.01.Weight=0.1300000 -> OK
+[582] RowUpdate WorldList.AthenaHighConsumables.Utility.01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=2, deleted=0, skipped=0
+[STEP1-5] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp.json : replaced=28, added=2
+[HOTFIX:SEASON5] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp
+[HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[STEP1-6] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup.json : replaced=30, added=0
+[HOTFIX:SEASON6] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup
+[630] TableUpdate -> ADD WorldList.AthenaLoot.Resources.01
+[630] TableUpdate -> ADD WorldList.AthenaLoot.Resources.02
+[630] TableUpdate -> ADD WorldList.AthenaLoot.Resources.03
+[630] TableUpdate -> ADD WorldPKG.AthenaSCM.Enchanced.07
+[630] TableUpdate -> ADD WorldPKG.AthenaSCM.Enchanced.08
+[630] TableUpdate -> ADD WorldPKG.AthenaSCM.Enchanced.09
+[630] TableUpdate -> ADD WorldList.AthenaSCMEnchanced.Wood.01
+[630] TableUpdate -> ADD WorldList.AthenaSCMEnchanced.Stone.01
+[630] TableUpdate -> ADD WorldList.AthenaSCMEnchanced.Metal.01
+[630] TableUpdate -> ADD WorldList.ClaimPOI.Reward.Resources.01
+[630] TableUpdate -> ADD WorldList.ClaimPOI.Reward.Resources.02
+[630] TableUpdate -> ADD WorldList.ClaimPOI.Reward.Resources.03
+[630] TableUpdate -> ADD WorldList.MMO.ChestCache.Resources.01
+[630] TableUpdate -> ADD WorldList.MMODrome.Resources.01
+[630] TableUpdate -> ADD WorldList.MMODrome.Resources.02
+[630] TableUpdate -> ADD WorldList.MMODrome.Resources.03
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Agent.Resources.01
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Agent.Resources.02
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Agent.Resources.03
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Extra.Resources.01
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Extra.Resources.02
+[630] TableUpdate -> ADD WorldList.Specialist.Supply.Extra.Resources.03
+[630] TableUpdate -> ADD WorldList.AthenaConsumables.Utility.02
+[630] TableUpdate -> ADD WorldList.AthenaHighConsumables.Utility.02
+[630] TableUpdate -> ADD WorldList.AthenaHighConsumablesRare.Utility.02
+[630] TableUpdate -> ADD WorldList.AthenaSupplyDropConsumables.Utility.02
+[630] TableUpdate -> ADD WorldList.AthenaConsumables.Utility.01
+[630] TableUpdate -> ADD WorldList.AthenaHighConsumables.Utility.01
+[630] TableUpdate -> ADD WorldList.AthenaHighConsumablesRare.Utility.01
+[630] TableUpdate -> ADD WorldList.AthenaSupplyDropConsumables.Utility.01
+[HOTFIX:SEASON6] done: applied=30, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup__final.json
+2026-03-24 08:23:29 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-24 08:23:30 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootTierData_Client.json : replaced=1, added=121
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootTierData_Client_Comp.json : replaced=1, added=0
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildBR\TeaCakeLoot_OverrideLootTierData_NoBuildBR.json : replaced=0, added=0
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp.json : replaced=0, added=4
+[HOTFIX:SEASON5] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootTierData_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootTierData_NoBuildBR__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp__final.json
+2026-03-24 08:23:30 | INFO | ✓ Hotfix 適用完了 (1.08s)
+2026-03-24 08:23:30 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+2026-03-24 08:23:30 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+2026-03-24 08:23:30 | INFO | load done (0.04s)
+2026-03-24 08:23:30 | INFO | build summary start
+2026-03-24 08:23:30 | INFO | build summary done (0.02s)
+2026-03-24 08:23:30 | INFO | enrich summary with names start
+2026-03-24 08:23:30 | INFO | enrich summary done (0.00s)
+2026-03-24 08:23:30 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-03-24_08-23.json
+2026-03-24 08:23:30 | INFO | build NoBuild_LootData start
+2026-03-24 08:23:30 | INFO | build BR_LootData done (0.00s)
+2026-03-24 08:23:30 | INFO | ✅ NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp\NoBuild_Comp_LootData_2026-03-24_08-23.json
+2026-03-24 08:23:30 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ZB_Comp_LootPool.json
+2026-03-24 08:23:30 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py
+2026-03-24 08:23:30 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-03-24_08-23.json
+✅ 抽出件数: 93
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-03-21_07-36.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-03-24_08-23.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 1 / 変更 : 0 / 変化なし : 93
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\history\BR_20260324_0823\items_unique_min_diff.json
+2026-03-24 08:23:30 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-03-24 08:23:30 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.23s)
+2026-03-24 08:23:30 | INFO | prewarm start
+2026-03-24 08:23:30 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.40s)
+2026-03-24 08:23:30 | INFO | 画像化タスク数: 93
+2026-03-24 08:23:31 | INFO | 画像生成 進捗: 1/93
+2026-03-24 08:23:31 | INFO | 画像生成 進捗: 50/93

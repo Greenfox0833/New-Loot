@@ -42881,8 +42881,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42914,8 +42914,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 250,
-          "Y": 250
+          "X": 200,
+          "Y": 200
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -42947,8 +42947,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 350,
-          "Y": 350
+          "X": 275,
+          "Y": 275
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43079,8 +43079,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1000,
-          "Y": 1000
+          "X": 750,
+          "Y": 750
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43343,8 +43343,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 75,
-          "Y": 75
+          "X": 50,
+          "Y": 50
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -43376,8 +43376,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 95,
-          "Y": 95
+          "X": 80,
+          "Y": 80
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -52847,8 +52847,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -53837,8 +53837,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -54200,8 +54200,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -61163,8 +61163,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -61196,8 +61196,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -68966,7 +68966,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Mythic",
+        "LootPackageCall": "LIST_DragRace",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -68975,7 +68975,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:WorldList.Weapons.Rarity.Mythic",
+        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:LIST_DragRace",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_DragRace_Winner.05": {
@@ -69343,7 +69343,7 @@
       },
       "PKG_GoldenWaterfall_Weapon.04": {
         "LootPackageID": "PKG_GoldenWaterfall_Weapon",
-        "Weight": 1.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69362,7 +69362,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Legendary",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Rare",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -69371,12 +69371,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Legendary",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Rare",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.05": {
         "LootPackageID": "PKG_GoldenWaterfall_Weapon",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69395,7 +69395,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Weapons.Rarity.Mythic",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Epic",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -69404,7 +69404,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Mythic",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Epic",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.06": {
@@ -72779,8 +72779,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 500,
-          "Y": 500
+          "X": 400,
+          "Y": 400
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -72845,8 +72845,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 115,
-          "Y": 115
+          "X": 100,
+          "Y": 100
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -73472,8 +73472,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -74858,8 +74858,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -75485,8 +75485,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -76079,8 +76079,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -86771,8 +86771,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -87926,8 +87926,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91655,8 +91655,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91721,8 +91721,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1250,
-          "Y": 1250
+          "X": 1000,
+          "Y": 1000
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -92216,8 +92216,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 4,
-          "Y": 4
+          "X": 6,
+          "Y": 6
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -93549,15 +93549,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_SR.WID_SMG_Paprika_Burst_Athena_HS_SR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_SMG_Paprika_Burst_Athena_SR",
+        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_IceKingLieutenant_Weapon.02": {
@@ -93582,15 +93579,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR.WID_SMG_Paprika_Burst_Athena_HS_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_SMG_Paprika_Burst_Athena_UR",
+        "Annotation": ";List:LIST_IceKingLieutenant_Weapon.C0;Item:WID_Pistol_Auto_HighTier_Athena_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_IceKingLieutenant_Ammo.01": {
@@ -94374,15 +94368,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UR.WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_DeadliftRecord_Mythic.C0;Item:WID_Shotgun_Auto_Dual_DragonCart_Athena_UR",
+        "Annotation": ";List:LIST_DeadliftRecord_Mythic.C0;Item:WID_Shotgun_Pump_DragonCart_Athena_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_GreatRamp_Mythic.01": {
@@ -95209,6 +95200,39 @@
         "bAllowBonusDrops": true,
         "Annotation": ";List:LIST_CareDrop_Revive.C1;Item:Consumable.MilitiaExpire",
         "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_DragRace.01": {
+        "LootPackageID": "LIST_DragRace",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR.WID_SMG_Paprika_Burst_Athena_HS_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_DragRace.C0;Item:WID_SMG_Paprika_Burst_Athena_HS_UR",
+        "DurabilityPercentageOverride": 1
       }
     }
   }

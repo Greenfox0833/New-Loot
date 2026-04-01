@@ -4,3 +4,200 @@
 2026-04-01 23:02:35 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp
 2026-04-01 23:02:35 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-04-01 23:02:35 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-01 23:02:36 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=428, added=1071
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client
+[326] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.Weight=0.000010 -> OK
+[327] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.CountRange=(X=1,Y=1) -> OK
+[328] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.ItemDefinition=/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR -> OK
+[332] RowUpdate WorldList.AthenaLoot.Ammo.Medium.01.CountRange=(X=36,Y=36) -> OK
+[333] RowUpdate LIST_PaV_04_Boss_Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[334] RowUpdate LIST_PaV_04_Boss_Ammo.03.Weight=1.000000 -> OK
+[335] RowUpdate LIST_PaV_04_Boss_Ammo.03.CountRange=(X=36,Y=36) -> OK
+[336] RowUpdate LIST_PaV_04_Boss_Consume.01.Weight=0.500000 -> OK
+[337] RowUpdate LIST_PaV_04_Boss_Consume.02.Weight=0.500000 -> OK
+[338] RowUpdate LIST_PaV_04_Boss_Consume.03.Weight=0.000000 -> OK
+[339] RowUpdate LIST_PaV_04_Boss_Consume.04.Weight=0.000000 -> OK
+[381] RowUpdate PKG_DragRace_Winner.04.LootPackageCall=LIST_DragRace -> OK
+[382] RowUpdate PKG_GoldenWaterfall_Weapon.04.Weight=0.600000 -> OK
+[383] RowUpdate PKG_GoldenWaterfall_Weapon.04.LootPackageCall=WorldList.Weapons.Rarity.Rare -> OK
+[384] RowUpdate PKG_GoldenWaterfall_Weapon.05.Weight=0.400000 -> OK
+[385] RowUpdate PKG_GoldenWaterfall_Weapon.05.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[386] RowUpdate LIST_IceKingLieutenant_Weapon.01.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR -> OK
+[387] RowUpdate LIST_IceKingLieutenant_Weapon.02.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR -> OK
+[388] RowUpdate LIST_DeadliftRecord_Mythic.01.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR -> OK
+[389] AddRow -> ADD LIST_DragRace.01
+[390] RowUpdate WorldList.AthenaWadStash.Small.01.CountRange=(X=150,Y=150) -> OK
+[391] RowUpdate WorldList.AthenaWadStash.Small.02.CountRange=(X=200,Y=200) -> OK
+[392] RowUpdate WorldList.AthenaWadStash.Small.03.CountRange=(X=275,Y=275) -> OK
+[393] RowUpdate WorldList.AthenaWadStash.Small.04.CountRange=(X=400,Y=400) -> OK
+[394] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=750,Y=750) -> OK
+[395] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[396] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=80,Y=80) -> OK
+[397] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[398] RowUpdate WorldList.FlopperDefault.Light.01.CountRange=(X=150,Y=150) -> OK
+[399] RowUpdate WorldList.FlopperHigh.Light.01.CountRange=(X=150,Y=150) -> OK
+[400] RowUpdate WorldList.FlopperHigh.Consumables.03.CountRange=(X=150,Y=150) -> OK
+[401] RowUpdate WorldList.FlopperBetter.Light.01.CountRange=(X=150,Y=150) -> OK
+[402] RowUpdate WorldList.FlopperBetter.Shell.01.CountRange=(X=150,Y=150) -> OK
+[403] RowUpdate WorldList.FlopperBetter.Medium.18.CountRange=(X=150,Y=150) -> OK
+[404] RowUpdate LIST_BountyBoard_Gold.01.CountRange=(X=1000,Y=1000) -> OK
+[601] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.06.Weight=0.400000 -> OK
+[602] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.06.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[603] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.07.Weight=0.075000 -> OK
+[604] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.07.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[605] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.10.Weight=0.400000 -> OK
+[606] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[607] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.11.Weight=0.075000 -> OK
+[608] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.11.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[609] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.09.Weight=0.750000 -> OK
+[610] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.09.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[611] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.10.Weight=0.750000 -> OK
+[612] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[613] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.11.Weight=0.750000 -> OK
+[614] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.11.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[615] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.12.Weight=0.250000 -> OK
+[616] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.12.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[617] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.13.Weight=0.750000 -> OK
+[618] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.13.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[619] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.14.Weight=0.750000 -> OK
+[620] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.14.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[621] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.15.Weight=0.750000 -> OK
+[622] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.15.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[623] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.16.Weight=0.250000 -> OK
+[624] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.16.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[625] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.05.Weight=0.750000 -> OK
+[626] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.05.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[627] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.06.Weight=0.250000 -> OK
+[628] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.06.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[629] RowUpdate WorldList.Weapons.Rarity.Uncommon.10.Weight=1.000000 -> OK
+[630] RowUpdate WorldList.Weapons.Rarity.Uncommon.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[631] RowUpdate WorldList.Weapons.Rarity.Rare.10.Weight=1.000000 -> OK
+[632] RowUpdate WorldList.Weapons.Rarity.Rare.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[633] RowUpdate WorldList.Weapons.Rarity.Epic.10.Weight=1.000000 -> OK
+[634] RowUpdate WorldList.Weapons.Rarity.Epic.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[635] RowUpdate WorldList.Weapons.Rarity.Legendary.10.Weight=1.000000 -> OK
+[636] RowUpdate WorldList.Weapons.Rarity.Legendary.10.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[637] RowUpdate WorldList.FlopperHigh.Light.11.Weight=0.300000 -> OK
+[638] RowUpdate WorldList.FlopperHigh.Light.11.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_UC.WID_DualPistol_FingerGuns_UC -> OK
+[639] RowUpdate WorldList.FlopperHigh.Light.12.Weight=0.600000 -> OK
+[640] RowUpdate WorldList.FlopperHigh.Light.12.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[641] RowUpdate WorldList.FlopperHigh.Light.13.Weight=0.100000 -> OK
+[642] RowUpdate WorldList.FlopperHigh.Light.13.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[643] RowUpdate WorldList.FlopperBetter.Light.13.Weight=0.600000 -> OK
+[644] RowUpdate WorldList.FlopperBetter.Light.13.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[645] RowUpdate WorldList.FlopperBetter.Light.14.Weight=0.400000 -> OK
+[646] RowUpdate WorldList.FlopperBetter.Light.14.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[741] RowUpdate WorldList.AthenaHighConsumables.Healing.08.Weight=0.040000 -> OK
+[742] RowUpdate WorldList.AthenaConsumables.Healing.08.Weight=0.010000 -> OK
+[HOTFIX:SEASON2] done: applied=83, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp.json : replaced=112, added=2
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildBR\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR.json : replaced=51, added=20
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp.json : replaced=28, added=2
+[HOTFIX:SEASON5] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp
+[HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[STEP1-6] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup.json : replaced=30, added=0
+[HOTFIX:SEASON6] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup
+[HOTFIX:SEASON6] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON6] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootPackagesData_NoBuildBR_Comp_Backup__final.json
+2026-04-01 23:02:36 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-01 23:02:36 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootTierData_Client.json : replaced=1, added=118
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootTierData_Client_Comp.json : replaced=1, added=0
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildBR\TeaCakeLoot_OverrideLootTierData_NoBuildBR.json : replaced=0, added=0
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\NoBuildComp\TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp.json : replaced=0, added=4
+[HOTFIX:SEASON5] target=/TeaCakeLoot/DataTables/NoBuildComp/TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLootTierData_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootTierData_NoBuildBR__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\TeaCakeLoot_OverrideLootTierData_NoBuildBR_Comp__final.json
+2026-04-01 23:02:36 | INFO | ✓ Hotfix 適用完了 (1.60s)
+2026-04-01 23:02:36 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+2026-04-01 23:02:36 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+2026-04-01 23:02:36 | INFO | load done (0.03s)
+2026-04-01 23:02:36 | INFO | build summary start
+2026-04-01 23:02:36 | INFO | build summary done (0.04s)
+2026-04-01 23:02:36 | INFO | enrich summary with names start
+2026-04-01 23:02:37 | INFO | enrich summary done (0.68s)
+2026-04-01 23:02:37 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-04-01_23-02.json
+2026-04-01 23:02:37 | INFO | build NoBuild_LootData start
+2026-04-01 23:02:37 | INFO | build BR_LootData done (0.00s)
+2026-04-01 23:02:37 | INFO | ✅ NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp\NoBuild_Comp_LootData_2026-04-01_23-02.json
+2026-04-01 23:02:37 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ZB_Comp_LootPool.json
+2026-04-01 23:02:37 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py
+2026-04-01 23:02:37 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-04-01_23-02.json
+✅ 抽出件数: 100
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-03-24_08-23.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-04-01_23-02.json
+✅ 差分作成 完了
+  追加   : 8 / 削除 : 1 / 変更 : 0 / 変化なし : 92
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\history\BR_20260401_2302\items_unique_min_diff.json
+2026-04-01 23:02:37 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-01 23:02:37 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.35s)
+2026-04-01 23:02:37 | INFO | prewarm start
+2026-04-01 23:02:38 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.99s)
+2026-04-01 23:02:38 | INFO | 画像化タスク数: 100
+2026-04-01 23:02:38 | INFO | 画像生成 進捗: 1/100
+2026-04-01 23:02:39 | INFO | 画像生成 進捗: 50/100
+2026-04-01 23:02:40 | INFO | 画像生成 進捗: 100/100
+2026-04-01 23:02:40 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-01 23:02:40 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_Comp_2026-04-01_23-02-40.json (added=18 removed=43 change=52)
+2026-04-01 23:02:40 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\NoBuild_Comp\AddedItems\2026-04-01_23-02-40 (copied=15 missing=3)
+2026-04-01 23:02:40 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-01 23:02:43 | INFO | git commit stdout: [main 8b22d63] NoBuild_Comp update 2026-04-01 23:02:41
+ 38 files changed, 90927 insertions(+), 21457 deletions(-)
+ create mode 100644 System Update/NoBuild_Comp/output/history/BR_20260401_2302/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-04-01_23-02-35.log
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-04-01_23-02.json
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2421 - \345\214\205\345\270\257.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2422 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\220\343\203\226\343\203\253Jr..png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2422 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2422 - \343\203\235\343\202\261\343\203\203\343\203\210\343\203\220\343\203\263\343\202\253\343\203\274.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2423 - \343\203\217\343\203\274\343\203\227\343\203\274\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2423 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2423 - \343\203\227\343\203\255\347\224\250\343\203\225\343\202\243\343\203\203\343\202\267\343\203\263\343\202\260\343\203\225\343\203\203\343\202\257.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2424 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2425 - \343\202\242\343\203\274\343\202\257\343\203\273\343\203\251\343\202\244\343\203\210\343\203\213\343\203\263\343\202\260\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2425 - \343\202\271\343\203\251\343\203\203\343\203\232\343\203\255\343\203\274\343\203\213\343\203\273\343\203\224\343\202\266.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2425 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2425 - \350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2427 - \343\203\225\343\202\241\343\202\246\343\203\263\343\203\207\343\203\274\343\202\267\343\203\247\343\203\263\343\201\256\343\203\221\343\203\257\343\203\274\343\202\260\343\203\255\343\203\274\343\203\226.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-04-01_23-02-40/\343\203\206\343\202\243\343\202\2427 - \345\274\267\345\214\226\345\236\213\343\203\217\343\203\274\343\203\227\343\203\274\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild_Comp/NoBuild_Comp_LootData_2026-04-01_23-02.json"
+2026-04-01 23:02:47 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   6b2020c..8b22d63  main -> main
+2026-04-01 23:02:47 | INFO | ✓ GitHub Push 完了
+2026-04-01 23:02:47 | INFO | ===== NoBuild_Comp: pipeline end =====

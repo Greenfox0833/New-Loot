@@ -1,0 +1,238 @@
+2026-04-01 23:01:00 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-04-01_23-01-00.log
+2026-04-01 23:01:00 | INFO | ===== ForbiddenFruit: pipeline start =====
+2026-04-01 23:01:00 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+2026-04-01 23:01:00 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
+2026-04-01 23:01:00 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-01 23:01:00 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-01 23:01:00 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootPackages.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages
+[777] RowUpdate WorldList.BusWeap.01.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_UC.WID_Shotgun_MusterPump_Athena_UC -> OK
+[778] RowUpdate WorldList.BusWeap.02.Weight=1.000000 -> OK
+[779] RowUpdate WorldList.BusWeap.02.ItemDefinition=/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UC.WID_Assault_FirePetal_Fast_Athena_UC -> OK
+[780] RowUpdate WorldList.BusWeap.03.Weight=1.000000 -> OK
+[781] RowUpdate WorldList.BusWeap.03.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC.WID_Shotgun_MusterDPS_Athena_UC -> OK
+[782] RowUpdate WorldList.BusWeap.04.Weight=1.000000 -> OK
+[783] RowUpdate WorldList.BusWeap.04.ItemDefinition=/CherrySmokeWeaponGameplay/Gameplay/Pistol/WID_Pistol_Auto_CherrySmoke_Athena_UC.WID_Pistol_Auto_CherrySmoke_Athena_UC -> OK
+[784] RowUpdate WorldList.BusWeap.05.Weight=1.000000 -> OK
+[785] RowUpdate WorldList.BusWeap.05.ItemDefinition=/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UC.WID_SMG_MusterQuick_Athena_UC -> OK
+[786] RowUpdate WorldList.BusWeap.06.Weight=1.000000 -> OK
+[787] RowUpdate WorldList.BusWeap.06.ItemDefinition=/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_R_Ore_T03.WID_Assault_Stark_Athena_R_Ore_T03 -> OK
+[788] RowUpdate WorldList.BusGrant.ItemSet.1.01.Weight=1.000000 -> OK
+[789] RowUpdate WorldList.BusGrant.ItemSet.1.01.CountRange=(X=2,Y=2) -> OK
+[790] RowUpdate WorldList.BusGrant.ItemSet.1.01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[791] RowUpdate WorldList.GoldChest.Boons.01.Weight=1.000000 -> OK
+[792] RowUpdate WorldList.GoldChest.Boons.01.ItemDefinition=/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_VR_Ore_T03.WID_Assault_Stark_Athena_VR_Ore_T03 -> OK
+[793] RowUpdate WorldList.GoldChest.Boons.02.Weight=1.000000 -> OK
+[794] RowUpdate WorldList.GoldChest.Boons.02.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[795] RowUpdate WorldList.GoldChest.Boons.03.Weight=1.000000 -> OK
+[796] RowUpdate WorldList.GoldChest.Boons.03.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[797] RowUpdate WorldList.GoldChest.Boons.04.Weight=1.000000 -> OK
+[798] RowUpdate WorldList.GoldChest.Boons.04.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[799] RowUpdate WorldList.GoldChest.Boons.05.Weight=1.000000 -> OK
+[800] RowUpdate WorldList.GoldChest.Boons.05.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[809] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.Weight=1.000000 -> OK
+[810] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.ItemDefinition=/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel -> OK
+[811] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.02.Weight=1.000000 -> OK
+[812] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.02.ItemDefinition=/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo -> OK
+[813] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.03.Weight=1.000000 -> OK
+[814] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.03.ItemDefinition=/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR -> OK
+[815] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.04.Weight=0.750000 -> OK
+[816] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.04.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[817] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.05.Weight=0.800000 -> OK
+[818] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.05.ItemDefinition=/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03 -> OK
+[819] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.06.Weight=0.750000 -> OK
+[820] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.06.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[821] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.07.Weight=0.750000 -> OK
+[822] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.07.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[823] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.08.Weight=0.750000 -> OK
+[824] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.08.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[825] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.Weight=1.000000 -> OK
+[826] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.ItemDefinition=/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel -> OK
+[827] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.Weight=1.000000 -> OK
+[828] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.ItemDefinition=/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo -> OK
+[829] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.03.Weight=1.000000 -> OK
+[830] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.03.ItemDefinition=/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR -> OK
+[831] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.04.Weight=0.750000 -> OK
+[832] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.04.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[833] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.05.Weight=0.800000 -> OK
+[834] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.05.ItemDefinition=/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03 -> OK
+[835] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.06.Weight=0.750000 -> OK
+[836] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.06.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[837] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.07.Weight=0.750000 -> OK
+[838] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.07.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[839] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.08.Weight=0.750000 -> OK
+[840] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.08.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[841] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.Weight=1.000000 -> OK
+[842] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.Weight=1.000000 -> OK
+[843] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.ItemDefinition=/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel -> OK
+[844] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.Weight=1.000000 -> OK
+[845] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.ItemDefinition=/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo -> OK
+[846] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.03.Weight=1.000000 -> OK
+[847] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.03.ItemDefinition=/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR -> OK
+[848] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.04.Weight=0.750000 -> OK
+[849] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.04.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[850] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.05.Weight=0.800000 -> OK
+[851] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.05.ItemDefinition=/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03 -> OK
+[852] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.06.Weight=0.750000 -> OK
+[853] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.06.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[854] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.07.Weight=0.750000 -> OK
+[855] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.07.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[856] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.08.Weight=0.750000 -> OK
+[857] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.08.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[862] RowUpdate WorldList.RandomMythic.Rewards.01.ItemDefinition=/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel -> OK
+[863] RowUpdate WorldList.RandomMythic.Rewards.02.Weight=1.000000 -> OK
+[864] RowUpdate WorldList.RandomMythic.Rewards.02.ItemDefinition=/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo -> OK
+[865] RowUpdate WorldList.RandomMythic.Rewards.03.ItemDefinition=/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR -> OK
+[866] RowUpdate WorldList.RandomMythic.Rewards.04.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[867] RowUpdate WorldList.RandomMythic.Rewards.05.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[868] RowUpdate WorldList.RandomMythic.Rewards.06.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[869] RowUpdate WorldList.RandomMythic.Rewards.07.Weight=1.000000 -> OK
+[870] RowUpdate WorldList.RandomMythic.Rewards.07.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[871] RowUpdate WorldList.RandomMythic.Rewards.08.Weight=0.900000 -> OK
+[872] RowUpdate WorldList.RandomMythic.Rewards.08.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[873] RowUpdate WorldList.RandomMythic.Rewards.09.Weight=0.900000 -> OK
+[874] RowUpdate WorldList.RandomMythic.Rewards.09.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[875] RowUpdate WorldList.RandomMythic.Rewards.10.Weight=0.900000 -> OK
+[876] RowUpdate WorldList.RandomMythic.Rewards.10.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[877] RowUpdate WorldList.RandomMythic.Rewards.11.Weight=0.000000 -> OK
+[878] RowUpdate WorldList.RandomMythic.Rewards.12.Weight=0.000000 -> OK
+[879] RowUpdate WorldList.RandomMythic.Rewards.13.Weight=0.000000 -> OK
+[880] RowUpdate WorldList.RandomMythic.Rewards.15.Weight=0.000000 -> OK
+[881] RowUpdate WorldList.RandomMythic.Rewards.16.Weight=0.000000 -> OK
+[882] RowUpdate WorldList.RandomMythic.Rewards.17.Weight=0.000000 -> OK
+[883] RowUpdate WorldList.RandomMythic.Rewards.18.Weight=0.000000 -> OK
+[884] RowUpdate WorldList.RandomMythic.Rewards.19.Weight=0.000000 -> OK
+[885] RowUpdate WorldList.RandomMythic.Rewards.20.Weight=0.000000 -> OK
+[886] RowUpdate WorldList.RandomMythic.Rewards.21.Weight=0.000000 -> OK
+[887] RowUpdate WorldList.RandomMythic.Rewards.22.Weight=0.000000 -> OK
+[888] RowUpdate WorldList.RandomMythic.Rewards.23.Weight=0.000000 -> OK
+[889] RowUpdate WorldList.RandomMythic.Rewards.24.Weight=0.000000 -> OK
+[890] RowUpdate WorldList.RandomMythic.Rewards.25.Weight=0.000000 -> OK
+[891] RowUpdate WorldList.RandomMythic.Rewards.26.Weight=0.000000 -> OK
+[892] RowUpdate WorldList.RandomMythic.Rewards.29.Weight=0.000000 -> OK
+[893] RowUpdate WorldList.RandomMythic.Rewards.52.Weight=0.000000 -> OK
+[894] RowUpdate WorldList.RandomMythic.Rewards.53.Weight=0.000000 -> OK
+[895] RowUpdate WorldList.RandomMythic.Rewards.54.Weight=0.000000 -> OK
+[896] RowUpdate WorldList.RandomMythic.Rewards.55.Weight=0.000000 -> OK
+[897] RowUpdate WorldList.RandomMythic.Rewards.56.Weight=0.000000 -> OK
+[898] RowUpdate WorldList.RandomMythic.Rewards.57.Weight=0.000000 -> OK
+[899] RowUpdate WorldList.RandomMythic.Rewards.58.Weight=0.000000 -> OK
+[900] RowUpdate WorldList.RandomMythic.Rewards.59.Weight=0.000000 -> OK
+[901] RowUpdate WorldList.RandomMythic.Rewards.60.Weight=0.000000 -> OK
+[902] RowUpdate WorldList.RandomExotic.Rewards.01.ItemDefinition=/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel -> OK
+[903] RowUpdate WorldList.RandomExotic.Rewards.02.Weight=1.000000 -> OK
+[904] RowUpdate WorldList.RandomExotic.Rewards.02.ItemDefinition=/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo -> OK
+[905] RowUpdate WorldList.RandomExotic.Rewards.03.ItemDefinition=/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR -> OK
+[906] RowUpdate WorldList.RandomExotic.Rewards.04.ItemDefinition=/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets -> OK
+[907] RowUpdate WorldList.RandomExotic.Rewards.05.ItemDefinition=/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns -> OK
+[908] RowUpdate WorldList.RandomExotic.Rewards.06.ItemDefinition=/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret -> OK
+[909] RowUpdate WorldList.RandomExotic.Rewards.07.Weight=1.000000 -> OK
+[910] RowUpdate WorldList.RandomExotic.Rewards.07.ItemDefinition=/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield -> OK
+[911] RowUpdate WorldList.RandomExotic.Rewards.08.Weight=0.900000 -> OK
+[912] RowUpdate WorldList.RandomExotic.Rewards.08.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[913] RowUpdate WorldList.RandomExotic.Rewards.09.Weight=0.900000 -> OK
+[914] RowUpdate WorldList.RandomExotic.Rewards.09.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[915] RowUpdate WorldList.RandomExotic.Rewards.10.Weight=0.900000 -> OK
+[916] RowUpdate WorldList.RandomExotic.Rewards.10.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[917] RowUpdate WorldList.RandomExotic.Rewards.11.Weight=0.000000 -> OK
+[918] RowUpdate WorldList.RandomExotic.Rewards.12.Weight=0.000000 -> OK
+[919] RowUpdate WorldList.RandomExotic.Rewards.13.Weight=0.000000 -> OK
+[920] RowUpdate WorldList.RandomExotic.Rewards.15.Weight=0.000000 -> OK
+[921] RowUpdate WorldList.RandomExotic.Rewards.16.Weight=0.000000 -> OK
+[922] RowUpdate WorldList.RandomExotic.Rewards.17.Weight=0.000000 -> OK
+[923] RowUpdate WorldList.RandomExotic.Rewards.18.Weight=0.000000 -> OK
+[924] RowUpdate WorldList.RandomExotic.Rewards.19.Weight=0.000000 -> OK
+[925] RowUpdate WorldList.RandomExotic.Rewards.20.Weight=0.000000 -> OK
+[926] RowUpdate WorldList.RandomExotic.Rewards.21.Weight=0.000000 -> OK
+[927] RowUpdate WorldList.RandomExotic.Rewards.22.Weight=0.000000 -> OK
+[928] RowUpdate WorldList.RandomExotic.Rewards.23.Weight=0.000000 -> OK
+[929] RowUpdate WorldList.RandomExotic.Rewards.24.Weight=0.000000 -> OK
+[930] RowUpdate WorldList.RandomExotic.Rewards.25.Weight=0.000000 -> OK
+[931] RowUpdate WorldList.RandomExotic.Rewards.26.Weight=0.000000 -> OK
+[932] RowUpdate WorldList.RandomExotic.Rewards.29.Weight=0.000000 -> OK
+[933] RowUpdate WorldList.RandomExotic.Rewards.52.Weight=0.000000 -> SKIP(no row)
+[934] RowUpdate WorldList.RandomExotic.Rewards.53.Weight=0.000000 -> SKIP(no row)
+[935] RowUpdate WorldList.RandomExotic.Rewards.54.Weight=0.000000 -> SKIP(no row)
+[936] RowUpdate WorldList.RandomExotic.Rewards.55.Weight=0.000000 -> SKIP(no row)
+[937] RowUpdate WorldList.RandomExotic.Rewards.56.Weight=0.000000 -> SKIP(no row)
+[938] RowUpdate WorldList.RandomExotic.Rewards.57.Weight=0.000000 -> SKIP(no row)
+[939] RowUpdate WorldList.RandomExotic.Rewards.58.Weight=0.000000 -> SKIP(no row)
+[940] RowUpdate WorldList.RandomExotic.Rewards.59.Weight=0.000000 -> SKIP(no row)
+[941] RowUpdate WorldList.RandomExotic.Rewards.60.Weight=0.000000 -> SKIP(no row)
+[942] RowUpdate WorldList.GoldChest.Boons.07.Weight=1.000000 -> OK
+[943] RowUpdate WorldList.GoldChest.Boons.07.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[944] RowUpdate WorldList.GoldChest.Boons.08.Weight=1.000000 -> OK
+[945] RowUpdate WorldList.GoldChest.Boons.08.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[946] RowUpdate WorldList.GoldChest.Boons.09.Weight=1.000000 -> OK
+[947] RowUpdate WorldList.GoldChest.Boons.09.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[948] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.10.Weight=0.900000 -> OK
+[949] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.10.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[950] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.11.Weight=0.900000 -> OK
+[951] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.11.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[952] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.12.Weight=0.900000 -> OK
+[953] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.12.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[954] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.10.Weight=0.900000 -> OK
+[955] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.10.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[956] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.11.Weight=0.900000 -> OK
+[957] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.11.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[958] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.12.Weight=0.900000 -> OK
+[959] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.12.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[960] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.10.Weight=0.900000 -> OK
+[961] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.10.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR -> OK
+[962] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.11.Weight=0.900000 -> OK
+[963] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.11.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR -> OK
+[964] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.12.Weight=0.900000 -> OK
+[965] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.12.ItemDefinition=/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=168, deleted=0, skipped=9
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-01 23:01:00 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-01 23:01:00 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootTierData.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData
+[801] RowUpdate Loot_AthenaSupplyDrop_01.LootPackageCategoryWeightArray=(1,1,1,1,1,2,0,0,0,0,0) -> OK
+[802] RowUpdate Loot_AthenaSupplyDrop_04.LootPackageCategoryWeightArray=(1,1,1,1,1,2,0,0,0,0,0) -> OK
+[803] RowUpdate Loot_AthenaSupplyDrop_05.LootPackageCategoryWeightArray=(1,1,1,1,1,2,0,0,0,0,0) -> OK
+[804] RowUpdate Loot_AthenaSupplyDrop_06.LootPackageCategoryWeightArray=(1,1,1,1,1,2,0,0,0,0,0) -> OK
+[805] RowUpdate Loot_AthenaBlitzLlama_01.LootPackageCategoryWeightArray=(3,1,1,1,0,0,0,0,0,0,0) -> OK
+[806] RowUpdate Loot_AthenaBlitzLlama_01.LootPackageCategoryMinArray=(3,0,2,1,0,0,0,0,0,0,0) -> OK
+[807] RowUpdate Loot_AthenaBlitzRareLlama_01.LootPackageCategoryWeightArray=(5,1,1,1,0,0,0,0,0,0,0) -> OK
+[808] RowUpdate Loot_AthenaBlitzRareLlama_01.LootPackageCategoryMinArray=(5,0,2,1,0,0,0,0,0,0,0) -> OK
+[HOTFIX:SEASON1] done: applied=8, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-01 23:01:00 | INFO | ✓ Hotfix 適用完了 (0.78s)
+2026-04-01 23:01:00 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+2026-04-01 23:01:00 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+2026-04-01 23:01:00 | INFO | load done (0.02s)
+2026-04-01 23:01:00 | INFO | build summary start
+2026-04-01 23:01:00 | INFO | build summary done (0.03s)
+2026-04-01 23:01:00 | INFO | enrich summary with names start
+2026-04-01 23:01:00 | INFO | enrich summary done (0.00s)
+2026-04-01 23:01:00 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-01_23-01.json
+2026-04-01 23:01:00 | INFO | build BR_LootData start
+2026-04-01 23:01:00 | INFO | build BR_LootData done (0.00s)
+2026-04-01 23:01:00 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit\ForbiddenFruit_LootData_2026-04-01_23-01.json
+2026-04-01 23:01:00 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Blitz_LootPool.json
+2026-04-01 23:01:00 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py
+2026-04-01 23:01:01 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-01_23-01.json
+✅ 抽出件数: 149
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-03-20_07-59.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-01_23-01.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 8 / 変化なし : 141
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\history\BR_20260401_2301\items_unique_min_diff.json
+2026-04-01 23:01:01 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-01 23:01:01 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.22s)
+2026-04-01 23:01:01 | INFO | prewarm start

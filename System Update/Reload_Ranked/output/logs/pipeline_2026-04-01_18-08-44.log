@@ -1,0 +1,115 @@
+2026-04-01 18:08:44 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\logs\pipeline_2026-04-01_18-08-44.log
+2026-04-01 18:08:44 | INFO | ===== Reload_Ranked: pipeline start =====
+2026-04-01 18:08:44 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+2026-04-01 18:08:44 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
+2026-04-01 18:08:44 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-01 18:08:44 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-01 18:08:45 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
+[406] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.05.Weight=0.050000 -> OK
+[407] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.05.Weight=0.050000 -> OK
+[408] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.05.Weight=0.050000 -> OK
+[409] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.05.Weight=0.050000 -> OK
+[410] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.05.Weight=0.050000 -> OK
+[411] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.05.Weight=0.050000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=6, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\Habanero\BlastBerryLootPackages_Habanero.json : replaced=542, added=1623
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryLootPackages_Habanero
+[1147] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.04.Weight=1.000000 -> OK
+[1148] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.05.Weight=0.400000 -> OK
+[1149] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.06.Weight=0.080000 -> OK
+[1150] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.66.Weight=0.000000 -> OK
+[1151] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.67.Weight=0.000000 -> OK
+[1152] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.68.Weight=0.000000 -> OK
+[1153] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.05.Weight=0.400000 -> OK
+[1154] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.06.Weight=0.080000 -> OK
+[1155] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.07.Weight=0.016000 -> OK
+[1156] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.08.Weight=0.004000 -> OK
+[1157] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.95.Weight=0.000000 -> OK
+[1158] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.96.Weight=0.000000 -> OK
+[1159] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.97.Weight=0.000000 -> OK
+[1160] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.98.Weight=0.000000 -> OK
+[1161] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.03.Weight=0.750000 -> OK
+[1162] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.04.Weight=0.250000 -> OK
+[1163] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.51.Weight=0.000000 -> OK
+[1164] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.52.Weight=0.000000 -> OK
+[1165] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.06.Weight=0.250000 -> OK
+[1166] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.07.Weight=0.125000 -> OK
+[1167] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.08.Weight=0.025000 -> OK
+[1168] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.96.Weight=0.000000 -> OK
+[1169] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.97.Weight=0.000000 -> OK
+[1170] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.98.Weight=0.000000 -> OK
+[1171] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.104.Weight=0.000000 -> OK
+[1172] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.105.Weight=0.000000 -> OK
+[1173] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.106.Weight=0.000000 -> OK
+[1174] RowUpdate WorldList.AthenaHighConsumables.Utility.11.CountRange=(X=2,Y=2) -> OK
+[1175] RowUpdate WorldList.AthenaHighConsumablesRare.Utility.11.CountRange=(X=2,Y=2) -> OK
+[1176] RowUpdate WorldList.AthenaSupplyDropUtility.11.CountRange=(X=2,Y=2) -> OK
+[1177] RowUpdate WorldList.AthenaConsumables.Utility.11.CountRange=(X=2,Y=2) -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=31, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootPackages_Client_BlastBerryOverride.json : replaced=244, added=0
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero
+[1201] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1202] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1203] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1204] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1205] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1206] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1207] RowUpdate WorldPKG.ApolloLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1208] RowUpdate WorldPKG.ApolloLoot.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1209] RowUpdate WorldPKG.ApolloLoot.Weapon.AssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1210] RowUpdate WorldPKG.ApolloLoot.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1211] RowUpdate WorldPKG.ApolloLoot.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1212] RowUpdate WorldPKG.ApolloLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1213] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Assault.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1214] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1215] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1216] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1217] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1218] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Handgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=18, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryLootPackages_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+2026-04-01 18:08:45 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-01 18:08:45 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\Habanero\BlastBerryTierData_Habanero.json : replaced=1, added=60
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryTierData_Habanero
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride_Habanero.json : replaced=264, added=0
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryTierData_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_Habanero__final.json
+2026-04-01 18:08:45 | INFO | ✓ Hotfix 適用完了 (1.03s)
+2026-04-01 18:08:45 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+2026-04-01 18:08:45 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+2026-04-01 18:08:45 | INFO | load done (0.02s)
+2026-04-01 18:08:45 | INFO | build summary start
+2026-04-01 18:08:45 | INFO | build summary done (0.03s)
+2026-04-01 18:08:45 | INFO | enrich summary with names start
+2026-04-01 18:08:45 | INFO | enrich summary done (0.00s)
+2026-04-01 18:08:45 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-04-01_18-08.json
+2026-04-01 18:08:45 | INFO | build BR_LootData start
+2026-04-01 18:08:45 | INFO | build BR_LootData done (0.00s)
+2026-04-01 18:08:45 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-04-01_18-08.json
+2026-04-01 18:08:45 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
+2026-04-01 18:08:45 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
+2026-04-01 18:08:46 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-04-01_18-08.json
+✅ 抽出件数: 173
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-03-20_07-18.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-04-01_18-08.json
+✅ 差分作成 完了
+  追加   : 7 / 削除 : 4 / 変更 : 1 / 変化なし : 165
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260401_1808\items_unique_min_diff.json
+2026-04-01 18:08:46 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-01 18:08:46 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.35s)
+2026-04-01 18:08:46 | INFO | prewarm start

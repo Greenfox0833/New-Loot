@@ -110,3 +110,80 @@
 2026-04-01 18:01:49 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
 2026-04-01 18:01:49 | INFO | load done (0.03s)
 2026-04-01 18:01:49 | INFO | build summary start
+2026-04-01 18:01:50 | INFO | build summary done (1.51s)
+2026-04-01 18:01:50 | INFO | enrich summary with names start
+2026-04-01 18:01:51 | INFO | enrich summary done (0.92s)
+2026-04-01 18:01:51 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-01_18-01.json
+2026-04-01 18:01:51 | INFO | build BR_LootData start
+2026-04-01 18:01:51 | INFO | build BR_LootData done (0.00s)
+2026-04-01 18:01:51 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-04-01_18-01.json
+2026-04-01 18:01:51 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-04-01 18:01:51 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-04-01 18:01:52 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-01_18-01.json
+✅ 抽出件数: 103
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-03-24_08-19.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-01_18-01.json
+✅ 差分作成 完了
+  追加   : 6 / 削除 : 0 / 変更 : 0 / 変化なし : 97
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260401_1801\items_unique_min_diff.json
+2026-04-01 18:01:52 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-01 18:01:52 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.50s)
+2026-04-01 18:01:52 | INFO | prewarm start
+2026-04-01 18:02:13 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (21.05s)
+2026-04-01 18:02:13 | INFO | 画像化タスク数: 103
+2026-04-01 18:02:13 | INFO | 画像生成 進捗: 1/103
+2026-04-01 18:02:14 | INFO | 画像生成 進捗: 50/103
+2026-04-01 18:02:14 | INFO | 画像生成 進捗: 100/103
+2026-04-01 18:02:15 | INFO | 画像生成 進捗: 103/103
+2026-04-01 18:02:15 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-01 18:02:15 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-04-01_18-02-15.json (added=14 removed=42 change=57)
+2026-04-01 18:02:15 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR\AddedItems\2026-04-01_18-02-15 (copied=13 missing=1)
+2026-04-01 18:02:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-01 18:02:33 | INFO | git commit stdout: [main a7b220c] BR update 2026-04-01 18:02:25
+ 50 files changed, 79438 insertions(+), 10210 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260401_1801/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-04-01_18-01-47.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-04-01_18-01.json
+ create mode 100644 System Update/__pycache__/proto_generate_images.cpython-312.pyc
+ create mode 100644 System Update/proto/README.txt
+ create mode 100644 System Update/proto/__pycache__/run.cpython-312.pyc
+ create mode 100644 System Update/proto/cache/asset_export_cache.json
+ create mode 100644 System Update/proto/cache/asset_icon_cache.json
+ create mode 100644 System Update/proto/cache/asset_localize_cache.json
+ create mode 100644 System Update/proto/cache/asset_rarity_cache.json
+ create mode 100644 System Update/proto/cache/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-AssaultRifleMark2TT-L.png
+ create mode 100644 System Update/proto/cache/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-BoltActionSniperMark2TT-L.png
+ create mode 100644 System Update/proto/cache/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__MilitaryCore__T-Icon-Weapons-PDW-L.png
+ create mode 100644 System Update/proto/cache/icon_cache/MotherGameplay__Icons__T-Icon-Weapons-ReactorGradeWeapon-L.png
+ create mode 100644 "System Update/proto/images/\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253   - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/proto/images/\343\203\223\343\203\203\343\202\260\343\202\253\343\202\244\343\202\270\343\203\245\343\202\246\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/proto/images/\343\203\234\343\203\253\343\203\210\343\202\242\343\202\257\343\202\267\343\203\247\343\203\263\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/proto/images/\343\203\255\343\203\274\343\203\254\343\202\271 \343\203\233\343\203\203\343\203\227\343\203\255\343\203\203\343\202\257SMG - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 System Update/proto/paths.txt
+ create mode 100644 System Update/proto/run.py
+ create mode 100644 System Update/shared/icon_cache/FingerGuns__Assets__Icons__T_Icon_Weapons_FingerGuns_L.png
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2421 - \345\214\205\345\270\257.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2422 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2423 - \343\203\217\343\203\274\343\203\227\343\203\274\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2423 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2423 - \343\203\227\343\203\255\347\224\250\343\203\225\343\202\243\343\203\203\343\202\267\343\203\263\343\202\260\343\203\225\343\203\203\343\202\257.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2424 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2425 - \343\202\242\343\203\274\343\202\257\343\203\273\343\203\251\343\202\244\343\203\210\343\203\213\343\203\263\343\202\260\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2425 - \343\202\271\343\203\251\343\203\203\343\203\232\343\203\255\343\203\274\343\203\213\343\203\273\343\203\224\343\202\266.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2425 - \343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2425 - \350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2427 - \343\203\225\343\202\241\343\202\246\343\203\263\343\203\207\343\203\274\343\202\267\343\203\247\343\203\263\343\201\256\343\203\221\343\203\257\343\203\274\343\202\260\343\203\255\343\203\274\343\203\226.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-01_18-02-15/\343\203\206\343\202\243\343\202\2427 - \345\274\267\345\214\226\345\236\213\343\203\217\343\203\274\343\203\227\343\203\274\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\202\243\343\203\263\343\202\254\343\203\274\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-01_18-01.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/\343\202\263\343\203\224\343\203\274\345\276\214\344\277\256\346\255\243\346\211\213\351\240\206.md"
+2026-04-01 18:02:37 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   4538ca3..a7b220c  main -> main
+2026-04-01 18:02:37 | INFO | ✓ GitHub Push 完了
+2026-04-01 18:02:37 | INFO | ===== BR: pipeline end =====

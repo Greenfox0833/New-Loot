@@ -275,6 +275,72 @@
         "Annotation": ";Def:WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Medium.C1;Call:WorldList.AthenaLoot.Ammo.Medium",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy.01": {
+        "LootPackageID": "WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Heavy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy.C0;Call:WorldList.AthenaLoot.VendingMachine.Weapons.Common.Heavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy.02": {
+        "LootPackageID": "WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Heavy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaLoot.VendingMachine.Weapons.Common.Heavy.C1;Call:WorldList.AthenaLoot.Ammo.Heavy",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldPKG.AthenaLoot.VendingMachine.Weapons.Uncommon.Shells.01": {
         "LootPackageID": "WorldPKG.AthenaLoot.VendingMachine.Weapons.Uncommon.Shells",
         "Weight": 1.0,
@@ -12188,6 +12254,336 @@
         "Annotation": ";Def:WorldPKG.AthenaSupplyDrop.Weapon.Crossbow.C4;Call:WorldList.AthenaSupplyDropTraps",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldPKG.AthenaBooty.01": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaBooty.AutoAssault",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C0;Call:WorldList.AthenaBooty.AutoAssault",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.02": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaBooty.Short",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C1;Call:WorldList.AthenaBooty.Short",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.03": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaBooty.Destruction",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C2;Call:WorldList.AthenaBooty.Destruction",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.04": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 3,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaBooty.Consumables",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C3;Call:WorldList.AthenaBooty.Consumables",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.05": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 4,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Light",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C4;Call:WorldList.AthenaLoot.Ammo.Light",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.06": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 5,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Medium",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C5;Call:WorldList.AthenaLoot.Ammo.Medium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.07": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Heavy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C6;Call:WorldList.AthenaLoot.Ammo.Heavy",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.08": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 7,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Shells",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C7;Call:WorldList.AthenaLoot.Ammo.Shells",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.09": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 8,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Rockets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C8;Call:WorldList.AthenaLoot.Ammo.Rockets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.AthenaBooty.10": {
+        "LootPackageID": "WorldPKG.AthenaBooty",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 9,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaLoot.Resources",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.AthenaBooty.C9;Call:WorldList.AthenaLoot.Resources",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldPKG.AthenaLoot.GiftBox.SniperRoost.01": {
         "LootPackageID": "WorldPKG.AthenaLoot.GiftBox.SniperRoost",
         "Weight": 1.0,
@@ -13209,6 +13605,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:WorldPKG.WadGoldenIdol.C0;Call:WorldList.WadGoldenIdol",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FigmentMartin.Weapons.01": {
+        "LootPackageID": "WorldPKG.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FigmentMartin.Weapons",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FigmentMartin.Weapons.C0;Call:WorldList.FigmentMartin.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FigmentMartin.Mobility.01": {
+        "LootPackageID": "WorldPKG.FigmentMartin.Mobility",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FigmentMartin.Mobility",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FigmentMartin.Mobility.C0;Call:WorldList.FigmentMartin.Mobility",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FigmentMartin.WM.01": {
+        "LootPackageID": "WorldPKG.FigmentMartin.WM",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FigmentMartin.WMJets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FigmentMartin.WM.C0;Call:WorldList.FigmentMartin.WMJets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.FigmentMartin.WM.02": {
+        "LootPackageID": "WorldPKG.FigmentMartin.WM",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.FigmentMartin.WMTurret",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.FigmentMartin.WM.C1;Call:WorldList.FigmentMartin.WMTurret",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.AthenaSCM.01": {
@@ -14632,12 +15160,12 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Uncommon.03": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Consumables.Uncommon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -14653,14 +15181,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_Dynamite/Gameplay/Figment_Athena_TNT.Figment_Athena_TNT",
+          "AssetPathName": "/Figment_Trap_Context_PoisonDart/Gameplay/TID_Figment__PoisonDartTrap_Context.TID_Figment__PoisonDartTrap_Context",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Uncommon.C0;Item:Consumable.AthenaTNT",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Uncommon.C0;Item:TID.PoisonDartTrap",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Rare.01": {
@@ -14735,8 +15263,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -14752,14 +15280,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_Glider_Item/Gameplay/Figment_Athena_Glider_Item.Figment_Athena_Glider_Item",
+          "AssetPathName": "/Figment_Athena_KnockGrenade/Gameplay/Figment_Athena_KnockGrenade.Figment_Athena_KnockGrenade",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Rare.C0;Item:Gadget.Glider",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Rare.C0;Item:Consumable.AthenaKnockGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Rare.04": {
@@ -14768,8 +15296,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 10,
-          "Y": 10
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -14785,19 +15313,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable.Figment_Athena_Balloons_Consumable",
+          "AssetPathName": "/Figment_Trap_Floor_Player_Campfire_Athena/Items/Trap/TID_Figment_Floor_Player_Campfire_Athena.TID_Figment_Floor_Player_Campfire_Athena",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Rare.C0;Item:Gadget.Balloons",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Rare.C0;Item:TID.Trap.Floor.Player.Campfire",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Epic.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Consumables.Epic",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -14818,14 +15346,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03.WID_Figment_Hook_Gun_VR_Ore_T03",
+          "AssetPathName": "/Figment_Trap_Floor_Player_Launch_Pad_Athena/Items/Trap/TID_Figment_Floor_Player_Launch_Pad_Athena.TID_Figment_Floor_Player_Launch_Pad_Athena",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:Gadget.GrapplingHook",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Consumables.Epic.C0;Item:TID.Trap.Floor.Player.Launch.Pad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Consumables.Epic.02": {
@@ -15028,7 +15556,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15094,7 +15622,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Heavy.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Common.Heavy",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15115,7 +15643,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_C.WID_Pistol_Flintlock_Athena_C",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C.WID_Figment_Pistol_Flintlock_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -15387,6 +15915,39 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Heavy.C0;Item:WID.Sniper.NoScope.Athena.UC.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Heavy.02": {
+        "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Uncommon.Heavy.C0;Item:WID.Pistol.Flintlock.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Shells.01": {
@@ -15853,7 +16414,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Medium.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16204,14 +16765,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03.WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.C0;Item:WID.Shotgun.BreakBarrel.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.C0;Item:WID.Explosive.Crossbow.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.02": {
@@ -16315,7 +16876,7 @@
       },
       "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium.01": {
         "LootPackageID": "WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -16996,14 +17557,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_HighSemiAuto_Athena_SR_Ore_T03.WID_Shotgun_HighSemiAuto_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Shotgun.HighSemiAuto.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Shotgun.C0;Item:WID.Explosive.Crossbow.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.12": {
@@ -17425,7 +17986,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_ExplosiveBow_Athena_SR.WID_ExplosiveBow_Athena_SR",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -18184,14 +18745,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_HighSemiAuto_Athena_SR_Ore_T03.WID_Shotgun_HighSemiAuto_Athena_SR_Ore_T03",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Shotgun.HighSemiAuto.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighShotgun.C0;Item:WID.Explosive.Crossbow.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.12": {
@@ -18481,7 +19042,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_ExplosiveBow_Athena_SR.WID_ExplosiveBow_Athena_SR",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -19318,7 +19879,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.09": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19339,19 +19900,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_VR.WID_Figment_Pistol_HandCannon_Athena_VR",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C.WID_Figment_Pistol_Flintlock_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.VR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.Flintlock.Athena.C",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.10": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19372,14 +19933,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_SR.WID_Figment_Pistol_HandCannon_Athena_SR",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.Flintlock.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.11": {
@@ -19846,7 +20407,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.12": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 1.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -19867,14 +20428,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_SR.WID_Figment_Pistol_HandCannon_Athena_SR",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.HandCannon.Athena.SR.Ore.T03",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Flintlock.Athena.UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.13": {
@@ -20131,7 +20692,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_C.WID_Pistol_Flintlock_Athena_C",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C.WID_Figment_Pistol_Flintlock_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -20164,7 +20725,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_UC.WID_Pistol_Flintlock_Athena_UC",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -20329,7 +20890,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_C.WID_Pistol_Flintlock_Athena_C",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C.WID_Figment_Pistol_Flintlock_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -20362,7 +20923,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_UC.WID_Pistol_Flintlock_Athena_UC",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -23971,7 +24532,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.24": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24091,7 +24652,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_VR.WID_Assault_Infantry_Athena_VR",
+          "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_VR.WID_Figment_Assault_Infantry_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -24124,7 +24685,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_SR.WID_Assault_Infantry_Athena_SR",
+          "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_SR.WID_Figment_Assault_Infantry_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -24235,7 +24796,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.32": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.025,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24268,7 +24829,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.33": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.008,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -24718,7 +25279,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_C.WID_Pistol_Flintlock_Athena_C",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C.WID_Figment_Pistol_Flintlock_Athena_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -24751,7 +25312,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_UC.WID_Pistol_Flintlock_Athena_UC",
+          "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC.WID_Figment_Pistol_Flintlock_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -25522,7 +26083,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.17": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.03,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25555,7 +26116,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.18": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.01,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25654,7 +26215,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -25774,7 +26335,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_VR.WID_Assault_Infantry_Athena_VR",
+          "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_VR.WID_Figment_Assault_Infantry_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -25807,7 +26368,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_SR.WID_Assault_Infantry_Athena_SR",
+          "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_SR.WID_Figment_Assault_Infantry_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -34729,7 +35290,7 @@
       },
       "WorldList.DeimosLoot.Fiend.Weapon.Medium.03": {
         "LootPackageID": "WorldList.DeimosLoot.Fiend.Weapon.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35422,7 +35983,7 @@
       },
       "WorldList.DeimosLoot.BruteMajor.Weapon.Medium.09": {
         "LootPackageID": "WorldList.DeimosLoot.BruteMajor.Weapon.Medium",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36412,7 +36973,7 @@
       },
       "WorldList.DeimosLoot.Brute.Weapon.Medium.09": {
         "LootPackageID": "WorldList.DeimosLoot.Brute.Weapon.Medium",
-        "Weight": 0.33,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37786,14 +38347,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR.WID_Figment_Shotgun_Standard_Athena_VR",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Shotgun.Standard.Athena.VR",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Shotgun.C0;Item:WID.Explosive.Crossbow.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.04": {
@@ -37852,7 +38413,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_ExplosiveBow_Athena_SR.WID_ExplosiveBow_Athena_SR",
+          "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR.WID_Figment_ExplosiveBow_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -38590,7 +39151,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.09": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38677,7 +39238,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_SR.WID_Assault_Infantry_Athena_SR",
+          "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_SR.WID_Figment_Assault_Infantry_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40502,6 +41063,105 @@
         "Annotation": ";List:WorldList.ForagedItem.Mushroom.C0;Item:Consumable.GatheredItem.ShieldMushroom",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.ForagedItem.Coconut.01": {
+        "LootPackageID": "WorldList.ForagedItem.Coconut",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Athena_Coconut/Gameplay/WID_Figment_Athena_Coconut.WID_Figment_Athena_Coconut",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ForagedItem.Coconut.C0;Item:Consumable.Foraged.Coconut",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ForagedItem.Pepper.01": {
+        "LootPackageID": "WorldList.ForagedItem.Pepper",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Athena_Pepper/Gameplay/WID_Figment_Athena_Pepper.WID_Figment_Athena_Pepper",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ForagedItem.Pepper.C0;Item:Consumable.Foraged.Pepper",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ForagedItem.Banana.01": {
+        "LootPackageID": "WorldList.ForagedItem.Banana",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Athena_Banana/Gameplay/WID_Figment_Athena_Banana.WID_Figment_Athena_Banana",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ForagedItem.Banana.C0;Item:Consumable.Foraged.Banana",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaHighConsumables.01": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
         "Weight": 1.5,
@@ -40999,7 +41659,7 @@
       },
       "WorldList.AthenaHighConsumables.16": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41494,7 +42154,7 @@
       },
       "WorldList.AthenaHighConsumables.31": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41560,7 +42220,7 @@
       },
       "WorldList.AthenaHighConsumables.33": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41593,7 +42253,7 @@
       },
       "WorldList.AthenaHighConsumables.34": {
         "LootPackageID": "WorldList.AthenaHighConsumables",
-        "Weight": 0.0,
+        "Weight": 0.125,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41614,7 +42274,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/Booty/AGID_Athena_Booty.AGID_Athena_Booty",
+          "AssetPathName": "/Figment_Athena_Booty/Gameplay/AGID_Figment_Athena_Booty.AGID_Figment_Athena_Booty",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41647,7 +42307,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SmokeBomb_Athena/Athena_SmokeBomb.Athena_SmokeBomb",
+          "AssetPathName": "/Figment_Athena_ShadowBomb/Gameplay/Athena_Figment_SmokeBomb.Athena_Figment_SmokeBomb",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42781,7 +43441,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.16": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43276,7 +43936,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.31": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43363,7 +44023,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/Booty/AGID_Athena_Booty.AGID_Athena_Booty",
+          "AssetPathName": "/Figment_Athena_Booty/Gameplay/AGID_Figment_Athena_Booty.AGID_Figment_Athena_Booty",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -43396,7 +44056,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SmokeBomb_Athena/Athena_SmokeBomb.Athena_SmokeBomb",
+          "AssetPathName": "/Figment_Athena_ShadowBomb/Gameplay/Athena_Figment_SmokeBomb.Athena_Figment_SmokeBomb",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44299,7 +44959,7 @@
       },
       "WorldList.AthenaConsumables.16": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44629,7 +45289,7 @@
       },
       "WorldList.AthenaConsumables.26": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44662,7 +45322,7 @@
       },
       "WorldList.AthenaConsumables.27": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44695,7 +45355,7 @@
       },
       "WorldList.AthenaConsumables.28": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44728,7 +45388,7 @@
       },
       "WorldList.AthenaConsumables.29": {
         "LootPackageID": "WorldList.AthenaConsumables",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44749,7 +45409,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Gameplay/Booty/AGID_Athena_Booty.AGID_Athena_Booty",
+          "AssetPathName": "/Figment_Athena_Booty/Gameplay/AGID_Figment_Athena_Booty.AGID_Figment_Athena_Booty",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44782,7 +45442,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/SmokeBomb_Athena/Athena_SmokeBomb.Athena_SmokeBomb",
+          "AssetPathName": "/Figment_Athena_ShadowBomb/Gameplay/Athena_Figment_SmokeBomb.Athena_Figment_SmokeBomb",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45772,7 +46432,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Traps/TID_PoisonDartTrap_Context.TID_PoisonDartTrap_Context",
+          "AssetPathName": "/Figment_Trap_Context_PoisonDart/Gameplay/TID_Figment__PoisonDartTrap_Context.TID_Figment__PoisonDartTrap_Context",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46300,7 +46960,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Traps/TID_PoisonDartTrap_Context.TID_PoisonDartTrap_Context",
+          "AssetPathName": "/Figment_Trap_Context_PoisonDart/Gameplay/TID_Figment__PoisonDartTrap_Context.TID_Figment__PoisonDartTrap_Context",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46374,6 +47034,831 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDropTraps.C0;Item:TID.Context.FrostedTips.Athena",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.AutoAssault.01": {
+        "LootPackageID": "WorldList.AthenaBooty.AutoAssault",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_SR.WID_Figment_Assault_AutoHigh_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.AutoAssault.C0;Item:WID.Assault.AutoHigh.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.AutoAssault.02": {
+        "LootPackageID": "WorldList.AthenaBooty.AutoAssault",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03.WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.AutoAssault.C0;Item:WID.Assault.Suppressed.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Short.01": {
+        "LootPackageID": "WorldList.AthenaBooty.Short",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_SR.WID_Figment_Shotgun_Standard_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Short.C0;Item:WID.Shotgun.Standard.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Short.02": {
+        "LootPackageID": "WorldList.AthenaBooty.Short",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR.WID_Figment_CompactSMG_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Short.C0;Item:WID.Pistol.AutoHeavyPDW.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Destruction.01": {
+        "LootPackageID": "WorldList.AthenaBooty.Destruction",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_SR.WID_Figment_Launcher_Rocket_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Destruction.C0;Item:WID.Launcher.Rocket.Athena.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Destruction.02": {
+        "LootPackageID": "WorldList.AthenaBooty.Destruction",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03.WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Destruction.C0;Item:WID.Sniper.Heavy.Athena.SR.Ore.T03",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Consumables.01": {
+        "LootPackageID": "WorldList.AthenaBooty.Consumables",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Athena_ChugJug/Gameplay/Figment_Athena_SuperMedkit.Figment_Athena_SuperMedkit",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Consumables.C0;Item:Consumable.AthenaSuperMedKit",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.01": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Chicago/WID_FigmentMartin_Ashton_Shield.WID_FigmentMartin_Ashton_Shield",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID.FigmentMartin.Ashton.Shield",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.02": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Hippo/AGID_FigmentMartin_Hippo.AGID_FigmentMartin_Hippo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:AGID.Hippo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.03": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/BarnTowel/AGID_FigmentMartin_BarnTowel.AGID_FigmentMartin_BarnTowel",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:AGID_FigmentMartin_Barntowel",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.04": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Turbo/AGID_FigmentMartin_Turbo.AGID_FigmentMartin_Turbo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:AGID.Turbo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.05": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/WiseOtter/WID_FigmentMartin_WiseOtter_Combo.WID_FigmentMartin_WiseOtter_Combo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID_FigmentMartin_WiseOtter_Combo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.06": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/ChapWorm/WID_FigmentMartin_ChapWorm.WID_FigmentMartin_ChapWorm",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID_FigmentMartin_Chapworm",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.07": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 2.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/GauntletGuns/WID_FigmentMartin_MurkyVole_GauntletGuns.WID_FigmentMartin_MurkyVole_GauntletGuns",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID_FigmentMartin_MurkyVole_Gauntlets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.08": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 3.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/HoverJets/AGID_FigmentMartin_MurkyVole_HoverJets.AGID_FigmentMartin_MurkyVole_HoverJets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID_FigmentMartin_MurkyVole_Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBooty.Martin.09": {
+        "LootPackageID": "WorldList.AthenaBooty.Martin",
+        "Weight": 4.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/Turret/WID_FigmentMartin_MurkyVole_Turret.WID_FigmentMartin_MurkyVole_Turret",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBooty.Martin.C0;Item:WID_FigmentMartin_MurkyVole_Turret",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Weapons.01": {
+        "LootPackageID": "WorldList.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Chicago/WID_FigmentMartin_Ashton_Shield.WID_FigmentMartin_Ashton_Shield",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Weapons.C0;Item:WID.FigmentMartin.Ashton.Shield",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Weapons.02": {
+        "LootPackageID": "WorldList.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Turbo/AGID_FigmentMartin_Turbo.AGID_FigmentMartin_Turbo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Weapons.C0;Item:AGID.Turbo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Weapons.03": {
+        "LootPackageID": "WorldList.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/WiseOtter/WID_FigmentMartin_WiseOtter_Combo.WID_FigmentMartin_WiseOtter_Combo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Weapons.C0;Item:WID_FigmentMartin_WiseOtter_Combo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Weapons.04": {
+        "LootPackageID": "WorldList.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/GauntletGuns/WID_FigmentMartin_MurkyVole_GauntletGuns.WID_FigmentMartin_MurkyVole_GauntletGuns",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Weapons.C0;Item:WID_FigmentMartin_MurkyVole_Gauntlets",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Weapons.05": {
+        "LootPackageID": "WorldList.FigmentMartin.Weapons",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Hippo/AGID_FigmentMartin_Hippo.AGID_FigmentMartin_Hippo",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Weapons.C0;Item:AGID.Hippo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Mobility.01": {
+        "LootPackageID": "WorldList.FigmentMartin.Mobility",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/ChapWorm/WID_FigmentMartin_ChapWorm.WID_FigmentMartin_ChapWorm",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Mobility.C0;Item:WID_FigmentMartin_Chapworm",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.Mobility.02": {
+        "LootPackageID": "WorldList.FigmentMartin.Mobility",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/BarnTowel/AGID_FigmentMartin_BarnTowel.AGID_FigmentMartin_BarnTowel",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.Mobility.C0;Item:AGID_FigmentMartin_Barntowel",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.WMJets.01": {
+        "LootPackageID": "WorldList.FigmentMartin.WMJets",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/HoverJets/AGID_FigmentMartin_MurkyVole_HoverJets.AGID_FigmentMartin_MurkyVole_HoverJets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.WMJets.C0;Item:WID_FigmentMartin_MurkyVole_Jetpack",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.FigmentMartin.WMTurret.01": {
+        "LootPackageID": "WorldList.FigmentMartin.WMTurret",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/Turret/WID_FigmentMartin_MurkyVole_Turret.WID_FigmentMartin_MurkyVole_Turret",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.FigmentMartin.WMTurret.C0;Item:WID_FigmentMartin_MurkyVole_Turret",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaGiftBox.Balloons.01": {

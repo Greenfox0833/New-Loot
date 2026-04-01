@@ -113,3 +113,38 @@
   """
 2026-04-01 18:08:46 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.35s)
 2026-04-01 18:08:46 | INFO | prewarm start
+2026-04-01 18:09:13 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (27.03s)
+2026-04-01 18:09:13 | INFO | 画像化タスク数: 173
+2026-04-01 18:09:13 | INFO | 画像生成 進捗: 1/173
+2026-04-01 18:09:13 | INFO | 画像生成 進捗: 50/173
+2026-04-01 18:09:14 | INFO | 画像生成 進捗: 100/173
+2026-04-01 18:09:14 | INFO | 画像生成 進捗: 150/173
+2026-04-01 18:09:15 | INFO | 画像生成 進捗: 173/173
+2026-04-01 18:09:15 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-01 18:09:15 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-04-01_18-09-15.json (added=7 removed=4 change=38)
+2026-04-01 18:09:15 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Reload_Ranked\AddedItems\2026-04-01_18-09-15 (copied=7 missing=0)
+2026-04-01 18:09:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-01 18:09:20 | INFO | git commit stdout: [main 5e432f2] Reload_Ranked update 2026-04-01 18:09:17
+ 27 files changed, 59244 insertions(+), 2318 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260401_1808/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-04-01_18-08-44.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-04-01_18-08.json
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2422 - O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2423 - O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2424 - O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2425 - O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2426 - \343\202\267\343\203\243\343\203\211\343\203\274\343\203\210\343\203\251\343\203\203\343\202\253\343\203\274.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2426 - \343\203\226\343\203\274\343\203\240\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-01_18-09-15/\343\203\206\343\202\243\343\202\2426 - \343\203\233\343\203\203\343\203\227\343\203\255\343\203\203\343\202\257\343\203\207\343\203\245\343\202\242\343\203\252\343\203\274.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\267\343\203\243\343\203\211\343\203\274\343\203\210\343\203\251\343\203\203\343\202\253\343\203\274 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\271\343\202\257\343\202\244\343\203\226\343\203\252\343\203\274\343\201\256\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\226\343\203\274\343\203\240\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-04-01_18-08.json"
+2026-04-01 18:09:24 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   a7b220c..5e432f2  main -> main
+2026-04-01 18:09:24 | INFO | ✓ GitHub Push 完了
+2026-04-01 18:09:24 | INFO | ===== Reload_Ranked: pipeline end =====

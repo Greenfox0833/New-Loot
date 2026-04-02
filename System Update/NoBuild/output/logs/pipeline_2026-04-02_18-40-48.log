@@ -76,3 +76,42 @@
 2026-04-02 18:40:49 | INFO | build summary start
 2026-04-02 18:40:49 | INFO | build summary done (0.04s)
 2026-04-02 18:40:49 | INFO | enrich summary with names start
+2026-04-02 18:40:50 | INFO | enrich summary done (0.98s)
+2026-04-02 18:40:50 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-04-02_18-40.json
+2026-04-02 18:40:50 | INFO | build BR_LootData start
+2026-04-02 18:40:50 | INFO | build BR_LootData done (0.00s)
+2026-04-02 18:40:50 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild\NoBuild_LootData_2026-04-02_18-40.json
+2026-04-02 18:40:50 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ZB_LootPool.json
+2026-04-02 18:40:50 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py
+2026-04-02 18:40:51 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-04-02_18-40.json
+✅ 抽出件数: 102
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-04-01_23-01.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-04-02_18-40.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 4 / 変更 : 0 / 変化なし : 102
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\history\BR_20260402_1840\items_unique_min_diff.json
+2026-04-02 18:40:51 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-02 18:40:51 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.47s)
+2026-04-02 18:40:51 | INFO | prewarm start
+2026-04-02 18:40:52 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.50s)
+2026-04-02 18:40:52 | INFO | 画像化タスク数: 102
+2026-04-02 18:40:53 | INFO | 画像生成 進捗: 1/102
+2026-04-02 18:40:53 | INFO | 画像生成 進捗: 50/102
+2026-04-02 18:40:54 | INFO | 画像生成 進捗: 100/102
+2026-04-02 18:40:54 | INFO | 画像生成 進捗: 102/102
+2026-04-02 18:40:54 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-02 18:40:54 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\NoBuild_2026-04-02_18-40-54.json (added=0 removed=4 change=42)
+2026-04-02 18:40:54 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
+2026-04-02 18:40:54 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-02 18:40:56 | INFO | git commit stdout: [main 44e1c83] BR update 2026-04-02 18:40:55
+ 9 files changed, 63154 insertions(+), 158 deletions(-)
+ create mode 100644 System Update/NoBuild/output/history/BR_20260402_1840/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild/output/logs/pipeline_2026-04-02_18-40-48.log
+ create mode 100644 System Update/NoBuild/output/summary/v39.30_2026-04-02_18-40.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild/NoBuild_LootData_2026-04-02_18-40.json"
+2026-04-02 18:41:00 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   a2d6627..44e1c83  main -> main
+2026-04-02 18:41:00 | INFO | ✓ GitHub Push 完了
+2026-04-02 18:41:00 | INFO | ===== BR: pipeline end =====

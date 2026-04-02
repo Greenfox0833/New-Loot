@@ -126,3 +126,24 @@
   """
 2026-04-02 00:56:10 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.33s)
 2026-04-02 00:56:10 | INFO | prewarm start
+2026-04-02 00:56:47 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (36.76s)
+2026-04-02 00:56:47 | INFO | 画像化タスク数: 173
+2026-04-02 00:56:47 | INFO | 画像生成 進捗: 1/173
+2026-04-02 00:56:47 | INFO | 画像生成 進捗: 50/173
+2026-04-02 00:56:48 | INFO | 画像生成 進捗: 100/173
+2026-04-02 00:56:49 | INFO | 画像生成 進捗: 150/173
+2026-04-02 00:56:49 | INFO | 画像生成 進捗: 173/173
+2026-04-02 00:56:49 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-02 00:56:49 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-04-02_00-56-49.json (added=0 removed=0 change=1)
+2026-04-02 00:56:49 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
+2026-04-02 00:56:49 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-02 00:56:58 | INFO | git commit stdout: [main 6d63ebb] Reload_Ranked update 2026-04-02 00:56:53
+ 9 files changed, 55408 insertions(+), 98 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260402_0056/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-04-02_00-56-08.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-04-02_00-56.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-04-02_00-56.json"
+2026-04-02 00:57:02 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   3247446..6d63ebb  main -> main
+2026-04-02 00:57:02 | INFO | ✓ GitHub Push 完了
+2026-04-02 00:57:02 | INFO | ===== Reload_Ranked: pipeline end =====

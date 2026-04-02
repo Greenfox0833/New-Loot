@@ -1,0 +1,355 @@
+{
+  "LTG_HazelnutSpread_RivalReward": {
+    "TotalWeight": 1.0,
+    "Items": []
+  },
+  "LTG_HazelnutSpread_RivalReward_Bonus": {
+    "TotalWeight": 1.0,
+    "Items": []
+  },
+  "LTG_Vend_HazelnutSpread_Consumables": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Consumables.01",
+              "Call": "VendItemList.HazelnutSpread.Consumables",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 2.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Consumables.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 7.5,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+                  "CountItem": 1,
+                  "LocalizedName": "自己蘇生デバイス"
+                },
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Consumables.02",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 7.5,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
+                  "CountItem": 1,
+                  "LocalizedName": "スラッペローニ・ピザ"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Consumables02.01",
+              "Call": "VendItemList.HazelnutSpread.Consumables02",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Consumables02.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 50.0,
+                  "rarity": "エピック",
+                  "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
+                  "CountItem": 2,
+                  "LocalizedName": "フローベリーミストグレネード"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Consumables04.01",
+              "Call": "VendItemList.HazelnutSpread.Consumables04",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Consumables04.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 35.0,
+                  "rarity": "レア",
+                  "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+                  "CountItem": 5,
+                  "LocalizedName": "チャグスプラッシュ"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "LTG_Vend_HazelnutSpread_Perks01": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Perks01.01",
+              "Call": "VendItemList.HazelnutSpread.Perks01",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Perks01.01",
+                  "Weight": 1.0,
+                  "ListPercentLocal": 100.0,
+                  "rarity": "ミシック",
+                  "AssetPathName": "/HazelnutSpread/Gameplay/Perks/MarkOnDamage/AGID_HazelnutSpread_Perk_DamageMark.AGID_HazelnutSpread_Perk_DamageMark",
+                  "CountItem": 1,
+                  "LocalizedName": "ダメージでマーキング"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "LTG_Vend_HazelnutSpread_Perks02": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Perks02.01",
+              "Call": "VendItemList.HazelnutSpread.Perks02",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Perks02.01",
+                  "Weight": 1.0,
+                  "ListPercentLocal": 100.0,
+                  "rarity": "ミシック",
+                  "AssetPathName": "/HazelnutSpread/Gameplay/Perks/InfiniteSlap/AGID_HazelnutSpread_Perk_Slap.AGID_HazelnutSpread_Perk_Slap",
+                  "CountItem": 1,
+                  "LocalizedName": "インフィニット・スラップ"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "LTG_Vend_HazelnutSpread_SeasonalWeapons": {
+    "TotalWeight": 6.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Medium.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Medium",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Medium.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットアサルトライフル"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Shell.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Shell",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Shell.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "カオスリローダーショットガン"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Explosive.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Explosive",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Explosive.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/PotatoCoaster/Gameplay/ProtoCannon_ClusterBomb/Impulse/WID_ProtoCannon_ClusterBomb_Impulse_SR.WID_ProtoCannon_ClusterBomb_Impulse_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "セブンのクラスターキャノン"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Light.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Light",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Light.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "ピストル"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Heavy.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Heavy",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Heavy.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_SR.WID_DMR_TeaCake_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "ベクター7 DMR"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Gauntlets.01",
+              "Call": "VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 16.6667,
+                  "rarity": "エピック",
+                  "AssetPathName": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets.WID_RiftGauntlets",
+                  "CountItem": 1,
+                  "LocalizedName": "セブンのパワーグローブ"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "LTG_Vend_HazelnutSpread_Weapons": {
+    "TotalWeight": 3.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Weapons.Medium.01",
+              "Call": "VendItemList.HazelnutSpread.Weapons.Medium",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Weapons.Medium.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 33.3333,
+                  "rarity": "エキゾチック",
+                  "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_EX.WID_Assault_MusterScoped_Athena_EX",
+                  "CountItem": 1,
+                  "LocalizedName": "ハイステッド・エクスプローシブ・アサルトライフル"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Weapons.Heavy.01",
+              "Call": "VendItemList.HazelnutSpread.Weapons.Heavy",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Weapons.Heavy.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 33.3333,
+                  "rarity": "エキゾチック",
+                  "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/AR/Explosion/WID_CherrySmoke_AR_Unstable_Explosion_R.WID_CherrySmoke_AR_Unstable_Explosion_R",
+                  "CountItem": 1,
+                  "LocalizedName": "アンステーブル サンダークラップDMR"
+                }
+              ]
+            },
+            {
+              "ID": "VendItemPKG.HazelnutSpread.Weapons.Light.01",
+              "Call": "VendItemList.HazelnutSpread.Weapons.Light",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.Weapons.Light.01",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 33.3333,
+                  "rarity": "エキゾチック",
+                  "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/Pistol/Exotic/WID_Pistol_Auto_CherrySmoke_Athena_X.WID_Pistol_Auto_CherrySmoke_Athena_X",
+                  "CountItem": 1,
+                  "LocalizedName": "アンステーブル ヴォルテージ・バーストピストル"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "LTG_Vend_HazelnutSpread_XP": {
+    "TotalWeight": 1.0,
+    "Items": [
+      {
+        "LootNumber_0": {
+          "Packages": [
+            {
+              "ID": "VendItemPKG.HazelnutSpread.XP.01",
+              "Call": "VendItemList.HazelnutSpread.XP",
+              "Count": 1,
+              "weight": 1.0,
+              "TotalListWeight": 1.0,
+              "ListItems": [
+                {
+                  "WorldListID": "VendItemList.HazelnutSpread.XP.01",
+                  "Weight": 1.0,
+                  "ListPercentLocal": 100.0,
+                  "rarity": "ミシック",
+                  "AssetPathName": "/HazelnutSpread/Gameplay/VendingMachines/Assets/WID_HazelnutSpread_XP.WID_HazelnutSpread_XP",
+                  "CountItem": 1,
+                  "LocalizedName": "5,000 XP"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -7,7 +7,6 @@ from threading import Lock
 from urllib.parse import quote
 
 from http_client import session
-from pylocres import LocresFile
 
 TTL_SECONDS = 60 * 60
 _BASE_DIR = Path(__file__).resolve().parent
@@ -19,8 +18,9 @@ _CACHE_STATE = {"dirty": 0}
 _LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno")
 _LOCAL_JUNO_LOCALIZE_MAP = None
 _LOCAL_JUNO_LOCALIZE_LOCK = Lock()
-_JUNO_TABASCO_LOCRES_PATH = Path(
-    r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Localization\JunoTabascoGameplay\ja\JunoTabascoGameplay.locres"
+_JUNO_TABASCO_LOCRES_EXPORT_PATH = (
+    "FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Localization/"
+    "JunoTabascoGameplay/ja/JunoTabascoGameplay.locres"
 )
 _JUNO_TABASCO_LOCRES_MAP = None
 _JUNO_TABASCO_LOCRES_LOCK = Lock()
@@ -135,13 +135,11 @@ def _load_juno_tabasco_locres_map() -> dict[str, str]:
 
         mapping: dict[str, str] = {}
         try:
-            if _JUNO_TABASCO_LOCRES_PATH.exists():
-                locres = LocresFile()
-                locres.read(_JUNO_TABASCO_LOCRES_PATH)
-                for namespace in locres:
-                    for entry in namespace:
-                        if isinstance(entry.key, str) and isinstance(entry.translation, str) and entry.key and entry.translation:
-                            mapping.setdefault(entry.key, entry.translation)
+            data = fetch_export_json(_JUNO_TABASCO_LOCRES_EXPORT_PATH)
+            json_output = (data or {}).get("jsonOutput", {})
+            if isinstance(json_output, dict):
+                for k, v in _iter_local_localization_values(json_output).items():
+                    mapping.setdefault(k, v)
         except Exception:
             mapping = {}
 
@@ -163,6 +161,8 @@ def _lookup_juno_tabasco_locres_name(key: str) -> str | None:
 def normalize_asset_path(asset_path: str) -> str:
     if not asset_path:
         return ""
+    if asset_path.strip().lower().endswith(".locres"):
+        return asset_path.strip()
     return asset_path.strip().split(".", 1)[0]
 
 def fetch_export_json(path_like: str) -> dict | None:
@@ -240,7 +240,7 @@ def fetch_localized_name(key: str) -> str:
     if isinstance(hit, dict):
         ts = hit.get("ts")
         val = hit.get("value")
-        if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(val, str):
+        if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(val, str) and val != "???":
             return val
 
     url = "https://export-service.dillyapis.com/v1/export/localize"

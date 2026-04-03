@@ -1,0 +1,61 @@
+2026-04-03 18:38:48 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\logs\pipeline_2026-04-03_18-38-48.log
+2026-04-03 18:38:48 | INFO | ===== Juno_Tabasco: pipeline start =====
+2026-04-03 18:38:48 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\items_unique_min.json
+2026-04-03 18:38:48 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\Juno_Tabasco
+2026-04-03 18:38:48 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-03 18:38:48 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-03 18:38:49 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_ResourceNodeLootPackages.json
+[HOTFIX:SEASON1] target=/JunoTabascoGameplay/Data/Juno_ResourceNodeLootPackages
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_GameplayItemLootPackages_TabascoGameplay.json : replaced=0, added=59
+[HOTFIX:SEASON2] target=/JunoTabascoGameplay/Data/Juno_GameplayItemLootPackages_TabascoGameplay
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_AILootPackages_Tabasco.json : replaced=0, added=231
+[HOTFIX:SEASON3] target=/JunoTabascoGameplay/Data/Juno_AILootPackages_Tabasco
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_LootChestLootPackages_Tabasco.json : replaced=0, added=361
+[HOTFIX:SEASON4] target=/JunoTabascoGameplay/Data/Juno_LootChestLootPackages_Tabasco
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_LootQuestLootPackages_Tabasco.json : replaced=0, added=15
+[HOTFIX:SEASON5] target=/JunoTabascoGameplay/Data/Juno_LootQuestLootPackages_Tabasco
+[HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_ResourceNodeLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_GameplayItemLootPackages_TabascoGameplay__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_AILootPackages_Tabasco__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_LootChestLootPackages_Tabasco__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_LootQuestLootPackages_Tabasco__final.json
+2026-04-03 18:38:49 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-03 18:38:49 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_ResourceNodeLootTierData.json
+[HOTFIX:SEASON1] target=/JunoTabascoGameplay/Data/Juno_ResourceNodeLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_GameplayItemLootTierData_TabascoGameplay.json : replaced=0, added=59
+[HOTFIX:SEASON2] target=/JunoTabascoGameplay/Data/Juno_GameplayItemLootTierData_TabascoGameplay
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_AILootTierData_Tabasco.json : replaced=0, added=40
+[HOTFIX:SEASON3] target=/JunoTabascoGameplay/Data/Juno_AILootTierData_Tabasco
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_LootChestLootTierData_Tabasco.json : replaced=0, added=49
+[HOTFIX:SEASON4] target=/JunoTabascoGameplay/Data/Juno_LootChestLootTierData_Tabasco
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Data\Juno_LootQuestLootTierData_Tabasco.json : replaced=0, added=4
+[HOTFIX:SEASON5] target=/JunoTabascoGameplay/Data/Juno_LootQuestLootTierData_Tabasco
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_ResourceNodeLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_GameplayItemLootTierData_TabascoGameplay__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_AILootTierData_Tabasco__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_LootChestLootTierData_Tabasco__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\Juno_LootQuestLootTierData_Tabasco__final.json
+2026-04-03 18:38:49 | INFO | ✓ Hotfix 適用完了 (0.54s)
+2026-04-03 18:38:49 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootTierData_Client__final.json
+2026-04-03 18:38:49 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\AthenaLootPackages_Client__final.json
+2026-04-03 18:38:49 | INFO | load done (0.00s)
+2026-04-03 18:38:49 | INFO | build summary start
+2026-04-03 18:38:49 | INFO | build summary done (0.02s)
+2026-04-03 18:38:49 | INFO | enrich summary with names start

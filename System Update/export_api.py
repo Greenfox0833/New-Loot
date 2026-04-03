@@ -1,11 +1,13 @@
 import atexit
 import json
+import os
 import time
 from pathlib import Path
 from threading import Lock
 from urllib.parse import quote
 
 from http_client import session
+from pylocres import LocresFile
 
 TTL_SECONDS = 60 * 60
 _BASE_DIR = Path(__file__).resolve().parent
@@ -17,6 +19,11 @@ _CACHE_STATE = {"dirty": 0}
 _LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno")
 _LOCAL_JUNO_LOCALIZE_MAP = None
 _LOCAL_JUNO_LOCALIZE_LOCK = Lock()
+_JUNO_TABASCO_LOCRES_PATH = Path(
+    r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno\JunoTabascoGameplay\Content\Localization\JunoTabascoGameplay\ja\JunoTabascoGameplay.locres"
+)
+_JUNO_TABASCO_LOCRES_MAP = None
+_JUNO_TABASCO_LOCRES_LOCK = Lock()
 
 
 def _load_cache_dict(path: Path) -> dict:
@@ -106,6 +113,47 @@ def _lookup_local_juno_localized_name(key: str) -> str | None:
     if not key:
         return None
     mapping = _load_local_juno_localize_map()
+    value = mapping.get(key)
+    if isinstance(value, str) and value:
+        return value
+    return None
+
+
+def _is_juno_tabasco_profile() -> bool:
+    return (os.getenv("SYSTEM_PROFILE", "").strip() or "") == "Juno_Tabasco"
+
+
+def _load_juno_tabasco_locres_map() -> dict[str, str]:
+    global _JUNO_TABASCO_LOCRES_MAP
+
+    if _JUNO_TABASCO_LOCRES_MAP is not None:
+        return _JUNO_TABASCO_LOCRES_MAP
+
+    with _JUNO_TABASCO_LOCRES_LOCK:
+        if _JUNO_TABASCO_LOCRES_MAP is not None:
+            return _JUNO_TABASCO_LOCRES_MAP
+
+        mapping: dict[str, str] = {}
+        try:
+            if _JUNO_TABASCO_LOCRES_PATH.exists():
+                locres = LocresFile()
+                locres.read(_JUNO_TABASCO_LOCRES_PATH)
+                for namespace in locres:
+                    for entry in namespace:
+                        if isinstance(entry.key, str) and isinstance(entry.translation, str) and entry.key and entry.translation:
+                            mapping.setdefault(entry.key, entry.translation)
+        except Exception:
+            mapping = {}
+
+        _JUNO_TABASCO_LOCRES_MAP = mapping
+        return _JUNO_TABASCO_LOCRES_MAP
+
+
+def _lookup_juno_tabasco_locres_name(key: str) -> str | None:
+    if not key or not _is_juno_tabasco_profile():
+        return None
+
+    mapping = _load_juno_tabasco_locres_map()
     value = mapping.get(key)
     if isinstance(value, str) and value:
         return value
@@ -203,6 +251,8 @@ def fetch_localized_name(key: str) -> str:
             arr = r.json().get("jsonOutput", [])
             value = (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
             if value == "???":
+                value = _lookup_juno_tabasco_locres_name(key) or value
+            if value == "???":
                 value = _lookup_local_juno_localized_name(key) or value
             with _CACHE_LOCK:
                 _LOCALIZE_CACHE[key] = {"ts": now, "value": value}
@@ -210,6 +260,13 @@ def fetch_localized_name(key: str) -> str:
             return value
     except Exception:
         pass
+
+    locres_value = _lookup_juno_tabasco_locres_name(key)
+    if isinstance(locres_value, str):
+        with _CACHE_LOCK:
+            _LOCALIZE_CACHE[key] = {"ts": now, "value": locres_value}
+            _touch_dirty()
+        return locres_value
 
     local_value = _lookup_local_juno_localized_name(key)
     if isinstance(local_value, str):

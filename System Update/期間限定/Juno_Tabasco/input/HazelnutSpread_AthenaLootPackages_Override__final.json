@@ -1,0 +1,1369 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "HazelnutSpread_AthenaLootPackages",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLootPackageData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "VendItemPKG.HazelnutSpread.Weapons.Medium.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Weapons.Medium",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Weapons.Medium",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Weapons.C0;Call:VendItemList.HazelnutSpread.Weapons.Medium",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Weapons.Shell.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Weapons.Shell",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Weapons.Shell",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Weapons.C0;Call:VendItemList.HazelnutSpread.Weapons.Shell",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Weapons.Heavy.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Weapons.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Weapons.Heavy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Weapons.C0;Call:VendItemList.HazelnutSpread.Weapons.Heavy",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Weapons.Explosive.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Weapons.Explosive",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Weapons.Explosive",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Weapons.C0;Call:VendItemList.HazelnutSpread.Weapons.Explosive",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Weapons.Light.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Weapons.Light",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Weapons.Light",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Weapons.C0;Call:VendItemList.HazelnutSpread.Weapons.Light",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Medium.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Medium",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Shell.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Shell",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Heavy.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_EX.WID_Pistol_Chrono_Athena_EX",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Heavy.02": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/TrackerSniper/WID_Sniper_MoonFlax_Athena_EX.WID_Sniper_MoonFlax_Athena_EX",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Explosive.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Explosive",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/RocketLauncher/WID_VividRazor_RocketLauncher_Athena_EX.WID_VividRazor_RocketLauncher_Athena_EX",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Explosive.02": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Explosive",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Weapons.Light.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Weapons.Light",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Consumables.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Consumables",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Consumables",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Consumables.C0;Call:VendItemList.HazelnutSpread.Consumables",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Consumables02.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Consumables02",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Consumables02",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Consumables.C0;Call:VendItemList.HazelnutSpread.Consumables02",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Consumables04.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Consumables04",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 4,
+          "Y": 4
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Consumables04",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Consumables.C0;Call:VendItemList.HazelnutSpread.Consumables04",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Consumables.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Consumables",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Consumables.02": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Consumables",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Consumables02.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Consumables02",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud.WID_FizzyCloud",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Consumables04.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Consumables04",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.XP.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.XP",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.XP",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.XP.C0;Call:VendItemList.HazelnutSpread.XP",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.XP.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.XP",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HazelnutSpread/Gameplay/VendingMachines/Assets/WID_HazelnutSpread_XP.WID_HazelnutSpread_XP",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "PKG.HazelnutSpread.RivalReward.01": {
+        "LootPackageID": "PKG.HazelnutSpread.RivalReward",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "ItemList.HazelnutSpread.RivalReward",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG.HazelnutSpread.RivalReward.C0;Call:ItemList.HazelnutSpread.RivalReward",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "ItemList.HazelnutSpread.RivalReward.01": {
+        "LootPackageID": "ItemList.HazelnutSpread.RivalReward",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 0,
+          "Y": 0
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HazelnutSpread/Gameplay/VendingMachines/Assets/Ingredient_Resource_HazelnutSpread_Tokens.Ingredient_Resource_HazelnutSpread_Tokens",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "PKG.HazelnutSpread.RivalReward.Bonus.01": {
+        "LootPackageID": "PKG.HazelnutSpread.RivalReward.Bonus",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "ItemList.HazelnutSpread.RivalReward.Bonus",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG.HazelnutSpread.RivalReward.Bonus.C0;Call:ItemList.HazelnutSpread.RivalReward.Bonus",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "ItemList.HazelnutSpread.RivalReward.Bonus.01": {
+        "LootPackageID": "ItemList.HazelnutSpread.RivalReward.Bonus",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 0,
+          "Y": 0
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HazelnutSpread/Gameplay/VendingMachines/Assets/Ingredient_Resource_HazelnutSpread_Tokens.Ingredient_Resource_HazelnutSpread_Tokens",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Perks01.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Perks01",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Perks01",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Perks01.C0;Call:VendItemList.HazelnutSpread.Perks01",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.Perks02.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.Perks02",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.Perks02",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.Perks02.C0;Call:VendItemList.HazelnutSpread.Perks02",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Perks01.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Perks01",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HazelnutSpread/Gameplay/Perks/MarkOnDamage/AGID_HazelnutSpread_Perk_DamageMark.AGID_HazelnutSpread_Perk_DamageMark",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.Perks02.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.Perks02",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/HazelnutSpread/Gameplay/Perks/InfiniteSlap/AGID_HazelnutSpread_Perk_Slap.AGID_HazelnutSpread_Perk_Slap",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Medium.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Medium",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Medium",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Shell.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Shell",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Shell",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Shell",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Explosive.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Explosive",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Explosive",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Explosive",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Light.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Light",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Light",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Light",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Heavy.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Heavy",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Heavy",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemPKG.HazelnutSpread.SeasonalWeapons.Gauntlets.01": {
+        "LootPackageID": "VendItemPKG.HazelnutSpread.SeasonalWeapons.Gauntlets",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:VendItemPKG.HazelnutSpread.SeasonalWeapons.C0;Call:VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Medium.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Medium",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Shell.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Shell",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Explosive.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Explosive",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PotatoCoaster/Gameplay/ProtoCannon_ClusterBomb/Impulse/WID_ProtoCannon_ClusterBomb_Impulse_SR.WID_ProtoCannon_ClusterBomb_Impulse_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Light.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Light",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Heavy.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Heavy",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_SR.WID_DMR_TeaCake_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      },
+      "VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets.01": {
+        "LootPackageID": "VendItemList.HazelnutSpread.SeasonalWeapons.Gauntlets",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets.WID_RiftGauntlets",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 0.0
+      }
+    }
+  }
+]

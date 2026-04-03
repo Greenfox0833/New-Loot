@@ -14,6 +14,9 @@ _EXPORT_CACHE_FILE = _CACHE_DIR / "asset_export_cache.json"
 _LOCALIZE_CACHE_FILE = _CACHE_DIR / "asset_localize_ttl_cache.json"
 _CACHE_LOCK = Lock()
 _CACHE_STATE = {"dirty": 0}
+_LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno")
+_LOCAL_JUNO_LOCALIZE_MAP = None
+_LOCAL_JUNO_LOCALIZE_LOCK = Lock()
 
 
 def _load_cache_dict(path: Path) -> dict:
@@ -51,6 +54,62 @@ def _save_caches_on_exit():
 
 _EXPORT_CACHE = _load_cache_dict(_EXPORT_CACHE_FILE)
 _LOCALIZE_CACHE = _load_cache_dict(_LOCALIZE_CACHE_FILE)
+
+
+def _iter_local_localization_values(data) -> dict[str, str]:
+    if not isinstance(data, dict):
+        return {}
+
+    out: dict[str, str] = {}
+    stack = [data]
+    while stack:
+        cur = stack.pop()
+        if not isinstance(cur, dict):
+            continue
+        for k, v in cur.items():
+            if isinstance(v, dict):
+                stack.append(v)
+            elif isinstance(k, str) and isinstance(v, str) and k:
+                out.setdefault(k, v)
+    return out
+
+
+def _load_local_juno_localize_map() -> dict[str, str]:
+    global _LOCAL_JUNO_LOCALIZE_MAP
+
+    if _LOCAL_JUNO_LOCALIZE_MAP is not None:
+        return _LOCAL_JUNO_LOCALIZE_MAP
+
+    with _LOCAL_JUNO_LOCALIZE_LOCK:
+        if _LOCAL_JUNO_LOCALIZE_MAP is not None:
+            return _LOCAL_JUNO_LOCALIZE_MAP
+
+        mapping: dict[str, str] = {}
+        try:
+            if _LOCAL_JUNO_LOCALIZE_ROOT.exists():
+                for path in _LOCAL_JUNO_LOCALIZE_ROOT.glob("**/Localization/**/ja/*.json"):
+                    try:
+                        with path.open("r", encoding="utf-8") as f:
+                            data = json.load(f)
+                        for k, v in _iter_local_localization_values(data).items():
+                            mapping.setdefault(k, v)
+                    except Exception:
+                        continue
+        except Exception:
+            mapping = {}
+
+        _LOCAL_JUNO_LOCALIZE_MAP = mapping
+        return _LOCAL_JUNO_LOCALIZE_MAP
+
+
+def _lookup_local_juno_localized_name(key: str) -> str | None:
+    if not key:
+        return None
+    mapping = _load_local_juno_localize_map()
+    value = mapping.get(key)
+    if isinstance(value, str) and value:
+        return value
+    return None
 
 
 def normalize_asset_path(asset_path: str) -> str:
@@ -143,12 +202,22 @@ def fetch_localized_name(key: str) -> str:
         if r.ok:
             arr = r.json().get("jsonOutput", [])
             value = (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
+            if value == "???":
+                value = _lookup_local_juno_localized_name(key) or value
             with _CACHE_LOCK:
                 _LOCALIZE_CACHE[key] = {"ts": now, "value": value}
                 _touch_dirty()
             return value
     except Exception:
         pass
+
+    local_value = _lookup_local_juno_localized_name(key)
+    if isinstance(local_value, str):
+        with _CACHE_LOCK:
+            _LOCALIZE_CACHE[key] = {"ts": now, "value": local_value}
+            _touch_dirty()
+        return local_value
+
     if isinstance(hit, dict):
         stale_val = hit.get("value")
         if isinstance(stale_val, str):

@@ -59,3 +59,58 @@
 2026-04-03 18:38:49 | INFO | build summary start
 2026-04-03 18:38:49 | INFO | build summary done (0.02s)
 2026-04-03 18:38:49 | INFO | enrich summary with names start
+2026-04-03 18:38:51 | INFO | enrich summary done (1.93s)
+2026-04-03 18:38:51 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\summary\v39.30_2026-04-03_18-38.json
+2026-04-03 18:38:51 | INFO | build BR_LootData start
+2026-04-03 18:38:51 | INFO | build BR_LootData done (0.00s)
+2026-04-03 18:38:51 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\Juno_Tabasco\Juno_Tabasco_LootData_2026-04-03_18-38.json
+2026-04-03 18:38:51 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Juno_Tabasco_LootPool.json
+2026-04-03 18:38:51 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\scripts\LootSummary.py
+2026-04-03 18:38:51 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\summary\v39.30_2026-04-03_18-38.json
+✅ 抽出件数: 39
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\summary\v39.30_2026-04-03_18-36.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\summary\v39.30_2026-04-03_18-38.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 39 / 変化なし : 0
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\output\history\BR_20260403_1838\items_unique_min_diff.json
+2026-04-03 18:38:51 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\Juno_Tabasco\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-03 18:38:51 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.15s)
+2026-04-03 18:38:51 | INFO | prewarm start
+2026-04-03 18:38:51 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.14s)
+2026-04-03 18:38:51 | INFO | 画像化タスク数: 39
+2026-04-03 18:38:51 | INFO | 画像生成 進捗: 1/39
+2026-04-03 18:38:53 | INFO | 画像生成 進捗: 39/39
+2026-04-03 18:38:53 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-03 18:38:53 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-04-03 18:38:53 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-04-03 18:39:03 | INFO | git commit stdout: [main 0076493] Juno_Tabasco update 2026-04-03 18:38:58
+ 27 files changed, 23586 insertions(+), 295 deletions(-)
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\343\203\211\343\203\251\343\202\264\343\203\263\343\202\252\343\203\221\343\203\274\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\343\203\220\343\203\263\343\203\226\343\203\274 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\343\203\255\343\202\271\343\203\210\343\203\236\343\202\271\343\202\277\343\203\274\343\201\256\351\220\230 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\204\200\345\274\217\343\201\256\346\262\271 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\204\200\345\274\217\343\201\256\346\262\271 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\204\200\345\274\217\343\201\256\346\262\271 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\204\200\345\274\217\343\201\256\346\262\271 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\212\233\343\201\256\343\203\254\343\203\252\343\203\203\343\202\257 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\345\212\233\343\201\256\343\203\254\343\203\252\343\203\203\343\202\257 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\245\236\346\264\245\347\237\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\245\236\346\264\245\347\237\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\245\236\346\264\245\347\237\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\253\271 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\253\271 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\347\253\271 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\351\213\274\351\211\204 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\240\224\347\243\250\343\201\227\343\201\237\351\213\274\351\211\204 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\347\245\236\346\264\245\347\237\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/\351\213\274\351\211\204 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/Juno_Tabasco_LootData_2026-04-03_18-38.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/output/history/BR_20260403_1838/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/output/logs/pipeline_2026-04-03_18-38-48.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/Juno_Tabasco/output/summary/v39.30_2026-04-03_18-38.json"
+2026-04-03 18:39:06 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   5e72980..0076493  main -> main
+2026-04-03 18:39:06 | INFO | ✓ GitHub Push 完了
+2026-04-03 18:39:06 | INFO | ===== Juno_Tabasco: pipeline end =====

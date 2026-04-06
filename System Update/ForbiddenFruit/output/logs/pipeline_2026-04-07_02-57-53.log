@@ -1,0 +1,118 @@
+2026-04-07 02:57:53 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-04-07_02-57-53.log
+2026-04-07 02:57:53 | INFO | ===== ForbiddenFruit: pipeline start =====
+2026-04-07 02:57:53 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+2026-04-07 02:57:53 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
+2026-04-07 02:57:53 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-07 02:57:53 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-07 02:57:53 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootPackages.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages
+[753] RowUpdate WorldList.BusWeap.01.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UC.WID_Shotgun_SingleFire_TeaCake_Athena_UC -> OK
+[754] RowUpdate WorldList.BusWeap.01.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UC.WID_Shotgun_SingleFire_TeaCake_Athena_UC -> OK
+[755] RowUpdate WorldList.BusWeap.02.Weight=0.660000 -> OK
+[756] RowUpdate WorldList.BusWeap.02.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_R.WID_Shotgun_SingleFire_TeaCake_Athena_R -> OK
+[757] RowUpdate WorldList.BusWeap.03.Weight=1.000000 -> OK
+[758] RowUpdate WorldList.BusWeap.03.ItemDefinition=/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UC.WID_Assault_CherrySmoke_SpireGun_Athena_UC -> OK
+[759] RowUpdate WorldList.BusWeap.04.Weight=1.000000 -> OK
+[760] RowUpdate WorldList.BusWeap.04.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC -> OK
+[761] RowUpdate WorldList.BusWeap.05.Weight=1.000000 -> OK
+[762] RowUpdate WorldList.BusWeap.05.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UC.WID_SMG_DragonCart_Athena_UC -> OK
+[763] RowUpdate WorldList.BusWeap.06.Weight=0.100000 -> OK
+[764] RowUpdate WorldList.BusWeap.06.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR -> OK
+[765] RowUpdate WorldList.BusWeap.07.Weight=0.100000 -> OK
+[766] RowUpdate WorldList.BusWeap.07.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[767] RowUpdate WorldList.BusWeap.08.Weight=0.660000 -> OK
+[768] RowUpdate WorldList.BusWeap.08.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R -> OK
+[769] RowUpdate WorldList.BusGrant.ItemSet.1.01.Weight=1.000000 -> OK
+[770] RowUpdate WorldList.BusGrant.ItemSet.1.01.CountRange=(X=2,Y=2) -> OK
+[771] RowUpdate WorldList.BusGrant.ItemSet.1.01.ItemDefinition=/Game/Athena/Items/Consumables/Flopper/HopFlopper/WID_Athena_Flopper_HopFlopper.WID_Athena_Flopper_HopFlopper -> OK
+[772] RowUpdate WorldList.AthenaSupplyDrop.Utility.01.Weight=1.500000 -> OK
+[773] RowUpdate WorldList.AthenaSupplyDrop.Utility.01.CountRange=(X=1,Y=1) -> OK
+[774] RowUpdate WorldList.AthenaSupplyDrop.Utility.01.ItemDefinition=/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR -> OK
+[775] RowUpdate WorldList.GoldChest.Boons.01.Weight=1.000000 -> OK
+[776] RowUpdate WorldList.GoldChest.Boons.01.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR -> OK
+[777] RowUpdate WorldList.GoldChest.Boons.02.Weight=0.500000 -> OK
+[778] RowUpdate WorldList.GoldChest.Boons.02.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR -> OK
+[779] RowUpdate WorldList.GoldChest.Boons.03.Weight=0.200000 -> OK
+[780] RowUpdate WorldList.GoldChest.Boons.03.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[781] RowUpdate WorldList.GoldChest.Boons.04.Weight=1.000000 -> OK
+[782] RowUpdate WorldList.GoldChest.Boons.04.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[783] RowUpdate WorldList.GoldChest.Boons.05.Weight=0.000000 -> OK
+[784] RowUpdate WorldList.GoldChest.Boons.06.Weight=0.000000 -> OK
+[785] RowUpdate WorldList.GoldChest.Boons.07.Weight=0.000000 -> OK
+[786] RowUpdate WorldList.GoldChest.Boons.08.Weight=0.000000 -> OK
+[787] RowUpdate WorldList.GoldChest.Boons.09.Weight=0.000000 -> OK
+[788] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.Weight=0.750000 -> OK
+[789] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[790] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.Weight=1.000000 -> OK
+[791] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR -> OK
+[792] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.03.Weight=0.600000 -> OK
+[793] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.03.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR -> OK
+[794] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.04.Weight=1.000000 -> OK
+[795] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.04.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[796] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.05.Weight=0.750000 -> OK
+[797] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.05.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[798] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.06.Weight=0.000000 -> OK
+[799] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.07.Weight=0.000000 -> OK
+[800] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.08.Weight=0.000000 -> OK
+[801] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.09.Weight=0.000000 -> OK
+[802] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.10.Weight=0.000000 -> OK
+[803] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.11.Weight=0.000000 -> OK
+[804] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.12.Weight=0.000000 -> OK
+[805] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.04.Weight=1.000000 -> OK
+[806] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.04.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[807] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.05.Weight=0.750000 -> OK
+[808] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.05.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[809] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.Weight=1.000000 -> OK
+[810] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[811] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.02.Weight=0.750000 -> OK
+[812] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.02.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR -> OK
+[813] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.03.Weight=0.500000 -> OK
+[814] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.03.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR -> OK
+[815] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.04.Weight=0.000000 -> OK
+[816] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.05.Weight=0.000000 -> OK
+[817] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.06.Weight=0.000000 -> OK
+[818] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.07.Weight=0.000000 -> OK
+[819] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.08.Weight=0.000000 -> OK
+[820] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.09.Weight=0.000000 -> OK
+[821] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.10.Weight=0.000000 -> OK
+[822] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.11.Weight=0.000000 -> OK
+[823] RowUpdate WorldList.AthenaBlitzLlama.StandardItem.12.Weight=0.000000 -> OK
+[824] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.Weight=1.000000 -> OK
+[825] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[826] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.Weight=0.750000 -> OK
+[827] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.ItemDefinition=/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR -> OK
+[828] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.04.Weight=1.000000 -> OK
+[829] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.04.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR -> OK
+[830] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.05.Weight=0.750000 -> OK
+[831] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.05.ItemDefinition=/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR -> OK
+[832] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.06.Weight=0.000000 -> OK
+[833] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.07.Weight=0.000000 -> OK
+[834] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.08.Weight=0.000000 -> OK
+[835] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.09.Weight=0.000000 -> OK
+[836] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.10.Weight=0.000000 -> OK
+[837] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.11.Weight=0.000000 -> OK
+[838] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.12.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=86, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-07 02:57:53 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-07 02:57:54 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootTierData.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-07 02:57:54 | INFO | ✓ Hotfix 適用完了 (1.01s)
+2026-04-07 02:57:54 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+2026-04-07 02:57:54 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+2026-04-07 02:57:54 | INFO | load done (0.02s)
+2026-04-07 02:57:54 | INFO | build summary start

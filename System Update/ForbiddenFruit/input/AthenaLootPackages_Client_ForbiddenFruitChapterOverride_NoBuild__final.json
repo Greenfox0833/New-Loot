@@ -31396,12 +31396,12 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 0.0,
+        "Weight": 1.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -31416,10 +31416,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33693,7 +33690,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_VR_Ore_T03.WID_Assault_Stark_Athena_VR_Ore_T03",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33703,7 +33700,7 @@
       },
       "WorldList.GoldChest.Boons.02": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33723,7 +33720,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33733,7 +33730,7 @@
       },
       "WorldList.GoldChest.Boons.03": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33753,7 +33750,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33783,7 +33780,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33793,7 +33790,7 @@
       },
       "WorldList.GoldChest.Boons.05": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33813,7 +33810,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/Pilfer/PAID_VividRazor_Pilfer.PAID_VividRazor_Pilfer",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33856,7 +33856,7 @@
       },
       "WorldList.GoldChest.Boons.07": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33876,7 +33876,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/CherrySmokeSpeedBashBoon/PAID_CherrySmokeParkourReloadBoon_FF.PAID_CherrySmokeParkourReloadBoon_FF",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33886,7 +33889,7 @@
       },
       "WorldList.GoldChest.Boons.08": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33906,7 +33909,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/CherrySmokeSpeedBashBoon/PAID_CherrySmokeOldmanEyesBoon_FF.PAID_CherrySmokeOldmanEyesBoon_FF",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33916,7 +33922,7 @@
       },
       "WorldList.GoldChest.Boons.09": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33936,7 +33942,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/SpeedHealerBoon/AgileHealer/PAID_CherrySmoke_Boon_AgileHealer_FF.PAID_CherrySmoke_Boon_AgileHealer_FF",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -35946,7 +35955,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/Exotic/WID_SMGShotgun_PrimaryShotgun_Athena_X.WID_SMGShotgun_PrimaryShotgun_Athena_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -35956,7 +35968,7 @@
       },
       "WorldList.RandomExotic.Rewards.02": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35976,7 +35988,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo",
+        "ItemDefinition": {
+          "AssetPathName": "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_X.WID_Pistol_Chrono_Athena_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36006,7 +36021,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/LawlessShotgunSlap/WID_Shotgun_Auto_FirePetal_Athena_X.WID_Shotgun_Auto_FirePetal_Athena_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36036,7 +36054,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_X.WID_CQB_AR_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36066,7 +36087,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp.AGID_VividRazor_Rocket_SlapSlurp",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36096,7 +36120,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/SlapJug/WID_VividRazor_SlapAgileChug.WID_VividRazor_SlapAgileChug",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36126,7 +36153,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/PullVersion/WID_Shotgun_VividRazor_BreakBarrel_Athena_Unstable_X_Pull.WID_Shotgun_VividRazor_BreakBarrel_Athena_Unstable_X_Pull",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36136,7 +36166,7 @@
       },
       "WorldList.RandomExotic.Rewards.08": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.9,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36156,7 +36186,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/Pistol/Exotic/WID_Pistol_Auto_CherrySmoke_Athena_X.WID_Pistol_Auto_CherrySmoke_Athena_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36166,7 +36199,7 @@
       },
       "WorldList.RandomExotic.Rewards.09": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36186,7 +36219,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/FireIce/WID_Shotgun_Pump_Athena_Unstable_FireIce_X.WID_Shotgun_Pump_Athena_Unstable_FireIce_X",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36196,7 +36232,7 @@
       },
       "WorldList.RandomExotic.Rewards.10": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36216,7 +36252,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/AR/Explosion/WID_CherrySmoke_AR_Unstable_Explosion_R.WID_CherrySmoke_AR_Unstable_Explosion_R",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -36226,7 +36265,7 @@
       },
       "WorldList.RandomExotic.Rewards.11": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36259,7 +36298,7 @@
       },
       "WorldList.RandomExotic.Rewards.12": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36358,7 +36397,7 @@
       },
       "WorldList.RandomExotic.Rewards.15": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36391,7 +36430,7 @@
       },
       "WorldList.RandomExotic.Rewards.16": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36424,7 +36463,7 @@
       },
       "WorldList.RandomExotic.Rewards.17": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36457,7 +36496,7 @@
       },
       "WorldList.RandomExotic.Rewards.18": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36490,7 +36529,7 @@
       },
       "WorldList.RandomExotic.Rewards.19": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -36820,7 +36859,7 @@
       },
       "WorldList.RandomExotic.Rewards.29": {
         "LootPackageID": "WorldList.RandomExotic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37038,7 +37077,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UR.WID_Assault_FirePetal_Fast_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37048,7 +37090,7 @@
       },
       "WorldList.RandomMythic.Rewards.02": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37068,7 +37110,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UR.WID_SMG_FirePetal_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37098,7 +37143,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UR.WID_SMG_FirePetal_Quirky_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37128,7 +37176,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_UR.WID_Shotgun_Pump_FirePetal_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37158,7 +37209,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_UR.WID_Shotgun_Auto_FirePetal_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37188,7 +37242,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_UR.WID_Shotgun_FirePetal_Flavor_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37197,6 +37254,39 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.RandomMythic.Rewards.07": {
+        "LootPackageID": "WorldList.RandomMythic.Rewards",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SMGShotgun/WID_SMGShotgun_PrimaryShotgun_Athena_UR.WID_SMGShotgun_PrimaryShotgun_Athena_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.RandomMythic.Rewards.C0;Item:WID.SMGShotgun.UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.RandomMythic.Rewards.08": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -37218,37 +37308,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.RandomMythic.Rewards.C0;Item:WID.SMGShotgun.UR",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.RandomMythic.Rewards.08": {
-        "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.9,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UR.WID_CQB_AR_UR",
+          "SubPathString": ""
         },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37258,7 +37321,7 @@
       },
       "WorldList.RandomMythic.Rewards.09": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.9,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37278,7 +37341,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_UR.WID_Shotgun_VividRazor_BreakBarrel_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37288,7 +37354,7 @@
       },
       "WorldList.RandomMythic.Rewards.10": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.9,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37308,7 +37374,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UR.WID_Assault_CherrySmoke_SpireGun_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37318,7 +37387,7 @@
       },
       "WorldList.RandomMythic.Rewards.11": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37351,7 +37420,7 @@
       },
       "WorldList.RandomMythic.Rewards.12": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37384,7 +37453,7 @@
       },
       "WorldList.RandomMythic.Rewards.13": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37450,7 +37519,7 @@
       },
       "WorldList.RandomMythic.Rewards.15": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37483,7 +37552,7 @@
       },
       "WorldList.RandomMythic.Rewards.16": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37516,7 +37585,7 @@
       },
       "WorldList.RandomMythic.Rewards.17": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37549,7 +37618,7 @@
       },
       "WorldList.RandomMythic.Rewards.18": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37582,7 +37651,7 @@
       },
       "WorldList.RandomMythic.Rewards.19": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37615,7 +37684,7 @@
       },
       "WorldList.RandomMythic.Rewards.20": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37648,7 +37717,7 @@
       },
       "WorldList.RandomMythic.Rewards.21": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37681,7 +37750,7 @@
       },
       "WorldList.RandomMythic.Rewards.22": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37714,7 +37783,7 @@
       },
       "WorldList.RandomMythic.Rewards.23": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37747,7 +37816,7 @@
       },
       "WorldList.RandomMythic.Rewards.24": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37780,7 +37849,7 @@
       },
       "WorldList.RandomMythic.Rewards.25": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37813,7 +37882,7 @@
       },
       "WorldList.RandomMythic.Rewards.26": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -37912,7 +37981,7 @@
       },
       "WorldList.RandomMythic.Rewards.29": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38671,7 +38740,7 @@
       },
       "WorldList.RandomMythic.Rewards.52": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38704,7 +38773,7 @@
       },
       "WorldList.RandomMythic.Rewards.53": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38737,7 +38806,7 @@
       },
       "WorldList.RandomMythic.Rewards.54": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38770,7 +38839,7 @@
       },
       "WorldList.RandomMythic.Rewards.55": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38803,7 +38872,7 @@
       },
       "WorldList.RandomMythic.Rewards.56": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38836,7 +38905,7 @@
       },
       "WorldList.RandomMythic.Rewards.57": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38869,7 +38938,7 @@
       },
       "WorldList.RandomMythic.Rewards.58": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38902,7 +38971,7 @@
       },
       "WorldList.RandomMythic.Rewards.59": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -38935,7 +39004,7 @@
       },
       "WorldList.RandomMythic.Rewards.60": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41542,7 +41611,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41562,7 +41631,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel",
+        "ItemDefinition": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41592,7 +41661,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41601,6 +41670,36 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Sp.Weapon.C0;Item:WID.Melee.Masamune",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
         "Weight": 1.0,
         "NamedWeightMult": "None",
@@ -41622,37 +41721,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Sp.Weapon.C0;Item:WID.Melee.Masamune",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
-        "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.75,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41662,7 +41731,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.05": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.8,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41682,7 +41751,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41692,7 +41761,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.06": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41712,7 +41781,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41722,7 +41794,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41742,7 +41814,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41752,7 +41827,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.08": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41772,7 +41847,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": {
+          "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41815,7 +41893,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.10": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41835,7 +41913,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketLimitedRam_Comp.WID_RocketLimitedRam_Comp",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41845,7 +41926,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.11": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41865,7 +41946,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41875,7 +41959,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.12": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41895,7 +41979,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43080,7 +43167,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel",
+        "ItemDefinition": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43090,7 +43177,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43110,7 +43197,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR.WID_Shotgun_SingleFire_TeaCake_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43120,7 +43207,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.03": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43140,7 +43227,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43150,7 +43237,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.04": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43170,7 +43257,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43180,7 +43267,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.05": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43200,7 +43287,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43210,7 +43297,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.06": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43230,7 +43317,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43240,7 +43330,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.07": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43260,7 +43350,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43270,7 +43363,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.08": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43290,7 +43383,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43333,7 +43429,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.10": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43353,7 +43449,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketRam.WID_RocketRam",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43363,7 +43462,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.11": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43383,7 +43482,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketLimitedRam_Comp.WID_RocketLimitedRam_Comp",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43393,7 +43495,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.12": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43413,7 +43515,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44961,7 +45066,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/BarnTowelGameplay/Gameplay/AGID_BarnTowel.AGID_BarnTowel",
+        "ItemDefinition": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -44971,7 +45076,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44991,7 +45096,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WiseOtter/Gameplay/WID_WiseOtter_Combo.WID_WiseOtter_Combo",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45001,6 +45106,39 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.03": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.Melee.Masamune.Mythic",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBlitzLlama.MythicItem.04": {
+        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -45021,37 +45159,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Date/Combo/WID_HighTower_Date_Combo_CoreBR.WID_HighTower_Date_Combo_CoreBR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.Melee.Masamune.Mythic",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaBlitzLlama.MythicItem.04": {
-        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.75,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/AshtonGameplay/Gameplay/CaptainAmerica/Shield/WID_Ashton_Shield.WID_Ashton_Shield",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_SR.WID_DualPistol_FingerGuns_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45061,7 +45169,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.05": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.8,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45081,7 +45189,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_SR_Ore_T03.WID_Assault_Stark_Athena_SR_Ore_T03",
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_VR.WID_DualPistol_FingerGuns_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45091,7 +45199,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.06": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45111,7 +45219,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/HoverJets/AGID_Athena_MurkyVole_HoverJets.AGID_Athena_MurkyVole_HoverJets",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45121,7 +45232,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.07": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45141,7 +45252,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/Turret/WID_Athena_MurkyVole_Turret.WID_Athena_MurkyVole_Turret",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45151,7 +45265,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.08": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45171,7 +45285,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MurkyVoleGameplay/Gameplay/GauntletGuns/WID_Athena_MurkyVole_GauntletGuns.WID_Athena_MurkyVole_GauntletGuns",
+        "ItemDefinition": {
+          "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45214,7 +45331,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.10": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45234,7 +45351,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UR.WID_FlexLegend_LightPistol_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45244,7 +45364,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.11": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45264,7 +45384,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/WID_FlexLegend_DualSMGs_Athena_UR.WID_FlexLegend_DualSMGs_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45274,7 +45397,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.12": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45294,7 +45417,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FlexLegendWeaponGameplay/Gameplay/LeverShotgun/Hitscan/WID_Shotgun_Lever_FlexLegend_HS_Athena_UR.WID_Shotgun_Lever_FlexLegend_HS_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45687,7 +45813,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_UC.WID_Shotgun_MusterPump_Athena_UC",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UC.WID_Shotgun_SingleFire_TeaCake_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45697,7 +45823,7 @@
       },
       "WorldList.BusWeap.02": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.66,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45717,7 +45843,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UC.WID_Assault_FirePetal_Fast_Athena_UC",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_R.WID_Shotgun_SingleFire_TeaCake_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45747,7 +45873,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC.WID_Shotgun_MusterDPS_Athena_UC",
+        "ItemDefinition": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UC.WID_Assault_CherrySmoke_SpireGun_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45777,7 +45903,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CherrySmokeWeaponGameplay/Gameplay/Pistol/WID_Pistol_Auto_CherrySmoke_Athena_UC.WID_Pistol_Auto_CherrySmoke_Athena_UC",
+        "ItemDefinition": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45807,7 +45933,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UC.WID_SMG_MusterQuick_Athena_UC",
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UC.WID_SMG_DragonCart_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45817,7 +45943,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45837,7 +45963,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HighTower/Items/Tomato/Tomato_Rifle/WID_Assault_Stark_Athena_R_Ore_T03.WID_Assault_Stark_Athena_R_Ore_T03",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR.WID_Shotgun_SingleFire_TeaCake_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45847,7 +45973,7 @@
       },
       "WorldList.BusWeap.07": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45867,10 +45993,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45880,7 +46003,7 @@
       },
       "WorldList.BusWeap.08": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.66,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45900,10 +46023,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/FingerGuns/Gameplay/WID_DualPistol_FingerGuns_R.WID_DualPistol_FingerGuns_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48111,7 +48231,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
+        "ItemDefinition": "/Game/Athena/Items/Consumables/Flopper/HopFlopper/WID_Athena_Flopper_HopFlopper.WID_Athena_Flopper_HopFlopper",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

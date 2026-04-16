@@ -66241,7 +66241,7 @@
       },
       "PKG_BusLoadout.01": {
         "LootPackageID": "PKG_BusLoadout",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66274,7 +66274,7 @@
       },
       "PKG_BusLoadout.02": {
         "LootPackageID": "PKG_BusLoadout",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66307,7 +66307,7 @@
       },
       "PKG_BusLoadout.03": {
         "LootPackageID": "PKG_BusLoadout",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -92575,12 +92575,12 @@
       },
       "WorldList.BusLoadout.Item1.01": {
         "LootPackageID": "WorldList.BusLoadout.Item1",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -92595,7 +92595,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -92671,12 +92674,12 @@
       },
       "WorldList.BusLoadout.Item2.01": {
         "LootPackageID": "WorldList.BusLoadout.Item2",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -92691,7 +92694,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_UC.WID_Pistol_Flintlock_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -92734,12 +92740,12 @@
       },
       "WorldList.BusLoadout.Item3.01": {
         "LootPackageID": "WorldList.BusLoadout.Item3",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 30,
-          "Y": 30
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -92754,7 +92760,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

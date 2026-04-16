@@ -1,0 +1,48 @@
+2026-04-16 18:41:41 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\logs\pipeline_2026-04-16_18-41-41.log
+2026-04-16 18:41:41 | INFO | ===== ItemCache_01: pipeline start =====
+2026-04-16 18:41:41 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\items_unique_min.json
+2026-04-16 18:41:41 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\ItemCache_01
+2026-04-16 18:41:41 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-16 18:41:41 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-16 18:41:41 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\RA_ItemCache_ItemSet1\Content\DataTables\ItemCache_01_LootPackages.json
+[HOTFIX:SEASON1] target=/RA_ItemCache_ItemSet1/DataTables/ItemCache_01_LootPackages
+[592] RowUpdate WorldList.ItemCacheLoot.Weapons.AR.01.ItemDefinition=/RadicalWeaponsGameplay/Weapons/PulseRifleMMObj/WID_Assault_PastaRipper_Athena_MMObj.WID_Assault_PastaRipper_Athena_MMObj -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=1, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\ItemCache_01_LootPackages__final.json
+2026-04-16 18:41:41 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-16 18:41:41 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\RA_ItemCache_ItemSet1\Content\DataTables\ItemCache_01_LootTierData.json
+[HOTFIX:SEASON1] target=/RA_ItemCache_ItemSet1/DataTables/ItemCache_01_LootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\ItemCache_01_LootTierData__final.json
+2026-04-16 18:41:41 | INFO | ✓ Hotfix 適用完了 (0.23s)
+2026-04-16 18:41:41 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootTierData_Client__final.json
+2026-04-16 18:41:41 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\AthenaLootPackages_Client__final.json
+2026-04-16 18:41:41 | INFO | load done (0.00s)
+2026-04-16 18:41:41 | INFO | build summary start
+2026-04-16 18:41:42 | INFO | build summary done (0.64s)
+2026-04-16 18:41:42 | INFO | enrich summary with names start
+2026-04-16 18:41:42 | INFO | enrich summary done (0.18s)
+2026-04-16 18:41:42 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\summary\v39.30_2026-04-16_18-41.json
+2026-04-16 18:41:42 | INFO | build BR_LootData start
+2026-04-16 18:41:42 | INFO | build BR_LootData done (0.00s)
+2026-04-16 18:41:42 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\ItemCache_01\ItemCache_01_LootData_2026-04-16_18-41.json
+2026-04-16 18:41:42 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ItemCache_01_LootPool.json
+2026-04-16 18:41:42 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\scripts\LootSummary.py
+2026-04-16 18:41:42 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\summary\v39.30_2026-04-16_18-41.json
+✅ 抽出件数: 3
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\summary\v39.30_2026-03-21_16-34.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\summary\v39.30_2026-04-16_18-41.json
+✅ 差分作成 完了
+  追加   : 3 / 削除 : 3 / 変更 : 0 / 変化なし : 0
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\output\history\BR_20260416_1841\items_unique_min_diff.json
+2026-04-16 18:41:42 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\ItemCache_01\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-16 18:41:42 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.14s)
+2026-04-16 18:41:42 | INFO | prewarm start
+2026-04-16 18:41:43 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.91s)
+2026-04-16 18:41:43 | INFO | 画像化タスク数: 3
+2026-04-16 18:41:43 | INFO | 画像生成 進捗: 1/3

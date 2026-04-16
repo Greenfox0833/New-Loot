@@ -87,3 +87,22 @@
   """
 2026-04-16 17:38:52 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.53s)
 2026-04-16 17:38:52 | INFO | prewarm start
+2026-04-16 17:39:13 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (20.88s)
+2026-04-16 17:39:13 | INFO | 画像化タスク数: 99
+2026-04-16 17:39:13 | INFO | 画像生成 進捗: 1/99
+2026-04-16 17:39:14 | INFO | 画像生成 進捗: 50/99
+2026-04-16 17:39:16 | INFO | 画像生成 進捗: 99/99
+2026-04-16 17:39:16 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-16 17:39:16 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-04-16_17-39-16.json (added=0 removed=3 change=0)
+2026-04-16 17:39:16 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
+2026-04-16 17:39:16 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-16 17:39:28 | INFO | git commit stdout: [main febdda3] BR update 2026-04-16 17:39:20
+ 9 files changed, 62377 insertions(+), 134 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260416_1738/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-04-16_17-38-50.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-04-16_17-38.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-16_17-38.json"
+2026-04-16 17:39:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   485c67a..febdda3  main -> main
+2026-04-16 17:39:32 | INFO | ✓ GitHub Push 完了
+2026-04-16 17:39:32 | INFO | ===== BR: pipeline end =====

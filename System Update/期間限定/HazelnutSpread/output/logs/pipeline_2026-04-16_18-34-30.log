@@ -62,3 +62,25 @@
   """
 2026-04-16 18:34:30 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.15s)
 2026-04-16 18:34:30 | INFO | prewarm start
+2026-04-16 18:34:32 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.25s)
+2026-04-16 18:34:32 | INFO | 画像化タスク数: 15
+2026-04-16 18:34:32 | INFO | 画像生成 進捗: 1/15
+2026-04-16 18:34:32 | INFO | 画像生成 進捗: 15/15
+2026-04-16 18:34:32 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-16 18:34:32 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\HazelnutSpread_2026-04-16_18-34-32.json (added=2 removed=3 change=0)
+2026-04-16 18:34:32 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\HazelnutSpread\AddedItems\2026-04-16_18-34-32 (copied=2 missing=0)
+2026-04-16 18:34:32 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-04-16 18:34:37 | INFO | git commit stdout: [main 85fad48] HazelnutSpread update 2026-04-16 18:34:34
+ 16 files changed, 1057 insertions(+), 60 deletions(-)
+ create mode 100644 "System Update/shared/images/HazelnutSpread/AddedItems/2026-04-16_18-34-32/\343\203\206\343\202\243\343\202\2426 - \343\202\250\343\203\251\343\203\207\343\202\243\343\202\261\343\203\274\343\202\277\343\203\274 O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/HazelnutSpread/AddedItems/2026-04-16_18-34-32/\343\203\206\343\202\243\343\202\2426 - \343\203\226\343\203\274\343\203\240\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\202\250\343\203\251\343\203\207\343\202\243\343\202\261\343\203\274\343\202\277\343\203\274 O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/\343\203\226\343\203\274\343\203\240\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/HazelnutSpread_LootData_2026-04-16_18-34.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/history/BR_20260416_1834/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/logs/pipeline_2026-04-16_18-34-30.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/summary/v39.30_2026-04-16_18-34.json"
+2026-04-16 18:34:40 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   daf092c..85fad48  main -> main
+2026-04-16 18:34:40 | INFO | ✓ GitHub Push 完了
+2026-04-16 18:34:40 | INFO | ===== HazelnutSpread: pipeline end =====

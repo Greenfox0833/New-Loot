@@ -231,10 +231,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/ElectroBatGameplay/Gameplay/WID_Athena_ElectroBat.WID_Athena_ElectroBat",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/MilitaryAR/WID_Assault_TidalCrane_Athena_SR.WID_Assault_TidalCrane_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -265,7 +262,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MasamuneGameplay/Gameplay/WID_FirePetal_Masamune.WID_FirePetal_Masamune",
+          "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_SR.WID_CrimsonMist_HeavyMinigun_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -298,7 +295,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_UR.WID_Pistol_Chrono_Athena_UR",
+          "AssetPathName": "/TidalCraneWeaponGameplay/Gameplay/Weapons/WreckerRevolver/WID_Revolver_TidalCrane_Athena_SR.WID_Revolver_TidalCrane_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -314,8 +311,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 10,
-          "Y": 10
+          "X": 25,
+          "Y": 25
         },
         "LootPackageCategory": 1,
         "GameplayTags": [],
@@ -331,7 +328,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -340,6 +337,72 @@
         "bAllowBonusDrops": false,
         "Annotation": "",
         "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.ExAR.02": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.ExAR.Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 100,
+          "Y": 100
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.Run.02": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.Run.Ammo",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 50,
+          "Y": 50
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:WorldList.ItemCacheLoot.Weapons.Run.Ammo.C0;Item:AthenaAmmoDataBulletsMedium",
+        "DurabilityPercentageOverride": 1
       }
     }
   }

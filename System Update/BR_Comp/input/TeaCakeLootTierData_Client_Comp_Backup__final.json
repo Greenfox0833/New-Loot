@@ -23485,13 +23485,13 @@
         "LootPackage": "PKG_Henchmen",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23503,8 +23503,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23553,13 +23553,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23571,8 +23571,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23621,13 +23621,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23639,8 +23639,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23689,13 +23689,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23707,8 +23707,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23757,13 +23757,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23775,8 +23775,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23825,13 +23825,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23843,8 +23843,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23893,13 +23893,13 @@
         "LootPackage": "PKG_AthenaTest",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
+          "X": 3.0,
+          "Y": 3.0
         },
         "LootPackageCategoryWeightArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -23911,8 +23911,8 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -26463,6 +26463,74 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_CombatCash;LPKG:PKG_CombatCash"
       },
+      "LTG_TeaCakeShredder_NPC_01": {
+        "TierGroup": "LTG_TeaCakeShredder_NPC",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_TeaCakeShredder_NPC",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_TeaCakeShredder_NPC;LPKG:PKG_TeaCakeShredder_NPC"
+      },
       "LTG_Llamanamoly_01": {
         "TierGroup": "LTG_Llamanamoly",
         "Weight": 1.0,
@@ -26530,6 +26598,74 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:LTG_Llamanamoly;LPKG:PKG_Llamanamoly"
+      },
+      "LTG_LostAndFound_01": {
+        "TierGroup": "LTG_LostAndFound",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "PKG_LostAndFound",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 4.0,
+          "Y": 4.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:LTG_LostAndFound;LPKG:PKG_LostAndFound"
       },
       "LTG_CareDrop_01": {
         "TierGroup": "LTG_CareDrop",

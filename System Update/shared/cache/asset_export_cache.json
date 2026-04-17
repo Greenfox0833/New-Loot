@@ -378,7 +378,7 @@
     }
   },
   "/CherrySmokeWeaponGameplay/Gameplay/AR/Explosion/WID_CherrySmoke_AR_Unstable_Explosion_R": {
-    "ts": 1776329930,
+    "ts": 1776420422,
     "data": {
       "hash": "12dd60e0154578d94f247ff9091191bf8c52eb6ee6750cb5c7a19caa258449ea",
       "entries": 1,
@@ -791,7 +791,7 @@
     }
   },
   "/CherrySmokeWeaponGameplay/Gameplay/Pistol/WID_Pistol_Auto_CherrySmoke_Athena_C": {
-    "ts": 1776329931,
+    "ts": 1776420423,
     "data": {
       "hash": "75c2b2ff33eb1c46a415ec36103cb6d98803c01482208d061b5e66008fe03cae",
       "entries": 1,
@@ -6209,11 +6209,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_UR": {
-    "ts": 1776329932,
+    "ts": 1776420423,
     "data": {
-      "hash": "3e7be8f035ea25ac1e578a25b3d65a1309ca920b211324144c9d193c49596399",
+      "hash": "cca7cb204f5c54d94345ae9d3712ebbd60d494ade46b2df09d03fe9b738e0c6e",
       "entries": 1,
-      "bytes": 7680,
+      "bytes": 7764,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -6269,6 +6269,9 @@
               "Item.Weapon.Ranged.Pistol.Chrono",
               "Weapon.Ranged.Pistol.Chrono"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.Chrono"
+            ],
             "ActualAnalyticFNames": [
               "Item.Weapon.Ranged.Pistol.Chrono",
               "Weapon.Ranged.Pistol.Chrono",
@@ -6306,7 +6309,7 @@
               },
               {
                 "ReloadAbility": {
-                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
                   "SubPathString": ""
                 }
               },
@@ -6607,11 +6610,11 @@
     }
   },
   "/ChronoWeaponGameplay/Items/HeavyPistol/WID_Pistol_Chrono_Athena_X": {
-    "ts": 1776329933,
+    "ts": 1776420423,
     "data": {
-      "hash": "b426292fd31b531a5450196b1612ea18f5ac65f0e12fa58c11d098ae3169b896",
+      "hash": "abf14b26ab145dbc15ee0ff11cf3f0d4640c92eb0a00066ed3df5ab50dbc0ac5",
       "entries": 1,
-      "bytes": 7989,
+      "bytes": 8008,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -6707,7 +6710,7 @@
               },
               {
                 "ReloadAbility": {
-                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
                   "SubPathString": ""
                 }
               },
@@ -7015,11 +7018,11 @@
     }
   },
   "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_C": {
-    "ts": 1776329933,
+    "ts": 1776420424,
     "data": {
-      "hash": "30f923c57fbf9fc2e92818fe045ad02db7c972e3688baba0c1c05e7a71021f75",
+      "hash": "0355effd08f29b0a06f48fc472008726cc46d6e4c778855f9cca98807f1dd2ed",
       "entries": 1,
-      "bytes": 7088,
+      "bytes": 7272,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -7379,6 +7382,12 @@
               },
               {
                 "Rarity": "EFortRarity::Common"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+                }
               }
             ]
           }
@@ -7387,11 +7396,11 @@
     }
   },
   "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R": {
-    "ts": 1776329933,
+    "ts": 1776420424,
     "data": {
-      "hash": "cf0a670abef5f9f563724f372c4a2cdf095fb5d330a8224349c45f7e33430f0c",
+      "hash": "3b98be001ee67e056beddf744f792693ac3b5c942191018dbdd15b1e3e43b4b6",
       "entries": 1,
-      "bytes": 7084,
+      "bytes": 7268,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -7751,6 +7760,12 @@
               },
               {
                 "Rarity": "EFortRarity::Rare"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+                }
               }
             ]
           }
@@ -7759,11 +7774,11 @@
     }
   },
   "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR": {
-    "ts": 1776329933,
+    "ts": 1776420424,
     "data": {
-      "hash": "78553d63755ad1996e97f5157adc220ae737187f732e691dba6e854722f3a52d",
+      "hash": "72e50ecb7fa43b27852cee5e6207c79568e487ebe2b2825d2e0d9f34844cfa7a",
       "entries": 1,
-      "bytes": 7100,
+      "bytes": 7284,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -8123,6 +8138,12 @@
               },
               {
                 "Rarity": "EFortRarity::Legendary"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+                }
               }
             ]
           }
@@ -8131,11 +8152,11 @@
     }
   },
   "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC": {
-    "ts": 1776329933,
+    "ts": 1776420424,
     "data": {
-      "hash": "a1ec15b8fc93b3777b4a657a804a111d13ea6504a3626421c7f7cde534636220",
+      "hash": "e59fad01201b067eede075c7b77afef707cf385c63f37809459a9305f21cf1ee",
       "entries": 1,
-      "bytes": 7063,
+      "bytes": 7247,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -8492,6 +8513,12 @@
                   "roll": -21.732279
                 },
                 "Scale": 1.0
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+                }
               }
             ]
           }
@@ -8500,11 +8527,11 @@
     }
   },
   "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR": {
-    "ts": 1776329934,
+    "ts": 1776420424,
     "data": {
-      "hash": "787bae355e26ed35589e5948951250e8a78ebeef42b21a3145087b45f2beafff",
+      "hash": "488cd64e0193756809e68c0f60566f5071ff4365080599c8017875e263007876",
       "entries": 1,
-      "bytes": 7090,
+      "bytes": 7274,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -8864,6 +8891,12 @@
               },
               {
                 "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_SMG'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_SMG.0"
+                }
               }
             ]
           }
@@ -9279,9 +9312,9 @@
     }
   },
   "/DaisyWeaponGameplay/Items/Weapons/Assault/WID_Assault_Heavy_Recoil_Athena_C": {
-    "ts": 1776329935,
+    "ts": 1776420425,
     "data": {
-      "hash": "8e97b8e6e92b8f3c7c1182d958156cb79088b8215f46cd1ab9ddd92337969f11",
+      "hash": "0011ff07e4c1ed3f8a682edb08946f875964c608bd3d077e3f444a25aa2cef32",
       "entries": 1,
       "bytes": 7814,
       "jsonOutput": [
@@ -9363,13 +9396,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "B0FEE03D46119F2BABB38688A12D658A",
+              "key": "39244BC14ACAAD127BA219ADF43775B4",
               "sourceString": "Hammer Assault Rifle",
               "localizedString": "Hammer Assault Rifle"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "97E6C0EC408F61E9F892898EE3B6F86A",
+              "key": "7214AC2A451C9C97A1C34AA03BDC8C4E",
               "sourceString": "Assault Rifle: Fully Automatic, flexible assault rifle with unique recoil.",
               "localizedString": "Assault Rifle: Fully Automatic, flexible assault rifle with unique recoil."
             },
@@ -15821,7 +15854,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UR": {
-    "ts": 1776329938,
+    "ts": 1776420426,
     "data": {
       "hash": "eddcaf7883c8ead84733e1f4fa2ed3af94ee28f77072854a8e10603daef3b81b",
       "entries": 1,
@@ -16255,7 +16288,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_X": {
-    "ts": 1776329938,
+    "ts": 1776420426,
     "data": {
       "hash": "e4a8f8f312ae1c88bc94520de091211fd16140e92ab2a82d6d970fda1ff2d84d",
       "entries": 1,
@@ -19154,7 +19187,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/FireIce/WID_Shotgun_Pump_Athena_Unstable_FireIce_X": {
-    "ts": 1776329938,
+    "ts": 1776420426,
     "data": {
       "hash": "a9d07d9e75726b4669b9f04006eaa3db2725f8d8a00a6bd543bcff850d998765",
       "entries": 1,
@@ -32538,7 +32571,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_C_Ore_T02": {
-    "ts": 1776329940,
+    "ts": 1776420428,
     "data": {
       "hash": "3063696533e77881857f39ca201a3419f227eaf38de7ce2615890d34a2e4c336",
       "entries": 1,
@@ -34827,7 +34860,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Hook_Gun_VR_Ore_T03": {
-    "ts": 1776329940,
+    "ts": 1776420428,
     "data": {
       "hash": "77eaf4989c89d64f54b90d0c0933bf1d42ad23ee722f0f254ed9eab86726afdd",
       "entries": 1,
@@ -35220,7 +35253,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_UR_Ore_T03": {
-    "ts": 1776329940,
+    "ts": 1776420428,
     "data": {
       "hash": "8e8472222f92142fc83e71c93fab28970d584713bf6b67b70b3eb5447a20b54b",
       "entries": 1,
@@ -35608,7 +35641,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_C_Ore_T03": {
-    "ts": 1776329940,
+    "ts": 1776420428,
     "data": {
       "hash": "64fd3fe3afbb49199e5df9be41d193acbdb174730186305673ca532e49c9bad3",
       "entries": 1,
@@ -36024,7 +36057,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_Common": {
-    "ts": 1776329941,
+    "ts": 1776420429,
     "data": {
       "hash": "a855ab1834d956262247f2f8a1e8e09a1242e89558cd4e5aaae7a9a185e18dc8",
       "entries": 1,
@@ -36444,9 +36477,9 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03": {
-    "ts": 1776329941,
+    "ts": 1776420429,
     "data": {
-      "hash": "bbe43001294acfda2579dc618fab6e90c78c25d1f8bdcb9de8c4eebc3f416d15",
+      "hash": "cc186c67f648880c6c9c0e2beb955df032303027a582cb4502743a9b5976247c",
       "entries": 1,
       "bytes": 8090,
       "jsonOutput": [
@@ -36528,13 +36561,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "24AAAEBB43BBD0F5E35DF98B2767FB4B",
+              "key": "FED6D7F240BB6695BE1891A78505279C",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "8375885443B7B2F8295B1EA81BED70B9",
+              "key": "0FC6378E41815A8903E865A1CFD80902",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -36862,7 +36895,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_UC_Ore_T03": {
-    "ts": 1776329941,
+    "ts": 1776420429,
     "data": {
       "hash": "102c61b83b030de921498230ad22fc4a09442d458b3dcf20a1e08c641ea18feb",
       "entries": 1,
@@ -37282,9 +37315,9 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_VR_Ore_T03": {
-    "ts": 1776329941,
+    "ts": 1776420429,
     "data": {
-      "hash": "f1b420de294c44bdda12a261df61106d0c40c361b462adae02f2445751cab969",
+      "hash": "cb4a65a5922376d76d8d0aa0ec0fa21b86af9271f9964ed9628bd55d21918333",
       "entries": 1,
       "bytes": 8080,
       "jsonOutput": [
@@ -37366,13 +37399,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "B419765441D5C981631CA48383CE8845",
+              "key": "CE4D4F1A4A729895665FF3ABAD09CF03",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "6019EA1C44B94060AC320EA8F2293472",
+              "key": "427A8886489861D1F2C3CFB9E3818E34",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -42903,7 +42936,7 @@
     }
   },
   "/LaunchPadItemGameplay/Items/WID/WID_Athena_LaunchPadThrown_Super": {
-    "ts": 1776329943,
+    "ts": 1776420430,
     "data": {
       "hash": "137dacb4b91ade0c44cddb39834c20fdaaf93c1114ea3774e651f638a8e3f138",
       "entries": 1,
@@ -43879,7 +43912,7 @@
     }
   },
   "/MedCloud/Gameplay/Items/WID_MedCloud": {
-    "ts": 1776329943,
+    "ts": 1776420430,
     "data": {
       "hash": "e7c4886fdc2e6dd612aeeee31902a24fb5969e5246289270ec42830dcb0f7b6f",
       "entries": 1,
@@ -44270,7 +44303,7 @@
     }
   },
   "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_UR": {
-    "ts": 1776329943,
+    "ts": 1776420430,
     "data": {
       "hash": "bebb1e07f744eaa4bb9f22ef15bf9ac511339c8f5dcdce9194539942727da7bd",
       "entries": 1,
@@ -56282,9 +56315,9 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_DPS/HitscanWIDs/WID_Assault_Paprika_DPS_Athena_HS_UR_Boss": {
-    "ts": 1776329945,
+    "ts": 1776420431,
     "data": {
-      "hash": "dcc39e6c0e2fee4e3b761bc3e6b0b865a6cbcd7565c8576d03610e6d2a89812b",
+      "hash": "93d83f620480f43f35713b8660d0c4a5dd9ae1097c9acc4ae1cdfb359bbf48ab",
       "entries": 1,
       "bytes": 8727,
       "jsonOutput": [
@@ -56368,13 +56401,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "484B63B54F880B7786BD15BCA85EED45",
+              "key": "D22C70F04E8B5360E7196BB0434798D6",
               "sourceString": "Nisha's Striker AR",
               "localizedString": "Nisha's Striker AR"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "90050E294B4A6C6D52916A9692BE2FA6",
+              "key": "7480373243C2A5E1AA3B618A095F97EB",
               "sourceString": "Personal Striker AR of the Nisha.",
               "localizedString": "Personal Striker AR of the Nisha."
             },
@@ -58034,7 +58067,7 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Infantry/HitscanWIDs/WID_Assault_Paprika_Infantry_Athena_HS_UR": {
-    "ts": 1776329945,
+    "ts": 1776420431,
     "data": {
       "hash": "95a7497b0a1be9d3f000a196da63f7bc0ef5db4308a7cd342a03279a1f2f2034",
       "entries": 1,
@@ -58895,7 +58928,7 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_DPS/HitscanWIDs/WID_SMG_Paprika_DPS_Athena_HS_UR_Boss": {
-    "ts": 1776329945,
+    "ts": 1776420432,
     "data": {
       "hash": "3876908fd234c4d8839cdf6467e7a5277c56dc790fbd366ae9da56bb3d333758",
       "entries": 1,
@@ -59332,7 +59365,7 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_DPS/Hitscan/WID_Shotgun_Auto_Paprika_HS_Athena_UR_Boss": {
-    "ts": 1776329945,
+    "ts": 1776420432,
     "data": {
       "hash": "4f8f69e6c11fa13f354baa28b70f2fbb774606fda766c595f492f4c22268b952",
       "entries": 1,
@@ -60086,7 +60119,7 @@
     }
   },
   "/RadicalWeaponsGameplay/Weapons/PulseRifleMMObj/WID_Assault_PastaRipper_Athena_MMObj": {
-    "ts": 1776329946,
+    "ts": 1776420433,
     "data": {
       "hash": "cff6288c06bf3f078ecb58f987c7f3fec65514c4bbf3f3d0569b2a3794394b81",
       "entries": 1,
@@ -62430,7 +62463,7 @@
     }
   },
   "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_R_Ore_T03": {
-    "ts": 1776329946,
+    "ts": 1776420433,
     "data": {
       "hash": "f19273e341056f8f5a55d4b7b59f40a38df80ac919e93f167a0b91856e29d004",
       "entries": 1,
@@ -62834,7 +62867,7 @@
     }
   },
   "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_SR_Ore_T03": {
-    "ts": 1776329947,
+    "ts": 1776420433,
     "data": {
       "hash": "9c98320f7638d442e960569e6b44dfa6bb003aff2268d4383dcc96e7a2d92435",
       "entries": 1,
@@ -63238,7 +63271,7 @@
     }
   },
   "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_UC_Ore_T03": {
-    "ts": 1776329947,
+    "ts": 1776420433,
     "data": {
       "hash": "0427fa8f4b37fec176464144ae942b139fbd7c1c2ba598753d5a35f3a684c0b7",
       "entries": 1,
@@ -63639,7 +63672,7 @@
     }
   },
   "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_VR_Ore_T03": {
-    "ts": 1776329947,
+    "ts": 1776420434,
     "data": {
       "hash": "60b2f9ec7d195dea93f53efa67bca9718d10e8f73f91ee3c01d22c200c03e6e1",
       "entries": 1,
@@ -64043,7 +64076,7 @@
     }
   },
   "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic": {
-    "ts": 1776329947,
+    "ts": 1776420434,
     "data": {
       "hash": "f2a00e5f8db8972ff23512d8f7aa3c6a086f99f447ea4c1734dd0b78e51630d1",
       "entries": 1,
@@ -67663,7 +67696,7 @@
     }
   },
   "/TidalCraneExotics/Gameplay/GooBerryFizz/WID_TidalCrane_TeamSpray_X": {
-    "ts": 1776329949,
+    "ts": 1776420436,
     "data": {
       "hash": "4f84f123cdc4cb2679ca807ae4d5904009b5301d9151c985b5ea955dd0beff5a",
       "entries": 1,
@@ -67983,7 +68016,7 @@
     }
   },
   "/TidalCraneExotics/Gameplay/ShockwaveLauncher/WID_Launcher_Shockwave_Athena_X": {
-    "ts": 1776329949,
+    "ts": 1776420436,
     "data": {
       "hash": "51f530ea0667e52e28e597de97d9c9b9fd14a50668b71bcee650053ff1b9c6c0",
       "entries": 1,
@@ -68375,7 +68408,7 @@
     }
   },
   "/TidalCraneExotics/Gameplay/TrackerSMG/WID_SMG_FirePetal_Athena_TX": {
-    "ts": 1776329949,
+    "ts": 1776420436,
     "data": {
       "hash": "790224c7291de5298d351a002cc4643d87a470abd2d41f85fb3e3602a5d5b131",
       "entries": 1,
@@ -72404,7 +72437,7 @@
     }
   },
   "/VividRazorExotics/Gameplay/GasSniper/WID_Sniper_NoScope_Athena_X": {
-    "ts": 1776329952,
+    "ts": 1776420436,
     "data": {
       "hash": "1d768b049b29bdf1be57214a70228c68c3995112ef57efb024df8ffb74497a07",
       "entries": 1,
@@ -73238,7 +73271,7 @@
     }
   },
   "/VividRazorExotics/Gameplay/RocketLauncher/WID_VividRazor_RocketLauncher_Athena_X": {
-    "ts": 1776329952,
+    "ts": 1776420436,
     "data": {
       "hash": "be52f72bf07012ccda540c84c3873bd816b3c9934a6b43605c7c3083a54777a9",
       "entries": 1,
@@ -73634,7 +73667,7 @@
     }
   },
   "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp": {
-    "ts": 1776329953,
+    "ts": 1776420437,
     "data": {
       "hash": "5c075dd162f1859a3e6528c5cacb18b023ac2b48f4048608475b54a46413644e",
       "entries": 1,
@@ -74311,7 +74344,7 @@
     }
   },
   "/VividRazorExotics/Gameplay/TrackerSniper/WID_Sniper_MoonFlax_Athena_X": {
-    "ts": 1776329953,
+    "ts": 1776420437,
     "data": {
       "hash": "c7512e1d70431dee8f6374d384f5b59a8391e75b8ebeaa4d995cd8ff83da56f7",
       "entries": 1,
@@ -78905,7 +78938,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_UR": {
-    "ts": 1776329954,
+    "ts": 1776420437,
     "data": {
       "hash": "af177d0d7aca4b9a35f0a785ef957fcd7d73a7e36c4b35fdca29d7e46214cf69",
       "entries": 1,
@@ -79318,7 +79351,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/DrumGun/Exotic/WID_SunRose_DrumGun_Athena_X": {
-    "ts": 1776329954,
+    "ts": 1776420437,
     "data": {
       "hash": "a28e4071ae5727cc3d39b213ec33f03ac39fc50b27e78528941b3cffcf51e595",
       "entries": 1,
@@ -80586,7 +80619,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UR": {
-    "ts": 1776329955,
+    "ts": 1776420437,
     "data": {
       "hash": "a578ef72f7877148bd66e28cddfb375fc1b076a92a68caa97b8410bac3e01e5a",
       "entries": 1,
@@ -81434,7 +81467,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_UR_Scoped": {
-    "ts": 1776329955,
+    "ts": 1776420438,
     "data": {
       "hash": "45ac693b83898eaa1ce93f195a5482e314faed1a316dc7a8c3eb43d5277f888f",
       "entries": 1,
@@ -82262,7 +82295,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/StrikerBurstAR_VividRazor/WID_VividRazor_Assault_Update_StrikerBurst_Athena_UR": {
-    "ts": 1776329955,
+    "ts": 1776420438,
     "data": {
       "hash": "ef3718a7801fc8582e295c88e023974466f2e6aceb65041e7dc591a08766f63d",
       "entries": 1,
@@ -90690,7 +90723,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/Hitscan/WID_SMG_SunRose_DPS_HS_Athena_UR_Boss": {
-    "ts": 1776329947,
+    "ts": 1776420435,
     "data": {
       "hash": "845e53431c32e148a68561790426ea828fcb6c9e601c483c35756aa3a17a921e",
       "entries": 1,
@@ -91111,7 +91144,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UR": {
-    "ts": 1776329948,
+    "ts": 1776420435,
     "data": {
       "hash": "25f79a58b9d963bce4dc5b5cda3cbb51ce183ffc58b7cf40415a45b923e0e5eb",
       "entries": 1,
@@ -95145,7 +95178,7 @@
     }
   },
   "/CherrySmokeWeaponGameplay/Gameplay/DMR/WID_CherrySmoke_DMR_Athena_UR": {
-    "ts": 1776329930,
+    "ts": 1776420422,
     "data": {
       "hash": "ed3623bcc95f32b6730aad7e074889ea45e69d5c39c5a20adfd40cb8eb278dbf",
       "entries": 1,
@@ -95979,7 +96012,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Athena_SR_Ore_T03": {
-    "ts": 1776329939,
+    "ts": 1776420427,
     "data": {
       "hash": "c8726ad77f0b584303d413d72ca6de63b03d6d8483e672bb86b0e8ac6674dfe2",
       "entries": 1,
@@ -96393,7 +96426,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Athena_VR_Ore_T03": {
-    "ts": 1776329939,
+    "ts": 1776420428,
     "data": {
       "hash": "cb79b434f780d8afb5385610e2e9463b6a301bbc13b6a6f3c6b322f6604a898d",
       "entries": 1,
@@ -97974,7 +98007,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Sniper_NoScope_Athena_R_Ore_T03": {
-    "ts": 1776329942,
+    "ts": 1776420429,
     "data": {
       "hash": "f90dd0b6b419ab43ee15b389246fd2bb57a2b1bc1c6c6fc23bcebc5693d20e3e",
       "entries": 1,
@@ -98379,7 +98412,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Sniper_NoScope_Athena_UC_Ore_T03": {
-    "ts": 1776329942,
+    "ts": 1776420429,
     "data": {
       "hash": "0c9031c28a0ed56c980bf9d3f3285475777f58bc961e625111e418f3d7e90472",
       "entries": 1,
@@ -98781,7 +98814,7 @@
     }
   },
   "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav": {
-    "ts": 1776329944,
+    "ts": 1776420431,
     "data": {
       "hash": "174ec71a0455e9135c67651aca93f47d1c650d67ffdc87a3715b0f9fb0cbbc24",
       "entries": 1,
@@ -108335,7 +108368,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_C": {
-    "ts": 1776329936,
+    "ts": 1776420425,
     "data": {
       "hash": "7da92f0610a6de33db4ef27b46ea21f10ffce9c5de695945bc17318d26689a78",
       "entries": 1,
@@ -124987,7 +125020,7 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UR": {
-    "ts": 1776329944,
+    "ts": 1776420431,
     "data": {
       "hash": "b08eb639c452299b6cc149520cc11ae8effc1cf9c9952220d23a81bfa1e932e5",
       "entries": 1,
@@ -164178,7 +164211,7 @@
     }
   },
   "/WeaponsUpdated/Gameplay/HandCannon/Hitscan/WID_SunRose_Pistol_HandCannon_HS_Athena_UR": {
-    "ts": 1776329955,
+    "ts": 1776420438,
     "data": {
       "hash": "d8aea50041c5fe92837779628bfb25e90b8234af8ab224bbab2a6831073a7047",
       "entries": 1,
@@ -171702,7 +171735,7 @@
     }
   },
   "/BlastBerryWeapons/Gameplay/PumpShotgun/WMID/WMID_Shotgun_Pump_Athena_BB_R": {
-    "ts": 1776329930,
+    "ts": 1776420422,
     "data": {
       "hash": "602ccb5b3dc8776c658a3570751d6557b0e37de9791dfbae3ae6bc9195a269e6",
       "entries": 1,
@@ -172094,7 +172127,7 @@
     }
   },
   "/BlastBerryWeapons/Gameplay/PumpShotgun/WMID/WMID_Shotgun_Pump_Athena_BB_UC": {
-    "ts": 1776329930,
+    "ts": 1776420422,
     "data": {
       "hash": "a07c1fed9155af1a13ec4f82c3670f188c67b85e6b578a1584e4e0d8dd036cfe",
       "entries": 1,
@@ -214247,7 +214280,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WaffleTruck/WID_WaffleTruck_BoomSniper": {
-    "ts": 1776329942,
+    "ts": 1776420430,
     "data": {
       "hash": "6ce5400fcce2a263a9cf25c11ebbff35599e4c653eda8b111b7f5363012b77fe",
       "entries": 1,
@@ -235414,7 +235447,7 @@
     }
   },
   "/BigBushGrenade/Items/Athena_ShrubBomb": {
-    "ts": 1776329929,
+    "ts": 1776420421,
     "data": {
       "hash": "46e1b3f1ca1d8677d46dfba88ffcd554feb1771174b9f9bbebf1e34b43c3d9c1",
       "entries": 1,
@@ -236623,7 +236656,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/ModularDMR/Unmoded/WID_SunRose_ModularDMR_UM_Athena_UR": {
-    "ts": 1776329948,
+    "ts": 1776420435,
     "data": {
       "hash": "8e5f961c63a2bf6abc9e2fe9ab42cf96d3697febbdfaea7f103baa47bbba0cae",
       "entries": 1,
@@ -237027,11 +237060,11 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_EX": {
-    "ts": 1776329944,
+    "ts": 1776420431,
     "data": {
-      "hash": "8cbbbb97931563a9c9e59a87a107f0612a352095998582bfec7806fa4f0a63bd",
+      "hash": "2c44f0580e0a4b3a31c4154c0275ad2544e157ff937150b8f0c2302588928946",
       "entries": 1,
-      "bytes": 7811,
+      "bytes": 7886,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -237090,6 +237123,9 @@
               "Weapon.Ranged.Assault",
               "Item.Weapon.Ranged.Assault.MusterScoped.Ex"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Assault.MusterScoped.Ex"
+            ],
             "ActualAnalyticFNames": [
               "Weapon.Ranged.Assault",
               "Item.Weapon.Ranged.Assault.MusterScoped.Ex",
@@ -237106,13 +237142,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "736CFD77434FB20AEE870F9925BAD37B",
+              "key": "FBD9818041509F52688F9CA312B17F0E",
               "sourceString": "Heisted Explosive Assault Rifle",
               "localizedString": "Heisted Explosive Assault Rifle"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "A34F3D664F0228FD9D897DBC0492B1A7",
+              "key": "D3D3EED14F7C7B8B35BDC0A7DA2199C8",
               "sourceString": "Exotic Red Eye Assault Rifle that fires explosive round projectiles\r\n",
               "localizedString": "Exotic Red Eye Assault Rifle that fires explosive round projectiles\r\n"
             },
@@ -237396,7 +237432,7 @@
                   "TagName": "Item.Weapon.Ranged.Assault"
                 },
                 "MeshBoundsExtents": {
-                  "x": 3.8556886,
+                  "x": 3.8556888,
                   "y": 45.598373,
                   "z": 15.3946495
                 }
@@ -279651,7 +279687,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_VR": {
-    "ts": 1776329922,
+    "ts": 1776420435,
     "data": {
       "hash": "0b9a125fab8ef12baa751dca3693abc6d843a1e0d9efaec9c394cb8bc9098114",
       "entries": 1,
@@ -280063,7 +280099,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_SR": {
-    "ts": 1776329922,
+    "ts": 1776420434,
     "data": {
       "hash": "ff8a7c9abf124f2fc8bca076d204692525953ac36072d9958833fa989ed6a6cd",
       "entries": 1,
@@ -280475,7 +280511,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR": {
-    "ts": 1776329922,
+    "ts": 1776420427,
     "data": {
       "hash": "093dab53350ba12319170518f994bfe2af4c95533c519091876c33edf6196ad4",
       "entries": 1,
@@ -280914,7 +280950,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR": {
-    "ts": 1776329923,
+    "ts": 1776420427,
     "data": {
       "hash": "37f06d6cf67b8e5bfc2975194a97f3cd7cb2971aaf3a7778d8403699874448b9",
       "entries": 1,
@@ -281353,7 +281389,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_VR": {
-    "ts": 1776329923,
+    "ts": 1776420426,
     "data": {
       "hash": "9357558334f1854284327bc9aca8bdb01257590026b048686be0d671e40d6b03",
       "entries": 1,
@@ -281793,7 +281829,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_SR": {
-    "ts": 1776329923,
+    "ts": 1776420425,
     "data": {
       "hash": "5c43c95d53075fec0dd4afd40c4307dc5bd1626ed06e0d7e4fc7cda00815f22f",
       "entries": 1,
@@ -282233,11 +282269,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/WID_Sniper_Paprika_UM_Athena_VR": {
-    "ts": 1776329923,
+    "ts": 1776420433,
     "data": {
-      "hash": "36e9a2dd2024bc2975055452a33d71d9047aea438333305bcc2811c367131f43",
+      "hash": "c00d156b0d4c4b278618599d55827108675d0880bc9f46c72a49bd96bcc75827",
       "entries": 1,
-      "bytes": 8162,
+      "bytes": 8199,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -282290,7 +282326,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "A28F6C3A44FAA142409EFF9700DA7D17",
+              "key": "D43389F643316488D73F75998958C4D3",
               "sourceString": "Reaper Sniper Rifle",
               "localizedString": "Reaper Sniper Rifle"
             },
@@ -282320,8 +282356,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'PaprikaSniper_Lib'",
-                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/PaprikaSniper_Lib.0"
+                    "ObjectName": "SoundLibrary'SL_PaprikaSniper_UM_Weapon'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/Sounds/SL_PaprikaSniper_UM_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -282559,7 +282595,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Pickup_Cue.Paprika_Sniper_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -282567,7 +282603,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Drop_Cue.Paprika_Sniper_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -282575,10 +282611,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_DropImpact_Cue.Paprika_Sniper_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/SL_Paprika_Sniper_Pickup.SL_Paprika_Sniper_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -282632,6 +282673,12 @@
               },
               {
                 "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Sniper'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Sniper.0"
+                }
               }
             ]
           }
@@ -282640,11 +282687,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/WID_Sniper_Paprika_UM_Athena_SR": {
-    "ts": 1776329923,
+    "ts": 1776420432,
     "data": {
-      "hash": "3126d2a9aa7fe3bbfdeba69c4edc1eb819de1603aa6fb33da86ed9b7f0018ec8",
+      "hash": "2cca837ec1a74d18b024d24b2c904b18cc6612921f31ff79b5102f9b99949bf0",
       "entries": 1,
-      "bytes": 8167,
+      "bytes": 8281,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -282690,6 +282737,9 @@
               "weapon.ranged.sniper",
               "Item.Weapon.Ranged.Sniper.BoltAction.Paprika"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Sniper.BoltAction.Paprika"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.sniper",
               "Item.Weapon.Ranged.Sniper.BoltAction.Paprika",
@@ -282697,7 +282747,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "DA7589184C854BA599C399840857357A",
+              "key": "40C036ED40408BEA5E44DC87E0F151D9",
               "sourceString": "Reaper Sniper Rifle",
               "localizedString": "Reaper Sniper Rifle"
             },
@@ -282727,8 +282777,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'PaprikaSniper_Lib'",
-                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/PaprikaSniper_Lib.0"
+                    "ObjectName": "SoundLibrary'SL_PaprikaSniper_UM_Weapon'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/Sounds/SL_PaprikaSniper_UM_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -282966,7 +283016,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Pickup_Cue.Paprika_Sniper_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -282974,7 +283024,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Drop_Cue.Paprika_Sniper_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -282982,10 +283032,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_DropImpact_Cue.Paprika_Sniper_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/SL_Paprika_Sniper_Pickup.SL_Paprika_Sniper_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -283039,6 +283094,12 @@
               },
               {
                 "Rarity": "EFortRarity::Legendary"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Sniper'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Sniper.0"
+                }
               }
             ]
           }
@@ -283047,7 +283108,7 @@
     }
   },
   "/TeaCakeConsumables/Gameplay/SpicySlapperoni/CID_Athena_TeaCake_Spicy_Slice": {
-    "ts": 1776329924,
+    "ts": 1776420435,
     "data": {
       "hash": "8bc64e55ed4b026b2d6d5e6a8947fbdad60f07ae741bac3df59628119f1e1d29",
       "entries": 1,
@@ -283382,7 +283443,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_UC": {
-    "ts": 1776329924,
+    "ts": 1776420434,
     "data": {
       "hash": "34835af7da7e8780932098a428286ad0870419ec7444ec3b54670770d58f9912",
       "entries": 1,
@@ -283791,7 +283852,7 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_R": {
-    "ts": 1776329924,
+    "ts": 1776420434,
     "data": {
       "hash": "8bf13da29e4820800689cdf65b0895fb9a179a53d5af7d2e30439f6c76861b5e",
       "entries": 1,
@@ -284203,7 +284264,7 @@
     }
   },
   "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C": {
-    "ts": 1776329924,
+    "ts": 1776420425,
     "data": {
       "hash": "4c3fb9795d6168d54edb20d24f7ffa1e42ec1a182b622432231c5b345daee80e",
       "entries": 1,
@@ -284610,7 +284671,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC": {
-    "ts": 1776329924,
+    "ts": 1776420427,
     "data": {
       "hash": "ca9dd32d015e1aaa550519ef35fe5b8b46c91558a0500f79a6e80299fdd20e38",
       "entries": 1,
@@ -285040,7 +285101,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R": {
-    "ts": 1776329925,
+    "ts": 1776420427,
     "data": {
       "hash": "86b7e1a125de89ae67a6f95e19cde5ad7b05baf743bbb92654d9e20aaff95a74",
       "entries": 1,
@@ -285473,7 +285534,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UC": {
-    "ts": 1776329925,
+    "ts": 1776420426,
     "data": {
       "hash": "5b16eb6dc750fcbd8cb8b1e806ca1d7c78a95c7a83bd415eed8d9dc3231f6482",
       "entries": 1,
@@ -285904,7 +285965,7 @@
     }
   },
   "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_R": {
-    "ts": 1776329925,
+    "ts": 1776420425,
     "data": {
       "hash": "cb6c41e9fd1566a555e4eb1864a14d322e774ffd3e6231b854f433eac6980ea1",
       "entries": 1,
@@ -286338,11 +286399,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/WID_Sniper_Paprika_UM_Athena_UC": {
-    "ts": 1776329925,
+    "ts": 1776420432,
     "data": {
-      "hash": "9437ff5bd83c1d4cc9926d64a99d5209c2cca3163ecce01f8136fe11a3ad6ff6",
+      "hash": "ccad1821f712bcf515c8d080225a12596e0fa83dc49afbee589d335cbc5e8aec",
       "entries": 1,
-      "bytes": 8131,
+      "bytes": 8168,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -286395,7 +286456,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "ABF106734387FD620A531C8B82453600",
+              "key": "1EF9ADC64509357CA0FF2784AA84826F",
               "sourceString": "Reaper Sniper Rifle",
               "localizedString": "Reaper Sniper Rifle"
             },
@@ -286425,8 +286486,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'PaprikaSniper_Lib'",
-                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/PaprikaSniper_Lib.0"
+                    "ObjectName": "SoundLibrary'SL_PaprikaSniper_UM_Weapon'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/Sounds/SL_PaprikaSniper_UM_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -286664,7 +286725,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Pickup_Cue.Paprika_Sniper_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -286672,7 +286733,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Drop_Cue.Paprika_Sniper_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -286680,10 +286741,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_DropImpact_Cue.Paprika_Sniper_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/SL_Paprika_Sniper_Pickup.SL_Paprika_Sniper_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -286734,6 +286800,12 @@
                   "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Prj_Paprika_Sniper.Prj_Paprika_Sniper_C",
                   "SubPathString": ""
                 }
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Sniper'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Sniper.0"
+                }
               }
             ]
           }
@@ -286742,11 +286814,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/WID_Sniper_Paprika_UM_Athena_R": {
-    "ts": 1776329925,
+    "ts": 1776420432,
     "data": {
-      "hash": "a7bdb4308de3c5fdc67396bae528566595a0c08bb42984be8fc9a96493b22a61",
+      "hash": "d5d2a3669815280eeb53f6fe21f26f1dcdaaa5521093321f65d8591b9725ddeb",
       "entries": 1,
-      "bytes": 8156,
+      "bytes": 8193,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -286799,7 +286871,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "74EEA3344DBB1F81102ACAB9587D9786",
+              "key": "4F7AAE4B4A485BAA76F31D92BCD390EF",
               "sourceString": "Reaper Sniper Rifle",
               "localizedString": "Reaper Sniper Rifle"
             },
@@ -286829,8 +286901,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'PaprikaSniper_Lib'",
-                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/PaprikaSniper_Lib.0"
+                    "ObjectName": "SoundLibrary'SL_PaprikaSniper_UM_Weapon'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Unmoded/Sounds/SL_PaprikaSniper_UM_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -287068,7 +287140,7 @@
                   }
                 },
                 "PickupSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Pickup_Cue.Paprika_Sniper_Pickup_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "PickupByNearbyPawnSound": {
@@ -287076,7 +287148,7 @@
                   "SubPathString": ""
                 },
                 "DropSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_Drop_Cue.Paprika_Sniper_Drop_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
                 "DroppedLoopSound": {
@@ -287084,10 +287156,15 @@
                   "SubPathString": ""
                 },
                 "LandedSound": {
-                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/Paprika_Sniper_DropImpact_Cue.Paprika_Sniper_DropImpact_Cue",
+                  "AssetPathName": "",
                   "SubPathString": ""
                 },
-                "PickupSoundLibraries": [],
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSniper/Sounds/SL_Paprika_Sniper_Pickup.SL_Paprika_Sniper_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
                 "MiniMapViewableDistance": 5000.0,
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
@@ -287141,6 +287218,12 @@
               },
               {
                 "Rarity": "EFortRarity::Rare"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Sniper'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Sniper.0"
+                }
               }
             ]
           }

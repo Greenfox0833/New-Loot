@@ -116492,7 +116492,7 @@
     }
   },
   "/Game/Athena/Items/Consumables/PurpleStuff/VeryRare/Athena_PurpleStuff_VR": {
-    "ts": 1775052210,
+    "ts": 1776420450,
     "data": {
       "hash": "9548f1ff7963ab8e77e4a60257b6d6ea77ce9c33f97cd2cffc4c3dc4c291168e",
       "entries": 1,
@@ -208005,7 +208005,7 @@
     }
   },
   "/Game/Athena/Items/Gameplay/WaffleTruck/AGID_WaffleTruck_Rocket_Slurp": {
-    "ts": 1775052210,
+    "ts": 1776420450,
     "data": {
       "hash": "745449cb3bb62561f0f4db46b57987d2b25b738ee5ce9af3dfa1eb9d6df95662",
       "entries": 1,
@@ -208347,7 +208347,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_DualPistol_SemiAuto_Athena_SR_Ore_T03": {
-    "ts": 1775052210,
+    "ts": 1776420450,
     "data": {
       "hash": "57c837b2c433a82e1714d08c475fc7358639c3a5f0e207bf59608a38a57a3477",
       "entries": 1,
@@ -208727,7 +208727,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_DualPistol_SemiAuto_Athena_VR_Ore_T03": {
-    "ts": 1775052211,
+    "ts": 1776420450,
     "data": {
       "hash": "ff744beccd85d21961a91fb39ee179a6f6759ddb931cce67985bbb40335f84de",
       "entries": 1,
@@ -209107,7 +209107,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_C_Ore_T03": {
-    "ts": 1775052211,
+    "ts": 1776420451,
     "data": {
       "hash": "a7273b43e72a156c90f51479ad4947c16d87b7c23f8425895d7abe2b2eed2af1",
       "entries": 1,
@@ -209493,7 +209493,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_R_Ore_T03": {
-    "ts": 1775052211,
+    "ts": 1776420451,
     "data": {
       "hash": "e88a53c4b53bc7663e0dbe61f7a207224cd5e6139661d98c30a5ca3fd898daa8",
       "entries": 1,
@@ -209879,7 +209879,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_SR_Ore_T03": {
-    "ts": 1775052211,
+    "ts": 1776420451,
     "data": {
       "hash": "89c2834ab896b7e176df762be41a0a77f72af2684fe9a3f5dc4475a34e6810ad",
       "entries": 1,
@@ -210265,7 +210265,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_UC_Ore_T03": {
-    "ts": 1775052211,
+    "ts": 1776420451,
     "data": {
       "hash": "227b6cfb3f20c5a090b8942ebb60f1a8eeedcf908033f46316fde752b37e073d",
       "entries": 1,
@@ -210648,7 +210648,7 @@
     }
   },
   "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_VR_Ore_T03": {
-    "ts": 1775052212,
+    "ts": 1776420451,
     "data": {
       "hash": "f0d62876a898717a7ea2ae78f9cba33f8a709c12cd6d061de900bf7b8e82360e",
       "entries": 1,
@@ -295409,6 +295409,804 @@
                 ],
                 "WeaponOwnerSoundLibraries": [],
                 "WeaponCollectionTag": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/PepperCatGameplay/Gameplay/WID_PepperCat_VR": {
+    "ts": 1776420448,
+    "data": {
+      "hash": "d4dc6d2d3683108c354ff5fc279b8dbfa48c834441df469adfb2784bb11c004d",
+      "entries": 1,
+      "bytes": 7538,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_PepperCat_VR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "bSecondaryFireRequiresAmmo": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/B_Assault_PepperCat.B_Assault_PepperCat_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'RangedWeapons_PepperCat'",
+                "ObjectPath": "/PepperCatGameplay/DataTables/RangedWeapons_PepperCat.0"
+              },
+              "RowName": "PepperCat_VR"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ExplosiveDamage.BaseAlteration_ExplosiveDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_Ranged_GenericDamage_PepperCat.GA_Ranged_GenericDamage_PepperCat_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_PepperCat_SpawnPrj.GA_PepperCat_SpawnPrj_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilities": [
+              {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            ],
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "AnalyticTags": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat"
+            ],
+            "ActualAnalyticFNames": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat",
+              "Tag:Weapon:wid_peppercat_vr"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "8293AAF049B77FEFAEFC2D863F6BE964",
+              "sourceString": "Cube Rifle",
+              "localizedString": "Cube Rifle"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "7B08F1A544FB70BE5EFBA8B6550495A6",
+              "sourceString": "Elites weapon infused with cube energy. Has the ability to fire powerful cubes that can be detonated by hitting them with primary fire.",
+              "localizedString": "Elites weapon infused with cube energy. Has the ability to fire powerful cubes that can be detonated by hitting them with primary fire."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/PepperCatGameplay/Assets/Meshes/PepperCat_Cube_Rifle.PepperCat_Cube_Rifle",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::FullColor",
+                  "ImageSize": {
+                    "x": 32.0,
+                    "y": 32.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Assault-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PepperCatGameplay/Assets/Audio/SL_PepperCat_Pickup.SL_PepperCat_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 3.9517183,
+                  "y": 50.283916,
+                  "z": 13.849178
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "D4B1B39E4365F1FF9683D99D46C86177",
+                  "sourceString": "Guns Ranged Rocket Launcher AOE",
+                  "localizedString": "Guns Ranged Rocket Launcher AOE"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Icons/T_Icon_Weapons_Rifle_PepperCat_Cube.T_Icon_Weapons_Rifle_PepperCat_Cube",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Icons/T_Icon_Weapons_Rifle_PepperCat_Cube_L.T_Icon_Weapons_Rifle_PepperCat_Cube_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Launcher.Rocket",
+                  "Rarity.VeryRare",
+                  "Trait.Explosive",
+                  "Item.Weapon.Ranged.PepperCat",
+                  "Weapon.Ranged.PepperCat",
+                  "phoebe.items.assault_rifle",
+                  "phoebe.weapon.ranged.rifle",
+                  "Item.Weapon.Ranged.Assault.PepperCat"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -25.0,
+                  "z": -4.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.677672,
+                  "yaw": 27.94883,
+                  "roll": -18.777086
+                },
+                "Scale": 0.7
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_PepperCat_Weapon'",
+                    "ObjectPath": "/PepperCatGameplay/Assets/Audio/SL_PepperCat_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "OnHitAbility": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_OnHit_Trigger.GA_OnHit_Trigger_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/PepperCatGameplay/Gameplay/WID_PepperCat_SR": {
+    "ts": 1776420448,
+    "data": {
+      "hash": "7e61b67f4e064d38eeed681ea1a3c2373b68d04a691712159e90b5a00856b754",
+      "entries": 1,
+      "bytes": 7544,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_PepperCat_SR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "bSecondaryFireRequiresAmmo": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/B_Assault_PepperCat.B_Assault_PepperCat_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'RangedWeapons_PepperCat'",
+                "ObjectPath": "/PepperCatGameplay/DataTables/RangedWeapons_PepperCat.0"
+              },
+              "RowName": "PepperCat_SR"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_ExplosiveDamage.BaseAlteration_ExplosiveDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_Ranged_GenericDamage_PepperCat.GA_Ranged_GenericDamage_PepperCat_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_PepperCat_SpawnPrj.GA_PepperCat_SpawnPrj_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilities": [
+              {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            ],
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "SecondaryTriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "AnalyticTags": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat"
+            ],
+            "ActualAnalyticFNames": [
+              "Item.Weapon.Ranged.PepperCat",
+              "Weapon.Ranged.PepperCat",
+              "Item.Weapon.Ranged.Assault.PepperCat",
+              "Tag:Weapon:wid_peppercat_sr"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "506DCB1548D934AA4666C988EDAB70B3",
+              "sourceString": "Cube Rifle",
+              "localizedString": "Cube Rifle"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "3C82298249315A927014149C43F34053",
+              "sourceString": "Elites weapon infused with cube energy. Has the ability to fire powerful cubes that can be detonated by hitting them with primary fire.",
+              "localizedString": "Elites weapon infused with cube energy. Has the ability to fire powerful cubes that can be detonated by hitting them with primary fire."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/PepperCatGameplay/Assets/Meshes/PepperCat_Cube_Rifle.PepperCat_Cube_Rifle",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::FullColor",
+                  "ImageSize": {
+                    "x": 32.0,
+                    "y": 32.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Assault-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/PepperCatGameplay/Assets/Audio/SL_PepperCat_Pickup.SL_PepperCat_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 3.9517183,
+                  "y": 50.283916,
+                  "z": 13.849178
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "D4B1B39E4365F1FF9683D99D46C86177",
+                  "sourceString": "Guns Ranged Rocket Launcher AOE",
+                  "localizedString": "Guns Ranged Rocket Launcher AOE"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Icons/T_Icon_Weapons_Rifle_PepperCat_Cube.T_Icon_Weapons_Rifle_PepperCat_Cube",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Icons/T_Icon_Weapons_Rifle_PepperCat_Cube_L.T_Icon_Weapons_Rifle_PepperCat_Cube_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Launcher.Rocket",
+                  "Trait.Explosive",
+                  "Item.Weapon.Ranged.PepperCat",
+                  "Weapon.Ranged.PepperCat",
+                  "Rarity.SuperRare",
+                  "phoebe.items.assault_rifle",
+                  "phoebe.weapon.ranged.rifle",
+                  "Item.Weapon.Ranged.Assault.PepperCat"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -25.0,
+                  "z": -4.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.677672,
+                  "yaw": 27.94883,
+                  "roll": -18.777086
+                },
+                "Scale": 0.7
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_PepperCat_Weapon'",
+                    "ObjectPath": "/PepperCatGameplay/Assets/Audio/SL_PepperCat_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "OnHitAbility": {
+                  "AssetPathName": "/PepperCatGameplay/Gameplay/Abilities/GA_OnHit_Trigger.GA_OnHit_Trigger_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+                }
               }
             ]
           }

@@ -205950,17 +205950,17 @@
     }
   },
   "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_SR": {
-    "ts": 1772721006,
+    "ts": 1776332520,
     "data": {
-      "hash": "17f077a068f8e169e66bbe6392cd1457207fbcd3ff22dd60fceb45dc8a2f8477",
+      "hash": "b2387d49816c9da3412749a918c7c537c9fb905792fcb00520d1dc8aeae9fa64",
       "entries": 1,
-      "bytes": 8457,
+      "bytes": 8459,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_CrimsonMist_HeavyMinigun_SR",
-          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bForceProjectileTooltip": true,
@@ -206035,7 +206035,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Legendary",
             "ItemName": {
               "namespace": "",
               "key": "A7E7C5ED4FD03F83ADB25F8293F5752E",
@@ -206361,6 +206360,9 @@
                     }
                   }
                 ]
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
               }
             ]
           }

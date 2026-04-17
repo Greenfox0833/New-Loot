@@ -45,3 +45,25 @@
 2026-04-16 18:42:00 | INFO | prewarm start
 2026-04-16 18:42:00 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.34s)
 2026-04-16 18:42:00 | INFO | 画像化タスク数: 3
+2026-04-16 18:42:00 | INFO | 画像生成 進捗: 1/3
+2026-04-16 18:42:00 | INFO | 画像生成 進捗: 3/3
+2026-04-16 18:42:00 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-16 18:42:00 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\ItemCache_03_2026-04-16_18-42-00.json (added=3 removed=3 change=0)
+2026-04-16 18:42:00 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\ItemCache_03\AddedItems\2026-04-16_18-42-00 (copied=3 missing=0)
+2026-04-16 18:42:00 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-04-16 18:42:03 | INFO | git commit stdout: [main 27ab96a] ItemCache_03 update 2026-04-16 18:42:01
+ 18 files changed, 840 insertions(+), 32 deletions(-)
+ create mode 100644 "System Update/shared/images/ItemCache_03/AddedItems/2026-04-16_18-42-00/\343\203\206\343\202\243\343\202\2425 - O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/ItemCache_03/AddedItems/2026-04-16_18-42-00/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ItemCache_03/AddedItems/2026-04-16_18-42-00/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\203\343\203\211\343\202\271\343\203\224\343\203\203\343\202\277\343\203\2743000.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/O.X.R.\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/\343\203\254\343\203\203\343\202\253\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/\343\203\254\343\203\203\343\203\211\343\202\271\343\203\224\343\203\203\343\202\277\343\203\2743000 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/ItemCache_03_LootData_2026-04-16_18-42.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/output/history/BR_20260416_1842/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/output/logs/pipeline_2026-04-16_18-41-59.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/ItemCache_03/output/summary/v39.30_2026-04-16_18-42.json"
+2026-04-16 18:42:05 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   0a1ea34..27ab96a  main -> main
+2026-04-16 18:42:05 | INFO | ✓ GitHub Push 完了
+2026-04-16 18:42:05 | INFO | ===== ItemCache_03: pipeline end =====

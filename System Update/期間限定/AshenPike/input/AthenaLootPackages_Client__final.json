@@ -1,0 +1,409 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemCache_03_LootPackages",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'FortLootPackageData'",
+        "ObjectPath": "/Script/FortniteGame"
+      }
+    },
+    "Rows": {
+      "ItemCachePKG.ItemCacheLoot.Exotic.Run.01": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.Run",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.Run",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "ItemCachePKG.ItemCacheLoot.Exotic.Run.02": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.Run",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.Run.Ammo",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "ItemCachePKG.ItemCacheLoot.Exotic.ExAR.01": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.ExAR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.ExAR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "ItemCachePKG.ItemCacheLoot.Exotic.ExAR.02": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.ExAR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.ExAR.Ammo",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "ItemCachePKG.ItemCacheLoot.Exotic.Breach.01": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.Breach",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.Breach",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "ItemCachePKG.ItemCacheLoot.Exotic.Breach.02": {
+        "LootPackageID": "ItemCachePKG.ItemCacheLoot.Exotic.Breach",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.ItemCacheLoot.Weapons.Breach.Ammo",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";PKG:ItemCachePKG.ItemCacheLoot.Ch2S2.C0;Call:WorldList.ItemCacheLoot.Weapons",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.Run.01": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.Run",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/TidalCraneWeaponGameplay/Gameplay/Weapons/MilitaryAR/WID_Assault_TidalCrane_Athena_SR.WID_Assault_TidalCrane_Athena_SR",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.ExAR.01": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.ExAR",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_SR.WID_CrimsonMist_HeavyMinigun_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.Breach.01": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.Breach",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/TidalCraneWeaponGameplay/Gameplay/Weapons/WreckerRevolver/WID_Revolver_TidalCrane_Athena_SR.WID_Revolver_TidalCrane_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.Breach.02": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.Breach.Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 25,
+          "Y": 25
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.ExAR.02": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.ExAR.Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 100,
+          "Y": 100
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": "",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ItemCacheLoot.Weapons.Run.02": {
+        "LootPackageID": "WorldList.ItemCacheLoot.Weapons.Run.Ammo",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 50,
+          "Y": 50
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:WorldList.ItemCacheLoot.Weapons.Run.Ammo.C0;Item:AthenaAmmoDataBulletsMedium",
+        "DurabilityPercentageOverride": 1
+      }
+    }
+  }
+]

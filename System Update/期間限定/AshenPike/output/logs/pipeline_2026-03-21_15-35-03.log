@@ -1,0 +1,30 @@
+2026-03-21 15:35:03 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\logs\pipeline_2026-03-21_15-35-03.log
+2026-03-21 15:35:03 | INFO | ===== HazelnutSpread: pipeline start =====
+2026-03-21 15:35:03 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\input\items_unique_min.json
+2026-03-21 15:35:03 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\HazelnutSpread
+2026-03-21 15:35:03 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-21 15:35:03 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-21 15:35:03 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-03-21 15:35:03 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\HazelnutSpread\pipeline.py", line 103, in main
+    res_lp = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-03-21 15:35:03 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 15:35:06 | INFO | git commit stdout: [main 92c3a1f] HazelnutSpread update 2026-03-21 15:35:04
+ 10 files changed, 1585 insertions(+)
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/__pycache__/config.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/__pycache__/config.cpython-312.pyc.2182211934640"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/__pycache__/pipeline.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/config.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/input/items_unique_min.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/output/logs/pipeline_2026-03-21_15-35-03.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/pipeline.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/scripts/LootSummary.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/HazelnutSpread/scripts/__pycache__/LootSummary.cpython-312.pyc"
+2026-03-21 15:35:08 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   f810971..92c3a1f  main -> main
+2026-03-21 15:35:08 | INFO | ✓ GitHub Push 完了
+2026-03-21 15:35:08 | INFO | ===== HazelnutSpread: pipeline end =====

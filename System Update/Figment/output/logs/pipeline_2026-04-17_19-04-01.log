@@ -1,0 +1,64 @@
+2026-04-17 19:04:01 | INFO | log file (Figment): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\logs\pipeline_2026-04-17_19-04-01.log
+2026-04-17 19:04:01 | INFO | ===== Figment: pipeline start =====
+2026-04-17 19:04:01 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+2026-04-17 19:04:01 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment
+2026-04-17 19:04:01 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-17 19:04:01 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-17 19:04:01 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[529] RowUpdate WorldList.AthenaLoot.VendingMachine.Weapons.Legendary.Shells.01.Weight=0.000000 -> OK
+[530] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.11.Weight=0.000000 -> OK
+[531] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.11.Weight=0.000000 -> OK
+[532] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.03.Weight=0.000000 -> OK
+[533] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.29.ItemDefinition=/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_C_Ore_T04.WID_Figment_Assault_Heavy_Athena_C_Ore_T04 -> OK
+[534] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.30.ItemDefinition=/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_UC_Ore_T04.WID_Figment_Assault_Heavy_Athena_UC_Ore_T04 -> OK
+[535] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.15.ItemDefinition=/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_UC_Ore_T04.WID_Figment_Assault_Heavy_Athena_UC_Ore_T04 -> OK
+[536] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.27.Weight=0.000000 -> OK
+[537] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.28.Weight=0.000000 -> OK
+[538] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.24.Weight=0.000000 -> OK
+[539] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.25.Weight=0.000000 -> OK
+[540] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.11.Weight=0.000000 -> OK
+[541] RowUpdate WorldList.AthenaHighConsumables.35.Weight=0.000000 -> OK
+[542] RowUpdate WorldList.AthenaSupplyDropConsumables.34.Weight=0.000000 -> OK
+[543] RowUpdate WorldList.AthenaConsumables.30.Weight=0.000000 -> OK
+[544] RowUpdate WorldList.AthenaLoot.VendingMachine.Consumables.Uncommon.03.Weight=0.000000 -> OK
+[545] RowUpdate WorldList.AthenaTraps.14.Weight=0.000000 -> OK
+[546] RowUpdate WorldList.ForagedItem.Banana.01.Weight=0.000000 -> OK
+[547] RowUpdate WorldList.ForagedItem.Pepper.01.Weight=0.000000 -> OK
+[548] RowUpdate WorldList.ForagedItem.Coconut.01.Weight=0.000000 -> OK
+[629] RowUpdate WorldList.AthenaLoot.VendingMachine.Weapons.Rare.Rocket.01.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_R_Ore_T03.WID_Figment_Launcher_Egg_Athena_R_Ore_T03 -> OK
+[630] RowUpdate WorldList.AthenaLoot.VendingMachine.Weapons.Epic.Rocket.03.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_VR_Ore_T03.WID_Figment_Launcher_Egg_Athena_VR_Ore_T03 -> OK
+[631] RowUpdate WorldList.AthenaLoot.Weapon.Rocket.08.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_R_Ore_T03.WID_Figment_Launcher_Egg_Athena_R_Ore_T03 -> OK
+[632] RowUpdate WorldList.AthenaLoot.Weapon.Rocket.09.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_VR_Ore_T03.WID_Figment_Launcher_Egg_Athena_VR_Ore_T03 -> OK
+[633] RowUpdate WorldList.AthenaLoot.Weapon.Rocket.10.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_SR_Ore_T03.WID_Figment_Launcher_Egg_Athena_SR_Ore_T03 -> OK
+[634] RowUpdate WorldList.AthenaLoot.Weapon.HighRocket.18.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_R_Ore_T03.WID_Figment_Launcher_Egg_Athena_R_Ore_T03 -> OK
+[635] RowUpdate WorldList.AthenaLoot.Weapon.HighRocket.19.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_VR_Ore_T03.WID_Figment_Launcher_Egg_Athena_VR_Ore_T03 -> OK
+[636] RowUpdate WorldList.AthenaLoot.Weapon.HighRocket.20.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_SR_Ore_T03.WID_Figment_Launcher_Egg_Athena_SR_Ore_T03 -> OK
+[637] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.08.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_VR_Ore_T03.WID_Figment_Launcher_Egg_Athena_VR_Ore_T03 -> OK
+[638] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.09.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_SR_Ore_T03.WID_Figment_Launcher_Egg_Athena_SR_Ore_T03 -> OK
+[639] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Rocket.02.Weight=1.000000 -> OK
+[640] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Rocket.02.ItemDefinition=/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Egg_Athena_SR_Ore_T03.WID_Figment_Launcher_Egg_Athena_SR_Ore_T03 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=32, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootPackages_Backup
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootPackages_Backup__final.json
+2026-04-17 19:04:01 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-17 19:04:02 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData_Backup.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/FigmentLootTierData_Backup
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\FigmentLootTierData_Backup__final.json
+2026-04-17 19:04:02 | INFO | ✓ Hotfix 適用完了 (0.74s)
+2026-04-17 19:04:02 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootTierData_Client__final.json
+2026-04-17 19:04:02 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
+2026-04-17 19:04:02 | INFO | load done (0.01s)
+2026-04-17 19:04:02 | INFO | build summary start

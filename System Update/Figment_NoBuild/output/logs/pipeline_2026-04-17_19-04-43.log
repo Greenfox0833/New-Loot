@@ -115,3 +115,33 @@
   """
 2026-04-17 19:04:43 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.18s)
 2026-04-17 19:04:43 | INFO | prewarm start
+2026-04-17 19:04:44 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.91s)
+2026-04-17 19:04:44 | INFO | 画像化タスク数: 105
+2026-04-17 19:04:44 | INFO | 画像生成 進捗: 1/105
+2026-04-17 19:04:45 | INFO | 画像生成 進捗: 50/105
+2026-04-17 19:04:45 | INFO | 画像生成 進捗: 100/105
+2026-04-17 19:04:45 | INFO | 画像生成 進捗: 105/105
+2026-04-17 19:04:45 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-17 19:04:45 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Figment_NoBuild_2026-04-17_19-04-45.json (added=5 removed=3 change=17)
+2026-04-17 19:04:45 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Figment_NoBuild\AddedItems\2026-04-17_19-04-45 (copied=5 missing=0)
+2026-04-17 19:04:45 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-17 19:04:47 | INFO | git commit stdout: [main 50fb245] Figment_NoBuild update 2026-04-17 19:04:46
+ 23 files changed, 25427 insertions(+), 303 deletions(-)
+ create mode 100644 System Update/Figment_NoBuild/output/history/BR_20260417_1904/items_unique_min_diff.json
+ create mode 100644 System Update/Figment_NoBuild/output/logs/pipeline_2026-04-17_19-04-43.log
+ create mode 100644 System Update/Figment_NoBuild/output/summary/v39.30_2026-04-17_19-04.json
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-04-17_19-04-45/\343\203\206\343\202\243\343\202\2421 - \343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-04-17_19-04-45/\343\203\206\343\202\243\343\202\2422 - \343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-04-17_19-04-45/\343\203\206\343\202\243\343\202\2423 - \343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-04-17_19-04-45/\343\203\206\343\202\243\343\202\2424 - \343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-04-17_19-04-45/\343\203\206\343\202\243\343\202\2425 - \343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\250\343\203\203\343\202\260\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment_NoBuild/Figment_NoBuild_LootData_2026-04-17_19-04.json"
+2026-04-17 19:04:51 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   9ffb4c2..50fb245  main -> main
+2026-04-17 19:04:51 | INFO | ✓ GitHub Push 完了
+2026-04-17 19:04:51 | INFO | ===== Figment_NoBuild: pipeline end =====

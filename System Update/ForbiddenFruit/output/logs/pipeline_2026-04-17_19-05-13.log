@@ -1,0 +1,68 @@
+2026-04-17 19:05:13 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\logs\pipeline_2026-04-17_19-05-13.log
+2026-04-17 19:05:13 | INFO | ===== ForbiddenFruit: pipeline start =====
+2026-04-17 19:05:13 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+2026-04-17 19:05:13 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit
+2026-04-17 19:05:13 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-04-17 19:05:13 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-17 19:05:14 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootPackages.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages
+[859] RowUpdate WorldList.BusWeap.01.Weight=0.000000 -> OK
+[860] RowUpdate WorldList.BusWeap.02.Weight=0.000000 -> OK
+[861] RowUpdate WorldList.BusWeap.02.ItemDefinition=/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_R.WID_TeaCakeShredder_R -> OK
+[862] RowUpdate WorldList.BusWeap.03.Weight=1.000000 -> OK
+[863] RowUpdate WorldList.BusWeap.03.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC -> OK
+[864] RowUpdate WorldList.BusWeap.04.Weight=1.000000 -> OK
+[865] RowUpdate WorldList.BusWeap.04.ItemDefinition=/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_UC.WID_Assault_Chrono_Pan_Rifle_Athena_UC -> OK
+[866] RowUpdate WorldList.BusWeap.05.Weight=1.000000 -> OK
+[867] RowUpdate WorldList.BusWeap.05.ItemDefinition=/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UC.WID_SMG_FirePetal_Quirky_Athena_UC -> OK
+[868] RowUpdate WorldList.BusWeap.06.Weight=1.000000 -> OK
+[869] RowUpdate WorldList.BusWeap.06.ItemDefinition=/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC -> OK
+[870] RowUpdate WorldList.BusWeap.07.Weight=0.100000 -> OK
+[871] RowUpdate WorldList.BusWeap.07.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[872] RowUpdate WorldList.BusGrant.ItemSet.1.01.Weight=1.000000 -> OK
+[873] RowUpdate WorldList.BusGrant.ItemSet.1.01.ItemDefinition=/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing -> OK
+[874] RowUpdate WorldList.GoldChest.Consumable.04.Weight=1.000000 -> OK
+[875] RowUpdate WorldList.GoldChest.Consumable.04.ItemDefinition=/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing -> OK
+[876] RowUpdate WorldList.GoldChest.Boons.01.Weight=0.000000 -> OK
+[877] RowUpdate WorldList.GoldChest.Boons.01.ItemDefinition=/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_VR.WID_TeaCakeShredder_VR -> OK
+[878] RowUpdate WorldList.AthenaSupplyDrop.Heals.01.Weight=1.000000 -> OK
+[879] RowUpdate WorldList.AthenaSupplyDrop.Heals.01.CountRange=(X=2,Y=2) -> OK
+[880] RowUpdate WorldList.AthenaSupplyDrop.Heals.01.ItemDefinition=/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing -> OK
+[881] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.Weight=1.000000 -> OK
+[882] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.01.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR -> OK
+[883] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.Weight=0.000000 -> OK
+[884] RowUpdate WorldList.AthenaSupplyDrop.Sp.Weapon.02.ItemDefinition=/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_VR.WID_TeaCakeShredder_VR -> OK
+[885] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.Weight=0.000000 -> OK
+[886] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.01.ItemDefinition=/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_Mythic.WID_TeaCakeShredder_Mythic -> OK
+[887] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.Weight=1.000000 -> OK
+[888] RowUpdate WorldList.AthenaBlitzLlama.MythicItem.02.ItemDefinition=/Area51Gun/Gameplay/WID_DragonCart_LightningGun_UR.WID_DragonCart_LightningGun_UR -> OK
+[889] RowUpdate WorldList.llama.Hero.01.ItemDefinition=/CherrySmokeDualRevolversGameplay/Gameplay/WID_CherrySmoke_DualRevolvers_Athena_Mythic.WID_CherrySmoke_DualRevolvers_Athena_Mythic -> OK
+[890] RowUpdate WorldList.llama.Hero.02.ItemDefinition=/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended -> OK
+[891] RowUpdate WorldList.llama.Hero.03.Weight=1.000000 -> OK
+[892] RowUpdate WorldList.llama.Hero.03.ItemDefinition=/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor -> OK
+[893] RowUpdate WorldList.llama.Hero.04.Weight=1.000000 -> OK
+[894] RowUpdate WorldList.llama.Hero.04.ItemDefinition=/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=36, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=20, added=9
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-17 19:05:14 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-17 19:05:14 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\ForbiddenFruitChapterLootTierData.json
+[HOTFIX:SEASON1] target=/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\ForbiddenFruitDataTables\Content\DataTables\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/ForbiddenFruitDataTables/DataTables/AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\ForbiddenFruitChapterLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client_ForbiddenFruitChapterOverride_NoBuild__final.json
+2026-04-17 19:05:14 | INFO | ✓ Hotfix 適用完了 (0.48s)
+2026-04-17 19:05:14 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootTierData_Client__final.json
+2026-04-17 19:05:14 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
+2026-04-17 19:05:14 | INFO | load done (0.01s)
+2026-04-17 19:05:14 | INFO | build summary start

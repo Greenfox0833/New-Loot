@@ -4,3 +4,143 @@
 2026-04-17 18:38:54 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
 2026-04-17 18:38:54 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-04-17 18:38:54 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-04-17 18:38:55 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=428, added=1086
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client
+[442] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.Weight=0.000010 -> OK
+[443] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.CountRange=(X=1,Y=1) -> OK
+[444] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.ItemDefinition=/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR -> OK
+[448] RowUpdate WorldList.AthenaLoot.Ammo.Medium.01.CountRange=(X=36,Y=36) -> OK
+[449] RowUpdate LIST_PaV_04_Boss_Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[450] RowUpdate LIST_PaV_04_Boss_Ammo.03.Weight=1.000000 -> OK
+[451] RowUpdate LIST_PaV_04_Boss_Ammo.03.CountRange=(X=36,Y=36) -> OK
+[452] RowUpdate LIST_PaV_04_Boss_Consume.01.Weight=0.500000 -> OK
+[453] RowUpdate LIST_PaV_04_Boss_Consume.02.Weight=0.500000 -> OK
+[454] RowUpdate LIST_PaV_04_Boss_Consume.03.Weight=0.000000 -> OK
+[455] RowUpdate LIST_PaV_04_Boss_Consume.04.Weight=0.000000 -> OK
+[496] RowUpdate PKG_DragRace_Winner.04.LootPackageCall=LIST_DragRace -> OK
+[497] RowUpdate PKG_GoldenWaterfall_Weapon.04.Weight=0.600000 -> OK
+[498] RowUpdate PKG_GoldenWaterfall_Weapon.04.LootPackageCall=WorldList.Weapons.Rarity.Rare -> OK
+[499] RowUpdate PKG_GoldenWaterfall_Weapon.05.Weight=0.400000 -> OK
+[500] RowUpdate PKG_GoldenWaterfall_Weapon.05.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[501] RowUpdate LIST_IceKingLieutenant_Weapon.01.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR -> OK
+[502] RowUpdate LIST_IceKingLieutenant_Weapon.02.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR -> OK
+[503] RowUpdate LIST_DeadliftRecord_Mythic.01.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR -> OK
+[504] AddRow -> ADD LIST_DragRace.01
+[505] RowUpdate WorldList.AthenaWadStash.Small.01.CountRange=(X=150,Y=150) -> OK
+[506] RowUpdate WorldList.AthenaWadStash.Small.02.CountRange=(X=200,Y=200) -> OK
+[507] RowUpdate WorldList.AthenaWadStash.Small.03.CountRange=(X=275,Y=275) -> OK
+[508] RowUpdate WorldList.AthenaWadStash.Small.04.CountRange=(X=400,Y=400) -> OK
+[509] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=750,Y=750) -> OK
+[510] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[511] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=80,Y=80) -> OK
+[512] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[513] RowUpdate WorldList.FlopperDefault.Light.01.CountRange=(X=150,Y=150) -> OK
+[514] RowUpdate WorldList.FlopperHigh.Light.01.CountRange=(X=150,Y=150) -> OK
+[515] RowUpdate WorldList.FlopperHigh.Consumables.03.CountRange=(X=150,Y=150) -> OK
+[516] RowUpdate WorldList.FlopperBetter.Light.01.CountRange=(X=150,Y=150) -> OK
+[517] RowUpdate WorldList.FlopperBetter.Shell.01.CountRange=(X=150,Y=150) -> OK
+[518] RowUpdate WorldList.FlopperBetter.Medium.18.CountRange=(X=150,Y=150) -> OK
+[519] RowUpdate LIST_BountyBoard_Gold.01.CountRange=(X=1000,Y=1000) -> OK
+[612] RowUpdate WorldList.AthenaHighConsumables.Healing.08.Weight=0.040000 -> OK
+[613] RowUpdate WorldList.AthenaConsumables.Healing.08.Weight=0.010000 -> OK
+[615] RowUpdate LIST_Llamanamoly.05.ItemDefinition=/RiftGauntletsGameplay/Items/WID_RiftGauntlets.WID_RiftGauntlets -> OK
+[768] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.000000 -> OK
+[769] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.000000 -> OK
+[770] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.000000 -> OK
+[771] RowUpdate WorldList.AthenaConsumables.14.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] done: applied=42, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\TeaCakeLootPackages_Client__final.json
+2026-04-17 18:38:55 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-04-17 18:38:56 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootTierData_Client.json : replaced=1, added=120
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\TeaCakeLootTierData_Client__final.json
+2026-04-17 18:38:56 | INFO | ✓ Hotfix 適用完了 (1.69s)
+2026-04-17 18:38:56 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-04-17 18:38:56 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-04-17 18:38:56 | INFO | load done (0.03s)
+2026-04-17 18:38:56 | INFO | build summary start
+2026-04-17 18:38:56 | INFO | build summary done (0.03s)
+2026-04-17 18:38:56 | INFO | enrich summary with names start
+2026-04-17 18:38:57 | INFO | enrich summary done (1.23s)
+2026-04-17 18:38:57 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-17_18-38.json
+2026-04-17 18:38:57 | INFO | build BR_LootData start
+2026-04-17 18:38:57 | INFO | build BR_LootData done (0.00s)
+2026-04-17 18:38:57 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-04-17_18-38.json
+2026-04-17 18:38:58 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-04-17 18:38:58 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-04-17 18:38:58 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-17_18-38.json
+✅ 抽出件数: 109
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-17_18-37.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-04-17_18-38.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 109
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260417_1838\items_unique_min_diff.json
+2026-04-17 18:38:58 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-17 18:38:58 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.57s)
+2026-04-17 18:38:58 | INFO | prewarm start
+2026-04-17 18:38:59 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.90s)
+2026-04-17 18:38:59 | INFO | 画像化タスク数: 109
+2026-04-17 18:38:59 | INFO | 画像生成 進捗: 1/109
+2026-04-17 18:39:00 | INFO | 画像生成 進捗: 50/109
+2026-04-17 18:39:01 | INFO | 画像生成 進捗: 100/109
+2026-04-17 18:39:01 | INFO | 画像生成 進捗: 109/109
+2026-04-17 18:39:01 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-17 18:39:01 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-04-17_18-39-01.json (added=39 removed=4 change=61)
+2026-04-17 18:39:03 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR\AddedItems\2026-04-17_18-39-01 (copied=29 missing=7)
+2026-04-17 18:39:03 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-17 18:41:28 | INFO | git commit stdout: [main bdbd453] BR update 2026-04-17 18:39:04
+ 37 files changed, 38222 insertions(+), 86358 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260417_1838/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-04-17_18-38-54.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-04-17_18-38.json
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2422 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2422 - \343\203\237\343\203\213\343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\202\253\343\202\252\343\202\271\343\203\252\343\203\255\343\203\274\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\202\265\343\203\263\343\203\200\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\204\343\202\244\343\203\263\343\203\217\343\203\263\343\203\236\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\204\343\202\244\343\203\263\343\203\236\343\202\260 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\215\343\203\241\343\202\267\343\202\271 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2423 - \343\203\231\343\202\257\343\202\277\343\203\2747 DMR.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\202\253\343\202\252\343\202\271\343\203\252\343\203\255\343\203\274\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\202\265\343\203\263\343\203\200\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\202\273\343\203\226\343\203\263\343\201\256\343\202\257\343\203\251\343\202\271\343\202\277\343\203\274\343\202\255\343\203\243\343\203\216\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\203\204\343\202\244\343\203\263\343\203\217\343\203\263\343\203\236\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\203\204\343\202\244\343\203\263\343\203\236\343\202\260 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\203\215\343\203\241\343\202\267\343\202\271 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2424 - \343\203\231\343\202\257\343\202\277\343\203\2747 DMR.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-04-17_18-39-01/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ delete mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-16_18-06.json"
+ delete mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-16_18-39.json"
+ delete mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-17_18-37.json"
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-17_18-34.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-04-17_18-38.json" (100%)
+2026-04-17 18:41:28 | WARNING | git commit stderr: Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2026-04-17 18:41:34 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   27ab96a..bdbd453  main -> main
+2026-04-17 18:41:34 | INFO | ✓ GitHub Push 完了
+2026-04-17 18:41:34 | INFO | ===== BR: pipeline end =====

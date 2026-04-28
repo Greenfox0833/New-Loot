@@ -24,7 +24,7 @@ WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/ItemCache_02_
 # Ensure child scripts use ItemCache_02 profile
 os.environ["SYSTEM_PROFILE"] = "ItemCache_02"
 
-from cache import enrich_summary_with_names
+from cache import build_item_metadata_index, enrich_summary_with_names, upsert_item_metadata_file
 from config import (
     DO_HOTFIX,
     ENABLE_ICON_CACHE_PREWARM,
@@ -148,6 +148,12 @@ def main():
         versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
         Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info("✅ まとめJSONを作成: %s", versioned_filename)
+
+        logger.info("build item metadata start")
+        t0 = time.time()
+        item_metadata_filename = COMMON_DIR / "shared" / "cache" / "item_metadata.json"
+        upsert_item_metadata_file(str(item_metadata_filename), PROFILE_NAME, build_item_metadata_index(summary))
+        logger.info("✅ アイテム名・説明・タグJSONを更新: %s (%.2fs)", item_metadata_filename, time.time() - t0)
 
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
         br_lootdata_dir = Path(PATH_LOOTDATA_DIR)

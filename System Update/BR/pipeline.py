@@ -144,7 +144,7 @@ def main():
 
         logger.info("build item metadata start")
         t0 = time.time()
-        item_metadata_filename = COMMON_DIR / "shared" / "cache" / f"{PROFILE_NAME}_item_metadata.json"
+        item_metadata_filename = COMMON_DIR / "shared" / "cache" / "item_metadata.json"
         upsert_item_metadata_file(str(item_metadata_filename), PROFILE_NAME, build_item_metadata_index(summary))
         logger.info("✅ アイテム名・説明・タグJSONを更新: %s (%.2fs)", item_metadata_filename, time.time() - t0)
 

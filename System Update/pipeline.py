@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
-from cache import enrich_summary_with_names
+from cache import build_item_metadata_index, enrich_summary_with_names, upsert_item_metadata_file
 from config import (
     DO_HOTFIX,
     ENABLE_ICON_CACHE_PREWARM,
@@ -66,6 +66,10 @@ def main():
         versioned_filename = get_versioned_filename(VERSION_PREFIX, str(version_save_dir))
         Path(versioned_filename).write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✅ まとめJSONを作成: {versioned_filename}")
+
+        item_metadata_filename = Path(__file__).resolve().parent / "shared" / "cache" / "item_metadata.json"
+        upsert_item_metadata_file(str(item_metadata_filename), PROFILE_NAME, build_item_metadata_index(summary))
+        print(f"✅ アイテム名・説明・タグJSONを更新: {item_metadata_filename}")
 
         br_now = datetime.now().strftime("%Y-%m-%d_%H-%M")
         br_lootdata_dir = Path(PATH_LOOTDATA_DIR)

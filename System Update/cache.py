@@ -431,8 +431,8 @@ def upsert_item_metadata_file(path_like: str, profile_name: str, items: list[dic
         merged[asset_path] = new_item
 
     payload = {
-        "ProfileName": profile_name,
         "UpdatedAt": datetime.now().isoformat(timespec="seconds"),
+        "UpdatedByProfile": profile_name,
         "Items": [merged[key] for key in sorted(merged.keys())],
     }
 

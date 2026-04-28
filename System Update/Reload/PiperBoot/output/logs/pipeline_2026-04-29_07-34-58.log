@@ -128,3 +128,28 @@
   """
 2026-04-29 07:35:00 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.22s)
 2026-04-29 07:35:00 | INFO | prewarm start
+2026-04-29 07:35:03 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.88s)
+2026-04-29 07:35:03 | INFO | 画像化タスク数: 176
+2026-04-29 07:35:03 | INFO | 画像生成 進捗: 1/176
+2026-04-29 07:35:04 | INFO | 画像生成 進捗: 50/176
+2026-04-29 07:35:04 | INFO | 画像生成 進捗: 100/176
+2026-04-29 07:35:05 | INFO | 画像生成 進捗: 150/176
+2026-04-29 07:35:05 | INFO | 画像生成 進捗: 176/176
+2026-04-29 07:35:05 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-29 07:35:05 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\PiperBoot_2026-04-29_07-35-05.json (added=3 removed=11 change=24)
+2026-04-29 07:35:05 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\PiperBoot\AddedItems\2026-04-29_07-35-05 (copied=3 missing=0)
+2026-04-29 07:35:05 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-29 07:35:07 | INFO | git commit stdout: [main bcf7921] PiperBoot update 2026-04-29 07:35:06
+ 16 files changed, 55741 insertions(+), 399 deletions(-)
+ create mode 100644 System Update/Reload/PiperBoot/output/history/BR_20260429_0735/items_unique_min_diff.json
+ create mode 100644 System Update/Reload/PiperBoot/output/logs/pipeline_2026-04-29_07-34-58.log
+ create mode 100644 System Update/Reload/PiperBoot/output/summary/v39.30_2026-04-29_07-35.json
+ create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-04-29_07-35-05/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-04-29_07-35-05/\343\203\206\343\202\243\343\202\2424 - \343\202\242\343\203\274\343\202\257\343\203\273\343\203\251\343\202\244\343\203\210\343\203\213\343\203\263\343\202\260\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-04-29_07-35-05/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\251\343\203\203\343\203\227\343\203\253\343\203\226\343\203\254\343\202\244\343\203\211.png"
+ create mode 100644 "System Update/shared/images/PiperBoot/\343\202\260\343\203\251\343\203\203\343\203\227\343\203\253\343\203\226\343\203\254\343\202\244\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/PiperBoot/PiperBoot_LootData_2026-04-29_07-35.json"
+2026-04-29 07:35:12 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   8025737..bcf7921  main -> main
+2026-04-29 07:35:12 | INFO | ✓ GitHub Push 完了
+2026-04-29 07:35:12 | INFO | ===== PiperBoot: pipeline end =====

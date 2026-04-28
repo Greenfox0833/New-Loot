@@ -117,3 +117,26 @@
   """
 2026-04-29 07:33:43 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.29s)
 2026-04-29 07:33:43 | INFO | prewarm start
+2026-04-29 07:34:21 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (37.53s)
+2026-04-29 07:34:21 | INFO | 画像化タスク数: 167
+2026-04-29 07:34:21 | INFO | 画像生成 進捗: 1/167
+2026-04-29 07:34:22 | INFO | 画像生成 進捗: 50/167
+2026-04-29 07:34:22 | INFO | 画像生成 進捗: 100/167
+2026-04-29 07:34:23 | INFO | 画像生成 進捗: 150/167
+2026-04-29 07:34:23 | INFO | 画像生成 進捗: 167/167
+2026-04-29 07:34:23 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-29 07:34:23 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-04-29_07-34-23.json (added=1 removed=1 change=4)
+2026-04-29 07:34:23 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Reload_Ranked\AddedItems\2026-04-29_07-34-23 (copied=1 missing=0)
+2026-04-29 07:34:23 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-29 07:34:28 | INFO | git commit stdout: [main 25aedc2] Reload_Ranked update 2026-04-29 07:34:26
+ 13 files changed, 54588 insertions(+), 415 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260429_0733/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-04-29_07-33-42.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-04-29_07-33.json
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-04-29_07-34-23/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\251\343\203\203\343\203\227\343\203\253\343\203\226\343\203\254\343\202\244\343\203\211.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\260\343\203\251\343\203\203\343\203\227\343\203\253\343\203\226\343\203\254\343\202\244\343\203\211 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-04-29_07-33.json"
+2026-04-29 07:34:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   b747ea1..25aedc2  main -> main
+2026-04-29 07:34:32 | INFO | ✓ GitHub Push 完了
+2026-04-29 07:34:32 | INFO | ===== Reload_Ranked: pipeline end =====

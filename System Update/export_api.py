@@ -198,16 +198,20 @@ def fetch_export_json(path_like: str) -> dict | None:
         return None
 
 def extract_itemname_key(export_json: dict) -> str | None:
+    return extract_text_key(export_json, "ItemName")
+
+
+def extract_text_key(export_json: dict, field_name: str) -> str | None:
     arr = (export_json or {}).get("jsonOutput") or []
     if not arr:
         return None
     root = arr[0] if isinstance(arr, list) else arr
     props = root.get("Properties", {})
     if isinstance(props, dict):
-        im = props.get("ItemName")
+        im = props.get(field_name)
         if isinstance(im, dict) and im.get("key"):
             return im["key"]
-    im2 = root.get("ItemName")
+    im2 = root.get(field_name)
     if isinstance(im2, dict) and im2.get("key"):
         return im2["key"]
     return None
@@ -215,6 +219,18 @@ def extract_itemname_key(export_json: dict) -> str | None:
 
 
 def extract_itemname_text(export_json: dict) -> str | None:
+    return extract_text_value(export_json, "ItemName")
+
+
+def extract_itemdescription_key(export_json: dict) -> str | None:
+    return extract_text_key(export_json, "ItemDescription")
+
+
+def extract_itemdescription_text(export_json: dict) -> str | None:
+    return extract_text_value(export_json, "ItemDescription")
+
+
+def extract_text_value(export_json: dict, field_name: str) -> str | None:
     arr = (export_json or {}).get("jsonOutput") or []
     if not arr:
         return None
@@ -222,11 +238,11 @@ def extract_itemname_text(export_json: dict) -> str | None:
     props = root.get("Properties", {}) if isinstance(root, dict) else {}
     cand = None
     if isinstance(props, dict):
-        im = props.get("ItemName")
+        im = props.get(field_name)
         if isinstance(im, dict):
             cand = im.get("localizedString") or im.get("sourceString")
     if not cand and isinstance(root, dict):
-        im2 = root.get("ItemName")
+        im2 = root.get(field_name)
         if isinstance(im2, dict):
             cand = im2.get("localizedString") or im2.get("sourceString")
     return cand

@@ -2,6 +2,8 @@ import atexit
 import json
 import os
 from io import BytesIO
+from datetime import datetime
+from pathlib import Path
 import shutil
 
 from PIL import Image
@@ -19,6 +21,8 @@ from config import (
     RARITY_MAP,
 )
 from export_api import (
+    extract_itemdescription_key,
+    extract_itemdescription_text,
     extract_itemname_key,
     extract_itemname_text,
     fetch_export_json,
@@ -303,6 +307,139 @@ def get_name_by_asset(asset_path: str) -> str:
         _flush_asset_loc_cache_if_needed()
         return ASSET_LOC_CACHE[norm]
     return "???"
+
+
+def _extract_tags_from_value(value) -> list[str]:
+    if isinstance(value, list):
+        return [tag for tag in value if isinstance(tag, str) and tag]
+    if isinstance(value, dict):
+        for key in ("GameplayTags", "CreativeTags"):
+            tags = value.get(key)
+            if isinstance(tags, list):
+                return [tag for tag in tags if isinstance(tag, str) and tag]
+    return []
+
+
+def _extract_tags_from_export(export_json: dict) -> list[str]:
+    arr = (export_json or {}).get("jsonOutput") or []
+    if not arr:
+        return []
+
+    root = arr[0] if isinstance(arr, list) else arr
+    props = root.get("Properties", {}) if isinstance(root, dict) else {}
+    if not isinstance(props, dict):
+        return []
+
+    tags = []
+    seen = set()
+    for field_name in ("GameplayTags", "PlayerGrantedGameplayTags", "CreativeTagsHelper"):
+        for tag in _extract_tags_from_value(props.get(field_name)):
+            if tag not in seen:
+                seen.add(tag)
+                tags.append(tag)
+    return tags
+
+
+def get_item_metadata_by_asset(asset_path: str) -> dict:
+    norm = normalize_asset_path(asset_path)
+    if not norm:
+        return {
+            "AssetPathName": "",
+            "LocalizedName": "???",
+            "LocalizedDescription": "",
+            "Tags": [],
+        }
+
+    localized_name = get_name_by_asset(norm)
+    localized_description = ""
+    tags = []
+
+    export_json = export_by_asset_path(norm)
+    if export_json:
+        desc_key = extract_itemdescription_key(export_json)
+        if desc_key:
+            localized_description = fetch_localized_name(desc_key)
+            if not localized_description or localized_description == "???":
+                localized_description = extract_itemdescription_text(export_json) or ""
+        else:
+            localized_description = extract_itemdescription_text(export_json) or ""
+        tags = _extract_tags_from_export(export_json)
+
+    if localized_description == "???":
+        localized_description = ""
+
+    return {
+        "AssetPathName": norm,
+        "LocalizedName": localized_name,
+        "LocalizedDescription": localized_description,
+        "Tags": tags,
+    }
+
+
+def build_item_metadata_index(summary: dict) -> list[dict]:
+    if not isinstance(summary, dict) or not summary:
+        return []
+
+    assets = set()
+    for tg_block in summary.values():
+        items = tg_block.get("Items", []) or []
+        for item in items:
+            for group in item.get("ValidLootPackages", []) or []:
+                for v_pkg in group.get("Packages", []) or []:
+                    for li in v_pkg.get("ListItems", []) or []:
+                        ap = li.get("AssetPathName")
+                        if ap:
+                            assets.add(normalize_asset_path(ap))
+
+    return [get_item_metadata_by_asset(ap) for ap in sorted(assets)]
+
+
+def upsert_item_metadata_file(path_like: str, profile_name: str, items: list[dict]) -> dict:
+    path = Path(path_like)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    existing_items = []
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            existing = json.load(f)
+        if isinstance(existing, dict):
+            current_items = existing.get("Items")
+            if isinstance(current_items, list):
+                existing_items = current_items
+    except FileNotFoundError:
+        pass
+    except Exception:
+        existing_items = []
+
+    merged = {}
+    for item in existing_items:
+        if not isinstance(item, dict):
+            continue
+        asset_path = normalize_asset_path(item.get("AssetPathName", ""))
+        if asset_path:
+            item["AssetPathName"] = asset_path
+            merged[asset_path] = item
+
+    for item in items or []:
+        if not isinstance(item, dict):
+            continue
+        asset_path = normalize_asset_path(item.get("AssetPathName", ""))
+        if not asset_path:
+            continue
+        new_item = dict(item)
+        new_item["AssetPathName"] = asset_path
+        merged[asset_path] = new_item
+
+    payload = {
+        "ProfileName": profile_name,
+        "UpdatedAt": datetime.now().isoformat(timespec="seconds"),
+        "Items": [merged[key] for key in sorted(merged.keys())],
+    }
+
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    return payload
 
 def enrich_summary_with_names(summary: dict):
     if not isinstance(summary, dict) or not summary:

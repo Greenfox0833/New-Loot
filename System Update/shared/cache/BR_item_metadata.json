@@ -1,0 +1,1403 @@
+{
+  "ProfileName": "BR",
+  "UpdatedAt": "2026-04-29T08:05:12",
+  "Items": [
+    {
+      "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
+      "LocalizedName": "チャグジャグ",
+      "LocalizedDescription": "みんな大好きスラープジュースが大量に入っている。移動しながら飲めるようになったぞ！",
+      "Tags": [
+        "CH6S2",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative"
+      ]
+    },
+    {
+      "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_SR",
+      "LocalizedName": "アーク・ライトニングガン",
+      "LocalizedDescription": "先端技術が組み込まれた実験兵器。放たれた破壊光線が拡散して付近の敵や乗り物、建物を攻撃する。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Ammo:Special",
+        "CH7S1",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
+      "LocalizedName": "ツインハンマーショットガン",
+      "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Dual.DragonCart",
+        "Ammo:Shells",
+        "CH7S1",
+        "Common",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
+      "LocalizedName": "ツインハンマーショットガン",
+      "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Dual.DragonCart",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+      "LocalizedName": "ツインハンマーショットガン",
+      "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Dual.DragonCart",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
+      "LocalizedName": "ツインハンマーショットガン",
+      "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Dual.DragonCart",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR",
+      "LocalizedName": "ツインハンマーショットガン",
+      "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Dual.DragonCart",
+        "Ammo:Shells",
+        "CH7S1",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_C",
+      "LocalizedName": "アイアンポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。連射速度は中程度でダメージが大きく、レティクルはやや大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Common",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_R",
+      "LocalizedName": "アイアンポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。連射速度は中程度でダメージが大きく、レティクルはやや大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_SR",
+      "LocalizedName": "アイアンポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。連射速度は中程度でダメージが大きく、レティクルはやや大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UC",
+      "LocalizedName": "アイアンポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。連射速度は中程度でダメージが大きく、レティクルはやや大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR",
+      "LocalizedName": "ピンポイント アイアンポンプショットガン",
+      "LocalizedDescription": "ミシックのアイアンポンプショットガン。照準器を覗いた際の射撃精度が向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_VR",
+      "LocalizedName": "アイアンポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。連射速度は中程度でダメージが大きく、レティクルはやや大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.DragonCart",
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "CH7S1",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud",
+      "LocalizedName": "フローベリーミストグレネード",
+      "LocalizedDescription": "シールド回復中に自分の居場所を隠せる。範囲内にいる全員に低重力効果を一時的に付与する。 ",
+      "Tags": [
+        "CH7S1",
+        "Concealment",
+        "ConsumableItem",
+        "EpicItem",
+        "Item"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets",
+      "LocalizedName": "弾薬: ロケット弾",
+      "LocalizedDescription": "爆破武器の弾薬。一般的にロケットランチャーで使用される。",
+      "Tags": [
+        "Ammo",
+        "CommonItem",
+        "Item",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy",
+      "LocalizedName": "弾薬: 大口径弾",
+      "LocalizedDescription": "大口径の弾薬。一般的にスナイパーライフルで使用される。",
+      "Tags": [
+        "Ammo",
+        "CommonItem",
+        "Item",
+        "OverrideCount_100",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight",
+      "LocalizedName": "弾薬: 小口径弾",
+      "LocalizedDescription": "小口径の弾薬。一般的にハンドガンやサブマシンガンで使用される。",
+      "Tags": [
+        "Ammo",
+        "CommonItem",
+        "Item",
+        "OverrideCount_100",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium",
+      "LocalizedName": "弾薬: 中口径弾",
+      "LocalizedDescription": "中口径の弾薬。一般的にアサルトライフルで使用される。",
+      "Tags": [
+        "Ammo",
+        "CommonItem",
+        "Item",
+        "OverrideCount_100",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells",
+      "LocalizedName": "弾薬: 散弾",
+      "LocalizedDescription": "散弾を使う武器の弾薬。一般的にショットガンで使用される。",
+      "Tags": [
+        "Ammo",
+        "CommonItem",
+        "Item",
+        "OverrideCount_10",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Bucket/Nice/WID_Athena_Bucket_Nice",
+      "LocalizedName": "ミシックゴールドフィッシュ",
+      "LocalizedDescription": "これを捕まえたなんて誰も信じないだろう！",
+      "Tags": [
+        "CH2S1",
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "MythicItem",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco",
+      "LocalizedName": "チャグスプラッシュ",
+      "LocalizedDescription": "投げると近くにいるプレイヤー全員にしぶきを飛ばし、範囲内にいるプレイヤーの体力とシールドに対して瞬時に効果を発揮する。",
+      "Tags": [
+        "CH1S9",
+        "ConsumableItem",
+        "Item",
+        "OverrideCount_5",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/BattleFlopper/WID_Athena_BattleFlopper",
+      "LocalizedName": "ヴェンデッタフロッパー",
+      "LocalizedDescription": "俺を食べて！ 近くの敵をマーキングするよ。 ",
+      "Tags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Effective/WID_Athena_Flopper_Effective",
+      "LocalizedName": "スラープフィッシュ",
+      "LocalizedDescription": "食べると体力またはシールド回復するジューシーな魚。",
+      "Tags": [
+        "CH2S1",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/WID_Athena_Flopper_FireFlopper",
+      "LocalizedName": "スパイシーフィッシュ",
+      "LocalizedDescription": "とってもスパイシー！ 食べるとスピードブーストを得る。",
+      "Tags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/JellyFish/WID_Athena_Flopper_JellyFish",
+      "LocalizedName": "ジェリーフィッシュ",
+      "LocalizedDescription": "近くにいるプレイヤーにしぶきを飛ばし、即座に体力を回復し、シールドを付与する。",
+      "Tags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/MechanicFlopper/WID_Athena_MechanicFlopper",
+      "LocalizedName": "マイダスフロッパー",
+      "LocalizedDescription": "僕を食べて！ 武器をアップグレードしてあげるよ。",
+      "Tags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/WID_Athena_Flopper_Shield",
+      "LocalizedName": "シールドフィッシュ",
+      "LocalizedDescription": "ジューシーでシールドを回復",
+      "Tags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall",
+      "LocalizedName": "スモールフィッシュ",
+      "LocalizedDescription": "食べると少し体力が回復する。",
+      "Tags": [
+        "CH2S1",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/WID_Athena_Flopper",
+      "LocalizedName": "フロッパー",
+      "LocalizedDescription": "俺を食べて！ 体力を回復してあげるよ！",
+      "Tags": [
+        "CH2S1",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit",
+      "LocalizedName": "フィッシングフック",
+      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit_HighTier",
+      "LocalizedName": "プロ用フィッシングフック",
+      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple",
+      "LocalizedName": "リンゴ",
+      "LocalizedDescription": "食べると体力が少量回復する。",
+      "Tags": [
+        "CH1S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Banana/WID_Athena_Banana",
+      "LocalizedName": "バナナ",
+      "LocalizedDescription": "食べると体力が少量回復する。",
+      "Tags": [
+        "CH1S8",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage",
+      "LocalizedName": "キャベツ",
+      "LocalizedDescription": "食べると時間経過とともに体力が少し回復する。",
+      "Tags": [
+        "CH2S3",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/WID_Athena_Coconut",
+      "LocalizedName": "ココナッツ",
+      "LocalizedDescription": "食べると少量の体力とシールドを時間経過で回復する。",
+      "Tags": [
+        "CH1S8",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn",
+      "LocalizedName": "コーン",
+      "LocalizedDescription": "食べると少量の体力を時間経過で回復する。",
+      "Tags": [
+        "CH2S3",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/ShieldMushroom/WID_Athena_ShieldMushroom",
+      "LocalizedName": "シールドキノコ",
+      "LocalizedDescription": "食べると少量のシールドが即時付与される。",
+      "Tags": [
+        "CH1S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/WID_Athena_SlurpMushroom",
+      "LocalizedName": "スラープキノコ",
+      "LocalizedDescription": "食べると少量の体力とシールドを時間経過で回復する。",
+      "Tags": [
+        "CH2S1",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/HappyGhost/WID_Athena_HappyGhost",
+      "LocalizedName": "ハープーンガン",
+      "LocalizedDescription": "敵を自分の元へ引き寄せて、ダメージを与える。",
+      "Tags": [
+        "CH2S1",
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "MobilityItem",
+        "RareItem",
+        "ToolItem"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/HappyGhost/WID_Athena_HappyGhost_UR",
+      "LocalizedName": "強化型ハープーンガン",
+      "LocalizedDescription": "敵を自分の元へひきつけて、ダメージを与える。",
+      "Tags": [
+        "CH7S2",
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "MobilityItem",
+        "MythicItem",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "ToolItem"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData",
+      "LocalizedName": "ゴールド",
+      "LocalizedDescription": "自販機やサービスでの購入に使用されるお金。 ジョブボードや戦利品の回収で獲得できる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData",
+      "LocalizedName": "金属",
+      "LocalizedDescription": "どこにでもある普通の素材。",
+      "Tags": [
+        "Building",
+        "CommonItem",
+        "Item",
+        "OverrideCount_500",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData",
+      "LocalizedName": "石材",
+      "LocalizedDescription": "どこにでもある普通の素材。",
+      "Tags": [
+        "Building",
+        "CommonItem",
+        "Item",
+        "OverrideCount_500",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData",
+      "LocalizedName": "木材",
+      "LocalizedDescription": "どこにでもある普通の素材。",
+      "Tags": [
+        "Building",
+        "CommonItem",
+        "Item",
+        "OverrideCount_500",
+        "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse",
+      "LocalizedName": "オーバードライブ グレネード",
+      "LocalizedDescription": "グレネードを投げると、周囲にいるプレイヤーのエネルギーと素早さが急増する。",
+      "Tags": [
+        "CH7S2",
+        "ConsumableItem",
+        "Item",
+        "NewThisSeason",
+        "OverrideCount_5",
+        "RareItem",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion",
+      "LocalizedName": "自己蘇生デバイス",
+      "LocalizedDescription": "ダウン中に自己蘇生できる能力を付与！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/MotherGameplay/Items/Scooter/WID_Athena_Mother_Scooter",
+      "LocalizedName": "リーコンスキャナー",
+      "LocalizedDescription": "付近の敵と宝箱をマークする偵察ボルトを発射する。",
+      "Tags": [
+        "Ammo:Special",
+        "Invasion",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_C",
+      "LocalizedName": "ツインマグ サブマシンガン",
+      "LocalizedDescription": "サブマシンガン: オートマチック。発射速度が速いこのサブマシンガンは、マガジンを2つ連結させることで素早いリロードを実現している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.MusterQuickMag",
+        "Ammo:Light",
+        "Common",
+        "S23",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_R",
+      "LocalizedName": "ツインマグ サブマシンガン",
+      "LocalizedDescription": "サブマシンガン: オートマチック。発射速度が速いこのサブマシンガンは、マガジンを2つ連結させることで素早いリロードを実現している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.MusterQuickMag",
+        "Ammo:Light",
+        "Rare",
+        "S23",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_SR",
+      "LocalizedName": "ツインマグ サブマシンガン",
+      "LocalizedDescription": "サブマシンガン: オートマチック。発射速度が速いこのサブマシンガンは、マガジンを2つ連結させることで素早いリロードを実現している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.MusterQuickMag",
+        "Ammo:Light",
+        "Legendary",
+        "S23",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UC",
+      "LocalizedName": "ツインマグ サブマシンガン",
+      "LocalizedDescription": "サブマシンガン: オートマチック。発射速度が速いこのサブマシンガンは、マガジンを2つ連結させることで素早いリロードを実現している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.MusterQuickMag",
+        "Ammo:Light",
+        "S23",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_VR",
+      "LocalizedName": "ツインマグ サブマシンガン",
+      "LocalizedDescription": "サブマシンガン: オートマチック。発射速度が速いこのサブマシンガンは、マガジンを2つ連結させることで素早いリロードを実現している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.MusterQuickMag",
+        "Ammo:Light",
+        "Epic",
+        "S23",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage",
+      "LocalizedName": "包帯",
+      "LocalizedDescription": "回復アイテム。一定の体力を取り戻す。",
+      "Tags": [
+        "CH5S1",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox",
+      "LocalizedName": "医療キット",
+      "LocalizedDescription": "魔法のような効果。徐々に体力を全回復する。",
+      "Tags": [
+        "Granted.ItemEquipped.Consumable.Paprika.MedKit",
+        "CH5S1",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot",
+      "LocalizedName": "シールドポーション",
+      "LocalizedDescription": "防護の効果があるポーション。徐々に一定のシールドを適用する。",
+      "Tags": [
+        "CH5S1",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall",
+      "LocalizedName": "ミニシールドポーション",
+      "LocalizedDescription": "飲むゼリータイプのポーション。少量のシールドを与える。",
+      "Tags": [
+        "CH5S1",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_C",
+      "LocalizedName": "ネメシス アサルトライフル",
+      "LocalizedDescription": "フルオートのアサルトライフル。そこそこの連射速度。制御は容易。様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_R",
+      "LocalizedName": "ネメシス アサルトライフル",
+      "LocalizedDescription": "フルオートのアサルトライフル。そこそこの連射速度。制御は容易。様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_SR",
+      "LocalizedName": "ネメシス アサルトライフル",
+      "LocalizedDescription": "フルオートのアサルトライフル。そこそこの連射速度。制御は容易。様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_UC",
+      "LocalizedName": "ネメシス アサルトライフル",
+      "LocalizedDescription": "フルオートのアサルトライフル。そこそこの連射速度。制御は容易。様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_UR",
+      "LocalizedName": "ブルート ネメシス アサルトライフル",
+      "LocalizedDescription": "ミシックのネメシス アサルトライフル。胴体へのダメージが増加し、ヘッドショットの威力が減少している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "Mythic"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_VR",
+      "LocalizedName": "ネメシス アサルトライフル",
+      "LocalizedDescription": "フルオートのアサルトライフル。そこそこの連射速度。制御は容易。様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Heavy.Paprika",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_C",
+      "LocalizedName": "サンダーバースト サブマシンガン",
+      "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Common",
+        "Guard",
+        "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_R",
+      "LocalizedName": "サンダーバースト サブマシンガン",
+      "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Rare",
+        "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_SR",
+      "LocalizedName": "サンダーバースト サブマシンガン",
+      "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Legendary",
+        "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UC",
+      "LocalizedName": "サンダーバースト サブマシンガン",
+      "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "SMG",
+        "Uncommon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR",
+      "LocalizedName": "エイペックス サンダーバースト サブマシンガン",
+      "LocalizedDescription": "ミシックのサンダーバースト サブマシンガン。ヘッドショットダメージが強化されている。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Rare",
+        "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_VR",
+      "LocalizedName": "サンダーバースト サブマシンガン",
+      "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Burst.Paprika",
+        "Ammo:Light",
+        "Epic",
+        "Guard",
+        "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/PotatoCoaster/Gameplay/ProtoCannon_ClusterBomb/Impulse/WID_ProtoCannon_ClusterBomb_Impulse_SR",
+      "LocalizedName": "セブンのクラスターキャノン",
+      "LocalizedDescription": "セブンの武器。一定のチャージ時間を置いてから、炸裂爆発弾を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Launcher.Grenade.ProtoCannon",
+        "Item.Weapon.Ranged.Launcher.Grenade.Hopscotch.Sticky",
+        "Ammo:Special",
+        "CH7S2",
+        "Explosive",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PotatoCoaster/Gameplay/ProtoCannon_ClusterBomb/Impulse/WID_ProtoCannon_ClusterBomb_Impulse_VR",
+      "LocalizedName": "セブンのクラスターキャノン",
+      "LocalizedDescription": "セブンの武器。一定のチャージ時間を置いてから、炸裂爆発弾を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Launcher.Grenade.ProtoCannon",
+        "Item.Weapon.Ranged.Launcher.Grenade.Hopscotch.Sticky",
+        "Ammo:Special",
+        "CH7S2",
+        "Epic",
+        "Explosive",
+        "Guard",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/PrimalGameplay/Items/Consumables/CuddleFish/WID_Athena_Flopper_CuddleFish",
+      "LocalizedName": "クマちゃんフィッシュ",
+      "LocalizedDescription": "投げつけることができる。クマちゃんのように、可愛く敵に飛びついてハグ、そして喜びのあまり破裂する。",
+      "Tags": [
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "Primal",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets",
+      "LocalizedName": "セブンのパワーグローブ",
+      "LocalizedDescription": "装着すると独自のダッシュ能力を習得し、パンチにノックバック効果が発生する。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.CarryPlayer.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "RiftGauntlets.Item.Equipped",
+        "CH7S2",
+        "Epic",
+        "Mobility",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets_Mythic",
+      "LocalizedName": "ファウンデーションのパワーグローブ",
+      "LocalizedDescription": "装着すると独自のダッシュ能力を習得し、パンチにノックバック効果が発生する。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.CarryPlayer.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "RiftGauntlets.Item.Equipped",
+        "CH7S2",
+        "Mobility",
+        "Mythic",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeConsumables/Gameplay/Dynamite/WID_TeaCake_Dynamite_R",
+      "LocalizedName": "バウンド ブームスティック",
+      "LocalizedDescription": "導火線に火をつけて間てば、カオスな爆発が発生！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing",
+      "LocalizedName": "スラッペローニ・ピザ",
+      "LocalizedDescription": "フレンドと分け合える大きな箱に入ったスラッペローニ・ピザ。",
+      "Tags": [
+        "CH7S2",
+        "ConsumableItem",
+        "Deployable",
+        "Item",
+        "LegendaryItem",
+        "NewThisSeason",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb",
+      "LocalizedName": "アイスキングのガントレット",
+      "LocalizedDescription": "着用すると、氷の攻撃とフラッシュフリーズボムを放つことができる。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.RollLanding.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.WallStick.PreventHolster",
+        "Item.ExclusivePickupGroup.IceGauntlets",
+        "Ammo:Special",
+        "CH7S2",
+        "Explosive",
+        "Mythic",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_C",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_NPC",
+      "LocalizedName": "スーパーシュレッダー  ",
+      "LocalizedDescription": "ハイブリッドなスナイパーショットガンで、威力と集弾率の高い散弾を放つ。マガジンサイズが大きく、遠距離からでも高い命中率を誇る。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Sniper.Hybrid"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_R",
+      "LocalizedName": "スーパーシュレッダー  ",
+      "LocalizedDescription": "ハイブリッドなスナイパーショットガンで、威力と集弾率の高い散弾を放つ。マガジンサイズが大きく、遠距離からでも高い命中率を誇る。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Sniper.Hybrid"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_SR",
+      "LocalizedName": "スーパーシュレッダー  ",
+      "LocalizedDescription": "ハイブリッドなスナイパーショットガンで、威力と集弾率の高い散弾を放つ。マガジンサイズが大きく、遠距離からでも高い命中率を誇る。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Sniper.Hybrid"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_UC",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_VR",
+      "LocalizedName": "スーパーシュレッダー  ",
+      "LocalizedDescription": "ハイブリッドなスナイパーショットガンで、威力と集弾率の高い散弾を放つ。マガジンサイズが大きく、遠距離からでも高い命中率を誇る。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Sniper.Hybrid"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_R",
+      "LocalizedName": "カオスリローダーショットガン",
+      "LocalizedDescription": "単発式ショットガン。装弾容量を犠牲にして大きなダメージを与える。装備していなくても弾がなくなると自動でリロードされる。",
+      "Tags": [
+        "Weapon.Ranged.Shotgun",
+        "Item.Weapon.Ranged.Shotgun.TeaCake.SingleFire",
+        "Ammo:Shells",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR",
+      "LocalizedName": "カオスリローダーショットガン",
+      "LocalizedDescription": "単発式ショットガン。装弾容量を犠牲にして大きなダメージを与える。装備していなくても弾がなくなると自動でリロードされる。",
+      "Tags": [
+        "Weapon.Ranged.Shotgun",
+        "Item.Weapon.Ranged.Shotgun.TeaCake.SingleFire",
+        "Ammo:Shells",
+        "CH7S2",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UC",
+      "LocalizedName": "カオスリローダーショットガン",
+      "LocalizedDescription": "単発式ショットガン。装弾容量を犠牲にして大きなダメージを与える。装備していなくても弾がなくなると自動でリロードされる。",
+      "Tags": [
+        "Weapon.Ranged.Shotgun",
+        "Item.Weapon.Ranged.Shotgun.TeaCake.SingleFire",
+        "Ammo:Shells",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UR",
+      "LocalizedName": "ダークボイジャーのオブリタレイター",
+      "LocalizedDescription": "ダークボイジャーの個人用カオスリローダーショットガン。細部まで作り込まれ、弾薬容量が倍増している。",
+      "Tags": [
+        "Weapon.Ranged.Shotgun",
+        "Item.Weapon.Ranged.Shotgun.TeaCake.SingleFire",
+        "Ammo:Shells",
+        "CH7S2",
+        "Guard",
+        "Mythic",
+        "NewThisSeason",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR",
+      "LocalizedName": "カオスリローダーショットガン",
+      "LocalizedDescription": "単発式ショットガン。装弾容量を犠牲にして大きなダメージを与える。装備していなくても弾がなくなると自動でリロードされる。",
+      "Tags": [
+        "Weapon.Ranged.Shotgun",
+        "Item.Weapon.Ranged.Shotgun.TeaCake.SingleFire",
+        "Ammo:Shells",
+        "CH7S2",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_R",
+      "LocalizedName": "ベクター7 DMR",
+      "LocalizedDescription": "低倍率の光学機器付きマークスマンライフル。射撃速度は遅いものの、与えるダメージは大きい。",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.TeaCake",
+        "Ammo:Heavy",
+        "CH7S2",
+        "Guard",
+        "Marksman",
+        "NewThisSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_SR",
+      "LocalizedName": "ベクター7 DMR",
+      "LocalizedDescription": "低倍率の光学機器付きマークスマンライフル。射撃速度は遅いものの、与えるダメージは大きい。",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.TeaCake",
+        "Ammo:Heavy",
+        "CH7S2",
+        "Guard",
+        "Legendary",
+        "Marksman",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_VR",
+      "LocalizedName": "ベクター7 DMR",
+      "LocalizedDescription": "低倍率の光学機器付きマークスマンライフル。射撃速度は遅いものの、与えるダメージは大きい。",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.TeaCake",
+        "Ammo:Heavy",
+        "CH7S2",
+        "Epic",
+        "Guard",
+        "Marksman",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_X2",
+      "LocalizedName": "ファウンデーションのリフトライフル",
+      "LocalizedDescription": "ファウンデーションが改造したDMR。弾丸が着弾した場所に裂け目を発生させる。",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.TeaCake",
+        "Ammo:Heavy",
+        "CH7S2",
+        "Exotic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_R",
+      "LocalizedName": "ハンマーリボルバー",
+      "LocalizedDescription": "オートマチックリボルバー。連射速度は中程度で、ダメージは大きいがマガジンのサイズは小さい。ヘッドショットを狙うと、より大きいダメージを与えられる。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.TeaCake"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_SR",
+      "LocalizedName": "ハンマーリボルバー",
+      "LocalizedDescription": "オートマチックリボルバー。そこそこの連射速度。ダメージは大きいがクリップサイズが小さい。ヘッドショットを狙って、さらに大きいダメージを与えよう。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.TeaCake"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UC",
+      "LocalizedName": "ハンマーリボルバー",
+      "LocalizedDescription": "オートマチックリボルバー。そこそこの連射速度。ダメージは大きいがクリップサイズが小さい。ヘッドショットを狙って、さらに大きいダメージを与えよう。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.TeaCake"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UR",
+      "LocalizedName": "ハンマーリボルバー",
+      "LocalizedDescription": "オートマチックリボルバー。そこそこの連射速度。ダメージは大きいがクリップサイズが小さい。ヘッドショットを狙って、さらに大きいダメージを与えよう。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.TeaCake"
+      ]
+    },
+    {
+      "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_VR",
+      "LocalizedName": "ハンマーリボルバー",
+      "LocalizedDescription": "オートマチックリボルバー。そこそこの連射速度。ダメージは大きいがクリップサイズが小さい。ヘッドショットを狙って、さらに大きいダメージを与えよう。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.TeaCake"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_C",
+      "LocalizedName": "コンバットアサルトライフル",
+      "LocalizedDescription": "フルオート。使いこなすのが難しいが、とても強力。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_R",
+      "LocalizedName": "コンバットアサルトライフル",
+      "LocalizedDescription": "フルオート。使いこなすのが難しいが、とても強力。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR",
+      "LocalizedName": "コンバットアサルトライフル",
+      "LocalizedDescription": "フルオート。使いこなすのが難しいが、とても強力。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_UC",
+      "LocalizedName": "コンバットアサルトライフル",
+      "LocalizedDescription": "フルオート。使いこなすのが難しいが、とても強力。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_UR",
+      "LocalizedName": "スクイブリーのコンバットアサルトライフル",
+      "LocalizedDescription": "ドレッドパニッシャー・スクイブリーの個人用コンバットアサルトライフル。連続射撃時に連射速度が上昇するよう、邪悪な改造が施されている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_VR",
+      "LocalizedName": "コンバットアサルトライフル",
+      "LocalizedDescription": "フルオート。使いこなすのが難しいが、とても強力。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Combat.MoonFlax",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S2",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_C",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: 自動。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH7S2",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_R",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: 自動。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: 自動。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH7S2",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UC",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: 自動。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH7S2",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR",
+      "LocalizedName": "ピンポイントピストル",
+      "LocalizedDescription": "ミシックピストル。照準器を覗いた際の射撃精度が向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_VR",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: 自動。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH7S2",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR",
+      "LocalizedName": "スカイライン デプロイヤー",
+      "LocalizedDescription": "狙った場所にジップラインを配置する。",
+      "Tags": [
+        "Granted.Athena.ZiplineDeployer.Equipped",
+        "Ch7S2",
+        "Item",
+        "MobilityItem",
+        "NewThisSeason",
+        "RareItem"
+      ]
+    }
+  ]
+}

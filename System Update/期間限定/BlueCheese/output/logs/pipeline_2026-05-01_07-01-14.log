@@ -1,0 +1,32 @@
+2026-05-01 07:01:14 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\output\logs\pipeline_2026-05-01_07-01-14.log
+2026-05-01 07:01:14 | INFO | ===== BlueCheese: pipeline start =====
+2026-05-01 07:01:14 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\items_unique_min.json
+2026-05-01 07:01:14 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\BlueCheese
+2026-05-01 07:01:14 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-05-01 07:01:14 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-05-01 07:01:15 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\LTM\BlueCheese\Content\DataTables\AthenaLootPackages_BlueCheese.json
+[HOTFIX:SEASON1] target=/BlueCheese/DataTables/AthenaLootPackages_BlueCheese
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\LTM\BlueCheese\Content\DataTables\OverrideLootPackagesDataBackup_BlueCheese.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/BlueCheese/DataTables/OverrideLootPackagesDataBackup_BlueCheese
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootPackages_BlueCheese__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\OverrideLootPackagesDataBackup_BlueCheese__final.json
+2026-05-01 07:01:15 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-05-01 07:01:15 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\LTM\BlueCheese\Content\DataTables\AthenaLootTierData_BlueCheese.json
+[HOTFIX:SEASON1] target=/BlueCheese/DataTables/AthenaLootTierData_BlueCheese
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\LTM\BlueCheese\Content\DataTables\OverrideLootTierDataBackup_BlueCheese.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/BlueCheese/DataTables/OverrideLootTierDataBackup_BlueCheese
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootTierData_BlueCheese__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\OverrideLootTierDataBackup_BlueCheese__final.json
+2026-05-01 07:01:15 | INFO | ✓ Hotfix 適用完了 (0.68s)
+2026-05-01 07:01:15 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootTierData_Client__final.json
+2026-05-01 07:01:15 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BlueCheese\input\AthenaLootPackages_Client__final.json
+2026-05-01 07:01:15 | INFO | load done (0.01s)
+2026-05-01 07:01:15 | INFO | build summary start

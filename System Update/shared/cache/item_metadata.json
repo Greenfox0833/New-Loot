@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-04-30T18:07:39",
-  "UpdatedByProfile": "ForbiddenFruit",
+  "UpdatedAt": "2026-05-01T07:01:38",
+  "UpdatedByProfile": "BlueCheese",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -1670,6 +1670,19 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage",
+      "LocalizedName": "レガシー包帯",
+      "LocalizedDescription": "回復アイテム。一定の体力を回復する。使用中は移動できない。",
+      "Tags": [
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "PreSeason",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Consumables/Bucket/Nice/WID_Athena_Bucket_Nice",
       "LocalizedName": "ミシックゴールドフィッシュ",
       "LocalizedDescription": "これを捕まえたなんて誰も信じないだろう！",
@@ -1933,6 +1946,19 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Medkit/Athena_Medkit",
+      "LocalizedName": "レガシー医療キット",
+      "LocalizedDescription": "奇跡を起こす。体力全快。使用中は移動できない。",
+      "Tags": [
+        "ConsumableItem",
+        "Item",
+        "PreSeason",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff",
       "LocalizedName": "スラープジュース",
       "LocalizedDescription": "果汁1％。体力とシールドを一定時間徐々に回復させる。",
@@ -1946,6 +1972,58 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item",
+      "LocalizedName": "ポータブル裂け目",
+      "LocalizedDescription": "裂け目が入っている！ 中身は少し不安定なので、この瓶を開ける際は十分に注意しよう。",
+      "Tags": [
+        "CH1S5",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "MobilityItem",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ShieldSmall/Athena_ShieldSmall",
+      "LocalizedName": "レガシーミニシールドポーション",
+      "LocalizedDescription": "飲むゼリータイプのポーション。少量のシールドを与える。使用中は移動できない。",
+      "Tags": [
+        "CH1S2",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Shields/Athena_Shields",
+      "LocalizedName": "レガシーシールドポーション",
+      "LocalizedDescription": "防護の効果があるポーション。一定量のシールドを付与する。使用中は移動できない。",
+      "Tags": [
+        "ConsumableItem",
+        "Item",
+        "PreSeason",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/Athena_ShockGrenade",
+      "LocalizedName": "ショックウェーブグレネード",
+      "LocalizedDescription": "あばよ！",
+      "Tags": [
+        "CH1S5",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "OverrideCount_5",
+        "Throwable"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Gameplay/Sword/AGID_Sword",
       "LocalizedName": "インフィニティブレイド",
       "LocalizedDescription": "",
@@ -1954,6 +2032,36 @@
         "Melee",
         "Mythic",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Traps/TID_Context_BouncePad_Athena",
+      "LocalizedName": "バウンサー",
+      "LocalizedDescription": "向いている方向にプレイヤーを跳ね飛ばす。",
+      "Tags": [
+        "CH1S4",
+        "ConsumableItem",
+        "DeviceUEFNHidden",
+        "Item",
+        "MobilityItem",
+        "OverrideCount_5",
+        "RareItem",
+        "Trap"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Traps/TID_Floor_Player_Launch_Pad_Athena",
+      "LocalizedName": "ジャンプパッド",
+      "LocalizedDescription": "プレイヤーを空に射出し、グライダーを展開できるようにする。",
+      "Tags": [
+        "CH1S1",
+        "ConsumableItem",
+        "DeviceUEFNHidden",
+        "EpicItem",
+        "Item",
+        "MobilityItem",
+        "OverrideCount_5",
+        "Trap"
       ]
     },
     {
@@ -2050,6 +2158,32 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_SR_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "Legendary",
+        "PreSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_VR_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Epic",
+        "Guard",
+        "PreSeason",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_C_Ore_T02",
       "LocalizedName": "アサルトライフル  ",
       "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
@@ -2059,6 +2193,99 @@
         "Common",
         "Guard",
         "PreSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_UC_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "PreSeason",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_R",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Infantry",
+        "Ammo:Medium",
+        "Assault",
+        "CH1S7",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_SR",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH1S8",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Infantry_Athena_VR",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH1S8",
+        "Epic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_SemiAuto_Athena_R_Ore_T03",
+      "LocalizedName": "バーストアサルトライフル",
+      "LocalizedDescription": "アサルト武器: バースト射撃。十分に狙いを定めてショートバーストで撃てる万能なライフル。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_SemiAuto_Athena_SR_Ore_T03",
+      "LocalizedName": "バーストアサルトライフル",
+      "LocalizedDescription": "アサルト武器: バースト射撃。十分に狙いを定めてショートバーストで撃てる万能なライフル。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.BurstAR+",
+        "Ammo:Medium",
+        "Assault",
+        "CH1S4",
+        "Guard",
+        "Legendary",
         "Weapon"
       ]
     },
@@ -2076,6 +2303,34 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_SemiAuto_Athena_VR_Ore_T03",
+      "LocalizedName": "バーストアサルトライフル",
+      "LocalizedDescription": "アサルト武器: バースト射撃。十分に狙いを定めてショートバーストで撃てる万能なライフル。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.BurstAR+",
+        "Ammo:Medium",
+        "Assault",
+        "CH1S4",
+        "Epic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_VR_Ore_T03",
+      "LocalizedName": "サイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。高い連射速度を誇り、狙いを定め、バーストを制御して撃てば、命中率も高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Suppressed",
+        "Ammo:Medium",
+        "Assault",
+        "CH1S5",
+        "Epic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_UR_Ore_T03",
       "LocalizedName": "キットのショックウェーブランチャー",
       "LocalizedDescription": "爆破武器: ショックウェーブグレネードを投げる。",
@@ -2084,6 +2339,71 @@
         "CH2S3",
         "Explosive",
         "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_SemiAuto_Athena_C_Ore_T02",
+      "LocalizedName": "セミオートピストル",
+      "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Ammo:Light",
+        "Common",
+        "Guard",
+        "Pistol",
+        "PreSeason",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Standard_Athena_SR",
+      "LocalizedName": "セミオートピストル",
+      "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Ammo:Light",
+        "CH2S1",
+        "Guard",
+        "Legendary",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Standard_Athena_VR",
+      "LocalizedName": "セミオートピストル",
+      "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Ammo:Light",
+        "CH2S1",
+        "Epic",
+        "Guard",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_R_Ore_T03",
+      "LocalizedName": "チャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_SR_Ore_T03",
+      "LocalizedName": "チャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Guard",
+        "Legendary",
+        "Shotgun",
         "Weapon"
       ]
     },
@@ -2097,6 +2417,226 @@
         "Guard",
         "Mythic",
         "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_VR_Ore_T03",
+      "LocalizedName": "チャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_R_Ore_T03",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "速射性と長射程に優れ、中距離戦闘でも活躍するショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S9",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_SR_Ore_T03",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "速射性と長射程に優れ、中距離戦闘でも活躍するショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S9",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Combat_Athena_VR_Ore_T03",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "速射性と長射程に優れ、中距離戦闘でも活躍するショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S9",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_HighSemiAuto_Athena_SR_Ore_T03",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S9",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_HighSemiAuto_Athena_VR_Ore_T03",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S9",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_SemiAuto_Athena_R_Ore_T03",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "PreSeason",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_SemiAuto_Athena_UC_Ore_T03",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "Common",
+        "Guard",
+        "PreSeason",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_SemiAuto_Athena_VR_Ore_T03",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_C_Ore_T03",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "PreSeason",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_Common",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S1",
+        "Common",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S6",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_UC_Ore_T03",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_VR_Ore_T03",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S6",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_BoltAction_Scope_Athena_R_Ore_T03",
+      "LocalizedName": "ボルトアクションスナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_BoltAction_Scope_Athena_SR_Ore_T03",
+      "LocalizedName": "ボルトアクションスナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "Guard",
+        "Legendary",
+        "PreSeason",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Sniper_BoltAction_Scope_Athena_VR_Ore_T03",
+      "LocalizedName": "ボルトアクションスナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "Epic",
+        "Guard",
+        "PreSeason",
+        "Sniper",
         "Weapon"
       ]
     },

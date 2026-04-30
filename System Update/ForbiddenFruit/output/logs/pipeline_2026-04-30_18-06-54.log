@@ -81,3 +81,74 @@
 2026-04-30 18:06:55 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\AthenaLootPackages_Client__final.json
 2026-04-30 18:06:55 | INFO | load done (0.01s)
 2026-04-30 18:06:55 | INFO | build summary start
+2026-04-30 18:06:56 | INFO | build summary done (1.49s)
+2026-04-30 18:06:56 | INFO | enrich summary with names start
+2026-04-30 18:06:57 | INFO | enrich summary done (0.56s)
+2026-04-30 18:06:57 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-30_18-06.json
+2026-04-30 18:06:57 | INFO | build item metadata start
+2026-04-30 18:07:39 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (42.64s)
+2026-04-30 18:07:39 | INFO | build BR_LootData start
+2026-04-30 18:07:39 | INFO | build BR_LootData done (0.00s)
+2026-04-30 18:07:39 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\ForbiddenFruit\ForbiddenFruit_LootData_2026-04-30_18-07.json
+2026-04-30 18:07:39 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Blitz_LootPool.json
+2026-04-30 18:07:39 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py
+2026-04-30 18:07:40 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-30_18-06.json
+✅ 抽出件数: 190
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-17_19-05.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\summary\v39.30_2026-04-30_18-06.json
+✅ 差分作成 完了
+  追加   : 13 / 削除 : 9 / 変更 : 0 / 変化なし : 177
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\output\history\BR_20260430_1807\items_unique_min_diff.json
+2026-04-30 18:07:40 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\ForbiddenFruit\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-04-30 18:07:40 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.19s)
+2026-04-30 18:07:40 | INFO | prewarm start
+2026-04-30 18:07:41 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.46s)
+2026-04-30 18:07:41 | INFO | 画像化タスク数: 190
+2026-04-30 18:07:41 | INFO | 画像生成 進捗: 1/190
+2026-04-30 18:07:42 | INFO | 画像生成 進捗: 50/190
+2026-04-30 18:07:42 | INFO | 画像生成 進捗: 100/190
+2026-04-30 18:07:43 | INFO | 画像生成 進捗: 150/190
+2026-04-30 18:07:43 | INFO | 画像生成 進捗: 190/190
+2026-04-30 18:07:43 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-04-30 18:07:43 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Blitz_2026-04-30_18-07-43.json (added=17 removed=11 change=11)
+2026-04-30 18:07:44 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\ForbiddenFruit\AddedItems\2026-04-30_18-07-43 (copied=14 missing=2)
+2026-04-30 18:07:44 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-04-30 18:07:47 | INFO | git commit stdout: [main cb6b9cf] ForbiddenFruit update 2026-04-30 18:07:45
+ 40 files changed, 32247 insertions(+), 2760 deletions(-)
+ create mode 100644 System Update/ForbiddenFruit/output/history/BR_20260430_1807/items_unique_min_diff.json
+ create mode 100644 System Update/ForbiddenFruit/output/logs/pipeline_2026-04-30_18-06-54.log
+ create mode 100644 System Update/ForbiddenFruit/output/summary/v39.30_2026-04-30_18-06.json
+ create mode 100644 System Update/shared/icon_cache/MusterCoreWeapons__Items__Weapons__SwordDMR__Icon__T-Icon-Weapons-Ex-CaliberARWeapon-L.png
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2422 - \343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2422 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2422 - \343\203\204\343\202\244\343\203\263\343\203\236\343\202\260 \343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2422 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2422 - \343\203\241\343\202\244\343\203\264\343\202\241\343\203\263 \343\202\252\343\203\274\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2423 - \343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\202\253\343\202\244\343\203\251\343\202\244\343\203\263 \343\203\207\343\203\227\343\203\255\343\202\244\343\203\244\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\203\251\343\203\203\343\203\227\343\202\270\343\203\245\343\203\274\343\202\271.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2423 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2425 - \343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2425 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2427 - \347\216\213\350\200\205\343\202\250\343\202\244\343\202\270\343\203\254\343\202\271\343\201\256\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/AddedItems/2026-04-30_18-07-43/\343\203\206\343\202\243\343\202\2427 - \347\216\213\350\200\205\343\202\250\343\202\244\343\202\270\343\203\254\343\202\271\343\201\256\343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\217\343\203\263\343\203\236\343\203\274.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\217\343\203\263\343\203\236\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\347\216\213\350\200\205\343\202\250\343\202\244\343\202\270\343\203\254\343\202\271\343\201\256\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/ForbiddenFruit/\347\216\213\350\200\205\343\202\250\343\202\244\343\202\270\343\203\254\343\202\271\343\201\256\343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\217\343\203\263\343\203\236\343\203\274 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/ForbiddenFruit/ForbiddenFruit_LootData_2026-04-30_18-07.json"
+2026-04-30 18:07:52 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   ab5fa17..cb6b9cf  main -> main
+2026-04-30 18:07:52 | INFO | ✓ GitHub Push 完了
+2026-04-30 18:07:52 | INFO | ===== ForbiddenFruit: pipeline end =====

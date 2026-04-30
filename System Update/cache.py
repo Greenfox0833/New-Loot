@@ -31,6 +31,8 @@ from export_api import (
 )
 from http_client import session
 
+WEB_ITEM_METADATA_FILE = Path(r"E:/フォートナイト/Web/assets/data/item_metadata.json")
+
 try:
     with open(ICON_CACHE_FILE, "r", encoding="utf-8") as f:
         ICON_PATH_CACHE = json.load(f)
@@ -438,6 +440,13 @@ def upsert_item_metadata_file(path_like: str, profile_name: str, items: list[dic
 
     with path.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    try:
+        WEB_ITEM_METADATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with WEB_ITEM_METADATA_FILE.open("w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
 
     return payload
 

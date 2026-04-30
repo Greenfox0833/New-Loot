@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": "2026-04-30T17:53:55",
+  "UpdatedAt": "2026-04-30T17:55:12",
   "UpdatedByProfile": "Reload_Ranked",
   "Items": [
     {
@@ -47,6 +47,18 @@
     {
       "AssetPathName": "/BlastBerryWeapons/Gameplay/PumpShotgun/WMID/WMID_Shotgun_Pump_Athena_BB_UC",
       "LocalizedName": "モルファイト・ポンプショットガン",
+      "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/SMG/WMID/WMID_SMG_AutoHeavyPDW_Athena_BB_UC",
+      "LocalizedName": "モルファイト・サブマシンガン",
+      "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/SlowAR/WMID/WMID_Assault_Heavy_Athena_BB_UC",
+      "LocalizedName": "モルファイト・ヘビーアサルトライフル",
       "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
       "Tags": []
     },
@@ -1345,6 +1357,84 @@
       ]
     },
     {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/MmoWep/WID_Shotgun_HopScotch_Athena_UR_MMO",
+      "LocalizedName": "エンハンスド インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/WID_Shotgun_HopScotch_Athena_C",
+      "LocalizedName": "インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度、常に全力。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Common",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/WID_Shotgun_HopScotch_Athena_R",
+      "LocalizedName": "インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度、常に全力。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/WID_Shotgun_HopScotch_Athena_SR",
+      "LocalizedName": "インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度、常に全力。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/WID_Shotgun_HopScotch_Athena_UC",
+      "LocalizedName": "インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度、常に全力。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/WID_Shotgun_HopScotch_Athena_VR",
+      "LocalizedName": "インフィルトレーター ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度、常に全力。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S4",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/HopscotchWeaponsGameplay/Items/Proto/WID_Athena_AppleSunSmall",
       "LocalizedName": "クラッシュパッドJr.",
       "LocalizedDescription": "飛び跳ねて落下ダメージを防ぐことができる小型のクラッシュパッドを設置する。",
@@ -1717,6 +1807,66 @@
       ]
     },
     {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_C",
+      "LocalizedName": "レンジャーピストル",
+      "LocalizedDescription": "オートマチックのピストル。近距離で非常に効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+        "Ammo:Light",
+        "Common",
+        "Guard",
+        "Pistol"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_R",
+      "LocalizedName": "レンジャーピストル",
+      "LocalizedDescription": "オートマチックのピストル。近距離で非常に効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Pistol",
+        "Rare"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_SR",
+      "LocalizedName": "レンジャーピストル",
+      "LocalizedDescription": "オートマチックのピストル。近距離で非常に効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Legendary",
+        "Pistol"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_UC",
+      "LocalizedName": "レンジャーピストル",
+      "LocalizedDescription": "オートマチックのピストル。近距離で非常に効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+        "Ammo:Light",
+        "Guard",
+        "Pistol",
+        "Uncommon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_VR",
+      "LocalizedName": "レンジャーピストル",
+      "LocalizedDescription": "オートマチックのピストル。近距離で非常に効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+        "Ammo:Light",
+        "Epic",
+        "Guard",
+        "Pistol"
+      ]
+    },
+    {
       "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_C",
       "LocalizedName": "サンダーバースト サブマシンガン",
       "LocalizedDescription": "3発のバースト射撃を超高速で発射する。近距離戦に適している。",
@@ -1831,6 +1981,24 @@
       "LocalizedName": "リーパースナイパーライフル",
       "LocalizedDescription": "ボルトアクションスナイパーライフル。速射性では劣るが、強力で正確。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR",
+      "LocalizedName": "キューブライフル",
+      "LocalizedDescription": "キューブのエネルギーが注入されたエリートの武器。プライマリファイアで撃つと爆発する強力なキューブを発射することができる。",
+      "Tags": [
+        "Item.Weapon.Ranged.PepperCat",
+        "Item.Weapon.Ranged.Assault.PepperCat"
+      ]
+    },
+    {
+      "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR",
+      "LocalizedName": "キューブライフル",
+      "LocalizedDescription": "キューブのエネルギーが注入されたエリートの武器。プライマリファイアで撃つと爆発する強力なキューブを発射することができる。",
+      "Tags": [
+        "Item.Weapon.Ranged.PepperCat",
+        "Item.Weapon.Ranged.Assault.PepperCat"
+      ]
     },
     {
       "AssetPathName": "/PotatoCoaster/Gameplay/ProtoCannon_ClusterBomb/Impulse/WID_ProtoCannon_ClusterBomb_Impulse_SR",
@@ -2766,9 +2934,39 @@
       ]
     },
     {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_C",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "オートマチックのショットガン。ダメージはそこそこで、連射速度が速い。射程は長く、マガジンサイズも大きい。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_R",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "オートマチックのショットガン。ダメージはそこそこで、連射速度が速い。射程は長く、マガジンサイズも大きい。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_SR",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "オートマチックのショットガン。ダメージはそこそこで、連射速度が速い。射程は長く、マガジンサイズも大きい。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_UC",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "オートマチックのショットガン。ダメージはそこそこで、連射速度が速い。射程は長く、マガジンサイズも大きい。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_UR",
       "LocalizedName": "メガロ・ドンのコンバットショットガン",
       "LocalizedDescription": "メガロ・ドンの個人用ショットガン。苛烈な長距離戦と持久戦に耐えられるように作られている。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_VR",
+      "LocalizedName": "コンバットショットガン",
+      "LocalizedDescription": "オートマチックのショットガン。ダメージはそこそこで、連射速度が速い。射程は長く、マガジンサイズも大きい。",
       "Tags": []
     },
     {

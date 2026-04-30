@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-04-30T18:03:33",
-  "UpdatedByProfile": "BR",
+  "UpdatedAt": "2026-04-30T18:07:39",
+  "UpdatedByProfile": "ForbiddenFruit",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -24,6 +24,21 @@
         "CH7S1",
         "Legendary",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/BigBushGrenade/Items/Athena_BushGrenade",
+      "LocalizedName": "ビッグブッシュボム",
+      "LocalizedDescription": "中に隠れられる大きな茂みを設置する。",
+      "Tags": [
+        "Granted.ItemEquipped.Consumable.BigLeafGrenade.VR",
+        "Concealment",
+        "ConsumableItem",
+        "Deployable",
+        "Item",
+        "RareItem",
+        "S23",
+        "Throwable"
       ]
     },
     {
@@ -60,6 +75,12 @@
       "AssetPathName": "/BlastBerryWeapons/Gameplay/SlowAR/WMID/WMID_Assault_Heavy_Athena_BB_UC",
       "LocalizedName": "モルファイト・ヘビーアサルトライフル",
       "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/LeapMedallion/PAID_CherrySmoke_Medallion_OverShield_FF",
+      "LocalizedName": "仮面職人のメダリオン",
+      "LocalizedDescription": "リロード速度が上昇する。何もしなくてもシールドが回復するようになる。",
       "Tags": []
     },
     {
@@ -191,6 +212,48 @@
       ]
     },
     {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_R",
+      "LocalizedName": "スパイア・ライフル",
+      "LocalizedDescription": "マガジンのサイズが大きく、建築物に対するダメージも大きいため、敵にかなりのプレッシャーをかけられる。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S3",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_SR",
+      "LocalizedName": "スパイア・ライフル",
+      "LocalizedDescription": "マガジンのサイズが大きく、建築物に対するダメージも大きいため、敵にかなりのプレッシャーをかけられる。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S3",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UC",
+      "LocalizedName": "スパイア・ライフル",
+      "LocalizedDescription": "マガジンのサイズが大きく、建築物に対するダメージも大きいため、敵にかなりのプレッシャーをかけられる。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S3",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_UR",
       "LocalizedName": "強化型スパイア・ライフル",
       "LocalizedDescription": "この強化されたスパイア・ライフルは、通常版よりマガジンが大きく、連射速度が向上している。",
@@ -201,6 +264,20 @@
         "CH6S3",
         "Guard",
         "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/SpireGun/WID_Assault_CherrySmoke_SpireGun_Athena_VR",
+      "LocalizedName": "スパイア・ライフル",
+      "LocalizedDescription": "マガジンのサイズが大きく、建築物に対するダメージも大きいため、敵にかなりのプレッシャーをかけられる。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S3",
+        "Epic",
+        "Guard",
         "Weapon"
       ]
     },
@@ -243,6 +320,58 @@
         "Explosive",
         "Guard",
         "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_R",
+      "LocalizedName": "フラップジャックライフル",
+      "LocalizedDescription": "大容量のマガジンを備える高威力のアサルトライフル。建築物に与えるダメージが高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S3",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_SR",
+      "LocalizedName": "フラップジャックライフル",
+      "LocalizedDescription": "大容量のマガジンを備える高威力のアサルトライフル。建築物に与えるダメージが高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S3",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_UR",
+      "LocalizedName": "エンハンスドフラップジャックライフル",
+      "LocalizedDescription": "大容量のマガジンを備える高威力のアサルトライフル。建築物に与えるダメージが高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S3",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_VR",
+      "LocalizedName": "フラップジャックライフル",
+      "LocalizedDescription": "大容量のマガジンを備える高威力のアサルトライフル。建築物に与えるダメージが高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S3",
+        "Epic",
+        "Guard",
         "Weapon"
       ]
     },
@@ -312,6 +441,60 @@
       ]
     },
     {
+      "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_UR",
+      "LocalizedName": "レッドスピッター3000",
+      "LocalizedDescription": "巨大なミニガン。12個の回転する銃身を備えていて、絶え間なく銃弾を放つことができる。照準器を覗く操作をして、銃身を前もって回転させておくと、すぐに弾を発射できるぞ。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Ammo:Light",
+        "Assault",
+        "CH6S4",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R",
+      "LocalizedName": "スイーパーショットガン",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S4",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR",
+      "LocalizedName": "スイーパーショットガン",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S4",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC",
+      "LocalizedName": "スイーパーショットガン",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S4",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UR",
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
@@ -320,6 +503,19 @@
         "CH6S4",
         "Guard",
         "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR",
+      "LocalizedName": "スイーパーショットガン",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S4",
+        "Epic",
+        "Guard",
         "Shotgun",
         "Weapon"
       ]
@@ -390,6 +586,193 @@
         "Assault",
         "Epic",
         "Guard",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/ChargeSMG/WID_ChargeSMG_Athena_R",
+      "LocalizedName": "チャージサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: チャージすることで発射する弾の数を変えることができる",
+      "Tags": [
+        "Ammo:Light",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/ChargeSMG/WID_ChargeSMG_Athena_SR",
+      "LocalizedName": "チャージサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: チャージすることで発射する弾の数を変えることができる",
+      "Tags": [
+        "Ammo:Light",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/ChargeSMG/WID_ChargeSMG_Athena_UC",
+      "LocalizedName": "チャージサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: チャージすることで発射する弾の数を変えることができる",
+      "Tags": [
+        "Ammo:Light",
+        "Guard",
+        "SMG",
+        "Uncommon",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/ChargeSMG/WID_ChargeSMG_Athena_VR",
+      "LocalizedName": "チャージサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: チャージすることで発射する弾の数を変えることができる",
+      "Tags": [
+        "Ammo:Light",
+        "Epic",
+        "Guard",
+        "SMG",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/OverLoadShotgun/WID_Shotgun_OverLoad_Athena_R",
+      "LocalizedName": "プライムショットガン",
+      "LocalizedDescription": "ショットガン: 満タンにロードされているとダメージが増加するセミオートのショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/OverLoadShotgun/WID_Shotgun_OverLoad_Athena_SR",
+      "LocalizedName": "プライムショットガン",
+      "LocalizedDescription": "ショットガン: 満タンにロードされているとダメージが増加するセミオートのショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/OverLoadShotgun/WID_Shotgun_OverLoad_Athena_UC",
+      "LocalizedName": "プライムショットガン",
+      "LocalizedDescription": "ショットガン: 満タンにロードされているとダメージが増加するセミオートのショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/OverLoadShotgun/WID_Shotgun_OverLoad_Athena_UR",
+      "LocalizedName": "プライムショットガン",
+      "LocalizedDescription": "ショットガン: 満タンにロードされているとダメージが増加するセミオートのショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/OverLoadShotgun/WID_Shotgun_OverLoad_Athena_VR",
+      "LocalizedName": "プライムショットガン",
+      "LocalizedDescription": "ショットガン: 満タンにロードされているとダメージが増加するセミオートのショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/TwoShotShotgun/WID_Shotgun_TwoShot_Pump_Athena_R",
+      "LocalizedName": "ツー・ショットショットガン",
+      "LocalizedDescription": "ショットガン: 2連続のバースト射撃を行うポンプアクションショットガン。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/TwoShotShotgun/WID_Shotgun_TwoShot_Pump_Athena_SR",
+      "LocalizedName": "ツー・ショットショットガン",
+      "LocalizedDescription": "ショットガン: 2連続のバースト射撃を行うポンプアクションショットガン。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/TwoShotShotgun/WID_Shotgun_TwoShot_Pump_Athena_UC",
+      "LocalizedName": "ツー・ショットショットガン",
+      "LocalizedDescription": "ショットガン: 2連続のバースト射撃を行うポンプアクションショットガン。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/TwoShotShotgun/WID_Shotgun_TwoShot_Pump_Athena_UR",
+      "LocalizedName": "ツー・ショットショットガン",
+      "LocalizedDescription": "ショットガン: 2連続のバースト射撃を行うポンプアクションショットガン。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Vibin",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/DaisyWeaponGameplay/Items/Weapons/Shotguns/TwoShotShotgun/WID_Shotgun_TwoShot_Pump_Athena_VR",
+      "LocalizedName": "ツー・ショットショットガン",
+      "LocalizedDescription": "ショットガン: 2連続のバースト射撃を行うポンプアクションショットガン。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Shells",
+        "Epic",
+        "Guard",
+        "Shotgun",
         "Vibin",
         "Weapon"
       ]
@@ -653,6 +1036,12 @@
       ]
     },
     {
+      "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO",
+      "LocalizedName": "風の恵み",
+      "LocalizedDescription": "ツルハシを装備している間、移動速度が向上する。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/Exotic/WID_Assault_FirePetal_Fast_Athena_X",
       "LocalizedName": "エラディケーター ホップロック・フューリー アサルトライフル",
       "LocalizedDescription": "発射されると砕けるホップロックを備えたフューリー アサルトライフル。ホップロックの効果が付与される。また、空中でも照準器を覗くことが可能！",
@@ -662,6 +1051,76 @@
         "Assault",
         "CH6S4",
         "Exotic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_R",
+      "LocalizedName": "フューリー アサルトライフル",
+      "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_SR",
+      "LocalizedName": "フューリー アサルトライフル",
+      "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UC",
+      "LocalizedName": "フューリー アサルトライフル",
+      "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UR",
+      "LocalizedName": "強化型フューリー アサルトライフル",
+      "LocalizedDescription": "ミシック版のフューリー アサルトライフル。連射速度が向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_VR",
+      "LocalizedName": "フューリー アサルトライフル",
+      "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Epic",
         "Guard",
         "Weapon"
       ]
@@ -751,6 +1210,146 @@
       ]
     },
     {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_R",
+      "LocalizedName": "ツインファイア オートショットガン",
+      "LocalizedDescription": "連射速度が高いフルオートのショットガン。近距離でのダメージがかなり高く、2発の弾を同時に発射する。リロード時間は長い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Auto.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_SR",
+      "LocalizedName": "ツインファイア オートショットガン",
+      "LocalizedDescription": "連射速度が高いフルオートのショットガン。近距離でのダメージがかなり高く、2発の弾を同時に発射する。リロード時間は長い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Auto.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_UC",
+      "LocalizedName": "ツインファイア オートショットガン",
+      "LocalizedDescription": "連射速度が高いフルオートのショットガン。近距離でのダメージがかなり高く、2発の弾を同時に発射する。リロード時間は長い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Auto.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_UR",
+      "LocalizedName": "強化型ツインファイア オートショットガン",
+      "LocalizedDescription": "ミシック版のツインファイア オートショットガン。リロード速度が向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Auto.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_VR",
+      "LocalizedName": "ツインファイア オートショットガン",
+      "LocalizedDescription": "連射速度が高いフルオートのショットガン。近距離でのダメージがかなり高く、2発の弾を同時に発射する。リロード時間は長い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Auto.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_R",
+      "LocalizedName": "オニ ショットガン",
+      "LocalizedDescription": "2発の弾を同時に発射するブレイクアクションショットガン。ダメージが高く、通常のショットガンと比べて有効射程が長め。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_SR",
+      "LocalizedName": "オニ ショットガン",
+      "LocalizedDescription": "2発の弾を同時に発射するブレイクアクションショットガン。ダメージが高く、通常のショットガンと比べて有効射程が長め。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_UC",
+      "LocalizedName": "オニ ショットガン",
+      "LocalizedDescription": "2発の弾を同時に発射するブレイクアクションショットガン。ダメージが高く、通常のショットガンと比べて有効射程が長め。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_UR",
+      "LocalizedName": "強化型オニ ショットガン",
+      "LocalizedDescription": "ミシック版のオニ ショットガン。武器の装備時間が向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_FlavorShotgun/WID_Shotgun_FirePetal_Flavor_Athena_VR",
+      "LocalizedName": "オニ ショットガン",
+      "LocalizedDescription": "2発の弾を同時に発射するブレイクアクションショットガン。ダメージが高く、通常のショットガンと比べて有効射程が長め。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/FireIce/WID_Shotgun_Pump_Athena_Unstable_FireIce_X",
       "LocalizedName": "アンステーブル フロストファイア・ショットガン",
       "LocalizedDescription": "不安定なエキゾチック: 命中時、自分のスピードが上昇するか、敵のスピードが下がる。",
@@ -766,6 +1365,48 @@
       ]
     },
     {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_R",
+      "LocalizedName": "センチネル ポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。ダメージは大きいが連射速度は低い。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_SR",
+      "LocalizedName": "センチネル ポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。ダメージは大きいが連射速度は低い。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_UC",
+      "LocalizedName": "センチネル ポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。ダメージは大きいが連射速度は低い。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_UR",
       "LocalizedName": "強化型センチネル ポンプショットガン",
       "LocalizedDescription": "ミシック版のセンチネル ポンプショットガン。弾薬容量が向上している。",
@@ -775,6 +1416,20 @@
         "CH6S1",
         "Guard",
         "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/WID_Shotgun_Pump_FirePetal_Athena_VR",
+      "LocalizedName": "センチネル ポンプショットガン",
+      "LocalizedDescription": "ポンプアクションショットガン。ダメージは大きいが連射速度は低い。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.FirePetal",
+        "Ammo:Shells",
+        "CH6S1",
+        "Epic",
+        "Guard",
         "Shotgun",
         "Weapon"
       ]
@@ -836,6 +1491,76 @@
       ]
     },
     {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_R",
+      "LocalizedName": "サージファイアSMG",
+      "LocalizedDescription": "フルオートのサブマシンガン。引き金を引き続けると発射速度が上昇していく。ダメージはそれなりだが、弾の消費量が多い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Flavor.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_SR",
+      "LocalizedName": "サージファイアSMG",
+      "LocalizedDescription": "フルオートのサブマシンガン。引き金を引き続けると発射速度が上昇していく。ダメージはそれなりだが、弾の消費量が多い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Flavor.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UC",
+      "LocalizedName": "サージファイアSMG",
+      "LocalizedDescription": "フルオートのサブマシンガン。引き金を引き続けると発射速度が上昇していく。ダメージはそれなりだが、弾の消費量が多い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Flavor.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Guard",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UR",
+      "LocalizedName": "強化型サージファイアSMG",
+      "LocalizedDescription": "ミシック版のサージファイアSMG。精度が向上しており、ジャンプ時と移動時の拡散率ペナルティがなくなっている。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Flavor.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Guard",
+        "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_VR",
+      "LocalizedName": "サージファイアSMG",
+      "LocalizedDescription": "フルオートのサブマシンガン。引き金を引き続けると発射速度が上昇していく。ダメージはそれなりだが、弾の消費量が多い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Flavor.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Epic",
+        "Guard",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FizzyCloudGameplay/Gameplay/WID_FizzyCloud",
       "LocalizedName": "フローベリーミストグレネード",
       "LocalizedDescription": "シールド回復中に自分の居場所を隠せる。範囲内にいる全員に低重力効果を一時的に付与する。 ",
@@ -846,6 +1571,44 @@
         "EpicItem",
         "Item"
       ]
+    },
+    {
+      "AssetPathName": "/FlexLegendMedallionGameplay/Items/Medallions/RadiusMarking/PAID_TDM_RadiusMarking_FF",
+      "LocalizedName": "Blitzの探知のメダリオン",
+      "LocalizedDescription": "時々、近くの敵を短時間マークする。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion",
+      "LocalizedName": "ガズルジュース",
+      "LocalizedDescription": "完全に回復するまで、ゆっくりと体力を回復する。回復中にダメージを受けると効果は消えてしまう (落下ダメージは除く)。",
+      "Tags": [
+        "ConsumableItem",
+        "Flipped",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_UR_IOBrute",
+      "LocalizedName": "グンナーのスティンガーサブマシンガン",
+      "LocalizedDescription": "反動が強い代わりにダメージが強化された、高連射速度のSMG。",
+      "Tags": [
+        "Ammo:Light",
+        "Flipped",
+        "Guard",
+        "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ForbiddenFruitWeaponsGameplay/Gameplay/Weapons/PumpShotgun/WID_Shotgun_Standard_Athena_UR_BB",
+      "LocalizedName": "Blitz ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": []
     },
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets",
@@ -1183,6 +1946,82 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/Sword/AGID_Sword",
+      "LocalizedName": "インフィニティブレイド",
+      "LocalizedDescription": "",
+      "Tags": [
+        "CH1S7",
+        "Melee",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_Adventure_AR",
+      "LocalizedName": "スカイのアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。高い連射速度を誇り、狙いを定め、バーストを制御して撃てば、命中率も高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_GhostMidas",
+      "LocalizedName": "シャドーマイダスのドラムガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S4",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_Meow_HA",
+      "LocalizedName": "ニャッスルのニャンニャンライフル",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_Midas",
+      "LocalizedName": "ジュールズのドラムガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_MidasDrumGun",
+      "LocalizedName": "マイダスのドラムガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Athena_SR_Ore_T03",
       "LocalizedName": "ハンティングライフル",
       "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
@@ -1224,6 +2063,19 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_SemiAuto_Athena_UR_Ore_T03",
+      "LocalizedName": "オーシャンのバーストアサルトライフル",
+      "LocalizedDescription": "アサルト武器: バースト射撃。十分に狙いを定めてショートバーストで撃てる万能なライフル。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_UR_Ore_T03",
       "LocalizedName": "キットのショックウェーブランチャー",
       "LocalizedDescription": "爆破武器: ショックウェーブグレネードを投げる。",
@@ -1232,6 +2084,19 @@
         "CH2S3",
         "Explosive",
         "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_UR_Ore_T03",
+      "LocalizedName": "キットのチャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Shotgun",
         "Weapon"
       ]
     },
@@ -1270,6 +2135,18 @@
         "CH2S5",
         "Exotic",
         "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WaffleTruck/WID_WaffleTruck_Dub",
+      "LocalizedName": "ダブ",
+      "LocalizedDescription": "ショットガン: ブレイクアクション。発射時にプレイヤーをノックバックする二連式ショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S5",
+        "Exotic",
+        "Shotgun",
         "Weapon"
       ]
     },
@@ -1503,6 +2380,12 @@
       ]
     },
     {
+      "AssetPathName": "/MoonflaxMedallions/Items/Augments/TheOverseer/PAID_Moonflax_NitroQueen_FF",
+      "LocalizedName": "リングマスター・スカーのメダリオン",
+      "LocalizedDescription": "武器の弾薬が無限になり、武器のダメージが増加する。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/MotherGameplay/Items/Scooter/WID_Athena_Mother_Scooter",
       "LocalizedName": "リーコンスキャナー",
       "LocalizedDescription": "付近の敵と宝箱をマークする偵察ボルトを発射する。",
@@ -1510,6 +2393,31 @@
         "Ammo:Special",
         "Invasion",
         "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink",
+      "LocalizedName": "スラップジュース",
+      "LocalizedDescription": "体力とシールドを回復し、急速エネルギー回復効果を付与する。",
+      "Tags": [
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "S23",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/Exotics/WID_Athena_SMG_Slap_X",
+      "LocalizedName": "ハイステッド・ラン・アンド・ガン・サブマシンガン",
+      "LocalizedDescription": "スラップの力が込められたエキゾチックのサブマシンガン。ダッシュ時にマガジンがリロードされる。",
+      "Tags": [
+        "Ammo:Light",
+        "Exotic",
+        "S23",
+        "SMG",
         "Weapon"
       ]
     },
@@ -1526,6 +2434,70 @@
       ]
     },
     {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/Exotics/WID_Shotgun_Stack_Athena_X",
+      "LocalizedName": "ハイステッド・アクセララント・ショットガン",
+      "LocalizedDescription": "エキゾチックのメイヴァン オートショットガン。敵にダメージを与えると移動速度と発射速度が上昇していく。",
+      "Tags": [
+        "Ammo:Shells",
+        "Exotic",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_R",
+      "LocalizedName": "メイヴァン オートショットガン",
+      "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Rare",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_SR",
+      "LocalizedName": "メイヴァン オートショットガン",
+      "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Legendary",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC",
+      "LocalizedName": "メイヴァン オートショットガン",
+      "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "S23",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_VR",
+      "LocalizedName": "メイヴァン オートショットガン",
+      "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "Epic",
+        "Guard",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UR",
       "LocalizedName": "オーバードライブ タクティカルピストル",
       "LocalizedDescription": "ミシックのタクティカルピストル。 照準器を覗いた際の連射速度が向上している。",
@@ -1535,6 +2507,75 @@
         "Guard",
         "Mythic",
         "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
+      "Tags": [
+        "Ammo:Light",
+        "Guard",
+        "Pistol",
+        "S23",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_R",
+      "LocalizedName": "サンダーショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。ダメージが高く、一度に2発の弾を発射する。マガジンサイズは小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterPump",
+        "Ammo:Shells",
+        "Guard",
+        "Rare",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_SR",
+      "LocalizedName": "サンダーショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。ダメージが高く、一度に2発の弾を発射する。マガジンサイズは小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterPump",
+        "Ammo:Shells",
+        "Guard",
+        "Legendary",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_UC",
+      "LocalizedName": "サンダーショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。ダメージが高く、一度に2発の弾を発射する。マガジンサイズは小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterPump",
+        "Ammo:Shells",
+        "Guard",
+        "S23",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_VR",
+      "LocalizedName": "サンダーショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。ダメージが高く、一度に2発の弾を発射する。マガジンサイズは小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterPump",
+        "Ammo:Shells",
+        "Epic",
+        "Guard",
+        "S23",
+        "Shotgun",
         "Weapon"
       ]
     },
@@ -1625,6 +2666,61 @@
         "Ammo:Medium",
         "Assault",
         "Exotic",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_R",
+      "LocalizedName": "エクス・キャリバーライフル",
+      "LocalizedDescription": "ライフル: セミオート。少し後に爆発する刃を敵に向かって放つ強力なライフル。",
+      "Tags": [
+        "Ammo:Shells",
+        "Explosive",
+        "Guard",
+        "Marksman",
+        "Rare",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_SR",
+      "LocalizedName": "エクス・キャリバーライフル",
+      "LocalizedDescription": "ライフル: セミオート。少し後に爆発する刃を敵に向かって放つ強力なライフル。",
+      "Tags": [
+        "Ammo:Shells",
+        "Explosive",
+        "Guard",
+        "Legendary",
+        "Marksman",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_UR_EmblemBoss",
+      "LocalizedName": "王者エイジレスのエクス・キャリバーライフル",
+      "LocalizedDescription": "王者エイジレス専用のエクス・キャリバー。",
+      "Tags": [
+        "Ammo:Shells",
+        "Explosive",
+        "Marksman",
+        "Mythic",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_VR",
+      "LocalizedName": "エクス・キャリバーライフル",
+      "LocalizedDescription": "ライフル: セミオート。少し後に爆発する刃を敵に向かって放つ強力なライフル。",
+      "Tags": [
+        "Ammo:Shells",
+        "Epic",
+        "Explosive",
+        "Guard",
+        "Marksman",
         "S23",
         "Weapon"
       ]
@@ -2059,6 +3155,137 @@
       ]
     },
     {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/BossWID/WID_Assault_Radical_CoreAR_Athena_UR_CloneBoss",
+      "LocalizedName": "ハイカードのハボックサイレンサー付きライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。高い連射速度を誇り、狙いを定め、バーストを制御して撃てば、命中率も高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S2",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_R",
+      "LocalizedName": "ハボックサイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、静かな射撃を可能としている。高い連射速度を誇り、命中率も高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S2",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_SR",
+      "LocalizedName": "ハボックサイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、静かな射撃を可能としている。高い連射速度を誇り、命中率も高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Radical",
+        "Ammo:Medium",
+        "Assault",
+        "CH4S2",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_UC",
+      "LocalizedName": "ハボックサイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、静かな射撃を可能としている。高い連射速度を誇り、命中率も高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S2",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_VR",
+      "LocalizedName": "ハボックサイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、静かな射撃を可能としている。高い連射速度を誇り、命中率も高い。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH4S2",
+        "Epic",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_R",
+      "LocalizedName": "ハボックポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。射程が短く大ダメージを与える、連射速度の遅いポンプアクションショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S2",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_SR",
+      "LocalizedName": "ハボックポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。射程が短く大ダメージを与える、連射速度の遅いポンプアクションショットガン。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Radical",
+        "Ammo:Shells",
+        "CH4S2",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_UC",
+      "LocalizedName": "ハボックポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。射程が短く大ダメージを与える、連射速度の遅いポンプアクションショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S2",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_UR",
+      "LocalizedName": "エンハンスドハボックショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。射程が短く大ダメージを与える、連射速度の遅いポンプアクションショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S2",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_VR",
+      "LocalizedName": "ハボックポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。射程が短く大ダメージを与える、連射速度の遅いポンプアクションショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH4S2",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_R_Ore_T03",
       "LocalizedName": "レンジャーショットガン",
       "LocalizedDescription": "ショットガン: 単発の高ダメージを与えるブレイクアクションショットガン。通常のショットガンと比べて遠距離からの使用が効果的。",
@@ -2155,6 +3382,29 @@
       ]
     },
     {
+      "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/ForbiddenFruit_Athena_SilverBlazer_Mini_UC",
+      "LocalizedName": "シールドバブルJr.",
+      "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。ただし、プレイヤーは通り抜けることができるので注意！",
+      "Tags": [
+        "Granted.ItemEquipped.Consumable.ShieldBubble.VR"
+      ]
+    },
+    {
+      "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace",
+      "LocalizedName": "ショックウェーブハンマー",
+      "LocalizedDescription": "強力なハンマーを振り回して、敵も味方も吹き飛ばそう。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Infinite",
+        "Epic",
+        "Guard",
+        "Melee",
+        "Mobility",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic",
       "LocalizedName": "王者エイジレスのショックウェーブハンマー",
       "LocalizedDescription": "王者エイジレス専用のショックウェーブハンマー。",
@@ -2168,6 +3418,25 @@
         "S23",
         "Weapon"
       ]
+    },
+    {
+      "AssetPathName": "/SunRoseConsumablesGameplay/Gameplay/GoldenFruit/WID_Athena_GoldenFruit",
+      "LocalizedName": "神々のバナナ",
+      "LocalizedDescription": "オリンポスの神々にのみ許された禁断のごちそう。時間経過とともに体力を回復し、ダッシュのスピードとジャンプの高さを向上させる。",
+      "Tags": [
+        "CH5S2",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/SunRoseMedallionsGameplay/Items/Augments/Siphon/PAID_SunRose_TDM_Siphon_FF",
+      "LocalizedName": "サイフォンの極意",
+      "LocalizedDescription": "活力を回復させる力！ 敵を撃破すると回復のサイフォンの効果が付与される。 ",
+      "Tags": []
     },
     {
       "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_R",
@@ -2558,6 +3827,12 @@
       ]
     },
     {
+      "AssetPathName": "/TidalCraneBoonGameplay/Gameplay/ExtendedMag/PAID_ExtendedMag_FF",
+      "LocalizedName": "拡張マガジンの恵み",
+      "LocalizedDescription": "マガジンサイズが拡大される。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/TidalCraneExotics/Gameplay/DoubleTrouble/WID_Shotgun_Pump_Standard_Athena_DX",
       "LocalizedName": "ダブル",
       "LocalizedDescription": "ポンプアクションショットガン。ダメージが高く、命中するたびに体力を吸収する。ディレイなしでトラブルに切り替え可能！",
@@ -2860,6 +4135,51 @@
       ]
     },
     {
+      "AssetPathName": "/VividRazorMedallionsGameplay/Gameplay/SuperShield/PAID_VividRazor_SuperShield_FF",
+      "LocalizedName": "スーパーシールド・メダリオン",
+      "LocalizedDescription": "回復アイテム(スプラッシュとグレネードを除く)を自分に使用すると、シールドバブルJr.が出現する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_R",
+      "LocalizedName": "コラテラルダメージ アサルトライフル",
+      "LocalizedDescription": "猛烈な連射速度を誇るが、精度と射程が犠牲になっている。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S2",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_SR",
+      "LocalizedName": "コラテラルダメージ アサルトライフル",
+      "LocalizedDescription": "猛烈な連射速度を誇るが、精度と射程が犠牲になっている。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S2",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UC",
+      "LocalizedName": "コラテラルダメージ アサルトライフル",
+      "LocalizedDescription": "猛烈な連射速度を誇るが、精度と射程が犠牲になっている。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S2",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UR",
       "LocalizedName": "エンハンスド・コラテラルダメージ アサルトライフル",
       "LocalizedDescription": "猛烈な連射速度を誇るが、精度と射程が犠牲になっている。",
@@ -2869,6 +4189,19 @@
         "CH6S2",
         "Guard",
         "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_VR",
+      "LocalizedName": "コラテラルダメージ アサルトライフル",
+      "LocalizedDescription": "猛烈な連射速度を誇るが、精度と射程が犠牲になっている。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S2",
+        "Epic",
+        "Guard",
         "Weapon"
       ]
     },
@@ -2900,6 +4233,45 @@
       ]
     },
     {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_R",
+      "LocalizedName": "アウトローショットガン",
+      "LocalizedDescription": "射程は非常に短いが、このショットガンの拡散範囲はとても広いので、外すことはほとんどないだろう。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S2",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_SR",
+      "LocalizedName": "アウトローショットガン",
+      "LocalizedDescription": "射程は非常に短いが、このショットガンの拡散範囲はとても広いので、外すことはほとんどないだろう。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S2",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_UC",
+      "LocalizedName": "アウトローショットガン",
+      "LocalizedDescription": "射程は非常に短いが、このショットガンの拡散範囲はとても広いので、外すことはほとんどないだろう。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S2",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_UR",
       "LocalizedName": "強化型アウトローショットガン",
       "LocalizedDescription": "ミシック版のアウトローショットガン。精度が向上しており、ジャンプ時とスライディング時の拡散率ペナルティが無くなっている。",
@@ -2909,6 +4281,89 @@
         "Guard",
         "Mythic",
         "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/VividRazorWeaponGameplay/Gameplay/SawedOffShotgun/WID_Shotgun_VividRazor_BreakBarrel_Athena_VR",
+      "LocalizedName": "アウトローショットガン",
+      "LocalizedDescription": "射程は非常に短いが、このショットガンの拡散範囲はとても広いので、外すことはほとんどないだろう。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH6S2",
+        "Epic",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_R",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH4S4",
+        "Guard",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_SR",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH4S4",
+        "Guard",
+        "Legendary",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH4S4",
+        "Guard",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UR",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH6S2",
+        "Guard",
+        "Mythic",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_VR",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH4S4",
+        "Epic",
+        "Guard",
+        "Pistol",
         "Weapon"
       ]
     },

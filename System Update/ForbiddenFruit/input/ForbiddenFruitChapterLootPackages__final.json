@@ -12388,7 +12388,7 @@
       },
       "WorldList.AthenaAmmoLarge.06": {
         "LootPackageID": "WorldList.AthenaAmmoLarge",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -12553,7 +12553,7 @@
       },
       "WorldList.AthenaAmmoSmall.04": {
         "LootPackageID": "WorldList.AthenaAmmoSmall",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -12817,7 +12817,7 @@
       },
       "WorldList.BusAmmoHeavy.01": {
         "LootPackageID": "WorldList.BusAmmoHeavy",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22552,7 +22552,7 @@
       },
       "WorldList.AthenaLoot.Ammo.Heavy.01": {
         "LootPackageID": "WorldList.AthenaLoot.Ammo.Heavy",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22783,7 +22783,7 @@
       },
       "WorldList.AthenaLoot.Ammo.06": {
         "LootPackageID": "WorldList.AthenaLoot.Ammo",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -30637,12 +30637,12 @@
       },
       "WorldList.AthenaSupplyDrop.Heals.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Heals",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -30657,7 +30657,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -31426,7 +31429,7 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31446,10 +31449,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33472,7 +33472,7 @@
       },
       "WorldList.GoldChest.Consumable.04": {
         "LootPackageID": "WorldList.GoldChest.Consumable",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33492,7 +33492,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp.AGID_VividRazor_Rocket_SlapSlurp",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33720,7 +33723,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_VR.WID_TeaCakeShredder_VR",
+        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33730,7 +33733,7 @@
       },
       "WorldList.GoldChest.Boons.02": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33750,10 +33753,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/HotHands/PAID_FirePetal_HotHands.PAID_FirePetal_HotHands",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33796,7 +33796,7 @@
       },
       "WorldList.GoldChest.Boons.04": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33816,10 +33816,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/AdrenalineRush/PAID_VividRazor_AdrenalineRush.PAID_VividRazor_AdrenalineRush",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_VR.WID_Sniper_NoScope_ExSword_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -34357,7 +34354,7 @@
       },
       "WorldList.GoldChest.Medallions.01": {
         "LootPackageID": "WorldList.GoldChest.Medallions",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34377,10 +34374,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/TidalCraneMedallionGameplay/Gameplay/Carapace/PAID_TidalCrane_Carapace_FF.PAID_TidalCrane_Carapace_FF",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38305,7 +38299,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -38338,7 +38332,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -38503,7 +38497,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39493,7 +39487,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39559,7 +39553,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -39988,7 +39982,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40021,7 +40015,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40186,7 +40180,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -40516,7 +40510,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -41670,7 +41664,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_SR.WID_Pistol_Heavy_TeaCake_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41700,7 +41694,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_VR.WID_TeaCakeShredder_VR",
+        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41710,7 +41704,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41730,10 +41724,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_SR.WID_Sniper_NoScope_ExSword_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41743,7 +41734,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41763,10 +41754,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -42061,7 +42049,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42127,7 +42115,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42556,7 +42544,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42589,7 +42577,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -42754,7 +42742,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -43150,7 +43138,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -43645,7 +43633,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -43711,7 +43699,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44140,7 +44128,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44173,7 +44161,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -44338,7 +44326,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45129,7 +45117,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_Mythic.WID_TeaCakeShredder_Mythic",
+        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_UR.WID_PepperCat_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45159,7 +45147,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_UR.WID_DragonCart_LightningGun_UR",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UR.WID_Pistol_Heavy_TeaCake_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45169,7 +45157,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.03": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45189,10 +45177,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_UR_EmblemBoss.WID_Sniper_NoScope_ExSword_Athena_UR_EmblemBoss",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45202,7 +45187,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.04": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45222,10 +45207,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45256,7 +45238,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45289,7 +45271,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45454,7 +45436,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45751,7 +45733,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -45829,7 +45811,7 @@
       },
       "WorldList.BusWeap.01": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45849,10 +45831,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UC.WID_Pistol_Heavy_TeaCake_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45862,7 +45841,7 @@
       },
       "WorldList.BusWeap.02": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.66,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45882,7 +45861,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeShredder/Gameplay/WID_TeaCakeShredder_R.WID_TeaCakeShredder_R",
+        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_R.WID_Pistol_Heavy_TeaCake_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45912,7 +45891,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC.WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UC.WID_SMG_MusterQuick_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45942,7 +45921,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ChronoWeaponGameplay/Items/PanRifle/WID_Assault_Chrono_Pan_Rifle_Athena_UC.WID_Assault_Chrono_Pan_Rifle_Athena_UC",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45972,7 +45951,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG_Quirky/WID_SMG_FirePetal_Quirky_Athena_UC.WID_SMG_FirePetal_Quirky_Athena_UC",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_UC.WID_Shotgun_MusterPump_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46002,7 +45981,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC.WID_Shotgun_MusterDPS_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46011,36 +45990,6 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.BusWeap.07": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.1,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR.WID_DragonCart_LightningGun_VR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.ChainWhip",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.08": {
         "LootPackageID": "WorldList.BusWeap",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -46062,10 +46011,37 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
+        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.ChainWhip",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.08": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 0.66,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
         },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_R.WID_Sniper_NoScope_ExSword_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46261,7 +46237,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46756,7 +46732,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46789,7 +46765,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -46954,7 +46930,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -47284,7 +47260,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -48257,8 +48233,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -48273,7 +48249,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
+        "ItemDefinition": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48832,7 +48808,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -48898,7 +48874,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49327,7 +49303,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49360,7 +49336,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49525,7 +49501,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -49855,7 +49831,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -54046,7 +54022,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -54112,7 +54088,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -54541,7 +54517,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseZeusGameplay/Items/Lightning/WID_Athena_SunRose_Zeus_Lightning.WID_Athena_SunRose_Zeus_Lightning",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -54574,7 +54550,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip_Mythic.WID_ChainWhip_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -54739,7 +54715,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -55069,7 +55045,7 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/CombinedAscended/WID_MistRaven_CombinedAscended.WID_MistRaven_CombinedAscended",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "PersistentLevel": "",
@@ -55081,7 +55057,7 @@
       },
       "WorldList.llama.Hero.01": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.9,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55101,17 +55077,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/CherrySmokeDualRevolversGameplay/Gameplay/WID_CherrySmoke_DualRevolvers_Athena_Mythic.WID_CherrySmoke_DualRevolvers_Athena_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.llama.Hero.C0;Item:WID.Athena.SunRose.Zeus.Lightning",
+        "Annotation": ";List:WorldList.llama.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.llama.Hero.02": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55131,17 +55110,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.llama.Hero.C0;Item:WID.ChainWhip.UR",
+        "Annotation": ";List:WorldList.llama.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.llama.Hero.03": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55161,17 +55143,20 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.llama.Hero.C0;Item:WID.IcarusWings",
+        "Annotation": ";List:WorldList.llama.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.llama.Hero.04": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55191,7 +55176,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55234,7 +55222,7 @@
       },
       "WorldList.SupplyDrop.Hero.01": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55255,19 +55243,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/CherrySmokeDualRevolversGameplay/Gameplay/WID_CherrySmoke_DualRevolvers_Athena_Mythic.WID_CherrySmoke_DualRevolvers_Athena_Mythic",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:WID.CherrySmoke.DualRevolvers.Athena.UR",
+        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.SupplyDrop.Hero.02": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55288,19 +55276,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor.AGID_MarksmanVisor",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:AGID.MarksmanVisor",
+        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.SupplyDrop.Hero.03": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55321,19 +55309,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/MistRaven/Gameplay/Ascended/RavenFlameThrowerAscended/WID_MistRave_FlameThrowerAscended.WID_MistRave_FlameThrowerAscended",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:WID.MistRave.TendrilAscended.Beam",
+        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.SupplyDrop.Hero.04": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55354,14 +55342,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield_Mythic.WID_Proto_PolarityShield_Mythic",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:WID.Proto.PolarityShield.UR",
+        "Annotation": ";List:WorldList.SupplyDrop.Hero.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.SupplyDrop.Hero.05": {

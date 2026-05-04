@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-05T04:37:05",
-  "UpdatedByProfile": "PiperBoot",
+  "UpdatedAt": "2026-05-05T04:37:28",
+  "UpdatedByProfile": "PunchBerry",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -305,6 +305,59 @@
         "RareItem",
         "Regenerative",
         "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_R",
+      "LocalizedName": "エクスプローシブ・リピーターライフル",
+      "LocalizedDescription": "炸裂弾を発射するリピーターライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH4S3",
+        "Guard",
+        "Rare",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_SR",
+      "LocalizedName": "エクスプローシブ・リピーターライフル",
+      "LocalizedDescription": "炸裂弾を発射するリピーターライフル。",
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.Repeater.Explosive",
+        "Ammo:Heavy",
+        "CH4S3",
+        "Guard",
+        "Legendary",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_UC",
+      "LocalizedName": "エクスプローシブ・リピーターライフル",
+      "LocalizedDescription": "炸裂弾を発射するリピーターライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH4S3",
+        "Guard",
+        "Sniper",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ChronoWeaponGameplay/Items/ExplosiveRepeater/WID_Sniper_ExplosiveRepeater_Athena_VR",
+      "LocalizedName": "エクスプローシブ・リピーターライフル",
+      "LocalizedDescription": "炸裂弾を発射するリピーターライフル。",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH4S3",
+        "Epic",
+        "Guard",
+        "Sniper",
+        "Weapon"
       ]
     },
     {
@@ -2428,6 +2481,42 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_R",
+      "LocalizedName": "シックスシューター",
+      "LocalizedDescription": "連射と高精度射撃を切り替えられる多機能ピストル。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH1S6",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_UC",
+      "LocalizedName": "シックスシューター",
+      "LocalizedDescription": "連射と高精度射撃を切り替えられる多機能ピストル。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH1S6",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_VR",
+      "LocalizedName": "シックスシューター",
+      "LocalizedDescription": "連射と高精度射撃を切り替えられる多機能ピストル。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH1S6",
+        "Epic",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_SemiAuto_Athena_C_Ore_T02",
       "LocalizedName": "セミオートピストル",
       "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
@@ -3041,12 +3130,42 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_R",
+      "LocalizedName": " ブームボルト",
+      "LocalizedDescription": "爆発するボルトを素早く連射できるクロスボウ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
+      ]
+    },
+    {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_SR",
+      "LocalizedName": " ブームボルト",
+      "LocalizedDescription": "爆発するボルトを素早く連射できるクロスボウ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
+      ]
+    },
+    {
       "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_UR",
       "LocalizedName": "リングマスターのブームボルト",
       "LocalizedDescription": "リングマスターによって微調整が施されているクロスボウ。エイム中により素早く動くことができ、マガジンに装填できる\"爆発力\"もより多くなっている。",
       "Tags": [
         "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
       ]
+    },
+    {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_VR",
+      "LocalizedName": " ブームボルト",
+      "LocalizedDescription": "爆発するボルトを素早く連射できるクロスボウ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
+      ]
+    },
+    {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_VR",
+      "LocalizedName": "ヘビーインパクトスナイパーライフル",
+      "LocalizedDescription": "高威力の単発式スナイパーライフルであるヘビーインパクトスナイパーライフルは、乗り物に対してボーナスダメージと衝撃を与える。",
+      "Tags": []
     },
     {
       "AssetPathName": "/MoonflaxMedallions/Items/Augments/TheOverseer/PAID_Moonflax_NitroQueen_FF",
@@ -3391,6 +3510,21 @@
         "Guard",
         "Marksman",
         "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/NitroGauntletsGameplay/Gameplay/WID_Moonflax_NitroGauntlet",
+      "LocalizedName": "ニトロフィスト",
+      "LocalizedDescription": "ニトロを燃料として使うこのガントレットで、強烈なパンチとアッパーカットを繰り出そう。",
+      "Tags": [
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Item.Weapon.Ranged.NitroGauntlets",
+        "Ammo:Infinite",
+        "CH5S3",
+        "Epic",
+        "Melee",
         "Weapon"
       ]
     },

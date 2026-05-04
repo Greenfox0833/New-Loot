@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-05T04:36:40",
-  "UpdatedByProfile": "DashBerry",
+  "UpdatedAt": "2026-05-05T04:37:05",
+  "UpdatedByProfile": "PiperBoot",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -23,6 +23,18 @@
         "Ammo:Special",
         "CH7S1",
         "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR",
+      "LocalizedName": "アーク・ライトニングガン",
+      "LocalizedDescription": "先端技術が組み込まれた実験兵器。放たれた破壊光線が拡散して付近の敵や乗り物、建物を攻撃する。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Ammo:Special",
+        "CH7S1",
+        "Epic",
         "Weapon"
       ]
     },
@@ -5373,6 +5385,26 @@
         "Epic",
         "Guard",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics",
+      "LocalizedName": "ウイングスーツ",
+      "LocalizedDescription": "宙に舞い風に乗って、高所を素早く移動しよう。",
+      "Tags": [
+        "Granted.RollLanding.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.WallStick.PreventHolster",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "WingSuit.Equipped",
+        "Weapon.BlockHolsterForSwimSprint",
+        "CH7S1",
+        "EpicItem",
+        "Item",
+        "MobilityItem"
       ]
     },
     {

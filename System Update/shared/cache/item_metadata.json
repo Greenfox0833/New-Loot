@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-05T04:36:00",
-  "UpdatedByProfile": "Reload_NoBuild_Ranked",
+  "UpdatedAt": "2026-05-05T04:36:40",
+  "UpdatedByProfile": "DashBerry",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -1972,6 +1972,18 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/VeryRare/Athena_PurpleStuff_VR",
+      "LocalizedName": "スラープジュース",
+      "LocalizedDescription": "果汁1％。体力とシールドを一定時間徐々に回復させる。",
+      "Tags": [
+        "CH6S4",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "Regenerative"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item",
       "LocalizedName": "ポータブル裂け目",
       "LocalizedDescription": "裂け目が入っている！ 中身は少し不安定なので、この瓶を開ける際は十分に注意しよう。",
@@ -2035,6 +2047,18 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/WaffleTruck/AGID_WaffleTruck_Rocket_Slurp",
+      "LocalizedName": "チャグキャノン",
+      "LocalizedDescription": "味方に向けて撃つことでしぶきを飛ばす。即座に範囲内にいるプレイヤーの体力を回復し、シールドを付与する。",
+      "Tags": [
+        "CH2S5",
+        "ConsumableItem",
+        "ExoticItem",
+        "Item",
+        "Regenerative"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Traps/TID_Context_BouncePad_Athena",
       "LocalizedName": "バウンサー",
       "LocalizedDescription": "向いている方向にプレイヤーを跳ね飛ばす。",
@@ -2078,6 +2102,17 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_Adventure_GH",
+      "LocalizedName": "スカイのグラップラー",
+      "LocalizedDescription": "打ったら動け。",
+      "Tags": [
+        "CH2S2",
+        "Item",
+        "MobilityItem",
+        "MythicItem"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_GhostMidas",
       "LocalizedName": "シャドーマイダスのドラムガン",
       "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
@@ -2085,6 +2120,20 @@
         "Ammo:Medium",
         "Assault",
         "CH2S4",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_Hos_MG",
+      "LocalizedName": "ブルータスのミニガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高い。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Ammo:Light",
+        "Assault",
+        "CH2S2",
         "Guard",
         "Mythic",
         "Weapon"
@@ -2331,6 +2380,30 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_DualPistol_SemiAuto_Athena_SR_Ore_T03",
+      "LocalizedName": "デュアルピストル",
+      "LocalizedDescription": "デュアルピストル: セミオート。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH1S4",
+        "Epic",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_DualPistol_SemiAuto_Athena_VR_Ore_T03",
+      "LocalizedName": "デュアルピストル",
+      "LocalizedDescription": "デュアルピストル: セミオート。",
+      "Tags": [
+        "Ammo:Medium",
+        "CH1S4",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Shockwave_Athena_UR_Ore_T03",
       "LocalizedName": "キットのショックウェーブランチャー",
       "LocalizedDescription": "爆破武器: ショックウェーブグレネードを投げる。",
@@ -2382,6 +2455,19 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_C_Ore_T03",
+      "LocalizedName": "チャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Common",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_R_Ore_T03",
       "LocalizedName": "チャージショットガン",
       "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
@@ -2404,6 +2490,19 @@
         "Guard",
         "Legendary",
         "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Charge_Athena_UC_Ore_T03",
+      "LocalizedName": "チャージショットガン",
+      "LocalizedDescription": "ショットガン: チャージ可能。 強力な一撃をチャージして蓄え、意のままに放つことのできる、精度の高いショットガン。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
         "Weapon"
       ]
     },
@@ -2890,6 +2989,24 @@
         "MobilityItem",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/LoudKiwi/Gameplay/Weapons/WID_SMG_LoudKiwi_DPS_Athena_R",
+      "LocalizedName": "キューブスプリッター サブマシンガン",
+      "LocalizedDescription": "キューブのエネルギーが注入されたエリートのサブマシンガン。接触の直後に爆発するキューブの破片を射出する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/LoudKiwi/Gameplay/Weapons/WID_SMG_LoudKiwi_DPS_Athena_SR",
+      "LocalizedName": "キューブスプリッター サブマシンガン",
+      "LocalizedDescription": "キューブのエネルギーが注入されたエリートのサブマシンガン。接触の直後に爆発するキューブの破片を射出する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/LoudKiwi/Gameplay/Weapons/WID_SMG_LoudKiwi_DPS_Athena_VR",
+      "LocalizedName": "キューブスプリッター サブマシンガン",
+      "LocalizedDescription": "キューブのエネルギーが注入されたエリートのサブマシンガン。接触の直後に爆発するキューブの破片を射出する。",
+      "Tags": []
     },
     {
       "AssetPathName": "/MedCloud/Gameplay/Items/WID_MedCloud",

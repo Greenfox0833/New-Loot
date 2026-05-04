@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-05T04:37:28",
-  "UpdatedByProfile": "PunchBerry",
+  "UpdatedAt": "2026-05-05T04:37:48",
+  "UpdatedByProfile": "Sunflower",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -1761,6 +1761,18 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Bush/Athena_Bush",
+      "LocalizedName": "ブッシュ",
+      "LocalizedDescription": "携帯用擬装ブッシュ。",
+      "Tags": [
+        "CH1S1",
+        "Concealment",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco",
       "LocalizedName": "チャグスプラッシュ",
       "LocalizedDescription": "投げると近くにいるプレイヤー全員にしぶきを飛ばし、範囲内にいるプレイヤーの体力とシールドに対して瞬時に効果を発揮する。",
@@ -2481,6 +2493,30 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_C",
+      "LocalizedName": "フリントノックピストル",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH1S8",
+        "Common",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Flintlock_Athena_UC",
+      "LocalizedName": "フリントノックピストル",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH1S8",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_Revolver_SingleAction_Athena_R",
       "LocalizedName": "シックスシューター",
       "LocalizedDescription": "連射と高精度射撃を切り替えられる多機能ピストル。",
@@ -2552,6 +2588,32 @@
         "Epic",
         "Guard",
         "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+      "LocalizedName": "二連式ショットガン",
+      "LocalizedDescription": "ショットガン: ブレイクアクション。連射速度が速く、大ダメージを与えられる。射程が短くマガジンサイズが非常に小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S5",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+      "LocalizedName": "二連式ショットガン",
+      "LocalizedDescription": "ショットガン: ブレイクアクション。連射速度が速く、大ダメージを与えられる。射程が短くマガジンサイズが非常に小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "CH1S5",
+        "Epic",
+        "Guard",
+        "Shotgun",
         "Weapon"
       ]
     },

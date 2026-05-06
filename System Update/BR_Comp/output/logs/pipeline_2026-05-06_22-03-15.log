@@ -1,0 +1,148 @@
+2026-05-06 22:03:15 | INFO | log file (BR_Comp): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\logs\pipeline_2026-05-06_22-03-15.log
+2026-05-06 22:03:15 | INFO | ===== BR_Comp: pipeline start =====
+2026-05-06 22:03:15 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\items_unique_min.json
+2026-05-06 22:03:15 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp
+2026-05-06 22:03:15 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-05-06 22:03:15 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-05-06 22:03:16 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootPackages_Client.json : replaced=434, added=1097
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client
+[438] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.Weight=0.000010 -> OK
+[439] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.CountRange=(X=1,Y=1) -> OK
+[440] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.01.ItemDefinition=/WeaponsUpdated/Gameplay/CombatAR/Hitscan/WID_Assault_MoonFlax_CombatAR_HS_Athena_SR.WID_Assault_MoonFlax_CombatAR_HS_Athena_SR -> OK
+[444] RowUpdate WorldList.AthenaLoot.Ammo.Medium.01.CountRange=(X=36,Y=36) -> OK
+[445] RowUpdate LIST_PaV_04_Boss_Weapon.01.ItemDefinition=/TeaCakeIceGauntlets/Gameplay/WID_IceGauntlets_BigBomb.WID_IceGauntlets_BigBomb -> OK
+[446] RowUpdate LIST_PaV_04_Boss_Ammo.03.Weight=1.000000 -> OK
+[447] RowUpdate LIST_PaV_04_Boss_Ammo.03.CountRange=(X=36,Y=36) -> OK
+[448] RowUpdate LIST_PaV_04_Boss_Consume.01.Weight=0.500000 -> OK
+[449] RowUpdate LIST_PaV_04_Boss_Consume.02.Weight=0.500000 -> OK
+[450] RowUpdate LIST_PaV_04_Boss_Consume.03.Weight=0.000000 -> OK
+[451] RowUpdate LIST_PaV_04_Boss_Consume.04.Weight=0.000000 -> OK
+[491] RowUpdate PKG_DragRace_Winner.04.LootPackageCall=LIST_DragRace -> OK
+[492] RowUpdate PKG_GoldenWaterfall_Weapon.04.Weight=0.600000 -> OK
+[493] RowUpdate PKG_GoldenWaterfall_Weapon.04.LootPackageCall=WorldList.Weapons.Rarity.Rare -> OK
+[494] RowUpdate PKG_GoldenWaterfall_Weapon.05.Weight=0.400000 -> OK
+[495] RowUpdate PKG_GoldenWaterfall_Weapon.05.LootPackageCall=WorldList.Weapons.Rarity.Epic -> OK
+[496] RowUpdate LIST_IceKingLieutenant_Weapon.01.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_SR.WID_Pistol_Auto_HighTier_Athena_SR -> OK
+[497] RowUpdate LIST_IceKingLieutenant_Weapon.02.ItemDefinition=/WeaponsUpdated/Gameplay/Pistol/WID_Pistol_Auto_HighTier_Athena_UR.WID_Pistol_Auto_HighTier_Athena_UR -> OK
+[498] RowUpdate LIST_DeadliftRecord_Mythic.01.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UR.WID_Shotgun_Pump_DragonCart_Athena_UR -> OK
+[499] AddRow -> ADD LIST_DragRace.01
+[500] RowUpdate WorldList.AthenaWadStash.Small.01.CountRange=(X=150,Y=150) -> OK
+[501] RowUpdate WorldList.AthenaWadStash.Small.02.CountRange=(X=200,Y=200) -> OK
+[502] RowUpdate WorldList.AthenaWadStash.Small.03.CountRange=(X=275,Y=275) -> OK
+[503] RowUpdate WorldList.AthenaWadStash.Small.04.CountRange=(X=400,Y=400) -> OK
+[504] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=750,Y=750) -> OK
+[505] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[506] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=80,Y=80) -> OK
+[507] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[508] RowUpdate WorldList.FlopperDefault.Light.01.CountRange=(X=150,Y=150) -> OK
+[509] RowUpdate WorldList.FlopperHigh.Light.01.CountRange=(X=150,Y=150) -> OK
+[510] RowUpdate WorldList.FlopperHigh.Consumables.03.CountRange=(X=150,Y=150) -> OK
+[511] RowUpdate WorldList.FlopperBetter.Light.01.CountRange=(X=150,Y=150) -> OK
+[512] RowUpdate WorldList.FlopperBetter.Shell.01.CountRange=(X=150,Y=150) -> OK
+[513] RowUpdate WorldList.FlopperBetter.Medium.18.CountRange=(X=150,Y=150) -> OK
+[514] RowUpdate LIST_BountyBoard_Gold.01.CountRange=(X=1000,Y=1000) -> OK
+[527] RowUpdate WorldList.AthenaHighConsumables.Healing.08.Weight=0.040000 -> OK
+[528] RowUpdate WorldList.AthenaConsumables.Healing.08.Weight=0.010000 -> OK
+[637] RowUpdate WorldList.AthenaHighConsumables.14.Weight=0.000000 -> OK
+[638] RowUpdate WorldList.AthenaHighConsumablesRare.14.Weight=0.000000 -> OK
+[639] RowUpdate WorldList.AthenaSupplyDropConsumables.13.Weight=0.000000 -> OK
+[640] RowUpdate WorldList.AthenaConsumables.14.Weight=0.000000 -> OK
+[705] RowUpdate LIST_Boss_Zadie_Weapon.01.ItemDefinition=/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_SR.WID_Assault_Paprika_Heavy_Athena_HS_SR -> OK
+[706] RowUpdate LIST_Boss_Zadie_Weapon.02.ItemDefinition=/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_UR.WID_Assault_Paprika_Heavy_Athena_HS_UR -> OK
+[HOTFIX:SEASON2] done: applied=43, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp.json : replaced=189, added=2
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp
+[642] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.04.Weight=0.000000 -> OK
+[643] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.05.Weight=0.000000 -> OK
+[644] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.06.Weight=0.000000 -> OK
+[645] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.07.Weight=0.000000 -> OK
+[646] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.08.Weight=0.000000 -> OK
+[647] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.03.Weight=0.000000 -> OK
+[648] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.04.Weight=0.000000 -> OK
+[649] RowUpdate WorldList.Weapons.Rarity.Uncommon.09.Weight=0.000000 -> OK
+[650] RowUpdate WorldList.Weapons.Rarity.Epic.12.Weight=0.000000 -> OK
+[651] RowUpdate WorldList.Weapons.Rarity.Legendary.12.Weight=0.000000 -> OK
+[652] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.03.Weight=0.000000 -> OK
+[653] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.04.Weight=0.000000 -> OK
+[654] RowUpdate WorldList.GoldenPOI.DroneLoot.Wep.08.Weight=0.000000 -> OK
+[655] RowUpdate WorldList.GoldenPOI.DroneLoot.Wep.09.Weight=0.000000 -> OK
+[656] RowUpdate WorldList.GoldenPOI.DroneLoot.Wep.10.Weight=0.000000 -> OK
+[657] RowUpdate WorldList.GoldenPOI.DroneLoot.Wep.11.Weight=0.000000 -> OK
+[658] RowUpdate WorldList.FlopperHigh.Light.07.Weight=0.000000 -> OK
+[659] RowUpdate WorldList.FlopperHigh.Light.08.Weight=0.000000 -> OK
+[660] RowUpdate WorldList.FlopperHigh.Light.09.Weight=0.000000 -> OK
+[661] RowUpdate WorldList.FlopperBetter.Light.09.Weight=0.000000 -> OK
+[662] RowUpdate WorldList.FlopperBetter.Light.10.Weight=0.000000 -> OK
+[663] RowUpdate LIST_PaV_03_Boss_Weapon.01.Weight=0.000000 -> OK
+[664] RowUpdate LIST_PaV_03_Boss_Weapon.02.Weight=0.000000 -> OK
+[665] RowUpdate PKG_TeaCakeShredder_NPC.01.Weight=0.000000 -> OK
+[666] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.10.Weight=0.000000 -> OK
+[667] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.11.Weight=0.000000 -> OK
+[668] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.12.Weight=0.000000 -> OK
+[669] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.13.Weight=0.000000 -> OK
+[670] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.14.Weight=0.000000 -> OK
+[671] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.15.Weight=0.000000 -> OK
+[672] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.16.Weight=0.000000 -> OK
+[673] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.07.Weight=0.000000 -> OK
+[674] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.08.Weight=0.000000 -> OK
+[675] RowUpdate WorldList.Weapons.Rarity.Common.09.Weight=0.000000 -> OK
+[676] RowUpdate WorldList.Weapons.Rarity.Rare.14.Weight=0.000000 -> OK
+[677] RowUpdate WorldList.Weapons.Rarity.Epic.15.Weight=0.000000 -> OK
+[678] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.07.Weight=0.000000 -> OK
+[679] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.08.Weight=0.000000 -> OK
+[680] RowUpdate WorldList.FlopperDefault.Shell.03.Weight=0.000000 -> OK
+[681] RowUpdate WorldList.FlopperHigh.Shell.13.Weight=0.000000 -> OK
+[682] RowUpdate WorldList.FlopperHigh.Shell.14.Weight=0.000000 -> OK
+[683] RowUpdate WorldList.FlopperHigh.Shell.15.Weight=0.000000 -> OK
+[684] RowUpdate WorldList.FlopperBetter.Shell.14.Weight=0.000000 -> OK
+[685] RowUpdate WorldList.FlopperBetter.Shell.15.Weight=0.000000 -> OK
+[686] RowUpdate LIST_Vend_Item_Shotgun_Purple.04.Weight=0.000000 -> OK
+[687] RowUpdate LIST_Vend_Item_Shotgun_Yellow.04.Weight=0.000000 -> OK
+[688] RowUpdate LIST_RiftDrone_Weapon.06.Weight=0.000000 -> OK
+[689] RowUpdate LIST_RiftDrone_Weapon.07.Weight=0.000000 -> OK
+[690] RowUpdate LIST_TeaCakeShredder_NPC.01.Weight=0.000000 -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=49, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootPackages_Client_Comp_Backup.json : replaced=8, added=1
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootPackages_Client_Comp_Backup
+[641] TableUpdate -> ADD WorldList.Weapons.Rarity.Legendary.14
+[641] TableUpdate -> ADD WorldList.AthenaLoot.Weapon.HighHandgun.05
+[641] TableUpdate -> ADD LIST_Boss_Zadie_Consumable.02
+[641] TableUpdate -> ADD LIST_CareDrop_Revive.01
+[641] TableUpdate -> ADD LIST_Llamanamoly.04
+[HOTFIX:SEASON4] done: applied=5, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootPackages_Client_Comp_Backup__final.json
+2026-05-06 22:03:16 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-05-06 22:03:16 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\TeaCakeLootTierData_Client.json : replaced=1, added=130
+[HOTFIX:SEASON2] target=/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootTierData_Client_Comp.json : replaced=1, added=0
+[HOTFIX:SEASON3] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\TeaCakeLoot\Content\DataTables\Comp\TeaCakeLootTierData_Client_Comp_Backup.json : replaced=1, added=0
+[HOTFIX:SEASON4] target=/TeaCakeLoot/DataTables/Comp/TeaCakeLootTierData_Client_Comp_Backup
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootTierData_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\TeaCakeLootTierData_Client_Comp_Backup__final.json
+2026-05-06 22:03:16 | INFO | ✓ Hotfix 適用完了 (1.50s)
+2026-05-06 22:03:16 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootTierData_Client__final.json
+2026-05-06 22:03:16 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\input\AthenaLootPackages_Client__final.json
+2026-05-06 22:03:16 | INFO | load done (0.04s)
+2026-05-06 22:03:16 | INFO | build summary start
+2026-05-06 22:03:17 | INFO | build summary done (0.05s)
+2026-05-06 22:03:17 | INFO | enrich summary with names start
+2026-05-06 22:03:17 | INFO | enrich summary done (0.00s)
+2026-05-06 22:03:17 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp\output\summary\v39.30_2026-05-06_22-03.json
+2026-05-06 22:03:17 | INFO | build item metadata start

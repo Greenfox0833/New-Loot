@@ -19379,7 +19379,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.FlopperSmall",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:WID_Athena_Flopper_Small",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaIceBox.02": {
@@ -19412,7 +19412,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.FlopperBig",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:WID_Athena_Flopper",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaIceBox.03": {
@@ -19421,8 +19421,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -19438,14 +19438,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Effective/WID_Athena_Flopper_Effective.WID_Athena_Flopper_Effective",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.MutatedFlopperSmall",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaIceBox.04": {
@@ -19454,8 +19454,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -19471,14 +19471,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Thermal/WID_Athena_Flopper_Thermal.WID_Athena_Flopper_Thermal",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.ThermalFlopper",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaIceBox.05": {
@@ -19511,7 +19511,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.ShieldFlopper",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:WID_Athena_Flopper_Shield",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaIceBox.06": {
@@ -19520,8 +19520,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -19537,14 +19537,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/SnowmanFlopper/WID_Athena_Flopper_Snowman.WID_Athena_Flopper_Snowman",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.SnowyFlopper",
+        "Annotation": ";List:WorldList.AthenaIceBox.C0;Item:Consumable.BandagesV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.CoolerBox.Consumables.01": {
@@ -23414,8 +23414,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -23438,7 +23438,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID_DualPistol_FingerGuns_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.Handgun.07": {
@@ -23777,8 +23777,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -23801,7 +23801,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID_DualPistol_FingerGuns_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.10": {
@@ -23843,8 +23843,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -23867,7 +23867,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HandCannon.01": {
@@ -25229,8 +25229,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -25246,14 +25246,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.SMG.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.SMG.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.SMG.08": {
@@ -26417,8 +26417,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -26434,14 +26434,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSMG.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.11": {
@@ -28661,8 +28661,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -28678,14 +28678,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.04": {
@@ -28694,8 +28694,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -28711,14 +28711,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighAssaultAuto.C0;Item:WID.PepperCat.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.05": {
@@ -33743,8 +33743,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -33760,14 +33760,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloLoot.Weapon.SMG.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.SMG.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.SMG.03": {
@@ -34238,8 +34238,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -34255,14 +34255,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.08": {
@@ -34271,8 +34271,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -34288,14 +34288,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.AssaultAuto.C0;Item:WID.PepperCat.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.09": {
@@ -35324,8 +35324,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -35348,7 +35348,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.06": {
@@ -35357,8 +35357,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -35381,7 +35381,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FactionLoot.Weapon.Red.01": {
@@ -39779,8 +39779,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -39796,14 +39796,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.02": {
@@ -39812,8 +39812,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -39829,14 +39829,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Assault.C0;Item:WID.PepperCat.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.03": {
@@ -40538,8 +40538,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -40562,7 +40562,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.06": {
@@ -40571,8 +40571,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -40595,7 +40595,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.01": {
@@ -40736,8 +40736,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -40753,14 +40753,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.SMG.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.SMG.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.06": {
@@ -52220,8 +52220,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 50,
-          "Y": 50
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -53173,12 +53173,12 @@
       },
       "WorldList.FlopperDefault.Shell.05": {
         "LootPackageID": "WorldList.FlopperDefault.Shell",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -53194,14 +53194,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperDefault.Shell.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperDefault.Shell.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperDefault.Shell.06": {
@@ -53503,12 +53503,12 @@
       },
       "WorldList.FlopperDefault.Medium.03": {
         "LootPackageID": "WorldList.FlopperDefault.Medium",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -53524,14 +53524,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperDefault.Medium.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperDefault.Medium.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperDefault.Medium.04": {
@@ -54530,8 +54530,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -54554,7 +54554,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:WID_DualPistol_FingerGuns_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Light.12": {
@@ -54596,8 +54596,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -54620,7 +54620,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Light.14": {
@@ -54856,12 +54856,12 @@
       },
       "WorldList.FlopperHigh.Shell.04": {
         "LootPackageID": "WorldList.FlopperHigh.Shell",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -54877,14 +54877,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR.WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Shell.C0;Item:WID_Shotgun_Auto_Dual_DragonCart_Athena_SR",
+        "Annotation": ";List:WorldList.FlopperHigh.Shell.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Shell.05": {
@@ -55417,12 +55417,12 @@
       },
       "WorldList.FlopperHigh.Medium.03": {
         "LootPackageID": "WorldList.FlopperHigh.Medium",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -55438,14 +55438,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.04": {
@@ -55850,8 +55850,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -55867,14 +55867,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperHigh.Medium.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Medium.17": {
@@ -65996,7 +65996,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Vend_Item_Gold_1",
+        "LootPackageCall": "LIST_Vend_Item_Shotgun_Yellow",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66005,7 +66005,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_1.C0;Call:LIST_Vend_Item_Gold_1",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_1.C0;Call:LIST_Vend_Item_Shotgun_Yellow",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_1.02": {
@@ -66029,7 +66029,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Ammo.Random",
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Shells",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66038,7 +66038,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_1.C1;Call:WorldList.Ammo.Random",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_1.C1;Call:WorldList.AthenaLoot.Ammo.Shells",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_2.01": {
@@ -66062,7 +66062,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Vend_Item_Gold_2",
+        "LootPackageCall": "LIST_Vend_Item_SMG_Yellow",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66071,7 +66071,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_2.C0;Call:LIST_Vend_Item_Gold_2",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_2.C0;Call:LIST_Vend_Item_SMG_Yellow",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_2.02": {
@@ -66095,7 +66095,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Ammo.Random",
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Light",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66104,7 +66104,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_2.C1;Call:WorldList.Ammo.Random",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_2.C1;Call:WorldList.AthenaLoot.Ammo.Light",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_3.01": {
@@ -66128,7 +66128,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Vend_Item_Gold_3",
+        "LootPackageCall": "LIST_Vend_Item_Assault_Yellow",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66137,7 +66137,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_3.C0;Call:LIST_Vend_Item_Gold_3",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_3.C0;Call:LIST_Vend_Item_Assault_Yellow",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_3.02": {
@@ -66161,7 +66161,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Ammo.Random",
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Medium",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66170,7 +66170,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_3.C1;Call:WorldList.Ammo.Random",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_3.C1;Call:WorldList.AthenaLoot.Ammo.Medium",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_4.01": {
@@ -66194,7 +66194,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Vend_Item_Gold_4",
+        "LootPackageCall": "LIST_Vend_Item_DMR_Yellow",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66203,7 +66203,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_4.C0;Call:LIST_Vend_Item_Gold_4",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_4.C0;Call:LIST_Vend_Item_DMR_Yellow",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Vend_Item_Gold_4.02": {
@@ -66227,7 +66227,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Ammo.Random",
+        "LootPackageCall": "WorldList.AthenaLoot.Ammo.Heavy",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -66236,7 +66236,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_Vend_Item_Gold_4.C1;Call:WorldList.Ammo.Random",
+        "Annotation": ";Def:PKG_Vend_Item_Gold_4.C1;Call:WorldList.AthenaLoot.Ammo.Heavy",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_BusLoadout.01": {
@@ -67392,6 +67392,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";Def:PKG_PaV_03_Boss.C3;Call:WorldList.AthenaWadStash.Large",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_Zadie.01": {
+        "LootPackageID": "PKG_Boss_Zadie",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_Zadie_Weapon",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG_Boss_Zadie.C0;Call:LIST_Boss_Zadie_Weapon",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_Zadie.02": {
+        "LootPackageID": "PKG_Boss_Zadie",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_Zadie_Ammo",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG_Boss_Zadie.C1;Call:LIST_Boss_Zadie_Ammo",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_Zadie.03": {
+        "LootPackageID": "PKG_Boss_Zadie",
+        "Weight": 0.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_Zadie_Consumable",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG_Boss_Zadie.C2;Call:LIST_Boss_Zadie_Consumable",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_Zadie.04": {
+        "LootPackageID": "PKG_Boss_Zadie",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 3,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.AthenaWadStash.Large",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:PKG_Boss_Zadie.C3;Call:WorldList.AthenaWadStash.Large",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_PaV_01_Boss.01": {
@@ -68645,7 +68777,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:LIST_DragRace",
+        "Annotation": ";Def:PKG_DragRace_Winner.C0;Call:LIST_Dragrace",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_DragRace_Winner.05": {
@@ -69041,7 +69173,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Rare",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Legendary",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.05": {
@@ -69074,12 +69206,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Epic",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Rare",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_GoldenWaterfall_Weapon.06": {
         "LootPackageID": "PKG_GoldenWaterfall_Weapon",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69098,7 +69230,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.Empty",
+        "LootPackageCall": "WorldList.Weapons.Rarity.Epic",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -69107,7 +69239,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Empty",
+        "Annotation": ";Def:PKG_GoldenWaterfall_Weapon.C0;Call:WorldList.Weapons.Rarity.Epic",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_LlamaFarm.01": {
@@ -73274,8 +73406,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -73291,14 +73423,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumables.Healing.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaHighConsumables.Healing.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumables.Utility.02": {
@@ -74957,8 +75089,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -74974,14 +75106,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.Healing.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaHighConsumablesRare.Healing.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaHighConsumablesRare.Utility.02": {
@@ -75881,8 +76013,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -75898,14 +76030,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.Healing.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaSupplyDropConsumables.Healing.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDropConsumables.Utility.02": {
@@ -76805,8 +76937,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -76822,14 +76954,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaConsumables.Healing.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaConsumables.Healing.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaConsumables.Utility.02": {
@@ -77894,8 +78026,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -77918,7 +78050,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.Crossbow.01": {
@@ -78851,8 +78983,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -78875,7 +79007,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Weapons.Rarity.Uncommon.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.Weapons.Rarity.Uncommon.C0;Item:WID_DualPistol_FingerGuns_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Uncommon.11": {
@@ -79544,8 +79676,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -79561,14 +79693,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.Weapons.Rarity.Rare.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Rare.14": {
@@ -79907,8 +80039,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -79931,7 +80063,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.11": {
@@ -80039,8 +80171,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -80056,14 +80188,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.Weapons.Rarity.Epic.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Epic.15": {
@@ -80402,8 +80534,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -80426,7 +80558,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.Weapons.Rarity.Legendary.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.Weapons.Rarity.Legendary.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.Weapons.Rarity.Legendary.11": {
@@ -81458,8 +81590,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -81482,7 +81614,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID_DualPistol_FingerGuns_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.13": {
@@ -81524,8 +81656,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -81548,7 +81680,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.15": {
@@ -81557,8 +81689,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -81581,7 +81713,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.GoldenPOI.DroneLoot.Wep.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.GoldenPOI.DroneLoot.Wep.16": {
@@ -85781,8 +85913,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -85798,14 +85930,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperHigh.Light.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperHigh.Light.24": {
@@ -86606,8 +86738,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -86630,7 +86762,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Light.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperBetter.Light.C0;Item:WID_DualPistol_FingerGuns_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Light.14": {
@@ -86639,8 +86771,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -86663,7 +86795,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Light.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperBetter.Light.C0;Item:WID_DualPistol_FingerGuns_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Light.15": {
@@ -87163,12 +87295,12 @@
       },
       "WorldList.FlopperBetter.Shell.04": {
         "LootPackageID": "WorldList.FlopperBetter.Shell",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -87184,14 +87316,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Shell.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperBetter.Shell.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Shell.05": {
@@ -87691,12 +87823,12 @@
       },
       "WorldList.FlopperBetter.Medium.06": {
         "LootPackageID": "WorldList.FlopperBetter.Medium",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -87712,14 +87844,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:WID_Assault_PastaRipper_Athena_VR_Ore_T03",
+        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Medium.07": {
@@ -87893,8 +88025,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -87910,14 +88042,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Medium.13": {
@@ -87926,8 +88058,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -87943,14 +88075,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:WorldList.FlopperBetter.Medium.C0;Item:WID.PepperCat.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FlopperBetter.Medium.14": {
@@ -88186,12 +88318,12 @@
       },
       "WorldList.FlopperBetter.Consumables.03": {
         "LootPackageID": "WorldList.FlopperBetter.Consumables",
-        "Weight": 0.0,
+        "Weight": 0.01,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91589,8 +91721,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91606,14 +91738,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Vend_Item_Assault_Purple.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:LIST_Vend_Item_Assault_Purple.C0;Item:WID.PepperCat.VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Vend_Item_Assault_Purple.02": {
@@ -91754,8 +91886,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -91771,14 +91903,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Vend_Item_Assault_Yellow.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:LIST_Vend_Item_Assault_Yellow.C0;Item:WID.PepperCat.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Vend_Item_Assault_Yellow.02": {
@@ -94916,6 +95048,237 @@
         "Annotation": ";List:LIST_PaV_03_Boss_Consume.C0;Item:Consumable.AthenaChugBomb",
         "DurabilityPercentageOverride": 1.0
       },
+      "LIST_Boss_Zadie_Weapon.01": {
+        "LootPackageID": "LIST_Boss_Zadie_Weapon",
+        "Weight": 0.66,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_SR.WID_Assault_Paprika_Heavy_Athena_HS_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Weapon.C0;Item:WID.PepperCat.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_Zadie_Weapon.02": {
+        "LootPackageID": "LIST_Boss_Zadie_Weapon",
+        "Weight": 0.33,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_UR.WID_Assault_Paprika_Heavy_Athena_HS_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Weapon.C0;Item:WID.PepperCat.UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_Zadie_Ammo.01": {
+        "LootPackageID": "LIST_Boss_Zadie_Ammo",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 18,
+          "Y": 18
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Ammo.C0;Item:Ammo.AthenaMedium",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_Zadie_Consumable.01": {
+        "LootPackageID": "LIST_Boss_Zadie_Consumable",
+        "Weight": 0.2,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Consumable.C0;Item:WID.AgileChug",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_Zadie_Consumable.02": {
+        "LootPackageID": "LIST_Boss_Zadie_Consumable",
+        "Weight": 0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Consumable.C0;Item:AID_MilitiaExpire_Medallion",
+        "DurabilityPercentageOverride": 1
+      },
+      "LIST_Boss_Zadie_Consumable.03": {
+        "LootPackageID": "LIST_Boss_Zadie_Consumable",
+        "Weight": 0.48,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Consumable.C0;Item:Consumable.ShieldPotV2",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_Zadie_Consumable.04": {
+        "LootPackageID": "LIST_Boss_Zadie_Consumable",
+        "Weight": 0.24,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 4,
+          "Y": 4
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_Boss_Zadie_Consumable.C0;Item:Consumable.AthenaChugBomb",
+        "DurabilityPercentageOverride": 1.0
+      },
       "LIST_PaV_01_Boss_Weapon.01": {
         "LootPackageID": "LIST_PaV_01_Boss_Weapon",
         "Weight": 0.0,
@@ -95930,9 +96293,9 @@
         "Annotation": ";List:LIST_GreatRamp_Mythic.C0;Item:WID_Assault_Paprika_Heavy_Athena_HS_UR",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_DragRace.01": {
-        "LootPackageID": "LIST_DragRace",
-        "Weight": 1,
+      "LIST_Dragrace.01": {
+        "LootPackageID": "LIST_Dragrace",
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -95960,8 +96323,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_DragRace.C0;Item:WID_SMG_Paprika_Burst_Athena_HS_UR",
-        "DurabilityPercentageOverride": 1
+        "Annotation": ";List:LIST_Dragrace.C0;Item:WID_SMG_Paprika_Burst_Athena_UR",
+        "DurabilityPercentageOverride": 1.0
       },
       "LIST_GoldenWaterfall_Consumable.04": {
         "LootPackageID": "LIST_GoldenWaterfall_Consumable",
@@ -96662,8 +97025,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 200,
-          "Y": 200
+          "X": 150,
+          "Y": 150
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -96695,8 +97058,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 250,
-          "Y": 250
+          "X": 200,
+          "Y": 200
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -96728,8 +97091,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 350,
-          "Y": 350
+          "X": 250,
+          "Y": 250
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -96856,7 +97219,7 @@
       },
       "LIST_Llamanamoly.04": {
         "LootPackageID": "LIST_Llamanamoly",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96884,8 +97247,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Llamanamoly.C0;Item:Consumable.MilitiaExpire",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:LIST_Llamanamoly.C0;Item:AID_MilitiaExpire_Medallion",
+        "DurabilityPercentageOverride": 1
       },
       "LIST_Llamanamoly.05": {
         "LootPackageID": "LIST_Llamanamoly",
@@ -96909,12 +97272,15 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets.WID_RiftGauntlets",
+        "ItemDefinition": {
+          "AssetPathName": "/RiftGauntletsGameplay/Items/WID_RiftGauntlets.WID_RiftGauntlets",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Llamanamoly.C0;Item:WID_RiftGuantlets_UR",
+        "Annotation": ";List:LIST_Llamanamoly.C0;Item:WID_RiftGuantlets",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Llamanamoly.06": {
@@ -96923,8 +97289,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 5,
-          "Y": 5
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -96940,19 +97306,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_Llamanamoly.C0;Item:Consumable.BandagesV2",
+        "Annotation": ";List:LIST_Llamanamoly.C0;Item:Consumable.MedKitV2",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_CareDrop_Revive.01": {
         "LootPackageID": "LIST_CareDrop_Revive",
-        "Weight": 1.0,
+        "Weight": 0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96980,8 +97346,8 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:LIST_CareDrop_Revive.C0;Item:Consumable.MilitiaExpire",
-        "DurabilityPercentageOverride": 1.0
+        "Annotation": ";List:LIST_CareDrop_Revive.C0;Item:AID_MilitiaExpire_Medallion",
+        "DurabilityPercentageOverride": 1
       },
       "LIST_TeaCakeShredder_NPC.01": {
         "LootPackageID": "LIST_TeaCakeShredder_NPC",
@@ -97154,8 +97520,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 500,
-          "Y": 500
+          "X": 375,
+          "Y": 375
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -97180,6 +97546,39 @@
         "bAllowBonusDrops": true,
         "Annotation": ";List:LIST_LostAndFound_Bars.C0;Item:Resource.Wad",
         "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_DragRace.01": {
+        "LootPackageID": "LIST_DragRace",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_Burst/HitscanWIDs/WID_SMG_Paprika_Burst_Athena_HS_UR.WID_SMG_Paprika_Burst_Athena_HS_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:LIST_DragRace.C0;Item:WID_SMG_Paprika_Burst_Athena_HS_UR",
+        "DurabilityPercentageOverride": 1
       },
       "LIST_Vend_Item_Sniper_Purple.01": {
         "LootPackageID": "LIST_Vend_Item_Sniper_Purple",

@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-14T17:45:37",
-  "UpdatedByProfile": "BR_Comp",
+  "UpdatedAt": "2026-05-14T17:47:04",
+  "UpdatedByProfile": "NoBuild",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -2113,6 +2113,18 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/GID_ShockGrenade",
+      "LocalizedName": "ポケット ショックウェーブグレネード",
+      "LocalizedDescription": "クールダウン時のショックウェーブを投げよう！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/SilverBlazer/GID_SilverBlazer",
+      "LocalizedName": "ポケットシールドバブル",
+      "LocalizedDescription": "発射体や爆発物をブロックする大きなバブルを作り出す。 その後、クールダウン状態になる。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Gameplay/Sword/AGID_Sword",
       "LocalizedName": "インフィニティブレイド",
       "LocalizedDescription": "",
@@ -2563,6 +2575,14 @@
         "Pistol",
         "PreSeason",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_SemiAuto_Athena_C_ZB",
+      "LocalizedName": "始まりのピストル",
+      "LocalizedDescription": "どんなことでも、小さな一歩から始まるんだ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.LowTier"
       ]
     },
     {
@@ -3200,6 +3220,12 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/MedCloud/Gameplay/Items/GID_MedCloud",
+      "LocalizedName": "ポケット医療ミスト スモーク",
+      "LocalizedDescription": "回復中に自分の居場所を隠す。その後、クールダウン状態になる。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/MedCloud/Gameplay/Items/WID_MedCloud",
       "LocalizedName": "医療ミスト スモークグレネード",
       "LocalizedDescription": "回復しながら自分の居場所を隠せる。銃弾による傷の防止と手当てに最適。",
@@ -3212,6 +3238,12 @@
         "Regenerative",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/MedCloud/Gameplay/Items/WID_SmokeCloud",
+      "LocalizedName": "煙雲 ",
+      "LocalizedDescription": "視界を遮る戦術用スモークを生成する。",
+      "Tags": []
     },
     {
       "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion",
@@ -4003,6 +4035,12 @@
       ]
     },
     {
+      "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_BrickBunker",
+      "LocalizedName": "レンガ・バンカー",
+      "LocalizedDescription": "持ち運び式の石製バンカー。これぞレンガ・バンカー",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A",
       "LocalizedName": "ポケットバンカー",
       "LocalizedDescription": "携帯可能なバンカー。ポケットバンカーだ！",
@@ -4320,6 +4358,19 @@
       "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。ただし、プレイヤーは通り抜けることができるので注意！",
       "Tags": [
         "Granted.ItemEquipped.Consumable.ShieldBubble.VR"
+      ]
+    },
+    {
+      "AssetPathName": "/ShielderGameplay/Gameplay/WID_Athena_ShieldWeapon",
+      "LocalizedName": "守護者の盾",
+      "LocalizedDescription": "弾道射撃と爆発物をブロックする手持ちの盾。投げて遠距離用の遮蔽物にすることもできる。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "ConsumableItem",
+        "Deployable",
+        "Item",
+        "RareItem",
+        "S23"
       ]
     },
     {

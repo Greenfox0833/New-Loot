@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": "2026-05-14T17:42:50",
+  "UpdatedAt": "2026-05-14T17:45:15",
   "UpdatedByProfile": "BR",
   "Items": [
     {
@@ -3035,6 +3035,24 @@
       ]
     },
     {
+      "AssetPathName": "/HoneyGlass/Gameplay/WID_HoneyGlass",
+      "LocalizedName": "カデュケウス・スタッフ",
+      "LocalizedDescription": "ナノバイオ技術により、遠距離からターゲットを回復、強化または蘇生できる。また高所から優雅に降下することもできる。助けに行くぞ！",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.RollLanding.PreventHolster",
+        "Item.Trait.SingleStack",
+        "Granted.Athena.TacticalSprint.AllowSprintWhileFiring"
+      ]
+    },
+    {
       "AssetPathName": "/HopscotchWeaponsGameplay/Items/HopscotchShotgun/MmoWep/WID_Shotgun_HopScotch_Athena_UR_MMO",
       "LocalizedName": "エンハンスド インフィルトレーター ポンプショットガン",
       "LocalizedDescription": "ショットガン: ダメージはそこそこで、射程が少し長い。拡散率は中程度。",
@@ -3151,6 +3169,16 @@
         "Item",
         "MobilityItem",
         "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P",
+      "LocalizedName": "パルスピストル",
+      "LocalizedDescription": "ブリンク・アンド・リコールのアビリティで時間を巻き戻せる連射ピストル。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.LavaLeaf",
+        "Gameplay.Camera.FirstPersonHipFire",
+        "Gameplay.Status.SunRose.SilkyWolf.BlockApplication"
       ]
     },
     {

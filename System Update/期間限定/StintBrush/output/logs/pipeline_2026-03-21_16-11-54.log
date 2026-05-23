@@ -1,0 +1,107 @@
+2026-03-21 16:11:54 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\logs\pipeline_2026-03-21_16-11-54.log
+2026-03-21 16:11:54 | INFO | ===== BetterFishing: pipeline start =====
+2026-03-21 16:11:54 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\items_unique_min.json
+2026-03-21 16:11:54 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\BetterFishing
+2026-03-21 16:11:54 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-03-21 16:11:54 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-03-21 16:11:54 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BetterFishing\Content\DataTables\BetterFishing_LootPackages.json
+[HOTFIX:SEASON1] target=/BetterFishing/DataTables/BetterFishing_LootPackages
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\BetterFishing_LootPackages__final.json
+2026-03-21 16:11:54 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-03-21 16:11:54 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BetterFishing\Content\DataTables\BetterFishing_LootTierData.json
+[HOTFIX:SEASON1] target=/BetterFishing/DataTables/BetterFishing_LootTierData
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\BetterFishing_LootTierData__final.json
+2026-03-21 16:11:54 | INFO | ✓ Hotfix 適用完了 (0.70s)
+2026-03-21 16:11:54 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootTierData_Client__final.json
+2026-03-21 16:11:54 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\AthenaLootPackages_Client__final.json
+2026-03-21 16:11:54 | INFO | load done (0.00s)
+2026-03-21 16:11:54 | INFO | build summary start
+2026-03-21 16:11:55 | INFO | build summary done (1.04s)
+2026-03-21 16:11:55 | INFO | enrich summary with names start
+2026-03-21 16:11:56 | INFO | enrich summary done (0.55s)
+2026-03-21 16:11:56 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\summary\v39.30_2026-03-21_16-11.json
+2026-03-21 16:11:56 | INFO | build BR_LootData start
+2026-03-21 16:11:56 | INFO | build BR_LootData done (0.00s)
+2026-03-21 16:11:56 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\期間限定\BetterFishing\BetterFishing_LootData_2026-03-21_16-11.json
+2026-03-21 16:11:56 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BetterFishing_LootPool.json
+2026-03-21 16:11:56 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\scripts\LootSummary.py
+2026-03-21 16:11:56 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\summary\v39.30_2026-03-21_16-11.json
+✅ 抽出件数: 9
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\summary\v39.30_2026-03-21_15-52.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\summary\v39.30_2026-03-21_16-11.json
+✅ 差分作成 完了
+  追加   : 9 / 削除 : 14 / 変更 : 0 / 変化なし : 0
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\output\history\BR_20260321_1611\items_unique_min_diff.json
+2026-03-21 16:11:56 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-03-21 16:11:56 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.23s)
+2026-03-21 16:11:56 | INFO | prewarm start
+2026-03-21 16:11:57 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.09s)
+2026-03-21 16:11:57 | INFO | 画像化タスク数: 9
+2026-03-21 16:11:58 | INFO | 画像生成 進捗: 1/9
+2026-03-21 16:11:58 | INFO | 画像生成 進捗: 9/9
+2026-03-21 16:11:58 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-03-21 16:11:58 | WARNING | Loot diff に失敗: Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\期間限定\BetterFishing\pipeline.py", line 243, in main
+    diff_result = run_latest_diff(PROFILE_NAME)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 88, in run_latest_diff
+    old_file, new_file = latest_two_files(folder)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\diff_loot_auto.py", line 23, in latest_two_files
+    raise FileNotFoundError("JSON files are less than 2 in the selected folder.")
+FileNotFoundError: JSON files are less than 2 in the selected folder.
+2026-03-21 16:11:58 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update
+2026-03-21 16:12:05 | INFO | git commit stdout: [main 01d573c] BetterFishing update 2026-03-21 16:12:01
+ 43 files changed, 9976 insertions(+), 1 deletion(-)
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__Fish_Icons__T_Ui_Fish_Rift_White_L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-HolidayFish-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-StinkFish-L.png
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\265\343\203\274\343\203\236\343\203\253\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\267\343\203\274\343\203\253\343\203\211\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\270\343\202\247\343\203\252\343\203\274\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\271\343\203\206\343\202\243\343\203\263\343\202\257\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\271\343\203\216\343\203\274\343\202\244\343\203\274\343\203\225\343\203\255\343\203\203\343\203\221\343\203\274 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\202\271\343\203\221\343\202\244\343\202\267\343\203\274\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\203\233\343\203\203\343\203\227\343\203\225\343\203\255\343\203\203\343\203\221\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\343\203\237\343\202\267\343\203\203\343\202\257\343\202\264\343\203\274\343\203\253\343\203\211\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/\350\243\202\343\201\221\347\233\256\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/BetterFishing_LootData_2026-03-21_16-11.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/__pycache__/config.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/__pycache__/config.cpython-312.pyc.2182211934640"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/__pycache__/pipeline.cpython-312.pyc"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/config.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/AthenaLootPackages_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/AthenaLootTierData_Client__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/BetterFishing_LootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/BetterFishing_LootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/HazelnutSpread_AthenaLootPackages_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/HazelnutSpread_AthenaLootPackages__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/HazelnutSpread_AthenaLootTierData_Override__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/HazelnutSpread_AthenaLootTierData__final.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/input/items_unique_min.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/history/BR_20260321_1542/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/history/BR_20260321_1552/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/history/BR_20260321_1611/items_unique_min_diff.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/logs/pipeline_2026-03-21_15-35-03.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/logs/pipeline_2026-03-21_15-36-14.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/logs/pipeline_2026-03-21_15-42-24.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/logs/pipeline_2026-03-21_15-52-44.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/logs/pipeline_2026-03-21_16-11-54.log"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/summary/v39.30_2026-03-21_15-36.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/summary/v39.30_2026-03-21_15-42.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/summary/v39.30_2026-03-21_15-52.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/output/summary/v39.30_2026-03-21_16-11.json"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/pipeline.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/scripts/LootSummary.py"
+ create mode 100644 "System Update/\346\234\237\351\226\223\351\231\220\345\256\232/BetterFishing/scripts/__pycache__/LootSummary.cpython-312.pyc"
+2026-03-21 16:12:09 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   5ccec56..01d573c  main -> main
+2026-03-21 16:12:09 | INFO | ✓ GitHub Push 完了
+2026-03-21 16:12:09 | INFO | ===== BetterFishing: pipeline end =====

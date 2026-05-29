@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-29T09:34:53",
-  "UpdatedByProfile": "BR_Comp",
+  "UpdatedAt": "2026-05-29T09:35:52",
+  "UpdatedByProfile": "Figment",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -1141,6 +1141,659 @@
         "SMG",
         "Weapon"
       ]
+    },
+    {
+      "AssetPathName": "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_SR",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_VR",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_C",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_R",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_UC",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_C_Ore_T04",
+      "LocalizedName": "ヘビーアサルトライフル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_R_Ore_T03",
+      "LocalizedName": "ヘビーアサルトライフル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_SR_Ore_T03",
+      "LocalizedName": "ヘビーアサルトライフル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_UC_Ore_T04",
+      "LocalizedName": "ヘビーアサルトライフル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_R",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Infantry"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_UC",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Infantry"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_SR",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_VR",
+      "LocalizedName": "インファントリーライフル",
+      "LocalizedDescription": "高い精度と射程を備えたクラシックなライフル。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_SR_Ore_T03",
+      "LocalizedName": "ミニガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Tech.Spy.ItemUpgrade.Minigun+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_VR_Ore_T03",
+      "LocalizedName": "ミニガン",
+      "LocalizedDescription": "アサルト武器: 攻撃力の高い重火器で、連射速度が非常に高く、マガジンサイズが大きい。火器を固定してよく狙い、ショートバーストで撃たないと敵に当てるのは難しい。",
+      "Tags": [
+        "CameraController.DisableFirstPerson",
+        "Tech.Spy.ItemUpgrade.Minigun+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03",
+      "LocalizedName": "サイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。高い連射速度を誇り、狙いを定め、バーストを制御して撃てば、命中率も高い。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03",
+      "LocalizedName": "サイレンサー付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。高い連射速度を誇り、狙いを定め、バーストを制御して撃てば、命中率も高い。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Surgical_Athena/Gameplay/WID_Figment_Assault_Surgical_Athena_R",
+      "LocalizedName": "スコープ付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: 高精度セミオート。スコープが付いたセミオートのタクティカルアサルトライフル。遠距離から大ダメージと強い衝撃を与えるが、弾薬の消費が激しい。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Surgical_Athena/Gameplay/WID_Figment_Assault_Surgical_Athena_UC",
+      "LocalizedName": "スコープ付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: 高精度セミオート。スコープが付いたセミオートのタクティカルアサルトライフル。遠距離から大ダメージと強い衝撃を与えるが、弾薬の消費が激しい。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Surgical_Thermal_Athena/Gameplay/WID_FigmentAssault_Surgical_Thermal_Athena_SR_Ore_T03",
+      "LocalizedName": "サーマルスコープ付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: プレシジョンサーマルセミオートマチック。サーマルスコープが特徴的なセミオートのタクティカルアサルトライフル。遠距離から大ダメージと強い衝撃を与える。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Assault_Surgical_Thermal_Athena/Gameplay/WID_FigmentAssault_Surgical_Thermal_Athena_VR_Ore_T03",
+      "LocalizedName": "サーマルスコープ付きアサルトライフル",
+      "LocalizedDescription": "アサルト武器: プレシジョンサーマルセミオートマチック。サーマルスコープが特徴的なセミオートのタクティカルアサルトライフル。遠距離から大ダメージと強い衝撃を与える。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable",
+      "LocalizedName": "バルーン",
+      "LocalizedDescription": "プレイヤーに風船を取り付け、浮遊することを可能にする。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_BandageV2/Gameplay/WID_Figment_Paprika_Bandage",
+      "LocalizedName": "包帯",
+      "LocalizedDescription": "回復アイテム。一定の体力を回復する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Booty/Gameplay/AGID_Figment_Athena_Booty",
+      "LocalizedName": "埋められた財宝",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Bush/Gameplay/Figment_Athena_Bush",
+      "LocalizedName": "ブッシュ",
+      "LocalizedDescription": "携帯用擬装ブッシュ。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_ChugJug/Gameplay/Figment_Athena_SuperMedkit",
+      "LocalizedName": "チャグジャグ",
+      "LocalizedDescription": "美味しくて気分もスッキリ。体力もシールドも最大に。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_DanceGrenade/Gameplay/Figment_Athena_DanceGrenade",
+      "LocalizedName": "ブギーボム",
+      "LocalizedDescription": "敵を踊らせてしまう懐かしのオーディオ機器。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Dynamite/Gameplay/Figment_Athena_TNT",
+      "LocalizedName": "ダイナマイト",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_GasGrenade/Athena/Items/Consumables/GasGrenade/Figment_Athena_GasGrenade",
+      "LocalizedName": "スティンクボム",
+      "LocalizedDescription": "有毒ガスを放出し、範囲内の敵にダメージを与えるグレネードを投げる。近づくと危険！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Glider_Item/Gameplay/Figment_Athena_Glider_Item",
+      "LocalizedName": "グライダー",
+      "LocalizedDescription": "展開して安全な場所へグライドしよう！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_KnockGrenade/Gameplay/Figment_Athena_KnockGrenade",
+      "LocalizedName": "インパルスグレネード",
+      "LocalizedDescription": "爆発して近くの敵をノックバックさせるグレネードを投げる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_MedKitV2/Gameplay/WID_Figment_Paprika_MedBox",
+      "LocalizedName": "医療キット",
+      "LocalizedDescription": "奇跡を起こす。徐々に体力を全回復する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_PurpleStuff/Gameplay/Figment_Athena_PurpleStuff_VR",
+      "LocalizedName": "スラープジュース",
+      "LocalizedDescription": "果汁1%。時間経過で体力とシールドが回復する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Rift_Item/Gameplay/Figment_Athena_Rift_Item",
+      "LocalizedName": "ポータブル裂け目",
+      "LocalizedDescription": "裂け目が入っている！ 中身は少し不安定なので、この瓶を開ける際は十分に注意しよう。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_ShadowBomb/Gameplay/Athena_Figment_SmokeBomb",
+      "LocalizedName": "シャドーボム",
+      "LocalizedDescription": "これを投げて、スピードブーストとジャンプブースト状態になる煙に紛れて逃げよう。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_ShieldPotV2/Gameplay/WID_Figment_Paprika_ShieldPot",
+      "LocalizedName": "シールドポーション",
+      "LocalizedDescription": "防護の効果があるポーション。徐々に一定のシールドを適用する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_Shields/Gameplay/Figment_Athena_Shields",
+      "LocalizedName": "レガシーシールドポーション",
+      "LocalizedDescription": "防護の効果があるポーション。一定量のシールドを付与する。使用中は移動できない。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_SmallShieldV2/Gameplay/WID_Figment_Paprika_ShieldSmall",
+      "LocalizedName": "ミニシールドポーション",
+      "LocalizedDescription": "飲むゼリータイプのポーション。少量のシールドを与える。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Athena_SuperTowerGrenade/Gameplay/Figment_Athena_SuperTowerGrenade_A",
+      "LocalizedName": "ポケットフォートレス",
+      "LocalizedDescription": "携帯可能な砦。これぞポケットフォートレス！",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Clinger_Athena/Gameplay/Figment_StickyGrenade_Athena",
+      "LocalizedName": "くっつき爆弾",
+      "LocalizedDescription": "敵プレイヤーやオブジェクトにくっつく爆弾を投げる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR",
+      "LocalizedName": "サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.TacSMGVR"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_VR",
+      "LocalizedName": "サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.TacSMGVR"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_ExplosiveBow_Athena/Gameplay/WID_Figment_ExplosiveBow_Athena_SR",
+      "LocalizedName": "ブームボウ",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Hook_Gun/Gameplay/WID_Figment_Hook_Gun_VR_Ore_T03",
+      "LocalizedName": "グラップラー",
+      "LocalizedDescription": "打ったら動け。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_R",
+      "LocalizedName": "グレネードランチャー  ",
+      "LocalizedDescription": "爆破武器: 範囲内にダメージを与えるロケット弾を撃ち込む。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_SR",
+      "LocalizedName": "グレネードランチャー  ",
+      "LocalizedDescription": "爆破武器: 範囲内にダメージを与えるロケット弾を撃ち込む。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_VR",
+      "LocalizedName": "グレネードランチャー  ",
+      "LocalizedDescription": "爆破武器: 範囲内にダメージを与えるロケット弾を撃ち込む。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Quad_Athena/Gameplay/WID_Figment_Launcher_Military_Athena_SR_Ore_T03",
+      "LocalizedName": "クアッドランチャー",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_R",
+      "LocalizedName": "ロケットランチャー   ",
+      "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_SR",
+      "LocalizedName": "ロケットランチャー   ",
+      "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_VR",
+      "LocalizedName": "ロケットランチャー   ",
+      "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/BarnTowel/AGID_FigmentMartin_BarnTowel",
+      "LocalizedName": "アイアンマンの飛行キット",
+      "LocalizedDescription": "アイアンマンの飛行キットを使い、猛スピードでマップを移動しよう。飛行時に射撃ボタンを押すと、素早く方向を変えたり、加速したり、プレイヤーや建築物に体当たりしたりできるぞ。\n\nまた、インベントリにアイアンマンの戦闘キットもある場合、飛行中にオルトファイアのボタンを押すと、飛行をやめることなくユニビーム攻撃を使用できる。 ",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/ChapWorm/WID_FigmentMartin_ChapWorm",
+      "LocalizedName": "シュリのブラックパンサークロー",
+      "LocalizedDescription": "シュリのブラックパンサークローは、着用者が戦場を素早く移動することを可能にする。この武器は運動エネルギーを吸収し、それを利用して自らの破壊力をスーパーチャージできる。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "ChapWorm.Item.Equipped",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "Granted.TakedownMedallion.RemoveCrouchedCloakOnSecondaryPressed"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Chicago/WID_FigmentMartin_Ashton_Shield",
+      "LocalizedName": "キャプテン・アメリカのシールド",
+      "LocalizedDescription": "キャプテン・アメリカのヴィブラニウム製の盾を装備してダメージを防いだり、投げて反射させつつ敵に当てたりしよう。タクティカルダッシュで突進すれば、敵をよろめかせられるぞ。",
+      "Tags": [
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Ashton.Shield.Equipped"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Hippo/AGID_FigmentMartin_Hippo",
+      "LocalizedName": "ホークアイの弓",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/GauntletGuns/WID_FigmentMartin_MurkyVole_GauntletGuns",
+      "LocalizedName": "ウォーマシンのアーセナル",
+      "LocalizedDescription": "敵に向かって銃弾とロケットの嵐を解き放つ。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/HoverJets/AGID_FigmentMartin_MurkyVole_HoverJets",
+      "LocalizedName": "ウォーマシンのホバージェット",
+      "LocalizedDescription": "戦場の空を飛び回り、武器を正確に発射しよう。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/Turret/WID_FigmentMartin_MurkyVole_Turret",
+      "LocalizedName": "ウォーマシンのオートタレット",
+      "LocalizedDescription": "周囲を警戒し、戦闘時に支援射撃を行う肩装着式のオートタレット。",
+      "Tags": [
+        "Item.Weapon.Ranged.MurkyVole.Turret"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/Turbo/AGID_FigmentMartin_Turbo",
+      "LocalizedName": "ソーのストームブレイカー",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Martin/Gameplay/Martin_Items/WiseOtter/WID_FigmentMartin_WiseOtter_Combo",
+      "LocalizedName": "アイアンマンの戦闘キット",
+      "LocalizedDescription": "ターゲットをロックオンしてエネルギーブラストを発射したり、貫通性があるユニビームを放ったりしよう。",
+      "Tags": [
+        "Trait.HighTower.Power.Type.Primary",
+        "Trait.Power.Type.Primary",
+        "Granted.HighTower.Power.Tomato.Combo.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_C",
+      "LocalizedName": "サイレンサー付きサブマシンガン",
+      "LocalizedDescription": "SMG: サイレンサー付きのサブマシンガン。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。速攻向きで、ショートバーストで撃つと中距離戦闘でも十分な精度が得られる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_R",
+      "LocalizedName": "サイレンサー付きサブマシンガン",
+      "LocalizedDescription": "SMG: サイレンサー付きのサブマシンガン。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。速攻向きで、ショートバーストで撃つと中距離戦闘でも十分な精度が得られる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_UC",
+      "LocalizedName": "サイレンサー付きサブマシンガン",
+      "LocalizedDescription": "SMG: サイレンサー付きのサブマシンガン。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。速攻向きで、ショートバーストで撃つと中距離戦闘でも十分な精度が得られる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_R_Ore_T04",
+      "LocalizedName": "デュアルピストル",
+      "LocalizedDescription": "デュアルピストル: セミオート。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_DualPistol_SemiAuto_Athena/Gameplay/WID_Figment_DualPistol_SemiAuto_Athena_VR_Ore_T03",
+      "LocalizedName": "デュアルピストル",
+      "LocalizedDescription": "デュアルピストル: セミオート。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_C",
+      "LocalizedName": "フリントノックピストル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Flintlock_Athena/Gameplay/WID_Figment_Pistol_Flintlock_Athena_UC",
+      "LocalizedName": "フリントノックピストル",
+      "LocalizedDescription": "",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_SR",
+      "LocalizedName": "ハンドキャノン",
+      "LocalizedDescription": "ピストル: セミオート。大ダメージを与えられる、十分なマガジンサイズを備えた連射速度の遅い大口径のサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_VR",
+      "LocalizedName": "ハンドキャノン",
+      "LocalizedDescription": "ピストル: セミオート。大ダメージを与えられる、十分なマガジンサイズを備えた連射速度の遅い大口径のサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_VR",
+      "LocalizedName": "タクティカルサブマシンガン",
+      "LocalizedDescription": "SMG: オートマチック。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。速攻向きで、ショートバーストで撃つと中距離戦闘でも十分な精度が得られる。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Scoped_Athena/Gameplay/WID_Figment_Pistol_Scoped_Athena_SR_Ore_T03",
+      "LocalizedName": "スコープ付きリボルバー",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.ScopedRevolver+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Scoped_Athena/Gameplay/WID_Figment_Pistol_Scoped_Athena_VR_Ore_T03",
+      "LocalizedName": "スコープ付きリボルバー",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.ScopedRevolver+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_SemiAuto_Athena/Gameplay/WID_Figment_Pistol_SemiAuto_Athena_C",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_SemiAuto_Athena/Gameplay/WID_Figment_Pistol_SemiAuto_Athena_UC",
+      "LocalizedName": "ピストル",
+      "LocalizedDescription": "ピストル: セミオート。中程度のダメージを与えられる、高い速射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_R_Ore_T03",
+      "LocalizedName": "サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_SubmachineGun_Athena/Gameplay/Figment_SubmachineGun_Athena_UC_Ore_T03",
+      "LocalizedName": "サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_R",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_SR",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_VR",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_C",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_R",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_UC",
+      "LocalizedName": "タクティカルショットガン",
+      "LocalizedDescription": "ショットガン: セミオート。マガジンが大きい連射式ショットガン。近距離で複数のターゲットを狙うのに有効。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_R",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Rare",
+        "S27",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_SR",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "Legendary",
+        "S27",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_UC",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "Guard",
+        "S27",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR",
+      "LocalizedName": "ポンプショットガン",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Ammo:Shells",
+        "Epic",
+        "Guard",
+        "S27",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
+      "LocalizedName": "ヘビースナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: 重く、リロードスピードは非常に遅いが、強力で正確なボルトアクション機構を備えたライフル。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.HeavySniper+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
+      "LocalizedName": "ヘビースナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: 重く、リロードスピードは非常に遅いが、強力で正確なボルトアクション機構を備えたライフル。",
+      "Tags": [
+        "Tech.Spy.ItemUpgrade.HeavySniper+"
+      ]
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_R",
+      "LocalizedName": "ハンティングライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_UC",
+      "LocalizedName": "ハンティングライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_Suppressed_Athena/Gameplay/FIgment_WID_Sniper_Suppressed_Scope_Athena_SR_Ore_T03",
+      "LocalizedName": "サイレンサー付きスナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: サイレンサー付き。 サイレンサー付きの強力なスナイパーライフル。単発の精密射撃向けに設計されているため、連射速度は遅い。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Sniper_Suppressed_Athena/Gameplay/FIgment_WID_Sniper_Suppressed_Scope_Athena_VR_Ore_T03",
+      "LocalizedName": "サイレンサー付きスナイパーライフル",
+      "LocalizedDescription": "スナイパーライフル: サイレンサー付き。 サイレンサー付きの強力なスナイパーライフル。単発の精密射撃向けに設計されているため、連射速度は遅い。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Trap_ContextTrap_Athena/Items/Trap/TID_Figment_ContextTrap_Athena",
+      "LocalizedName": "ダメージトラップ",
+      "LocalizedDescription": "起動したプレイヤーを撃破するステータス効果を付与する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Trap_Context_PoisonDart/Gameplay/TID_Figment__PoisonDartTrap_Context",
+      "LocalizedName": "ポイズンダーツトラップ",
+      "LocalizedDescription": "起動したプレイヤーを毒状態にするステータス効果を付与する。 ",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Trap_Floor_Player_Campfire_Athena/Items/Trap/TID_Figment_Floor_Player_Campfire_Athena",
+      "LocalizedName": "憩いの焚き火",
+      "LocalizedDescription": "アクティブな間は、付近のプレイヤーを回復する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Trap_Floor_Player_Launch_Pad_Athena/Items/Trap/TID_Figment_Floor_Player_Launch_Pad_Athena",
+      "LocalizedName": "ジャンプパッド",
+      "LocalizedDescription": "プレイヤーを空に射出しグライダーを展開することを可能とする。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/Figment_Trap_MountedTurret_Athena/Gameplay/TID_Figment_Floor_MountedTurret_Athena",
+      "LocalizedName": "マウンテッドタレット",
+      "LocalizedDescription": "プレイヤーが使用できる固定型タレットをスポーンする。",
+      "Tags": []
     },
     {
       "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO",

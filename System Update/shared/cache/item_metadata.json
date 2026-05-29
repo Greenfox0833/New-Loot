@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-05-29T09:40:13",
-  "UpdatedByProfile": "Reload_NoBuild_Ranked",
+  "UpdatedAt": "2026-05-29T09:40:54",
+  "UpdatedByProfile": "DashBerry",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -102,6 +102,21 @@
       "LocalizedName": "仮面職人のメダリオン",
       "LocalizedDescription": "リロード速度が上昇する。何もしなくてもシールドが回復するようになる。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/CherrySmokeDualRevolversGameplay/Gameplay/WID_CherrySmoke_DualRevolvers_Athena_VR",
+      "LocalizedName": "キルスイッチ・リボルバー",
+      "LocalizedDescription": "ドッジで攻撃を回避し、空中でハングタイムを発動してより正確に反撃しよう。",
+      "Tags": [
+        "Granted.CherrySmokeDualRevolvers.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Ammo:Medium",
+        "CH6S3",
+        "Epic",
+        "Guard",
+        "Pistol",
+        "Weapon"
+      ]
     },
     {
       "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/AR/Explosion/WID_CherrySmoke_AR_Unstable_Explosion_R",
@@ -591,6 +606,18 @@
         "Guard",
         "Shotgun",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CubeSurfing/Gameplay/WID_CherrySmoke_CubeSurfing",
+      "LocalizedName": "サーフキューブ",
+      "LocalizedDescription": "デレズのパワーをコントロールして、地面の上をサーフィンしよう！ 飛行モードに入ると、全方向への速度が一時的に上昇するぞ。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "CH6S3",
+        "EpicItem",
+        "Item",
+        "MobilityItem"
       ]
     },
     {
@@ -1152,6 +1179,27 @@
         "Epic",
         "Guard",
         "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ElectroBatGameplay/Gameplay/WID_Athena_ElectroBat",
+      "LocalizedName": "ニーキャッパー",
+      "LocalizedDescription": "どんな地下組織にも欠かせない、凶悪な近接武器。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "Granted.ElectroBat.Equipped",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.RollLanding.PreventHolster",
+        "CH6S2",
+        "Epic",
+        "Melee",
         "Weapon"
       ]
     },
@@ -2860,6 +2908,17 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack",
+      "LocalizedName": "ジェットパック",
+      "LocalizedDescription": "フルスロットルで噴出するスリルと興奮を。空中ではジャンプ操作をすることで上方へブーストし、照準を合わせることでその場でホバーする。 ",
+      "Tags": [
+        "CH1S4",
+        "Item",
+        "LegendaryItem",
+        "MobilityItem"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Gameplay/BackPacks/BoostJumpPack/AGID_BoostJumpPack_R",
       "LocalizedName": "ジェットパック",
       "LocalizedDescription": "フルスロットルで噴出するスリルと興奮を。空中でジャンプして起動。",
@@ -3822,6 +3881,20 @@
       ]
     },
     {
+      "AssetPathName": "/GravWellGameplay/PolarityShield/WID_Proto_PolarityShield",
+      "LocalizedName": "ベースブースト",
+      "LocalizedDescription": "純粋な音楽エネルギーの波を放つ。建築物を破壊したり、プレイヤーを吹き飛ばしたり、自分を高く打ち上げたりできるぞ！",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.RollLanding.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.WallStick.PreventHolster",
+        "CH6S3",
+        "Epic",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/HoneyGlass/Gameplay/WID_HoneyGlass",
       "LocalizedName": "カデュケウス・スタッフ",
       "LocalizedDescription": "ナノバイオ技術により、遠距離からターゲットを回復、強化または蘇生できる。また高所から優雅に降下することもできる。助けに行くぞ！",
@@ -4001,6 +4074,16 @@
       "LocalizedName": "キューブスプリッター サブマシンガン",
       "LocalizedDescription": "キューブのエネルギーが注入されたエリートのサブマシンガン。接触の直後に爆発するキューブの破片を射出する。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/MarksmanVisorGameplay/Gameplay/AGID_MarksmanVisor",
+      "LocalizedName": "トラッキング・バイザー",
+      "LocalizedDescription": "敵が残した足跡を追跡し、パルススキャンで近くの敵を見つけよう。",
+      "Tags": [
+        "CH6S3",
+        "Item",
+        "RareItem"
+      ]
     },
     {
       "AssetPathName": "/MedCloud/Gameplay/Items/GID_MedCloud",
@@ -5197,6 +5280,20 @@
       "LocalizedName": "オーバードライブ パルスライフル",
       "LocalizedDescription": "パルスライフル(エキゾチック): 装備中、オーバードライブ効果が得られる。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip",
+      "LocalizedName": "ハデスの鎖",
+      "LocalizedDescription": "冥界の力を宿した危険な近接武器。射程の長いフックショットを使えば、敵を攻撃範囲内まで引き寄せて強力なコンボ攻撃を叩き込むことができる。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Ammo:Infinite",
+        "CH5S2",
+        "Epic",
+        "Melee",
+        "Weapon"
+      ]
     },
     {
       "AssetPathName": "/SunRoseConsumablesGameplay/Gameplay/GoldenFruit/WID_Athena_GoldenFruit",

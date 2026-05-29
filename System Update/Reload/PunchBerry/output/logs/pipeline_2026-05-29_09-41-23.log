@@ -1,10 +1,10 @@
-2026-05-29 09:41:08 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\logs\pipeline_2026-05-29_09-41-08.log
-2026-05-29 09:41:08 | INFO | ===== PiperBoot: pipeline start =====
-2026-05-29 09:41:08 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
-2026-05-29 09:41:08 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot
-2026-05-29 09:41:08 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-05-29 09:41:08 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-05-29 09:41:08 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+2026-05-29 09:41:23 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\output\logs\pipeline_2026-05-29_09-41-23.log
+2026-05-29 09:41:23 | INFO | ===== PunchBerry: pipeline start =====
+2026-05-29 09:41:23 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\items_unique_min.json
+2026-05-29 09:41:23 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PunchBerry
+2026-05-29 09:41:23 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-05-29 09:41:23 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-05-29 09:41:23 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
 [581] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.05.Weight=0.066000 -> OK
 [582] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.05.Weight=0.066000 -> OK
@@ -269,17 +269,17 @@
 [HOTFIX:SEASON4] target=/BlastBerryLoot/DataTables/BlastBerry_AthenaLootPackages_Unranked
 [HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
-[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\PiperBoot\PiperBootLootPackages.json : replaced=3, added=180
-[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/PiperBoot/PiperBootLootPackages
+[STEP1-5] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\PunchBerry\PunchBerryLootPackages.json : replaced=3, added=180
+[HOTFIX:SEASON5] target=/BlastBerryLoot/DataTables/PunchBerry/PunchBerryLootPackages
 [HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryLootPackages__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerry_AthenaLootPackages_Unranked__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\PiperBootLootPackages__final.json
-2026-05-29 09:41:08 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-05-29 09:41:09 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\BlastBerryLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootPackages_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\BlastBerry_AthenaLootPackages_Unranked__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\PunchBerryLootPackages__final.json
+2026-05-29 09:41:23 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-05-29 09:41:23 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
 [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\BlastBerryTierData.json : replaced=1, added=78
@@ -288,102 +288,16 @@
 [STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride.json : replaced=264, added=0
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride
 [HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\BlastBerryTierData__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
-2026-05-29 09:41:09 | INFO | ✓ Hotfix 適用完了 (0.87s)
-2026-05-29 09:41:09 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootTierData_Client__final.json
-2026-05-29 09:41:09 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\AthenaLootPackages_Client__final.json
-2026-05-29 09:41:09 | INFO | load done (0.03s)
-2026-05-29 09:41:09 | INFO | build summary start
-2026-05-29 09:41:09 | INFO | build summary done (0.03s)
-2026-05-29 09:41:09 | INFO | enrich summary with names start
-2026-05-29 09:41:09 | INFO | enrich summary done (0.00s)
-2026-05-29 09:41:09 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-05-29_09-41.json
-2026-05-29 09:41:09 | INFO | build item metadata start
-2026-05-29 09:41:09 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (0.02s)
-2026-05-29 09:41:09 | INFO | build BR_LootData start
-2026-05-29 09:41:09 | INFO | build BR_LootData done (0.00s)
-2026-05-29 09:41:09 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\PiperBoot\PiperBoot_LootData_2026-05-29_09-41.json
-2026-05-29 09:41:09 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\PiperBoot_LootPool.json
-2026-05-29 09:41:09 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py
-2026-05-29 09:41:09 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-05-29_09-41.json
-✅ 抽出件数: 185
-💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-05-05_04-37.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\summary\v39.30_2026-05-29_09-41.json
-✅ 差分作成 完了
-  追加   : 25 / 削除 : 2 / 変更 : 0 / 変化なし : 160
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\output\history\BR_20260529_0941\items_unique_min_diff.json
-2026-05-29 09:41:09 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PiperBoot\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
-  """
-2026-05-29 09:41:09 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.27s)
-2026-05-29 09:41:09 | INFO | prewarm start
-2026-05-29 09:41:10 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.78s)
-2026-05-29 09:41:10 | INFO | 画像化タスク数: 185
-2026-05-29 09:41:10 | INFO | 画像生成 進捗: 1/185
-2026-05-29 09:41:11 | INFO | 画像生成 進捗: 50/185
-2026-05-29 09:41:11 | INFO | 画像生成 進捗: 100/185
-2026-05-29 09:41:12 | INFO | 画像生成 進捗: 150/185
-2026-05-29 09:41:12 | INFO | 画像生成 進捗: 185/185
-2026-05-29 09:41:12 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-05-29 09:41:12 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\PiperBoot_2026-05-29_09-41-12.json (added=28 removed=3 change=141)
-2026-05-29 09:41:12 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\PiperBoot\AddedItems\2026-05-29_09-41-12 (copied=28 missing=0)
-2026-05-29 09:41:12 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-05-29 09:41:14 | INFO | git commit stdout: [main 7934e9d] PiperBoot update 2026-05-29 09:41:13
- 66 files changed, 123166 insertions(+), 40433 deletions(-)
- create mode 100644 System Update/Reload/PiperBoot/output/history/BR_20260529_0941/items_unique_min_diff.json
- create mode 100644 System Update/Reload/PiperBoot/output/logs/pipeline_2026-05-29_09-41-08.log
- create mode 100644 System Update/Reload/PiperBoot/output/summary/v39.30_2026-05-29_09-41.json
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\220\343\203\226\343\203\253.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2423 - \343\203\210\343\203\251\343\203\203\343\202\255\343\203\263\343\202\260\343\203\273\343\203\220\343\202\244\343\202\266\343\203\274.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2423 - \345\256\210\350\255\267\350\200\205\343\201\256\347\233\276.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\202\253\343\202\252\343\202\271\343\203\252\343\203\255\343\203\274\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\202\255\343\203\253\343\202\271\343\202\244\343\203\203\343\203\201\343\203\273\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\251\343\203\203\343\203\227\343\203\251\343\203\274.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\202\265\343\203\274\343\203\225\343\202\255\343\203\245\343\203\274\343\203\226.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\217\343\203\263\343\203\236\343\203\274.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\213\343\203\274\343\202\255\343\203\243\343\203\203\343\203\221\343\203\274.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\217\343\203\207\343\202\271\343\201\256\351\216\226.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\225\343\203\255\343\203\274\343\203\231\343\203\252\343\203\274\343\203\237\343\202\271\343\203\210\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\231\343\203\274\343\202\271\343\203\226\343\203\274\343\202\271\343\203\210.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\252\343\203\274\343\203\221\343\203\274\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \343\203\255\343\202\261\343\203\203\343\203\210\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   .png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2424 - \350\231\232\347\251\272\343\201\256\351\254\274\343\201\256\344\273\256\351\235\242.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2425 - \343\202\253\343\203\207\343\203\245\343\202\261\343\202\246\343\202\271\343\203\273\343\202\271\343\202\277\343\203\203\343\203\225.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2425 - \343\202\270\343\202\247\343\203\203\343\203\210\343\203\221\343\203\203\343\202\257.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2426 - \343\202\252\343\203\274\343\203\220\343\203\274\343\203\211\343\203\251\343\202\244\343\203\226 \343\203\221\343\203\253\343\202\271\343\203\251\343\202\244\343\203\225\343\203\253.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2426 - \343\203\201\343\203\243\343\202\260\343\202\255\343\203\243\343\203\216\343\203\263.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2426 - \343\203\204\343\202\244\343\203\263\343\202\265\343\202\244\343\203\225\343\202\251\343\203\263\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2426 - \343\203\252\343\203\274\343\202\263\343\203\263\343\203\234\343\202\246(\343\202\250\343\202\255\343\202\276\343\203\201\343\203\203\343\202\257).png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2426 - \343\203\252\343\203\274\343\203\224\343\203\263\343\202\260 \343\203\251\343\202\244\343\203\210\343\203\213\343\203\263\343\202\260\343\202\254\343\203\263(\343\202\250\343\202\255\343\202\276\343\203\201\343\203\203\343\202\257).png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2427 - \343\202\242\343\202\244\343\202\271\343\202\255\343\203\263\343\202\260\343\201\256\343\202\254\343\203\263\343\203\210\343\203\254\343\203\203\343\203\210.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2427 - \343\202\250\343\203\263\343\203\217\343\203\263\343\202\271\343\203\211\343\203\217\343\203\234\343\203\203\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2427 - \343\202\271\343\202\253\343\202\244\343\201\256\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2427 - \343\203\236\343\202\244\343\203\200\343\202\271\343\201\256\343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
- create mode 100644 "System Update/shared/images/PiperBoot/AddedItems/2026-05-29_09-41-12/\343\203\206\343\202\243\343\202\2427 - \347\216\213\350\200\205\343\202\250\343\202\244\343\202\270\343\203\254\343\202\271\343\201\256\343\202\250\343\202\257\343\202\271\343\203\273\343\202\255\343\203\243\343\203\252\343\203\220\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\242\343\202\244\343\202\271\343\202\255\343\203\263\343\202\260\343\201\256\343\202\254\343\203\263\343\203\210\343\203\254\343\203\203\343\203\210 - \343\203\206\343\202\243\343\202\2427.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\252\343\203\274\343\203\220\343\203\274\343\203\211\343\203\251\343\202\244\343\203\226 \343\203\221\343\203\253\343\202\271\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\253\343\203\207\343\203\245\343\202\261\343\202\246\343\202\271\343\203\273\343\202\271\343\202\277\343\203\203\343\203\225 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\255\343\203\253\343\202\271\343\202\244\343\203\203\343\203\201\343\203\273\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\265\343\203\274\343\203\225\343\202\255\343\203\245\343\203\274\343\203\226 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\267\343\203\247\343\203\203\343\202\257\343\202\246\343\202\247\343\203\274\343\203\226\343\203\217\343\203\263\343\203\236\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\267\343\203\274\343\203\253\343\203\211\343\203\220\343\203\226\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\202\270\343\202\247\343\203\203\343\203\210\343\203\221\343\203\203\343\202\257 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\201\343\203\243\343\202\260\343\202\255\343\203\243\343\203\216\343\203\263 - \343\203\206\343\202\243\343\202\2426.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260 - \343\203\206\343\202\243\343\202\2425.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\204\343\202\244\343\203\263\343\202\265\343\202\244\343\203\225\343\202\251\343\203\263\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2426.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\210\343\203\251\343\203\203\343\202\255\343\203\263\343\202\260\343\203\273\343\203\220\343\202\244\343\202\266\343\203\274 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\213\343\203\274\343\202\255\343\203\243\343\203\203\343\203\221\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\217\343\203\207\343\202\271\343\201\256\351\216\226 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\231\343\203\274\343\202\271\343\203\226\343\203\274\343\202\271\343\203\210 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\252\343\203\274\343\202\263\343\203\263\343\203\234\343\202\246(\343\202\250\343\202\255\343\202\276\343\203\201\343\203\203\343\202\257) - \343\203\206\343\202\243\343\202\2426.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\343\203\252\343\203\274\343\203\224\343\203\263\343\202\260 \343\203\251\343\202\244\343\203\210\343\203\213\343\203\263\343\202\260\343\202\254\343\203\263(\343\202\250\343\202\255\343\202\276\343\203\201\343\203\203\343\202\257) - \343\203\206\343\202\243\343\202\2426.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\345\256\210\350\255\267\350\200\205\343\201\256\347\233\276 - \343\203\206\343\202\243\343\202\2423.png"
- create mode 100644 "System Update/shared/images/PiperBoot/\350\231\232\347\251\272\343\201\256\351\254\274\343\201\256\344\273\256\351\235\242 - \343\203\206\343\202\243\343\202\2424.png"
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/PiperBoot/PiperBoot_LootData_2026-05-29_09-41.json"
-2026-05-29 09:41:22 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   f0b4ca8..7934e9d  main -> main
-2026-05-29 09:41:22 | INFO | ✓ GitHub Push 完了
-2026-05-29 09:41:22 | INFO | ===== PiperBoot: pipeline end =====
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\BlastBerryTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+2026-05-29 09:41:23 | INFO | ✓ Hotfix 適用完了 (0.88s)
+2026-05-29 09:41:23 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootTierData_Client__final.json
+2026-05-29 09:41:23 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\input\AthenaLootPackages_Client__final.json
+2026-05-29 09:41:23 | INFO | load done (0.03s)
+2026-05-29 09:41:23 | INFO | build summary start
+2026-05-29 09:41:23 | INFO | build summary done (0.03s)
+2026-05-29 09:41:23 | INFO | enrich summary with names start
+2026-05-29 09:41:23 | INFO | enrich summary done (0.00s)
+2026-05-29 09:41:24 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\PunchBerry\output\summary\v39.30_2026-05-29_09-41.json
+2026-05-29 09:41:24 | INFO | build item metadata start

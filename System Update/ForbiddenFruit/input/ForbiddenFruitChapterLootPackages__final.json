@@ -12388,7 +12388,7 @@
       },
       "WorldList.AthenaAmmoLarge.06": {
         "LootPackageID": "WorldList.AthenaAmmoLarge",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -12553,7 +12553,7 @@
       },
       "WorldList.AthenaAmmoSmall.04": {
         "LootPackageID": "WorldList.AthenaAmmoSmall",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -12817,7 +12817,7 @@
       },
       "WorldList.BusAmmoHeavy.01": {
         "LootPackageID": "WorldList.BusAmmoHeavy",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22552,7 +22552,7 @@
       },
       "WorldList.AthenaLoot.Ammo.Heavy.01": {
         "LootPackageID": "WorldList.AthenaLoot.Ammo.Heavy",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -22783,7 +22783,7 @@
       },
       "WorldList.AthenaLoot.Ammo.06": {
         "LootPackageID": "WorldList.AthenaLoot.Ammo",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31449,7 +31449,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR",
+        "ItemDefinition": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33703,7 +33703,7 @@
       },
       "WorldList.GoldChest.Boons.01": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 0.33,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33723,7 +33723,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
+        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33733,7 +33733,7 @@
       },
       "WorldList.GoldChest.Boons.02": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33753,7 +33753,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
+        "ItemDefinition": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33796,7 +33796,7 @@
       },
       "WorldList.GoldChest.Boons.04": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33816,7 +33816,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_VR.WID_Sniper_NoScope_ExSword_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/AdrenalineRush/PAID_VividRazor_AdrenalineRush.PAID_VividRazor_AdrenalineRush",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -34354,7 +34357,7 @@
       },
       "WorldList.GoldChest.Medallions.01": {
         "LootPackageID": "WorldList.GoldChest.Medallions",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -34374,7 +34377,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR.WID_ZiplineDeployer_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/TidalCraneMedallionGameplay/Gameplay/Carapace/PAID_TidalCrane_Carapace_FF.PAID_TidalCrane_Carapace_FF",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41644,7 +41650,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41664,7 +41670,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_SR.WID_Pistol_Heavy_TeaCake_Athena_SR",
+        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41673,6 +41679,36 @@
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
+        "Weight": 0.8,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Sp.Weapon.C0;Item:WID.DemonMask.Void",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
         "Weight": 0.0,
         "NamedWeightMult": "None",
@@ -41694,37 +41730,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaSupplyDrop.Sp.Weapon.C0;Item:WID.DemonMask.Void",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
-        "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
         },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_SR.WID_Sniper_NoScope_ExSword_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41734,7 +41743,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41754,7 +41763,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43183,7 +43195,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.0,
+        "Weight": 1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43203,10 +43215,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UR.WID_Assault_FirePetal_Fast_Athena_UR",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43216,7 +43225,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.0,
+        "Weight": 0.8,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43236,10 +43245,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45097,6 +45103,66 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
+        "Weight": 0.75,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.DemonMask.Fire.Mythic",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBlitzLlama.MythicItem.02": {
+        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
+        "Weight": 1,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.DemonMask.Void.Mythic",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaBlitzLlama.MythicItem.03": {
+        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
         "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -45117,67 +45183,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_UR.WID_PepperCat_UR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.DemonMask.Fire.Mythic",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaBlitzLlama.MythicItem.02": {
-        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
         },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UR.WID_Pistol_Heavy_TeaCake_Athena_UR",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.AthenaBlitzLlama.MythicItem.C0;Item:WID.DemonMask.Void.Mythic",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.AthenaBlitzLlama.MythicItem.03": {
-        "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_UR_EmblemBoss.WID_Sniper_NoScope_ExSword_Athena_UR_EmblemBoss",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45187,7 +45196,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.04": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45207,7 +45216,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace_Mythic.WID_Muster_ShockwaveMace_Mythic",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45811,7 +45823,7 @@
       },
       "WorldList.BusWeap.01": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45831,7 +45843,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UC.WID_Pistol_Heavy_TeaCake_Athena_UC",
+        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_UC.WID_Shotgun_Auto_FirePetal_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45841,7 +45853,7 @@
       },
       "WorldList.BusWeap.02": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.66,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45861,7 +45873,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_R.WID_Pistol_Heavy_TeaCake_Athena_R",
+        "ItemDefinition": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_UC.WID_Assault_Radical_CoreAR_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45871,7 +45883,67 @@
       },
       "WorldList.BusWeap.03": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_UC.WID_Shotgun_RadicalPump_Athena_UC",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Void",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.04": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UC.WID_CQB_AR_UC",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.Melee.Masamune",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusWeap.05": {
+        "LootPackageID": "WorldList.BusWeap",
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45896,72 +45968,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.DemonMask.Void",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.04": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterPistol/WID_Pistol_Muster_Athena_UC.WID_Pistol_Muster_Athena_UC",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.Melee.Masamune",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusWeap.05": {
-        "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterPumpShotgun/WID_Shotgun_MusterPump_Athena_UC.WID_Shotgun_MusterPump_Athena_UC",
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.BusWeap.C0;Item:WID.Moonflax.NitroGauntlet",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 1.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45981,7 +45993,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC.WID_Shotgun_MusterDPS_Athena_UC",
+        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46011,7 +46023,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46021,7 +46036,7 @@
       },
       "WorldList.BusWeap.08": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.66,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46041,7 +46056,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/SwordDMR/WID_Sniper_NoScope_ExSword_Athena_R.WID_Sniper_NoScope_ExSword_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47272,7 +47290,7 @@
       },
       "WorldList.BusGrant2.BusWeap.01": {
         "LootPackageID": "WorldList.BusGrant2.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47292,10 +47310,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_X.WID_Shotgun_Auto_Dual_DragonCart_Athena_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48233,8 +48248,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 3,
-          "Y": 3
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -48249,7 +48264,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
+        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -49843,7 +49858,7 @@
       },
       "WorldList.BusGrant2.ItemSet.1.01": {
         "LootPackageID": "WorldList.BusGrant2.ItemSet.1",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -49863,10 +49878,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire_Mythic.WID_DemonMask_Fire_Mythic",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

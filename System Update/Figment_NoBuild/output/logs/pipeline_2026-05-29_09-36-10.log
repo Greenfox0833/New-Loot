@@ -35,3 +35,54 @@
 2026-05-29 09:36:11 | INFO | enrich summary done (0.00s)
 2026-05-29 09:36:11 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-05-29_09-36.json
 2026-05-29 09:36:11 | INFO | build item metadata start
+2026-05-29 09:36:12 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (1.02s)
+2026-05-29 09:36:12 | INFO | build Figment_NoBuild_LootData start
+2026-05-29 09:36:12 | INFO | build BR_LootData done (0.00s)
+2026-05-29 09:36:12 | INFO | ✅ Figment_NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment_NoBuild\Figment_NoBuild_LootData_2026-05-29_09-36.json
+2026-05-29 09:36:12 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_ZB_LootPool.json
+2026-05-29 09:36:12 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\LootSummary.py
+2026-05-29 09:36:12 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-05-29_09-36.json
+✅ 抽出件数: 107
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-04-17_19-04.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-05-29_09-36.json
+✅ 差分作成 完了
+  追加   : 5 / 削除 : 3 / 変更 : 0 / 変化なし : 102
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\history\BR_20260529_0936\items_unique_min_diff.json
+2026-05-29 09:36:12 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-05-29 09:36:12 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.28s)
+2026-05-29 09:36:12 | INFO | prewarm start
+2026-05-29 09:36:13 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.43s)
+2026-05-29 09:36:13 | INFO | 画像化タスク数: 107
+2026-05-29 09:36:13 | INFO | 画像生成 進捗: 1/107
+2026-05-29 09:36:13 | INFO | 画像生成 進捗: 50/107
+2026-05-29 09:36:14 | INFO | 画像生成 進捗: 100/107
+2026-05-29 09:36:14 | INFO | 画像生成 進捗: 107/107
+2026-05-29 09:36:14 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-05-29 09:36:14 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Figment_NoBuild_2026-05-29_09-36-14.json (added=8 removed=3 change=48)
+2026-05-29 09:36:14 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Figment_NoBuild\AddedItems\2026-05-29_09-36-14 (copied=8 missing=0)
+2026-05-29 09:36:14 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-05-29 09:36:16 | INFO | git commit stdout: [main d09ccf3] Figment_NoBuild update 2026-05-29 09:36:15
+ 27 files changed, 26796 insertions(+), 287 deletions(-)
+ create mode 100644 System Update/Figment_NoBuild/output/history/BR_20260529_0936/items_unique_min_diff.json
+ create mode 100644 System Update/Figment_NoBuild/output/logs/pipeline_2026-05-29_09-36-10.log
+ create mode 100644 System Update/Figment_NoBuild/output/summary/v39.30_2026-05-29_09-36.json
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2422 - \343\202\267\343\203\243\343\203\211\343\203\274\343\203\234\343\203\240.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2422 - \343\203\235\343\202\244\343\202\272\343\203\263\343\203\200\343\203\274\343\203\204\343\203\210\343\203\251\343\203\203\343\203\227.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2424 - \343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2425 - \343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2425 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/AddedItems/2026-05-29_09-36-14/\343\203\206\343\202\243\343\202\2425 - \343\203\226\343\203\274\343\203\240\343\203\234\343\202\246.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\202\267\343\203\243\343\203\211\343\203\274\343\203\234\343\203\240 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\226\343\203\274\343\203\240\343\203\234\343\202\246 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Figment_NoBuild/\343\203\235\343\202\244\343\202\272\343\203\263\343\203\200\343\203\274\343\203\204\343\203\210\343\203\251\343\203\203\343\203\227 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment_NoBuild/Figment_NoBuild_LootData_2026-05-29_09-36.json"
+2026-05-29 09:36:23 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   33f3f38..d09ccf3  main -> main
+2026-05-29 09:36:23 | INFO | ✓ GitHub Push 完了
+2026-05-29 09:36:23 | INFO | ===== Figment_NoBuild: pipeline end =====

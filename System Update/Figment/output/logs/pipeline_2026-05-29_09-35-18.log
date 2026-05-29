@@ -30,3 +30,62 @@
 2026-05-29 09:35:19 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\AthenaLootPackages_Client__final.json
 2026-05-29 09:35:19 | INFO | load done (0.01s)
 2026-05-29 09:35:19 | INFO | build summary start
+2026-05-29 09:35:20 | INFO | build summary done (1.22s)
+2026-05-29 09:35:20 | INFO | enrich summary with names start
+2026-05-29 09:35:21 | INFO | enrich summary done (0.89s)
+2026-05-29 09:35:21 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-05-29_09-35.json
+2026-05-29 09:35:21 | INFO | build item metadata start
+2026-05-29 09:35:52 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (31.34s)
+2026-05-29 09:35:52 | INFO | build Figment_LootData start
+2026-05-29 09:35:52 | INFO | build BR_LootData done (0.00s)
+2026-05-29 09:35:52 | INFO | ✅ Figment_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment\Figment_LootData_2026-05-29_09-35.json
+2026-05-29 09:35:52 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\ORIGIN_LootPool.json
+2026-05-29 09:35:52 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py
+2026-05-29 09:35:53 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-05-29_09-35.json
+✅ 抽出件数: 106
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-04-17_19-04.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary\v39.30_2026-05-29_09-35.json
+✅ 差分作成 完了
+  追加   : 5 / 削除 : 3 / 変更 : 0 / 変化なし : 101
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\history\BR_20260529_0935\items_unique_min_diff.json
+2026-05-29 09:35:53 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-05-29 09:35:53 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.28s)
+2026-05-29 09:35:53 | INFO | prewarm start
+2026-05-29 09:35:55 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.07s)
+2026-05-29 09:35:55 | INFO | 画像化タスク数: 106
+2026-05-29 09:35:55 | INFO | 画像生成 進捗: 1/106
+2026-05-29 09:35:56 | INFO | 画像生成 進捗: 50/106
+2026-05-29 09:35:56 | INFO | 画像生成 進捗: 100/106
+2026-05-29 09:35:57 | INFO | 画像生成 進捗: 106/106
+2026-05-29 09:35:57 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-05-29 09:35:57 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\ORIGIN_2026-05-29_09-35-57.json (added=8 removed=3 change=47)
+2026-05-29 09:35:57 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Figment\AddedItems\2026-05-29_09-35-57 (copied=8 missing=0)
+2026-05-29 09:35:57 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-05-29 09:36:02 | INFO | git commit stdout: [main 33f3f38] Figment update 2026-05-29 09:35:59
+ 29 files changed, 25112 insertions(+), 131 deletions(-)
+ create mode 100644 System Update/Figment/output/history/BR_20260529_0935/items_unique_min_diff.json
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-05-29_09-35-18.log
+ create mode 100644 System Update/Figment/output/summary/v39.30_2026-05-29_09-35.json
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-Items2-ShadowBomb-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-Explosive-Bow-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Items2-SM-BlowDart-Floor-L.png
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2422 - \343\202\267\343\203\243\343\203\211\343\203\274\343\203\234\343\203\240.png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2422 - \343\203\235\343\202\244\343\202\272\343\203\263\343\203\200\343\203\274\343\203\204\343\203\210\343\203\251\343\203\203\343\203\227.png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2424 - \343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2425 - \343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2425 - \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274  .png"
+ create mode 100644 "System Update/shared/images/Figment/AddedItems/2026-05-29_09-35-57/\343\203\206\343\202\243\343\202\2425 - \343\203\226\343\203\274\343\203\240\343\203\234\343\202\246.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\202\244\343\203\263\343\203\225\343\202\241\343\203\263\343\203\210\343\203\252\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\202\267\343\203\243\343\203\211\343\203\274\343\203\234\343\203\240 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\203\226\343\203\274\343\203\240\343\203\234\343\202\246 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Figment/\343\203\235\343\202\244\343\202\272\343\203\263\343\203\200\343\203\274\343\203\204\343\203\210\343\203\251\343\203\203\343\203\227 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Figment/Figment_LootData_2026-05-29_09-35.json"
+2026-05-29 09:36:09 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   c5f1c3e..33f3f38  main -> main
+2026-05-29 09:36:09 | INFO | ✓ GitHub Push 完了
+2026-05-29 09:36:09 | INFO | ===== Figment: pipeline end =====

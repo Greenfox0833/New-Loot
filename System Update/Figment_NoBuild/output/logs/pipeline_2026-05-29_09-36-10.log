@@ -1,0 +1,37 @@
+2026-05-29 09:36:10 | INFO | log file (Figment_NoBuild): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\logs\pipeline_2026-05-29_09-36-10.log
+2026-05-29 09:36:10 | INFO | ===== Figment_NoBuild: pipeline start =====
+2026-05-29 09:36:10 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\items_unique_min.json
+2026-05-29 09:36:10 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment_NoBuild
+2026-05-29 09:36:10 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-05-29 09:36:10 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-05-29 09:36:11 | INFO | hotfix lp stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootPackages.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\NoBuild\NoBuildFigmentLootPackages_Override.json : replaced=75, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/NoBuild/NoBuildFigmentLootPackages_Override
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\FigmentLootPackages__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\NoBuildFigmentLootPackages_Override__final.json
+2026-05-29 09:36:11 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-05-29 09:36:11 | INFO | hotfix lt stdout: [STEP1-1] base E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\FigmentLootTierData.json
+[HOTFIX:SEASON1] target=/Figment_LootTables/DataTables/FigmentLootPackages
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Figment\Figment_LootTables\Content\DataTables\NoBuild\NoBuildFigmentLootTierData_Override.json : replaced=0, added=0
+[HOTFIX:SEASON2] target=/Figment_LootTables/DataTables/NoBuild/NoBuildFigmentLootPackages_Override
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\FigmentLootTierData__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\NoBuildFigmentLootTierData_Override__final.json
+2026-05-29 09:36:11 | INFO | ✓ Hotfix 適用完了 (0.70s)
+2026-05-29 09:36:11 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootTierData_Client__final.json
+2026-05-29 09:36:11 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\input\AthenaLootPackages_Client__final.json
+2026-05-29 09:36:11 | INFO | load done (0.01s)
+2026-05-29 09:36:11 | INFO | build summary start
+2026-05-29 09:36:11 | INFO | build summary done (0.02s)
+2026-05-29 09:36:11 | INFO | enrich summary with names start
+2026-05-29 09:36:11 | INFO | enrich summary done (0.00s)
+2026-05-29 09:36:11 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment_NoBuild\output\summary\v39.30_2026-05-29_09-36.json
+2026-05-29 09:36:11 | INFO | build item metadata start

@@ -1,10 +1,10 @@
-2026-05-29 09:39:08 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\logs\pipeline_2026-05-29_09-39-08.log
-2026-05-29 09:39:08 | INFO | ===== Reload_Ranked: pipeline start =====
-2026-05-29 09:39:08 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
-2026-05-29 09:39:08 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
-2026-05-29 09:39:08 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-05-29 09:39:08 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-05-29 09:39:09 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+2026-05-29 09:40:12 | INFO | log file (Reload_NoBuild_Ranked): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\logs\pipeline_2026-05-29_09-40-12.log
+2026-05-29 09:40:12 | INFO | ===== Reload_NoBuild_Ranked: pipeline start =====
+2026-05-29 09:40:12 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\items_unique_min.json
+2026-05-29 09:40:12 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_NoBuild_Ranked
+2026-05-29 09:40:12 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-05-29 09:40:12 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-05-29 09:40:13 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
 [581] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.05.Weight=0.066000 -> OK
 [582] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.05.Weight=0.066000 -> OK
@@ -319,68 +319,65 @@
 [1078] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Handgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
 [HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
 [HOTFIX:SEASON3] done: applied=18, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryLootPackages_Habanero__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_Habanero__final.json
-2026-05-29 09:39:09 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-05-29 09:39:09 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\NoBuild\AthenaLootPackages_Client_BlastBerryOverride_NoBuild.json : replaced=36, added=5
+[HOTFIX:SEASON4] target=/BlastBerryLoot/DataTables/NoBuild/AthenaLootPackages_Client_BlastBerryOverride_NoBuild
+[HOTFIX:SEASON4] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\BlastBerryLootPackages_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_NoBuild__final.json
+2026-05-29 09:40:13 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-05-29 09:40:13 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
 [HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
 [STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\Habanero\BlastBerryTierData_Habanero.json : replaced=1, added=78
 [HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryTierData_Habanero
 [HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
-[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride_Habanero.json : replaced=264, added=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride.json : replaced=264, added=0
 [HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero
 [HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
-[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryTierData_Habanero__final.json
-[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_Habanero__final.json
-2026-05-29 09:39:09 | INFO | ✓ Hotfix 適用完了 (0.89s)
-2026-05-29 09:39:09 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
-2026-05-29 09:39:09 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
-2026-05-29 09:39:09 | INFO | load done (0.04s)
-2026-05-29 09:39:09 | INFO | build summary start
-2026-05-29 09:39:09 | INFO | build summary done (0.04s)
-2026-05-29 09:39:09 | INFO | enrich summary with names start
-2026-05-29 09:39:09 | INFO | enrich summary done (0.00s)
-2026-05-29 09:39:09 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-05-29_09-39.json
-2026-05-29 09:39:09 | INFO | build item metadata start
-2026-05-29 09:39:41 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (32.00s)
-2026-05-29 09:39:41 | INFO | build BR_LootData start
-2026-05-29 09:39:41 | INFO | build BR_LootData done (0.00s)
-2026-05-29 09:39:41 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-05-29_09-39.json
-2026-05-29 09:39:41 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
-2026-05-29 09:39:41 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
-2026-05-29 09:39:42 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-05-29_09-39.json
-✅ 抽出件数: 165
-💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
-🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-05-15_00-09.json
-🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-05-29_09-39.json
+[STEP1-4] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\NoBuild\AthenaLootTierData_Client_BlastBerryOverride_NoBuild.json : replaced=0, added=1
+[HOTFIX:SEASON4] target=/BlastBerryLoot/DataTables/NoBuild/AthenaLootTierData_Client_BlastBerryOverride_NoBuild
+[HOTFIX:SEASON4] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\BlastBerryTierData_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_NoBuild__final.json
+2026-05-29 09:40:13 | INFO | ✓ Hotfix 適用完了 (0.85s)
+2026-05-29 09:40:13 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootTierData_Client__final.json
+2026-05-29 09:40:13 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\AthenaLootPackages_Client__final.json
+2026-05-29 09:40:13 | INFO | load done (0.03s)
+2026-05-29 09:40:13 | INFO | build summary start
+2026-05-29 09:40:13 | INFO | build summary done (0.03s)
+2026-05-29 09:40:13 | INFO | enrich summary with names start
+2026-05-29 09:40:13 | INFO | enrich summary done (0.00s)
+2026-05-29 09:40:13 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\summary\v39.30_2026-05-29_09-40.json
+2026-05-29 09:40:13 | INFO | build item metadata start
+2026-05-29 09:40:13 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (0.02s)
+2026-05-29 09:40:13 | INFO | build Reload_NoBuild_Ranked_LootData start
+2026-05-29 09:40:13 | INFO | build BR_LootData done (0.00s)
+2026-05-29 09:40:13 | INFO | ✅ Reload_NoBuild_Ranked_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_NoBuild_Ranked\Reload_NoBuild_Ranked_LootData_2026-05-29_09-40.json
+2026-05-29 09:40:13 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_NoBuild_Ranked_ZB_LootPool.json
+2026-05-29 09:40:13 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\scripts\LootSummary.py
+2026-05-29 09:40:13 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\summary\v39.30_2026-05-29_09-40.json
+✅ 抽出件数: 166
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\summary\v39.30_2026-05-05_04-35.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\summary\v39.30_2026-05-29_09-40.json
 ✅ 差分作成 完了
-  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 165
-💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260529_0939\items_unique_min_diff.json
-2026-05-29 09:39:42 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  追加   : 25 / 削除 : 10 / 変更 : 0 / 変化なし : 141
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\output\history\BR_20260529_0940\items_unique_min_diff.json
+2026-05-29 09:40:13 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_NoBuild_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
   """
-2026-05-29 09:39:42 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.31s)
-2026-05-29 09:39:42 | INFO | prewarm start
-2026-05-29 09:39:43 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.32s)
-2026-05-29 09:39:43 | INFO | 画像化タスク数: 165
-2026-05-29 09:39:43 | INFO | 画像生成 進捗: 1/165
-2026-05-29 09:39:44 | INFO | 画像生成 進捗: 50/165
-2026-05-29 09:39:44 | INFO | 画像生成 進捗: 100/165
-2026-05-29 09:39:44 | INFO | 画像生成 進捗: 150/165
-2026-05-29 09:39:44 | INFO | 画像生成 進捗: 165/165
-2026-05-29 09:39:44 | INFO | ✅ 画像生成 完了（MinListベース）
-2026-05-29 09:39:45 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-05-29_09-39-45.json (added=0 removed=0 change=6)
-2026-05-29 09:39:45 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
-2026-05-29 09:39:45 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-05-29 09:39:46 | INFO | git commit stdout: [main 670ccc2] Reload_Ranked update 2026-05-29 09:39:46
- 11 files changed, 53039 insertions(+), 22 deletions(-)
- create mode 100644 System Update/Reload_Ranked/output/history/BR_20260529_0939/items_unique_min_diff.json
- create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-05-29_09-39-08.log
- create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-05-29_09-39.json
- create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-05-29_09-39.json"
-2026-05-29 09:39:54 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   724f81f..670ccc2  main -> main
-2026-05-29 09:39:54 | INFO | ✓ GitHub Push 完了
-2026-05-29 09:39:54 | INFO | ===== Reload_Ranked: pipeline end =====
+2026-05-29 09:40:13 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.32s)
+2026-05-29 09:40:13 | INFO | prewarm start
+2026-05-29 09:40:14 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.62s)
+2026-05-29 09:40:14 | INFO | 画像化タスク数: 166
+2026-05-29 09:40:14 | INFO | 画像生成 進捗: 1/166
+2026-05-29 09:40:15 | INFO | 画像生成 進捗: 50/166
+2026-05-29 09:40:15 | INFO | 画像生成 進捗: 100/166
+2026-05-29 09:40:16 | INFO | 画像生成 進捗: 150/166
+2026-05-29 09:40:16 | INFO | 画像生成 進捗: 166/166
+2026-05-29 09:40:16 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-05-29 09:40:16 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_NoBuild_Ranked_2026-05-29_09-40-16.json (added=26 removed=11 change=126)

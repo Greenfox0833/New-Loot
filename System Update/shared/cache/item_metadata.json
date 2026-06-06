@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": "2026-05-30T04:39:23",
+  "UpdatedAt": "2026-06-06T10:48:44",
   "UpdatedByProfile": "BR",
   "Items": [
     {
@@ -898,6 +898,20 @@
       ]
     },
     {
+      "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable",
+      "LocalizedName": "ビジネスタレット",
+      "LocalizedDescription": "敵の近くにビジネスタレットを投下して、正確に、スタイリッシュに、そしてエレガントに付近の標的を狙い、撃破する様子を見守ろう。",
+      "Tags": [
+        "CH4S4",
+        "ConsumableItem",
+        "DamageItem",
+        "Deployable",
+        "EpicItem",
+        "Item",
+        "Throwable"
+      ]
+    },
+    {
       "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
       "LocalizedName": "ツインハンマーショットガン",
       "LocalizedDescription": "フルオートのデュアルショットガン。連射速度が速く、近距離でのダメージはかなり高い。片手ずつ発砲し、リロードにはやや時間がかかる。",
@@ -1180,6 +1194,19 @@
         "Guard",
         "SMG",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP",
+      "LocalizedName": "シールドブレイカーEMP",
+      "LocalizedDescription": "着弾時に妨害EMPを発生させ、シールドにダメージを与えるとともに、範囲内の電子機器を一時的に無効にする。足元に落とさないように。",
+      "Tags": [
+        "Ch4S4",
+        "ConsumableItem",
+        "Item",
+        "OverrideCount_5",
+        "RareItem",
+        "Throwable"
       ]
     },
     {
@@ -1857,6 +1884,51 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/FillerGrunt/Gameplay/Pistol_Fang/WID_FG_Fang_Pistol_R",
+      "LocalizedName": "ランスヘッド ピストル",
+      "LocalizedDescription": "高い連射速度、大容量マガジン、中程度のダメージ、巧妙なリロードの数々を特徴とするセミオートピストル。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Gameplay.DoorBash.Override",
+        "Item.Weapon.Ranged.Pistol.FillerGrunt"
+      ]
+    },
+    {
+      "AssetPathName": "/FillerGrunt/Gameplay/Pistol_Fang/WID_FG_Fang_Pistol_SR",
+      "LocalizedName": "ランスヘッド ピストル",
+      "LocalizedDescription": "高い連射速度、大容量マガジン、中程度のダメージ、巧妙なリロードの数々を特徴とするセミオートピストル。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Gameplay.DoorBash.Override",
+        "Item.Weapon.Ranged.Pistol.FillerGrunt"
+      ]
+    },
+    {
+      "AssetPathName": "/FillerGrunt/Gameplay/Pistol_Fang/WID_FG_Fang_Pistol_UR",
+      "LocalizedName": "9mm ババヤガ",
+      "LocalizedDescription": "21弾数のマガジン。大型のコンペンセイターにより、銃口の跳ね上がりを軽減。集光ファイバーのフロントサイト。左右両利き対応の安全装置。ロート状に広がったマグウェルで素早くリロード可能。0.9kgの良好トリガー。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Weapon.Meta.DoNotApplyWraps",
+        "Gameplay.DoorBash.Override",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Item.Weapon.Ranged.Pistol.FillerGrunt.Mythic"
+      ]
+    },
+    {
+      "AssetPathName": "/FillerGrunt/Gameplay/Pistol_Fang/WID_FG_Fang_Pistol_VR",
+      "LocalizedName": "ランスヘッド ピストル",
+      "LocalizedDescription": "高い連射速度、大容量マガジン、中程度のダメージ、巧妙なリロードの数々を特徴とするセミオートピストル。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Gameplay.DoorBash.Override",
+        "Item.Weapon.Ranged.Pistol.FillerGrunt"
+      ]
+    },
+    {
       "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO",
       "LocalizedName": "風の恵み",
       "LocalizedDescription": "ツルハシを装備している間、移動速度が向上する。",
@@ -2427,6 +2499,146 @@
       ]
     },
     {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_C",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Common",
+        "Flipped",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_R",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Flipped",
+        "Guard",
+        "Rare",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_SR",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Flipped",
+        "Guard",
+        "Legendary",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_UC",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Flipped",
+        "Guard",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_UR",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Flipped",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/BurstShotgun/WID_Shotgun_CoreBurst_Athena_VR",
+      "LocalizedName": "ストライカーポンプショットガン",
+      "LocalizedDescription": "ショットガン: 連射速度は遅いが、ダメージは大きい。射程が短くマガジンサイズが小さい。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun",
+        "Ammo:Shells",
+        "Epic",
+        "Flipped",
+        "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_C",
+      "LocalizedName": "スティンガーサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG",
+        "Ammo:Light",
+        "Common",
+        "Flipped",
+        "Guard",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_R",
+      "LocalizedName": "スティンガーサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG",
+        "Ammo:Light",
+        "Flipped",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_SR",
+      "LocalizedName": "スティンガーサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG",
+        "Ammo:Light",
+        "Flipped",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_UC",
+      "LocalizedName": "スティンガーサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG",
+        "Ammo:Light",
+        "Flipped",
+        "Guard",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_UR_IOBrute",
       "LocalizedName": "グンナーのスティンガーサブマシンガン",
       "LocalizedDescription": "反動が強い代わりにダメージが強化された、高連射速度のSMG。",
@@ -2435,6 +2647,20 @@
         "Flipped",
         "Guard",
         "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_VR",
+      "LocalizedName": "スティンガーサブマシンガン",
+      "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG",
+        "Ammo:Light",
+        "Epic",
+        "Flipped",
+        "Guard",
         "SMG",
         "Weapon"
       ]
@@ -2735,6 +2961,14 @@
         "Item",
         "Regenerative",
         "Throwable"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle",
+      "LocalizedName": "ゴールデントリュフ",
+      "LocalizedDescription": "食べると多量のシールドが付与される。",
+      "Tags": [
+        "Regenerative"
       ]
     },
     {
@@ -3093,6 +3327,46 @@
         "CH2S3",
         "Epic",
         "Guard",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Update_Athena_R_Ore_T03",
+      "LocalizedName": "ハンティングライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.HuntingRifle",
+        "Ammo:Heavy",
+        "CH6S1",
+        "Guard",
+        "Rare",
+        "Sniper",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Update_Athena_UC_Ore_T03",
+      "LocalizedName": "ハンティングライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH6S1",
+        "Guard",
+        "Sniper",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Update_Athena_UR_Ore_T03",
+      "LocalizedName": "ハンティングライフル",
+      "LocalizedDescription": "スナイパーライフル: ボルトアクション。速射性では劣るが、強力で正確なボルトアクション機構のライフル。 ",
+      "Tags": [
+        "Ammo:Heavy",
+        "CH6S1",
+        "Guard",
+        "Mythic",
         "Sniper",
         "Weapon"
       ]
@@ -4012,7 +4286,6 @@
         "CH7S2",
         "ConsumableItem",
         "Item",
-        "NewThisSeason",
         "OverrideCount_5",
         "RareItem",
         "Throwable"
@@ -4222,10 +4495,25 @@
       ]
     },
     {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_C",
+      "LocalizedName": "メイヴァン オートショットガン",
+      "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto",
+        "Ammo:Shells",
+        "Common",
+        "Guard",
+        "S23",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_R",
       "LocalizedName": "メイヴァン オートショットガン",
       "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto",
         "Ammo:Shells",
         "Guard",
         "Rare",
@@ -4239,6 +4527,7 @@
       "LocalizedName": "メイヴァン オートショットガン",
       "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto",
         "Ammo:Shells",
         "Guard",
         "Legendary",
@@ -4252,6 +4541,7 @@
       "LocalizedName": "メイヴァン オートショットガン",
       "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto",
         "Ammo:Shells",
         "Guard",
         "S23",
@@ -4261,10 +4551,19 @@
       ]
     },
     {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UR",
+      "LocalizedName": "ウォルフのメイヴァン オートショットガン",
+      "LocalizedDescription": "ウォルフが愛用するメイヴァン オートショットガン。命中弾数が少なくても十分な威力を発揮できるよう、入念に造り込まれている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto"
+      ]
+    },
+    {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_VR",
       "LocalizedName": "メイヴァン オートショットガン",
       "LocalizedDescription": "ショットガン: 。オートマチック。射撃速度が早く、ダメージと射程が中程度のショットガン。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.MusterAuto",
         "Ammo:Shells",
         "Epic",
         "Guard",
@@ -4513,6 +4812,279 @@
         "CH5S3",
         "Epic",
         "Melee",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_C",
+      "LocalizedName": "サージカル バーストライフル",
+      "LocalizedDescription": "精度を重視して作られた3段バーストのアサルトライフル。反動が少なく、ダメージの減衰も最小限なため、遠距離からの狙撃に向いている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_R",
+      "LocalizedName": "サージカル バーストライフル",
+      "LocalizedDescription": "精度を重視して作られた3段バーストのアサルトライフル。反動が少なく、ダメージの減衰も最小限なため、遠距離からの狙撃に向いている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_SR",
+      "LocalizedName": "サージカル バーストライフル",
+      "LocalizedDescription": "精度を重視して作られた3段バーストのアサルトライフル。反動が少なく、ダメージの減衰も最小限なため、遠距離からの狙撃に向いている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_UC",
+      "LocalizedName": "サージカル バーストライフル",
+      "LocalizedDescription": "精度を重視して作られた3段バーストのアサルトライフル。反動が少なく、ダメージの減衰も最小限なため、遠距離からの狙撃に向いている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_UR",
+      "LocalizedName": "ヴォイドブレイドのバーストライフル",
+      "LocalizedDescription": "ヴォイドブレイド専用のサージカル バーストライフル。照準器を覗いた際の射撃精度を向上させるため、凶悪な設計が施されている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "Mythic",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/BurstAR/WID_AssaultRifle_Burst_OrangeRemote_Athena_VR",
+      "LocalizedName": "サージカル バーストライフル",
+      "LocalizedDescription": "精度を重視して作られた3段バーストのアサルトライフル。反動が少なく、ダメージの減衰も最小限なため、遠距離からの狙撃に向いている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.Burst",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/DV_LMG/WID_Assault_OrangeRemote_DV_Rifle_C",
+      "LocalizedName": "カオス エクスプローダーライフル",
+      "LocalizedDescription": "ダークボイジャーの部隊が好んで使う、自動リロード式のヘビーアサルトライフル。着弾時に起爆する小型のキューブを発射し、建築物へ特に大きな効果を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.DVR",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/DV_LMG/WID_Assault_OrangeRemote_DV_Rifle_R",
+      "LocalizedName": "カオス エクスプローダーライフル",
+      "LocalizedDescription": "ダークボイジャーの部隊が好んで使う、自動リロード式のヘビーアサルトライフル。着弾時に起爆する小型のキューブを発射し、建築物へ特に大きな効果を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.DVR",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/DV_LMG/WID_Assault_OrangeRemote_DV_Rifle_SR",
+      "LocalizedName": "カオス エクスプローダーライフル",
+      "LocalizedDescription": "ダークボイジャーの部隊が好んで使う、自動リロード式のヘビーアサルトライフル。着弾時に起爆する小型のキューブを発射し、建築物へ特に大きな効果を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.DVR",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/DV_LMG/WID_Assault_OrangeRemote_DV_Rifle_UC",
+      "LocalizedName": "カオス エクスプローダーライフル",
+      "LocalizedDescription": "ダークボイジャーの部隊が好んで使う、自動リロード式のヘビーアサルトライフル。着弾時に起爆する小型のキューブを発射し、建築物へ特に大きな効果を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.DVR",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/DV_LMG/WID_Assault_OrangeRemote_DV_Rifle_VR",
+      "LocalizedName": "カオス エクスプローダーライフル",
+      "LocalizedDescription": "ダークボイジャーの部隊が好んで使う、自動リロード式のヘビーアサルトライフル。着弾時に起爆する小型のキューブを発射し、建築物へ特に大きな効果を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.OrangeRemote.DVR",
+        "Ammo:Medium",
+        "Assault",
+        "CH7S3",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_C",
+      "LocalizedName": "エクステンド フォーカスショットガン",
+      "LocalizedDescription": "遠距離用ショットガン。3段階の射撃で、拡散が縮小するにつれて銃身が伸びてゆく。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Ammo:Shells",
+        "CH7S3",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_R",
+      "LocalizedName": "エクステンド フォーカスショットガン",
+      "LocalizedDescription": "遠距離用ショットガン。3段階の射撃で、拡散が縮小するにつれて銃身が伸びてゆく。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Ammo:Shells",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_SR",
+      "LocalizedName": "エクステンド フォーカスショットガン",
+      "LocalizedDescription": "遠距離用ショットガン。3段階の射撃で、拡散が縮小するにつれて銃身が伸びてゆく。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Ammo:Shells",
+        "CH7S3",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_UC",
+      "LocalizedName": "エクステンド フォーカスショットガン",
+      "LocalizedDescription": "遠距離用ショットガン。3段階の射撃で、拡散が縮小するにつれて銃身が伸びてゆく。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Ammo:Shells",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_UR",
+      "LocalizedName": "リーチャー・エクステンド・ショットガン",
+      "LocalizedDescription": "ミシックのエクステンド フォーカスショットガン。射程が伸び、遠距離でのダメージが向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Weapon.Meta.DoNotApplyWraps",
+        "Ammo:Shells",
+        "CH7S3",
+        "Guard",
+        "Mythic",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_VR",
+      "LocalizedName": "エクステンド フォーカスショットガン",
+      "LocalizedDescription": "遠距離用ショットガン。3段階の射撃で、拡散が縮小するにつれて銃身が伸びてゆく。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Flavor.OrangeRemote",
+        "Ammo:Shells",
+        "CH7S3",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
         "Weapon"
       ]
     },
@@ -5109,6 +5681,18 @@
       ]
     },
     {
+      "AssetPathName": "/RelicVault/Gameplay/KeyCardGameplay/AGID_Heist_RelicVault",
+      "LocalizedName": "保管庫のカギ",
+      "LocalizedDescription": "通常の精霊保管庫に入るためのカギ。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/RelicVault/Gameplay/KeyCardGameplay/AGID_Heist_RelicVault_MotherLode",
+      "LocalizedName": "エピック保管庫のカードキー",
+      "LocalizedDescription": "マップ中央付近にあるスペシャル精霊保管庫に入るためのカードキー。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/ResolveGameplay/Items/Guns/BreakActionShotgun/WID_Shotgun_Break_Action_Athena_R_Ore_T03",
       "LocalizedName": "レンジャーショットガン",
       "LocalizedDescription": "ショットガン: 単発の高ダメージを与えるブレイクアクションショットガン。通常のショットガンと比べて遠距離からの使用が効果的。",
@@ -5205,6 +5789,32 @@
       ]
     },
     {
+      "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider",
+      "LocalizedName": "セブンスライダー",
+      "LocalizedDescription": "スライディング中にジェットが起動する。",
+      "Tags": [
+        "CH7S3",
+        "EpicItem",
+        "Item",
+        "MobilityItem",
+        "NewThisSeason",
+        "RecentlyAdded"
+      ]
+    },
+    {
+      "AssetPathName": "/SevenSlide/Gameplay/AGID_Mythic_BoostSevenSlider",
+      "LocalizedName": "リミットレス セブンスライダー",
+      "LocalizedDescription": "スライディング中にジェットが起動する。このスライダーは無限に使用できる。",
+      "Tags": [
+        "CH7S3",
+        "Item",
+        "MobilityItem",
+        "MythicItem",
+        "NewThisSeason",
+        "RecentlyAdded"
+      ]
+    },
+    {
       "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC",
       "LocalizedName": "シールドバブルJr.",
       "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。ただし、プレイヤーは通り抜けることができるので注意！",
@@ -5280,6 +5890,238 @@
       "LocalizedName": "オーバードライブ パルスライフル",
       "LocalizedDescription": "パルスライフル(エキゾチック): 装備中、オーバードライブ効果が得られる。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut",
+      "LocalizedName": "Burnt Peanut",
+      "LocalizedDescription": "べとべと！ プレイヤーを撃破した際に、戦利品が増えることがある。ミシックが見つかることもあるぞ！ レベルアップのたびに確率アップ: 20% -> 30% -> 40% -> 50% -> 60%と戦利品の増加率が上昇する。最大レベルでは10%の確率でミシックをゲット！",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite",
+      "LocalizedName": "デーモン精霊",
+      "LocalizedDescription": "敵を撃破すると、サイフォン効果で体力とシールドが回復する。レベルアップのたびに回復力アップ: 5ポイント -> 10ポイント -> 15ポイント -> 20ポイント -> 25ポイントを撃破時に回復可能だ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite",
+      "LocalizedName": "ダック精霊",
+      "LocalizedDescription": "エモートかジャムセッションでシールドが回復する。レベルアップのたびにパワーアップ: 1シールド -> 2シールド -> 3シールド -> 4シールド -> 5シールドが1度に回復するぞ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite",
+      "LocalizedName": "地の精霊",
+      "LocalizedDescription": "宝箱から追加のレアなアイテムが見つかる可能性がある。レベルアップごとに確率上昇: 10% -> 15% -> 20% -> 25% -> 30%の確率でレアなアイテムが出現する",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite",
+      "LocalizedName": "ゴースト精霊",
+      "LocalizedDescription": "リロード時に一定時間クロークを付与する。レベルアップのたびに持続時間がアップ: 2秒 -> 2.5秒 -> 3秒 -> 3.5秒 -> 4秒",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Galaxy",
+      "LocalizedName": "ギャラクシー ゴースト精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Gold",
+      "LocalizedName": "ゴールド ゴースト精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite",
+      "LocalizedName": "王様の精霊",
+      "LocalizedDescription": "ツルハシの与ダメージが増加する。レベルアップのたびにダメージアップ: 25% -> 50% -> 75% -> 100% -> 125%とダメージ量が増加",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite",
+      "LocalizedName": "パンクの精霊",
+      "LocalizedDescription": "無か… 無限か。",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite",
+      "LocalizedName": "夢の精霊",
+      "LocalizedDescription": "レベルごとにランダムなアイテムを獲得し、最大レベルではなんとレジェンドの戦利品を入手する。レベルアップのたびに戦利品の価値が上昇するぞ！",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Galactic",
+      "LocalizedName": "ギャラクシー 夢の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Gold",
+      "LocalizedName": "ゴールド 夢の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire",
+      "LocalizedName": "炎の精霊",
+      "LocalizedDescription": "敵に一定量のダメージを与えると爆発が発生する！ レベルアップのたびに所要ダメージ量が減少: 175ポイント -> 150ポイント -> 125ポイント -> 100ポイント -> 75ポイントで発動する",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water",
+      "LocalizedName": "水の精霊",
+      "LocalizedDescription": "水中にいると、シールドが回復する！ レベルアップのたびにパワーアップ: 1シールド -> 2シールド -> 3シールド -> 4シールド -> 5シールドが1度に回復するぞ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite",
+      "LocalizedName": "ゼロポイント精霊",
+      "LocalizedDescription": "回復アイテム(スプラッシュとグレネードを除く)を自分に使用すると、シールドバブルJr.が出現する。レベルアップのたびに持続時間がアップ: 6秒 -> 7秒 -> 8秒 -> 9秒 -> 10秒",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Galaxy",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Gold",
+      "LocalizedName": "???",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
     },
     {
       "AssetPathName": "/SunRoseChainWhipGameplay/Items/ChainWhip/WID_ChainWhip",
@@ -5490,7 +6332,6 @@
         "Ammo:Shells",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Rare",
         "Shotgun",
         "Weapon"
@@ -5507,7 +6348,6 @@
         "CH7S2",
         "Guard",
         "Legendary",
-        "NewThisSeason",
         "Shotgun",
         "Weapon"
       ]
@@ -5522,7 +6362,6 @@
         "Ammo:Shells",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Shotgun",
         "Uncommon",
         "Weapon"
@@ -5555,7 +6394,6 @@
         "CH7S2",
         "Epic",
         "Guard",
-        "NewThisSeason",
         "Shotgun",
         "Weapon"
       ]
@@ -5692,6 +6530,19 @@
         "NewThisSeason",
         "Pistol",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking",
+      "LocalizedName": "パルス・スキャナー",
+      "LocalizedDescription": "見つけられる前に見つけよう。このハイテクスキャナーは、敵も宝箱もマークしてくれるぞ。",
+      "Tags": [
+        "CH6S2",
+        "ConsumableItem",
+        "Deployable",
+        "EpicItem",
+        "Item",
+        "Throwable"
       ]
     },
     {

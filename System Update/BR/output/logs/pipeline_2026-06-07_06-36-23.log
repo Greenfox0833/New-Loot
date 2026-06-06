@@ -4,3 +4,77 @@
 2026-06-07 06:36:23 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
 2026-06-07 06:36:23 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-06-07 06:36:23 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-06-07 06:36:24 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootPackages_Client.json : replaced=134, added=636
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client
+[1014] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[1015] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[1016] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[1107] RowUpdate LIST_RelicVaultKey_01.Weight=0.1625 -> OK
+[1108] RowUpdate LIST_RelicVaultKey_02.Weight=0.0875 -> OK
+[1109] RowUpdate LIST_Chest_Consumables_Utility_03.Weight=5.500000 -> OK
+[1110] RowUpdate LIST_FloorLoot_Consumables_Utility_03.Weight=1.350000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=7, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootPackages_Client__final.json
+2026-06-07 06:36:24 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-06-07 06:36:25 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootTierData_Client.json : replaced=0, added=101
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootTierData_Client__final.json
+2026-06-07 06:36:25 | INFO | ✓ Hotfix 適用完了 (1.37s)
+2026-06-07 06:36:25 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-06-07 06:36:25 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-06-07 06:36:25 | INFO | load done (0.02s)
+2026-06-07 06:36:25 | INFO | build summary start
+2026-06-07 06:36:25 | INFO | build summary done (0.07s)
+2026-06-07 06:36:25 | INFO | enrich summary with names start
+2026-06-07 06:36:28 | INFO | enrich summary done (3.20s)
+2026-06-07 06:36:28 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_06-36.json
+2026-06-07 06:36:28 | INFO | build item metadata start
+2026-06-07 06:37:11 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (42.81s)
+2026-06-07 06:37:11 | INFO | build BR_LootData start
+2026-06-07 06:37:11 | INFO | build BR_LootData done (0.00s)
+2026-06-07 06:37:11 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-06-07_06-37.json
+2026-06-07 06:37:11 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-06-07 06:37:11 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-06-07 06:37:12 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_06-36.json
+✅ 抽出件数: 128
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-06_12-27.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_06-36.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 128
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260607_0637\items_unique_min_diff.json
+2026-06-07 06:37:12 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-06-07 06:37:12 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.99s)
+2026-06-07 06:37:12 | INFO | prewarm start
+2026-06-07 06:37:15 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.67s)
+2026-06-07 06:37:15 | INFO | 画像化タスク数: 128
+2026-06-07 06:37:15 | INFO | 画像生成 進捗: 1/128
+2026-06-07 06:37:16 | INFO | 画像生成 進捗: 50/128
+2026-06-07 06:37:17 | INFO | 画像生成 進捗: 100/128
+2026-06-07 06:37:18 | INFO | 画像生成 進捗: 128/128
+2026-06-07 06:37:18 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-06-07 06:37:18 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-06-07_06-37-18.json (added=0 removed=0 change=12)
+2026-06-07 06:37:18 | INFO | ℹ️ AddedItems 画像の追加対象なし (copied=0 missing=0)
+2026-06-07 06:37:18 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-06-07 06:37:29 | INFO | git commit stdout: [main e57cd84] BR update 2026-06-07 06:37:24
+ 10 files changed, 56727 insertions(+), 216 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260607_0637/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-06-07_06-36-23.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-06-07_06-36.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-06-07_06-37.json"
+2026-06-07 06:37:39 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   c903e33..e57cd84  main -> main
+2026-06-07 06:37:39 | INFO | ✓ GitHub Push 完了
+2026-06-07 06:37:39 | INFO | ===== BR: pipeline end =====

@@ -174,31 +174,37 @@ PATH_REPO_DIR = str(PROJECT_ROOT)
 # Hotfix設定（LootPackage）
 HOTFIX_LP_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootPackages_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootPackages_Client.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/Comp/OrangeRemoteLootPackages_Client_Comp.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/Comp/OrangeRemoteLootPackages_Client_Comp_Backup.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildComp/OrangeRemoteLootPackages_Client_Comp_NoBuild.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildComp/OrangeRemoteLootPackages_Client_Comp_Backup.json",
 ]
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/TeaCakeLoot/DataTables/TeaCakeLootPackages_Client",
-    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootPackagesData_NoBuildBR",
+    "/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client",
+    "/OrangeRemoteLoot/DataTables/Comp/OrangeRemoteLootPackages_Client_Comp",
+    "/OrangeRemoteLoot/DataTables/Comp/OrangeRemoteLootPackages_Client_Comp_Backup",
+    "/OrangeRemoteLoot/DataTables/NoBuildComp/OrangeRemoteLootPackages_Client_Comp_NoBuild",
+    "/OrangeRemoteLoot/DataTables/NoBuildComp/OrangeRemoteLootPackages_Client_Comp_Backup"
 ]
 
 # Hotfix設定（LootTier）
 HOTFIX_LT_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/TeaCakeLootTierData_Client.json",
-    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/TeaCakeLoot/Content/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR.json",
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootTierData_Client.json",
+    "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
 ]
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/TeaCakeLoot/DataTables/TeaCakeLootTierData_Client",
-    "/TeaCakeLoot/DataTables/NoBuildBR/TeaCakeLoot_OverrideLootTierData_NoBuildBR",
+    "/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client",
+    "/OrangeRemoteLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
 ]
 
 # パス解決（System Update 完結のため無効化）

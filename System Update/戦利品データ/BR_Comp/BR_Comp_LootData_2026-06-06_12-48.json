@@ -121,21 +121,12 @@
               "Call": "LIST_Boss_Consumable",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.75,
               "ListItems": [
-                {
-                  "WorldListID": "LIST_Boss_Consumable_01",
-                  "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-                  "CountItem": 1,
-                  "LocalizedName": "自己蘇生デバイス"
-                },
                 {
                   "WorldListID": "LIST_Boss_Consumable_02",
                   "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
                   "CountItem": 1,
@@ -144,7 +135,7 @@
                 {
                   "WorldListID": "LIST_Boss_Consumable_03",
                   "Weight": 0.5,
-                  "ListPercentLocal": 50.0,
+                  "ListPercentLocal": 66.666667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 2,
@@ -279,21 +270,12 @@
               "Call": "LIST_Boss_Consumable",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.75,
               "ListItems": [
-                {
-                  "WorldListID": "LIST_Boss_Consumable_01",
-                  "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-                  "CountItem": 1,
-                  "LocalizedName": "自己蘇生デバイス"
-                },
                 {
                   "WorldListID": "LIST_Boss_Consumable_02",
                   "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
                   "CountItem": 1,
@@ -302,7 +284,7 @@
                 {
                   "WorldListID": "LIST_Boss_Consumable_03",
                   "Weight": 0.5,
-                  "ListPercentLocal": 50.0,
+                  "ListPercentLocal": 66.666667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 2,
@@ -437,21 +419,12 @@
               "Call": "LIST_Boss_Consumable",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 0.75,
               "ListItems": [
-                {
-                  "WorldListID": "LIST_Boss_Consumable_01",
-                  "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-                  "CountItem": 1,
-                  "LocalizedName": "自己蘇生デバイス"
-                },
                 {
                   "WorldListID": "LIST_Boss_Consumable_02",
                   "Weight": 0.25,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
                   "CountItem": 1,
@@ -460,7 +433,7 @@
                 {
                   "WorldListID": "LIST_Boss_Consumable_03",
                   "Weight": 0.5,
-                  "ListPercentLocal": 50.0,
+                  "ListPercentLocal": 66.666667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 2,
@@ -484,18 +457,8 @@
               "Call": "LIST_Revive",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Revive_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-                  "CountItem": 1,
-                  "LocalizedName": "自己蘇生デバイス"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         },
@@ -921,12 +884,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.545455,
+                  "EffectivePercentPerRoll": 10.0,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -935,159 +898,20 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.545455,
+                  "EffectivePercentPerRoll": 10.0,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 6.060606,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 6.060606,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 6.060606,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 6.060606,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
                   "LocalizedName": "セブンスライダー"
-                }
-              ]
-            }
-          ]
-        },
-        "LootNumber_1": {
-          "Packages": [
-            {
-              "ID": "PKG_Chest_Relic_05",
-              "Call": "LIST_Sprites",
-              "Count": 1,
-              "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
                 }
               ]
             }
@@ -1196,12 +1020,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -1210,43 +1034,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
+                  "EffectivePercentPerRoll": 10.0,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -1417,12 +1214,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -1431,43 +1228,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
+                  "EffectivePercentPerRoll": 10.0,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -1616,12 +1386,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -1630,43 +1400,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 12.5,
+                  "EffectivePercentPerRoll": 20.0,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 6.25,
+                  "EffectivePercentPerRoll": 10.0,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -1748,43 +1491,16 @@
               "Call": "LIST_Epic",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 4.0,
+              "TotalListWeight": 1.0,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Epic_01",
                   "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 100.0,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
                   "LocalizedName": "セブンスライダー"
-                },
-                {
-                  "WorldListID": "LIST_Epic_02",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Epic_03",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Epic_04",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
                 }
               ]
             }
@@ -2226,12 +1942,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 4,
               "weight": 0.45,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -2240,43 +1956,16 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
+                  "EffectivePercentPerRoll": 3.367,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -2780,12 +2469,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 3,
               "weight": 0.45,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -2794,43 +2483,16 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
+                  "EffectivePercentPerRoll": 3.367,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -3631,12 +3293,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 0.37,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.424303,
+                  "EffectivePercentPerRoll": 2.278884,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -3645,43 +3307,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.424303,
+                  "EffectivePercentPerRoll": 2.278884,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.712151,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.712151,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.712151,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.712151,
+                  "EffectivePercentPerRoll": 1.139442,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -4521,12 +4156,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 0.37,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.487535,
+                  "EffectivePercentPerRoll": 2.380057,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -4535,43 +4170,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.487535,
+                  "EffectivePercentPerRoll": 2.380057,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
+                  "EffectivePercentPerRoll": 1.190028,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -4824,12 +4432,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 0.15,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 3.75,
+                  "EffectivePercentPerRoll": 6.0,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -4838,43 +4446,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 3.75,
+                  "EffectivePercentPerRoll": 6.0,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.875,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.875,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.875,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.875,
+                  "EffectivePercentPerRoll": 3.0,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -4898,21 +4479,12 @@
               "Call": "LIST_Legendary",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 3.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
-                {
-                  "WorldListID": "LIST_Legendary_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 33.333333,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
-                  "CountItem": 1,
-                  "LocalizedName": "自己蘇生デバイス"
-                },
                 {
                   "WorldListID": "LIST_Legendary_02",
                   "Weight": 1.0,
-                  "ListPercentLocal": 33.333333,
+                  "ListPercentLocal": 50.0,
                   "rarity": "レジェンド",
                   "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
                   "CountItem": 1,
@@ -4921,7 +4493,7 @@
                 {
                   "WorldListID": "LIST_Legendary_03",
                   "Weight": 1.0,
-                  "ListPercentLocal": 33.333333,
+                  "ListPercentLocal": 50.0,
                   "rarity": "ミシック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_Mythic_BoostSevenSlider.AGID_Mythic_BoostSevenSlider",
                   "CountItem": 1,
@@ -4967,118 +4539,6 @@
     "TotalWeight": 1.0,
     "Items": [
       {
-        "LootNumber_0": {
-          "Packages": [
-            {
-              "ID": "PKG_OrangeRemote_Chest_01",
-              "Call": "LIST_Sprites",
-              "Count": 1,
-              "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
-            }
-          ]
-        },
         "LootNumber_1": {
           "Packages": [
             {
@@ -5629,12 +5089,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 1,
               "weight": 0.45,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 11.157025,
+                  "EffectivePercentPerRoll": 24.545455,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -5643,43 +5103,16 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 11.157025,
+                  "EffectivePercentPerRoll": 24.545455,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 14.876033,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 14.876033,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 14.876033,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 14.876033,
+                  "EffectivePercentPerRoll": 32.727273,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -5711,12 +5144,12 @@
               "Call": "LIST_Rare",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 4.0,
+              "TotalListWeight": 3.0,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Rare_01",
                   "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -5725,7 +5158,7 @@
                 {
                   "WorldListID": "LIST_Rare_02",
                   "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -5734,20 +5167,11 @@
                 {
                   "WorldListID": "LIST_Rare_03",
                   "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
+                  "ListPercentLocal": 33.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
-                },
-                {
-                  "WorldListID": "LIST_Rare_05",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 25.0,
-                  "rarity": "アンコモン",
-                  "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
-                  "CountItem": 2,
-                  "LocalizedName": "ポケットバンカー"
                 }
               ]
             }
@@ -5767,18 +5191,8 @@
               "Call": "LIST_Relic_1",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_1_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -5815,18 +5229,8 @@
               "Call": "LIST_Relic_11",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_11_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -5863,18 +5267,8 @@
               "Call": "LIST_Relic_13",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_13_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -5892,18 +5286,8 @@
               "Call": "LIST_Relic_14",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_14_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -5959,18 +5343,8 @@
               "Call": "LIST_Relic_17",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_17_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6026,18 +5400,8 @@
               "Call": "LIST_Relic_2",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_2_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6112,18 +5476,8 @@
               "Call": "LIST_Relic_23",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_23_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6198,18 +5552,8 @@
               "Call": "LIST_Relic_27",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_27_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6360,18 +5704,8 @@
               "Call": "LIST_Relic_4",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_4_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6408,18 +5742,8 @@
               "Call": "LIST_Relic_6",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_6_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6456,18 +5780,8 @@
               "Call": "LIST_Relic_8",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_8_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6504,18 +5818,8 @@
               "Call": "LIST_Relic_NPC_Bat",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_NPC_Bat_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6533,18 +5837,8 @@
               "Call": "LIST_Relic_NPC_Cluster",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_NPC_Cluster_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6562,18 +5856,8 @@
               "Call": "LIST_Relic_NPC_Hope",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_NPC_Hope_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6591,18 +5875,8 @@
               "Call": "LIST_Relic_NPC_Order",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_NPC_Order_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6620,18 +5894,8 @@
               "Call": "LIST_Relic_NPC_Slone",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_NPC_Slone_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6649,171 +5913,8 @@
               "Call": "LIST_Relic_Variant",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 11.23,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Relic_Variant_02",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Galaxy.ESD_Water_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_03",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Gold.ESD_Water_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_05",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Galaxy.ESD_EarthSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_06",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Gold.ESD_EarthSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_08",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Galaxy.ESD_Spitfire_Variation_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_09",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 1.780944,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Gold.ESD_Spitfire_Variation_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_11",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Galaxy.ESD_DuckSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_12",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Gold.ESD_DuckSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_14",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Galaxy.ESD_GhostSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "ギャラクシー ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_15",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Gold.ESD_GhostSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴールド ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_17",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite_Variant_Galaxy.ESD_DemonSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_18",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite_Variant_Gold.ESD_DemonSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_20",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Galactic.ESD_SleepySprite_Variant_Galactic",
-                  "CountItem": 1,
-                  "LocalizedName": "ギャラクシー 夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_21",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Gold.ESD_SleepySprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴールド 夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_23",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Galaxy.ESD_PunkSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_24",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 8.90472,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Gold.ESD_PunkSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_26",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 0.133571,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Galaxy.ESD_ZeroPointSprite_Variant_Galaxy",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                },
-                {
-                  "WorldListID": "LIST_Relic_Variant_27",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 0.133571,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Gold.ESD_ZeroPointSprite_Variant_Gold",
-                  "CountItem": 1,
-                  "LocalizedName": "???"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -6822,122 +5923,7 @@
   },
   "LTG_Sprites": {
     "TotalWeight": 1.0,
-    "Items": [
-      {
-        "LootNumber_0": {
-          "Packages": [
-            {
-              "ID": "PKG_Sprites_01",
-              "Call": "LIST_Sprites",
-              "Count": 1,
-              "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "ListPercentLocal": 20.0,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "ListPercentLocal": 7.5,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "ListPercentLocal": 3.5,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "ListPercentLocal": 1.5,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
+    "Items": []
   },
   "LTG_ThemeParkCannon_Duo_Large": {
     "TotalWeight": 1.0,
@@ -7430,12 +6416,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -7444,43 +6430,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -8091,12 +7050,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -8105,43 +7064,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -8752,12 +7684,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -8766,43 +7698,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -9413,12 +8318,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -9427,43 +8332,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -10074,12 +8952,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -10088,43 +8966,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -10735,12 +9586,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -10749,43 +9600,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -11396,12 +10220,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -11410,43 +10234,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -12057,12 +10854,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -12071,43 +10868,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -12718,12 +11488,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -12732,43 +11502,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -13379,12 +12122,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -13393,43 +12136,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -14040,12 +12756,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -14054,43 +12770,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -14701,12 +13390,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -14715,43 +13404,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 8.333333,
+                  "EffectivePercentPerRoll": 13.333333,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 4.166667,
+                  "EffectivePercentPerRoll": 6.666667,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -15147,27 +13809,8 @@
               "Call": "LIST_Vend_Item_Seasonal_2",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 2.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Vend_Item_Seasonal_2_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 50.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Vend_Item_Seasonal_2_02",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 50.0,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             }
           ]
         }
@@ -17029,12 +15672,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 2,
               "weight": 0.45,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -17043,43 +15686,16 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
+                  "EffectivePercentPerRoll": 3.367,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -17185,108 +15801,8 @@
               "Call": "LIST_Sprites",
               "Count": 1,
               "weight": 0.35,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.309343,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.309343,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.132576,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.132576,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             },
             {
               "ID": "PKG_RareChest_Weapon_Shotgun_13",
@@ -17830,12 +16346,12 @@
               "Call": "LIST_FloorLoot_Consumables_Utility",
               "Count": 1,
               "weight": 0.25,
-              "TotalListWeight": 2.45,
+              "TotalListWeight": 2.0,
               "ListItems": [
                 {
                   "WorldListID": "LIST_FloorLoot_Consumables_Utility_02",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 2.983651,
+                  "EffectivePercentPerRoll": 3.654972,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -17844,38 +16360,11 @@
                 {
                   "WorldListID": "LIST_FloorLoot_Consumables_Utility_03",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 2.983651,
+                  "EffectivePercentPerRoll": 3.654972,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
-                },
-                {
-                  "WorldListID": "LIST_FloorLoot_Consumables_Utility_06",
-                  "Weight": 0.15,
-                  "EffectivePercentPerRoll": 0.447548,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_FloorLoot_Consumables_Utility_07",
-                  "Weight": 0.15,
-                  "EffectivePercentPerRoll": 0.447548,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_FloorLoot_Consumables_Utility_08",
-                  "Weight": 0.15,
-                  "EffectivePercentPerRoll": 0.447548,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
                 }
               ]
             },
@@ -20242,12 +18731,12 @@
               "Call": "LIST_RareChest_Consumables_Utility",
               "Count": 2,
               "weight": 0.45,
-              "TotalListWeight": 5.5,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_02",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -20256,43 +18745,16 @@
                 {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_03",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 1.147841,
+                  "EffectivePercentPerRoll": 2.52525,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_05",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_06",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_RareChest_Consumables_Utility_07",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_RareChest_Consumables_Utility_08",
                   "Weight": 1.0,
-                  "EffectivePercentPerRoll": 1.530455,
+                  "EffectivePercentPerRoll": 3.367,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -20398,108 +18860,8 @@
               "Call": "LIST_Sprites",
               "Count": 1,
               "weight": 0.35,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 1.767675,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.662878,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.309343,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.309343,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.132576,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.132576,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             },
             {
               "ID": "PKG_RareChest_Weapon_Shotgun_13",
@@ -20516,32 +18878,7 @@
   },
   "Loot_AthenaTest": {
     "TotalWeight": 1.0,
-    "Items": [
-      {
-        "LootNumber_0": {
-          "Packages": [
-            {
-              "ID": "PKG_Test_01",
-              "Call": "LIST_Test",
-              "Count": 1,
-              "weight": 1.0,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Test_01",
-                  "Weight": 1.0,
-                  "ListPercentLocal": 100.0,
-                  "rarity": "コモン",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall.WID_Athena_FlopperSmall",
-                  "CountItem": 1,
-                  "LocalizedName": "スモールフィッシュ"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    ]
+    "Items": []
   },
   "Loot_AthenaTreasure": {
     "TotalWeight": 0.91,
@@ -21197,12 +19534,12 @@
               "Call": "LIST_Chest_Consumables_Utility",
               "Count": 1,
               "weight": 0.37,
-              "TotalListWeight": 6.0,
+              "TotalListWeight": 3.75,
               "ListItems": [
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_02",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.487535,
+                  "EffectivePercentPerRoll": 2.380057,
                   "rarity": "レア",
                   "AssetPathName": "/EMPGameplay/Items/EMPGrenade/WID_Athena_Grenade_EMP.WID_Athena_Grenade_EMP",
                   "CountItem": 3,
@@ -21211,43 +19548,16 @@
                 {
                   "WorldListID": "LIST_Chest_Consumables_Utility_03",
                   "Weight": 1.5,
-                  "EffectivePercentPerRoll": 1.487535,
+                  "EffectivePercentPerRoll": 2.380057,
                   "rarity": "レア",
                   "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
                   "CountItem": 3,
                   "LocalizedName": "オーバードライブ グレネード"
                 },
                 {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_05",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable.WID_Athena_Sentry_Turret_Deployable",
-                  "CountItem": 1,
-                  "LocalizedName": "ビジネスタレット"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_06",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/RiftItem/Athena_Rift_Item.Athena_Rift_Item",
-                  "CountItem": 1,
-                  "LocalizedName": "ポータブル裂け目"
-                },
-                {
-                  "WorldListID": "LIST_Chest_Consumables_Utility_07",
-                  "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
-                  "rarity": "エピック",
-                  "AssetPathName": "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking.WID_Athena_ThrownMarking",
-                  "CountItem": 1,
-                  "LocalizedName": "パルス・スキャナー"
-                },
-                {
                   "WorldListID": "LIST_Chest_Consumables_Utility_08",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 0.743768,
+                  "EffectivePercentPerRoll": 1.190028,
                   "rarity": "エピック",
                   "AssetPathName": "/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider",
                   "CountItem": 1,
@@ -21361,108 +19671,8 @@
               "Call": "LIST_Sprites",
               "Count": 1,
               "weight": 0.1,
-              "TotalListWeight": 1.0,
-              "ListItems": [
-                {
-                  "WorldListID": "LIST_Sprites_01",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 0.527472,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water.ESD_Water",
-                  "CountItem": 1,
-                  "LocalizedName": "水の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_02",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 0.527472,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite.ESD_EarthSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "地の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_03",
-                  "Weight": 0.2,
-                  "EffectivePercentPerRoll": 0.527472,
-                  "rarity": "レア",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire.ESD_Spitfire",
-                  "CountItem": 1,
-                  "LocalizedName": "炎の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_04",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.197802,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite.ESD_DuckSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ダック精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_05",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.197802,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite.ESD_GhostSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゴースト精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_06",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.197802,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite.ESD_DemonSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "デーモン精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_07",
-                  "Weight": 0.075,
-                  "EffectivePercentPerRoll": 0.197802,
-                  "rarity": "エピック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite.ESD_KingSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "王様の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_08",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.092308,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite.ESD_SleepySprite",
-                  "CountItem": 1,
-                  "LocalizedName": "夢の精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_09",
-                  "Weight": 0.035,
-                  "EffectivePercentPerRoll": 0.092308,
-                  "rarity": "レジェンド",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite.ESD_PunkSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "パンクの精霊"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_10",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.03956,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut.EID_BurntPeanut",
-                  "CountItem": 1,
-                  "LocalizedName": "Burnt Peanut"
-                },
-                {
-                  "WorldListID": "LIST_Sprites_11",
-                  "Weight": 0.015,
-                  "EffectivePercentPerRoll": 0.03956,
-                  "rarity": "ミシック",
-                  "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite.ESD_ZeroPointSprite",
-                  "CountItem": 1,
-                  "LocalizedName": "ゼロポイント精霊"
-                }
-              ]
+              "TotalListWeight": 0.0,
+              "ListItems": []
             },
             {
               "ID": "PKG_Chest_Weapon_Shotgun_15",

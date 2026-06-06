@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "ForbiddenFruitChapterLootTierData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootTierData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortLootTierData'",
@@ -9465,7 +9466,7 @@
       },
       "Loot_Bus_Grant_02": {
         "TierGroup": "Loot_Bus_Grant",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -9599,8 +9600,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_Bus_Grant;LPKG:WorldPKG.BusGrant3"
       },
-      "Loot_Random_Consumable_01": {
-        "TierGroup": "Loot_Random_Consumable",
+      "Loot_Level2_01": {
+        "TierGroup": "Loot_Level2",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -9610,7 +9611,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.RandomConsumable",
+        "LootPackage": "WorldPKG.Level2",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -9665,7 +9666,7 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_Random_Consumable;LPKG:WorldPKG.RandomConsumable"
+        "Annotation": "TG:Loot_Level2;LPKG:WorldPKG.Level2"
       },
       "Loot_Boon_Set_1_01": {
         "TierGroup": "Loot_Boon_Set_1",
@@ -10075,8 +10076,8 @@
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_Random_Weap;LPKG:WorldPKG.RandomWeap"
       },
-      "Loot_Random_Mythic_01": {
-        "TierGroup": "Loot_Random_Mythic",
+      "Loot_Level3_01": {
+        "TierGroup": "Loot_Level3",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -10086,7 +10087,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.RandomMythic",
+        "LootPackage": "WorldPKG.Level3",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -10141,10 +10142,10 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_Random_Mythic;LPKG:WorldPKG.RandomMythic"
+        "Annotation": "TG:Loot_Level3;LPKG:WorldPKG.Level3"
       },
-      "Loot_Random_Exotic_01": {
-        "TierGroup": "Loot_Random_Exotic",
+      "Loot_Level4_01": {
+        "TierGroup": "Loot_Level4",
         "Weight": 1.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
@@ -10154,7 +10155,7 @@
         "StreakBreakerPointsMin": 0,
         "StreakBreakerPointsMax": 0,
         "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.RandomExotic",
+        "LootPackage": "WorldPKG.Level4",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
           "X": 1.0,
@@ -10209,7 +10210,7 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_Random_Exotic;LPKG:WorldPKG.RandomExotic"
+        "Annotation": "TG:Loot_Level4;LPKG:WorldPKG.Level4"
       },
       "Loot_Random_Item_01": {
         "TierGroup": "Loot_Random_Item",

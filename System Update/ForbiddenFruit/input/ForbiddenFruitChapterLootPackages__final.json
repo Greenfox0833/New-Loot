@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "ForbiddenFruitChapterLootPackages",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/ForbiddenFruitDataTables/DataTables/ForbiddenFruitChapterLootPackages",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FortLootPackageData'",
@@ -11561,8 +11562,8 @@
         "Annotation": ";Def:WorldPKG.BusGrant.C10;Call:WorldList.BusGold",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.RandomConsumable.01": {
-        "LootPackageID": "WorldPKG.RandomConsumable",
+      "WorldPKG.Level2.01": {
+        "LootPackageID": "WorldPKG.Level2",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -11582,7 +11583,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaSupplyDropConsumables",
+        "LootPackageCall": "WorldList.GoldChest.Boons",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -11591,7 +11592,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.RandomConsumable.C0;Call:WorldList.AthenaSupplyDropConsumables",
+        "Annotation": ";Def:WorldPKG.Level2.C0;Call:WorldList.GoldChest.Boons",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.Boon.Set.1.01": {
@@ -11792,8 +11793,8 @@
         "Annotation": ";Def:WorldPKG.RandomWeap.C0;Call:WorldList.RandomWeap",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.RandomMythic.01": {
-        "LootPackageID": "WorldPKG.RandomMythic",
+      "WorldPKG.Level3.01": {
+        "LootPackageID": "WorldPKG.Level3",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -11813,7 +11814,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.RandomMythic.Rewards",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Sp.Weapon",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -11822,11 +11823,44 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.RandomMythic.C0;Call:WorldList.RandomMythic.Rewards",
+        "Annotation": ";Def:WorldPKG.Level3.C0;Call:WorldList.AthenaSupplyDrop.Sp.Weapon",
         "DurabilityPercentageOverride": 1.0
       },
-      "WorldPKG.RandomExotic.01": {
-        "LootPackageID": "WorldPKG.RandomExotic",
+      "WorldPKG.Level3.02": {
+        "LootPackageID": "WorldPKG.Level3",
+        "Weight": 1.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.SupplyDrop.Hero",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.Level3.C0;Call:WorldList.SupplyDrop.Hero",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.Level4.01": {
+        "LootPackageID": "WorldPKG.Level4",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
@@ -11846,7 +11880,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.RandomExotic.Rewards",
+        "LootPackageCall": "WorldList.AthenaBlitzLlama.MythicItem",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -11855,7 +11889,40 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.RandomExotic.C0;Call:WorldList.RandomExotic.Rewards",
+        "Annotation": ";Def:WorldPKG.Level4.C0;Call:WorldList.AthenaBlitzLlama.MythicItem",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldPKG.Level4.02": {
+        "LootPackageID": "WorldPKG.Level4",
+        "Weight": 1.5,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "WorldList.llama.Hero",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";Def:WorldPKG.Level4.C0;Call:WorldList.llama.Hero",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.RandomItem.01": {
@@ -11912,7 +11979,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.RewardSpecial.Item.1",
+        "LootPackageCall": "WorldList.RandomMythic.Rewards",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -11921,7 +11988,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.Reward.Special.C0;Call:WorldList.RewardSpecial.Item.1",
+        "Annotation": ";Def:WorldPKG.Reward.Special.C0;Call:WorldList.RandomMythic.Rewards",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.Reward.Special.02": {
@@ -11945,7 +12012,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.RewardSpecial.Item.2",
+        "LootPackageCall": "WorldList.RandomExotic.Rewards",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -11954,7 +12021,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.Reward.Special.C1;Call:WorldList.RewardSpecial.Item.2",
+        "Annotation": ";Def:WorldPKG.Reward.Special.C1;Call:WorldList.RandomExotic.Rewards",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.POICapture.01": {
@@ -31429,7 +31496,7 @@
       },
       "WorldList.AthenaSupplyDrop.Utility.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Utility",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -31449,7 +31516,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+        "ItemDefinition": {
+          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33703,7 +33773,7 @@
       },
       "WorldList.GoldChest.Boons.01": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.33,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33723,7 +33793,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_VR.WID_Shotgun_Jethro_BrightJuice_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33733,7 +33803,7 @@
       },
       "WorldList.GoldChest.Boons.02": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.75,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33753,7 +33823,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics.WID_Proto_WingSuit_FlyingPhysics",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_VR.WID_Shotgun_Jethro_ChillyHammer_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33763,7 +33833,7 @@
       },
       "WorldList.GoldChest.Boons.03": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33783,10 +33853,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO.PAID_FirePetal_PickaxeGO",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_VR.WID_Assault_Jethro_PlotTwist_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33796,7 +33863,7 @@
       },
       "WorldList.GoldChest.Boons.04": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33816,10 +33883,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/AdrenalineRush/PAID_VividRazor_AdrenalineRush.PAID_VividRazor_AdrenalineRush",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_VR.WID_Assault_Jethro_BraveCrown_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33829,7 +33893,7 @@
       },
       "WorldList.GoldChest.Boons.05": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33849,10 +33913,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/Pilfer/PAID_VividRazor_Pilfer.PAID_VividRazor_Pilfer",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_VR.WID_Pistol_Jethro_CrustyChain_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33862,7 +33923,7 @@
       },
       "WorldList.GoldChest.Boons.06": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33882,10 +33943,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/Vulture/PAID_VividRazor_Vulture.PAID_VividRazor_Vulture",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_VR.WID_SMG_Jethro_GalileoBun_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33895,7 +33953,7 @@
       },
       "WorldList.GoldChest.Boons.07": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33915,10 +33973,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/CherrySmokeSpeedBashBoon/PAID_CherrySmokeParkourReloadBoon_FF.PAID_CherrySmokeParkourReloadBoon_FF",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_VR.WID_SMG_Jethro_BoldTiger_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -33928,7 +33983,7 @@
       },
       "WorldList.GoldChest.Boons.08": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -33948,10 +34003,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/CherrySmokeBoonsGameplay/Gameplay/CherrySmokeSpeedBashBoon/PAID_CherrySmokeOldmanEyesBoon_FF.PAID_CherrySmokeOldmanEyesBoon_FF",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_VR.WID_Jethro_ClearShell_Athena_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41650,7 +41702,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41670,7 +41722,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_SR.WID_Shotgun_Jethro_BrightJuice_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41680,7 +41732,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.02": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.8,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41700,7 +41752,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_SR.WID_Shotgun_Jethro_ChillyHammer_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41710,7 +41762,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41730,10 +41782,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_SR.WID_Assault_Jethro_PlotTwist_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41743,7 +41792,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41763,10 +41812,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_SR.WID_Pistol_Jethro_CrustyChain_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41776,7 +41822,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.05": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41796,10 +41842,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_SR.WID_SMG_Jethro_GalileoBun_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41809,7 +41852,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.06": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41829,10 +41872,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_SR.WID_SMG_Jethro_BoldTiger_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -41842,7 +41882,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41862,10 +41902,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_SR.WID_Jethro_ClearShell_Athena_SR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43195,7 +43232,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43215,7 +43252,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "ItemDefinition": {
+          "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_UR.WID_Assault_FirePetal_Fast_Athena_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43225,7 +43265,7 @@
       },
       "WorldList.AthenaBlitzLlama.StandardItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.StandardItem",
-        "Weight": 0.8,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43245,7 +43285,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45103,7 +45146,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.75,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45123,7 +45166,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_UR.WID_SMG_Jethro_GalileoBun_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45133,7 +45176,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.02": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45153,7 +45196,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/HoneyGlass/Gameplay/WID_HoneyGlass.WID_HoneyGlass",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_UR.WID_Pistol_Jethro_CrustyChain_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45823,7 +45866,7 @@
       },
       "WorldList.BusWeap.01": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45843,7 +45886,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AutoShotgun/WID_Shotgun_Auto_FirePetal_Athena_UC.WID_Shotgun_Auto_FirePetal_Athena_UC",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_UC.WID_Shotgun_Jethro_BrightJuice_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45853,7 +45896,7 @@
       },
       "WorldList.BusWeap.02": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45873,7 +45916,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RadicalWeaponsGameplay/Weapons/RadicalCoreAR/WID_Assault_Radical_CoreAR_Athena_UC.WID_Assault_Radical_CoreAR_Athena_UC",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_R.WID_Shotgun_Jethro_BrightJuice_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45883,7 +45926,7 @@
       },
       "WorldList.BusWeap.03": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45903,7 +45946,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/RadicalWeaponsGameplay/Weapons/RadicalShotgunPump/WID_Shotgun_RadicalPump_Athena_UC.WID_Shotgun_RadicalPump_Athena_UC",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_UC.WID_Shotgun_Jethro_ChillyHammer_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45913,7 +45956,7 @@
       },
       "WorldList.BusWeap.04": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45933,7 +45976,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/VividRazorWeaponGameplay/Gameplay/CQBAR/WID_CQB_AR_UC.WID_CQB_AR_UC",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_R.WID_Shotgun_Jethro_ChillyHammer_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45943,7 +45986,7 @@
       },
       "WorldList.BusWeap.05": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45963,7 +46006,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MusterCoreWeapons/Items/Weapons/MusterQuickSMG/WID_SMG_MusterQuick_Athena_UC.WID_SMG_MusterQuick_Athena_UC",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_UC.WID_Assault_Jethro_PlotTwist_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45973,7 +46016,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.5,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45993,7 +46036,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/LavaLeaf/Gameplay/WID_LavaLeaf_1P.WID_LavaLeaf_1P",
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_R.WID_Assault_Jethro_PlotTwist_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46003,7 +46046,7 @@
       },
       "WorldList.BusWeap.07": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46023,10 +46066,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_UC.WID_Assault_Jethro_BraveCrown_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46036,7 +46076,7 @@
       },
       "WorldList.BusWeap.08": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46056,10 +46096,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_R.WID_Assault_Jethro_BraveCrown_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46069,7 +46106,7 @@
       },
       "WorldList.BusWeap.09": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46089,10 +46126,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/ShockwaveMace/Items/WID_Muster_ShockwaveMace.WID_Muster_ShockwaveMace",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_UC.WID_Pistol_Jethro_CrustyChain_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46102,7 +46136,7 @@
       },
       "WorldList.BusWeap.10": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46122,10 +46156,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketRam.WID_RocketRam",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_UC.WID_Pistol_Jethro_CrustyChain_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46135,7 +46166,7 @@
       },
       "WorldList.BusWeap.11": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46155,10 +46186,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketLimitedRam_Comp.WID_RocketLimitedRam_Comp",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_UC.WID_SMG_Jethro_GalileoBun_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46168,7 +46196,7 @@
       },
       "WorldList.BusWeap.12": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46188,10 +46216,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_R.WID_SMG_Jethro_GalileoBun_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46201,7 +46226,7 @@
       },
       "WorldList.BusWeap.13": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46221,10 +46246,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_UC.WID_SMG_Jethro_BoldTiger_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46234,7 +46256,7 @@
       },
       "WorldList.BusWeap.14": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46254,10 +46276,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_R.WID_SMG_Jethro_BoldTiger_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46267,7 +46286,7 @@
       },
       "WorldList.BusWeap.15": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46287,10 +46306,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_UC.WID_Jethro_ClearShell_Athena_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -46300,7 +46316,7 @@
       },
       "WorldList.BusWeap.16": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.75,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46320,10 +46336,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_R.WID_Jethro_ClearShell_Athena_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47290,7 +47303,7 @@
       },
       "WorldList.BusGrant2.BusWeap.01": {
         "LootPackageID": "WorldList.BusGrant2.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47310,7 +47323,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_X.WID_Shotgun_Auto_Dual_DragonCart_Athena_X",
+        "ItemDefinition": {
+          "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_UC.WID_Pistol_Suppressed_Athena_UC",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47736,10 +47752,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/MoonflaxMedallions/Items/Augments/TheOverseer/PAID_Moonflax_NitroQueen_FF.PAID_Moonflax_NitroQueen_FF",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/TidalCraneBoonGameplay/Gameplay/AgileAiming/PAID_AgileAiming.PAID_AgileAiming",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48079,7 +48092,7 @@
       },
       "WorldList.BusGrant.Medallion.17": {
         "LootPackageID": "WorldList.BusGrant.Medallion",
-        "Weight": 1.0,
+        "Weight": 2.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48099,10 +48112,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/FirePetalBoonsGameplay/Gameplay/PickaxeGO/PAID_FirePetal_PickaxeGO.PAID_FirePetal_PickaxeGO",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/EchoFlareGameplay/Items/Medallions/BlasterBoost/PAID_EchoFlare_TDM_BlasterBoost_FF.PAID_EchoFlare_TDM_BlasterBoost_FF",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48244,12 +48254,12 @@
       },
       "WorldList.BusGrant.ItemSet.1.01": {
         "LootPackageID": "WorldList.BusGrant.ItemSet.1",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -48264,7 +48274,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_Grenade/WID_DragonCart_Grenade_Athena.WID_DragonCart_Grenade_Athena",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire.WID_DemonMask_Fire",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -49858,7 +49871,7 @@
       },
       "WorldList.BusGrant2.ItemSet.1.01": {
         "LootPackageID": "WorldList.BusGrant2.ItemSet.1",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -49878,7 +49891,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DemonMaskVoid/Gameplay/WID_DemonMask_VoidTeleport.WID_DemonMask_VoidTeleport",
+        "ItemDefinition": {
+          "AssetPathName": "/DemonMaskFire/Gameplay/WID_DemonMask_Fire_Mythic.WID_DemonMask_Fire_Mythic",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -50482,45 +50498,12 @@
       },
       "WorldList.BusConsumable.01": {
         "LootPackageID": "WorldList.BusConsumable",
-        "Weight": 0.0,
-        "NamedWeightMult": "None",
-        "PotentialNamedWeights": [],
-        "CountRange": {
-          "X": 2,
-          "Y": 2
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A.Athena_PortaShackGrenade_A",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusConsumable.C0;Item:WID.Athena.PortaShackGrenade",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "WorldList.BusConsumable.02": {
-        "LootPackageID": "WorldList.BusConsumable",
         "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -50535,15 +50518,42 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/ForbiddenFruit_Athena_SilverBlazer_Mini_UC.ForbiddenFruit_Athena_SilverBlazer_Mini_UC",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ShieldBubble/Gameplay/ShieldBubbleJr/ForbiddenFruit_Athena_SilverBlazer_Mini_UC.ForbiddenFruit_Athena_SilverBlazer_Mini_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusConsumable.C0;Item:Consumable.ShieldBubbleJr",
+        "Annotation": ";List:WorldList.BusConsumable.C0;Item:GID.ShieldBubble",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.BusConsumable.02": {
+        "LootPackageID": "WorldList.BusConsumable",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": "/Figment_Athena_BandageV2/Gameplay/WID_Figment_Paprika_Bandage.WID_Figment_Paprika_Bandage",
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.BusConsumable.C0;Item:GID.MedCloud",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.BusConsumable.03": {
@@ -50552,8 +50562,8 @@
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
-          "X": 2,
-          "Y": 2
+          "X": 1,
+          "Y": 1
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -50568,15 +50578,12 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/DeployedCoverGameplay/Items/WID_Athena_DeployedCover.WID_Athena_DeployedCover",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Figment_Athena_BandageV2/Gameplay/WID_Figment_Paprika_Bandage.WID_Figment_Paprika_Bandage",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.BusConsumable.C0;Item:WID.Athena.PortaCoverGrenade",
+        "Annotation": ";List:WorldList.BusConsumable.C0;Item:GID.ShockGrenade",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.RandomBoon.Rewards.01": {
@@ -55069,7 +55076,7 @@
       },
       "WorldList.llama.Hero.01": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55089,10 +55096,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_AmberVine_Proto.WID_Athena_AmberVine_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55102,7 +55106,7 @@
       },
       "WorldList.llama.Hero.02": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55122,10 +55126,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_HeavyLamp_Proto.WID_Athena_PlotTwist_Lobster_HeavyLamp_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55135,7 +55136,7 @@
       },
       "WorldList.llama.Hero.03": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55155,10 +55156,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Projectile_Proto.WID_Athena_PlotTwist_Lobster_Projectile_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55168,7 +55166,7 @@
       },
       "WorldList.llama.Hero.04": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55188,10 +55186,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Push_Proto.WID_Athena_PlotTwist_Lobster_Push_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55201,7 +55196,7 @@
       },
       "WorldList.llama.Hero.05": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55221,10 +55216,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Rip_Proto.WID_Athena_PlotTwist_Lobster_Rip_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55234,7 +55226,7 @@
       },
       "WorldList.SupplyDrop.Hero.01": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55254,10 +55246,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_AmberVine_Proto.WID_Athena_AmberVine_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55267,7 +55256,7 @@
       },
       "WorldList.SupplyDrop.Hero.02": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55287,10 +55276,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_HeavyLamp_Proto.WID_Athena_PlotTwist_Lobster_HeavyLamp_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55300,7 +55286,7 @@
       },
       "WorldList.SupplyDrop.Hero.03": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55320,10 +55306,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Projectile_Proto.WID_Athena_PlotTwist_Lobster_Projectile_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55333,7 +55316,7 @@
       },
       "WorldList.SupplyDrop.Hero.04": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55353,10 +55336,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Push_Proto.WID_Athena_PlotTwist_Lobster_Push_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55366,7 +55346,7 @@
       },
       "WorldList.SupplyDrop.Hero.05": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55386,10 +55366,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Rip_Proto.WID_Athena_PlotTwist_Lobster_Rip_Proto",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-06-07T07:41:39",
-  "UpdatedByProfile": "NoBuild_Comp",
+  "UpdatedAt": "2026-06-07T07:43:47",
+  "UpdatedByProfile": "ForbiddenFruit",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -643,6 +643,7 @@
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
         "CH6S4",
         "Guard",
@@ -656,6 +657,7 @@
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
         "CH6S4",
         "Guard",
@@ -669,6 +671,7 @@
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
         "CH6S4",
         "Guard",
@@ -696,6 +699,7 @@
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
         "CH6S4",
         "Epic",
@@ -1304,6 +1308,12 @@
         "RareItem",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/EchoFlareGameplay/Items/Medallions/BlasterBoost/PAID_EchoFlare_TDM_BlasterBoost_FF",
+      "LocalizedName": "ファズマのブラスター・メダリオン",
+      "LocalizedDescription": "ブラスター武器の発熱を抑える。",
+      "Tags": []
     },
     {
       "AssetPathName": "/ElectroBatGameplay/Gameplay/WID_Athena_ElectroBat",
@@ -2753,6 +2763,7 @@
       "LocalizedName": "グンナーのスティンガーサブマシンガン",
       "LocalizedDescription": "反動が強い代わりにダメージが強化された、高連射速度のSMG。",
       "Tags": [
+        "Item.Weapon.Ranged.SMG",
         "Ammo:Light",
         "Flipped",
         "Guard",
@@ -4498,6 +4509,262 @@
       ]
     },
     {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_R",
+      "LocalizedName": "CR-2ブラスター",
+      "LocalizedDescription": "連射速度が非常に速いオートマチックのブラスター。遠い銀河のサブマシンガンに似ている。小型で取り回しが良く、至近距離で最も威力を発揮するが、すぐにオーバーヒートしてしまう。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.BoldTiger"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_SR",
+      "LocalizedName": "CR-2ブラスター",
+      "LocalizedDescription": "連射速度が非常に速いオートマチックのブラスター。遠い銀河のサブマシンガンに似ている。小型で取り回しが良く、至近距離で最も威力を発揮するが、すぐにオーバーヒートしてしまう。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.BoldTiger"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_UC",
+      "LocalizedName": "CR-2ブラスター",
+      "LocalizedDescription": "連射速度が非常に速いオートマチックのブラスター。遠い銀河のサブマシンガンに似ている。小型で取り回しが良く、至近距離で最も威力を発揮するが、すぐにオーバーヒートしてしまう。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.BoldTiger"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_VR",
+      "LocalizedName": "CR-2ブラスター",
+      "LocalizedDescription": "連射速度が非常に速いオートマチックのブラスター。遠い銀河のサブマシンガンに似ている。小型で取り回しが良く、至近距離で最も威力を発揮するが、すぐにオーバーヒートしてしまう。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.BoldTiger"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_R",
+      "LocalizedName": "DLT-19ブラスター・ライフル",
+      "LocalizedDescription": "連射速度が速いオートマチックのブラスター・ライフル。遠い銀河のアサルトライフルに似ている。精度が低いため、近・中距離で使うのが最も有効。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.BraveCrown"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_UC",
+      "LocalizedName": "DLT-19ブラスター・ライフル",
+      "LocalizedDescription": "連射速度が速いオートマチックのブラスター・ライフル。遠い銀河のアサルトライフルに似ている。精度が低いため、近・中距離で使うのが最も有効。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.BraveCrown"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BraveCrown/WID_Assault_Jethro_BraveCrown_Athena_VR",
+      "LocalizedName": "DLT-19ブラスター・ライフル",
+      "LocalizedDescription": "連射速度が速いオートマチックのブラスター・ライフル。遠い銀河のアサルトライフルに似ている。精度が低いため、近・中距離で使うのが最も有効。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.BraveCrown"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_R",
+      "LocalizedName": "ACPスカッター・ブラスター",
+      "LocalizedDescription": "ACPスカッター・ブラスターは、遠い銀河のポンプアクションショットガンに似た武器だ。ダメージは大きいが連射速度は低い。圧倒的な破壊力が求められる近距離で最も威力を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.Jethro"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_SR",
+      "LocalizedName": "ACPスカッター・ブラスター",
+      "LocalizedDescription": "ACPスカッター・ブラスターは、遠い銀河のポンプアクションショットガンに似た武器だ。ダメージは大きいが連射速度は低い。圧倒的な破壊力が求められる近距離で最も威力を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.Jethro"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_UC",
+      "LocalizedName": "ACPスカッター・ブラスター",
+      "LocalizedDescription": "ACPスカッター・ブラスターは、遠い銀河のポンプアクションショットガンに似た武器だ。ダメージは大きいが連射速度は低い。圧倒的な破壊力が求められる近距離で最も威力を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.Jethro"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/BrightJuice/WID_Shotgun_Jethro_BrightJuice_Athena_VR",
+      "LocalizedName": "ACPスカッター・ブラスター",
+      "LocalizedDescription": "ACPスカッター・ブラスターは、遠い銀河のポンプアクションショットガンに似た武器だ。ダメージは大きいが連射速度は低い。圧倒的な破壊力が求められる近距離で最も威力を発揮する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.Jethro"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_R",
+      "LocalizedName": "CA-87ジャワ・スカッター・ブラスター",
+      "LocalizedDescription": "単射式のスカッター・ブラスター。遠くの銀河のショットガンに似ている。ダメージは大きいが、射程とクールダウン速度が犠牲になっている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Jethro.ChillyHammer"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_SR",
+      "LocalizedName": "CA-87ジャワ・スカッター・ブラスター",
+      "LocalizedDescription": "単射式のスカッター・ブラスター。遠くの銀河のショットガンに似ている。ダメージは大きいが、射程とクールダウン速度が犠牲になっている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Jethro.ChillyHammer"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_UC",
+      "LocalizedName": "CA-87ジャワ・スカッター・ブラスター",
+      "LocalizedDescription": "単射式のスカッター・ブラスター。遠くの銀河のショットガンに似ている。ダメージは大きいが、射程とクールダウン速度が犠牲になっている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Jethro.ChillyHammer"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ChillyHammer/WID_Shotgun_Jethro_ChillyHammer_Athena_VR",
+      "LocalizedName": "CA-87ジャワ・スカッター・ブラスター",
+      "LocalizedDescription": "単射式のスカッター・ブラスター。遠くの銀河のショットガンに似ている。ダメージは大きいが、射程とクールダウン速度が犠牲になっている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Jethro.ChillyHammer"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_R",
+      "LocalizedName": "ウェスター34ブラスター・ピストル",
+      "LocalizedDescription": "フルオートの二丁持ちブラスター・ピストル。近距離からの猛烈な奇襲攻撃で一気に仕留めることを想定してデザインされており、ド派手な登場を決めたいときはこれを装備するのが一番だ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.Clearshell"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_SR",
+      "LocalizedName": "ウェスター34ブラスター・ピストル",
+      "LocalizedDescription": "フルオートの二丁持ちブラスター・ピストル。近距離からの猛烈な奇襲攻撃で一気に仕留めることを想定してデザインされており、ド派手な登場を決めたいときはこれを装備するのが一番だ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.Clearshell"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_UC",
+      "LocalizedName": "ウェスター34ブラスター・ピストル",
+      "LocalizedDescription": "フルオートの二丁持ちブラスター・ピストル。近距離からの猛烈な奇襲攻撃で一気に仕留めることを想定してデザインされており、ド派手な登場を決めたいときはこれを装備するのが一番だ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.Clearshell"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/ClearShell/WID_Jethro_ClearShell_Athena_VR",
+      "LocalizedName": "ウェスター34ブラスター・ピストル",
+      "LocalizedDescription": "フルオートの二丁持ちブラスター・ピストル。近距離からの猛烈な奇襲攻撃で一気に仕留めることを想定してデザインされており、ド派手な登場を決めたいときはこれを装備するのが一番だ。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.Clearshell"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_SR",
+      "LocalizedName": "DL-44ブラスター・ピストル",
+      "LocalizedDescription": "フルオートのブラスター・ピストル。精度とダメージが高く、連射速度はそれなりで、様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.CrustyChain"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_UC",
+      "LocalizedName": "DL-44ブラスター・ピストル",
+      "LocalizedDescription": "フルオートのブラスター・ピストル。精度とダメージが高く、連射速度はそれなりで、様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.CrustyChain"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_UR",
+      "LocalizedName": "強化型DL-44ブラスター・ピストル",
+      "LocalizedDescription": "ミシック版のDL-44ブラスター・ピストル。照準器を覗いているときのダメージが向上している。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.CrustyChain"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/CrustyChain/WID_Pistol_Jethro_CrustyChain_Athena_VR",
+      "LocalizedName": "DL-44ブラスター・ピストル",
+      "LocalizedDescription": "フルオートのブラスター・ピストル。精度とダメージが高く、連射速度はそれなりで、様々な状況の戦闘で効果的。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Jethro.CrustyChain"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_R",
+      "LocalizedName": "F-11Dブラスター",
+      "LocalizedDescription": "ファースト・オーダー ストームトルーパーに支給される標準仕様のブラスター。遠い銀河のサブマシンガンに似ている。連射速度と精度が向上しており、戦闘における信頼性が高い武器として名高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.GalileoBun"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_SR",
+      "LocalizedName": "F-11Dブラスター",
+      "LocalizedDescription": "ファースト・オーダー ストームトルーパーに支給される標準仕様のブラスター。遠い銀河のサブマシンガンに似ている。連射速度と精度が向上しており、戦闘における信頼性が高い武器として名高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.GalileoBun"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_UC",
+      "LocalizedName": "F-11Dブラスター",
+      "LocalizedDescription": "ファースト・オーダー ストームトルーパーに支給される標準仕様のブラスター。遠い銀河のサブマシンガンに似ている。連射速度と精度が向上しており、戦闘における信頼性が高い武器として名高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.GalileoBun"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_UR",
+      "LocalizedName": "キャプテン・ファズマのF-11Dブラスター",
+      "LocalizedDescription": "キャプテン・ファズマの個人用F-11Dブラスター。連射速度と装備速度を最大限に高めるため手を加えられている。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.GalileoBun"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/GalileoBun/WID_SMG_Jethro_GalileoBun_Athena_VR",
+      "LocalizedName": "F-11Dブラスター",
+      "LocalizedDescription": "ファースト・オーダー ストームトルーパーに支給される標準仕様のブラスター。遠い銀河のサブマシンガンに似ている。連射速度と精度が向上しており、戦闘における信頼性が高い武器として名高い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Jethro.GalileoBun"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_R",
+      "LocalizedName": "DC-15ヘビーブラスター・ライフル",
+      "LocalizedDescription": "島に登場する武器の中で、コスチューム「クローン・トルーパー」に一番ふさわしいのはDC-15ヘビーブラスター・ライフルだ。遠い銀河のヘビーアサルトライフルに似ているこのブラスターは、反動が大きいが精度が高く、中・長距離の戦いを得意としている。 ",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.Cosmos"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_SR",
+      "LocalizedName": "DC-15ヘビーブラスター・ライフル",
+      "LocalizedDescription": "島に登場する武器の中で、コスチューム「クローン・トルーパー」に一番ふさわしいのはDC-15ヘビーブラスター・ライフルだ。遠い銀河のヘビーアサルトライフルに似ているこのブラスターは、反動が大きいが精度が高く、中・長距離の戦いを得意としている。 ",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.Cosmos"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_UC",
+      "LocalizedName": "DC-15ヘビーブラスター・ライフル",
+      "LocalizedDescription": "島に登場する武器の中で、コスチューム「クローン・トルーパー」に一番ふさわしいのはDC-15ヘビーブラスター・ライフルだ。遠い銀河のヘビーアサルトライフルに似ているこのブラスターは、反動が大きいが精度が高く、中・長距離の戦いを得意としている。 ",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.Cosmos"
+      ]
+    },
+    {
+      "AssetPathName": "/JethroWeaponGameplay/Gameplay/Unvaults/PlotTwist/WID_Assault_Jethro_PlotTwist_Athena_VR",
+      "LocalizedName": "DC-15ヘビーブラスター・ライフル",
+      "LocalizedDescription": "島に登場する武器の中で、コスチューム「クローン・トルーパー」に一番ふさわしいのはDC-15ヘビーブラスター・ライフルだ。遠い銀河のヘビーアサルトライフルに似ているこのブラスターは、反動が大きいが精度が高く、中・長距離の戦いを得意としている。 ",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Jethro.Cosmos"
+      ]
+    },
+    {
       "AssetPathName": "/KatanaGameplay/Items/Katana/WID_Melee_Katana",
       "LocalizedName": "キネティックブレイド",
       "LocalizedDescription": "キネティック鉱石の物理的特性を活かすように、見事に鍛造されたブレイド。持つ者に素早い長距離移動と、正確な斬撃で敵を切り伏せることを可能とさせる。",
@@ -5758,6 +6025,56 @@
       ]
     },
     {
+      "AssetPathName": "/PlotTwist/Items/ProtoTest/WID_Athena_AmberVine_Proto",
+      "LocalizedName": "シス・アプレンティスのライトセーバー",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.Galileo.Lobster.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_HeavyLamp_Proto",
+      "LocalizedName": "シス・アプレンティスのライトセーバー",
+      "LocalizedDescription": "[PH] Saber Throw Lightsaber with related abilities. Intended for ease of testing and should not be used in-game",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.Galileo.Lobster.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Projectile_Proto",
+      "LocalizedName": "シス・アプレンティスのライトセーバー",
+      "LocalizedDescription": "シスの弟子の武器。フォースのダークサイドを受け入れることを選んだ者が使用する。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.Galileo.Lobster.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Push_Proto",
+      "LocalizedName": "ジェダイのパダワンのライトセーバー",
+      "LocalizedDescription": "ジェダイのパダワンの武器。フォースのライトサイドを受け入れることを選んだ者が使用する。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.Galileo.Lobster.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/PlotTwist/Items/ProtoTest/WID_Athena_PlotTwist_Lobster_Rip_Proto",
+      "LocalizedName": "ジェダイのパダワンのライトセーバー",
+      "LocalizedDescription": "ジェダイのパダワンの武器。フォースのライトサイドを受け入れることを選んだ者が使用する。",
+      "Tags": [
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.Galileo.Lobster.Equipped",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/PortAShackGameplay/Items/WID/Athena_BrickBunker",
       "LocalizedName": "レンガ・バンカー",
       "LocalizedDescription": "持ち運び式の石製バンカー。これぞレンガ・バンカー",
@@ -6837,6 +7154,12 @@
         "Item",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/TidalCraneBoonGameplay/Gameplay/AgileAiming/PAID_AgileAiming",
+      "LocalizedName": "機敏エイムの恵み",
+      "LocalizedDescription": "照準器を覗いていると反動と拡散が軽減され、移動スピードが上昇する。",
+      "Tags": []
     },
     {
       "AssetPathName": "/TidalCraneBoonGameplay/Gameplay/ExtendedMag/PAID_ExtendedMag_FF",

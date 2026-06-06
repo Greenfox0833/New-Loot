@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-06-06T11:00:23",
-  "UpdatedByProfile": "BR_Comp",
+  "UpdatedAt": "2026-06-06T11:03:05",
+  "UpdatedByProfile": "Reload_Ranked",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -74,6 +74,24 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/FastAR/WMID/WMID_Assault_AutoHigh_Athena_BB_R",
+      "LocalizedName": "モルファイト・アサルトライフル",
+      "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/HammerAR/WMID/WMID_Assault_HeavyRecoil_Athena_BB_UC",
+      "LocalizedName": "モルファイト・ハンマーアサルトライフル",
+      "LocalizedDescription": "この武器は戦いを渇望している…敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC",
+      "LocalizedName": "モルファイト・マンモスピストル",
+      "LocalizedDescription": "この武器は戦いを渇望している…敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/BlastBerryWeapons/Gameplay/PumpShotgun/WMID/WMID_Shotgun_Pump_Athena_BB_R",
       "LocalizedName": "モルファイト・ポンプショットガン",
       "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
@@ -92,9 +110,21 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/SentinalPump/WMIDs/WMID_Shotgun_Pump_FirePetal_Athena_BB_UC",
+      "LocalizedName": "モルファイト・センチネル ポンプショットガン",
+      "LocalizedDescription": "この武器は戦いを渇望している…敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/BlastBerryWeapons/Gameplay/SlowAR/WMID/WMID_Assault_Heavy_Athena_BB_UC",
       "LocalizedName": "モルファイト・ヘビーアサルトライフル",
       "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/ThunderPump/WMIDs/WMID_Shotgun_MusterPump_Athena_BB_UC",
+      "LocalizedName": "モルファイト・サンダーショットガン",
+      "LocalizedDescription": "この武器は戦いを渇望している…敵にダメージを与えると威力が増強する。",
       "Tags": []
     },
     {
@@ -529,6 +559,71 @@
       ]
     },
     {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/TacticalPistol/WID_Pistol_Tactical_Athena_C",
+      "LocalizedName": "コンバットピストル",
+      "LocalizedDescription": "セミオートピストルは照準を合わせることで性能を発揮できる。",
+      "Tags": [
+        "Ammo:Light",
+        "Common",
+        "Cubed",
+        "Guard",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/TacticalPistol/WID_Pistol_Tactical_Athena_R",
+      "LocalizedName": "コンバットピストル",
+      "LocalizedDescription": "セミオートピストルは照準を合わせることで性能を発揮できる。",
+      "Tags": [
+        "Ammo:Light",
+        "Cubed",
+        "Guard",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/TacticalPistol/WID_Pistol_Tactical_Athena_SR",
+      "LocalizedName": "コンバットピストル",
+      "LocalizedDescription": "セミオートピストルは照準を合わせることで性能を発揮できる。",
+      "Tags": [
+        "Ammo:Light",
+        "Cubed",
+        "Guard",
+        "Legendary",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/TacticalPistol/WID_Pistol_Tactical_Athena_UC",
+      "LocalizedName": "コンバットピストル",
+      "LocalizedDescription": "セミオートピストルは照準を合わせることで性能を発揮できる。",
+      "Tags": [
+        "Ammo:Light",
+        "Cubed",
+        "Guard",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/TacticalPistol/WID_Pistol_Tactical_Athena_VR",
+      "LocalizedName": "コンバットピストル",
+      "LocalizedDescription": "セミオートピストルは照準を合わせることで性能を発揮できる。",
+      "Tags": [
+        "Ammo:Light",
+        "Cubed",
+        "Epic",
+        "Guard",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_UR",
       "LocalizedName": "レッドスピッター3000",
       "LocalizedDescription": "巨大なミニガン。12個の回転する銃身を備えていて、絶え間なく銃弾を放つことができる。照準器を覗く操作をして、銃身を前もって回転させておくと、すぐに弾を発射できるぞ。",
@@ -587,6 +682,7 @@
       "LocalizedName": "スイーパーショットガン",
       "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
+        "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
         "CH6S4",
         "Guard",
@@ -2472,6 +2568,20 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty",
+      "LocalizedName": "ピザパーティー",
+      "LocalizedDescription": "友達と分け合える大きな箱に入ったスラープシュルームピザ",
+      "Tags": [
+        "ConsumableItem",
+        "Deployable",
+        "EpicItem",
+        "Flipped",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    {
       "AssetPathName": "/FlipperGameplay/Items/RejuvenationPotion/Athena_RejuvenationPotion",
       "LocalizedName": "ガズルジュース",
       "LocalizedDescription": "完全に回復するまで、ゆっくりと体力を回復する。回復中にダメージを受けると効果は消えてしまう (落下ダメージは除く)。",
@@ -3580,6 +3690,32 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Rocket_Athena_R_Ore_T03",
+      "LocalizedName": "ロケットランチャー   ",
+      "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
+      "Tags": [
+        "Ammo:Rockets",
+        "Explosive",
+        "Guard",
+        "PreSeason",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Rocket_Athena_SR_Ore_T03",
+      "LocalizedName": "ロケットランチャー   ",
+      "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
+      "Tags": [
+        "Ammo:Rockets",
+        "Explosive",
+        "Guard",
+        "Legendary",
+        "PreSeason",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Launcher_Rocket_Athena_VR_Ore_T03",
       "LocalizedName": "ロケットランチャー   ",
       "LocalizedDescription": "爆破武器: エリア内の敵にダメージを与える長距離ロケット弾を発射する。",
@@ -3625,6 +3761,76 @@
         "CH1S8",
         "Pistol",
         "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_RapidFireSMG_Athena_C_Ore_T03",
+      "LocalizedName": "速射式サブマシンガン",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire",
+        "Ammo:Light",
+        "CH2S3",
+        "Common",
+        "Guard",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_RapidFireSMG_Athena_R_Ore_T03",
+      "LocalizedName": "速射式サブマシンガン",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire",
+        "Ammo:Light",
+        "CH2S2",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_RapidFireSMG_Athena_SR_Ore_T03",
+      "LocalizedName": "速射式サブマシンガン",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire",
+        "Ammo:Light",
+        "CH2S3",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_RapidFireSMG_Athena_UC_Ore_T03",
+      "LocalizedName": "速射式サブマシンガン",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire",
+        "Ammo:Light",
+        "CH2S2",
+        "Guard",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Pistol_RapidFireSMG_Athena_VR_Ore_T03",
+      "LocalizedName": "速射式サブマシンガン",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire",
+        "Ammo:Light",
+        "CH2S3",
+        "Epic",
+        "Guard",
+        "SMG",
         "Weapon"
       ]
     },
@@ -4423,10 +4629,28 @@
       ]
     },
     {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_R",
+      "LocalizedName": "ヘビーインパクトスナイパーライフル",
+      "LocalizedDescription": "高威力の単発式スナイパーライフルであるヘビーインパクトスナイパーライフルは、乗り物に対してボーナスダメージと衝撃を与える。",
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax"
+      ]
+    },
+    {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_SR",
+      "LocalizedName": "ヘビーインパクトスナイパーライフル",
+      "LocalizedDescription": "高威力の単発式スナイパーライフルであるヘビーインパクトスナイパーライフルは、乗り物に対してボーナスダメージと衝撃を与える。",
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax"
+      ]
+    },
+    {
       "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_VR",
       "LocalizedName": "ヘビーインパクトスナイパーライフル",
       "LocalizedDescription": "高威力の単発式スナイパーライフルであるヘビーインパクトスナイパーライフルは、乗り物に対してボーナスダメージと衝撃を与える。",
-      "Tags": []
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax"
+      ]
     },
     {
       "AssetPathName": "/MoonflaxMedallions/Items/Augments/TheOverseer/PAID_Moonflax_NitroQueen_FF",
@@ -4733,6 +4957,19 @@
       ]
     },
     {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_C",
+      "LocalizedName": "レッドアイ アサルトライフル",
+      "LocalizedDescription": "アサルトライフル: オートマチック: 射撃速度が遅いアサルトライフル。カスタムのレッドドットサイトにより精度が向上している。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Common",
+        "Guard",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_EX",
       "LocalizedName": "ハイステッド・エクスプローシブ・アサルトライフル",
       "LocalizedDescription": "エキゾチックのレッドアイ アサルトライフル。炸裂弾を発射する。\r\n",
@@ -4741,6 +4978,58 @@
         "Ammo:Medium",
         "Assault",
         "Exotic",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_R",
+      "LocalizedName": "レッドアイ アサルトライフル",
+      "LocalizedDescription": "アサルトライフル: オートマチック: 射撃速度が遅いアサルトライフル。カスタムのレッドドットサイトにより精度が向上している。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "Rare",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_SR",
+      "LocalizedName": "レッドアイ アサルトライフル",
+      "LocalizedDescription": "アサルトライフル: オートマチック: 射撃速度が遅いアサルトライフル。カスタムのレッドドットサイトにより精度が向上している。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "Legendary",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_UC",
+      "LocalizedName": "レッドアイ アサルトライフル",
+      "LocalizedDescription": "アサルトライフル: オートマチック: 射撃速度が遅いアサルトライフル。カスタムのレッドドットサイトにより精度が向上している。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "S23",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterScopedAR/WID_Assault_MusterScoped_Athena_VR",
+      "LocalizedName": "レッドアイ アサルトライフル",
+      "LocalizedDescription": "アサルトライフル: オートマチック: 射撃速度が遅いアサルトライフル。カスタムのレッドドットサイトにより精度が向上している。",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Epic",
+        "Guard",
         "S23",
         "Weapon"
       ]
@@ -5451,8 +5740,6 @@
         "CH7S2",
         "Guard",
         "Legendary",
-        "NewThisSeason",
-        "RecentlyAdded",
         "Weapon"
       ]
     },
@@ -5467,8 +5754,6 @@
         "CH7S2",
         "Epic",
         "Guard",
-        "NewThisSeason",
-        "RecentlyAdded",
         "Weapon"
       ]
     },
@@ -7409,6 +7694,46 @@
         "Epic",
         "Guard",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/TimberStakeSMG/WID_SMG_TimberStake_Athena_C",
+      "LocalizedName": "レッドアイ・サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く、近距離でのダメージはすさまじいが、弾薬の消費が速い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.TimberStake"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/TimberStakeSMG/WID_SMG_TimberStake_Athena_R",
+      "LocalizedName": "レッドアイ・サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く、近距離でのダメージはすさまじいが、弾薬の消費が速い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.TimberStake"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/TimberStakeSMG/WID_SMG_TimberStake_Athena_SR",
+      "LocalizedName": "レッドアイ・サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く、近距離でのダメージはすさまじいが、弾薬の消費が速い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.TimberStake"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/TimberStakeSMG/WID_SMG_TimberStake_Athena_UC",
+      "LocalizedName": "レッドアイ・サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く、近距離でのダメージはすさまじいが、弾薬の消費が速い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.TimberStake"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/TimberStakeSMG/WID_SMG_TimberStake_Athena_VR",
+      "LocalizedName": "レッドアイ・サブマシンガン",
+      "LocalizedDescription": "連射速度が非常に速く、近距離でのダメージはすさまじいが、弾薬の消費が速い。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.TimberStake"
       ]
     },
     {

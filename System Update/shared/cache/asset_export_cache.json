@@ -38886,11 +38886,11 @@
     }
   },
   "/Game/Items/ResourcePickups/Athena_WadsItemData": {
-    "ts": 1780083304,
+    "ts": 1780710507,
     "data": {
-      "hash": "62f1d7ea20e85797dcfe2bfcaee619c58eff3f03995040a985d043653fe77299",
+      "hash": "0dc1db68506068b087e5e8eedd56f0be4be321243ff0171647820234a17515cd",
       "entries": 1,
-      "bytes": 4721,
+      "bytes": 4748,
       "jsonOutput": [
         {
           "Type": "FortResourceItemDefinition",
@@ -38957,6 +38957,7 @@
                   "AssetPathName": "/Game/Athena/Items/Gameplay/Wads/B_Pickups_Wads.B_Pickups_Wads_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -39112,7 +39113,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": false,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -39183,11 +39184,11 @@
     }
   },
   "/Game/Items/ResourcePickups/MetalItemData": {
-    "ts": 1780083304,
+    "ts": 1780710508,
     "data": {
-      "hash": "a55a5d7b25af366a5c90329cecb9289b9536858ce16934021bbcad77399964a4",
+      "hash": "0812c1e628aa8e0ae71783c57892fc5cf0e5bd58731c17d9add3e1b2ad7ae889",
       "entries": 1,
-      "bytes": 4699,
+      "bytes": 4726,
       "jsonOutput": [
         {
           "Type": "FortResourceItemDefinition",
@@ -39291,6 +39292,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -39446,7 +39448,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -39483,11 +39485,11 @@
     }
   },
   "/Game/Items/ResourcePickups/StoneItemData": {
-    "ts": 1780083305,
+    "ts": 1780710508,
     "data": {
-      "hash": "4be950a60b294805b143caf83b9af6a9608344643092fc109055ee35f99d9f7c",
+      "hash": "7c6e1c21133c6b595f1799dba7834ae128cf14a0444d7df13aa9093fea9f7eaf",
       "entries": 1,
-      "bytes": 4749,
+      "bytes": 4776,
       "jsonOutput": [
         {
           "Type": "FortResourceItemDefinition",
@@ -39591,6 +39593,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -39746,7 +39749,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -39783,11 +39786,11 @@
     }
   },
   "/Game/Items/ResourcePickups/WoodItemData": {
-    "ts": 1780083305,
+    "ts": 1780710509,
     "data": {
-      "hash": "8888058e2214d852a0338c78aa981228989cdbe23e15de131fb24c557a92ef2f",
+      "hash": "67e143228985a110fc469166e37c961c764fb58c0ecbde328e9920dd3e197616",
       "entries": 1,
-      "bytes": 4622,
+      "bytes": 4649,
       "jsonOutput": [
         {
           "Type": "FortResourceItemDefinition",
@@ -39890,6 +39893,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -40045,7 +40049,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -45082,17 +45086,17 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_C": {
-    "ts": 1771493952,
+    "ts": 1780710510,
     "data": {
-      "hash": "6500294ddabd5e1e6b8dc306cf2ba107ca71eb35630c9b909a660350564db557",
+      "hash": "fe191e39f8d0086db6b950ff9b03175df9cb5c0c614b95393ae26f8853305d43",
       "entries": 1,
-      "bytes": 7998,
+      "bytes": 8121,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Shotgun_MusterDPS_Athena_C",
-          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -45147,6 +45151,9 @@
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Shotgun.MusterAuto"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto",
@@ -45162,16 +45169,15 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Common",
             "ItemName": {
               "namespace": "",
-              "key": "81F90911485429490DD0D096F604E41D",
+              "key": "B182B6284EE0356D2E9264AE413AA413",
               "sourceString": "Maven Auto Shotgun",
               "localizedString": "Maven Auto Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "5F962BAB49E256D04F7DDB9D3DF53739",
+              "key": "2220520D47B94BC1E986C59F5B36117A",
               "sourceString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range.",
               "localizedString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range."
             },
@@ -45210,6 +45216,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -45362,7 +45369,7 @@
                 },
                 "PickupSoundLibraries": [
                   {
-                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Pickup.SL_DPS_Shotgun_Pickup",
+                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Pickup.SL_Shotgun_MusterDPS_Pickup",
                     "SubPathString": ""
                   }
                 ],
@@ -45370,7 +45377,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -45410,7 +45417,7 @@
               {
                 "QuantityDisplayName": {
                   "namespace": "",
-                  "key": "849C2D474E91429C72366EAC1C4E3409",
+                  "key": "381B94E042DB53B003CE7CB3DE7201C4",
                   "sourceString": "Maven Auto Shotgun",
                   "localizedString": "Maven Auto Shotgun"
                 }
@@ -45476,8 +45483,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'SL_DPS_Shotgun_Fire_Weapon'",
-                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Fire_Weapon.0"
+                    "ObjectName": "SoundLibrary'SL_Shotgun_MusterDPS_Fire_Weapon'",
+                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Fire_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -45488,6 +45495,9 @@
                   "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Shotgun'",
                   "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Shotgun.0"
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Common"
               }
             ]
           }
@@ -45496,11 +45506,11 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_R": {
-    "ts": 1780015024,
+    "ts": 1780710510,
     "data": {
-      "hash": "c38297843518c77795948786f2704403454f042c9563702357d777bf3f4fbb45",
+      "hash": "f52744b2579444558c0cc7103468533a522fb6f364024311b20bf418be789844",
       "entries": 1,
-      "bytes": 7996,
+      "bytes": 8117,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -45561,6 +45571,9 @@
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Shotgun.MusterAuto"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto",
@@ -45578,13 +45591,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "768A6C154DE764E200279A86BE6D505E",
+              "key": "7F593D714557DE52746B92A97CFF1887",
               "sourceString": "Maven Auto Shotgun",
               "localizedString": "Maven Auto Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "FA4DD6AC41358AC6951DF38743CDA5B5",
+              "key": "9E6044C44FC5A9EBDC9B1A8B0BA42D78",
               "sourceString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range.",
               "localizedString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range."
             },
@@ -45623,6 +45636,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -45775,7 +45789,7 @@
                 },
                 "PickupSoundLibraries": [
                   {
-                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Pickup.SL_DPS_Shotgun_Pickup",
+                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Pickup.SL_Shotgun_MusterDPS_Pickup",
                     "SubPathString": ""
                   }
                 ],
@@ -45783,7 +45797,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -45823,7 +45837,7 @@
               {
                 "QuantityDisplayName": {
                   "namespace": "",
-                  "key": "37B2F3414D638209542FE0A491EF85ED",
+                  "key": "67A0799B44E066B972A12CBE0FF69240",
                   "sourceString": "Maven Auto Shotgun",
                   "localizedString": "Maven Auto Shotgun"
                 }
@@ -45889,8 +45903,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'SL_DPS_Shotgun_Fire_Weapon'",
-                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Fire_Weapon.0"
+                    "ObjectName": "SoundLibrary'SL_Shotgun_MusterDPS_Fire_Weapon'",
+                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Fire_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -45912,11 +45926,11 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_SR": {
-    "ts": 1780015024,
+    "ts": 1780710511,
     "data": {
-      "hash": "89ab8a49775b1bb20eb7ccc91956fd9af2c0564c1a03ec0bbc5b94979459444b",
+      "hash": "cf6cfa27826d30bdfac08d735ed23e350b0f61621b91fe25ffb60a1e9a97988c",
       "entries": 1,
-      "bytes": 8012,
+      "bytes": 8133,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -45977,6 +45991,9 @@
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Shotgun.MusterAuto"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto",
@@ -45994,13 +46011,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "8E02959145E286F40B0B7082ED009625",
+              "key": "8924EAE04BAF4C7A76EBC8A0ED8D0929",
               "sourceString": "Maven Auto Shotgun",
               "localizedString": "Maven Auto Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "0DEB7BFD465DEC6DB9B6E8B5A80E7ED3",
+              "key": "E6F5A8954D45A6BB3A4E93808714D4D1",
               "sourceString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range.",
               "localizedString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range."
             },
@@ -46039,6 +46056,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -46191,7 +46209,7 @@
                 },
                 "PickupSoundLibraries": [
                   {
-                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Pickup.SL_DPS_Shotgun_Pickup",
+                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Pickup.SL_Shotgun_MusterDPS_Pickup",
                     "SubPathString": ""
                   }
                 ],
@@ -46199,7 +46217,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -46239,7 +46257,7 @@
               {
                 "QuantityDisplayName": {
                   "namespace": "",
-                  "key": "200275AD4E7C39DBDA25889474A1644E",
+                  "key": "42C4E2BD45363279EE6B248557A6FEE9",
                   "sourceString": "Maven Auto Shotgun",
                   "localizedString": "Maven Auto Shotgun"
                 }
@@ -46305,8 +46323,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'SL_DPS_Shotgun_Fire_Weapon'",
-                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Fire_Weapon.0"
+                    "ObjectName": "SoundLibrary'SL_Shotgun_MusterDPS_Fire_Weapon'",
+                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Fire_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -46328,11 +46346,11 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_UC": {
-    "ts": 1780015024,
+    "ts": 1780710511,
     "data": {
-      "hash": "5f489b329d9e17e17519be2f436af883dbf4a153e71ddc4dfa957853987a5266",
+      "hash": "7ece8a0f75ebe61a3deebc7d35678111c3405759ffe4ed1c6bcdfa7817fb7f62",
       "entries": 1,
-      "bytes": 7975,
+      "bytes": 8096,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -46393,6 +46411,9 @@
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Shotgun.MusterAuto"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto",
@@ -46410,13 +46431,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "1D0C830C4E80C76714AC8F9A5A13D270",
+              "key": "1C2AB2D049E813C4BBEF1EBBF52C99F1",
               "sourceString": "Maven Auto Shotgun",
               "localizedString": "Maven Auto Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "B379436C4565AAC9F224E2BD52951428",
+              "key": "4DDED1984BBBE79CEC569DBA16FE7ABE",
               "sourceString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range.",
               "localizedString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range."
             },
@@ -46455,6 +46476,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -46607,7 +46629,7 @@
                 },
                 "PickupSoundLibraries": [
                   {
-                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Pickup.SL_DPS_Shotgun_Pickup",
+                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Pickup.SL_Shotgun_MusterDPS_Pickup",
                     "SubPathString": ""
                   }
                 ],
@@ -46615,7 +46637,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -46655,7 +46677,7 @@
               {
                 "QuantityDisplayName": {
                   "namespace": "",
-                  "key": "0D4D64314C5B18E7DE7CDDB59CA9859B",
+                  "key": "E8C854834196E11FD0D0CD9D44BB2D94",
                   "sourceString": "Maven Auto Shotgun",
                   "localizedString": "Maven Auto Shotgun"
                 }
@@ -46721,8 +46743,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'SL_DPS_Shotgun_Fire_Weapon'",
-                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Fire_Weapon.0"
+                    "ObjectName": "SoundLibrary'SL_Shotgun_MusterDPS_Fire_Weapon'",
+                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Fire_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -46741,11 +46763,11 @@
     }
   },
   "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/WID_Shotgun_MusterDPS_Athena_VR": {
-    "ts": 1780015025,
+    "ts": 1780710511,
     "data": {
-      "hash": "c7c88de9e01b77b91147dba85f1a123d31f4216a39561476f2c87105e93ee109",
+      "hash": "4b308a82a17247bac8e7c0865c5082759f361c78ecc11d983d8cf1dbbfe7ac57",
       "entries": 1,
-      "bytes": 8002,
+      "bytes": 8123,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -46806,6 +46828,9 @@
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto"
             ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Shotgun.MusterAuto"
+            ],
             "ActualAnalyticFNames": [
               "weapon.ranged.shotgun",
               "Item.Weapon.Ranged.Shotgun.MusterAuto",
@@ -46823,13 +46848,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "F35C5D4C4120309C550520B42EFC7458",
+              "key": "C49BC39344FCE9B6D7BFC3A06097358D",
               "sourceString": "Maven Auto Shotgun",
               "localizedString": "Maven Auto Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "BB5727354C12ADA7A43B4AADE393E35C",
+              "key": "C860CB44416C7F8044840C927A4B5995",
               "sourceString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range.",
               "localizedString": "Shotgun: Automatic. Fast-firing shotgun with moderate damage and range."
             },
@@ -46868,6 +46893,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -47020,7 +47046,7 @@
                 },
                 "PickupSoundLibraries": [
                   {
-                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Pickup.SL_DPS_Shotgun_Pickup",
+                    "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Pickup.SL_Shotgun_MusterDPS_Pickup",
                     "SubPathString": ""
                   }
                 ],
@@ -47028,7 +47054,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -47068,7 +47094,7 @@
               {
                 "QuantityDisplayName": {
                   "namespace": "",
-                  "key": "F9E456574CC42A8191BFFF8536E0087C",
+                  "key": "CD7A637B431F1B43599613B44224E6A8",
                   "sourceString": "Maven Auto Shotgun",
                   "localizedString": "Maven Auto Shotgun"
                 }
@@ -47134,8 +47160,8 @@
               {
                 "WeaponSoundLibraries": [
                   {
-                    "ObjectName": "SoundLibrary'SL_DPS_Shotgun_Fire_Weapon'",
-                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_DPS_Shotgun_Fire_Weapon.0"
+                    "ObjectName": "SoundLibrary'SL_Shotgun_MusterDPS_Fire_Weapon'",
+                    "ObjectPath": "/MusterCoreWeapons/Items/Weapons/MusterDPSShotgun/Audio/SL_Shotgun_MusterDPS_Fire_Weapon.0"
                   }
                 ],
                 "WeaponOwnerSoundLibraries": [],
@@ -54884,11 +54910,11 @@
     }
   },
   "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage": {
-    "ts": 1780083309,
+    "ts": 1780710515,
     "data": {
-      "hash": "9f5cab2badca98cde40da7b0ebd119d89006fa27250b350bcb176885a5095cea",
+      "hash": "eb8d42cc46713708bde0802417dd825ec2d9eb6e5dc37e09c8d38234ab2e1c2f",
       "entries": 1,
-      "bytes": 6903,
+      "bytes": 6930,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -54993,6 +55019,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -55249,11 +55276,11 @@
     }
   },
   "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox": {
-    "ts": 1780083310,
+    "ts": 1780710516,
     "data": {
-      "hash": "42d41db137121075f19c5dca332d917fea5597f58c214a24c0973e482c6e45c4",
+      "hash": "69c91533ee31af8eab70b3bf18c88b41af318b73ad6dd7f2eeca1d74288a659c",
       "entries": 1,
-      "bytes": 6919,
+      "bytes": 6946,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -55364,6 +55391,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -55613,11 +55641,11 @@
     }
   },
   "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot": {
-    "ts": 1780083310,
+    "ts": 1780710516,
     "data": {
-      "hash": "3f858614abd80a298dabe7685d0226cfb90ad7d1ccddcfa6e72ecb7809e1b24d",
+      "hash": "68c23ec503ee08516cd7ee160a3ecd79f071043e91f26da889beb3dc76f2b111",
       "entries": 1,
-      "bytes": 7266,
+      "bytes": 7293,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -55724,6 +55752,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -55876,7 +55905,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -55978,11 +56007,11 @@
     }
   },
   "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall": {
-    "ts": 1780083310,
+    "ts": 1780710516,
     "data": {
-      "hash": "bae0fd9f545d6a9e9701712ca481f58215aae35dae947c3f3398c0efd1afce99",
+      "hash": "10fcde9d93ec054158dff8fc4cef60d86d1ed3e8da247ab6bf0eca142c6b5fef",
       "entries": 1,
-      "bytes": 7110,
+      "bytes": 7137,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -56087,6 +56116,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -56239,7 +56269,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -96051,11 +96081,11 @@
     }
   },
   "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Athena_SR_Ore_T03": {
-    "ts": 1780015157,
+    "ts": 1780710506,
     "data": {
-      "hash": "c8726ad77f0b584303d413d72ca6de63b03d6d8483e672bb86b0e8ac6674dfe2",
+      "hash": "b23c22f6ff569ba82f2654108f555a291736035a073992400a1d1f024dca3c5c",
       "entries": 1,
-      "bytes": 7993,
+      "bytes": 8020,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -96186,6 +96216,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -96465,11 +96496,11 @@
     }
   },
   "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Athena_VR_Ore_T03": {
-    "ts": 1780015157,
+    "ts": 1780710506,
     "data": {
-      "hash": "cb79b434f780d8afb5385610e2e9463b6a301bbc13b6a6f3c6b322f6604a898d",
+      "hash": "4df2c320f36647ec7a5c9b8196776d831528ca2e4b9840bedbb2e4f9d166e5a0",
       "entries": 1,
-      "bytes": 7983,
+      "bytes": 8010,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -96600,6 +96631,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -101222,11 +101254,11 @@
     }
   },
   "/PortAShackGameplay/Items/WID/Athena_PortaShackGrenade_A": {
-    "ts": 1780083400,
+    "ts": 1780710519,
     "data": {
-      "hash": "bf158688dffc13e093595ae829ee68ed5ef71101660174829701e10239bb51bb",
+      "hash": "61716f859449f55037dcae183522351336e568938ebde87bb7cfde56322f3d3d",
       "entries": 1,
-      "bytes": 7261,
+      "bytes": 7288,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -101339,6 +101371,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -123258,11 +123291,11 @@
     }
   },
   "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion": {
-    "ts": 1780083306,
+    "ts": 1780710509,
     "data": {
-      "hash": "b13d4059abb80d288267450ee67de52d339ae02675cbc5cb0105c64f38043359",
+      "hash": "e8d755ab340b72e47a86f759dfa8ce0181b60fad35391e1f40cc3176a0172f74",
       "entries": 1,
-      "bytes": 4490,
+      "bytes": 4517,
       "jsonOutput": [
         {
           "Type": "FortPlayerAugmentItemDefinition",
@@ -123309,6 +123342,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -123461,7 +123495,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -158389,17 +158423,17 @@
     }
   },
   "/Game/Athena/Items/Weapons/LTM/WID_Sniper_NoScope_Update_Athena_R_Ore_T03": {
-    "ts": 1773359195,
+    "ts": 1780710507,
     "data": {
-      "hash": "d8c115ff45e5a053df63d84bb908b414764b89a18f0e2a706e74615a6850e8b8",
+      "hash": "15b00105ed09c8da4f713b14db546287c7640be24ae7aa7057394883efa146a3",
       "entries": 1,
-      "bytes": 7989,
+      "bytes": 8018,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Sniper_NoScope_Update_Athena_R_Ore_T03",
-          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Properties": {
             "bShouldSpawnBulletShellFX": true,
             "bAllowADSInAir": true,
@@ -158472,7 +158506,6 @@
                 "Weapon"
               ]
             },
-            "Rarity": "EFortRarity::Rare",
             "ItemName": {
               "namespace": "",
               "key": "D1031344410A9E091F83799294FACA13",
@@ -158525,6 +158558,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -158793,6 +158827,9 @@
                   "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
                   "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
                 }
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
               }
             ]
           }
@@ -222786,11 +222823,11 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_VR": {
-    "ts": 1780083332,
+    "ts": 1780710524,
     "data": {
-      "hash": "0778cef17fea75d246c578e906638e5068c78a313d9f6e4604d8bd2fb17e5cab",
+      "hash": "9197c67b007010aa3acedbc2ed73027005a59faf948bc699f724006c419f595d",
       "entries": 1,
-      "bytes": 8344,
+      "bytes": 8355,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -222872,7 +222909,6 @@
                 "CH7S2",
                 "Epic",
                 "Guard",
-                "NewThisSeason",
                 "Shotgun",
                 "Weapon"
               ]
@@ -222924,6 +222960,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -223084,7 +223121,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -224844,11 +224881,11 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_R": {
-    "ts": 1780083320,
+    "ts": 1780710522,
     "data": {
-      "hash": "7a495419916c6eb28f96ae2d2d63f780a49633e23144df301a52158d5c92ca21",
+      "hash": "866edffbcd2074e5503199fa34938e8a8a654f9b8d7b8c1bea008ff74cb4f68a",
       "entries": 1,
-      "bytes": 8338,
+      "bytes": 8349,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -224929,7 +224966,6 @@
                 "Ammo:Shells",
                 "CH7S2",
                 "Guard",
-                "NewThisSeason",
                 "Rare",
                 "Shotgun",
                 "Weapon"
@@ -224982,6 +225018,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -225142,7 +225179,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -226448,11 +226485,11 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_SR": {
-    "ts": 1780083320,
+    "ts": 1780710523,
     "data": {
-      "hash": "5d84b398a8313ee7aa7c5bb57e537e0969d48ec5c6822e73be7d32fa13d432f7",
+      "hash": "346f45d547fb9fb692f5e2a23665710e5a2a80c4b130b18a1ca15d07c8b4894f",
       "entries": 1,
-      "bytes": 8354,
+      "bytes": 8365,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -226534,7 +226571,6 @@
                 "CH7S2",
                 "Guard",
                 "Legendary",
-                "NewThisSeason",
                 "Shotgun",
                 "Weapon"
               ]
@@ -226586,6 +226622,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -226746,7 +226783,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -226875,11 +226912,11 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_BellyBlaster/WID_Shotgun_SingleFire_TeaCake_Athena_UC": {
-    "ts": 1780083321,
+    "ts": 1780710523,
     "data": {
-      "hash": "8e2468fb2cb1d997d3506539ea75ec188a42701915c088e60d4910490fb16229",
+      "hash": "155cce95d1a59a73dad1a04272671287ff1011d21f29b28263b5144bf30fdaa6",
       "entries": 1,
-      "bytes": 8317,
+      "bytes": 8328,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -226960,7 +226997,6 @@
                 "Ammo:Shells",
                 "CH7S2",
                 "Guard",
-                "NewThisSeason",
                 "Shotgun",
                 "Uncommon",
                 "Weapon"
@@ -227013,6 +227049,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -227173,7 +227210,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -228115,11 +228152,11 @@
     }
   },
   "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse": {
-    "ts": 1780083306,
+    "ts": 1780710509,
     "data": {
-      "hash": "1a4075a6d40b143f477463a8e603c64705e912ec0f51661706863f637643fdc4",
+      "hash": "3a5862ac4c43937deb157b1e05c2a4502b8f6a0baaec164672e287df40fffe01",
       "entries": 1,
-      "bytes": 7828,
+      "bytes": 7984,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -228174,7 +228211,6 @@
                 "CH7S2",
                 "ConsumableItem",
                 "Item",
-                "NewThisSeason",
                 "OverrideCount_5",
                 "RareItem",
                 "Throwable"
@@ -228183,13 +228219,13 @@
             "ItemType": "EFortItemType::Consumable",
             "ItemName": {
               "namespace": "",
-              "key": "6DE9A77546C9FBC76818308D50CEF002",
+              "key": "731A82674F43BD3BC311979A70922E76",
               "sourceString": "Overdrive Grenade",
               "localizedString": "Overdrive Grenade"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "6A2DFE264E4085E8476BCA8EAE24EBC3",
+              "key": "57763CA24F53913FEAD686B36297AC7A",
               "sourceString": "Hurls a grenade that impulses nearby players, granting a surge of energy and agility.",
               "localizedString": "Hurls a grenade that impulses nearby players, granting a surge of energy and agility."
             },
@@ -228225,6 +228261,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -228380,7 +228417,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -228402,7 +228439,7 @@
               {
                 "SearchTags": {
                   "namespace": "",
-                  "key": "698CDBAD4A72BEC6F790CA99B3674D38",
+                  "key": "22A0B7814640F3ADBCACF588214ED0C8",
                   "sourceString": "KnockGrenade UtilityItem Grenade",
                   "localizedString": "KnockGrenade UtilityItem Grenade"
                 }
@@ -228460,7 +228497,18 @@
                   "RegistryType": {
                     "Name": "None"
                   }
-                }
+                },
+                "WeaponRechargeCooldown": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bShowRechargeCooldown": false
               },
               {
                 "Traits": [
@@ -235928,11 +235976,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_VR": {
-    "ts": 1780015169,
+    "ts": 1780710518,
     "data": {
-      "hash": "0269e4bc00e90a04432cfd179737b5a2b3bfdb5d06ab228c321bcccace2c82e9",
+      "hash": "b70d19a3ad33a7b5f1198fbe9f62fc3a6b30e8956782b2d99ae4e156226050e1",
       "entries": 1,
-      "bytes": 8411,
+      "bytes": 8432,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -235947,8 +235995,8 @@
             },
             "WeaponStatHandle": {
               "DataTable": {
-                "ObjectName": "DataTable'AthenaRangedWeapons_HS'",
-                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons_HS.0"
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
               },
               "RowName": "Pistol_Paprika_Core_Athena_VR_Ore_T03"
             },
@@ -236055,6 +236103,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -236210,7 +236259,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -236349,11 +236398,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_SR": {
-    "ts": 1780015169,
+    "ts": 1780710518,
     "data": {
-      "hash": "0fa07600f20ed52179beac727acd1246f1381446a5930b30511ace990483711e",
+      "hash": "b6211865f545bda728051d0185145a52989b3fbcb2446a70963fe294296e973e",
       "entries": 1,
-      "bytes": 8502,
+      "bytes": 8523,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -236368,8 +236417,8 @@
             },
             "WeaponStatHandle": {
               "DataTable": {
-                "ObjectName": "DataTable'AthenaRangedWeapons_HS'",
-                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons_HS.0"
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
               },
               "RowName": "Pistol_Paprika_Core_Athena_SR_Ore_T03"
             },
@@ -236476,6 +236525,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Default.B_Pickups_Default_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -236631,7 +236681,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -237583,11 +237633,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_C": {
-    "ts": 1780015168,
+    "ts": 1780710517,
     "data": {
-      "hash": "61b3ad7c85738d21f4013ce94cf0fbfd200b5daa5d7a9e78fe352b6b2ff0ee41",
+      "hash": "405e3996e35d2e671b5433e091555f03724112797cdfe0b3550858833c0b746c",
       "entries": 1,
-      "bytes": 8409,
+      "bytes": 8430,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -237602,8 +237652,8 @@
             },
             "WeaponStatHandle": {
               "DataTable": {
-                "ObjectName": "DataTable'AthenaRangedWeapons_HS'",
-                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons_HS.0"
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
               },
               "RowName": "Pistol_Paprika_Core_Athena_C_Ore_T03"
             },
@@ -237710,6 +237760,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -237865,7 +237916,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -238004,11 +238055,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_UC": {
-    "ts": 1780015169,
+    "ts": 1780710518,
     "data": {
-      "hash": "5a8d03360032a04ae35d2ce1adf091b19857a38edef67dfa2a73e49621897b09",
+      "hash": "e9f2f74eb47aefb0d86256db7657a22abedcc09748ca0d7e4daf782144abed6f",
       "entries": 1,
-      "bytes": 8518,
+      "bytes": 8539,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -238023,8 +238074,8 @@
             },
             "WeaponStatHandle": {
               "DataTable": {
-                "ObjectName": "DataTable'AthenaRangedWeapons_HS'",
-                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons_HS.0"
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
               },
               "RowName": "Pistol_Paprika_Core_Athena_UC_Ore_T03"
             },
@@ -238131,6 +238182,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -238286,7 +238338,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -238422,11 +238474,11 @@
     }
   },
   "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_R": {
-    "ts": 1780015168,
+    "ts": 1780710517,
     "data": {
-      "hash": "b447bed39f65b74a03ae4930a7421fe364848306c0f6685aa74cabd04df7c3a5",
+      "hash": "f8b4a235f9543e02c21f23a19425266b4f86390fdbd9aaa24dad802f993bd3a4",
       "entries": 1,
-      "bytes": 8405,
+      "bytes": 8426,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -238441,8 +238493,8 @@
             },
             "WeaponStatHandle": {
               "DataTable": {
-                "ObjectName": "DataTable'AthenaRangedWeapons_HS'",
-                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons_HS.0"
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
               },
               "RowName": "Pistol_Paprika_Core_Athena_R_Ore_T03"
             },
@@ -238549,6 +238601,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -238704,7 +238757,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,

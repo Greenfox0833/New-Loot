@@ -1,0 +1,49 @@
+2026-06-07 07:40:51 | INFO | log file (NoBuild_Comp): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\logs\pipeline_2026-06-07_07-40-51.log
+2026-06-07 07:40:51 | INFO | ===== NoBuild_Comp: pipeline start =====
+2026-06-07 07:40:51 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\items_unique_min.json
+2026-06-07 07:40:51 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp
+2026-06-07 07:40:51 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-06-07 07:40:51 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-06-07 07:40:52 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootPackages_Client.json : replaced=134, added=636
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client
+[1014] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[1015] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[1016] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[1107] RowUpdate LIST_RelicVaultKey_01.Weight=0.1625 -> OK
+[1108] RowUpdate LIST_RelicVaultKey_02.Weight=0.0875 -> OK
+[1109] RowUpdate LIST_Chest_Consumables_Utility_03.Weight=5.500000 -> OK
+[1110] RowUpdate LIST_FloorLoot_Consumables_Utility_03.Weight=1.350000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=7, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\NoBuildBR\OverrideLootPackagesData_NoBuildBR.json : replaced=77, added=0
+[HOTFIX:SEASON3] target=/OrangeRemoteLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR
+[901] RowUpdate LIST_Vend_Item_Seasonal_3_01.ItemDefinition=/Game/Athena/Items/Consumables/SilverBlazer/GID_SilverBlazer.GID_SilverBlazer -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=1, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\OrangeRemoteLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\OverrideLootPackagesData_NoBuildBR__final.json
+2026-06-07 07:40:52 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-06-07 07:40:53 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootTierData_Client.json : replaced=0, added=101
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\NoBuildBR\OverrideLootTierData_NoBuildBR.json : replaced=2, added=0
+[HOTFIX:SEASON3] target=/OrangeRemoteLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\OrangeRemoteLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\OverrideLootTierData_NoBuildBR__final.json
+2026-06-07 07:40:53 | INFO | ✓ Hotfix 適用完了 (1.54s)
+2026-06-07 07:40:53 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+2026-06-07 07:40:53 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+2026-06-07 07:40:53 | INFO | load done (0.03s)
+2026-06-07 07:40:53 | INFO | build summary start
+2026-06-07 07:40:53 | INFO | build summary done (0.06s)
+2026-06-07 07:40:53 | INFO | enrich summary with names start

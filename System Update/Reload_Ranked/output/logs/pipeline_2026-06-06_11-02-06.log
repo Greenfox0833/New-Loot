@@ -4,3 +4,496 @@
 2026-06-06 11:02:06 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
 2026-06-06 11:02:06 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-06-06 11:02:06 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-06-06 11:02:06 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
+[603] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.05.Weight=0.066000 -> SKIP(no row)
+[604] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.05.Weight=0.066000 -> SKIP(no row)
+[605] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.05.Weight=0.066000 -> SKIP(no row)
+[606] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.05.Weight=0.066000 -> SKIP(no row)
+[607] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.05.Weight=0.066000 -> SKIP(no row)
+[608] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.05.Weight=0.066000 -> SKIP(no row)
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=6
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\Habanero\BlastBerryLootPackages_Habanero.json : replaced=0, added=2289
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryLootPackages_Habanero
+[1119] RowUpdate WorldList.AthenaWadStash.Medium.01.CountRange=(X=100,Y=100) -> OK
+[1120] RowUpdate WorldList.AthenaWadStash.Large.01.CountRange=(X=200,Y=200) -> OK
+[1121] RowUpdate WorldList.AthenaWadSafe.01.CountRange=(X=300,Y=300) -> OK
+[1122] RowUpdate WorldList.AthenaWadGoldBarStack.Small.01.CountRange=(X=50,Y=50) -> OK
+[1123] RowUpdate WorldList.AthenaWadGoldBarStack.Medium.01.CountRange=(X=100,Y=100) -> OK
+[1124] RowUpdate WorldList.AthenaWadGoldBarStack.Large.01.CountRange=(X=200,Y=200) -> OK
+[1125] RowUpdate WorldList.AthenaWadChests.01.CountRange=(X=50,Y=50) -> OK
+[1126] RowUpdate WorldList.AthenaWadChests.02.CountRange=(X=75,Y=75) -> OK
+[1127] RowUpdate WorldList.AthenaWadChests.03.Weight=0.050000 -> OK
+[1128] RowUpdate WorldList.AthenaWadChests.03.CountRange=(X=100,Y=100) -> OK
+[1129] RowUpdate WorldList.ApolloWadChests.01.CountRange=(X=100,Y=100) -> OK
+[1130] RowUpdate WorldList.ApolloWadChests.02.CountRange=(X=150,Y=150) -> OK
+[1131] RowUpdate WorldList.ApolloWadChests.03.CountRange=(X=250,Y=250) -> OK
+[1155] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.39.Weight=1.000000 -> OK
+[1156] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.40.Weight=0.400000 -> OK
+[1157] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.41.Weight=0.080000 -> OK
+[1158] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.46.Weight=0.000000 -> OK
+[1159] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.47.Weight=0.000000 -> OK
+[1160] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.60.Weight=0.000000 -> OK
+[1161] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.61.Weight=0.000000 -> OK
+[1162] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.62.Weight=0.000000 -> OK
+[1163] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.72.Weight=1.000000 -> OK
+[1164] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.73.Weight=0.400000 -> OK
+[1165] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.74.Weight=0.080000 -> OK
+[1166] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.81.Weight=0.000000 -> OK
+[1167] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.82.Weight=0.000000 -> OK
+[1168] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.59.Weight=0.400000 -> OK
+[1169] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.60.Weight=0.080000 -> OK
+[1170] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.61.Weight=0.016000 -> OK
+[1171] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.62.Weight=0.004000 -> OK
+[1172] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.67.Weight=0.000000 -> OK
+[1173] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.68.Weight=0.000000 -> OK
+[1174] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.69.Weight=0.000000 -> OK
+[1175] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.70.Weight=0.000000 -> OK
+[1176] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.87.Weight=0.000000 -> OK
+[1177] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.88.Weight=0.000000 -> OK
+[1178] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.89.Weight=0.000000 -> OK
+[1179] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.90.Weight=0.000000 -> OK
+[1180] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.103.Weight=0.400000 -> OK
+[1181] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.104.Weight=0.080000 -> OK
+[1182] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.105.Weight=0.016000 -> OK
+[1183] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.106.Weight=0.004000 -> OK
+[1184] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.115.Weight=0.000000 -> OK
+[1185] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.116.Weight=0.000000 -> OK
+[1186] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.117.Weight=0.000000 -> OK
+[1187] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.118.Weight=0.000000 -> OK
+[1188] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.25.Weight=0.000000 -> OK
+[1189] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.26.Weight=0.000000 -> OK
+[1190] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.27.Weight=1.000000 -> OK
+[1191] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.28.Weight=0.400000 -> OK
+[1192] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.29.Weight=0.080000 -> OK
+[1193] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.36.Weight=0.000000 -> OK
+[1194] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.37.Weight=0.000000 -> OK
+[1195] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.38.Weight=0.000000 -> OK
+[1196] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.39.Weight=0.000000 -> OK
+[1197] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.40.Weight=0.400000 -> OK
+[1198] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.41.Weight=0.080000 -> OK
+[1199] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.42.Weight=0.016000 -> OK
+[1200] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.43.Weight=0.004000 -> OK
+[1201] RowUpdate WorldList.AthenaLoot.Weapon.SMG.35.Weight=0.000000 -> OK
+[1202] RowUpdate WorldList.AthenaLoot.Weapon.SMG.36.Weight=0.000000 -> OK
+[1203] RowUpdate WorldList.AthenaLoot.Weapon.SMG.55.Weight=0.400000 -> OK
+[1204] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.48.Weight=0.000000 -> OK
+[1205] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.49.Weight=0.000000 -> OK
+[1206] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.50.Weight=0.000000 -> OK
+[1207] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.51.Weight=0.000000 -> OK
+[1208] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.76.Weight=0.400000 -> OK
+[1209] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.31.Weight=0.000000 -> OK
+[1210] RowUpdate WorldList.AthenaLoot.Weapon.Sniper.32.Weight=0.000000 -> OK
+[1211] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.36.Weight=0.016000 -> OK
+[1212] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.36.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR -> OK
+[1213] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.37.Weight=0.080000 -> OK
+[1214] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.37.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR -> OK
+[1215] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.53.Weight=0.000000 -> OK
+[1216] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.54.Weight=0.000000 -> OK
+[1217] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.55.Weight=0.000000 -> OK
+[1218] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.56.Weight=0.000000 -> OK
+[1219] RowUpdate WorldList.AthenaLoot.Weapon.Rocket.12.Weight=0.080000 -> OK
+[1220] RowUpdate WorldList.AthenaLoot.Weapon.HighRocket.22.Weight=0.012000 -> OK
+[1221] RowUpdate WorldList.AthenaLoot.Weapon.HighRocket.23.Weight=0.003000 -> OK
+[1222] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.33.Weight=0.750000 -> OK
+[1223] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.34.Weight=0.250000 -> OK
+[1224] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.37.Weight=0.000000 -> OK
+[1225] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.38.Weight=0.000000 -> OK
+[1226] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.47.Weight=0.000000 -> OK
+[1227] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.48.Weight=0.000000 -> OK
+[1228] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.55.Weight=0.750000 -> OK
+[1229] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.56.Weight=0.250000 -> OK
+[1230] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.61.Weight=0.000000 -> OK
+[1231] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.62.Weight=0.000000 -> OK
+[1232] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.20.Weight=0.000000 -> OK
+[1233] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.21.Weight=0.000000 -> OK
+[1234] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.22.Weight=0.750000 -> OK
+[1235] RowUpdate WorldList.ApolloLoot.Weapon.HighHandgun.23.Weight=0.250000 -> OK
+[1236] RowUpdate WorldList.ApolloLoot.Weapon.SMG.25.Weight=0.000000 -> OK
+[1237] RowUpdate WorldList.ApolloLoot.Weapon.SMG.26.Weight=0.000000 -> OK
+[1238] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.19.Weight=0.750000 -> OK
+[1239] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.19.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR -> OK
+[1240] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.20.Weight=0.250000 -> OK
+[1241] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.20.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR -> OK
+[1242] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.29.Weight=0.000000 -> OK
+[1243] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.30.Weight=0.000000 -> OK
+[1244] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.16.Weight=0.250000 -> OK
+[1245] RowUpdate WorldList.ApolloLoot.Weapon.Rocket.17.Weight=0.250000 -> OK
+[1246] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.60.Weight=0.250000 -> OK
+[1247] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.61.Weight=0.125000 -> OK
+[1248] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.62.Weight=0.025000 -> OK
+[1249] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.68.Weight=0.000000 -> OK
+[1250] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.69.Weight=0.000000 -> OK
+[1251] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.70.Weight=0.000000 -> OK
+[1252] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.88.Weight=0.000000 -> OK
+[1253] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.89.Weight=0.000000 -> OK
+[1254] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.90.Weight=0.000000 -> OK
+[1255] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.104.Weight=0.250000 -> OK
+[1256] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.105.Weight=0.125000 -> OK
+[1257] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.106.Weight=0.025000 -> OK
+[1258] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.116.Weight=0.000000 -> OK
+[1259] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.117.Weight=0.000000 -> OK
+[1260] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.118.Weight=0.000000 -> OK
+[1261] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.36.Weight=0.000000 -> OK
+[1262] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.37.Weight=0.000000 -> OK
+[1263] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.38.Weight=0.000000 -> OK
+[1264] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.40.Weight=0.250000 -> OK
+[1265] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.41.Weight=0.125000 -> OK
+[1266] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.42.Weight=0.025000 -> OK
+[1267] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.49.Weight=0.000000 -> OK
+[1268] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.50.Weight=0.000000 -> OK
+[1269] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.51.Weight=0.000000 -> OK
+[1270] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.76.Weight=0.125000 -> OK
+[1271] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.128.Weight=0.125000 -> OK
+[1272] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.35.Weight=0.200000 -> OK
+[1273] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.35.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR -> OK
+[1274] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.36.Weight=0.125000 -> OK
+[1275] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.36.ItemDefinition=/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR -> OK
+[1276] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.54.Weight=0.000000 -> OK
+[1277] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.55.Weight=0.000000 -> OK
+[1278] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.56.Weight=0.000000 -> OK
+[1279] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Rocket.22.Weight=0.090000 -> OK
+[1280] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Rocket.23.Weight=0.016000 -> OK
+[1281] RowUpdate WorldList.MythicRandom.24.Weight=1.000000 -> OK
+[1478] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.29.Weight=1.000000 -> OK
+[1479] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.29.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_C.WID_Shotgun_Pump_DragonCart_Athena_C -> OK
+[1480] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.30.Weight=0.400000 -> OK
+[1481] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.30.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_UC.WID_Shotgun_Pump_DragonCart_Athena_UC -> OK
+[1482] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.31.Weight=0.080000 -> OK
+[1483] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.31.ItemDefinition=/DragonCartWeaponGameplay/Gameplay/DragonCart_Pump/WID_Shotgun_Pump_DragonCart_Athena_R.WID_Shotgun_Pump_DragonCart_Athena_R -> OK
+[1484] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.123.Weight=0.400000 -> OK
+[1485] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.124.Weight=0.080000 -> OK
+[1486] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.125.Weight=0.016000 -> OK
+[1487] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.126.Weight=0.004000 -> OK
+[1488] RowUpdate WorldList.AthenaLoot.Weapon.SMG.15.Weight=0.000000 -> OK
+[1489] RowUpdate WorldList.AthenaLoot.Weapon.SMG.16.Weight=0.000000 -> OK
+[1490] RowUpdate WorldList.AthenaLoot.Weapon.SMG.17.Weight=0.000000 -> OK
+[1491] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.21.Weight=0.000000 -> OK
+[1492] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.22.Weight=0.000000 -> OK
+[1493] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.23.Weight=0.000000 -> OK
+[1494] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.24.Weight=0.000000 -> OK
+[1495] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.84.Weight=1.000000 -> OK
+[1496] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.85.Weight=0.400000 -> OK
+[1497] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.86.Weight=0.080000 -> OK
+[1498] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.116.Weight=0.400000 -> OK
+[1499] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.117.Weight=0.080000 -> OK
+[1500] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.118.Weight=0.016000 -> OK
+[1501] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.119.Weight=0.004000 -> OK
+[1502] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.65.Weight=0.750000 -> OK
+[1503] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.66.Weight=0.250000 -> OK
+[1504] RowUpdate WorldList.ApolloLoot.Weapon.SMG.11.Weight=0.000000 -> OK
+[1505] RowUpdate WorldList.ApolloLoot.Weapon.SMG.12.Weight=0.000000 -> OK
+[1506] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.59.Weight=0.750000 -> OK
+[1507] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.60.Weight=0.250000 -> OK
+[1508] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.124.Weight=0.250000 -> OK
+[1509] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.125.Weight=0.125000 -> OK
+[1510] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.126.Weight=0.025000 -> OK
+[1511] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.22.Weight=0.000000 -> OK
+[1512] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.23.Weight=0.000000 -> OK
+[1513] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.24.Weight=0.000000 -> OK
+[1514] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.117.Weight=0.225000 -> OK
+[1515] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.118.Weight=0.125000 -> OK
+[1516] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.119.Weight=0.025000 -> OK
+[1517] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.72.Weight=0.000000 -> OK
+[1518] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.73.Weight=0.000000 -> OK
+[1519] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.74.Weight=0.000000 -> OK
+[1520] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.24.Weight=0.000000 -> OK
+[1521] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.25.Weight=0.000000 -> OK
+[1522] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.26.Weight=0.000000 -> OK
+[1523] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.27.Weight=0.000000 -> OK
+[1524] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.103.Weight=0.000000 -> OK
+[1525] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.104.Weight=0.000000 -> OK
+[1526] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.105.Weight=0.000000 -> OK
+[1527] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.106.Weight=0.000000 -> OK
+[1528] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.13.Weight=0.000000 -> OK
+[1529] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.14.Weight=0.000000 -> OK
+[1530] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.15.Weight=0.000000 -> OK
+[1531] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.16.Weight=0.000000 -> OK
+[1532] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.67.Weight=0.000000 -> OK
+[1533] RowUpdate WorldList.AthenaLoot.Weapon.AssaultAuto.68.Weight=0.000000 -> OK
+[1534] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.92.Weight=0.000000 -> OK
+[1535] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.93.Weight=0.000000 -> OK
+[1536] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.94.Weight=0.000000 -> OK
+[1537] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.95.Weight=0.000000 -> OK
+[1538] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.112.Weight=0.000000 -> OK
+[1539] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.113.Weight=0.000000 -> OK
+[1540] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.114.Weight=0.000000 -> OK
+[1541] RowUpdate WorldList.AthenaLoot.Weapon.HighAssaultAuto.115.Weight=0.000000 -> OK
+[1542] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.55.Weight=0.000000 -> OK
+[1543] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.56.Weight=0.000000 -> OK
+[1544] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.47.Weight=0.000000 -> OK
+[1545] RowUpdate WorldList.ApolloLoot.Weapon.AssaultAuto.48.Weight=0.000000 -> OK
+[1546] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.104.Weight=0.000000 -> OK
+[1547] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.105.Weight=0.000000 -> OK
+[1548] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.106.Weight=0.000000 -> OK
+[1549] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.93.Weight=0.000000 -> OK
+[1550] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.94.Weight=0.000000 -> OK
+[1551] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Assault.95.Weight=0.000000 -> OK
+[1572] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.01.Weight=1.000000 -> OK
+[1573] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.02.Weight=0.400000 -> OK
+[1574] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.03.Weight=0.080000 -> OK
+[1575] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.04.Weight=1.000000 -> OK
+[1576] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.05.Weight=0.400000 -> OK
+[1577] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.06.Weight=0.080000 -> OK
+[1578] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.76.Weight=0.000000 -> OK
+[1579] RowUpdate WorldList.AthenaLoot.Weapon.Shotgun.79.Weight=0.000000 -> OK
+[1580] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.01.Weight=0.400000 -> OK
+[1581] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.02.Weight=0.080000 -> OK
+[1582] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.03.Weight=0.016000 -> OK
+[1583] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.04.Weight=0.004000 -> OK
+[1584] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.05.Weight=0.400000 -> OK
+[1585] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.06.Weight=0.080000 -> OK
+[1586] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.07.Weight=0.016000 -> OK
+[1587] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.08.Weight=0.004000 -> OK
+[1588] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.107.Weight=0.000000 -> OK
+[1589] RowUpdate WorldList.AthenaLoot.Weapon.HighShotgun.111.Weight=0.000000 -> OK
+[1590] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.01.Weight=0.750000 -> OK
+[1591] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.02.Weight=0.250000 -> OK
+[1592] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.03.Weight=0.750000 -> OK
+[1593] RowUpdate WorldList.ApolloLoot.Weapon.HighShotgun.04.Weight=0.250000 -> OK
+[1594] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.02.Weight=0.250000 -> OK
+[1595] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.03.Weight=0.125000 -> OK
+[1596] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.04.Weight=0.025000 -> OK
+[1597] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.06.Weight=0.250000 -> OK
+[1598] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.07.Weight=0.125000 -> OK
+[1599] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.08.Weight=0.025000 -> OK
+[1600] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.108.Weight=0.000000 -> OK
+[1601] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Shotgun.111.Weight=0.000000 -> OK
+[1602] RowUpdate WorldList.MythicRandom.04.Weight=1.000000 -> OK
+[1603] RowUpdate WorldList.MythicRandom.05.Weight=1.000000 -> OK
+[1604] RowUpdate WorldList.MythicRandom.08.Weight=1.000000 -> OK
+[1613] RowUpdate WorldList.AthenaHighConsumables.Utility.07.Weight=0.200000 -> OK
+[1614] RowUpdate WorldList.AthenaHighConsumables.Utility.20.Weight=0.000000 -> OK
+[1615] RowUpdate WorldList.AthenaHighConsumablesRare.Utility.07.Weight=0.400000 -> OK
+[1616] RowUpdate WorldList.AthenaHighConsumablesRare.Utility.20.Weight=0.000000 -> OK
+[1617] RowUpdate WorldList.AthenaSupplyDropUtility.07.Weight=0.300000 -> OK
+[1618] RowUpdate WorldList.AthenaSupplyDropUtility.20.Weight=0.000000 -> OK
+[1619] RowUpdate WorldList.AthenaConsumables.Utility.07.Weight=0.150000 -> OK
+[1620] RowUpdate WorldList.AthenaConsumables.Utility.20.Weight=0.000000 -> OK
+[1622] RowUpdate WorldList.AthenaLoot.Weapon.SMG.57.Weight=0.000000 -> OK
+[1623] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.80.Weight=0.000000 -> OK
+[1624] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.81.Weight=0.000000 -> OK
+[1625] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.82.Weight=0.000000 -> OK
+[1626] RowUpdate WorldList.ApolloLoot.Weapon.SMG.41.Weight=0.000000 -> OK
+[1627] RowUpdate WorldList.ApolloLoot.Weapon.SMG.42.Weight=0.000000 -> OK
+[1628] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.80.Weight=0.000000 -> OK
+[1629] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.81.Weight=0.000000 -> OK
+[1630] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.82.Weight=0.000000 -> OK
+[1631] RowUpdate WorldList.AthenaLoot.Weapon.SMG.17.Weight=0.000000 -> OK
+[1632] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.22.Weight=0.000000 -> OK
+[1633] RowUpdate WorldList.ApolloLoot.Weapon.SMG.11.Weight=0.000000 -> OK
+[1634] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.22.Weight=0.000000 -> OK
+[1635] RowUpdate WorldList.AthenaHighConsumables.Healing.05.Weight=0.000000 -> OK
+[1636] RowUpdate WorldList.AthenaHighConsumablesRare.Healing.05.Weight=0.000000 -> OK
+[1637] RowUpdate WorldList.AthenaSupplyDropHeals.05.Weight=0.000000 -> OK
+[1638] RowUpdate WorldList.AthenaConsumables.Healing.06.Weight=0.000000 -> OK
+[1639] RowUpdate WorldList.Loadout.Consumable.14.Weight=0.000000 -> SKIP(no row)
+[1640] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.36.Weight=0.004000 -> OK
+[1641] RowUpdate WorldList.AthenaLoot.Weapon.HighSniper.37.Weight=0.004000 -> OK
+[1642] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.35.Weight=0.0250000 -> OK
+[1643] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Sniper.36.Weight=0.025000 -> OK
+[1644] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.19.Weight=0.15000 -> OK
+[1645] RowUpdate WorldList.ApolloLoot.Weapon.Sniper.20.Weight=0.10000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=278, deleted=0, skipped=1
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootPackages_Client_BlastBerryOverride_Habanero.json : replaced=5, added=239
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero
+[1084] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1085] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1086] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1087] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1088] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1089] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1090] RowUpdate WorldPKG.ApolloLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1091] RowUpdate WorldPKG.ApolloLoot.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1092] RowUpdate WorldPKG.ApolloLoot.Weapon.AssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1093] RowUpdate WorldPKG.ApolloLoot.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1094] RowUpdate WorldPKG.ApolloLoot.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1095] RowUpdate WorldPKG.ApolloLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1096] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Assault.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1097] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1098] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1099] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1100] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1101] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Handgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1688] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1689] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1690] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1691] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1692] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1693] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1694] RowUpdate WorldPKG.ApolloLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1695] RowUpdate WorldPKG.ApolloLoot.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1696] RowUpdate WorldPKG.ApolloLoot.Weapon.AssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1697] RowUpdate WorldPKG.ApolloLoot.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1698] RowUpdate WorldPKG.ApolloLoot.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1699] RowUpdate WorldPKG.ApolloLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1700] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Assault.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1701] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1702] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1703] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1704] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1705] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Handgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=36, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryLootPackages_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_Habanero__final.json
+2026-06-06 11:02:06 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-06-06 11:02:07 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\Habanero\BlastBerryTierData_Habanero.json : replaced=4, added=71
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryTierData_Habanero
+[880] RowUpdate LTG_Reboot_Early_01.LootPackageCategoryMinArray=(1,0,1,1,1,0,0,0,0,0,0) -> OK
+[881] RowUpdate LTG_Reboot_Mid_01.LootPackageCategoryMinArray=(1,1,1,1,1,1,0,0,0,0,0) -> OK
+[882] RowUpdate LTG_Reboot_Late_01.LootPackageCategoryMinArray=(1,1,1,1,1,1,1,0,0,0,0) -> OK
+[HOTFIX:SEASON2] done: applied=3, deleted=0, skipped=0
+[STEP1-3] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\BlastBerryLoot\Content\DataTables\AthenaLootTierData_Client_BlastBerryOverride_Habanero.json : replaced=64, added=200
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryTierData_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_Habanero__final.json
+2026-06-06 11:02:07 | INFO | ✓ Hotfix 適用完了 (0.91s)
+2026-06-06 11:02:07 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+2026-06-06 11:02:07 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+2026-06-06 11:02:07 | INFO | load done (0.03s)
+2026-06-06 11:02:07 | INFO | build summary start
+2026-06-06 11:02:12 | INFO | build summary done (5.18s)
+2026-06-06 11:02:12 | INFO | enrich summary with names start
+2026-06-06 11:02:16 | INFO | enrich summary done (3.82s)
+2026-06-06 11:02:16 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-06-06_11-02.json
+2026-06-06 11:02:16 | INFO | build item metadata start
+2026-06-06 11:03:05 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (48.85s)
+2026-06-06 11:03:05 | INFO | build BR_LootData start
+2026-06-06 11:03:05 | INFO | build BR_LootData done (0.00s)
+2026-06-06 11:03:05 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-06-06_11-03.json
+2026-06-06 11:03:05 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
+2026-06-06 11:03:05 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
+2026-06-06 11:03:05 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-06-06_11-02.json
+✅ 抽出件数: 167
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-05-29_09-39.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-06-06_11-02.json
+✅ 差分作成 完了
+  追加   : 40 / 削除 : 38 / 変更 : 0 / 変化なし : 127
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260606_1103\items_unique_min_diff.json
+2026-06-06 11:03:05 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-06-06 11:03:05 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.44s)
+2026-06-06 11:03:05 | INFO | prewarm start
+2026-06-06 11:03:09 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (4.31s)
+2026-06-06 11:03:09 | INFO | 画像化タスク数: 167
+2026-06-06 11:03:10 | INFO | 画像生成 進捗: 1/167
+2026-06-06 11:03:11 | INFO | 画像生成 進捗: 50/167
+2026-06-06 11:03:12 | INFO | 画像生成 進捗: 100/167
+2026-06-06 11:03:13 | INFO | 画像生成 進捗: 150/167
+2026-06-06 11:03:13 | INFO | 画像生成 進捗: 167/167
+2026-06-06 11:03:13 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-06-06 11:03:14 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-06-06_11-03-14.json (added=56 removed=50 change=113)
+2026-06-06 11:03:14 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Reload_Ranked\AddedItems\2026-06-06_11-03-14 (copied=56 missing=0)
+2026-06-06 11:03:14 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-06-06 11:03:23 | INFO | git commit stdout: [main 08caabc] Reload_Ranked update 2026-06-06 11:03:19
+ 108 files changed, 168614 insertions(+), 114980 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260606_1103/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-06-06_11-02-06.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-06-06_11-02.json
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Pistol_Mammoth_Morphite_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Rifle_Hammer_Morphite_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_SentinelPump_Morphite_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Shotgun_ThunderPump_Morphite_L.png
+ create mode 100644 System Update/shared/icon_cache/CorruptionItems__Gameplay__Icons__T-Icon-Weapons-BranchPistolWeapon-L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Weapons__Items__T-Icon-Weapons-CompactSMGVariant-L.png
+ create mode 100644 System Update/shared/icon_cache/WeaponsUpdated__Gameplay__TimberStakeSMG__Textures__T_Icons_Weapons_TimberStake_SMG_L.png
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \343\203\255\343\202\261\343\203\203\343\203\210\345\274\276.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \346\234\250\346\235\220.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \347\237\263\346\235\220.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2421 - \351\207\221\345\261\236.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\237\343\203\213\343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\273\343\203\263\343\203\201\343\203\215\343\203\253 \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\217\343\203\263\343\203\236\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\236\343\203\263\343\203\242\343\202\271\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2422 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\202\261\343\202\260.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \343\203\255\343\202\261\343\203\203\343\203\210\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   .png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2423 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\202\265\343\203\274\343\203\225\343\202\255\343\203\245\343\203\274\343\203\226.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\203\224\343\202\266\343\203\221\343\203\274\343\203\206\343\202\243\343\203\274.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \343\203\255\343\202\261\343\203\203\343\203\210\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   .png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2424 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \343\203\255\343\202\261\343\203\203\343\203\210\343\203\251\343\203\263\343\203\201\343\203\243\343\203\274   .png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2425 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2427 - \343\202\250\343\203\263\343\203\217\343\203\263\343\202\271\343\203\211 \343\202\244\343\203\263\343\203\225\343\202\243\343\203\253\343\203\210\343\203\254\343\203\274\343\202\277\343\203\274 \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2427 - \343\202\271\343\202\253\343\202\244\343\201\256\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-06-06_11-03-14/\343\203\206\343\202\243\343\202\2427 - \343\203\226\343\203\253\343\203\274\343\202\277\343\202\271\343\201\256\343\203\237\343\203\213\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\251\343\203\206\343\203\251\343\203\253\343\203\200\343\203\241\343\203\274\343\202\270 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\265\343\203\274\343\203\225\343\202\255\343\203\245\343\203\274\343\203\226 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\267\343\203\274\343\203\253\343\203\211\343\202\261\343\202\260 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\265\343\203\263\343\203\200\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\273\343\203\263\343\203\201\343\203\215\343\203\253 \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\217\343\203\263\343\203\236\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\236\343\203\263\343\203\242\343\202\271\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\203\203\343\203\211\343\202\242\343\202\244\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-06-06_11-03.json"
+2026-06-06 11:03:32 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   e34872e..08caabc  main -> main
+2026-06-06 11:03:32 | INFO | ✓ GitHub Push 完了
+2026-06-06 11:03:32 | INFO | ===== Reload_Ranked: pipeline end =====

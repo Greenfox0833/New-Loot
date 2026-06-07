@@ -40,3 +40,56 @@
 2026-06-07 18:20:56 | INFO | enrich summary done (0.00s)
 2026-06-07 18:20:56 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_18-20.json
 2026-06-07 18:20:56 | INFO | build item metadata start
+2026-06-07 18:21:42 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (45.51s)
+2026-06-07 18:21:42 | INFO | build BR_LootData start
+2026-06-07 18:21:42 | INFO | build BR_LootData done (0.00s)
+2026-06-07 18:21:42 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-06-07_18-21.json
+2026-06-07 18:21:42 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-06-07 18:21:42 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-06-07 18:21:43 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_18-20.json
+✅ 抽出件数: 128
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_06-36.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-07_18-20.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 14 / 変化なし : 114
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260607_1821\items_unique_min_diff.json
+2026-06-07 18:21:43 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-06-07 18:21:43 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.85s)
+2026-06-07 18:21:43 | INFO | prewarm start
+2026-06-07 18:21:52 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (9.41s)
+2026-06-07 18:21:52 | INFO | 画像化タスク数: 128
+2026-06-07 18:21:53 | INFO | 画像生成 進捗: 1/128
+2026-06-07 18:21:54 | INFO | 画像生成 進捗: 50/128
+2026-06-07 18:21:55 | INFO | 画像生成 進捗: 100/128
+2026-06-07 18:21:56 | INFO | 画像生成 進捗: 128/128
+2026-06-07 18:21:56 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-06-07 18:21:56 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-06-07 18:21:56 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-06-07 18:22:08 | INFO | git commit stdout: [main 18219b9] BR update 2026-06-07 18:22:03
+ 34 files changed, 57410 insertions(+), 376 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260607_1821/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-06-07_18-20-55.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-06-07_18-20.json
+ create mode 100644 System Update/BR/scripts/__pycache__/fill_unknown_names.cpython-312.pyc
+ create mode 100644 System Update/BR/scripts/fill_unknown_names.py
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\200\343\203\203\343\202\257\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\207\343\203\274\343\203\242\343\203\263\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\221\343\203\263\343\202\257\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \345\234\260\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \346\260\264\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \347\202\216\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\203\200\343\203\203\343\202\257\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\203\207\343\203\274\343\203\242\343\203\263\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\203\221\343\203\263\343\202\257\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \345\234\260\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \346\260\264\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \347\202\216\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-06-07_18-21.json"
+2026-06-07 18:22:19 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   24a4cb0..18219b9  main -> main
+2026-06-07 18:22:19 | INFO | ✓ GitHub Push 完了
+2026-06-07 18:22:19 | INFO | ===== BR: pipeline end =====

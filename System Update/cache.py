@@ -274,6 +274,45 @@ def export_by_asset_path(asset_path: str) -> dict | None:
     clean = normalize_asset_path(asset_path)
     return fetch_export_json(clean)
 
+
+_SPRITE_VARIANT_LABELS = {
+    "Galaxy": "ギャラクシー",
+    "Galactic": "ギャラクシー",
+    "Gold": "ゴールド",
+    "Holofoil": "ホロフォイル",
+}
+
+
+def _build_sprite_variant_fallback_name(asset_path: str) -> str | None:
+    norm = normalize_asset_path(asset_path)
+    if not norm or "/SpriteLibrary_CH7S3/SpriteDefinitions/" not in norm:
+        return None
+
+    asset_name = norm.rsplit("/", 1)[-1]
+    marker = None
+    if "_Variant_" in asset_name:
+        marker = "_Variant_"
+    elif "_Variation_" in asset_name:
+        marker = "_Variation_"
+    if not marker:
+        return None
+
+    base_name, variant_token = asset_name.split(marker, 1)
+    if not base_name or not variant_token:
+        return None
+
+    variant_label = _SPRITE_VARIANT_LABELS.get(variant_token)
+    if not variant_label:
+        return None
+
+    parent_path = f"{norm.rsplit('/', 1)[0]}/{base_name}"
+    parent_name = get_name_by_asset(parent_path)
+    if not parent_name or parent_name == "???":
+        return None
+
+    return f"{variant_label} {parent_name}"
+
+
 def get_name_by_asset(asset_path: str) -> str:
     if not asset_path:
         return "???"
@@ -305,6 +344,13 @@ def get_name_by_asset(asset_path: str) -> str:
     fallback = extract_itemname_text(export_json)
     if fallback and fallback != "???":
         ASSET_LOC_CACHE[norm] = fallback
+        _ASSET_LC_STATE["dirty"] += 1
+        _flush_asset_loc_cache_if_needed()
+        return ASSET_LOC_CACHE[norm]
+
+    variant_fallback = _build_sprite_variant_fallback_name(norm)
+    if variant_fallback and variant_fallback != "???":
+        ASSET_LOC_CACHE[norm] = variant_fallback
         _ASSET_LC_STATE["dirty"] += 1
         _flush_asset_loc_cache_if_needed()
         return ASSET_LOC_CACHE[norm]

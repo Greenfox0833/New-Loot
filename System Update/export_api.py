@@ -209,11 +209,15 @@ def extract_text_key(export_json: dict, field_name: str) -> str | None:
     props = root.get("Properties", {})
     if isinstance(props, dict):
         im = props.get(field_name)
-        if isinstance(im, dict) and im.get("key"):
-            return im["key"]
+        if isinstance(im, dict):
+            key = im.get("key") or im.get("Key")
+            if key:
+                return key
     im2 = root.get(field_name)
-    if isinstance(im2, dict) and im2.get("key"):
-        return im2["key"]
+    if isinstance(im2, dict):
+        key = im2.get("key") or im2.get("Key")
+        if key:
+            return key
     return None
 
 
@@ -240,11 +244,21 @@ def extract_text_value(export_json: dict, field_name: str) -> str | None:
     if isinstance(props, dict):
         im = props.get(field_name)
         if isinstance(im, dict):
-            cand = im.get("localizedString") or im.get("sourceString")
+            cand = (
+                im.get("localizedString")
+                or im.get("LocalizedString")
+                or im.get("sourceString")
+                or im.get("SourceString")
+            )
     if not cand and isinstance(root, dict):
         im2 = root.get(field_name)
         if isinstance(im2, dict):
-            cand = im2.get("localizedString") or im2.get("sourceString")
+            cand = (
+                im2.get("localizedString")
+                or im2.get("LocalizedString")
+                or im2.get("sourceString")
+                or im2.get("SourceString")
+            )
     return cand
 def fetch_localized_name(key: str) -> str:
     if not key:

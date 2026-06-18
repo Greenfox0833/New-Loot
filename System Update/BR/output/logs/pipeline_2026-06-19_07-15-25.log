@@ -1,0 +1,161 @@
+2026-06-19 07:15:25 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\logs\pipeline_2026-06-19_07-15-25.log
+2026-06-19 07:15:25 | INFO | ===== BR: pipeline start =====
+2026-06-19 07:15:25 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+2026-06-19 07:15:25 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
+2026-06-19 07:15:25 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-06-19 07:15:25 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-06-19 07:15:26 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootPackages_Client.json : replaced=134, added=636
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client
+[1011] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[1012] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[1013] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[1136] RowUpdate LIST_FishingDefault_Consumables_Utility_02.Weight=0.070000 -> OK
+[1137] RowUpdate LIST_FishingHole_Consumables_Utility_02.Weight=0.070000 -> OK
+[1139] RowUpdate LIST_Chest_Consumables_Shielding_03.Weight=0.050000 -> OK
+[1140] RowUpdate LIST_RareChest_Consumables_Shielding_02.Weight=0.250000 -> OK
+[1307] RowUpdate LIST_Legendary_03.ItemDefinition=/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider -> OK
+[1327] RowUpdate LIST_Weapons_Uncommon_Shotgun_04.Weight=0.000 -> OK
+[1328] RowUpdate LIST_Weapons_Rare_Shotgun_04.Weight=0.000 -> OK
+[1329] RowUpdate LIST_Weapons_Epic_Shotgun_04.Weight=0.000 -> OK
+[1330] RowUpdate LIST_Weapons_Legendary_Shotgun_04.Weight=0.000 -> OK
+[1331] RowUpdate LIST_Weapons_Mythic_Shotgun_04.Weight=0.000 -> OK
+[1332] RowUpdate LIST_Weapons_Common_Assault_02.Weight=0.00 -> OK
+[1333] RowUpdate LIST_Weapons_Common_Assault_03.Weight=1.00 -> OK
+[1334] RowUpdate LIST_Weapons_Common_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_C.WID_Assault_SunRose_HS_Athena_C -> OK
+[1335] RowUpdate LIST_Weapons_Uncommon_Assault_03.Weight=1.00 -> OK
+[1336] RowUpdate LIST_Weapons_Uncommon_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UC.WID_Assault_SunRose_HS_Athena_UC -> OK
+[1337] RowUpdate LIST_Weapons_Rare_Assault_03.Weight=1.00 -> OK
+[1338] RowUpdate LIST_Weapons_Rare_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R.WID_Assault_SunRose_HS_Athena_R -> OK
+[1339] RowUpdate LIST_Weapons_Epic_Assault_03.Weight=1.00 -> OK
+[1340] RowUpdate LIST_Weapons_Epic_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_VR.WID_Assault_SunRose_HS_Athena_VR -> OK
+[1341] RowUpdate LIST_Weapons_Legendary_Assault_03.Weight=1.00 -> OK
+[1342] RowUpdate LIST_Weapons_Legendary_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_SR.WID_Assault_SunRose_HS_Athena_SR -> OK
+[1510] RowUpdate LIST_Chest_Consumables_Utility_03.Weight=5.000000 -> OK
+[1511] RowUpdate LIST_FloorLoot_Consumables_Utility_03.Weight=1.150000 -> OK
+[1514] RowUpdate LIST_Boss_CyberSamurai_Weapon_01.Weight=0.00 -> OK
+[1515] RowUpdate LIST_Boss_CyberSamurai_Weapon_02.Weight=1.00 -> OK
+[1516] RowUpdate LIST_Boss_CyberDog_Weapon_01.Weight=0.00 -> OK
+[1517] RowUpdate LIST_Boss_CyberDog_Weapon_02.Weight=1.00 -> OK
+[1518] RowUpdate LIST_Boss_RacketLung_Weapon_01.Weight=0.00 -> OK
+[1519] RowUpdate LIST_Boss_RacketLung_Weapon_02.Weight=1.00 -> OK
+[1520] RowUpdate LIST_Chest_Consumables_Healing_04.Weight=0.02 -> OK
+[1521] RowUpdate LIST_Chest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[1522] RowUpdate LIST_RareChest_Consumables_Healing_04.Weight=0.25 -> OK
+[1523] RowUpdate LIST_RareChest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[1524] RowUpdate LIST_Boss_Consumable_01.Weight=0.30 -> OK
+[1525] RowUpdate LIST_Boss_Consumable_02.Weight=0.20 -> OK
+[1526] RowUpdate LIST_Rare_05.Weight=0.00 -> OK
+[1539] RowUpdate PKG_FillerGrunt_Pet_Rescue_02.Weight=0.00 -> OK
+[1540] RowUpdate PKG_FillerGrunt_Pet_Rescue_03.Weight=0.00 -> OK
+[1541] RowUpdate PKG_FillerGrunt_Pet_Rescue_04.Weight=0.00 -> OK
+[2346] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[2347] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[2348] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[2471] RowUpdate LIST_FishingDefault_Consumables_Utility_02.Weight=0.070000 -> OK
+[2472] RowUpdate LIST_FishingHole_Consumables_Utility_02.Weight=0.070000 -> OK
+[2474] RowUpdate LIST_Chest_Consumables_Shielding_03.Weight=0.050000 -> OK
+[2475] RowUpdate LIST_RareChest_Consumables_Shielding_02.Weight=0.250000 -> OK
+[2642] RowUpdate LIST_Legendary_03.ItemDefinition=/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider -> OK
+[2662] RowUpdate LIST_Weapons_Uncommon_Shotgun_04.Weight=0.000 -> OK
+[2663] RowUpdate LIST_Weapons_Rare_Shotgun_04.Weight=0.000 -> OK
+[2664] RowUpdate LIST_Weapons_Epic_Shotgun_04.Weight=0.000 -> OK
+[2665] RowUpdate LIST_Weapons_Legendary_Shotgun_04.Weight=0.000 -> OK
+[2666] RowUpdate LIST_Weapons_Mythic_Shotgun_04.Weight=0.000 -> OK
+[2667] RowUpdate LIST_Weapons_Common_Assault_02.Weight=0.00 -> OK
+[2668] RowUpdate LIST_Weapons_Common_Assault_03.Weight=1.00 -> OK
+[2669] RowUpdate LIST_Weapons_Common_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_C.WID_Assault_SunRose_HS_Athena_C -> OK
+[2670] RowUpdate LIST_Weapons_Uncommon_Assault_03.Weight=1.00 -> OK
+[2671] RowUpdate LIST_Weapons_Uncommon_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UC.WID_Assault_SunRose_HS_Athena_UC -> OK
+[2672] RowUpdate LIST_Weapons_Rare_Assault_03.Weight=1.00 -> OK
+[2673] RowUpdate LIST_Weapons_Rare_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R.WID_Assault_SunRose_HS_Athena_R -> OK
+[2674] RowUpdate LIST_Weapons_Epic_Assault_03.Weight=1.00 -> OK
+[2675] RowUpdate LIST_Weapons_Epic_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_VR.WID_Assault_SunRose_HS_Athena_VR -> OK
+[2676] RowUpdate LIST_Weapons_Legendary_Assault_03.Weight=1.00 -> OK
+[2677] RowUpdate LIST_Weapons_Legendary_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_SR.WID_Assault_SunRose_HS_Athena_SR -> OK
+[2845] RowUpdate LIST_Chest_Consumables_Utility_03.Weight=5.000000 -> OK
+[2846] RowUpdate LIST_FloorLoot_Consumables_Utility_03.Weight=1.150000 -> OK
+[2849] RowUpdate LIST_Boss_CyberSamurai_Weapon_01.Weight=0.00 -> OK
+[2850] RowUpdate LIST_Boss_CyberSamurai_Weapon_02.Weight=1.00 -> OK
+[2851] RowUpdate LIST_Boss_CyberDog_Weapon_01.Weight=0.00 -> OK
+[2852] RowUpdate LIST_Boss_CyberDog_Weapon_02.Weight=1.00 -> OK
+[2853] RowUpdate LIST_Boss_RacketLung_Weapon_01.Weight=0.00 -> OK
+[2854] RowUpdate LIST_Boss_RacketLung_Weapon_02.Weight=1.00 -> OK
+[2855] RowUpdate LIST_Chest_Consumables_Healing_04.Weight=0.02 -> OK
+[2856] RowUpdate LIST_Chest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[2857] RowUpdate LIST_RareChest_Consumables_Healing_04.Weight=0.25 -> OK
+[2858] RowUpdate LIST_RareChest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[2859] RowUpdate LIST_Boss_Consumable_01.Weight=0.30 -> OK
+[2860] RowUpdate LIST_Boss_Consumable_02.Weight=0.20 -> OK
+[2861] RowUpdate LIST_Rare_05.Weight=0.00 -> OK
+[2874] RowUpdate PKG_FillerGrunt_Pet_Rescue_02.Weight=0.00 -> OK
+[2875] RowUpdate PKG_FillerGrunt_Pet_Rescue_03.Weight=0.00 -> OK
+[2876] RowUpdate PKG_FillerGrunt_Pet_Rescue_04.Weight=0.00 -> OK
+[3416] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[3417] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[3418] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[3541] RowUpdate LIST_FishingDefault_Consumables_Utility_02.Weight=0.070000 -> OK
+[3542] RowUpdate LIST_FishingHole_Consumables_Utility_02.Weight=0.070000 -> OK
+[3544] RowUpdate LIST_Chest_Consumables_Shielding_03.Weight=0.050000 -> OK
+[3545] RowUpdate LIST_RareChest_Consumables_Shielding_02.Weight=0.250000 -> OK
+[3712] RowUpdate LIST_Legendary_03.ItemDefinition=/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider -> OK
+[3732] RowUpdate LIST_Weapons_Uncommon_Shotgun_04.Weight=0.000 -> OK
+[3733] RowUpdate LIST_Weapons_Rare_Shotgun_04.Weight=0.000 -> OK
+[3734] RowUpdate LIST_Weapons_Epic_Shotgun_04.Weight=0.000 -> OK
+[3735] RowUpdate LIST_Weapons_Legendary_Shotgun_04.Weight=0.000 -> OK
+[3736] RowUpdate LIST_Weapons_Mythic_Shotgun_04.Weight=0.000 -> OK
+[3737] RowUpdate LIST_Weapons_Common_Assault_02.Weight=0.00 -> OK
+[3738] RowUpdate LIST_Weapons_Common_Assault_03.Weight=1.00 -> OK
+[3739] RowUpdate LIST_Weapons_Common_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_C.WID_Assault_SunRose_HS_Athena_C -> OK
+[3740] RowUpdate LIST_Weapons_Uncommon_Assault_03.Weight=1.00 -> OK
+[3741] RowUpdate LIST_Weapons_Uncommon_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UC.WID_Assault_SunRose_HS_Athena_UC -> OK
+[3742] RowUpdate LIST_Weapons_Rare_Assault_03.Weight=1.00 -> OK
+[3743] RowUpdate LIST_Weapons_Rare_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R.WID_Assault_SunRose_HS_Athena_R -> OK
+[3744] RowUpdate LIST_Weapons_Epic_Assault_03.Weight=1.00 -> OK
+[3745] RowUpdate LIST_Weapons_Epic_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_VR.WID_Assault_SunRose_HS_Athena_VR -> OK
+[3746] RowUpdate LIST_Weapons_Legendary_Assault_03.Weight=1.00 -> OK
+[3747] RowUpdate LIST_Weapons_Legendary_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_SR.WID_Assault_SunRose_HS_Athena_SR -> OK
+[3915] RowUpdate LIST_Chest_Consumables_Utility_03.Weight=5.000000 -> OK
+[3916] RowUpdate LIST_FloorLoot_Consumables_Utility_03.Weight=1.150000 -> OK
+[3919] RowUpdate LIST_Boss_CyberSamurai_Weapon_01.Weight=0.00 -> OK
+[3920] RowUpdate LIST_Boss_CyberSamurai_Weapon_02.Weight=1.00 -> OK
+[3921] RowUpdate LIST_Boss_CyberDog_Weapon_01.Weight=0.00 -> OK
+[3922] RowUpdate LIST_Boss_CyberDog_Weapon_02.Weight=1.00 -> OK
+[3923] RowUpdate LIST_Boss_RacketLung_Weapon_01.Weight=0.00 -> OK
+[3924] RowUpdate LIST_Boss_RacketLung_Weapon_02.Weight=1.00 -> OK
+[3925] RowUpdate LIST_Chest_Consumables_Healing_04.Weight=0.02 -> OK
+[3926] RowUpdate LIST_Chest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[3927] RowUpdate LIST_RareChest_Consumables_Healing_04.Weight=0.25 -> OK
+[3928] RowUpdate LIST_RareChest_Consumables_Healing_04.ItemDefinition=/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion -> OK
+[3929] RowUpdate LIST_Boss_Consumable_01.Weight=0.30 -> OK
+[3930] RowUpdate LIST_Boss_Consumable_02.Weight=0.20 -> OK
+[3931] RowUpdate LIST_Rare_05.Weight=0.00 -> OK
+[3944] RowUpdate PKG_FillerGrunt_Pet_Rescue_02.Weight=0.00 -> OK
+[3945] RowUpdate PKG_FillerGrunt_Pet_Rescue_03.Weight=0.00 -> OK
+[3946] RowUpdate PKG_FillerGrunt_Pet_Rescue_04.Weight=0.00 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=126, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootPackages_Client__final.json
+2026-06-19 07:15:26 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-06-19 07:15:26 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootTierData_Client.json : replaced=0, added=101
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootTierData_Client__final.json
+2026-06-19 07:15:26 | INFO | ✓ Hotfix 適用完了 (1.51s)
+2026-06-19 07:15:26 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-06-19 07:15:26 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-06-19 07:15:26 | INFO | load done (0.02s)
+2026-06-19 07:15:26 | INFO | build summary start
+2026-06-19 07:15:26 | INFO | build summary done (0.08s)
+2026-06-19 07:15:26 | INFO | enrich summary with names start
+2026-06-19 07:15:26 | INFO | enrich summary done (0.01s)
+2026-06-19 07:15:26 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-06-19_07-15.json
+2026-06-19 07:15:26 | INFO | build item metadata start

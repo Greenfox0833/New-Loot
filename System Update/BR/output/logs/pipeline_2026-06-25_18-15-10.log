@@ -93,3 +93,23 @@
   """
 2026-06-25 18:15:11 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.18s)
 2026-06-25 18:15:11 | INFO | prewarm start
+2026-06-25 18:15:13 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.34s)
+2026-06-25 18:15:13 | INFO | 画像化タスク数: 127
+2026-06-25 18:15:13 | INFO | 画像生成 進捗: 1/127
+2026-06-25 18:15:14 | INFO | 画像生成 進捗: 50/127
+2026-06-25 18:15:15 | INFO | 画像生成 進捗: 100/127
+2026-06-25 18:15:15 | INFO | 画像生成 進捗: 127/127
+2026-06-25 18:15:15 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-06-25 18:15:15 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-06-25 18:15:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-06-25 18:15:18 | INFO | git commit stdout: [main 9c3fdce] BR update 2026-06-25 18:15:17
+ 7 files changed, 34556 insertions(+), 22307 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260625_1815/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-06-25_18-15-10.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-06-25_18-15.json
+ delete mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-06-25_17-47.json"
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-06-25_17-45.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-06-25_18-15.json" (100%)
+2026-06-25 18:15:21 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   f4b054b..9c3fdce  main -> main
+2026-06-25 18:15:21 | INFO | ✓ GitHub Push 完了
+2026-06-25 18:15:21 | INFO | ===== BR: pipeline end =====

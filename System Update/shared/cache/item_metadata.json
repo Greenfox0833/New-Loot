@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": "2026-07-16T18:06:32",
+  "UpdatedAt": "2026-07-16T18:10:49",
   "UpdatedByProfile": "BR_Comp",
   "Items": [
     {
@@ -3963,6 +3963,14 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_SMG_RapidFireSMG_Athena_UR",
+      "LocalizedName": "キャットウーマンの速射式サブマシンガン",
+      "LocalizedDescription": "キャットウーマン用にカスタマイズされた速射式サブマシンガン。装弾数を増やすために精巧に作られている。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.RapidFire"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
       "LocalizedName": "二連式ショットガン",
       "LocalizedDescription": "ショットガン: ブレイクアクション。連射速度が速く、大ダメージを与えられる。射程が短くマガジンサイズが非常に小さい。",
@@ -4889,7 +4897,16 @@
       "AssetPathName": "/MedCloud/Gameplay/Items/WID_SmokeCloud",
       "LocalizedName": "煙雲 ",
       "LocalizedDescription": "視界を遮る戦術用スモークを生成する。",
-      "Tags": []
+      "Tags": [
+        "CH7S3",
+        "CommonItem",
+        "Concealment",
+        "ConsumableItem",
+        "Item",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Throwable"
+      ]
     },
     {
       "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion",
@@ -5679,6 +5696,70 @@
       ]
     },
     {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_R",
+      "LocalizedName": "バンクショット ピストル",
+      "LocalizedDescription": "高ダメージのエネルギーピストル。何かに当たると跳ね返る不安定な弾丸を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.OrangeRemote",
+        "Ammo:Heavy",
+        "CH7S3",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "Rare",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_SR",
+      "LocalizedName": "バンクショット ピストル",
+      "LocalizedDescription": "高ダメージのエネルギーピストル。何かに当たると跳ね返る不安定な弾丸を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.OrangeRemote",
+        "Ammo:Heavy",
+        "CH7S3",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "Pistol",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_UR",
+      "LocalizedName": "バンクショット ピストル",
+      "LocalizedDescription": "高ダメージのエネルギーピストル。何かに当たると跳ね返る不安定な弾丸を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.OrangeRemote",
+        "Ammo:Heavy",
+        "CH7S3",
+        "Guard",
+        "Mythic",
+        "NewThisSeason",
+        "Pistol",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_VR",
+      "LocalizedName": "バンクショット ピストル",
+      "LocalizedDescription": "高ダメージのエネルギーピストル。何かに当たると跳ね返る不安定な弾丸を発射する。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.OrangeRemote",
+        "Ammo:Heavy",
+        "CH7S3",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "Pistol",
+        "RecentlyAdded",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage",
       "LocalizedName": "包帯",
       "LocalizedDescription": "回復アイテム。一定の体力を取り戻す。",
@@ -5900,6 +5981,14 @@
         "Guard",
         "Pistol",
         "Uncommon"
+      ]
+    },
+    {
+      "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_UR",
+      "LocalizedName": "ポイズン･アイビーのレンジャーピストル",
+      "LocalizedDescription": "ポイズン･アイビー用にカスタマイズされたレンジャーピストル。照準時の連射速度を強化するよう精密に作り込まれている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.CorePistol.Paprika"
       ]
     },
     {
@@ -6576,6 +6665,22 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CokeParmesan/ESD_CokeParmesan",
+      "LocalizedName": "Vini Jr.の精霊",
+      "LocalizedDescription": "短時間ダッシュをすると、スライディングの威力が向上する。スライディングキックで攻撃すると、射撃の間隔とリロード時間が速くなる。レベルアップごとの強化: 40ダメージ / 連射速度10% → 45ダメージ / 連射速度20% → 50ダメージ / 連射速度30% → 55ダメージ / 連射速度40% → 60ダメージ / 連射速度50%",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CompanyStargazer/ESD_CompanyStargazer",
+      "LocalizedName": "Polloの精霊",
+      "LocalizedDescription": "撃破のあと一定時の間、自分と近くにいるスクワッドメンバーのシールドが徐々に回復する。レベルアップのたびに持続時間がアップ: 6秒 -> 7秒 -> 8秒 -> 9秒 -> 10秒 ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite",
       "LocalizedName": "デーモン精霊",
       "LocalizedDescription": "敵を撃破すると、サイフォン効果で体力とシールドが回復する。レベルアップのたびに回復力アップ: 10ポイント -> 15ポイント -> 20ポイント -> 25ポイント -> 30ポイントを撃破時に回復可能だ",
@@ -6755,6 +6860,14 @@
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Gold",
       "LocalizedName": "ゴールド フィッシュの精霊",
       "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite",
+      "LocalizedName": "バットマンの精霊",
+      "LocalizedDescription": "空中でバットケープを展開できるようになる！",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -7188,6 +7301,14 @@
       "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R",
       "LocalizedName": "ウォーフォージド・アサルトライフル",
       "LocalizedDescription": "戦いに飢えた神々のために作られた攻撃的なアサルトライフル。強力だが扱いが難しいこのアサルトライフルはダメージと連射速度が高く、反動が大きい。\r\n",
+      "Tags": [
+        "item.weapon.ranged.assault.SunRose"
+      ]
+    },
+    {
+      "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_S41_UR",
+      "LocalizedName": "ハーレイ・クインのウォーフォージド・アサルトライフル",
+      "LocalizedDescription": "ハーレイ・クイン用にカスタマイズされたウォーフォージド・アサルトライフル。連続射撃時に連射速度が上昇するよう、凶悪に改造されている。",
       "Tags": [
         "item.weapon.ranged.assault.SunRose"
       ]

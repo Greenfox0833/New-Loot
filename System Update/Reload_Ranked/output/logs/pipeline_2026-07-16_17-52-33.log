@@ -112,3 +112,47 @@
 2026-07-16 17:52:34 | INFO | enrich summary done (0.00s)
 2026-07-16 17:52:34 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-07-16_17-52.json
 2026-07-16 17:52:34 | INFO | build item metadata start
+2026-07-16 17:53:26 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (51.52s)
+2026-07-16 17:53:26 | INFO | build BR_LootData start
+2026-07-16 17:53:26 | INFO | build BR_LootData done (0.00s)
+2026-07-16 17:53:26 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-07-16_17-53.json
+2026-07-16 17:53:26 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
+2026-07-16 17:53:26 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
+2026-07-16 17:53:26 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-07-16_17-52.json
+✅ 抽出件数: 144
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-06-06_11-02.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-07-16_17-52.json
+✅ 差分作成 完了
+  追加   : 5 / 削除 : 28 / 変更 : 0 / 変化なし : 139
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260716_1753\items_unique_min_diff.json
+2026-07-16 17:53:26 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-07-16 17:53:26 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.33s)
+2026-07-16 17:53:26 | INFO | prewarm start
+2026-07-16 17:53:29 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (2.31s)
+2026-07-16 17:53:29 | INFO | 画像化タスク数: 144
+2026-07-16 17:53:29 | INFO | 画像生成 進捗: 1/144
+2026-07-16 17:53:29 | INFO | 画像生成 進捗: 50/144
+2026-07-16 17:53:30 | INFO | 画像生成 進捗: 100/144
+2026-07-16 17:53:31 | INFO | 画像生成 進捗: 144/144
+2026-07-16 17:53:31 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-07-16 17:53:31 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-07-16_17-53-31.json (added=6 removed=32 change=78)
+2026-07-16 17:53:31 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Reload_Ranked\AddedItems\2026-07-16_17-53-31 (copied=6 missing=0)
+2026-07-16 17:53:31 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-07-16 17:53:36 | INFO | git commit stdout: [main 9dbf393] Reload_Ranked update 2026-07-16 17:53:35
+ 18 files changed, 50798 insertions(+), 752 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260716_1753/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-07-16_17-52-33.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-07-16_17-52.json
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2422 - \343\202\262\343\203\274\343\203\210\343\202\255\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2423 - \343\202\262\343\203\274\343\203\210\343\202\255\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\202\261\343\202\260.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2424 - \343\202\262\343\203\274\343\203\210\343\202\255\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-07-16_17-53-31/\343\203\206\343\202\243\343\202\2425 - \343\202\262\343\203\274\343\203\210\343\202\255\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-07-16_17-53.json"
+2026-07-16 17:53:45 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   1f11e4f..9dbf393  main -> main
+2026-07-16 17:53:45 | INFO | ✓ GitHub Push 完了
+2026-07-16 17:53:45 | INFO | ===== Reload_Ranked: pipeline end =====

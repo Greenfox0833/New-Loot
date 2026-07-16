@@ -330006,11 +330006,11 @@
     }
   },
   "/ThrownMarkingGameplay/Items/ThrownObject/WID_Athena_ThrownMarking": {
-    "ts": 1782382584,
+    "ts": 1784191618,
     "data": {
-      "hash": "bcd59245bcbf612e4776a9eb936d2b68f4f9c25ad1850408d66a9521549b8dac",
+      "hash": "12d7cf0c3d0677664e6c28a459cfa3fa5d788ce978ec767f6167338cf0dac518",
       "entries": 1,
-      "bytes": 7193,
+      "bytes": 7356,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -330128,7 +330128,7 @@
                   "Translation": {
                     "x": 0.0,
                     "y": 0.0,
-                    "z": 20.0
+                    "z": 0.0
                   },
                   "Scale3D": {
                     "x": 1.3,
@@ -330147,10 +330147,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -330180,7 +330180,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -330732,11 +330732,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water": {
-    "ts": 1782382581,
+    "ts": 1784191614,
     "data": {
-      "hash": "64e64d5059e789796ec08086581c6421fedd90d1888ed64ef1211165eeb133e0",
+      "hash": "46dbd15afabf928acc3ba623b7877efb5dcac8445346b2f392cfedbbd28f787b",
       "entries": 1,
-      "bytes": 7352,
+      "bytes": 7516,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -330920,10 +330920,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -330953,7 +330953,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -331106,11 +331106,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite": {
-    "ts": 1782382575,
+    "ts": 1784191604,
     "data": {
-      "hash": "dc36c411749a88ff0b0ac09af2d04a433436efedc09e2feadc072dcdb0e92f5e",
+      "hash": "5290b47e9c80facfece18ab31ca1c2d3610519e4848db65e6a545a7b6ec46eb2",
       "entries": 1,
-      "bytes": 8012,
+      "bytes": 8176,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -331288,10 +331288,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -331321,7 +331321,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -331504,11 +331504,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire": {
-    "ts": 1782382580,
+    "ts": 1784191613,
     "data": {
-      "hash": "e7d9e6c9c8c3c8e391b700535531ac46a3b2ff4b5cc8d95dc55028467dda1592",
+      "hash": "6fa6455cfe3553372735a97e8f5f244618b555c200c72a3585b07ca26f923ffe",
       "entries": 1,
-      "bytes": 8202,
+      "bytes": 8366,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -331692,10 +331692,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -331725,7 +331725,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -331917,11 +331917,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite": {
-    "ts": 1782382574,
+    "ts": 1784191603,
     "data": {
-      "hash": "e97c537b1b161dfa457080bc9992262ea2c49ab9f25e29cd8a93a2c986557ba8",
+      "hash": "d31550afa30c9e08089530fea28a07ef542a6b12464768b70f27f83e7cb1c5ff",
       "entries": 1,
-      "bytes": 7808,
+      "bytes": 7999,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -331949,6 +331949,7 @@
               }
             },
             "DexNumber": 4,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -332163,10 +332164,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -332196,7 +332197,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -332314,11 +332315,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite": {
-    "ts": 1782382576,
+    "ts": 1784191606,
     "data": {
-      "hash": "722a0b53b77b0f75b7c94d52c0e3bda1da06b244de18d733c0d5e03ee2f597da",
+      "hash": "03fef766373a0ecfce9777561f481f2763b45d3fc8d6ccf70c4e715bf8157072",
       "entries": 1,
-      "bytes": 7775,
+      "bytes": 7966,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -332346,6 +332347,7 @@
               }
             },
             "DexNumber": 5,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -332557,10 +332559,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -332590,7 +332592,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -333103,11 +333105,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite": {
-    "ts": 1782382578,
+    "ts": 1784191608,
     "data": {
-      "hash": "af5bb8b8790c076ae30261f7c8a8abe9302d0d2742bd2cde467c3a95799fc418",
+      "hash": "4c29cbf624c12b2b2a033292bb9f511fdd85643e353e0318c1599bfc6be8c13f",
       "entries": 1,
-      "bytes": 7615,
+      "bytes": 7806,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -333135,6 +333137,7 @@
               }
             },
             "DexNumber": 9,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -333346,10 +333349,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -333379,7 +333382,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -333497,11 +333500,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite": {
-    "ts": 1782382579,
+    "ts": 1784191610,
     "data": {
-      "hash": "8d5063270099eb35fc0390ec308bb85c52f0433a7a2c947562677bd7573f657a",
+      "hash": "67c62025e665419c56bf1932f52d84e2403ec5c88d7ed88b7ed01c455df700de",
       "entries": 1,
-      "bytes": 8120,
+      "bytes": 8311,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -333529,6 +333532,7 @@
               }
             },
             "DexNumber": 6,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -333685,10 +333689,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -333718,7 +333722,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -333910,11 +333914,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite": {
-    "ts": 1782382578,
+    "ts": 1784191609,
     "data": {
-      "hash": "4a18dd643be8cae7f7384ec89d8b748712c66a74a8f61b5ae76fb903b8a165ae",
+      "hash": "107413660f6ef1b1388f7d9d786941c91e352f5028f931d57941d3688fb2d295",
       "entries": 1,
-      "bytes": 7364,
+      "bytes": 7555,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -333942,6 +333946,7 @@
               }
             },
             "DexNumber": 8,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -334150,10 +334155,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -334183,7 +334188,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -334695,11 +334700,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite": {
-    "ts": 1782382581,
+    "ts": 1784191615,
     "data": {
-      "hash": "676ecedf2dc9fbdbe68eff55abc1cb18dfe288662ec56523da4b783af76520f9",
+      "hash": "cd321a0f65819c769b28d22cc4eaf303b1ef0ee4324e76fdeb14f9fe8f8e613c",
       "entries": 1,
-      "bytes": 7968,
+      "bytes": 8132,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -334938,10 +334943,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -334971,7 +334976,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -343726,11 +343731,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Galaxy": {
-    "ts": 1782382581,
+    "ts": 1784191614,
     "data": {
-      "hash": "656745ba9df1de6f54054fb1810b6f48e47620ae67904e8455750ed95cd85a33",
+      "hash": "b893c54d6d6fbc2bdef4cdc419c28661b72e08a9efe049d48ad1a1418fb1ba30",
       "entries": 1,
-      "bytes": 7468,
+      "bytes": 7632,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -343890,10 +343895,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -343923,7 +343928,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -344114,11 +344119,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Gold": {
-    "ts": 1782382581,
+    "ts": 1784191615,
     "data": {
-      "hash": "216bee1252c157169ea7780c2dd0089d2398b06ebc5b6a7dddbc3a2ef23f515a",
+      "hash": "13cf5714f9f92a07532926d6d52f849f9d8a12ed765d43807c8daf9ea49408ac",
       "entries": 1,
-      "bytes": 7695,
+      "bytes": 7859,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -344288,10 +344293,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -344321,7 +344326,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -344512,11 +344517,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Galaxy": {
-    "ts": 1782382575,
+    "ts": 1784191604,
     "data": {
-      "hash": "a3be0290b648c6571c04cecaea7237564c652a1ee9888d81c9fe37914715b8e8",
+      "hash": "bca83d708b0954b40152c42d1951845ca07ebef88485fc23d725c6e6b82d6c7c",
       "entries": 1,
-      "bytes": 7481,
+      "bytes": 7645,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -344677,10 +344682,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -344710,7 +344715,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -344901,11 +344906,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Gold": {
-    "ts": 1782382576,
+    "ts": 1784191605,
     "data": {
-      "hash": "18745b6ce009dcf00f6f4a91c1cc40c1c1059c443aff9a5a88f9f622403b7914",
+      "hash": "6e55571cbbbfccb41aac170fc0a278b41baaae514790edf6ff9bffefd2c50e76",
       "entries": 1,
-      "bytes": 7459,
+      "bytes": 7623,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -345139,10 +345144,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -345172,7 +345177,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -345290,11 +345295,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Galaxy": {
-    "ts": 1782382580,
+    "ts": 1784191613,
     "data": {
-      "hash": "8122663416729141c83632824c21dbd6cdfdb0c654606f6a8e6b27ea713fe67f",
+      "hash": "c27d8d2630c60fb967e329bab72b6156661ac3f7b04470f5cbe1bb618155be3a",
       "entries": 1,
-      "bytes": 7485,
+      "bytes": 7649,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -345454,10 +345459,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -345487,7 +345492,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -345678,11 +345683,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Gold": {
-    "ts": 1782382581,
+    "ts": 1784191613,
     "data": {
-      "hash": "0826baa0ef21a5b593a8975a747ba99e8ce8cd6bd3026f86b68dc4238bbee78b",
+      "hash": "3057626663b01d4339ce227d8cfe0e909920276d083767460a980f732b2dc2a9",
       "entries": 1,
-      "bytes": 7463,
+      "bytes": 7627,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -345915,10 +345920,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -345948,7 +345953,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -346066,11 +346071,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Galaxy": {
-    "ts": 1782382575,
+    "ts": 1784191603,
     "data": {
-      "hash": "ae243aca7871682062c3fb76b02b42fa40581e7d54fb16f2011decc95e96cdef",
+      "hash": "eee74a17ac6036c92ecc7facb348dec3904895a26cc926f60908470ff693c9e1",
       "entries": 1,
-      "bytes": 7380,
+      "bytes": 7544,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -346304,10 +346309,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -346337,7 +346342,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -346455,11 +346460,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Gold": {
-    "ts": 1782382575,
+    "ts": 1784191604,
     "data": {
-      "hash": "98804bc5421386965082f9b156ef18dcaf8dd9f24442da9349dff43aa374a5a3",
+      "hash": "96515378d217a57166b6097953743c75fa42d91fef478038c93651bedc21726d",
       "entries": 1,
-      "bytes": 7362,
+      "bytes": 7526,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -346693,10 +346698,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -346726,7 +346731,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -346844,11 +346849,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Galaxy": {
-    "ts": 1782382576,
+    "ts": 1784191607,
     "data": {
-      "hash": "ed28ad83698b488106a2b837bc3f5f1d2d75519bcd004541c3d8e460a96f89ca",
+      "hash": "16467abd292de2b5a7f0b629a5e8561a5a08826d88f6a19072facd0ac8cbbbca",
       "entries": 1,
-      "bytes": 7351,
+      "bytes": 7515,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -347079,10 +347084,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -347112,7 +347117,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -347230,11 +347235,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Gold": {
-    "ts": 1782382578,
+    "ts": 1784191607,
     "data": {
-      "hash": "6392a7566198b389b73826ffed3dd0e200026cd9e5ee206807892115b70710e1",
+      "hash": "97570f658d7deb359f4adc572c1ba27531c9c598d6dbcef9b98a47bde7bde3da",
       "entries": 1,
-      "bytes": 7333,
+      "bytes": 7497,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -347465,10 +347470,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -347498,7 +347503,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -348388,11 +348393,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Galactic": {
-    "ts": 1782382580,
+    "ts": 1784191611,
     "data": {
-      "hash": "ea97014abae3ed0aee7255d626caa05af5b2706ec1be2d59821c8d666c928d29",
+      "hash": "313f0fe492571b732d12f90d2df04e5e01e5dce18ca0191ccf6aea83abca0651",
       "entries": 1,
-      "bytes": 7688,
+      "bytes": 7852,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -348563,10 +348568,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -348596,7 +348601,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -348784,11 +348789,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Gold": {
-    "ts": 1782382580,
+    "ts": 1784191611,
     "data": {
-      "hash": "3acd3cec285bfcbd45f0d0c9f5e8e3395d551da8d2afd905c16b723ac070f117",
+      "hash": "5cd18e294608808d516f7103c996a68abba0aacaecdc319919a44e4a601ede81",
       "entries": 1,
-      "bytes": 7803,
+      "bytes": 7967,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -348959,10 +348964,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -348992,7 +348997,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -349183,11 +349188,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Galaxy": {
-    "ts": 1782382579,
+    "ts": 1784191610,
     "data": {
-      "hash": "ac8af52b45406e3c95b133ddee1eabdacef8a0f02c429a7b4807eb9e2031d9ed",
+      "hash": "a86e8d5cf06a2ab1e2eaec8f2b1109fc6c9d46c9ebad5a06105f19f089fac051",
       "entries": 1,
-      "bytes": 7312,
+      "bytes": 7476,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -349418,10 +349423,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -349451,7 +349456,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -349569,11 +349574,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Gold": {
-    "ts": 1782382579,
+    "ts": 1784191610,
     "data": {
-      "hash": "f4875c0cc9907c8c8889ff9df75c73758de7f47635b9da5ae1129a80582dcf32",
+      "hash": "236e06824a8ba08a767095c60deab05aa1e10b522440571c9b33da3d3a4e6942",
       "entries": 1,
-      "bytes": 7290,
+      "bytes": 7454,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -349804,10 +349809,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -349837,7 +349842,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -349955,11 +349960,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Galaxy": {
-    "ts": 1782382582,
+    "ts": 1784191616,
     "data": {
-      "hash": "5c0e49232ece5c8b0658c5cdb911be5c5faccd6123d174143d4310ea4ce94a36",
+      "hash": "64b704307cd18c96fb06f158c48d45683be7abc49c78f4f4c6b0fabaf95fdf00",
       "entries": 1,
-      "bytes": 7479,
+      "bytes": 7643,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -350190,10 +350195,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -350223,7 +350228,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -350341,11 +350346,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Gold": {
-    "ts": 1782382582,
+    "ts": 1784191616,
     "data": {
-      "hash": "1b30e308e4a40919f5e7af0a09a59bacf807b8daecdac117b1f848ed3f9d2a9e",
+      "hash": "802862c5203d9ba435c5931f869bcb529fafa6f7138403978dc8d04ad0d65eff",
       "entries": 1,
-      "bytes": 7461,
+      "bytes": 7625,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -350576,10 +350581,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -350609,7 +350614,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -377717,11 +377722,11 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_C": {
-    "ts": 1782382582,
+    "ts": 1784191616,
     "data": {
-      "hash": "0f92f14cc40b96eae3933ac5562b2dd51048e914dd74c898398871b8e4e4b052",
+      "hash": "93b9bc5a3b8c9670d03942d12fae776785a667710bec92e1cf35a1993ce30615",
       "entries": 1,
-      "bytes": 8827,
+      "bytes": 9020,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -377760,7 +377765,7 @@
               "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
               "SubPathString": ""
             },
-            "TriggerType": 1,
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
             "bReticleCornerOutsideSpreadRadius": true,
             "bModsHidden": true,
             "ReticleCornerAngles": [
@@ -377858,10 +377863,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 3,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 24.0,
                     "y": 24.0
@@ -377894,7 +377899,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -378124,11 +378129,11 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UC": {
-    "ts": 1782382583,
+    "ts": 1784191617,
     "data": {
-      "hash": "73d2fc677639b367d76df9198c838630a4877695d83b1dd2a044be865de073d7",
+      "hash": "63356d4ec43cd229598da236bfe04faa1887c3b978ddbe3ba8feaedfade3e2d2",
       "entries": 1,
-      "bytes": 8800,
+      "bytes": 8993,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -378167,7 +378172,7 @@
               "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
               "SubPathString": ""
             },
-            "TriggerType": 1,
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
             "bReticleCornerOutsideSpreadRadius": true,
             "bModsHidden": true,
             "ReticleCornerAngles": [
@@ -378265,10 +378270,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 3,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 24.0,
                     "y": 24.0
@@ -378301,7 +378306,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -378528,11 +378533,11 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_VR": {
-    "ts": 1782382584,
+    "ts": 1784191618,
     "data": {
-      "hash": "6c2c276cc2d0def2b4bf5895257033a8804b2ecebfbd511593f99da4b5b50346",
+      "hash": "ed2dc789843570c8e0f9e16ff3ae910a3a8d59a17feddde886f95388e23a455e",
       "entries": 1,
-      "bytes": 8831,
+      "bytes": 9024,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -378571,7 +378576,7 @@
               "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
               "SubPathString": ""
             },
-            "TriggerType": 1,
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
             "bReticleCornerOutsideSpreadRadius": true,
             "bModsHidden": true,
             "ReticleCornerAngles": [
@@ -378669,10 +378674,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 3,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 24.0,
                     "y": 24.0
@@ -378705,7 +378710,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -378935,11 +378940,11 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_SR": {
-    "ts": 1782382583,
+    "ts": 1784191617,
     "data": {
-      "hash": "a033aee27645c447e536a5397914325fbced9936a65c41cc8019f4c1963c9d26",
+      "hash": "aa9fc0aaddb6379ef4c4efd0a460477bee88159df9787bcf006abf40cb50149b",
       "entries": 1,
-      "bytes": 8836,
+      "bytes": 9029,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -378978,7 +378983,7 @@
               "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
               "SubPathString": ""
             },
-            "TriggerType": 1,
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
             "bReticleCornerOutsideSpreadRadius": true,
             "bModsHidden": true,
             "ReticleCornerAngles": [
@@ -379076,10 +379081,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 3,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 24.0,
                     "y": 24.0
@@ -379112,7 +379117,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -379342,11 +379347,11 @@
     }
   },
   "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R": {
-    "ts": 1782382583,
+    "ts": 1784191617,
     "data": {
-      "hash": "14f005a1e55861105316aca240af5999b2ad716c2e5bcf602aa6b8892ccf9b20",
+      "hash": "abf1c91ae17b3324bb24f160005f568d3fe93611fbeb6467ca41445f1ad22417",
       "entries": 1,
-      "bytes": 8825,
+      "bytes": 9018,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -379385,7 +379390,7 @@
               "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
               "SubPathString": ""
             },
-            "TriggerType": 1,
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
             "bReticleCornerOutsideSpreadRadius": true,
             "bModsHidden": true,
             "ReticleCornerAngles": [
@@ -379483,10 +379488,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 3,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 24.0,
                     "y": 24.0
@@ -379519,7 +379524,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -380854,11 +380859,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite": {
-    "ts": 1782383336,
+    "ts": 1784191605,
     "data": {
-      "hash": "0fab659afc1f510a93306829eaeda4f82a31fdd901846e48e815ec53e6b3b9b5",
+      "hash": "d054966b284d5cca06b5b4be0ad02d80f632aded804d5e6e44e69e6ace8863ce",
       "entries": 1,
-      "bytes": 8031,
+      "bytes": 8222,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -380886,6 +380891,7 @@
               }
             },
             "DexNumber": 12,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -381034,10 +381040,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -381067,7 +381073,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -381247,11 +381253,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite": {
-    "ts": 1782383337,
+    "ts": 1784191611,
     "data": {
-      "hash": "c2c585a36c9c2bff833d3fcbe3b47e8651b8977de48b24f9b5beadcdb92f9ef5",
+      "hash": "58d585d4f331bc08a377d0e0f2fc4d7f5c02b6b5b6778a11e724dae28d681efb",
       "entries": 1,
-      "bytes": 7803,
+      "bytes": 7994,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -381279,6 +381285,7 @@
               }
             },
             "DexNumber": 13,
+            "bCanSpawnInBotLobby": true,
             "ExtractableType": "EExtractableItemType::Sprite",
             "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
             "CustomProjectile": {
@@ -381427,10 +381434,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -381460,7 +381467,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -382034,11 +382041,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite": {
-    "ts": 1782383337,
+    "ts": 1784191607,
     "data": {
-      "hash": "9c0a32353924b5a6e72631acb60d8db93b243188c2cc30236f421381da2c7a9f",
+      "hash": "231bf18e0e4165a3592f27f9bfdfa74759c50db300a0fddb74ca84796b3e9bf8",
       "entries": 1,
-      "bytes": 7645,
+      "bytes": 7809,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -382275,10 +382282,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -382308,7 +382315,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -382815,11 +382822,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite_Variant_Gold": {
-    "ts": 1782383337,
+    "ts": 1784191608,
     "data": {
-      "hash": "816c96a3d555120bb912521de4812365c926085a86d3bc452aa91fb2a2570f29",
+      "hash": "06a3da160df145e0a030dc11df0ca1c44590c46034d82e396d10c1641348a515",
       "entries": 1,
-      "bytes": 7192,
+      "bytes": 7356,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -383048,10 +383055,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -383081,7 +383088,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -383199,11 +383206,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Gold": {
-    "ts": 1782383338,
+    "ts": 1784191606,
     "data": {
-      "hash": "bf999267af9daa0e5a4875f08aba3241ed144cbbb29cf02d9ad56011bab8713a",
+      "hash": "e8eff65b6e1fc5818add03f8f603519afbd21bd98b92a38951d37d66a11bbac0",
       "entries": 1,
-      "bytes": 7435,
+      "bytes": 7599,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -383369,10 +383376,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -383402,7 +383409,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -383590,11 +383597,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite_Variant_Gold": {
-    "ts": 1782383338,
+    "ts": 1784191609,
     "data": {
-      "hash": "74e8ba59393c906af24e111563568cb3bffa1c0f65096e94cb03e2c335d9242d",
+      "hash": "f3a9ed058218f8a541624a8f54833b8f79416ff9f410c59e43bf1868a18ac2fd",
       "entries": 1,
-      "bytes": 7283,
+      "bytes": 7447,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -383825,10 +383832,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -383858,7 +383865,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -383976,11 +383983,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite_Variant_Gold": {
-    "ts": 1782383338,
+    "ts": 1784191612,
     "data": {
-      "hash": "d28963ad9f2f37cedccfbf9470dec6b8e509279138e38bc5f7ce5463d09e3014",
+      "hash": "7a0a24584f7c59a9975985833134ee42c2bb07dd8b26db00d772db0eab3b59bc",
       "entries": 1,
-      "bytes": 7485,
+      "bytes": 7649,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -384146,10 +384153,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -384179,7 +384186,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -384367,11 +384374,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Gold": {
-    "ts": 1782383338,
+    "ts": 1784191602,
     "data": {
-      "hash": "e4afd2630d02c16fee586585813feaafbb5e4d9a57e07478035d4b08e86b03ce",
+      "hash": "78a000fe123903f74501d58a309c312e63880e19dc8e18bd7353b050aa0fa780",
       "entries": 1,
-      "bytes": 7503,
+      "bytes": 7667,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -384537,10 +384544,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -384570,7 +384577,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -384758,11 +384765,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Candy": {
-    "ts": 1782383338,
+    "ts": 1784191614,
     "data": {
-      "hash": "44fce9bfce76e2d27f3c87e70d36aca497965b5a2c8316beaffd19ecc271107e",
+      "hash": "b3dbca7fa7488723700598d2f98364303199006ec778113eebdcdb9516997b88",
       "entries": 1,
-      "bytes": 7481,
+      "bytes": 7645,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -384995,10 +385002,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -385028,7 +385035,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -385146,11 +385153,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Candy": {
-    "ts": 1782383339,
+    "ts": 1784191604,
     "data": {
-      "hash": "67551ff0854ef780e7c429e054368d8139d680dde1a4f5bdc6b308fbf26bdde3",
+      "hash": "2f43e40e0262c63a11ae8f6e595ee47ba7bbcc3065bfb2f729bc55b2ca3361e1",
       "entries": 1,
-      "bytes": 7494,
+      "bytes": 7658,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -385384,10 +385391,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -385417,7 +385424,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -385535,11 +385542,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Candy": {
-    "ts": 1782383339,
+    "ts": 1784191613,
     "data": {
-      "hash": "1500cb777a8ee7423b1c5ff72fb10bc5d64b57443364b357016408eae2565bb8",
+      "hash": "e2e097417bc89b7a9fdc43565878a419b6a017f301716089bcba8b89942914a1",
       "entries": 1,
-      "bytes": 7498,
+      "bytes": 7662,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -385772,10 +385779,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -385805,7 +385812,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -385923,11 +385930,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite_Variant_Candy": {
-    "ts": 1782383339,
+    "ts": 1784191608,
     "data": {
-      "hash": "43925204f184d9b1074ca6b1c12a422d5486538c70219eec797e15dff9c8e01f",
+      "hash": "195b3aae6da6276f8af1ddb15a0f6a3d745f955c53206bb57ba65852f6377981",
       "entries": 1,
-      "bytes": 7223,
+      "bytes": 7387,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -386156,10 +386163,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -386189,7 +386196,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -386307,11 +386314,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Candy": {
-    "ts": 1782383339,
+    "ts": 1784191605,
     "data": {
-      "hash": "c1beb8dce8236faeb983863392113102c367e1c29150d1696837c9f0a628f6bd",
+      "hash": "9160f2cba548c7cb67fc6f72abf4fd180d27cc2f1d08653e14008e6b75439346",
       "entries": 1,
-      "bytes": 7470,
+      "bytes": 7634,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -386477,10 +386484,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -386510,7 +386517,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -386698,11 +386705,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Candy": {
-    "ts": 1782383339,
+    "ts": 1784191603,
     "data": {
-      "hash": "4c5dfae7f76f7a9c5a9ea867cadd6b8c1fc2582db4ae3fb7559ae2c77bdce6e1",
+      "hash": "0dbce5e7948741c08849445d26cbf8280114573c345a16061115f477d24c7815",
       "entries": 1,
-      "bytes": 7391,
+      "bytes": 7555,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -386936,10 +386943,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -386969,7 +386976,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -387087,11 +387094,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Candy": {
-    "ts": 1782383340,
+    "ts": 1784191606,
     "data": {
-      "hash": "65c73f2e22e90a6d3b913d2d29f8a1e88944b09ba3d415200a96481bd69086c8",
+      "hash": "47acacf6b75a10acaf970c652cb049a03e1f80c4cc71df2c1c91f4cc09b96494",
       "entries": 1,
-      "bytes": 7364,
+      "bytes": 7528,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -387322,10 +387329,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -387355,7 +387362,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -387859,11 +387866,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite_Variant_Candy": {
-    "ts": 1782383340,
+    "ts": 1784191609,
     "data": {
-      "hash": "285b082ee00176e9409309494457d196ca1c0176c3a3b358c60a1f8cc13f412c",
+      "hash": "5595670e77d597140720f76a3982b12133dc2122165ba768e7bb9e0413aa8b2b",
       "entries": 1,
-      "bytes": 7314,
+      "bytes": 7478,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -388094,10 +388101,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -388127,7 +388134,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -388245,11 +388252,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite_Variant_Candy": {
-    "ts": 1782383340,
+    "ts": 1784191612,
     "data": {
-      "hash": "e8f2b600dc052cb73915804908541a79e0ae8f9a2a5c813da117b13e552abf2e",
+      "hash": "8b6da9e42692afaf93bcff7b2c3d11b7fa1de98f955f5c4e058094104c6ed724",
       "entries": 1,
-      "bytes": 7516,
+      "bytes": 7680,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -388415,10 +388422,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -388448,7 +388455,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -388636,11 +388643,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Candy": {
-    "ts": 1782383340,
+    "ts": 1784191602,
     "data": {
-      "hash": "6f9149d1e1655df458bb313195dbaa466ef7d11ed8bec1c932698fc1667950ff",
+      "hash": "cb6e7f65656aa7bbbebc04122c99a260c1be2db14005caa04a2ab527af71450d",
       "entries": 1,
-      "bytes": 7534,
+      "bytes": 7698,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -388806,10 +388813,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -388839,7 +388846,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -389027,11 +389034,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_Candy": {
-    "ts": 1782383341,
+    "ts": 1784191611,
     "data": {
-      "hash": "110af4b060a17789a36e597a294806dde1c9b2506146d00098aa14238c5e8615",
+      "hash": "0c10ca0c356f5c818ba258a40672a92eead0f9b87e016efec73116880ad6dfa2",
       "entries": 1,
-      "bytes": 7838,
+      "bytes": 8002,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -389202,10 +389209,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -389235,7 +389242,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -389426,11 +389433,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Candy": {
-    "ts": 1782383341,
+    "ts": 1784191610,
     "data": {
-      "hash": "6780f90a28d1857ac45934cf20dfa109166268002900f1f67fc498ce2e1e137c",
+      "hash": "11f9553de91a5009123820ffa72fcc5f0ceef9daf02d9e78129f6bd27ae83207",
       "entries": 1,
-      "bytes": 7325,
+      "bytes": 7489,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -389661,10 +389668,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -389694,7 +389701,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -389812,11 +389819,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Candy": {
-    "ts": 1782383341,
+    "ts": 1784191616,
     "data": {
-      "hash": "a8753c6c9952b28aadf1f78b87a91d7e99bb0b9a8b76a0428ac14cabc08b267b",
+      "hash": "ad2531550fc06b62a90e2b6ef1ac8970657f83aa6625f59a801c0f519b7a7075",
       "entries": 1,
-      "bytes": 7492,
+      "bytes": 7656,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -390047,10 +390054,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -390080,7 +390087,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -390198,11 +390205,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite_Variant_Galaxy": {
-    "ts": 1782383341,
+    "ts": 1784191608,
     "data": {
-      "hash": "ba3f83b42fef975ca2803be4b4dc8c14abf95466c502db51a68f2ffdfaf2e033",
+      "hash": "c3b920336dd04bbe0ad1bb5bcbcb7e0c39e33fc3d364d193595cc54aba84763a",
       "entries": 1,
-      "bytes": 7210,
+      "bytes": 7374,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -390431,10 +390438,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -390464,7 +390471,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -390582,11 +390589,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Galaxy": {
-    "ts": 1782383341,
+    "ts": 1784191606,
     "data": {
-      "hash": "3b532014c5273558ecb267d944444cbac575001ef51bb4d4f831af33ec98076d",
+      "hash": "bafbe6642defd4c8864a92ce409b7f6ca3ecc726c596f3a94bfd6558be9bfd3b",
       "entries": 1,
-      "bytes": 7457,
+      "bytes": 7621,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -390752,10 +390759,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -390785,7 +390792,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -390973,11 +390980,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite_Variant_Galaxy": {
-    "ts": 1782383342,
+    "ts": 1784191609,
     "data": {
-      "hash": "9c865849c2788cd53ed00bf47f4cde30f77b8f713abc5e415f3534a0f011dae1",
+      "hash": "125aebb673fc9e8b6a0aa10b762d70fae4690005b9f55f0a1c888472caa153c9",
       "entries": 1,
-      "bytes": 7301,
+      "bytes": 7465,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -391208,10 +391215,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -391241,7 +391248,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -391359,11 +391366,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite_Variant_Galaxy": {
-    "ts": 1782383342,
+    "ts": 1784191612,
     "data": {
-      "hash": "e86455764542ec3bfb104c531b44fc83a5e8835c4d50cd872d1bb2a90b15cffc",
+      "hash": "8d5a8864100e44defcc78a8bef55e2c1415a4fd8c479a6710223af41d33b11af",
       "entries": 1,
-      "bytes": 7503,
+      "bytes": 7667,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -391529,10 +391536,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -391562,7 +391569,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -391750,11 +391757,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Galaxy": {
-    "ts": 1782383342,
+    "ts": 1784191602,
     "data": {
-      "hash": "93b698208a1418b45bc19d98008bea55e07080e535e4b97b295fd2e10e090122",
+      "hash": "1135f00506d05ee11c289d73855ce33c1c987cf87eae60e6889f6e1e9c7508b6",
       "entries": 1,
-      "bytes": 7521,
+      "bytes": 7685,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -391920,10 +391927,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -391953,7 +391960,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -392141,11 +392148,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Holofoil": {
-    "ts": 1782383342,
+    "ts": 1784191615,
     "data": {
-      "hash": "8cfdfd0b01f0f6d10497e66804b56f3c6651ab3a850f04c476379cbc89e52bb9",
+      "hash": "da9f6d37b52ff3dfaa9234da9d3dadb45e3e9615823d4f106c2e8e9bd4121453",
       "entries": 1,
-      "bytes": 7749,
+      "bytes": 7913,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -392315,10 +392322,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -392348,7 +392355,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -392539,11 +392546,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Holofoil": {
-    "ts": 1782383342,
+    "ts": 1784191614,
     "data": {
-      "hash": "5a12b46e1ac03681a37a51b5d550a9c882f621121b9076ba7f3f5b8c0dc2f70b",
+      "hash": "163a0b82ac298657c7585c9932a5f7a0bf7be33424ea654921c6af67e8ff1a04",
       "entries": 1,
-      "bytes": 7517,
+      "bytes": 7681,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -392703,10 +392710,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -392736,7 +392743,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -392927,11 +392934,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_Holofoil": {
-    "ts": 1782383343,
+    "ts": 1784191607,
     "data": {
-      "hash": "256a8a22b0b4cd3b896fb5fd33e6578e551e267293416f94dc8ef13a15205c16",
+      "hash": "1a4e42752039d3da29937036e5313e8b74652ca31d7b9626fba59b9b400d9e5c",
       "entries": 1,
-      "bytes": 7367,
+      "bytes": 7531,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -393162,10 +393169,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -393195,7 +393202,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -393313,11 +393320,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite_Variant_Holofoil": {
-    "ts": 1782383343,
+    "ts": 1784191609,
     "data": {
-      "hash": "ff63eb2167b66996b1c62105535329e87d9e5845bd7a2f614cb01aec1c770991",
+      "hash": "60ec6f68d3c060c44d88980d6005005d85172d565ba58f1150d42837ce7bd0d8",
       "entries": 1,
-      "bytes": 7333,
+      "bytes": 7497,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -393548,10 +393555,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -393581,7 +393588,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -393699,11 +393706,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite_Variant_Holofoil": {
-    "ts": 1782383343,
+    "ts": 1784191612,
     "data": {
-      "hash": "e981a542d405bc4f5d1864633178a0febc8adc290ed90c200d4ff4a5aae6df69",
+      "hash": "4dfe5c85b70de7c57565e4b9b25bcb0d11714e0be0b83e2a2cc5e2be22f3675d",
       "entries": 1,
-      "bytes": 7535,
+      "bytes": 7699,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -393869,10 +393876,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -393902,7 +393909,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -394090,11 +394097,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/Water/ESD_Water_Variant_Gem": {
-    "ts": 1782383343,
+    "ts": 1784191615,
     "data": {
-      "hash": "e5134a0d7593f4201a8f88e299b851ed300f42b36451c5432a3f29983ea7af2b",
+      "hash": "b5d1e04d499d95787c04e8fa77ffe702df108c13e066333a68356fa0482f57aa",
       "entries": 1,
-      "bytes": 7447,
+      "bytes": 7611,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -394327,10 +394334,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -394360,7 +394367,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -394478,11 +394485,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Gem": {
-    "ts": 1782383344,
+    "ts": 1784191605,
     "data": {
-      "hash": "e85d3d4835ce76dfeef4b6335092689c84148cd54531445fab472d98043dbb33",
+      "hash": "767c55d193e3ca7368cf31b8dfd0c856e44fcbf6c937f7775b1ec50833785c18",
       "entries": 1,
-      "bytes": 7675,
+      "bytes": 7839,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -394650,10 +394657,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -394683,7 +394690,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
@@ -394874,11 +394881,11 @@
     }
   },
   "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_Gem": {
-    "ts": 1782383344,
+    "ts": 1784191603,
     "data": {
-      "hash": "34bddcf2693765774b7bd51f24a2c8471f13c5f4110295e6bee4a830903dcd50",
+      "hash": "d1c1d5c9c48dd6230b8f7404505b89931980196b15ff747114e8741368c2cf4d",
       "entries": 1,
-      "bytes": 7353,
+      "bytes": 7517,
       "jsonOutput": [
         {
           "Type": "ExtractableItemDefinition",
@@ -395112,10 +395119,10 @@
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
-                  "DrawAs": 0,
-                  "Tiling": 0,
-                  "Mirroring": 0,
-                  "ImageType": 0,
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
                     "x": 20.0,
                     "y": 20.0
@@ -395145,7 +395152,7 @@
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
                     "Width": 0.0,
-                    "RoundingType": 1,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {

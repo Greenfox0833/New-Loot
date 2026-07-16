@@ -33019,7 +33019,7 @@
       },
       "PKG_FillerGrunt_Pet_Rescue_02": {
         "LootPackageID": "PKG_FillerGrunt_Pet_Rescue",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -33054,7 +33054,7 @@
       },
       "PKG_FillerGrunt_Pet_Rescue_03": {
         "LootPackageID": "PKG_FillerGrunt_Pet_Rescue",
-        "Weight": 0.0,
+        "Weight": 0.35,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -33089,7 +33089,7 @@
       },
       "PKG_FillerGrunt_Pet_Rescue_04": {
         "LootPackageID": "PKG_FillerGrunt_Pet_Rescue",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -38024,7 +38024,7 @@
       },
       "LIST_FloorLoot_Consumables_Utility_03": {
         "LootPackageID": "LIST_FloorLoot_Consumables_Utility",
-        "Weight": 1.15,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -38536,7 +38536,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+        "ItemDefinition": {
+          "AssetPathName": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -38966,7 +38969,7 @@
       },
       "LIST_Chest_Consumables_Utility_03": {
         "LootPackageID": "LIST_Chest_Consumables_Utility",
-        "Weight": 5.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -39561,7 +39564,7 @@
       },
       "LIST_RareChest_Consumables_Healing_04": {
         "LootPackageID": "LIST_RareChest_Consumables_Healing",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -39583,7 +39586,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/MilitiaExpire/Items/AID_MilitiaExpire_Medallion.AID_MilitiaExpire_Medallion",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -55532,6 +55538,41 @@
         "bAllowBonusDrops": false,
         "Annotation": ";List:LIST_Sprites_Fishing_Week_2.C0;Item:Consumable_MedBox",
         "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_FossilMealSprite_01": {
+        "LootPackageID": "LIST_Boss_FossilMealSprite",
+        "Weight": 1,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite.ESD_FossilMealSprite",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_FossilMealSprite.C0;Item:ESD_FossilMealSprite",
+        "DurabilityPercentageOverride": 1
       }
     }
   }

@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-07-16T18:13:40",
-  "UpdatedByProfile": "BR",
+  "UpdatedAt": "2026-07-16T18:23:07",
+  "UpdatedByProfile": "Reload_Ranked",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -75,6 +75,12 @@
     },
     {
       "AssetPathName": "/BlastBerryWeapons/Gameplay/FastAR/WMID/WMID_Assault_AutoHigh_Athena_BB_R",
+      "LocalizedName": "モルファイト・アサルトライフル",
+      "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
+      "Tags": []
+    },
+    {
+      "AssetPathName": "/BlastBerryWeapons/Gameplay/FastAR/WMID/WMID_Assault_AutoHigh_Athena_BB_UC",
       "LocalizedName": "モルファイト・アサルトライフル",
       "LocalizedDescription": "この武器は戦いを渇望している… 敵にダメージを与えると威力が増強する。",
       "Tags": []
@@ -2089,6 +2095,20 @@
       ]
     },
     {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_C",
+      "LocalizedName": "フューリー アサルトライフル",
+      "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
+      "Tags": [
+        "Item.Weapon.Ranged.Assault.Fast.FirePetal",
+        "Ammo:Medium",
+        "Assault",
+        "CH6S1",
+        "Common",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Fast/WID_Assault_FirePetal_Fast_Athena_R",
       "LocalizedName": "フューリー アサルトライフル",
       "LocalizedDescription": "連射速度が高いフルオートのアサルトライフル。戦闘におけるあらゆる状況に対応できる柔軟なアサルトライフルで、照準器を覗いての射撃が特に優秀。",
@@ -2612,6 +2632,76 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Hitscan/WID_FlexLegend_DualSMGs_HS_Athena_C",
+      "LocalizedName": "デュアルマイクロサブマシンガン",
+      "LocalizedDescription": "フルオートの2丁持ちサブマシンガン。連射速度が非常に速く、弾薬を大量に消費する。遠距離ではダメージが大幅に低下する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Dual.FlexLegend",
+        "Ammo:Light",
+        "CH7S1",
+        "Common",
+        "Guard",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Hitscan/WID_FlexLegend_DualSMGs_HS_Athena_R",
+      "LocalizedName": "デュアルマイクロサブマシンガン",
+      "LocalizedDescription": "フルオートの2丁持ちサブマシンガン。連射速度が非常に速く、弾薬を大量に消費する。遠距離ではダメージが大幅に低下する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Dual.FlexLegend",
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Hitscan/WID_FlexLegend_DualSMGs_HS_Athena_SR",
+      "LocalizedName": "デュアルマイクロサブマシンガン",
+      "LocalizedDescription": "フルオートの2丁持ちサブマシンガン。連射速度が非常に速く、弾薬を大量に消費する。遠距離ではダメージが大幅に低下する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Dual.FlexLegend",
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Hitscan/WID_FlexLegend_DualSMGs_HS_Athena_UC",
+      "LocalizedName": "デュアルマイクロサブマシンガン",
+      "LocalizedDescription": "フルオートの2丁持ちサブマシンガン。連射速度が非常に速く、弾薬を大量に消費する。遠距離ではダメージが大幅に低下する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Dual.FlexLegend",
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/DualSMGs/Hitscan/WID_FlexLegend_DualSMGs_HS_Athena_VR",
+      "LocalizedName": "デュアルマイクロサブマシンガン",
+      "LocalizedDescription": "フルオートの2丁持ちサブマシンガン。連射速度が非常に速く、弾薬を大量に消費する。遠距離ではダメージが大幅に低下する。",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Dual.FlexLegend",
+        "Ammo:Light",
+        "CH7S1",
+        "Epic",
+        "Guard",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty",
       "LocalizedName": "ピザパーティー",
       "LocalizedDescription": "友達と分け合える大きな箱に入ったスラープシュルームピザ",
@@ -2817,6 +2907,58 @@
         "Flipped",
         "Guard",
         "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/RedDotAR/WID_Assault_RedDotAR_Athena_R",
+      "LocalizedName": "MKセブンアサルトライフル",
+      "LocalizedDescription": "レッドドットサイトが付いたフルオートのアサルトライフル",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/RedDotAR/WID_Assault_RedDotAR_Athena_SR",
+      "LocalizedName": "MKセブンアサルトライフル",
+      "LocalizedDescription": "レッドドットサイトが付いたフルオートのアサルトライフル",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/RedDotAR/WID_Assault_RedDotAR_Athena_UC",
+      "LocalizedName": "MKセブンアサルトライフル",
+      "LocalizedDescription": "レッドドットサイトが付いたフルオートのアサルトライフル",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/RedDotAR/WID_Assault_RedDotAR_Athena_VR",
+      "LocalizedName": "MKセブンアサルトライフル",
+      "LocalizedDescription": "レッドドットサイトが付いたフルオートのアサルトライフル",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Epic",
+        "Flipped",
+        "Guard",
         "Weapon"
       ]
     },
@@ -5873,7 +6015,6 @@
         "CH7S2",
         "Common",
         "Guard",
-        "NewThisSeason",
         "Weapon"
       ]
     },
@@ -5887,7 +6028,6 @@
         "Assault",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Rare",
         "Weapon"
       ]
@@ -5903,7 +6043,6 @@
         "CH7S2",
         "Guard",
         "Legendary",
-        "NewThisSeason",
         "Weapon"
       ]
     },
@@ -5917,7 +6056,6 @@
         "Assault",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Uncommon",
         "Weapon"
       ]
@@ -5945,7 +6083,6 @@
         "CH7S2",
         "Epic",
         "Guard",
-        "NewThisSeason",
         "Weapon"
       ]
     },
@@ -7921,7 +8058,6 @@
         "Ammo:Heavy",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Pistol",
         "Rare",
         "Weapon"
@@ -7937,7 +8073,6 @@
         "CH7S2",
         "Guard",
         "Legendary",
-        "NewThisSeason",
         "Pistol",
         "Weapon"
       ]
@@ -7951,7 +8086,6 @@
         "Ammo:Heavy",
         "CH7S2",
         "Guard",
-        "NewThisSeason",
         "Pistol",
         "Uncommon",
         "Weapon"
@@ -7982,7 +8116,6 @@
         "CH7S2",
         "Epic",
         "Guard",
-        "NewThisSeason",
         "Pistol",
         "Weapon"
       ]
@@ -8474,6 +8607,20 @@
         "Epic",
         "Guard",
         "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUnvaulted/Gameplay/WID_Pistol_Suppressed_Athena_C",
+      "LocalizedName": "サイレンサー付きピストル",
+      "LocalizedDescription": "ピストル: オートマチック。サイレンサー付き。中程度のダメージを与えられる、高い連射速度と大きなマガジンを備えた万能なサイドアーム。",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Standard.HighTier",
+        "Ammo:Light",
+        "CH4S4",
+        "Common",
+        "Guard",
+        "Pistol",
         "Weapon"
       ]
     },

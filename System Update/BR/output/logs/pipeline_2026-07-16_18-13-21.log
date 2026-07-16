@@ -4,3 +4,270 @@
 2026-07-16 18:13:21 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
 2026-07-16 18:13:21 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-07-16 18:13:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-07-16 18:13:21 | INFO | hotfix lp stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootPackages_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootPackages_Client.json : replaced=130, added=863
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client
+[721] RowUpdate LIST_Weapons_Rare_Handgun_02.Weight=1.15 -> OK
+[722] RowUpdate LIST_Weapons_Epic_Handgun_02.Weight=1.15 -> OK
+[723] RowUpdate LIST_Weapons_Legendary_Handgun_02.Weight=1.15 -> OK
+[755] RowUpdate LIST_FishingDefault_Consumables_Utility_02.Weight=0.070000 -> OK
+[756] RowUpdate LIST_FishingHole_Consumables_Utility_02.Weight=0.070000 -> OK
+[758] RowUpdate LIST_Chest_Consumables_Shielding_03.Weight=0.050000 -> OK
+[759] RowUpdate LIST_RareChest_Consumables_Shielding_02.Weight=0.250000 -> OK
+[787] RowUpdate LIST_Legendary_03.ItemDefinition=/SevenSlide/Gameplay/AGID_BoostSevenSlider.AGID_BoostSevenSlider -> OK
+[807] RowUpdate LIST_Weapons_Uncommon_Shotgun_04.Weight=0.000 -> OK
+[808] RowUpdate LIST_Weapons_Rare_Shotgun_04.Weight=0.000 -> OK
+[809] RowUpdate LIST_Weapons_Epic_Shotgun_04.Weight=0.000 -> OK
+[810] RowUpdate LIST_Weapons_Legendary_Shotgun_04.Weight=0.000 -> OK
+[811] RowUpdate LIST_Weapons_Mythic_Shotgun_04.Weight=0.000 -> OK
+[812] RowUpdate LIST_Weapons_Common_Assault_02.Weight=0.00 -> OK
+[813] RowUpdate LIST_Weapons_Common_Assault_03.Weight=1.00 -> OK
+[814] RowUpdate LIST_Weapons_Common_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_C.WID_Assault_SunRose_HS_Athena_C -> OK
+[815] RowUpdate LIST_Weapons_Uncommon_Assault_03.Weight=1.00 -> OK
+[816] RowUpdate LIST_Weapons_Uncommon_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UC.WID_Assault_SunRose_HS_Athena_UC -> OK
+[817] RowUpdate LIST_Weapons_Rare_Assault_03.Weight=1.00 -> OK
+[818] RowUpdate LIST_Weapons_Rare_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_R.WID_Assault_SunRose_HS_Athena_R -> OK
+[819] RowUpdate LIST_Weapons_Epic_Assault_03.Weight=1.00 -> OK
+[820] RowUpdate LIST_Weapons_Epic_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_VR.WID_Assault_SunRose_HS_Athena_VR -> OK
+[821] RowUpdate LIST_Weapons_Legendary_Assault_03.Weight=1.00 -> OK
+[822] RowUpdate LIST_Weapons_Legendary_Assault_03.ItemDefinition=/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_SR.WID_Assault_SunRose_HS_Athena_SR -> OK
+[1068] RowUpdate PKG_Boss_FossilMeal_Soup_12.LootPackageCall=LIST_Boss_FossilMealSprite -> OK
+[1069] RowUpdate PKG_Boss_FossilMeal_Bread_12.LootPackageCall=LIST_Boss_FossilMealSprite -> OK
+[1070] RowUpdate PKG_Boss_FossilMeal_Pasta_12.LootPackageCall=LIST_Boss_FossilMealSprite -> OK
+[1071] AddRow -> ADD LIST_Boss_FossilMealSprite_01
+[HOTFIX:SEASON2] done: applied=28, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootPackages_Client__final.json
+2026-07-16 18:13:21 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-07-16 18:13:21 | INFO | hotfix lt stdout: [STEP1-1] base e:\Fmodel\Exports\FortniteGame\Content\Items\DataTables\AthenaLootTierData_Client.json
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[HOTFIX:SEASON1] done: applied=0, deleted=0, skipped=0
+[STEP1-2] merge e:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\OrangeRemoteLoot\Content\DataTables\OrangeRemoteLootTierData_Client.json : replaced=0, added=110
+[HOTFIX:SEASON2] target=/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\OrangeRemoteLootTierData_Client__final.json
+2026-07-16 18:13:21 | INFO | ✓ Hotfix 適用完了 (0.61s)
+2026-07-16 18:13:21 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-07-16 18:13:21 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-07-16 18:13:21 | INFO | load done (0.02s)
+2026-07-16 18:13:21 | INFO | build summary start
+2026-07-16 18:13:30 | INFO | build summary done (8.48s)
+2026-07-16 18:13:30 | INFO | enrich summary with names start
+2026-07-16 18:13:32 | INFO | enrich summary done (1.96s)
+2026-07-16 18:13:32 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-07-16_18-13.json
+2026-07-16 18:13:32 | INFO | build item metadata start
+2026-07-16 18:13:40 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (7.56s)
+2026-07-16 18:13:40 | INFO | build BR_LootData start
+2026-07-16 18:13:40 | INFO | build BR_LootData done (0.00s)
+2026-07-16 18:13:40 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-07-16_18-13.json
+2026-07-16 18:13:40 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-07-16 18:13:40 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-07-16 18:13:40 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-07-16_18-13.json
+✅ 抽出件数: 230
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-07-16_17-49.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-07-16_18-13.json
+✅ 差分作成 完了
+  追加   : 62 / 削除 : 1 / 変更 : 0 / 変化なし : 168
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260716_1813\items_unique_min_diff.json
+2026-07-16 18:13:40 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-07-16 18:13:40 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.22s)
+2026-07-16 18:13:40 | INFO | prewarm start
+2026-07-16 18:13:49 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (8.92s)
+2026-07-16 18:13:49 | INFO | 画像化タスク数: 230
+2026-07-16 18:13:49 | INFO | 画像生成 進捗: 1/230
+2026-07-16 18:13:50 | INFO | 画像生成 進捗: 50/230
+2026-07-16 18:13:50 | INFO | 画像生成 進捗: 100/230
+2026-07-16 18:13:51 | INFO | 画像生成 進捗: 150/230
+2026-07-16 18:13:52 | INFO | 画像生成 進捗: 200/230
+2026-07-16 18:13:52 | INFO | 画像生成 進捗: 230/230
+2026-07-16 18:13:52 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-07-16 18:13:53 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-07-16_18-13-52.json (added=125 removed=55 change=99)
+2026-07-16 18:13:55 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR\AddedItems\2026-07-16_18-13-53 (copied=100 missing=1)
+2026-07-16 18:13:55 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-07-16 18:14:17 | INFO | git commit stdout: [main 6cfbdc3] BR update 2026-07-16 18:14:08
+ 187 files changed, 89778 insertions(+), 7398 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260716_1813/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-07-16_18-13-21.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-07-16_18-13.json
+ create mode 100644 System Update/shared/icon_cache/ClusterBombGameplay__Icons__T-T-Icon-BR-ClusterBomb-L.png
+ create mode 100644 System Update/shared/icon_cache/FossilMealGadget__Assets__Icons__T_T_Icon_BR_FossilMealGadgetL.png
+ create mode 100644 System Update/shared/icon_cache/Game__Gadgets__Assets__ShieldBubble_FriendZone__Icons__T_Icon_BR_Gadget_ShieldBubble_FriendZone_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Air_Candy_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Air_Default_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Air_Galaxy_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Air_Gold_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Air_Holo_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Drifter_Gem_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Earth_Cube_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Fire_Cube_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Fishy_Cube_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Seven_Candy_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Seven_Galaxy_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Seven_Gold_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Seven_Holofoil_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_Seven_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_Creature_Sprite_ZeroPoint_Gem_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_FossilMeal_Candy_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_FossilMeal_Galaxy_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_FossilMeal_Gold_L.png
+ create mode 100644 System Update/shared/icon_cache/SpriteLibrary_CH7S3__UI__T_Icon_BR_FossilMeal_Holofoil_L.png
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2421 - \347\205\231\351\233\262 .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2421 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2422 - \343\202\257\343\203\251\343\202\271\343\202\277\343\203\274\343\201\217\343\201\243\343\201\244\343\201\215\347\210\206\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2422 - \343\202\257\343\203\251\343\203\203\343\202\267\343\203\245\343\203\221\343\203\203\343\203\211Jr..png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2422 - \343\203\237\343\203\213\343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2422 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2422 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\225\343\202\243\343\203\203\343\202\267\343\203\245\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \345\234\260\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \346\260\264\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \347\202\216\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \351\242\250\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\237 \343\203\225\343\202\243\343\203\203\343\202\267\343\203\245\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\237 \345\234\260\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\237 \346\260\264\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\237 \347\202\216\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\260\343\203\237 \351\242\250\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\203\225\343\202\243\343\203\203\343\202\267\343\203\245\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\264\343\203\274\343\203\253\343\203\211 \345\234\260\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\264\343\203\274\343\203\253\343\203\211 \346\260\264\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\264\343\203\274\343\203\253\343\203\211 \347\202\216\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\264\343\203\274\343\203\253\343\203\211 \351\242\250\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\220\343\203\226\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\270\343\203\245\343\202\250\343\203\253 \345\234\260\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\202\270\343\203\245\343\202\250\343\203\253 \346\260\264\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \346\260\264\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \347\202\216\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \351\242\250\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2423 - \351\242\250\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\252\343\203\274\343\203\251\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\264\343\203\274\343\202\271\343\203\210\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\200\343\203\203\343\202\257\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\207\343\203\274\343\203\242\343\203\263\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \347\216\213\346\247\230\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \343\202\252\343\203\274\343\203\251\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \343\202\264\343\203\274\343\202\271\343\203\210\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \343\203\200\343\203\203\343\202\257\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \343\203\207\343\203\274\343\203\242\343\203\263\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\260\343\203\237 \347\216\213\346\247\230\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\202\252\343\203\274\343\203\251\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\202\264\343\203\274\343\202\271\343\203\210\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\203\200\343\203\203\343\202\257\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\203\207\343\203\274\343\203\242\343\203\263\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\264\343\203\274\343\203\253\343\203\211 \347\216\213\346\247\230\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\270\343\203\245\343\202\250\343\203\253 \343\202\252\343\203\274\343\203\251\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\270\343\203\245\343\202\250\343\203\253 \343\203\200\343\203\203\343\202\257\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\202\270\343\203\245\343\202\250\343\203\253 \343\203\207\343\203\274\343\203\242\343\203\263\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\221\343\203\253\343\202\271\343\203\273\343\202\271\343\202\255\343\203\243\343\203\212\343\203\274.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \343\202\264\343\203\274\343\202\271\343\203\210\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \347\216\213\346\247\230\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2424 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\221\343\203\263\343\202\257\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\234\343\202\271\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \345\244\242\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\257\343\203\257\343\203\203\343\202\257\343\202\271\343\203\212\343\203\203\343\202\257.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\260\343\203\237 \343\203\221\343\203\263\343\202\257\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\260\343\203\237 \343\203\234\343\202\271\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\260\343\203\237 \345\244\242\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\203\221\343\203\263\343\202\257\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\203\234\343\202\271\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\264\343\203\274\343\203\253\343\203\211 \345\244\242\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \350\207\252\345\267\261\350\230\207\347\224\237\343\203\207\343\203\220\343\202\244\343\202\271.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2425 - \351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - Pollo\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - Vini Jr.\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\255\343\203\243\343\203\203\343\203\210\343\202\246\343\203\274\343\203\236\343\203\263\343\201\256\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \346\255\273\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\260\343\203\237 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\260\343\203\237 \346\255\273\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\264\343\203\274\343\203\253\343\203\211 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\202\264\343\203\274\343\203\253\343\203\211 \346\255\273\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\217\343\203\274\343\203\254\343\202\244\343\203\273\343\202\257\343\202\244\343\203\263\343\201\256\343\202\246\343\202\251\343\203\274\343\203\225\343\202\251\343\203\274\343\202\270\343\203\211\343\203\273\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\343\202\260\343\203\251\343\203\203\343\203\227\343\203\215\343\203\253\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\235\343\202\244\343\202\272\343\203\263\357\275\245\343\202\242\343\202\244\343\203\223\343\203\274\343\201\256\343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-07-16_18-13-53/\343\203\206\343\202\243\343\202\2427 - \343\203\236\343\202\244\343\203\206\343\202\243\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/Pollo\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/TheBurntPeanut - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/Vini Jr.\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\243\343\203\203\343\203\210\343\202\246\343\203\274\343\203\236\343\203\263\343\201\256\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\245\343\203\274\343\203\226 \343\203\225\343\202\243\343\203\203\343\202\267\343\203\245\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\245\343\203\274\343\203\226 \345\234\260\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\245\343\203\274\343\203\226 \347\202\216\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\256\343\203\243\343\203\251\343\202\257\343\202\267\343\203\274 \351\242\250\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\257\343\203\251\343\202\271\343\202\277\343\203\274\343\201\217\343\201\243\343\201\244\343\201\215\347\210\206\345\274\276 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\260\343\203\237 \343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\260\343\203\237 \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\260\343\203\237 \351\242\250\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\202\271\343\203\210\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\264\343\203\274\343\203\253\343\203\211 \351\242\250\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\267\343\203\274\343\203\253\343\203\211\343\203\220\343\203\226\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\270\343\203\245\343\202\250\343\203\253 \343\202\252\343\203\274\343\203\251\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\270\343\203\245\343\202\250\343\203\253 \343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\274\343\203\255\343\203\235\343\202\244\343\203\263\343\203\210\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\200\343\203\203\343\202\257\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\207\343\203\274\343\203\242\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\217\343\203\274\343\203\254\343\202\244\343\203\273\343\202\257\343\202\244\343\203\263\343\201\256\343\202\246\343\202\251\343\203\274\343\203\225\343\202\251\343\203\274\343\202\270\343\203\211\343\203\273\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\343\202\260\343\203\251\343\203\203\343\203\227\343\203\215\343\203\253\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\220\343\203\263\343\202\257\343\202\267\343\203\247\343\203\203\343\203\210 \343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\203\254\343\203\263\343\203\211\343\202\276\343\203\274\343\203\263\343\203\220\343\203\226\343\203\253 - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\230\343\203\223\343\203\274\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \343\202\273\343\203\226\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \343\203\220\343\203\203\343\203\210\343\203\236\343\203\263\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\233\343\203\255\343\202\260\343\203\251\343\203\240 \351\242\250\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\235\343\202\244\343\202\272\343\203\263\357\275\245\343\202\242\343\202\244\343\203\223\343\203\274\343\201\256\343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\203\224\343\202\271\343\203\210\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\236\343\202\244\343\203\206\343\202\243\343\202\244\343\203\263\343\203\221\343\202\257\343\203\210\343\202\271\343\203\212\343\202\244\343\203\221\343\203\274\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\346\255\273\347\245\236\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/\347\205\231\351\233\262  - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\351\200\237\345\260\204\345\274\217\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\351\242\250\343\201\256\347\262\276\351\234\212 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-07-16_18-13.json"
+2026-07-16 18:14:30 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   bea1ef7..6cfbdc3  main -> main
+2026-07-16 18:14:30 | INFO | ✓ GitHub Push 完了
+2026-07-16 18:14:30 | INFO | ===== BR: pipeline end =====

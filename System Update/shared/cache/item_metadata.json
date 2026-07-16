@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-07-16T18:10:49",
-  "UpdatedByProfile": "BR_Comp",
+  "UpdatedAt": "2026-07-16T18:13:40",
+  "UpdatedByProfile": "BR",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -491,6 +491,18 @@
         "Epic",
         "Guard",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ClusterBombGameplay/Gameplay/WID_Paprika_ClusterBomb",
+      "LocalizedName": "クラスターくっつき爆弾",
+      "LocalizedDescription": "投げた先にくっつき、着弾後にさらに複数の小さな爆発を射出するグレネード。",
+      "Tags": [
+        "CH5S1",
+        "DamageItem",
+        "Item",
+        "Throwable",
+        "UncommonItem"
       ]
     },
     {
@@ -2815,6 +2827,12 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/FossilMealGadget/Gameplay/WID_FossilMeal_Gadget",
+      "LocalizedName": "バットマンのグラップネルガン",
+      "LocalizedDescription": "目標位置まで移動してバットケープを展開しよう！",
+      "Tags": []
+    },
+    {
       "AssetPathName": "/Fringeplank_Firework/Items/WIDs/WID_Firework_Gun",
       "LocalizedName": "ファイアワークフレアガン",
       "LocalizedDescription": "単発の投射物。空中に発射すると花火が敵の場所を明らかにする。",
@@ -4963,6 +4981,14 @@
       ]
     },
     {
+      "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_UR",
+      "LocalizedName": "マイティインパクトスナイパーライフル",
+      "LocalizedDescription": "ヘビーインパクトスナイパーライフル(ミシック)。環境物や建築物に対するダメージが強化されている。",
+      "Tags": [
+        "Item.Weapon.Ranged.Sniper.BoltAction.MoonFlax"
+      ]
+    },
+    {
       "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Sniper/Unmoded/WID_Sniper_MoonFlax_UM_Athena_VR",
       "LocalizedName": "ヘビーインパクトスナイパーライフル",
       "LocalizedDescription": "高威力の単発式スナイパーライフルであるヘビーインパクトスナイパーライフルは、乗り物に対してボーナスダメージと衝撃を与える。",
@@ -6548,6 +6574,22 @@
       ]
     },
     {
+      "AssetPathName": "/ShieldBubble/Gameplay/FZ/Athena_SilverBlazer_FZ",
+      "LocalizedName": "フレンドゾーンバブル",
+      "LocalizedDescription": "やあ、友よ！",
+      "Tags": [
+        "Granted.ItemEquipped.Consumable.ShieldBubble.FZ",
+        "CH7S3",
+        "ConsumableItem",
+        "Deployable",
+        "ExoticItem",
+        "Item",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Throwable"
+      ]
+    },
+    {
       "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC",
       "LocalizedName": "シールドバブルJr.",
       "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。ただし、プレイヤーは通り抜けることができるので注意！",
@@ -6625,9 +6667,57 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite",
+      "LocalizedName": "風の精霊",
+      "LocalizedDescription": "ダッシュスピードとダッシュジャンプの高さを向上させる。落下ダメージも無効になる。レベルアップごとにジャンプの高さが増加！",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite_Variant_Candy",
+      "LocalizedName": "グミ 風の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite_Variant_Galaxy",
+      "LocalizedName": "ギャラクシー 風の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite_Variant_Gold",
+      "LocalizedName": "ゴールド 風の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite_Variant_Holofoil",
+      "LocalizedName": "ホログラム 風の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BossSprite/ESD_BossSprite",
       "LocalizedName": "ボスの精霊",
       "LocalizedDescription": "最大HPとシールドが増加する。レベルアップのたびにパワーアップ: 5 HP/シールド -> 10 HP/シールド -> 15 HP/シールド -> 20 HP/シールド -> 25 HP/シールド",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BossSprite/ESD_BossSprite_Variant_A",
+      "LocalizedName": "ボスの精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6665,9 +6755,25 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/BurntPeanut/EID_BurntPeanut_Variation_A",
+      "LocalizedName": "TheBurntPeanut",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CokeParmesan/ESD_CokeParmesan",
       "LocalizedName": "Vini Jr.の精霊",
       "LocalizedDescription": "短時間ダッシュをすると、スライディングの威力が向上する。スライディングキックで攻撃すると、射撃の間隔とリロード時間が速くなる。レベルアップごとの強化: 40ダメージ / 連射速度10% → 45ダメージ / 連射速度20% → 50ダメージ / 連射速度30% → 55ダメージ / 連射速度40% → 60ダメージ / 連射速度50%",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CokeParmesan/ESD_CokeParmesan_Variation_A",
+      "LocalizedName": "Vini Jr.の精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6681,9 +6787,25 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CompanyStargazer/ESD_CompanyStargazer_Variant_A",
+      "LocalizedName": "Polloの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite",
       "LocalizedName": "デーモン精霊",
       "LocalizedDescription": "敵を撃破すると、サイフォン効果で体力とシールドが回復する。レベルアップのたびに回復力アップ: 10ポイント -> 15ポイント -> 20ポイント -> 25ポイント -> 30ポイントを撃破時に回復可能だ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DemonSprite/ESD_DemonSprite_Variant_A",
+      "LocalizedName": "デーモンの精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6729,6 +6851,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_A",
+      "LocalizedName": "オーラの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Candy",
       "LocalizedName": "グミ オーラの精霊",
       "LocalizedDescription": "",
@@ -6739,6 +6869,14 @@
     {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Galaxy",
       "LocalizedName": "ギャラクシー オーラの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DrifterSprite/ESD_DrifterSprite_Variant_Gem",
+      "LocalizedName": "ジュエル オーラの精霊",
       "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
@@ -6756,6 +6894,14 @@
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite",
       "LocalizedName": "ダック精霊",
       "LocalizedDescription": "エモートかジャムセッションでシールドが回復する。レベルアップのたびにパワーアップ: 2シールド -> 3シールド -> 4シールド -> 6シールド -> 8シールドが1度に回復するぞ",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/DuckSprite/ESD_DuckSprite_Variant_A",
+      "LocalizedName": "ダックの精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6809,6 +6955,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Cube",
+      "LocalizedName": "キューブ 地の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/EarthSprite/ESD_EarthSprite_Variant_Galaxy",
       "LocalizedName": "ギャラクシー 地の精霊",
       "LocalizedDescription": "",
@@ -6849,6 +7003,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Cube",
+      "LocalizedName": "キューブ フィッシュの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FishySprite/ESD_FishySprite_Variant_Galaxy",
       "LocalizedName": "ギャラクシー フィッシュの精霊",
       "LocalizedDescription": "",
@@ -6873,9 +7035,57 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite_Variant_A",
+      "LocalizedName": "バットマンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite_Variant_Candy",
+      "LocalizedName": "グミ バットマンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite_Variant_Galaxy",
+      "LocalizedName": "ギャラクシー バットマンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite_Variant_Gold",
+      "LocalizedName": "ゴールド バットマンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite_Variant_Holofoil",
+      "LocalizedName": "ホログラム バットマンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite",
       "LocalizedName": "ゴースト精霊",
       "LocalizedDescription": "リロード時に一定時間クロークを付与する。レベルアップのたびに持続時間がアップ: 3秒 -> 3.5秒 -> 4秒 -> 4.5秒 -> 5秒",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GhostSprite/ESD_GhostSprite_Variant_A",
+      "LocalizedName": "ゴーストの精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6921,6 +7131,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite_Variant_A",
+      "LocalizedName": "死神の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/GrimSprite/ESD_GrimSprite_Variant_Candy",
       "LocalizedName": "グミ 死の精霊",
       "LocalizedDescription": "",
@@ -6948,6 +7166,14 @@
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite",
       "LocalizedName": "王様の精霊",
       "LocalizedDescription": "ツルハシの与ダメージが増加する。レベルアップのたびにダメージアップ: 30% -> 40% -> 60% -> 80% -> 120%とダメージ量が増加",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/KingSprite/ESD_KingSprite_Variant_A",
+      "LocalizedName": "王様の精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -6993,6 +7219,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_A",
+      "LocalizedName": "パンクの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/PunkSprite/ESD_PunkSprite_Variant_Candy",
       "LocalizedName": "グミ パンクの精霊",
       "LocalizedDescription": "",
@@ -7017,9 +7251,65 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite",
+      "LocalizedName": "セブンの精霊",
+      "LocalizedDescription": "自分のスクワッドのワールドで、敵プレイヤーの足跡が見える。レベルアップごとに持続時間がアップ: 10秒 -> 15秒 -> 20秒 -> 25秒 -> 30秒の追跡",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite_Variant_A",
+      "LocalizedName": "セブンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite_Variant_Candy",
+      "LocalizedName": "グミ セブンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite_Variant_Galaxy",
+      "LocalizedName": "ギャラクシー セブンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite_Variant_Gold",
+      "LocalizedName": "ゴールド セブンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SevenSprite/ESD_SevenSprite_Variant_Holofoil",
+      "LocalizedName": "ホログラム セブンの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite",
       "LocalizedName": "夢の精霊",
       "LocalizedDescription": "レベルごとにランダムなアイテムを獲得し、最大レベルではなんとレジェンドの戦利品を入手する。レベルアップのたびに戦利品の価値が上昇するぞ！",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SleepySprite/ESD_SleepySprite_Variant_A",
+      "LocalizedName": "夢の精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -7052,6 +7342,14 @@
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite",
       "LocalizedName": "ストライカーの精霊",
       "LocalizedDescription": "よじ登り、乗り越え、壁登りをすると、オーバードライブの効果を得る。レベルアップのたびにオーバードライブの持続時間がアップする: 6秒 -> 7秒 -> 8秒 -> 9秒 -> 10秒",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/SoccerSprite/ESD_SoccerSprite_Variant_A",
+      "LocalizedName": "ストライカーの精霊",
+      "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
       ]
@@ -7099,6 +7397,14 @@
     {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Candy",
       "LocalizedName": "グミ 炎の精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/Spitfire/ESD_Spitfire_Variation_Cube",
+      "LocalizedName": "キューブ 炎の精霊",
       "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"
@@ -7185,6 +7491,14 @@
       ]
     },
     {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_A",
+      "LocalizedName": "ゼロポイントの精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Candy",
       "LocalizedName": "グミ ゼロポイントの精霊",
       "LocalizedDescription": "",
@@ -7195,6 +7509,14 @@
     {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Galaxy",
       "LocalizedName": "ギャラクシー ゼロポイント精霊",
+      "LocalizedDescription": "",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/ZeroPointSprite/ESD_ZeroPointSprite_Variant_Gem",
+      "LocalizedName": "ジュエル ゼロポイントの精霊",
       "LocalizedDescription": "",
       "Tags": [
         "Granted.Athena.TacticalSprint.PreventHolster"

@@ -313737,11 +313737,11 @@
     }
   },
   "/MedCloud/Gameplay/Items/WID_SmokeCloud": {
-    "ts": 1780785273,
+    "ts": 1784193047,
     "data": {
-      "hash": "c23de81c658b3e8c261e8ae07839d9e0086b0503d639ac3f5fe737f9f9b53ffc",
+      "hash": "eff2ecf226c2f6d271e8b6c98fc838319e51796ae72e9aaa9f93756ad1d58882",
       "entries": 1,
-      "bytes": 6975,
+      "bytes": 7110,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
@@ -313793,6 +313793,18 @@
               "Item.Consumable.SmokeGrenade",
               "Tag:Consumable:wid_smokecloud"
             ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "CH7S3",
+                "CommonItem",
+                "Concealment",
+                "ConsumableItem",
+                "Item",
+                "NewThisSeason",
+                "RecentlyAdded",
+                "Throwable"
+              ]
+            },
             "ItemType": "EFortItemType::Consumable",
             "ItemName": {
               "namespace": "",
@@ -314031,8 +314043,8 @@
                 }
               },
               {
-                "Tier": "EFortItemTier::III",
-                "MaxTier": "EFortItemTier::No_Tier"
+                "Tier": "EFortItemTier::I",
+                "MaxTier": "EFortItemTier::I"
               },
               {
                 "ProjectileTemplate": {
@@ -396810,6 +396822,4376 @@
                 "LargeIcon": {
                   "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_Creature_Sprite_Boss_Galaxy_ui_L.T_Icon_BR_Creature_Sprite_Boss_Galaxy_ui_L",
                   "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Game/Athena/Items/Weapons/WID_SMG_RapidFireSMG_Athena_UR": {
+    "ts": 1784193042,
+    "data": {
+      "hash": "cb5a0cc17b7517582069060e44273bae7a6a4ed40ecef73ccc15f535a4ab686c",
+      "entries": 1,
+      "bytes": 7188,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_SMG_RapidFireSMG_Athena_UR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_RapidFireSMG_Athena.B_Pistol_RapidFireSMG_Athena_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "SMG_RapidFireSMG_Athena_UR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Item.Weapon.Ranged.SMG.RapidFire"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.SMG.RapidFire"
+            ],
+            "ActualAnalyticFNames": [
+              "Item.Weapon.Ranged.SMG.RapidFire",
+              "Tag:Weapon:wid_smg_rapidfiresmg_athena_ur"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "EE922BB945F58FB9604A58A2D82D680C",
+              "sourceString": "Catwoman's Rapid Fire SMG",
+              "localizedString": "Catwoman's Rapid Fire SMG"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "AA86FAD842ADDE0E9D552E92F44CDD7C",
+              "sourceString": "Catwoman's customized Rapid Fire SMG. Meticulously crafted to increase ammo capacity.",
+              "localizedString": "Catwoman's customized Rapid Fire SMG. Meticulously crafted to increase ammo capacity."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_SMGCompact_Variant.SK_SMGCompact_Variant",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_Weapons/pistol/MachinePistol/SC_Machine_Pistol_Pickup.SC_Machine_Pistol_Pickup",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_Weapons/pistol/MachinePistol/SC_Machine_Pistol_Drop_Landed.SC_Machine_Pistol_Drop_Landed",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 7.208161,
+                  "y": 31.128738,
+                  "z": 20.108868
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "59036FC241B050AFFE3713A89CE424BD",
+                  "sourceString": "Guns Ranged Pistols LightBullets Automatic",
+                  "localizedString": "Guns Ranged Pistols LightBullets Automatic"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::VI",
+                "MaxTier": "EFortItemTier::V"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-CompactSMGVariant.T-Icon-Weapons-CompactSMGVariant",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-CompactSMGVariant-L.T-Icon-Weapons-CompactSMGVariant-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "weapon.ranged.smg",
+                  "Bacchus.Shoot.SMG.Auto",
+                  "phoebe.weapon.ranged.smg",
+                  "phoebe.weapon.trait.fullauto",
+                  "Item.Weapon.Ranged.SMG.RapidFire",
+                  "phoebe.items.PistolRapidFireSMG",
+                  "Rarity.Mythic"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -25.0,
+                  "z": 3.0
+                },
+                "InitialRotation": {
+                  "pitch": 6.3647523,
+                  "yaw": 24.121056,
+                  "roll": -21.732279
+                },
+                "Scale": 1.0
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_S41_UR": {
+    "ts": 1784193043,
+    "data": {
+      "hash": "16b62ff1663de3c61a51766cb8104ae019994c11a353a5bf194e99bc40f430e7",
+      "entries": 1,
+      "bytes": 8590,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Assault_SunRose_HS_Athena_S41_UR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "bAllowADSInAir": true,
+            "WeaponActorClass": {
+              "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/B_Assault_SunRose_AR_HS_Athena_S41_UR.B_Assault_SunRose_AR_HS_Athena_S41_UR_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Meshes/Assault_SunRose_Rifle.Assault_SunRose_Rifle",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Assault_Sunrose_Athena_UR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Assault_CosmeticAlteration_Athena.Assault_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "bModsHidden": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Assault",
+              "item.weapon.ranged.assault.SunRose"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "item.weapon.ranged.assault.SunRose"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Assault",
+              "item.weapon.ranged.assault.SunRose",
+              "Tag:Weapon:wid_assault_sunrose_hs_athena_s41_ur"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "5017D9CF4FD644D612EB808BFA9AFAA2",
+              "sourceString": "Harley Quinn's Warforged AR",
+              "localizedString": "Harley Quinn's Warforged AR"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "FB53EFDF4162B817D9CCF0BB47B49B45",
+              "sourceString": "Harley Quinn's customized Warforged Assault Rifle. Viciously crafted to increase its fire rate while continuously firing.",
+              "localizedString": "Harley Quinn's customized Warforged Assault Rifle. Viciously crafted to increase its fire rate while continuously firing."
+            },
+            "DataList": [
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Meshes/Assault_SunRose_Rifle.Assault_SunRose_Rifle",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 24.0,
+                    "y": 24.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Assault-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Assault-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Pickup_Cue.SunRose_Assault_Pickup_Cue",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Drop_Cue.SunRose_Assault_Drop_Cue",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunRose_Assault_Drop_Land_Cue.SunRose_Assault_Drop_Land_Cue",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 3.6658096,
+                  "y": 46.53728,
+                  "z": 11.3260565
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "2FB9612B40ABEAC3E3445FB69EF8AF62",
+                  "sourceString": "Guns Assault Rifles Machinegun LightBullets Automatic",
+                  "localizedString": "Guns Assault Rifles Machinegun LightBullets Automatic"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::VI",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SunroseAssault_Lib'",
+                    "ObjectPath": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Sounds/SunroseAssault_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "WeaponModSlots": [
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinitionOptic'WMID_Default_IronSights'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Optics/IronSight/WMID_Default_IronSights.0"
+                    },
+                    "bIsDynamic": false
+                  },
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinition'WMID_Underbarrel_VertForegrip'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Underbarrel/VerticalForegrip/WMID_Underbarrel_VertForegrip.0"
+                    },
+                    "bIsDynamic": false
+                  },
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+                    },
+                    "bIsDynamic": false
+                  }
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "Traits": [
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.InventorySizeLimited"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Icons/T-Icon-Weapons-Rifle-Assault-Sunrose.T-Icon-Weapons-Rifle-Assault-Sunrose",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Icons/T-Icon-Weapons-Rifle-Assault-Sunrose-L.T-Icon-Weapons-Rifle-Assault-Sunrose-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.AR.Auto",
+                  "Weapon.Ranged.Assault.Standard",
+                  "phoebe.weapon.ranged.rifle",
+                  "phoebe.weapon.trait.fullauto",
+                  "phoebe.items.assault_rifle",
+                  "ModSetBucket.Assault.DPS",
+                  "Rarity.Mythic",
+                  "item.weapon.ranged.assault.SunRose"
+                ]
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Rifle'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Rifle.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/WID_Pistol_Paprika_Auto_Athena_HS_UR": {
+    "ts": 1784193043,
+    "data": {
+      "hash": "4a4fd2d4ab432d2976eb30d0bfee1a91e143b63ff52a305571f16f93fad7c738",
+      "entries": 1,
+      "bytes": 8761,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Pistol_Paprika_Auto_Athena_HS_UR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/B_Pistol_Paprika_Auto_Athena.B_Pistol_Paprika_Auto_Athena_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_Paprika_Core_Athena_UR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilitySet": {
+              "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/HitscanWIDs/FAS_Pistol_Paprika_ADS_Mythic.FAS_Pistol_Paprika_ADS_Mythic",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bReticleCornerOutsideSpreadRadius": true,
+            "bModsHidden": true,
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.CorePistol.Paprika"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.CorePistol.Paprika"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+              "Tag:Weapon:wid_pistol_paprika_auto_athena_hs_ur"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "AAE877D843A572B83772849CE332B606",
+              "sourceString": "Poison Ivy's Ranger Pistol",
+              "localizedString": "Poison Ivy's Ranger Pistol"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "8A356C114E472D4E0F6F77B9E42AC81A",
+              "sourceString": "Poison Ivy's customized Ranger Pistol. Meticulously crafted to increase firing rate when aiming down sights.",
+              "localizedString": "Poison Ivy's customized Ranger Pistol. Meticulously crafted to increase firing rate when aiming down sights."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'PaprikaPistol_Lib'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Sounds/PaprikaPistol_Lib.0"
+                  },
+                  {
+                    "ObjectName": "SoundLibrary'PaprikaPistol_Reload_Lib'",
+                    "ObjectPath": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Sounds/PaprikaPistol_Reload_Lib.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Meshes/Paprika_Pistol.Paprika_Pistol",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Default.B_Pickups_Default_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_Weapons/AutoRifle/M4A1/Weapon_M4A1_Pickup_Cue.Weapon_M4A1_Pickup_Cue",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pistol_Drop_Cue.Pistol_Drop_Cue",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/UI_DropWeaponImpact_Pistol_Cue.UI_DropWeaponImpact_Pistol_Cue",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 1.915957,
+                  "y": 14.303911,
+                  "z": 9.324831
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Meshes/Paprika_Pistol.Paprika_Pistol",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -25.0,
+                  "z": 3.0
+                },
+                "InitialRotation": {
+                  "pitch": 6.3647523,
+                  "yaw": 24.121056,
+                  "roll": -21.732279
+                },
+                "Scale": 1.0
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "59036FC241B050AFFE3713A89CE424BD",
+                  "sourceString": "Guns Ranged Pistols LightBullets Automatic",
+                  "localizedString": "Guns Ranged Pistols LightBullets Automatic"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::V",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Icons/T-Icon-Weapons-Pistol-Paprika.T-Icon-Weapons-Pistol-Paprika",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaPistol/Icons/T-Icon-Weapons-Pistol-Paprika-L.T-Icon-Weapons-Pistol-Paprika-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "phoebe.items.pistol",
+                  "Weapon.Ranged.Pistol",
+                  "Bacchus.Shoot.Pistol.Auto",
+                  "ModSetBucket.Pistol.Auto",
+                  "phoebe.weapon.ranged.pistol",
+                  "phoebe.weapon.trait.fullauto",
+                  "Item.Weapon.Ranged.Pistol.CorePistol.Paprika",
+                  "Rarity.Mythic"
+                ]
+              },
+              {
+                "WeaponModSlots": [
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinitionMagazine'WMID_Default_Magazine'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Magazines/DefaultMags/WMID_Default_Magazine.0"
+                    },
+                    "bIsDynamic": true
+                  },
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinition'WMID_Underbarrel_Laser'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Underbarrel/Laser/WMID_Underbarrel_Laser.0"
+                    },
+                    "bIsDynamic": true
+                  },
+                  {
+                    "WeaponMod": {
+                      "ObjectName": "FortWeaponModItemDefinition'WMID_Barrel_Suppressor'",
+                      "ObjectPath": "/WeaponMods/Items/WeaponMods/Barrel/Suppressor/WMID_Barrel_Suppressor.0"
+                    },
+                    "bIsDynamic": true
+                  }
+                ]
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_Pistol'",
+                  "ObjectPath": "/FortMetaSoundWeapon/Items/Metasounds/Whips/BulletWhipTrackerData_Pistol.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_VR": {
+    "ts": 1784193043,
+    "data": {
+      "hash": "6e2a103830ece65bce22a2de0c30090ab425880b3b220ad03cb91ff19c379593",
+      "entries": 1,
+      "bytes": 9469,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Pistol_OrangeRemote_Ricochet_VR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/B_RicochetPistol.B_RicochetPistol_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_OrangeRemote_Ricochet_Athena_VR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/GA_RicochetPistol_Impact.GA_RicochetPistol_Impact_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilitySet": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/AS_RicochetPistol.AS_RicochetPistol",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote",
+              "Tag:Weapon:wid_pistol_orangeremote_ricochet_vr"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Ammo:Heavy",
+                "CH7S3",
+                "Epic",
+                "Guard",
+                "NewThisSeason",
+                "Pistol",
+                "RecentlyAdded",
+                "Weapon"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "55FD4F614E5B27930621B5A08AB8D451",
+              "sourceString": "Bank Shot Pistol",
+              "localizedString": "Bank Shot Pistol"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "56362E704BB921F242039EA122E9C8D1",
+              "sourceString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces.",
+              "localizedString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Assets/Meshes/RicochetPistol/Ricochet_Pistol.Ricochet_Pistol",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Item.SL_OrangeRemote_RicochetPistol_Item",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "Item.Weapon.Ranged.Pistol"
+                },
+                "MeshBoundsExtents": {
+                  "x": 6.6538157,
+                  "y": 19.649931,
+                  "z": 12.261002
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "99D4BFF24779A3365C34DAB6A6083CFD",
+                  "sourceString": "Guns Ranged Pistols HeavyBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols HeavyBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::IV"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol.T_Icon_Weapons_RicochetPistol",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol_L.T_Icon_Weapons_RicochetPistol_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Semi",
+                  "phoebe.weapon.ranged.pistol",
+                  "Rarity.Rare",
+                  "phoebe.items.pistol",
+                  "Weapon.Ranged.Pistol",
+                  "Item.Weapon.Ranged.Pistol",
+                  "Item.Weapon.Ranged.Pistol.OrangeRemote"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -22.0,
+                  "z": -2.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.999954,
+                  "yaw": 32.000454,
+                  "roll": -21.999653
+                },
+                "Scale": 1.3
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Prj_RicochetPistol_R.Prj_RicochetPistol_R_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "MaxBounces": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounces_VR"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MinBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MinBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MaxBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "BounceDamageMultiplierRampDistance": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceDamageRampDist"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bOverrideWeaponStatsSweepRadius": true,
+                "BounceSweepRadius": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceSweepRadius"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "HitDistanceIsCumulative": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "CritOnBounce": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_OrangeRemote_RicochetPistol_Weapon'",
+                    "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_RicochetPistol'",
+                  "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/BulletWhipTrackerData_RicochetPistol.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_SR": {
+    "ts": 1784193043,
+    "data": {
+      "hash": "eaa790fee9bbb4afac4f7b860f0ca96afabe0800bb740bcd280d16ca9a267952",
+      "entries": 1,
+      "bytes": 9479,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Pistol_OrangeRemote_Ricochet_SR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/B_RicochetPistol.B_RicochetPistol_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_OrangeRemote_Ricochet_Athena_SR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/GA_RicochetPistol_Impact.GA_RicochetPistol_Impact_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilitySet": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/AS_RicochetPistol.AS_RicochetPistol",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote",
+              "Tag:Weapon:wid_pistol_orangeremote_ricochet_sr"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Ammo:Heavy",
+                "CH7S3",
+                "Guard",
+                "Legendary",
+                "NewThisSeason",
+                "Pistol",
+                "RecentlyAdded",
+                "Weapon"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "599A58B0430890422152FAA01F4FAB1E",
+              "sourceString": "Bank Shot Pistol",
+              "localizedString": "Bank Shot Pistol"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "B2D183D24DC58FF59B0BF789D31BDE0C",
+              "sourceString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces.",
+              "localizedString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Assets/Meshes/RicochetPistol/Ricochet_Pistol.Ricochet_Pistol",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Item.SL_OrangeRemote_RicochetPistol_Item",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "Item.Weapon.Ranged.Pistol"
+                },
+                "MeshBoundsExtents": {
+                  "x": 6.6538157,
+                  "y": 19.649931,
+                  "z": 12.261002
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "A72246D649BA3B57D616798120BE483C",
+                  "sourceString": "Guns Ranged Pistols HeavyBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols HeavyBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::V",
+                "MaxTier": "EFortItemTier::V"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol.T_Icon_Weapons_RicochetPistol",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol_L.T_Icon_Weapons_RicochetPistol_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Semi",
+                  "phoebe.weapon.ranged.pistol",
+                  "Rarity.Rare",
+                  "phoebe.items.pistol",
+                  "Item.Weapon.Ranged.Pistol",
+                  "Weapon.Ranged.Pistol",
+                  "Item.Weapon.Ranged.Pistol.OrangeRemote"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -22.0,
+                  "z": -2.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.999954,
+                  "yaw": 32.000454,
+                  "roll": -21.999653
+                },
+                "Scale": 1.3
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Prj_RicochetPistol_SR.Prj_RicochetPistol_SR_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
+              },
+              {
+                "MaxBounces": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounces_SR"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MinBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MinBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MaxBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "BounceDamageMultiplierRampDistance": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceDamageRampDist"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bOverrideWeaponStatsSweepRadius": true,
+                "BounceSweepRadius": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceSweepRadius"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "HitDistanceIsCumulative": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "CritOnBounce": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_OrangeRemote_RicochetPistol_Weapon'",
+                    "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_RicochetPistol'",
+                  "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/BulletWhipTrackerData_RicochetPistol.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_R": {
+    "ts": 1784193044,
+    "data": {
+      "hash": "a84775bae14fe3a8b7e4491c82f6b2e37f6e12045947c3273e9ac20d795469ac",
+      "entries": 1,
+      "bytes": 9467,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Pistol_OrangeRemote_Ricochet_R",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/B_RicochetPistol.B_RicochetPistol_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_OrangeRemote_Ricochet_Athena_R_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/GA_RicochetPistol_Impact.GA_RicochetPistol_Impact_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilitySet": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/AS_RicochetPistol.AS_RicochetPistol",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote",
+              "Item.Weapon.Ranged.Pistol"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote",
+              "Item.Weapon.Ranged.Pistol",
+              "Tag:Weapon:wid_pistol_orangeremote_ricochet_r"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Ammo:Heavy",
+                "CH7S3",
+                "Guard",
+                "NewThisSeason",
+                "Pistol",
+                "Rare",
+                "RecentlyAdded",
+                "Weapon"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "2E326A184B2217CF2EFC6C965C9C1D73",
+              "sourceString": "Bank Shot Pistol",
+              "localizedString": "Bank Shot Pistol"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "CFA8B5DA42E1FB8439A1A2B480146426",
+              "sourceString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces.",
+              "localizedString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Assets/Meshes/RicochetPistol/Ricochet_Pistol.Ricochet_Pistol",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Item.SL_OrangeRemote_RicochetPistol_Item",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "Item.Weapon.Ranged.Pistol"
+                },
+                "MeshBoundsExtents": {
+                  "x": 6.6538157,
+                  "y": 19.649931,
+                  "z": 12.261002
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "B09DED7247E0D9AEC8381F86A472C0DA",
+                  "sourceString": "Guns Ranged Pistols HeavyBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols HeavyBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::III",
+                "MaxTier": "EFortItemTier::III"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol.T_Icon_Weapons_RicochetPistol",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol_L.T_Icon_Weapons_RicochetPistol_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Semi",
+                  "phoebe.weapon.ranged.pistol",
+                  "Rarity.Rare",
+                  "phoebe.items.pistol",
+                  "Item.Weapon.Ranged.Pistol",
+                  "Weapon.Ranged.Pistol",
+                  "Item.Weapon.Ranged.Pistol.OrangeRemote"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -22.0,
+                  "z": -2.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.999954,
+                  "yaw": 32.000454,
+                  "roll": -21.999653
+                },
+                "Scale": 1.3
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Prj_RicochetPistol_R.Prj_RicochetPistol_R_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
+              },
+              {
+                "MaxBounces": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounces_R"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MinBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MinBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MaxBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "BounceDamageMultiplierRampDistance": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceDamageRampDist"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bOverrideWeaponStatsSweepRadius": true,
+                "BounceSweepRadius": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceSweepRadius"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "HitDistanceIsCumulative": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "CritOnBounce": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_OrangeRemote_RicochetPistol_Weapon'",
+                    "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_RicochetPistol'",
+                  "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/BulletWhipTrackerData_RicochetPistol.0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/SpriteLibrary_CH7S3/SpriteDefinitions/CompanyStargazer/ESD_CompanyStargazer": {
+    "ts": 1784193044,
+    "data": {
+      "hash": "766d24dc2ea29ecf60b251d0e5888004f762a49323a70458575b4be0ac43b4f2",
+      "entries": 1,
+      "bytes": 7799,
+      "jsonOutput": [
+        {
+          "Type": "ExtractableItemDefinition",
+          "Name": "ESD_CompanyStargazer",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'ExtractableItemDefinition'",
+          "Properties": {
+            "PossibleAugments": [
+              {
+                "Chance": 1.0,
+                "Augment": {
+                  "ObjectName": "FortPlayerAugmentItemDefinition'Stub_PAID_SpriteBoons_BulwarkBounty'",
+                  "ObjectPath": "/SpriteLibrary_CH7S3/FrontendAugments/Stub_PAID_SpriteBoons_BulwarkBounty.0"
+                }
+              }
+            ],
+            "LevelUpExpCurve": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'FortExtractableSpriteLevelUpRates'",
+                  "ObjectPath": "/SpriteExtractionGameplay/DataTables/FortExtractableSpriteLevelUpRates.0"
+                },
+                "RowName": "ExtractableSprite.DefaultRates"
+              }
+            },
+            "DexNumber": 21,
+            "ExtractableType": "EExtractableItemType::Sprite",
+            "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
+            "CustomProjectile": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/Projectiles/Prj_CollectableSprite_Parent.Prj_CollectableSprite_Parent_C",
+              "SubPathString": ""
+            },
+            "EquippedActiveAbilitySet": {
+              "AssetPathName": "/SpriteLibrary_CH7S3/Abilities/AS_SpriteBase.AS_SpriteBase",
+              "SubPathString": ""
+            },
+            "WeaponActorClass": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/MultiRelic/BP_Weapon_Extractable.BP_Weapon_Extractable_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_Placeholder"
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_SwapRelics.GA_Extraction_SwapRelics_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_Pass.GA_Extraction_Pass_C",
+              "SubPathString": ""
+            },
+            "PlayerGrantedGameplayTags": [
+              "Granted.Athena.TacticalSprint.PreventHolster"
+            ],
+            "ActualAnalyticFNames": [
+              "Tag:WorldItem:CompanyStargazer"
+            ],
+            "ItemType": "EFortItemType::WeaponRanged",
+            "ItemName": {
+              "namespace": "",
+              "key": "3C8CE30343A4D7D51B2E67A7690D749A",
+              "sourceString": "Pollo Sprite",
+              "localizedString": "Pollo Sprite"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "AA6A0752406F3627AC654AA73C9497E4",
+              "sourceString": "Upon earning an elimination, slowly replenish shield for you and nearby squad members for a duration. Duration increases at each Level Up: 6 Seconds -> 7 Seconds -> 8 Seconds -> 9 Seconds -> 10 Seconds ",
+              "localizedString": "Upon earning an elimination, slowly replenish shield for you and nearby squad members for a duration. Duration increases at each Level Up: 6 Seconds -> 7 Seconds -> 8 Seconds -> 9 Seconds -> 10 Seconds "
+            },
+            "DataList": [
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.Transient",
+                  "Item.Trait.CanBeAddedAsNonOverflowCollectible"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_CompanyStargazer_Default.T_Icon_BR_CompanyStargazer_Default",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "CustomDropAction": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DropCollectableSprite_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/BP_DropCollectableSprite.0"
+                },
+                "bShouldRunOnLootSpawn": true
+              },
+              {
+                "Tags": [
+                  "HUD.Athena.Inventory.Resource.SpecialRow",
+                  "Athena.ItemAction.Throw",
+                  "Item.Consumable",
+                  "Athena.ItemAction.Secondary.Throw",
+                  "Sprites.Extractable.CompanyStargazer",
+                  "phoebe.items.relic.37"
+                ]
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Script/FortniteGame.FortPickupEffect",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_ExtractablePickup_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/SoonToBeMovedToExtractionCore/BP_ExtractablePickup.0"
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": null,
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 8000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": true,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": true,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "StaticMesh": null,
+                "SkeletalMesh": {
+                  "ObjectName": "SkeletalMesh'Sprite_CompanyStargazer_Creature'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Meshes/Sprite_CompanyStargazer_Creature.1"
+                },
+                "PreviewAnimation": null,
+                "Material": {
+                  "ObjectName": "MaterialInstanceConstant'M_Sprite_SpicyChicken'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Materials/M_Sprite_SpicyChicken.0"
+                },
+                "MaterialSlot2": null,
+                "NiagaraSystem": null,
+                "bUseBackpackMeshOffsetTransform": false,
+                "BackpackMeshOffsetTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                }
+              },
+              {
+                "BGASoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CompanyStargazer'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CompanyStargazer/SoundLibrary/SL_Sprite_CompanyStargazer.0"
+                  }
+                ],
+                "PawnSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CompanyStargazer'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CompanyStargazer/SoundLibrary/SL_Sprite_CompanyStargazer.0"
+                  }
+                ],
+                "ProjectileSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CompanyStargazer'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CompanyStargazer/SoundLibrary/SL_Sprite_CompanyStargazer.0"
+                  }
+                ],
+                "BackpackSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CompanyStargazer'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CompanyStargazer/SoundLibrary/SL_Sprite_CompanyStargazer.0"
+                  }
+                ]
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_CompanyStargazer_Default_L.T_Icon_BR_CompanyStargazer_Default_L",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/SpriteLibrary_CH7S3/SpriteDefinitions/CokeParmesan/ESD_CokeParmesan": {
+    "ts": 1784193044,
+    "data": {
+      "hash": "128bc111583a71f7fc11b3318e41c1819ae2ce4768e23e4b3042dd23735a8902",
+      "entries": 1,
+      "bytes": 8118,
+      "jsonOutput": [
+        {
+          "Type": "ExtractableItemDefinition",
+          "Name": "ESD_CokeParmesan",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'ExtractableItemDefinition'",
+          "Properties": {
+            "PossibleAugments": [
+              {
+                "Chance": 1.0,
+                "Augment": {
+                  "ObjectName": "FortPlayerAugmentItemDefinition'Stub_PAID_SpriteBoons_Showboat'",
+                  "ObjectPath": "/SpriteLibrary_CH7S3/FrontendAugments/Stub_PAID_SpriteBoons_Showboat.0"
+                }
+              }
+            ],
+            "LevelUpExpCurve": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'FortExtractableSpriteLevelUpRates'",
+                  "ObjectPath": "/SpriteExtractionGameplay/DataTables/FortExtractableSpriteLevelUpRates.0"
+                },
+                "RowName": "ExtractableSprite.DefaultRates"
+              }
+            },
+            "DexNumber": 10,
+            "ExtractableType": "EExtractableItemType::Sprite",
+            "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
+            "CustomProjectile": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/Projectiles/Prj_CollectableSprite_Parent.Prj_CollectableSprite_Parent_C",
+              "SubPathString": ""
+            },
+            "EquippedActiveAbilitySet": {
+              "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/CokeParmesan/AS_Sprite_CokeParmesan.AS_Sprite_CokeParmesan",
+              "SubPathString": ""
+            },
+            "AcquisitionHintText": {
+              "namespace": "",
+              "key": "E678AD25468628E1DDD8A1A109515453",
+              "sourceString": "Found in Relic Chests",
+              "localizedString": "Found in Relic Chests"
+            },
+            "ExtractRewardLootTier": "LTG_Relic_Extract_23",
+            "WeaponActorClass": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/MultiRelic/BP_Weapon_Extractable.BP_Weapon_Extractable_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_Placeholder"
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_SwapRelics.GA_Extraction_SwapRelics_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_Pass.GA_Extraction_Pass_C",
+              "SubPathString": ""
+            },
+            "PlayerGrantedGameplayTags": [
+              "Granted.Athena.TacticalSprint.PreventHolster"
+            ],
+            "ActualAnalyticFNames": [
+              "Tag:WorldItem:CokeParmesan"
+            ],
+            "ItemType": "EFortItemType::WeaponRanged",
+            "ItemName": {
+              "namespace": "",
+              "key": "DACDC1EA4934F5753F9505A63403B904",
+              "sourceString": "Vini Jr. Sprite",
+              "localizedString": "Vini Jr. Sprite"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "9D5C4ADF4B9E15183796E684939AB015",
+              "sourceString": "Sprinting for a short time makes your slide destructive. Slidekicking enemies increases rate of fire and reload speed. Increases in power at each Level Up: 40 dmg / 10% fire rate -> 45 dmg / 20% fire rate -> 50 dmg / 30% fire rate -> 55 dmg / 40% fire rate -> 60 dmg / 50% fire rate",
+              "localizedString": "Sprinting for a short time makes your slide destructive. Slidekicking enemies increases rate of fire and reload speed. Increases in power at each Level Up: 40 dmg / 10% fire rate -> 45 dmg / 20% fire rate -> 50 dmg / 30% fire rate -> 55 dmg / 40% fire rate -> 60 dmg / 50% fire rate"
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.Transient",
+                  "Item.Trait.CanBeAddedAsNonOverflowCollectible"
+                ]
+              },
+              {
+                "Tags": [
+                  "HUD.Athena.Inventory.Resource.SpecialRow",
+                  "Athena.ItemAction.Throw",
+                  "Item.Consumable",
+                  "Athena.ItemAction.Secondary.Throw",
+                  "Sprites.Extractable.CokeParmesan",
+                  "phoebe.items.relic.36"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_CokeParmesan_Default.T_Icon_BR_CokeParmesan_Default",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "CustomDropAction": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DropCollectableSprite_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/BP_DropCollectableSprite.0"
+                },
+                "bShouldRunOnLootSpawn": true
+              },
+              {
+                "BGASoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CokeParmesan'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CokeParmesan/SoundLibrary/SL_Sprite_CokeParmesan.0"
+                  }
+                ],
+                "PawnSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CokeParmesan'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CokeParmesan/SoundLibrary/SL_Sprite_CokeParmesan.0"
+                  }
+                ],
+                "ProjectileSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CokeParmesan'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CokeParmesan/SoundLibrary/SL_Sprite_CokeParmesan.0"
+                  }
+                ],
+                "BackpackSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_CokeParmesan'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_CokeParmesan/SoundLibrary/SL_Sprite_CokeParmesan.0"
+                  }
+                ]
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "StaticMesh": null,
+                "SkeletalMesh": {
+                  "ObjectName": "SkeletalMesh'Sprite_CokeParmesan_Creature'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Meshes/Sprite_CokeParmesan_Creature.1"
+                },
+                "PreviewAnimation": null,
+                "Material": {
+                  "ObjectName": "MaterialInstanceConstant'M_Sprite_CokeParmesan'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Materials/M_Sprite_CokeParmesan.0"
+                },
+                "MaterialSlot2": null,
+                "NiagaraSystem": null,
+                "bUseBackpackMeshOffsetTransform": false,
+                "BackpackMeshOffsetTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Script/FortniteGame.FortPickupEffect",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_ExtractablePickup_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/SoonToBeMovedToExtractionCore/BP_ExtractablePickup.0"
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": null,
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 8000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": true,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": true,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_CokeParmesan_Default_L.T_Icon_BR_CokeParmesan_Default_L",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/SpriteLibrary_CH7S3/SpriteDefinitions/FossilMeal/ESD_FossilMealSprite": {
+    "ts": 1784193044,
+    "data": {
+      "hash": "14cd49e1f7c866fa151b43c7d84918b66bba779de110a9622ac4cf704e842e06",
+      "entries": 1,
+      "bytes": 7688,
+      "jsonOutput": [
+        {
+          "Type": "ExtractableItemDefinition",
+          "Name": "ESD_FossilMealSprite",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'ExtractableItemDefinition'",
+          "Properties": {
+            "PossibleAugments": [
+              {
+                "Chance": 1.0,
+                "Augment": {
+                  "ObjectName": "FortPlayerAugmentItemDefinition'Stub_PAID_SpriteBoons_FossilMeal'",
+                  "ObjectPath": "/SpriteLibrary_CH7S3/FrontendAugments/Stub_PAID_SpriteBoons_FossilMeal.0"
+                }
+              }
+            ],
+            "LevelUpExpCurve": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'FortExtractableSpriteLevelUpRates'",
+                  "ObjectPath": "/SpriteExtractionGameplay/DataTables/FortExtractableSpriteLevelUpRates.0"
+                },
+                "RowName": "ExtractableSprite.DefaultRates"
+              }
+            },
+            "ExtractableType": "EExtractableItemType::Sprite",
+            "AcquisitionType": "EExtractableAcquisitionMethodType::Extraction",
+            "CustomProjectile": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/Projectiles/Prj_CollectableSprite_Parent.Prj_CollectableSprite_Parent_C",
+              "SubPathString": ""
+            },
+            "EquippedActiveAbilitySet": {
+              "AssetPathName": "/SpriteLibrary_CH7S3/Abilities/AS_SpriteBase.AS_SpriteBase",
+              "SubPathString": ""
+            },
+            "AIEventTableRow": {
+              "DataTable": {
+                "ObjectName": "DataTable'LET_Sprites_CH7S3'",
+                "ObjectPath": "/SpriteLibrary_CH7S3/Lager/LET_Sprites_CH7S3.0"
+              },
+              "RowName": "FossilMealSprite"
+            },
+            "AcquisitionHintText": {
+              "namespace": "",
+              "key": "3D9D9E8D4E1EE2DB75EF72B143745188",
+              "sourceString": "Found rarely in Sprite Chests",
+              "localizedString": "Found rarely in Sprite Chests"
+            },
+            "WeaponActorClass": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/MultiRelic/BP_Weapon_Extractable.BP_Weapon_Extractable_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Generic_Placeholder"
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_SwapRelics.GA_Extraction_SwapRelics_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/SpriteExtractionGameplay/Gameplay/BGAs/HeldProto/GA_Extraction_Pass.GA_Extraction_Pass_C",
+              "SubPathString": ""
+            },
+            "PlayerGrantedGameplayTags": [
+              "Granted.Athena.TacticalSprint.PreventHolster"
+            ],
+            "ActualAnalyticFNames": [
+              "Tag:WorldItem:FossilMealSprite"
+            ],
+            "ItemType": "EFortItemType::WeaponRanged",
+            "ItemName": {
+              "namespace": "",
+              "key": "0F3A472C44CDDDDF5AD90FA40C4362BA",
+              "sourceString": "Batman Sprite",
+              "localizedString": "Batman Sprite"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "A31980EC41BEFF0FF9C7849BE0B94627",
+              "sourceString": "Grants the ability to deploy the Bat Cape midair!",
+              "localizedString": "Grants the ability to deploy the Bat Cape midair!"
+            },
+            "DataList": [
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.Transient",
+                  "Item.Trait.CanBeAddedAsNonOverflowCollectible"
+                ]
+              },
+              {
+                "Tags": [
+                  "HUD.Athena.Inventory.Resource.SpecialRow",
+                  "Athena.ItemAction.Throw",
+                  "Item.Consumable",
+                  "Athena.ItemAction.Secondary.Throw",
+                  "Sprites.Extractable.FossilMeal",
+                  "phoebe.items.relic.29"
+                ]
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_FossilMeal_Default.T_Icon_BR_FossilMeal_Default",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "CustomDropAction": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DropCollectableSprite_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/BP_DropCollectableSprite.0"
+                },
+                "bShouldRunOnLootSpawn": true
+              },
+              {
+                "BGASoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_FossilMeal'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_FossilMeal/SoundLibrary/SL_Sprite_FossilMeal.0"
+                  }
+                ],
+                "PawnSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_FossilMeal'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_FossilMeal/SoundLibrary/SL_Sprite_FossilMeal.0"
+                  }
+                ],
+                "ProjectileSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_FossilMeal'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_FossilMeal/SoundLibrary/SL_Sprite_FossilMeal.0"
+                  }
+                ],
+                "BackpackSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Sprite_FossilMeal'",
+                    "ObjectPath": "/SpriteLibrary_CH7S3/Assets/Audio/Sprite_FossilMeal/SoundLibrary/SL_Sprite_FossilMeal.0"
+                  }
+                ]
+              },
+              {
+                "StaticMesh": null,
+                "SkeletalMesh": {
+                  "ObjectName": "SkeletalMesh'Sprite_FossilMeal_Creature'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Meshes/Sprite_FossilMeal_Creature.1"
+                },
+                "PreviewAnimation": null,
+                "Material": {
+                  "ObjectName": "MaterialInstanceConstant'MI_Sprite_BM'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Assets/Materials/MI_Sprite_BM.0"
+                },
+                "MaterialSlot2": null,
+                "NiagaraSystem": null,
+                "bUseBackpackMeshOffsetTransform": false,
+                "BackpackMeshOffsetTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Script/FortniteGame.FortPickupEffect",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_ExtractablePickup_C'",
+                  "ObjectPath": "/SpriteExtractionGameplay/Gameplay/SoonToBeMovedToExtractionCore/BP_ExtractablePickup.0"
+                },
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::NoDrawType",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": null,
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 8000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": true,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": true,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/SpriteLibrary_CH7S3/UI/T_Icon_BR_FossilMeal_Default_L.T_Icon_BR_FossilMeal_Default_L",
+                  "SubPathString": ""
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/WID_Pistol_OrangeRemote_Ricochet_UR": {
+    "ts": 1784193044,
+    "data": {
+      "hash": "287de34ecba0420674044db5f3c313875ede8d81e4e36041ba48a83f321e7d71",
+      "entries": 1,
+      "bytes": 9473,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Pistol_OrangeRemote_Ricochet_UR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/B_RicochetPistol.B_RicochetPistol_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Game/Athena/Items/Weapons/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_OrangeRemote_Ricochet_Athena_UR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/GA_RicochetPistol_Impact.GA_RicochetPistol_Impact_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilitySet": {
+              "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/AS_RicochetPistol.AS_RicochetPistol",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "PlayerGrantedGameplayTags": [
+              "Item.Weapon.Ranged.Pistol.OrangeRemote"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.OrangeRemote",
+              "Tag:Weapon:wid_pistol_orangeremote_ricochet_ur"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Ammo:Heavy",
+                "CH7S3",
+                "Guard",
+                "Mythic",
+                "NewThisSeason",
+                "Pistol",
+                "RecentlyAdded",
+                "Weapon"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "4DA782564EEB2CF4626A329C37DC9681",
+              "sourceString": "Bank Shot Pistol",
+              "localizedString": "Bank Shot Pistol"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "6E3C26AC42E0BC01894F7991FE251822",
+              "sourceString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces.",
+              "localizedString": "High damage energy pistol.  Fires unstable bullets capable of deflecting off surfaces."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/SegmentedReloadRuntime.FortGameplayAbility_SegmentedReload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Assets/Meshes/RicochetPistol/Ricochet_Pistol.Ricochet_Pistol",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "isNormalized": true,
+                    "size": 1.0,
+                    "sizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Scale3D": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0,
+                      "a": 1.0,
+                      "hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "x": 20.0,
+                    "y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0,
+                      "w": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0,
+                        "hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Item.SL_OrangeRemote_RicochetPistol_Item",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "Item.Weapon.Ranged.Pistol"
+                },
+                "MeshBoundsExtents": {
+                  "x": 6.6538157,
+                  "y": 19.649931,
+                  "z": 12.261002
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "47D4836D4CA5F1C18EC7B9989A7EEFB3",
+                  "sourceString": "Guns Ranged Pistols HeavyBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols HeavyBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::VI",
+                "MaxTier": "EFortItemTier::VI"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol.T_Icon_Weapons_RicochetPistol",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Icons/T_Icon_Weapons_RicochetPistol_L.T_Icon_Weapons_RicochetPistol_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Semi",
+                  "phoebe.weapon.ranged.pistol",
+                  "Rarity.Rare",
+                  "phoebe.items.pistol",
+                  "Item.Weapon.Ranged.Pistol",
+                  "Weapon.Ranged.Pistol",
+                  "Item.Weapon.Ranged.Pistol.OrangeRemote"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "x": 0.0,
+                  "y": -22.0,
+                  "z": -2.0
+                },
+                "InitialRotation": {
+                  "pitch": 7.999954,
+                  "yaw": 32.000454,
+                  "roll": -21.999653
+                },
+                "Scale": 1.3
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Prj_RicochetPistol_R.Prj_RicochetPistol_R_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              },
+              {
+                "MaxBounces": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounces_UR"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MinBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MinBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "MaxBounceDamageMultiplier": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "MaxBounceDamageMult"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "BounceDamageMultiplierRampDistance": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceDamageRampDist"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bOverrideWeaponStatsSweepRadius": true,
+                "BounceSweepRadius": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'RicochetData'",
+                      "ObjectPath": "/OrangeRemoteWeaponGameplay/DataTables/RicochetData.0"
+                    },
+                    "RowName": "BounceSweepRadius"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "HitDistanceIsCumulative": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "CritOnBounce": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_OrangeRemote_RicochetPistol_Weapon'",
+                    "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/Audio/SL_OrangeRemote_RicochetPistol_Weapon.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "BulletWhipTrackerData": {
+                  "ObjectName": "BulletWhipTrackerAudioData'BulletWhipTrackerData_RicochetPistol'",
+                  "ObjectPath": "/OrangeRemoteWeaponGameplay/Gameplay/RicochetPistol/BulletWhipTrackerData_RicochetPistol.0"
                 }
               }
             ]

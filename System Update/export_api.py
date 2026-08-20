@@ -25,6 +25,14 @@ _JUNO_TABASCO_LOCRES_EXPORT_PATH = (
 _JUNO_TABASCO_LOCRES_MAP = None
 _JUNO_TABASCO_LOCRES_LOCK = Lock()
 
+# Newly shipped GameFeature text can lag behind the localization endpoint (or
+# be returned as "???").  Keep narrowly-scoped, verified Japanese values here
+# so an English asset-text fallback does not become the persistent display
+# name in asset_localize_cache.json.
+_LOCALIZATION_OVERRIDES_JA = {
+    "35586C9143E960CB0792ECBABF59B476": "8ビットショットガン",
+}
+
 
 def _load_cache_dict(path: Path) -> dict:
     try:
@@ -263,6 +271,10 @@ def extract_text_value(export_json: dict, field_name: str) -> str | None:
 def fetch_localized_name(key: str) -> str:
     if not key:
         return "???"
+
+    override = _LOCALIZATION_OVERRIDES_JA.get(key)
+    if override:
+        return override
 
     now = int(time.time())
     with _CACHE_LOCK:

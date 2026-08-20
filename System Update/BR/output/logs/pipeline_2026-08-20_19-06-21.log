@@ -28,3 +28,136 @@
 2026-08-20 19:06:22 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
 2026-08-20 19:06:22 | INFO | load done (0.01s)
 2026-08-20 19:06:22 | INFO | build summary start
+2026-08-20 19:06:27 | INFO | build summary done (5.43s)
+2026-08-20 19:06:27 | INFO | enrich summary with names start
+2026-08-20 19:06:39 | INFO | enrich summary done (11.66s)
+2026-08-20 19:06:39 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-20_19-06.json
+2026-08-20 19:06:39 | INFO | build item metadata start
+2026-08-20 19:07:02 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (23.12s)
+2026-08-20 19:07:02 | INFO | build BR_LootData start
+2026-08-20 19:07:02 | INFO | build BR_LootData done (0.00s)
+2026-08-20 19:07:02 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-08-20_19-07.json
+2026-08-20 19:07:02 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-08-20 19:07:02 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-08-20 19:07:03 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-20_19-06.json
+✅ 抽出件数: 70
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-07-28_05-43.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-20_19-06.json
+✅ 差分作成 完了
+  追加   : 41 / 削除 : 189 / 変更 : 0 / 変化なし : 29
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260820_1907\items_unique_min_diff.json
+2026-08-20 19:07:03 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-08-20 19:07:03 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.89s)
+2026-08-20 19:07:03 | INFO | prewarm start
+2026-08-20 19:07:06 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (3.35s)
+2026-08-20 19:07:06 | INFO | 画像化タスク数: 70
+2026-08-20 19:07:06 | INFO | 画像生成 進捗: 1/70
+2026-08-20 19:07:07 | INFO | 画像生成 進捗: 50/70
+2026-08-20 19:07:08 | INFO | 画像生成 進捗: 70/70
+2026-08-20 19:07:08 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-08-20 19:07:08 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-08-20_19-07-08.json (added=53 removed=202 change=6)
+2026-08-20 19:07:08 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR\AddedItems\2026-08-20_19-07-08 (copied=53 missing=0)
+2026-08-20 19:07:08 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-08-20 19:07:35 | INFO | git commit stdout: [main 04789fb] BR update 2026-08-20 19:07:32
+ 108 files changed, 95995 insertions(+), 22028 deletions(-)
+ create mode 100644 System Update/BR/input/CosmicThunderLootPackages_Client__final.json
+ create mode 100644 System Update/BR/input/CosmicThunderLootTiers_Client__final.json
+ create mode 100644 System Update/BR/output/history/BR_20260820_1907/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-08-20_19-06-21.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-08-20_19-06.json
+ create mode 100644 System Update/shared/icon_cache/ArcadeWeaponGameplay__Assets__Icons__T_Icon_Weapons_Shotgun_EightBitBlaster_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/CosmicThunderSecondChance__Assets__Icons__T_UI_Icons_PowerUp_ExtraLife.png
+ create mode 100644 System Update/shared/icon_cache/DrivingNebula__Assets__Icons__T_Icon_BR_Gadget_DrivingNebula_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/FlipperGameplay__Icons__T-Icon-Weapons-CoreStandardRifleWeapon-L.png
+ create mode 100644 System Update/shared/icon_cache/GoldenFAWeaponGameplay__Assets__Icons__T_Icon_Weapons_Pistol_GoldenGun_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/InvulnLlama__Assets__Icons__T_UI_Icons_PowerUp_InvulnerabilityLlama.png
+ create mode 100644 System Update/shared/icon_cache/MintPunt__Assets__Icons__T_Icon_BR_Gauntlet_MintPunt_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/NarrowFleaObsidian__Assets__Icons__T_Icon_BR_Gadgets_NarrowFlea_Obsidian_L.png
+ create mode 100644 "System Update/shared/images/BR/8-Bit Shotgun - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/8-Bit Shotgun - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/8-Bit Shotgun - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/8-Bit Shotgun - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/8-Bit Shotgun - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - Drum Gun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \343\202\263\343\202\263\343\203\212\343\203\203\343\203\204.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - Drum Gun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2422 - \345\214\273\347\231\202\343\202\255\343\203\203\343\203\210.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - Mega Buster.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\252\343\203\274\343\203\220\343\203\274\343\203\211\343\203\251\343\202\244\343\203\226 \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\270\343\202\247\343\203\252\343\203\274\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2423 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - Pump Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - Sonic Power Sneakers.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - \343\202\271\343\203\251\343\203\274\343\203\227\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2424 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - Extra Life Token.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - Invulnerability Llama.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - Pump Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2425 - \343\203\236\343\202\244\343\203\200\343\202\271\343\203\225\343\203\255\343\203\203\343\203\221\343\203\274.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2427 - Enhanced Assault Rifle  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2427 - Midas' Masterpiece.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2427 - Robotnik's 8-Bit Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-07-08/\343\203\206\343\202\243\343\202\2427 - ___.png"
+ create mode 100644 "System Update/shared/images/BR/Drum Gun - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/Drum Gun - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/Enhanced Assault Rifle   - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/Extra Life Token - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/Invulnerability Llama - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/Mega Buster - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/Midas' Masterpiece - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/Pump Shotgun - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/Pump Shotgun - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/Ranger Assault Rifle - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/Ranger Assault Rifle - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/Ranger Assault Rifle - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/Ranger Assault Rifle - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/Ranger Assault Rifle - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/Robotnik's 8-Bit Shotgun - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/Sonic Power Sneakers - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/Sonic Power Sneakers - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/BR/Tetris Rift - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\211\343\203\251\343\203\240\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\211\343\203\251\343\203\240\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-08-20_19-07.json"
+2026-08-20 19:07:46 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   4cfaa11..04789fb  main -> main
+2026-08-20 19:07:46 | INFO | ✓ GitHub Push 完了
+2026-08-20 19:07:46 | INFO | ===== BR: pipeline end =====

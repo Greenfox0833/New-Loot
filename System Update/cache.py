@@ -282,6 +282,11 @@ _SPRITE_VARIANT_LABELS = {
     "Holofoil": "ホロフォイル",
 }
 
+_ASSET_NAME_OVERRIDES_JA = {
+    f"/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_{rarity}": "8ビットショットガン"
+    for rarity in ("C", "UC", "R", "VR", "SR")
+}
+
 
 def _build_sprite_variant_fallback_name(asset_path: str) -> str | None:
     norm = normalize_asset_path(asset_path)
@@ -317,6 +322,11 @@ def get_name_by_asset(asset_path: str) -> str:
     if not asset_path:
         return "???"
     norm = normalize_asset_path(asset_path)
+
+    override = _ASSET_NAME_OVERRIDES_JA.get(norm)
+    if override:
+        ASSET_LOC_CACHE[norm] = override
+        return override
 
     hit = ASSET_LOC_CACHE.get(norm)
     if hit and hit != "???":

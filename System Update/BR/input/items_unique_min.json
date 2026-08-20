@@ -1,38 +1,33 @@
 [
   {
     "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_C.WID_ArcadeShotgun_C",
-    "LocalizedName": "8-Bit Shotgun",
+    "LocalizedName": "8ビットショットガン",
     "rarity": "コモン"
   },
   {
     "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_R.WID_ArcadeShotgun_R",
-    "LocalizedName": "8-Bit Shotgun",
+    "LocalizedName": "8ビットショットガン",
     "rarity": "レア"
   },
   {
     "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR.WID_ArcadeShotgun_SR",
-    "LocalizedName": "8-Bit Shotgun",
+    "LocalizedName": "8ビットショットガン",
     "rarity": "レジェンド"
   },
   {
     "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UC.WID_ArcadeShotgun_UC",
-    "LocalizedName": "8-Bit Shotgun",
+    "LocalizedName": "8ビットショットガン",
     "rarity": "アンコモン"
   },
   {
     "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_VR.WID_ArcadeShotgun_VR",
-    "LocalizedName": "8-Bit Shotgun",
+    "LocalizedName": "8ビットショットガン",
     "rarity": "エピック"
   },
   {
-    "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
-    "LocalizedName": "???",
-    "rarity": "エピック"
-  },
-  {
-    "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian_M.WID_NarrowFleaObsidian_M",
-    "LocalizedName": "???",
-    "rarity": "ミシック"
+    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleUncommon/WID_Athena_Apple_UC.WID_Athena_Apple_UC",
+    "LocalizedName": "Apple",
+    "rarity": "アンコモン"
   },
   {
     "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_C.WID_SunRose_DrumGun_HS_Athena_C",
@@ -55,6 +50,11 @@
     "rarity": "レジェンド"
   },
   {
+    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleExotic/WID_Athena_Apple_X.WID_Athena_Apple_X",
+    "LocalizedName": "Golden Apple",
+    "rarity": "エキゾチック"
+  },
+  {
     "AssetPathName": "/InvulnLlama/Gameplay/WID_InvulnLlama.WID_InvulnLlama",
     "LocalizedName": "Invulnerability Llama",
     "rarity": "レジェンド"
@@ -68,6 +68,11 @@
     "AssetPathName": "/GoldenFAWeaponGameplay/Gameplay/WID_Pistol_Golden_Athena_UR.WID_Pistol_Golden_Athena_UR",
     "LocalizedName": "Midas' Masterpiece",
     "rarity": "ミシック"
+  },
+  {
+    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/PepperUncommon/WID_Athena_Pepper_UC.WID_Athena_Pepper_UC",
+    "LocalizedName": "Pepper",
+    "rarity": "アンコモン"
   },
   {
     "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_SpyTech_VR_T01.WID_Shotgun_Standard_SpyTech_VR_T01",
@@ -110,8 +115,18 @@
     "rarity": "ミシック"
   },
   {
+    "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian_M.WID_NarrowFleaObsidian_M",
+    "LocalizedName": "Sonic Power Sneakers",
+    "rarity": "ミシック"
+  },
+  {
     "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian.WID_NarrowFleaObsidian",
     "LocalizedName": "Sonic Power Sneakers",
+    "rarity": "エピック"
+  },
+  {
+    "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+    "LocalizedName": "Tetris Rift",
     "rarity": "エピック"
   },
   {
@@ -145,24 +160,9 @@
     "rarity": "レア"
   },
   {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage.WID_Athena_Cabbage",
-    "LocalizedName": "キャベツ",
-    "rarity": "コモン"
-  },
-  {
     "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/WID_Athena_Coconut.WID_Athena_Coconut",
     "LocalizedName": "ココナッツ",
     "rarity": "コモン"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn.WID_Athena_Corn",
-    "LocalizedName": "コーン",
-    "rarity": "コモン"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle.WID_Athena_GoldenTruffle",
-    "LocalizedName": "ゴールデントリュフ",
-    "rarity": "ミシック"
   },
   {
     "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
@@ -187,11 +187,6 @@
   {
     "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall.WID_Athena_FlopperSmall",
     "LocalizedName": "スモールフィッシュ",
-    "rarity": "コモン"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/WID_Athena_SlurpMushroom.WID_Athena_SlurpMushroom",
-    "LocalizedName": "スラープキノコ",
     "rarity": "コモン"
   },
   {
@@ -250,11 +245,6 @@
     "rarity": "レア"
   },
   {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Banana/WID_Athena_Banana.WID_Athena_Banana",
-    "LocalizedName": "バナナ",
-    "rarity": "コモン"
-  },
-  {
     "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit.WID_Athena_FloppingRabbit",
     "LocalizedName": "フィッシングフック",
     "rarity": "コモン"
@@ -293,11 +283,6 @@
     "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
     "LocalizedName": "ミニシールドポーション",
     "rarity": "アンコモン"
-  },
-  {
-    "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple.WID_Athena_Apple",
-    "LocalizedName": "リンゴ",
-    "rarity": "コモン"
   },
   {
     "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",

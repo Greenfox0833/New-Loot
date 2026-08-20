@@ -15,7 +15,8 @@ _EXPORT_CACHE_FILE = _CACHE_DIR / "asset_export_cache.json"
 _LOCALIZE_CACHE_FILE = _CACHE_DIR / "asset_localize_ttl_cache.json"
 _CACHE_LOCK = Lock()
 _CACHE_STATE = {"dirty": 0}
-_LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame\Plugins\GameFeatures\Juno")
+_LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame")
+_LOCAL_LOCRES_INDEX_FILE = _CACHE_DIR / "local_ja_locres_index.json"
 _LOCAL_JUNO_LOCALIZE_MAP = None
 _LOCAL_JUNO_LOCALIZE_LOCK = Lock()
 _JUNO_TABASCO_LOCRES_EXPORT_PATH = (
@@ -25,13 +26,21 @@ _JUNO_TABASCO_LOCRES_EXPORT_PATH = (
 _JUNO_TABASCO_LOCRES_MAP = None
 _JUNO_TABASCO_LOCRES_LOCK = Lock()
 
-# Newly shipped GameFeature text can lag behind the localization endpoint (or
-# be returned as "???").  Keep narrowly-scoped, verified Japanese values here
-# so an English asset-text fallback does not become the persistent display
-# name in asset_localize_cache.json.
-_LOCALIZATION_OVERRIDES_JA = {
-    "35586C9143E960CB0792ECBABF59B476": "8ビットショットガン",
+# Some assets keep an older text key after the matching locres entry has moved
+# to a new key. These source aliases bridge that upstream key drift. Key-based
+# localization is still preferred.
+_ITEM_NAME_SOURCE_ALIASES_JA = {
+    "8-Bit Shotgun": "8ビットショットガン",
+    "Pump Shotgun": "ポンプショットガン",
+    "Ranger Assault Rifle": "レンジャーアサルトライフル",
 }
+
+
+def lookup_item_name_source_alias_ja(source: str | None) -> str | None:
+    if not source:
+        return None
+    return _ITEM_NAME_SOURCE_ALIASES_JA.get(source.strip())
+
 
 
 def _load_cache_dict(path: Path) -> dict:
@@ -101,6 +110,14 @@ def _load_local_juno_localize_map() -> dict[str, str]:
 
         mapping: dict[str, str] = {}
         try:
+            if _LOCAL_LOCRES_INDEX_FILE.exists():
+                age = time.time() - _LOCAL_LOCRES_INDEX_FILE.stat().st_mtime
+                if age <= TTL_SECONDS:
+                    cached = _load_cache_dict(_LOCAL_LOCRES_INDEX_FILE)
+                    if cached:
+                        _LOCAL_JUNO_LOCALIZE_MAP = cached
+                        return _LOCAL_JUNO_LOCALIZE_MAP
+
             if _LOCAL_JUNO_LOCALIZE_ROOT.exists():
                 for path in _LOCAL_JUNO_LOCALIZE_ROOT.glob("**/Localization/**/ja/*.json"):
                     try:
@@ -110,6 +127,10 @@ def _load_local_juno_localize_map() -> dict[str, str]:
                             mapping.setdefault(k, v)
                     except Exception:
                         continue
+                if mapping:
+                    _LOCAL_LOCRES_INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
+                    with _LOCAL_LOCRES_INDEX_FILE.open("w", encoding="utf-8") as f:
+                        json.dump(mapping, f, ensure_ascii=False)
         except Exception:
             mapping = {}
 
@@ -271,10 +292,6 @@ def extract_text_value(export_json: dict, field_name: str) -> str | None:
 def fetch_localized_name(key: str) -> str:
     if not key:
         return "???"
-
-    override = _LOCALIZATION_OVERRIDES_JA.get(key)
-    if override:
-        return override
 
     now = int(time.time())
     with _CACHE_LOCK:

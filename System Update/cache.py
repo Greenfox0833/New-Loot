@@ -27,6 +27,7 @@ from export_api import (
     extract_itemname_text,
     fetch_export_json,
     fetch_localized_name,
+    lookup_item_name_source_alias_ja,
     normalize_asset_path,
 )
 from http_client import session
@@ -282,12 +283,6 @@ _SPRITE_VARIANT_LABELS = {
     "Holofoil": "ホロフォイル",
 }
 
-_ASSET_NAME_OVERRIDES_JA = {
-    f"/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_{rarity}": "8ビットショットガン"
-    for rarity in ("C", "UC", "R", "VR", "SR")
-}
-
-
 def _build_sprite_variant_fallback_name(asset_path: str) -> str | None:
     norm = normalize_asset_path(asset_path)
     if not norm or "/SpriteLibrary_CH7S3/SpriteDefinitions/" not in norm:
@@ -323,13 +318,14 @@ def get_name_by_asset(asset_path: str) -> str:
         return "???"
     norm = normalize_asset_path(asset_path)
 
-    override = _ASSET_NAME_OVERRIDES_JA.get(norm)
-    if override:
-        ASSET_LOC_CACHE[norm] = override
-        return override
-
     hit = ASSET_LOC_CACHE.get(norm)
     if hit and hit != "???":
+        corrected = lookup_item_name_source_alias_ja(hit)
+        if corrected:
+            ASSET_LOC_CACHE[norm] = corrected
+            _ASSET_LC_STATE["dirty"] += 1
+            _flush_asset_loc_cache_if_needed()
+            return corrected
         if DEBUG_LOCALIZE:
             print(f"[asset-loc:CACHE] {norm} -> {hit}")
         return hit
@@ -343,7 +339,14 @@ def get_name_by_asset(asset_path: str) -> str:
         name = fetch_localized_name(key)
         if not name or name == "???":
             fallback = extract_itemname_text(export_json)
-            name = fallback or name
+            alias = lookup_item_name_source_alias_ja(fallback)
+            if alias:
+                name = alias
+            else:
+                # Display the asset's source text, but do not persist it as a
+                # successful Japanese localization. A later run can retry the
+                # endpoint/locres instead of being trapped by an English hit.
+                return fallback or "???"
         if name and name != "???":
             ASSET_LOC_CACHE[norm] = name
             _ASSET_LC_STATE["dirty"] += 1
@@ -353,10 +356,13 @@ def get_name_by_asset(asset_path: str) -> str:
 
     fallback = extract_itemname_text(export_json)
     if fallback and fallback != "???":
-        ASSET_LOC_CACHE[norm] = fallback
-        _ASSET_LC_STATE["dirty"] += 1
-        _flush_asset_loc_cache_if_needed()
-        return ASSET_LOC_CACHE[norm]
+        alias = lookup_item_name_source_alias_ja(fallback)
+        if alias:
+            ASSET_LOC_CACHE[norm] = alias
+            _ASSET_LC_STATE["dirty"] += 1
+            _flush_asset_loc_cache_if_needed()
+            return alias
+        return fallback
 
     variant_fallback = _build_sprite_variant_fallback_name(norm)
     if variant_fallback and variant_fallback != "???":

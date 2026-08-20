@@ -60,3 +60,55 @@
 2026-08-20 19:19:18 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\BR_2026-08-20_19-19-16.json (added=30 removed=25 change=32)
 2026-08-20 19:19:27 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\BR\AddedItems\2026-08-20_19-19-18 (copied=30 missing=0)
 2026-08-20 19:19:27 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-08-20 19:22:28 | INFO | git commit stdout: [main fce141e] BR update 2026-08-20 19:21:53
+ 62 files changed, 72398 insertions(+), 13285 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260820_1918/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-08-20_19-17-47.log
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-08-20_19-18-11.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-08-20_19-17.json
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-08-20_19-18.json
+ create mode 100644 System Update/shared/icon_cache/Game__Athena__Items__Consumables__ForagedItemVersions__AppleExotic__Icons__T_Icon_BR_Consumable_AppleExotic_L.png
+ create mode 100644 System Update/shared/icon_cache/Game__UI__Foundation__Textures__Icons__Athena__T-T-Icon-BR-Pepper-L.png
+ create mode 100644 "System Update/shared/images/BR/8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \347\237\263\346\235\220.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2421 - \351\207\221\345\261\236.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2422 - Apple.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2422 - Pepper.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2422 - \343\203\237\343\203\213\343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2422 - \345\214\273\347\231\202\343\202\255\343\203\203\343\203\210.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2423 - Mega Buster.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2423 - \343\202\252\343\203\274\343\203\220\343\203\274\343\203\211\343\203\251\343\202\244\343\203\226 \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - Pump Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - Sonic Power Sneakers.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - Tetris Rift.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2424 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - Pump Shotgun.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - Ranger Assault Rifle.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253  .png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2425 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/BR/AddedItems/2026-08-20_19-19-18/\343\203\206\343\202\243\343\202\2426 - Golden Apple.png"
+ create mode 100644 "System Update/shared/images/BR/Apple - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/Golden Apple - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/BR/Pepper - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-08-20_19-18.json"
+2026-08-20 19:22:39 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   04789fb..fce141e  main -> main
+2026-08-20 19:22:39 | INFO | ✓ GitHub Push 完了
+2026-08-20 19:22:39 | INFO | ===== BR: pipeline end =====

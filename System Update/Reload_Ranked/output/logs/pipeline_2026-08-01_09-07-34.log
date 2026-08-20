@@ -112,3 +112,45 @@
 2026-08-01 09:07:35 | INFO | enrich summary done (0.00s)
 2026-08-01 09:07:35 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-01_09-07.json
 2026-08-01 09:07:35 | INFO | build item metadata start
+2026-08-01 09:08:17 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (42.02s)
+2026-08-01 09:08:17 | INFO | build BR_LootData start
+2026-08-01 09:08:17 | INFO | build BR_LootData done (0.00s)
+2026-08-01 09:08:17 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-08-01_09-08.json
+2026-08-01 09:08:17 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
+2026-08-01 09:08:17 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
+2026-08-01 09:08:17 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-01_09-07.json
+✅ 抽出件数: 150
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-01_09-06.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-01_09-07.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 150
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260801_0908\items_unique_min_diff.json
+2026-08-01 09:08:17 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-08-01 09:08:17 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.33s)
+2026-08-01 09:08:17 | INFO | prewarm start
+2026-08-01 09:08:20 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (3.49s)
+2026-08-01 09:08:20 | INFO | 画像化タスク数: 150
+2026-08-01 09:08:21 | INFO | 画像生成 進捗: 1/150
+2026-08-01 09:08:21 | INFO | 画像生成 進捗: 50/150
+2026-08-01 09:08:22 | INFO | 画像生成 進捗: 100/150
+2026-08-01 09:08:22 | INFO | 画像生成 進捗: 150/150
+2026-08-01 09:08:22 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-08-01 09:08:22 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-08-01 09:08:22 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-08-01 09:08:25 | INFO | git commit stdout: [main 4cfaa11] Reload_Ranked update 2026-08-01 09:08:24
+ 13 files changed, 85878 insertions(+), 431 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260801_0908/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-08-01_09-06-55.log
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-08-01_09-07-34.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-08-01_09-06.json
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-08-01_09-07.json
+ create mode 100644 System Update/cloudstorage_system/56335419f8794c71ba727c8f6e935af2.ini
+ create mode 100644 System Update/cloudstorage_system/a22d837b6a2b46349421259c0a5411bf.ini
+ create mode 100644 System Update/cloudstorage_system/f60cbea9f6d24c5a855056088b15f447.ini
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-08-01_09-08.json"
+2026-08-01 09:08:33 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   9cee159..4cfaa11  main -> main
+2026-08-01 09:08:33 | INFO | ✓ GitHub Push 完了
+2026-08-01 09:08:33 | INFO | ===== Reload_Ranked: pipeline end =====

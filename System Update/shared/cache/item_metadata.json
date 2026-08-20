@@ -1,17 +1,105 @@
 {
-  "UpdatedAt": "2026-08-01T09:08:17",
-  "UpdatedByProfile": "Reload_Ranked",
+  "UpdatedAt": "2026-08-20T19:07:02",
+  "UpdatedByProfile": "BR",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
       "LocalizedName": "チャグジャグ",
-      "LocalizedDescription": "みんな大好きスラープジュースが大量に入っている。移動しながら飲めるようになったぞ！",
+      "LocalizedDescription": "A thousand ounces of the slurp juice you love, now available on the go!",
       "Tags": [
         "CH6S2",
         "ConsumableItem",
         "Item",
         "LegendaryItem",
         "Regenerative"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_C",
+      "LocalizedName": "8-Bit Shotgun",
+      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
+        "Ammo:Shells",
+        "CH7S4",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_R",
+      "LocalizedName": "8-Bit Shotgun",
+      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
+        "Ammo:Shells",
+        "CH7S4",
+        "Guard",
+        "NewThisSeason",
+        "Rare",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR",
+      "LocalizedName": "8-Bit Shotgun",
+      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
+        "Ammo:Shells",
+        "CH7S4",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UC",
+      "LocalizedName": "8-Bit Shotgun",
+      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
+        "Ammo:Shells",
+        "CH7S4",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UR",
+      "LocalizedName": "Robotnik's 8-Bit Shotgun",
+      "LocalizedDescription": "Forged to deal massive damage, Robotnik’s 8-Bit Shotgun is his ultimate weapon for dominating the leaderboards.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_VR",
+      "LocalizedName": "8-Bit Shotgun",
+      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "Tags": [
+        "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
+        "Ammo:Shells",
+        "CH7S4",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
       ]
     },
     {
@@ -640,6 +728,12 @@
         "Pistol",
         "Weapon"
       ]
+    },
+    {
+      "AssetPathName": "/CosmicThunderSecondChance/Gameplay/AID_CosmicThunder_SecondChance",
+      "LocalizedName": "Extra Life Token",
+      "LocalizedDescription": "Respawn from Elimination While Keeping Your Inventory",
+      "Tags": []
     },
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_UR",
@@ -1313,6 +1407,12 @@
         "SMG",
         "Weapon"
       ]
+    },
+    {
+      "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula",
+      "LocalizedName": "Tetris Rift",
+      "LocalizedDescription": "Rift in Tetris blocks culminating in the iconic Tetris Line Clear doing a big AOE heal.",
+      "Tags": []
     },
     {
       "AssetPathName": "/DuckSnacks/Gameplay/WID_DuckSnacks_VR",
@@ -2827,6 +2927,71 @@
       ]
     },
     {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_C",
+      "LocalizedName": "Ranger Assault Rifle",
+      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Common",
+        "Flipped",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_R",
+      "LocalizedName": "Ranger Assault Rifle",
+      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_SR",
+      "LocalizedName": "Ranger Assault Rifle",
+      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Legendary",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_UC",
+      "LocalizedName": "Ranger Assault Rifle",
+      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Flipped",
+        "Guard",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_VR",
+      "LocalizedName": "Ranger Assault Rifle",
+      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Epic",
+        "Flipped",
+        "Guard",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreSMG/WID_SMG_CoreSMG_Athena_C",
       "LocalizedName": "スティンガーサブマシンガン",
       "LocalizedDescription": "サブマシンガン: フルオート。連射速度が非常に速く大ダメージを与えられるが、弾薬を大量に消費する。",
@@ -2989,7 +3154,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AmmoDataRockets",
       "LocalizedName": "弾薬: ロケット弾",
-      "LocalizedDescription": "爆破武器の弾薬。一般的にロケットランチャーで使用される。",
+      "LocalizedDescription": "Ammo for weapons with explosives.  Typically used in rocket launchers.",
       "Tags": [
         "Ammo",
         "CommonItem",
@@ -3000,7 +3165,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy",
       "LocalizedName": "弾薬: 大口径弾",
-      "LocalizedDescription": "大口径の弾薬。一般的にスナイパーライフルで使用される。",
+      "LocalizedDescription": "Ammo for weapons that use high caliber bullets. Typically used in sniper rifles.",
       "Tags": [
         "Ammo",
         "CommonItem",
@@ -3012,7 +3177,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight",
       "LocalizedName": "弾薬: 小口径弾",
-      "LocalizedDescription": "小口径の弾薬。一般的にハンドガンやサブマシンガンで使用される。",
+      "LocalizedDescription": "Ammo for weapons that use low caliber bullets. Typically used in handguns or submachine guns.",
       "Tags": [
         "Ammo",
         "CommonItem",
@@ -3024,7 +3189,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium",
       "LocalizedName": "弾薬: 中口径弾",
-      "LocalizedDescription": "中口径の弾薬。一般的にアサルトライフルで使用される。",
+      "LocalizedDescription": "Ammo for weapons that use mid-range caliber bullets. Typically used in assault rifles.",
       "Tags": [
         "Ammo",
         "CommonItem",
@@ -3036,7 +3201,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells",
       "LocalizedName": "弾薬: 散弾",
-      "LocalizedDescription": "散弾を使う武器の弾薬。一般的にショットガンで使用される。",
+      "LocalizedDescription": "Ammo for weapons that use shells. Typically used in shotguns.",
       "Tags": [
         "Ammo",
         "CommonItem",
@@ -3113,7 +3278,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Effective/WID_Athena_Flopper_Effective",
       "LocalizedName": "スラープフィッシュ",
-      "LocalizedDescription": "食べると体力またはシールド回復するジューシーな魚。",
+      "LocalizedDescription": "Consume for juicy Health or Shield.",
       "Tags": [
         "CH2S1",
         "ConsumableItem",
@@ -3139,7 +3304,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/JellyFish/WID_Athena_Flopper_JellyFish",
       "LocalizedName": "ジェリーフィッシュ",
-      "LocalizedDescription": "近くにいるプレイヤーにしぶきを飛ばし、即座に体力を回復し、シールドを付与する。",
+      "LocalizedDescription": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
       "Tags": [
         "CH2S4",
         "ConsumableItem",
@@ -3152,7 +3317,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/MechanicFlopper/WID_Athena_MechanicFlopper",
       "LocalizedName": "マイダスフロッパー",
-      "LocalizedDescription": "僕を食べて！ 武器をアップグレードしてあげるよ。",
+      "LocalizedDescription": "Eat me! I'll upgrade your weapons.",
       "Tags": [
         "CH2S4",
         "ConsumableItem",
@@ -3165,7 +3330,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/WID_Athena_Flopper_Shield",
       "LocalizedName": "シールドフィッシュ",
-      "LocalizedDescription": "ジューシーでシールドを回復",
+      "LocalizedDescription": "Consume for juicy Shields.",
       "Tags": [
         "CH2S4",
         "ConsumableItem",
@@ -3178,7 +3343,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/WID_Athena_FlopperSmall",
       "LocalizedName": "スモールフィッシュ",
-      "LocalizedDescription": "食べると少し体力が回復する。",
+      "LocalizedDescription": "Consume for some light Health.",
       "Tags": [
         "CH2S1",
         "CommonItem",
@@ -3191,7 +3356,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/WID_Athena_Flopper",
       "LocalizedName": "フロッパー",
-      "LocalizedDescription": "俺を食べて！ 体力を回復してあげるよ！",
+      "LocalizedDescription": "Eat me! I'll Give You Health!",
       "Tags": [
         "CH2S1",
         "ConsumableItem",
@@ -3204,19 +3369,19 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit",
       "LocalizedName": "フィッシングフック",
-      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
+      "LocalizedDescription": "Cast into water, wait for a bob, REEL IT IN!",
       "Tags": []
     },
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit_HighTier",
       "LocalizedName": "プロ用フィッシングフック",
-      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
+      "LocalizedDescription": "Cast into water, wait for a bob, REEL IT IN!",
       "Tags": []
     },
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple",
       "LocalizedName": "リンゴ",
-      "LocalizedDescription": "食べると体力が少量回復する。",
+      "LocalizedDescription": "Consume for a small amount of health.",
       "Tags": [
         "CH1S4",
         "CommonItem",
@@ -3229,7 +3394,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Banana/WID_Athena_Banana",
       "LocalizedName": "バナナ",
-      "LocalizedDescription": "食べると体力が少量回復する。",
+      "LocalizedDescription": "Consume for a small amount of health.",
       "Tags": [
         "CH1S8",
         "CommonItem",
@@ -3242,7 +3407,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage",
       "LocalizedName": "キャベツ",
-      "LocalizedDescription": "食べると時間経過とともに体力が少し回復する。",
+      "LocalizedDescription": "Consume for a small amount of health over time.",
       "Tags": [
         "CH2S3",
         "CommonItem",
@@ -3255,7 +3420,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/WID_Athena_Coconut",
       "LocalizedName": "ココナッツ",
-      "LocalizedDescription": "食べると少量の体力とシールドを時間経過で回復する。",
+      "LocalizedDescription": "Consume for a small amount of health or shields over time.",
       "Tags": [
         "CH1S8",
         "CommonItem",
@@ -3268,7 +3433,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/WID_Athena_Corn",
       "LocalizedName": "コーン",
-      "LocalizedDescription": "食べると少量の体力を時間経過で回復する。",
+      "LocalizedDescription": "Consume for a small amount of health over time.",
       "Tags": [
         "CH2S3",
         "CommonItem",
@@ -3281,7 +3446,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle",
       "LocalizedName": "ゴールデントリュフ",
-      "LocalizedDescription": "食べると多量のシールドが付与される。",
+      "LocalizedDescription": "Consume for a large amount of shield.",
       "Tags": [
         "Regenerative"
       ]
@@ -3302,7 +3467,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/WID_Athena_SlurpMushroom",
       "LocalizedName": "スラープキノコ",
-      "LocalizedDescription": "食べると少量の体力とシールドを時間経過で回復する。",
+      "LocalizedDescription": "Consume for a small amount of health or shields over time.",
       "Tags": [
         "CH2S1",
         "CommonItem",
@@ -3315,7 +3480,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/HappyGhost/WID_Athena_HappyGhost",
       "LocalizedName": "ハープーンガン",
-      "LocalizedDescription": "敵を自分の元へ引き寄せて、ダメージを与える。",
+      "LocalizedDescription": "Pulls enemies to you and deals damage.",
       "Tags": [
         "CH2S1",
         "ConsumableItem",
@@ -3687,9 +3852,35 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_C_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Common",
+        "Guard",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_R_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "Rare",
+        "S23",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_SR_Ore_T03",
       "LocalizedName": "アサルトライフル  ",
-      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3700,9 +3891,34 @@
       ]
     },
     {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_UC_Ore_T03",
+      "LocalizedName": "アサルトライフル  ",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Guard",
+        "S23",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_UR",
+      "LocalizedName": "Enhanced Assault Rifle  ",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH6S4",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_VR_Ore_T03",
       "LocalizedName": "アサルトライフル  ",
-      "LocalizedDescription": "フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
+      "LocalizedDescription": "Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -4341,7 +4557,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_C_Ore_T03",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
       "Tags": [
         "Ammo:Shells",
         "PreSeason",
@@ -4353,12 +4569,27 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_Common",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
       "Tags": [
         "Ammo:Shells",
         "CH2S1",
         "Common",
         "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR",
+      "LocalizedName": "Pump Shotgun",
+      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "Tags": [
+        "Ammo:Shells",
+        "CH7S4",
+        "Guard",
+        "Legendary",
+        "NewThisSeason",
+        "RecentlyAdded",
         "Shotgun",
         "Weapon"
       ]
@@ -4379,7 +4610,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_UC_Ore_T03",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
+      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
       "Tags": [
         "Ammo:Shells",
         "Guard",
@@ -4398,6 +4629,21 @@
         "CH1S6",
         "Epic",
         "Guard",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_SpyTech_VR_T01",
+      "LocalizedName": "Pump Shotgun",
+      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "Tags": [
+        "Ammo:Shells",
+        "CH7S4",
+        "Epic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
         "Shotgun",
         "Weapon"
       ]
@@ -4519,13 +4765,13 @@
     {
       "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData",
       "LocalizedName": "ゴールド",
-      "LocalizedDescription": "自販機やサービスでの購入に使用されるお金。 ジョブボードや戦利品の回収で獲得できる。",
+      "LocalizedDescription": "Money used to make purchases at vending machines and services. Acquired from Job Boards and looting.",
       "Tags": []
     },
     {
       "AssetPathName": "/Game/Items/ResourcePickups/MetalItemData",
       "LocalizedName": "金属",
-      "LocalizedDescription": "どこにでもある普通の素材。",
+      "LocalizedDescription": "Basic resource found throughout the world.",
       "Tags": [
         "Building",
         "CommonItem",
@@ -4537,7 +4783,7 @@
     {
       "AssetPathName": "/Game/Items/ResourcePickups/StoneItemData",
       "LocalizedName": "石材",
-      "LocalizedDescription": "どこにでもある普通の素材。",
+      "LocalizedDescription": "Basic resource found throughout the world.",
       "Tags": [
         "Building",
         "CommonItem",
@@ -4549,13 +4795,29 @@
     {
       "AssetPathName": "/Game/Items/ResourcePickups/WoodItemData",
       "LocalizedName": "木材",
-      "LocalizedDescription": "どこにでもある普通の素材。",
+      "LocalizedDescription": "Basic resource found throughout the world.",
       "Tags": [
         "Building",
         "CommonItem",
         "Item",
         "OverrideCount_500",
         "PreSeason"
+      ]
+    },
+    {
+      "AssetPathName": "/GoldenFAWeaponGameplay/Gameplay/WID_Pistol_Golden_Athena_UR",
+      "LocalizedName": "Midas' Masterpiece",
+      "LocalizedDescription": "Single-fire sniper-style golden Pistol. It feels like cheating, one golden headshot means another poor victim has come to a glittering end.",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.Golden",
+        "Gameplay.Weapon.DisplayOpticGlint",
+        "Ammo:Special",
+        "CH7S4",
+        "Mythic",
+        "NewThisSeason",
+        "Pistol",
+        "RecentlyAdded",
+        "Weapon"
       ]
     },
     {
@@ -4700,7 +4962,7 @@
     {
       "AssetPathName": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse",
       "LocalizedName": "オーバードライブ グレネード",
-      "LocalizedDescription": "グレネードを投げると、周囲にいるプレイヤーのエネルギーと素早さが急増する。",
+      "LocalizedDescription": "Hurls a grenade that impulses nearby players, granting a surge of energy and agility.",
       "Tags": [
         "CH7S2",
         "ConsumableItem",
@@ -4709,6 +4971,12 @@
         "RareItem",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/InvulnLlama/Gameplay/WID_InvulnLlama",
+      "LocalizedName": "Invulnerability Llama",
+      "LocalizedDescription": "Tap into the true power of the Llama to Become an Unstoppable Wrecking Ball",
+      "Tags": []
     },
     {
       "AssetPathName": "/JethroWeaponGameplay/Gameplay/BoldTiger/WID_SMG_Jethro_BoldTiger_Athena_R",
@@ -5075,6 +5343,25 @@
       "Tags": []
     },
     {
+      "AssetPathName": "/MintPunt/Gameplay/WID_MintPunt_R",
+      "LocalizedName": "Mega Buster",
+      "LocalizedDescription": "This powerful arm cannon built by Dr. Light fires energy bullets, even while sprinting. Can be charged for more power, and provides a boosted Slide",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.BoostedJump.PreventHoslter",
+        "Granted.RollLanding.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "Animation.CharacterParts.HideFX.Hands",
+        "CameraController.DisableFirstPerson",
+        "Granted.Athena.TacticalSprint.AllowSprintWhileFiring",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "Granted.Athena.TacticalSprint.AllowSprintWhileCharging",
+        "Item.Weapon.Ranged.MintPunt"
+      ]
+    },
+    {
       "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_R",
       "LocalizedName": " ブームボルト",
       "LocalizedDescription": "爆発するボルトを素早く連射できるクロスボウ。",
@@ -5283,6 +5570,58 @@
       ]
     },
     {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_C",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "Tags": [
+        "Ammo:Light",
+        "CH7S1",
+        "Common",
+        "Guard",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_R",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "Tags": [
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "Pistol",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_SR",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "Tags": [
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "Legendary",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UC",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "Tags": [
+        "Ammo:Light",
+        "CH7S1",
+        "Guard",
+        "Pistol",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UR",
       "LocalizedName": "オーバードライブ タクティカルピストル",
       "LocalizedDescription": "ミシックのタクティカルピストル。 照準器を覗いた際の連射速度が向上している。",
@@ -5291,6 +5630,19 @@
         "CH7S1",
         "Guard",
         "Mythic",
+        "Pistol",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_VR",
+      "LocalizedName": "タクティカルピストル",
+      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "Tags": [
+        "Ammo:Light",
+        "CH7S1",
+        "Epic",
+        "Guard",
         "Pistol",
         "Weapon"
       ]
@@ -5573,6 +5925,26 @@
         "Marksman",
         "S23",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian",
+      "LocalizedName": "Sonic Power Sneakers",
+      "LocalizedDescription": "These sneakers will have you rolling around at the speed of sound! Charge for a powerful spin dash.",
+      "Tags": [
+        "Athena.Item.NarrowFleaObsidian.Equipped",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "Granted.Athena.TacticalSprint.PreventHolster"
+      ]
+    },
+    {
+      "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian_M",
+      "LocalizedName": "Sonic Power Sneakers",
+      "LocalizedDescription": "These sneakers will have you rolling around at the speed of sound! Charge for a powerful spin dash.",
+      "Tags": [
+        "Athena.Item.NarrowFleaObsidian.Equipped",
+        "Granted.Athena.TacticalSprint.AllowPrimaryFire",
+        "Granted.Athena.TacticalSprint.PreventHolster"
       ]
     },
     {
@@ -5930,7 +6302,7 @@
     {
       "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage",
       "LocalizedName": "包帯",
-      "LocalizedDescription": "回復アイテム。一定の体力を取り戻す。",
+      "LocalizedDescription": "Has healing properties. Get some health back.",
       "Tags": [
         "CH5S1",
         "CommonItem",
@@ -5943,7 +6315,7 @@
     {
       "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox",
       "LocalizedName": "医療キット",
-      "LocalizedDescription": "魔法のような効果。徐々に体力を全回復する。",
+      "LocalizedDescription": "Works wonders. Restores all of your health gradually.",
       "Tags": [
         "Granted.ItemEquipped.Consumable.Paprika.MedKit",
         "CH5S1",
@@ -5957,7 +6329,7 @@
     {
       "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot",
       "LocalizedName": "シールドポーション",
-      "LocalizedDescription": "防護の効果があるポーション。徐々に一定のシールドを適用する。",
+      "LocalizedDescription": "A potion with insulating properties. Applies some shields gradually.",
       "Tags": [
         "CH5S1",
         "ConsumableItem",
@@ -5970,7 +6342,7 @@
     {
       "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall",
       "LocalizedName": "ミニシールドポーション",
-      "LocalizedDescription": "飲むゼリータイプのポーション。少量のシールドを与える。",
+      "LocalizedDescription": "A potion that has the consistency of jelly. Applies a small amount of shields.",
       "Tags": [
         "CH5S1",
         "ConsumableItem",
@@ -8828,6 +9200,66 @@
       ]
     },
     {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_C",
+      "LocalizedName": "Drum Gun",
+      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH7S4",
+        "Common",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_R",
+      "LocalizedName": "ドラムガン",
+      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH6MS2",
+        "Guard",
+        "Rare",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_SR",
+      "LocalizedName": "ドラムガン",
+      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH6MS2",
+        "Guard",
+        "Legendary",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UC",
+      "LocalizedName": "Drum Gun",
+      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH7S4",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "SMG",
+        "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UR",
       "LocalizedName": "マイダスのドラムガン",
       "LocalizedDescription": "マイダスの象徴的な黄金の武器。その圧倒的なストッピングパワーとクラシックなスタイルによって高く評価されている。",
@@ -8840,6 +9272,20 @@
         "NewThisSeason",
         "RecentlyAdded",
         "SMG"
+      ]
+    },
+    {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_VR",
+      "LocalizedName": "ドラムガン",
+      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH6MS2",
+        "Epic",
+        "Guard",
+        "SMG",
+        "Weapon"
       ]
     },
     {

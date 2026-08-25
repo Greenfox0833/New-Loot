@@ -53,12 +53,13 @@ def build_summary(rows_lt: dict, rows_lp: dict):
         if not isinstance(row, dict):
             continue
         wl_id = row.get("LootPackageID", "")
+        count_range = row.get("CountRange") or {}
         worldlist_map[wl_id].append(
             {
                 "Key": row_key,
                 "Weight": as_float(row.get("Weight", row.get("weight", 0.0))),
                 "AssetPathName": _asset_path_from_row(row),
-                "CountItem": (row.get("CountRange") or {}).get("X"),
+                "CountItem": count_range.get("X", count_range.get("x")),
             }
         )
 

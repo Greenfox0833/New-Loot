@@ -249,6 +249,14 @@ def get_rarity_by_asset(asset_path: str) -> str:
     return rarity_ja
 
 _ASSET_LC_STATE = {"dirty": 0}
+_ASSET_LOC_REVALIDATED = set()
+
+
+def _contains_japanese(value: str) -> bool:
+    return any(
+        "\u3040" <= char <= "\u30ff" or "\u3400" <= char <= "\u9fff"
+        for char in value
+    )
 
 def _flush_asset_loc_cache_if_needed(threshold: int = 200):
     if _ASSET_LC_STATE["dirty"] >= threshold:
@@ -326,6 +334,18 @@ def get_name_by_asset(asset_path: str) -> str:
             _ASSET_LC_STATE["dirty"] += 1
             _flush_asset_loc_cache_if_needed()
             return corrected
+        # Older runs may have cached sourceString before Japanese localization
+        # became available. Revalidate non-Japanese hits once per process.
+        if not _contains_japanese(hit) and norm not in _ASSET_LOC_REVALIDATED:
+            _ASSET_LOC_REVALIDATED.add(norm)
+            export_json = export_by_asset_path(norm)
+            key = extract_itemname_key(export_json) if export_json else None
+            localized = fetch_localized_name(key) if key else None
+            if localized and localized != "???" and localized != hit:
+                ASSET_LOC_CACHE[norm] = localized
+                _ASSET_LC_STATE["dirty"] += 1
+                _flush_asset_loc_cache_if_needed()
+                return localized
         if DEBUG_LOCALIZE:
             print(f"[asset-loc:CACHE] {norm} -> {hit}")
         return hit

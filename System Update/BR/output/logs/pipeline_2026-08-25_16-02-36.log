@@ -4,3 +4,134 @@
 2026-08-25 16:02:36 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
 2026-08-25 16:02:36 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-08-25 16:02:36 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-08-25 16:02:38 | INFO | hotfix lp stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[1835] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.010000 -> OK
+[1836] RowUpdate PKG_FishingHole_Consumable_03.Weight=0.010000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=2, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset : replaced=142, added=499
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client
+[1743] RowUpdate LIST_Boss_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1744] RowUpdate LIST_LlamaSupply_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1816] RowUpdate LIST_Weapons_Mythic_Shotgun_01.ItemDefinition=/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR.WID_ArcadeShotgun_SR -> OK
+[1817] RowUpdate LIST_Boss_SouthBalk_Weapon_01.ItemDefinition=/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR.WID_ArcadeShotgun_SR -> OK
+[1837] RowUpdate LIST_FishingHole_Legendary_Consumable_04.Weight=0.5000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=5, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\CosmicThunderLootPackages_Client__final.json
+2026-08-25 16:02:38 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-08-25 16:02:39 | INFO | hotfix lt stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[1162] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1163] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1164] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[1687] RowUpdate LTG_Vend_Item_Mend_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1688] RowUpdate LTG_Vend_Item_Mend_1_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1689] RowUpdate LTG_Vend_Item_Mend_2_01.NumLootPackageDropsRange=(X=8.000000,Y=8.000000) -> OK
+[1690] RowUpdate LTG_Vend_Item_Mend_2_01.LootPackageCategoryMinArray=(8,0,0,0,0,0,0,0,0,0,0) -> OK
+[1691] RowUpdate LTG_Vend_Item_Mend_3_01.NumLootPackageDropsRange=(X=2.000000,Y=2.000000) -> OK
+[1692] RowUpdate LTG_Vend_Item_Mend_3_01.LootPackageCategoryMinArray=(2,0,0,0,0,0,0,0,0,0,0) -> OK
+[1693] RowUpdate LTG_Vend_Item_Mend_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1694] RowUpdate LTG_Vend_Item_Mend_4_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1695] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1696] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1697] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1698] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1699] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1700] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1701] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1702] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1703] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1704] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1705] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1706] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1707] RowUpdate LTG_Vend_Weapon_Handgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1708] RowUpdate LTG_Vend_Weapon_Handgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1709] RowUpdate LTG_Vend_Weapon_Handgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1710] RowUpdate LTG_Vend_Weapon_Handgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1711] RowUpdate LTG_Vend_Weapon_Handgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1712] RowUpdate LTG_Vend_Weapon_Handgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1713] RowUpdate LTG_Vend_Weapon_Handgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1714] RowUpdate LTG_Vend_Weapon_Handgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1715] RowUpdate LTG_Vend_Weapon_Handgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1716] RowUpdate LTG_Vend_Weapon_Handgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1717] RowUpdate LTG_Vend_Weapon_Handgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1718] RowUpdate LTG_Vend_Weapon_Handgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1719] RowUpdate LTG_Vend_Weapon_SMG_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1720] RowUpdate LTG_Vend_Weapon_SMG_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1721] RowUpdate LTG_Vend_Weapon_SMG_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1722] RowUpdate LTG_Vend_Weapon_SMG_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1723] RowUpdate LTG_Vend_Weapon_SMG_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1724] RowUpdate LTG_Vend_Weapon_SMG_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1725] RowUpdate LTG_Vend_Weapon_SMG_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1726] RowUpdate LTG_Vend_Weapon_SMG_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1727] RowUpdate LTG_Vend_Weapon_SMG_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1728] RowUpdate LTG_Vend_Weapon_SMG_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1729] RowUpdate LTG_Vend_Weapon_SMG_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1730] RowUpdate LTG_Vend_Weapon_SMG_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1731] RowUpdate LTG_Vend_Weapon_Assault_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1732] RowUpdate LTG_Vend_Weapon_Assault_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1733] RowUpdate LTG_Vend_Weapon_Assault_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1734] RowUpdate LTG_Vend_Weapon_Assault_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1735] RowUpdate LTG_Vend_Weapon_Assault_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1736] RowUpdate LTG_Vend_Weapon_Assault_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1737] RowUpdate LTG_Vend_Weapon_Assault_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1738] RowUpdate LTG_Vend_Weapon_Assault_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1739] RowUpdate LTG_Vend_Weapon_Assault_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1740] RowUpdate LTG_Vend_Weapon_Assault_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1741] RowUpdate LTG_Vend_Weapon_Assault_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1742] RowUpdate LTG_Vend_Weapon_Assault_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[HOTFIX:SEASON1] done: applied=59, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset : replaced=1, added=33
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\CosmicThunderLootTiers_Client__final.json
+2026-08-25 16:02:39 | INFO | ✓ Hotfix 適用完了 (2.99s)
+2026-08-25 16:02:39 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-08-25 16:02:39 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-08-25 16:02:39 | INFO | load done (0.01s)
+2026-08-25 16:02:39 | INFO | build summary start
+2026-08-25 16:02:39 | INFO | build summary done (0.02s)
+2026-08-25 16:02:39 | INFO | enrich summary with names start
+2026-08-25 16:02:39 | INFO | enrich summary done (0.00s)
+2026-08-25 16:02:39 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-25_16-02.json
+2026-08-25 16:02:39 | INFO | build item metadata start
+2026-08-25 16:02:39 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (0.15s)
+2026-08-25 16:02:39 | INFO | build BR_LootData start
+2026-08-25 16:02:39 | INFO | build BR_LootData done (0.00s)
+2026-08-25 16:02:39 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-08-25_16-02.json
+2026-08-25 16:02:39 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\BR_LootPool.json
+2026-08-25 16:02:39 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-08-25 16:02:39 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-25_16-02.json
+✅ 抽出件数: 66
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-25_15-55.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-08-25_16-02.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 66
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20260825_1602\items_unique_min_diff.json
+2026-08-25 16:02:39 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-08-25 16:02:39 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.18s)
+2026-08-25 16:02:39 | INFO | prewarm start
+2026-08-25 16:02:40 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.99s)
+2026-08-25 16:02:40 | INFO | 画像化タスク数: 66
+2026-08-25 16:02:41 | INFO | 画像生成 進捗: 1/66
+2026-08-25 16:02:41 | INFO | 画像生成 進捗: 50/66
+2026-08-25 16:02:41 | INFO | 画像生成 進捗: 66/66
+2026-08-25 16:02:41 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-08-25 16:02:41 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-08-25 16:02:41 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-08-25 16:02:44 | INFO | git commit stdout: [main a8bf27f] BR update 2026-08-25 16:02:42
+ 13 files changed, 32153 insertions(+), 330 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20260825_1602/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-08-25_16-02-36.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-08-25_16-02.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-08-25_16-02.json"
+2026-08-25 16:02:53 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   19c5c55..a8bf27f  main -> main
+2026-08-25 16:02:53 | INFO | ✓ GitHub Push 完了
+2026-08-25 16:02:53 | INFO | ===== BR: pipeline end =====

@@ -1,0 +1,194 @@
+2026-08-26 00:21:11 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\logs\pipeline_2026-08-26_00-21-11.log
+2026-08-26 00:21:11 | INFO | ===== Reload_Ranked: pipeline start =====
+2026-08-26 00:21:11 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+2026-08-26 00:21:11 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
+2026-08-26 00:21:11 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-08-26 00:21:11 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-08-26 00:21:13 | INFO | hotfix lp stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
+[922] RowUpdate PKG_Chest_Weapon_Shotgun_16.Weight=0.025000 -> OK
+[923] RowUpdate PKG_Chest_Weapon_Handgun_16.Weight=0.025000 -> OK
+[924] RowUpdate PKG_Chest_Weapon_SMG_16.Weight=0.025000 -> OK
+[925] RowUpdate PKG_Chest_Weapon_Assault_16.Weight=0.025000 -> OK
+[926] RowUpdate PKG_Chest_Weapon_Sniper_16.Weight=0.025000 -> OK
+[927] RowUpdate PKG_RareChest_Weapon_Shotgun_14.Weight=0.060000 -> OK
+[928] RowUpdate PKG_RareChest_Weapon_Handgun_14.Weight=0.060000 -> OK
+[929] RowUpdate PKG_RareChest_Weapon_SMG_14.Weight=0.060000 -> OK
+[930] RowUpdate PKG_RareChest_Weapon_Assault_14.Weight=0.060000 -> OK
+[931] RowUpdate PKG_RareChest_Weapon_Sniper_14.Weight=0.060000 -> OK
+[934] RowUpdate PKG_RareAmmoBox_09.Weight=0.000000 -> OK
+[944] RowUpdate PKG_Chest_Weapon_Assault_08.Weight=0.370000 -> OK
+[945] RowUpdate PKG_Chest_Weapon_Sniper_08.Weight=0.370000 -> OK
+[946] RowUpdate PKG_RareChest_Weapon_Handgun_06.Weight=0.450000 -> OK
+[947] RowUpdate PKG_RareChest_Weapon_SMG_06.Weight=0.450000 -> OK
+[948] RowUpdate PKG_RareChest_Weapon_Assault_06.Weight=0.450000 -> OK
+[949] RowUpdate PKG_RareChest_Weapon_Sniper_06.Weight=0.450000 -> OK
+[1745] RowUpdate LIST_Gold_Small_01.CountRange=(X=150,Y=150) -> OK
+[1746] RowUpdate LIST_Gold_Small_02.CountRange=(X=185,Y=185) -> OK
+[1747] RowUpdate LIST_Gold_Small_03.CountRange=(X=260,Y=260) -> OK
+[1748] RowUpdate LIST_Gold_Small_04.CountRange=(X=400,Y=400) -> OK
+[1749] RowUpdate LIST_Gold_Small_05.CountRange=(X=550,Y=550) -> OK
+[1750] RowUpdate LIST_Gold_Medium_01.CountRange=(X=375,Y=375) -> OK
+[1751] RowUpdate LIST_Gold_Large_01.CountRange=(X=450,Y=450) -> OK
+[1752] RowUpdate LIST_Gold_ExtraLarge_01.CountRange=(X=750,Y=750) -> OK
+[1753] RowUpdate LIST_Gold_ExtraLarge_02.CountRange=(X=900,Y=900) -> OK
+[1754] RowUpdate LIST_Gold_ExtraLarge_03.CountRange=(X=1125,Y=1125) -> OK
+[1755] RowUpdate LIST_Gold_ExtraLarge_04.CountRange=(X=1300,Y=1300) -> OK
+[1756] RowUpdate LIST_Gold_ExtraLarge_05.CountRange=(X=2250,Y=2250) -> OK
+[1757] RowUpdate LIST_Gold_Register_01.CountRange=(X=150,Y=150) -> OK
+[1758] RowUpdate LIST_Gold_Register_02.CountRange=(X=185,Y=185) -> OK
+[1759] RowUpdate LIST_Gold_Register_03.CountRange=(X=260,Y=260) -> OK
+[1760] RowUpdate LIST_Gold_Register_04.CountRange=(X=375,Y=375) -> OK
+[1761] RowUpdate LIST_Gold_Register_05.CountRange=(X=560,Y=560) -> OK
+[1762] RowUpdate LIST_Gold_Safe_01.CountRange=(X=150,Y=150) -> OK
+[1763] RowUpdate LIST_Gold_Safe_02.CountRange=(X=185,Y=185) -> OK
+[1764] RowUpdate LIST_Gold_Safe_03.CountRange=(X=260,Y=260) -> OK
+[1765] RowUpdate LIST_Gold_Safe_04.CountRange=(X=375,Y=375) -> OK
+[1766] RowUpdate LIST_Gold_Safe_05.CountRange=(X=560,Y=560) -> OK
+[1767] RowUpdate LIST_Chest_Gold_01.CountRange=(X=55,Y=55) -> OK
+[1768] RowUpdate LIST_Chest_Gold_02.CountRange=(X=70,Y=70) -> OK
+[1769] RowUpdate LIST_Chest_Gold_03.CountRange=(X=85,Y=85) -> OK
+[1770] RowUpdate LIST_Chest_Gold_04.CountRange=(X=110,Y=110) -> OK
+[1771] RowUpdate LIST_Chest_Gold_05.CountRange=(X=225,Y=225) -> OK
+[1772] RowUpdate LIST_RareChest_Gold_01.CountRange=(X=95,Y=95) -> OK
+[1773] RowUpdate LIST_RareChest_Gold_02.CountRange=(X=115,Y=115) -> OK
+[1774] RowUpdate LIST_RareChest_Gold_03.CountRange=(X=150,Y=150) -> OK
+[1775] RowUpdate LIST_RareChest_Gold_04.CountRange=(X=240,Y=240) -> OK
+[1776] RowUpdate LIST_RareChest_Gold_05.CountRange=(X=375,Y=375) -> OK
+[1777] RowUpdate LIST_Fishing_Gold_01.CountRange=(X=375,Y=3753) -> OK
+[1778] RowUpdate LIST_FishingHole_Gold_01.CountRange=(X=750,Y=750) -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=51, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryLootPackages_Habanero.uasset : replaced=0, added=2315
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryLootPackages_Habanero
+[1977] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.39.Weight=0.400000 -> OK
+[1978] RowUpdate WorldList.AthenaLoot.Weapon.HighHandgun.59.Weight=0.400000 -> OK
+[1979] RowUpdate WorldList.AthenaLoot.Weapon.SMG.15.Weight=1.000000 -> OK
+[1980] RowUpdate WorldList.AthenaLoot.Weapon.SMG.16.Weight=0.400000 -> OK
+[1981] RowUpdate WorldList.AthenaLoot.Weapon.SMG.17.Weight=0.080000 -> OK
+[1982] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.21.Weight=0.400000 -> OK
+[1983] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.22.Weight=0.080000 -> OK
+[1984] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.23.Weight=0.016000 -> OK
+[1985] RowUpdate WorldList.AthenaLoot.Weapon.HighSMG.24.Weight=0.004000 -> OK
+[1986] RowUpdate WorldList.ApolloLoot.Weapon.SMG.11.Weight=0.750000 -> OK
+[1987] RowUpdate WorldList.ApolloLoot.Weapon.SMG.12.Weight=0.250000 -> OK
+[1988] RowUpdate WorldList.AthenaSupplyDrop.Weapon.Handgun.58.Weight=0.175000 -> OK
+[1989] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.22.Weight=0.225000 -> OK
+[1990] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.23.Weight=0.125000 -> OK
+[1991] RowUpdate WorldList.AthenaSupplyDrop.Weapon.SMG.24.Weight=0.025000 -> OK
+[1992] RowUpdate WorldList.AthenaHighConsumables.Healing.34.Weight=0.150000 -> OK
+[1993] RowUpdate WorldList.AthenaHighConsumablesRare.Healing.13.Weight=0.180000 -> OK
+[1994] RowUpdate WorldList.AthenaSupplyDropConsumables.34.Weight=0.160000 -> OK
+[1995] RowUpdate WorldList.AthenaSupplyDropHeals.13.Weight=0.120000 -> OK
+[1996] RowUpdate WorldList.AthenaConsumables.Healing.14.Weight=0.110000 -> OK
+[2017] RowUpdate WorldList.AthenaLoot.Weapon.Handgun.37.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=21, deleted=0, skipped=0
+[STEP1-3] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero.uasset : replaced=8, added=239
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero
+[1953] RowUpdate WorldPKG.AthenaLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1954] RowUpdate WorldPKG.AthenaLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1955] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1956] RowUpdate WorldPKG.AthenaLoot.Weapon.HighAssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1957] RowUpdate WorldPKG.AthenaLoot.Weapon.HighSniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1958] RowUpdate WorldPKG.AthenaLoot.Weapon.HighRocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1959] RowUpdate WorldPKG.ApolloLoot.Weapon.HighShotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1960] RowUpdate WorldPKG.ApolloLoot.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1961] RowUpdate WorldPKG.ApolloLoot.Weapon.AssaultAuto.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1962] RowUpdate WorldPKG.ApolloLoot.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1963] RowUpdate WorldPKG.ApolloLoot.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1964] RowUpdate WorldPKG.ApolloLoot.Weapon.HighHandgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1965] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Assault.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1966] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Shotgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1967] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Sniper.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1968] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Rocket.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1969] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.SMG.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[1970] RowUpdate WorldPKG.AthenaSupplyDrop.Weapon.Handgun.04.LootPackageCall=WorldList.AthenaSupplyDropUtility -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=18, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryLootPackages_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_Habanero__final.json
+2026-08-26 00:21:13 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-08-26 00:21:15 | INFO | hotfix lt stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
+[1162] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1163] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1164] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[1687] RowUpdate LTG_Vend_Item_Mend_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1688] RowUpdate LTG_Vend_Item_Mend_1_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1689] RowUpdate LTG_Vend_Item_Mend_2_01.NumLootPackageDropsRange=(X=8.000000,Y=8.000000) -> OK
+[1690] RowUpdate LTG_Vend_Item_Mend_2_01.LootPackageCategoryMinArray=(8,0,0,0,0,0,0,0,0,0,0) -> OK
+[1691] RowUpdate LTG_Vend_Item_Mend_3_01.NumLootPackageDropsRange=(X=2.000000,Y=2.000000) -> OK
+[1692] RowUpdate LTG_Vend_Item_Mend_3_01.LootPackageCategoryMinArray=(2,0,0,0,0,0,0,0,0,0,0) -> OK
+[1693] RowUpdate LTG_Vend_Item_Mend_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1694] RowUpdate LTG_Vend_Item_Mend_4_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1695] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1696] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1697] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1698] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1699] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1700] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1701] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1702] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1703] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1704] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1705] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1706] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1707] RowUpdate LTG_Vend_Weapon_Handgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1708] RowUpdate LTG_Vend_Weapon_Handgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1709] RowUpdate LTG_Vend_Weapon_Handgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1710] RowUpdate LTG_Vend_Weapon_Handgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1711] RowUpdate LTG_Vend_Weapon_Handgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1712] RowUpdate LTG_Vend_Weapon_Handgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1713] RowUpdate LTG_Vend_Weapon_Handgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1714] RowUpdate LTG_Vend_Weapon_Handgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1715] RowUpdate LTG_Vend_Weapon_Handgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1716] RowUpdate LTG_Vend_Weapon_Handgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1717] RowUpdate LTG_Vend_Weapon_Handgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1718] RowUpdate LTG_Vend_Weapon_Handgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1719] RowUpdate LTG_Vend_Weapon_SMG_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1720] RowUpdate LTG_Vend_Weapon_SMG_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1721] RowUpdate LTG_Vend_Weapon_SMG_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1722] RowUpdate LTG_Vend_Weapon_SMG_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1723] RowUpdate LTG_Vend_Weapon_SMG_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1724] RowUpdate LTG_Vend_Weapon_SMG_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1725] RowUpdate LTG_Vend_Weapon_SMG_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1726] RowUpdate LTG_Vend_Weapon_SMG_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1727] RowUpdate LTG_Vend_Weapon_SMG_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1728] RowUpdate LTG_Vend_Weapon_SMG_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1729] RowUpdate LTG_Vend_Weapon_SMG_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1730] RowUpdate LTG_Vend_Weapon_SMG_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1731] RowUpdate LTG_Vend_Weapon_Assault_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1732] RowUpdate LTG_Vend_Weapon_Assault_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1733] RowUpdate LTG_Vend_Weapon_Assault_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1734] RowUpdate LTG_Vend_Weapon_Assault_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1735] RowUpdate LTG_Vend_Weapon_Assault_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1736] RowUpdate LTG_Vend_Weapon_Assault_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1737] RowUpdate LTG_Vend_Weapon_Assault_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1738] RowUpdate LTG_Vend_Weapon_Assault_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1739] RowUpdate LTG_Vend_Weapon_Assault_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1740] RowUpdate LTG_Vend_Weapon_Assault_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1741] RowUpdate LTG_Vend_Weapon_Assault_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1742] RowUpdate LTG_Vend_Weapon_Assault_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[HOTFIX:SEASON1] done: applied=59, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryTierData_Habanero.uasset : replaced=5, added=71
+[HOTFIX:SEASON2] target=/BlastBerryLoot/DataTables/Habanero/BlastBerryTierData_Habanero
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero.uasset : replaced=72, added=192
+[HOTFIX:SEASON3] target=/BlastBerryLoot/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryTierData_Habanero__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_Habanero__final.json
+2026-08-26 00:21:15 | INFO | ✓ Hotfix 適用完了 (4.42s)
+2026-08-26 00:21:15 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+2026-08-26 00:21:15 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+2026-08-26 00:21:15 | INFO | load done (0.03s)
+2026-08-26 00:21:15 | INFO | build summary start
+2026-08-26 00:21:15 | INFO | build summary done (0.03s)
+2026-08-26 00:21:15 | INFO | enrich summary with names start
+2026-08-26 00:21:18 | INFO | enrich summary done (3.15s)
+2026-08-26 00:21:18 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-26_00-21.json
+2026-08-26 00:21:18 | INFO | build item metadata start
+2026-08-26 00:22:07 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot

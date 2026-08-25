@@ -517,7 +517,7 @@
             {
               "ID": "PKG_Vend_Item_Mend_1_01",
               "Call": "LIST_Vend_Item_Mend_1",
-              "Count": 10,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -536,7 +536,7 @@
             {
               "ID": "PKG_Vend_Item_Mend_2_01",
               "Call": "LIST_Vend_Item_Mend_2",
-              "Count": 20,
+              "Count": 8,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -555,7 +555,7 @@
             {
               "ID": "PKG_Vend_Item_Mend_3_01",
               "Call": "LIST_Vend_Item_Mend_3",
-              "Count": 3,
+              "Count": 2,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -574,7 +574,7 @@
             {
               "ID": "PKG_Vend_Item_Mend_4_01",
               "Call": "LIST_Vend_Item_Mend_4",
-              "Count": 3,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -764,7 +764,7 @@
             {
               "ID": "PKG_Vend_Weapon_Assault_Epic_01",
               "Call": "LIST_Weapons_Epic_Assault",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -805,7 +805,7 @@
             {
               "ID": "PKG_Vend_Weapon_Assault_Legendary_01",
               "Call": "LIST_Weapons_Legendary_Assault",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -945,7 +945,7 @@
             {
               "ID": "PKG_Vend_Weapon_Handgun_Epic_01",
               "Call": "LIST_Weapons_Epic_Handgun",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -986,7 +986,7 @@
             {
               "ID": "PKG_Vend_Weapon_Handgun_Legendary_01",
               "Call": "LIST_Weapons_Legendary_Handgun",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -1331,7 +1331,7 @@
             {
               "ID": "PKG_Vend_Weapon_SMG_Epic_01",
               "Call": "LIST_Weapons_Epic_SMG",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -1372,7 +1372,7 @@
             {
               "ID": "PKG_Vend_Weapon_SMG_Legendary_01",
               "Call": "LIST_Weapons_Legendary_SMG",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -1442,7 +1442,7 @@
             {
               "ID": "PKG_Vend_Weapon_Shotgun_Epic_01",
               "Call": "LIST_Weapons_Epic_Shotgun",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -1483,7 +1483,7 @@
             {
               "ID": "PKG_Vend_Weapon_Shotgun_Legendary_01",
               "Call": "LIST_Weapons_Legendary_Shotgun",
-              "Count": 20,
+              "Count": 4,
               "weight": 1.0,
               "TotalListWeight": 0.0,
               "ListItems": []
@@ -1715,12 +1715,30 @@
               "Call": "WorldList.ApolloLoot.Weapon.SMG",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.11",
+                  "Weight": 0.75,
+                  "EffectivePercentPerRoll": 8.562938,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.12",
+                  "Weight": 0.25,
+                  "EffectivePercentPerRoll": 2.854312,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.25",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 17.125875,
+                  "EffectivePercentPerRoll": 8.562938,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -1729,7 +1747,7 @@
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.26",
                   "Weight": 0.25,
-                  "EffectivePercentPerRoll": 5.708625,
+                  "EffectivePercentPerRoll": 2.854312,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -1760,7 +1778,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.AssaultAuto.62",
@@ -2618,12 +2636,12 @@
               "Call": "WorldList.AthenaHighConsumables.Healing",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 2.35,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.01",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.09717,
+                  "EffectivePercentPerRoll": 0.09134,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -2632,7 +2650,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.02",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.09717,
+                  "EffectivePercentPerRoll": 0.09134,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -2641,7 +2659,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.03",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.09717,
+                  "EffectivePercentPerRoll": 0.09134,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -2650,7 +2668,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.04",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 0.077736,
+                  "EffectivePercentPerRoll": 0.073072,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -2659,7 +2677,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.18",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 0.019434,
+                  "EffectivePercentPerRoll": 0.018268,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
@@ -2668,16 +2686,25 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.24",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 0.015547,
+                  "EffectivePercentPerRoll": 0.014614,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
                   "LocalizedName": "スラッペローニ・ピザ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaHighConsumables.Healing.34",
+                  "Weight": 0.15,
+                  "EffectivePercentPerRoll": 0.027402,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.35",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 0.029151,
+                  "EffectivePercentPerRoll": 0.027402,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -2686,7 +2713,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.37",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 0.023321,
+                  "EffectivePercentPerRoll": 0.021922,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -2820,12 +2847,12 @@
               "Call": "WorldList.AthenaHighConsumablesRare.Healing",
               "Count": 2,
               "weight": 0.65,
-              "TotalListWeight": 1.22,
+              "TotalListWeight": 1.4,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.02",
                   "Weight": 0.3,
-                  "EffectivePercentPerRoll": 4.258081,
+                  "EffectivePercentPerRoll": 3.710613,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -2834,7 +2861,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.03",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 0.70968,
+                  "EffectivePercentPerRoll": 0.618436,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -2843,7 +2870,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.04",
                   "Weight": 0.3,
-                  "EffectivePercentPerRoll": 4.258081,
+                  "EffectivePercentPerRoll": 3.710613,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -2852,16 +2879,25 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.06",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 2.12904,
+                  "EffectivePercentPerRoll": 1.855307,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.13",
+                  "Weight": 0.18,
+                  "EffectivePercentPerRoll": 2.226368,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.14",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 1.41936,
+                  "EffectivePercentPerRoll": 1.236871,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -2870,7 +2906,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.16",
                   "Weight": 0.2,
-                  "EffectivePercentPerRoll": 2.838721,
+                  "EffectivePercentPerRoll": 2.473742,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -2879,7 +2915,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumablesRare.Healing.18",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 1.703232,
+                  "EffectivePercentPerRoll": 1.484245,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -3527,7 +3563,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -3536,34 +3572,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.Handgun",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.36",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 1.435533,
+                  "EffectivePercentPerRoll": 2.1533,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.37",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 3.588833,
-                  "rarity": "コモン",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.Athena_Bandage",
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.39",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 2.1533,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "レガシー包帯"
+                  "LocalizedName": "モルファイト・マンモスピストル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.42",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 1.435533,
+                  "EffectivePercentPerRoll": 2.1533,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -3572,21 +3608,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.SMG",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.48,
+              "TotalListWeight": 2.96,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.15",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 4.364831,
+                  "rarity": "コモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_C.WID_SMG_Recoil_Athena_C",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.16",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 1.745932,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.17",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 0.349187,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.34",
                   "Weight": 0.6,
-                  "EffectivePercentPerRoll": 5.237797,
+                  "EffectivePercentPerRoll": 2.618899,
                   "rarity": "コモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_C.WID_SMG_FirePetal_Athena_C",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "ヴェールド プレシジョンSMG"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.35",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 3.491865,
+                  "EffectivePercentPerRoll": 1.745932,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -3595,7 +3658,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.36",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 0.698373,
+                  "EffectivePercentPerRoll": 0.349187,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -3604,11 +3667,11 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.58",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 3.491865,
+                  "EffectivePercentPerRoll": 1.745932,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/FlexSMG/WMID/WMID_SMG_DragonCart_Athena_BB_UC.WMID_SMG_DragonCart_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・フレックスサブマシンガン"
                 }
               ]
             },
@@ -3626,7 +3689,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.AssaultAuto.28",
@@ -3635,7 +3698,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.AssaultAuto.87",
@@ -3707,12 +3770,12 @@
               "Call": "WorldList.AthenaConsumables.Healing",
               "Count": 1,
               "weight": 0.75,
-              "TotalListWeight": 2.51,
+              "TotalListWeight": 2.62,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.01",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 7.035799,
+                  "EffectivePercentPerRoll": 6.740403,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -3721,7 +3784,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.02",
                   "Weight": 0.55,
-                  "EffectivePercentPerRoll": 5.159586,
+                  "EffectivePercentPerRoll": 4.942962,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -3730,7 +3793,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.03",
                   "Weight": 0.55,
-                  "EffectivePercentPerRoll": 5.159586,
+                  "EffectivePercentPerRoll": 4.942962,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -3739,7 +3802,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.04",
                   "Weight": 0.3,
-                  "EffectivePercentPerRoll": 2.81432,
+                  "EffectivePercentPerRoll": 2.696161,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -3748,16 +3811,25 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.06",
                   "Weight": 0.06,
-                  "EffectivePercentPerRoll": 0.562864,
+                  "EffectivePercentPerRoll": 0.539232,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaConsumables.Healing.14",
+                  "Weight": 0.11,
+                  "EffectivePercentPerRoll": 0.988592,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.15",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 1.40716,
+                  "EffectivePercentPerRoll": 1.348081,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -3766,7 +3838,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.17",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 0.938107,
+                  "EffectivePercentPerRoll": 0.89872,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -3775,7 +3847,7 @@
                 {
                   "WorldListID": "WorldList.AthenaConsumables.Healing.19",
                   "Weight": 0.05,
-                  "EffectivePercentPerRoll": 0.469053,
+                  "EffectivePercentPerRoll": 0.44936,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -4010,7 +4082,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -4019,34 +4091,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.Handgun",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.36",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 4.629622,
+                  "EffectivePercentPerRoll": 6.944433,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
-                  "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.37",
-                  "Weight": 1.0,
-                  "EffectivePercentPerRoll": 11.574056,
-                  "rarity": "コモン",
-                  "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.Athena_Bandage",
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.39",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 6.944433,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "レガシー包帯"
+                  "LocalizedName": "モルファイト・マンモスピストル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.Handgun.42",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 4.629622,
+                  "EffectivePercentPerRoll": 6.944433,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -4055,21 +4127,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.SMG",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 1.48,
+              "TotalListWeight": 2.96,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.15",
+                  "Weight": 1.0,
+                  "EffectivePercentPerRoll": 7.038277,
+                  "rarity": "コモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_C.WID_SMG_Recoil_Athena_C",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.16",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 2.815311,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.17",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 0.563062,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.34",
                   "Weight": 0.6,
-                  "EffectivePercentPerRoll": 8.445933,
+                  "EffectivePercentPerRoll": 4.222966,
                   "rarity": "コモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_C.WID_SMG_FirePetal_Athena_C",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "ヴェールド プレシジョンSMG"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.35",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 5.630622,
+                  "EffectivePercentPerRoll": 2.815311,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -4078,7 +4177,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.36",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 1.126124,
+                  "EffectivePercentPerRoll": 0.563062,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -4087,11 +4186,11 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.SMG.58",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 5.630622,
+                  "EffectivePercentPerRoll": 2.815311,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/FlexSMG/WMID/WMID_SMG_DragonCart_Athena_BB_UC.WMID_SMG_DragonCart_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・フレックスサブマシンガン"
                 }
               ]
             },
@@ -4109,7 +4208,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.AssaultAuto.28",
@@ -4118,7 +4217,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.AssaultAuto.87",
@@ -4269,12 +4368,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 4,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -4283,7 +4382,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -4292,7 +4391,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -4301,16 +4400,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -4319,7 +4427,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -4328,7 +4436,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -4876,7 +4984,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -4885,12 +4993,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 1,
               "weight": 0.4,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 17.661209,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 3.532242,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.706448,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.176612,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 35.322417,
+                  "EffectivePercentPerRoll": 17.661209,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -4899,7 +5043,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 7.064483,
+                  "EffectivePercentPerRoll": 3.532242,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -4908,7 +5052,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 1.412897,
+                  "EffectivePercentPerRoll": 0.706448,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -4917,7 +5061,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.353224,
+                  "EffectivePercentPerRoll": 0.176612,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -5096,7 +5240,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -5105,7 +5249,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -5123,7 +5267,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -5132,25 +5276,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 1,
               "weight": 0.3,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 14.901645,
+                  "EffectivePercentPerRoll": 9.93443,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 9.93443,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 14.901645,
+                  "EffectivePercentPerRoll": 9.93443,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -5397,7 +5550,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -5406,25 +5559,34 @@
               "Call": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
               "Count": 1,
               "weight": 0.12,
-              "TotalListWeight": 0.35,
+              "TotalListWeight": 0.525,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.51",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 4.585121,
+                  "EffectivePercentPerRoll": 3.056748,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.58",
+                  "Weight": 0.175,
+                  "EffectivePercentPerRoll": 3.056748,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.62",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 4.585121,
+                  "EffectivePercentPerRoll": 3.056748,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -5433,12 +5595,39 @@
               "Call": "WorldList.AthenaSupplyDrop.Weapon.SMG",
               "Count": 1,
               "weight": 0.32,
-              "TotalListWeight": 0.55,
+              "TotalListWeight": 0.925,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.22",
+                  "Weight": 0.225,
+                  "EffectivePercentPerRoll": 5.948266,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.23",
+                  "Weight": 0.125,
+                  "EffectivePercentPerRoll": 3.304592,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.24",
+                  "Weight": 0.025,
+                  "EffectivePercentPerRoll": 0.660919,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.49",
                   "Weight": 0.225,
-                  "EffectivePercentPerRoll": 10.003902,
+                  "EffectivePercentPerRoll": 5.948266,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -5447,7 +5636,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.50",
                   "Weight": 0.125,
-                  "EffectivePercentPerRoll": 5.557723,
+                  "EffectivePercentPerRoll": 3.304592,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -5456,7 +5645,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.51",
                   "Weight": 0.025,
-                  "EffectivePercentPerRoll": 1.111545,
+                  "EffectivePercentPerRoll": 0.660919,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -5465,11 +5654,11 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.83",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 7.780812,
+                  "EffectivePercentPerRoll": 4.626429,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/FlexSMG/WMID/WMID_SMG_DragonCart_Athena_BB_UC.WMID_SMG_DragonCart_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・フレックスサブマシンガン"
                 }
               ]
             },
@@ -5514,7 +5703,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Assault.37",
@@ -5523,7 +5712,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Assault.38",
@@ -5541,7 +5730,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -6283,12 +6472,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 22.076511,
+                  "EffectivePercentPerRoll": 20.696729,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -6297,7 +6486,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 22.076511,
+                  "EffectivePercentPerRoll": 20.696729,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -6306,7 +6495,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 27.595639,
+                  "EffectivePercentPerRoll": 25.870912,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -6315,16 +6504,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "EffectivePercentPerRoll": 7.174866,
+                  "EffectivePercentPerRoll": 6.726437,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "EffectivePercentPerRoll": 6.209019,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 8.278691,
+                  "EffectivePercentPerRoll": 7.761273,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -6333,7 +6531,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 6.622954,
+                  "EffectivePercentPerRoll": 6.209019,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -6342,7 +6540,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 5.519128,
+                  "EffectivePercentPerRoll": 5.174182,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -6864,7 +7062,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -6873,12 +7071,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 7.74984,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 1.549968,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.309994,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.077498,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 15.49968,
+                  "EffectivePercentPerRoll": 7.74984,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -6887,7 +7121,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 3.099936,
+                  "EffectivePercentPerRoll": 1.549968,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -6896,7 +7130,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 0.619987,
+                  "EffectivePercentPerRoll": 0.309994,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -6905,7 +7139,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.154997,
+                  "EffectivePercentPerRoll": 0.077498,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -6963,7 +7197,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -6972,7 +7206,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -6990,7 +7224,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -7080,25 +7314,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.05455,
+                  "EffectivePercentPerRoll": 4.036367,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 4.036367,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.05455,
+                  "EffectivePercentPerRoll": 4.036367,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -7875,12 +8118,12 @@
               "Call": "WorldList.AthenaHighConsumables.Healing",
               "Count": 1,
               "weight": 1.0,
-              "TotalListWeight": 2.35,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.01",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.045085,
+                  "EffectivePercentPerRoll": 0.04238,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -7889,7 +8132,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.02",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.045085,
+                  "EffectivePercentPerRoll": 0.04238,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -7898,7 +8141,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.03",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 0.045085,
+                  "EffectivePercentPerRoll": 0.04238,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -7907,7 +8150,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.04",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 0.036068,
+                  "EffectivePercentPerRoll": 0.033904,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -7916,7 +8159,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.18",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 0.009017,
+                  "EffectivePercentPerRoll": 0.008476,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
@@ -7925,16 +8168,25 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.24",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 0.007214,
+                  "EffectivePercentPerRoll": 0.006781,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
                   "LocalizedName": "スラッペローニ・ピザ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaHighConsumables.Healing.34",
+                  "Weight": 0.15,
+                  "EffectivePercentPerRoll": 0.012714,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.35",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 0.013526,
+                  "EffectivePercentPerRoll": 0.012714,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -7943,7 +8195,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.37",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 0.01082,
+                  "EffectivePercentPerRoll": 0.010171,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -8077,12 +8329,12 @@
               "Call": "WorldList.AthenaHighConsumables.Healing",
               "Count": 1,
               "weight": 0.7,
-              "TotalListWeight": 2.35,
+              "TotalListWeight": 2.5,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.01",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 3.606966,
+                  "EffectivePercentPerRoll": 3.390548,
                   "rarity": "コモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
                   "CountItem": 5,
@@ -8091,7 +8343,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.02",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 3.606966,
+                  "EffectivePercentPerRoll": 3.390548,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -8100,7 +8352,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.03",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 3.606966,
+                  "EffectivePercentPerRoll": 3.390548,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -8109,7 +8361,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.04",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 2.885573,
+                  "EffectivePercentPerRoll": 2.712438,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -8118,7 +8370,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.18",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 0.721393,
+                  "EffectivePercentPerRoll": 0.67811,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
@@ -8127,16 +8379,25 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.24",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 0.577114,
+                  "EffectivePercentPerRoll": 0.542488,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
                   "LocalizedName": "スラッペローニ・ピザ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaHighConsumables.Healing.34",
+                  "Weight": 0.15,
+                  "EffectivePercentPerRoll": 1.017164,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.35",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 1.08209,
+                  "EffectivePercentPerRoll": 1.017164,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -8145,7 +8406,7 @@
                 {
                   "WorldListID": "WorldList.AthenaHighConsumables.Healing.37",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 0.865672,
+                  "EffectivePercentPerRoll": 0.813732,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -8726,7 +8987,7 @@
                   "ListPercentLocal": 10.0,
                   "rarity": "コモン",
                   "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-                  "CountItem": 1000,
+                  "CountItem": 750,
                   "LocalizedName": "ゴールド"
                 },
                 {
@@ -8735,7 +8996,7 @@
                   "ListPercentLocal": 30.0,
                   "rarity": "コモン",
                   "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-                  "CountItem": 1250,
+                  "CountItem": 900,
                   "LocalizedName": "ゴールド"
                 },
                 {
@@ -8744,7 +9005,7 @@
                   "ListPercentLocal": 48.0,
                   "rarity": "コモン",
                   "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-                  "CountItem": 1500,
+                  "CountItem": 1125,
                   "LocalizedName": "ゴールド"
                 },
                 {
@@ -8753,7 +9014,7 @@
                   "ListPercentLocal": 10.0,
                   "rarity": "コモン",
                   "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-                  "CountItem": 1750,
+                  "CountItem": 1300,
                   "LocalizedName": "ゴールド"
                 },
                 {
@@ -8762,7 +9023,7 @@
                   "ListPercentLocal": 2.0,
                   "rarity": "コモン",
                   "AssetPathName": "/Game/Items/ResourcePickups/Athena_WadsItemData.Athena_WadsItemData",
-                  "CountItem": 3000,
+                  "CountItem": 2250,
                   "LocalizedName": "ゴールド"
                 }
               ]
@@ -9029,7 +9290,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -9038,12 +9299,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 1,
               "weight": 0.4,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 17.664142,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 3.532828,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.706566,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.176641,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 35.328284,
+                  "EffectivePercentPerRoll": 17.664142,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -9052,7 +9349,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 7.065657,
+                  "EffectivePercentPerRoll": 3.532828,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -9061,7 +9358,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 1.413131,
+                  "EffectivePercentPerRoll": 0.706566,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -9070,7 +9367,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.353283,
+                  "EffectivePercentPerRoll": 0.176641,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -9249,7 +9546,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -9258,7 +9555,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -9276,7 +9573,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -9285,25 +9582,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 1,
               "weight": 0.3,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 14.90412,
+                  "EffectivePercentPerRoll": 9.93608,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 9.93608,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 14.90412,
+                  "EffectivePercentPerRoll": 9.93608,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -9550,7 +9856,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -9559,25 +9865,34 @@
               "Call": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
               "Count": 1,
               "weight": 0.12,
-              "TotalListWeight": 0.35,
+              "TotalListWeight": 0.525,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.51",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 4.585883,
+                  "EffectivePercentPerRoll": 3.057255,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.58",
+                  "Weight": 0.175,
+                  "EffectivePercentPerRoll": 3.057255,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Handgun.62",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 4.585883,
+                  "EffectivePercentPerRoll": 3.057255,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -9586,12 +9901,39 @@
               "Call": "WorldList.AthenaSupplyDrop.Weapon.SMG",
               "Count": 1,
               "weight": 0.32,
-              "TotalListWeight": 0.55,
+              "TotalListWeight": 0.925,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.22",
+                  "Weight": 0.225,
+                  "EffectivePercentPerRoll": 5.949254,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.23",
+                  "Weight": 0.125,
+                  "EffectivePercentPerRoll": 3.305141,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.24",
+                  "Weight": 0.025,
+                  "EffectivePercentPerRoll": 0.661028,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.49",
                   "Weight": 0.225,
-                  "EffectivePercentPerRoll": 10.005563,
+                  "EffectivePercentPerRoll": 5.949254,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -9600,7 +9942,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.50",
                   "Weight": 0.125,
-                  "EffectivePercentPerRoll": 5.558646,
+                  "EffectivePercentPerRoll": 3.305141,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -9609,7 +9951,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.51",
                   "Weight": 0.025,
-                  "EffectivePercentPerRoll": 1.111729,
+                  "EffectivePercentPerRoll": 0.661028,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -9618,11 +9960,11 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.SMG.83",
                   "Weight": 0.175,
-                  "EffectivePercentPerRoll": 7.782105,
+                  "EffectivePercentPerRoll": 4.627197,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/FlexSMG/WMID/WMID_SMG_DragonCart_Athena_BB_UC.WMID_SMG_DragonCart_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・フレックスサブマシンガン"
                 }
               ]
             },
@@ -9667,7 +10009,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Assault.37",
@@ -9676,7 +10018,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaSupplyDrop.Weapon.Assault.38",
@@ -9694,7 +10036,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -10436,12 +10778,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 22.080178,
+                  "EffectivePercentPerRoll": 20.700166,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -10450,7 +10792,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 22.080178,
+                  "EffectivePercentPerRoll": 20.700166,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -10459,7 +10801,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "EffectivePercentPerRoll": 27.600222,
+                  "EffectivePercentPerRoll": 25.875209,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -10468,16 +10810,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "EffectivePercentPerRoll": 7.176058,
+                  "EffectivePercentPerRoll": 6.727554,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "EffectivePercentPerRoll": 6.21005,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "EffectivePercentPerRoll": 8.280066,
+                  "EffectivePercentPerRoll": 7.762562,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -10486,7 +10837,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "EffectivePercentPerRoll": 6.624054,
+                  "EffectivePercentPerRoll": 6.21005,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -10495,7 +10846,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "EffectivePercentPerRoll": 5.520045,
+                  "EffectivePercentPerRoll": 5.175041,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -10971,12 +11322,30 @@
               "Call": "WorldList.ApolloLoot.Weapon.SMG",
               "Count": 1,
               "weight": 0.3,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.11",
+                  "Weight": 0.75,
+                  "EffectivePercentPerRoll": 11.25,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.12",
+                  "Weight": 0.25,
+                  "EffectivePercentPerRoll": 3.75,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.25",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 22.5,
+                  "EffectivePercentPerRoll": 11.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -10985,7 +11354,7 @@
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.26",
                   "Weight": 0.25,
-                  "EffectivePercentPerRoll": 7.5,
+                  "EffectivePercentPerRoll": 3.75,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -11020,7 +11389,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.AssaultAuto.62",
@@ -11370,12 +11739,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -11384,7 +11753,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -11393,7 +11762,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -11402,16 +11771,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -11420,7 +11798,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -11429,7 +11807,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -11699,12 +12077,30 @@
               "Call": "WorldList.ApolloLoot.Weapon.SMG",
               "Count": 2,
               "weight": 0.3,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.11",
+                  "Weight": 0.75,
+                  "EffectivePercentPerRoll": 11.25,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.12",
+                  "Weight": 0.25,
+                  "EffectivePercentPerRoll": 3.75,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.25",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 22.5,
+                  "EffectivePercentPerRoll": 11.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -11713,7 +12109,7 @@
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.26",
                   "Weight": 0.25,
-                  "EffectivePercentPerRoll": 7.5,
+                  "EffectivePercentPerRoll": 3.75,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -11748,7 +12144,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.AssaultAuto.62",
@@ -12098,12 +12494,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -12112,7 +12508,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -12121,7 +12517,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -12130,16 +12526,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -12148,7 +12553,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -12157,7 +12562,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -12427,12 +12832,30 @@
               "Call": "WorldList.ApolloLoot.Weapon.SMG",
               "Count": 3,
               "weight": 0.3,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.11",
+                  "Weight": 0.75,
+                  "EffectivePercentPerRoll": 11.25,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.12",
+                  "Weight": 0.25,
+                  "EffectivePercentPerRoll": 3.75,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.25",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 22.5,
+                  "EffectivePercentPerRoll": 11.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -12441,7 +12864,7 @@
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.26",
                   "Weight": 0.25,
-                  "EffectivePercentPerRoll": 7.5,
+                  "EffectivePercentPerRoll": 3.75,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -12476,7 +12899,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.AssaultAuto.62",
@@ -12826,12 +13249,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -12840,7 +13263,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -12849,7 +13272,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -12858,16 +13281,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -12876,7 +13308,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -12885,7 +13317,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -13155,12 +13587,30 @@
               "Call": "WorldList.ApolloLoot.Weapon.SMG",
               "Count": 2,
               "weight": 0.3,
-              "TotalListWeight": 1.0,
+              "TotalListWeight": 2.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.11",
+                  "Weight": 0.75,
+                  "EffectivePercentPerRoll": 11.25,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.12",
+                  "Weight": 0.25,
+                  "EffectivePercentPerRoll": 3.75,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.25",
                   "Weight": 0.75,
-                  "EffectivePercentPerRoll": 22.5,
+                  "EffectivePercentPerRoll": 11.25,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -13169,7 +13619,7 @@
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.SMG.26",
                   "Weight": 0.25,
-                  "EffectivePercentPerRoll": 7.5,
+                  "EffectivePercentPerRoll": 3.75,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -13204,7 +13654,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.ApolloLoot.Weapon.AssaultAuto.62",
@@ -13554,12 +14004,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -13568,7 +14018,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -13577,7 +14027,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -13586,16 +14036,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -13604,7 +14063,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -13613,7 +14072,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -13910,7 +14369,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -13919,12 +14378,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 1,
               "weight": 0.2,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 8.0,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 1.6,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.32,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.08,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 16.0,
+                  "EffectivePercentPerRoll": 8.0,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -13933,7 +14428,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 3.2,
+                  "EffectivePercentPerRoll": 1.6,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -13942,7 +14437,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 0.64,
+                  "EffectivePercentPerRoll": 0.32,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -13951,7 +14446,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.16,
+                  "EffectivePercentPerRoll": 0.08,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -14009,7 +14504,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -14018,7 +14513,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -14036,7 +14531,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             }
@@ -14094,7 +14589,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -14103,7 +14598,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -14121,7 +14616,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -14130,25 +14625,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 1,
               "weight": 0.1,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 4.444444,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -14471,12 +14975,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -14485,7 +14989,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -14494,7 +14998,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -14503,16 +15007,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -14521,7 +15034,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -14530,7 +15043,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -14827,7 +15340,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -14836,12 +15349,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 2,
               "weight": 0.2,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 8.0,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 1.6,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.32,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.08,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 16.0,
+                  "EffectivePercentPerRoll": 8.0,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -14850,7 +15399,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 3.2,
+                  "EffectivePercentPerRoll": 1.6,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -14859,7 +15408,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 0.64,
+                  "EffectivePercentPerRoll": 0.32,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -14868,7 +15417,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.16,
+                  "EffectivePercentPerRoll": 0.08,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -14926,7 +15475,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -14935,7 +15484,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -14953,7 +15502,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             }
@@ -15011,7 +15560,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -15020,7 +15569,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -15038,7 +15587,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -15047,25 +15596,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 2,
               "weight": 0.1,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 4.444444,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -15388,12 +15946,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 2,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -15402,7 +15960,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -15411,7 +15969,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -15420,16 +15978,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -15438,7 +16005,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -15447,7 +16014,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -15744,7 +16311,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -15753,12 +16320,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 3,
               "weight": 0.2,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 8.0,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 1.6,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.32,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.08,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 16.0,
+                  "EffectivePercentPerRoll": 8.0,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -15767,7 +16370,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 3.2,
+                  "EffectivePercentPerRoll": 1.6,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -15776,7 +16379,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 0.64,
+                  "EffectivePercentPerRoll": 0.32,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -15785,7 +16388,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.16,
+                  "EffectivePercentPerRoll": 0.08,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -15843,7 +16446,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -15852,7 +16455,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -15870,7 +16473,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             }
@@ -15928,7 +16531,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -15937,7 +16540,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -15955,7 +16558,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -15964,25 +16567,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 3,
               "weight": 0.1,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 4.444444,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -16305,12 +16917,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -16319,7 +16931,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -16328,7 +16940,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -16337,16 +16949,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -16355,7 +16976,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -16364,7 +16985,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -16661,7 +17282,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HavocPump/WMID/WMID_Shotgun_RadicalPump_Athena_BB_UC.WMID_Shotgun_RadicalPump_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハボックポンプショットガン"
                 }
               ]
             },
@@ -16670,12 +17291,48 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighSMG",
               "Count": 2,
               "weight": 0.2,
-              "TotalListWeight": 0.5,
+              "TotalListWeight": 1.0,
               "ListItems": [
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.21",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 8.0,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC.WID_SMG_Recoil_Athena_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.22",
+                  "Weight": 0.08,
+                  "EffectivePercentPerRoll": 1.6,
+                  "rarity": "レア",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R.WID_SMG_Recoil_Athena_R",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.23",
+                  "Weight": 0.016,
+                  "EffectivePercentPerRoll": 0.32,
+                  "rarity": "エピック",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_VR.WID_SMG_Recoil_Athena_VR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
+                {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.24",
+                  "Weight": 0.004,
+                  "EffectivePercentPerRoll": 0.08,
+                  "rarity": "レジェンド",
+                  "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_SR.WID_SMG_Recoil_Athena_SR",
+                  "CountItem": 1,
+                  "LocalizedName": "コンバットサブマシンガン"
+                },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.48",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 16.0,
+                  "EffectivePercentPerRoll": 8.0,
                   "rarity": "アンコモン",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UC.WID_SMG_FirePetal_Athena_UC",
                   "CountItem": 1,
@@ -16684,7 +17341,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.49",
                   "Weight": 0.08,
-                  "EffectivePercentPerRoll": 3.2,
+                  "EffectivePercentPerRoll": 1.6,
                   "rarity": "レア",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_R.WID_SMG_FirePetal_Athena_R",
                   "CountItem": 1,
@@ -16693,7 +17350,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.50",
                   "Weight": 0.016,
-                  "EffectivePercentPerRoll": 0.64,
+                  "EffectivePercentPerRoll": 0.32,
                   "rarity": "エピック",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_VR.WID_SMG_FirePetal_Athena_VR",
                   "CountItem": 1,
@@ -16702,7 +17359,7 @@
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighSMG.51",
                   "Weight": 0.004,
-                  "EffectivePercentPerRoll": 0.16,
+                  "EffectivePercentPerRoll": 0.08,
                   "rarity": "レジェンド",
                   "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_SR.WID_SMG_FirePetal_Athena_SR",
                   "CountItem": 1,
@@ -16760,7 +17417,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -16769,7 +17426,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -16787,7 +17444,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             }
@@ -16845,7 +17502,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/SpireAR/WMID/WMID_Assault_CherrySmoke_Athena_BB_UC.WMID_Assault_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・スパイア・ライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.37",
@@ -16854,7 +17511,7 @@
                   "rarity": "レア",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_R_Ore_T03.WID_Assault_Suppressed_Athena_R_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 },
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto.38",
@@ -16872,7 +17529,7 @@
                   "rarity": "レジェンド",
                   "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Suppressed_Athena_SR_Ore_T03.WID_Assault_Suppressed_Athena_SR_Ore_T03",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "サイレンサー付きアサルトライフル"
                 }
               ]
             },
@@ -16881,25 +17538,34 @@
               "Call": "WorldList.AthenaLoot.Weapon.HighHandgun",
               "Count": 2,
               "weight": 0.1,
-              "TotalListWeight": 0.8,
+              "TotalListWeight": 1.2,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.52",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "レア",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HandCannon/WMIDs/WMID_Pistol_HandCannon_Athena_BB_R.WMID_Pistol_HandCannon_Athena_BB_R",
                   "CountItem": 1,
                   "LocalizedName": "モルファイト・ハンドキャノン"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.59",
+                  "Weight": 0.4,
+                  "EffectivePercentPerRoll": 4.444444,
+                  "rarity": "アンコモン",
+                  "AssetPathName": "/BlastBerryWeapons/Gameplay/Mammoth/WMID/WMID_Pistol_Chrono_Athena_BB_UC.WMID_Pistol_Chrono_Athena_BB_UC",
+                  "CountItem": 1,
+                  "LocalizedName": "モルファイト・マンモスピストル"
+                },
+                {
                   "WorldListID": "WorldList.AthenaLoot.Weapon.HighHandgun.63",
                   "Weight": 0.4,
-                  "EffectivePercentPerRoll": 6.666666,
+                  "EffectivePercentPerRoll": 4.444444,
                   "rarity": "アンコモン",
                   "AssetPathName": "/BlastBerryWeapons/Gameplay/HyperburstPistol/WMID/WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC.WMID_Pisto_Auto_CherrySmoke_Athena_BB_UC",
                   "CountItem": 1,
-                  "LocalizedName": "???"
+                  "LocalizedName": "モルファイト・ハイパーバースト・ピストル"
                 }
               ]
             },
@@ -17222,12 +17888,12 @@
               "Call": "WorldList.AthenaSupplyDropHeals",
               "Count": 3,
               "weight": 1.0,
-              "TotalListWeight": 1.8,
+              "TotalListWeight": 1.92,
               "ListItems": [
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.02",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
                   "CountItem": 1,
@@ -17236,7 +17902,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.03",
                   "Weight": 0.4,
-                  "ListPercentLocal": 22.222222,
+                  "ListPercentLocal": 20.833333,
                   "rarity": "アンコモン",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldSmallRefresh/WID_Paprika_ShieldSmall.WID_Paprika_ShieldSmall",
                   "CountItem": 3,
@@ -17245,7 +17911,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.04",
                   "Weight": 0.5,
-                  "ListPercentLocal": 27.777778,
+                  "ListPercentLocal": 26.041667,
                   "rarity": "レア",
                   "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
                   "CountItem": 1,
@@ -17254,16 +17920,25 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.06",
                   "Weight": 0.13,
-                  "ListPercentLocal": 7.222222,
+                  "ListPercentLocal": 6.770833,
                   "rarity": "レア",
                   "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator.WID_Athena_ShieldGenerator",
                   "CountItem": 1,
                   "LocalizedName": "シールドケグ"
                 },
                 {
+                  "WorldListID": "WorldList.AthenaSupplyDropHeals.13",
+                  "Weight": 0.12,
+                  "ListPercentLocal": 6.25,
+                  "rarity": "レア",
+                  "AssetPathName": "/PaprikaConsumables/Gameplay/TeamSpray/WID_Paprika_TeamSpray_LowGrav.WID_Paprika_TeamSpray_LowGrav",
+                  "CountItem": 1,
+                  "LocalizedName": "フローベリー・フィズ"
+                },
+                {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.14",
                   "Weight": 0.15,
-                  "ListPercentLocal": 8.333333,
+                  "ListPercentLocal": 7.8125,
                   "rarity": "レア",
                   "AssetPathName": "/MusterConsumables/Items/EnergyDrink/Items/WID_Athena_EnergyDrink.WID_Athena_EnergyDrink",
                   "CountItem": 2,
@@ -17272,7 +17947,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.16",
                   "Weight": 0.12,
-                  "ListPercentLocal": 6.666667,
+                  "ListPercentLocal": 6.25,
                   "rarity": "レア",
                   "AssetPathName": "/ChronoConsumables/Gameplay/SlapSplash/WID_Chrono_SlapSplash.WID_Chrono_SlapSplash",
                   "CountItem": 2,
@@ -17281,7 +17956,7 @@
                 {
                   "WorldListID": "WorldList.AthenaSupplyDropHeals.18",
                   "Weight": 0.1,
-                  "ListPercentLocal": 5.555556,
+                  "ListPercentLocal": 5.208333,
                   "rarity": "レジェンド",
                   "AssetPathName": "/TeaCakeConsumables/Gameplay/SlapperoniPizza/CID_Athena_TeaCake_TeamHealing.CID_Athena_TeaCake_TeamHealing",
                   "CountItem": 1,
@@ -17560,7 +18235,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleUncommon/WID_Athena_Apple_UC.WID_Athena_Apple_UC",
                   "CountItem": 4,
-                  "LocalizedName": "Apple"
+                  "LocalizedName": "リンゴ"
                 },
                 {
                   "WorldListID": "LIST_FoodBox_Produce_02",
@@ -17569,7 +18244,7 @@
                   "rarity": "エキゾチック",
                   "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleExotic/WID_Athena_Apple_X.WID_Athena_Apple_X",
                   "CountItem": 1,
-                  "LocalizedName": "Golden Apple"
+                  "LocalizedName": "金のリンゴ"
                 },
                 {
                   "WorldListID": "LIST_FoodBox_Produce_03",
@@ -17578,7 +18253,7 @@
                   "rarity": "アンコモン",
                   "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/PepperUncommon/WID_Athena_Pepper_UC.WID_Athena_Pepper_UC",
                   "CountItem": 3,
-                  "LocalizedName": "Pepper"
+                  "LocalizedName": "ペッパー"
                 }
               ]
             }

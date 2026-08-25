@@ -4,6 +4,9 @@ import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
+from urllib.parse import parse_qs, unquote, urlparse
+
+from http_client import session
 
 # prefer profile-specific config if available
 BASE_DIR = Path(__file__).resolve().parent
@@ -20,10 +23,10 @@ def _resolve_profile_dir(base_dir: Path, profile: str) -> Path | None:
     return None
 
 PROFILE_DIR = _resolve_profile_dir(BASE_DIR, PROFILE)
-if PROFILE_DIR is not None and str(PROFILE_DIR) not in sys.path:
-    sys.path.insert(0, str(PROFILE_DIR))
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
+if PROFILE_DIR is not None and str(PROFILE_DIR) not in sys.path:
+    sys.path.insert(0, str(PROFILE_DIR))
 
 from config import (
     HOTFIX_LT_INI_PATH,
@@ -34,7 +37,7 @@ from config import (
 )
 
 # ==== 入出力（config.py 側で管理）====
-PATH_LIST = [Path(p) for p in (HOTFIX_LT_PATHS or [])][: int(HOTFIX_LT_MAX_PATHS or 10)]
+PATH_LIST = [str(p) for p in (HOTFIX_LT_PATHS or [])][: int(HOTFIX_LT_MAX_PATHS or 10)]
 HOTFIX_PATH = Path(HOTFIX_LT_INI_PATH)
 OUT_FINAL = Path(HOTFIX_LT_OUT_FINAL)
 
@@ -45,23 +48,42 @@ TARGET_LIST = list(HOTFIX_LT_TARGETS or [])
 _num_re = re.compile(r"^[+-]?(?:\d+\.?\d*|\d*\.\d+)(?:[eE][+-]?\d+)?$")
 
 
-def read_datatable_json(path: Path) -> Dict[str, Any]:
-    if path is None:
-        raise ValueError("read_datatable_json: path is None（引数がNoneです）")
-    with path.open("r", encoding="utf-8") as f:
-        data = json.load(f)
+def _source_name(source: str) -> str:
+    parsed = urlparse(source)
+    if parsed.scheme in ("http", "https"):
+        asset_path = parse_qs(parsed.query).get("Path", [parsed.path])[0]
+        return Path(unquote(asset_path)).stem
+    return Path(source).stem
+
+
+def read_datatable_json(source: str) -> Dict[str, Any]:
+    if source is None:
+        raise ValueError("read_datatable_json: source is None（引数がNoneです）")
+    parsed = urlparse(source)
+    if parsed.scheme == "http":
+        raise ValueError(f"{source}: HTTPS URLを指定してください")
+    if parsed.scheme == "https":
+        response = session.get(source, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        if isinstance(data, dict) and "jsonOutput" in data:
+            data = data["jsonOutput"]
+    else:
+        path = Path(source)
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
     if isinstance(data, list):
         if not data:
-            raise ValueError(f"{path.name}: 空リストです")
+            raise ValueError(f"{_source_name(source)}: 空リストです")
         data = data[0]
     if not isinstance(data, dict) or "Rows" not in data:
-        raise ValueError(f"{path.name}: DataTable??????????Rows???????")
+        raise ValueError(f"{_source_name(source)}: DataTable形式ではないか、Rowsがありません")
 
     rows = data.get("Rows")
     if rows is None:
         data["Rows"] = {}
     elif not isinstance(rows, dict):
-        raise ValueError(f"{path.name}: Rows ? dict ????????{type(rows).__name__}?")
+        raise ValueError(f"{_source_name(source)}: Rowsがdictではありません: {type(rows).__name__}")
 
     return data
 
@@ -71,7 +93,7 @@ def write_datatable_json(meta: Dict[str, Any], path: Path) -> None:
         json.dump([meta], f, ensure_ascii=False, indent=2)
 
 
-def _write_per_input_outputs(meta: Dict[str, Any], out_final: Path, path_list: List[Path]) -> None:
+def _write_per_input_outputs(meta: Dict[str, Any], out_final: Path, path_list: List[str]) -> None:
     out_dir = out_final.parent
     written = set()
     try:
@@ -79,7 +101,7 @@ def _write_per_input_outputs(meta: Dict[str, Any], out_final: Path, path_list: L
     except Exception:
         written.add(out_final)
     for p in path_list:
-        stem = p.stem
+        stem = _source_name(p)
         out_path = out_dir / f"{stem}__final.json"
         try:
             key = out_path.resolve()

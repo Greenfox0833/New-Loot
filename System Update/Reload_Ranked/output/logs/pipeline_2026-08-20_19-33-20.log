@@ -107,3 +107,103 @@
 2026-08-20 19:33:22 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
 2026-08-20 19:33:22 | INFO | load done (0.03s)
 2026-08-20 19:33:22 | INFO | build summary start
+2026-08-20 19:33:24 | INFO | build summary done (2.07s)
+2026-08-20 19:33:24 | INFO | enrich summary with names start
+2026-08-20 19:33:25 | INFO | enrich summary done (1.52s)
+2026-08-20 19:33:25 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-20_19-33.json
+2026-08-20 19:33:25 | INFO | build item metadata start
+2026-08-20 19:34:17 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (51.23s)
+2026-08-20 19:34:17 | INFO | build BR_LootData start
+2026-08-20 19:34:17 | INFO | build BR_LootData done (0.00s)
+2026-08-20 19:34:17 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked\Reload_Ranked_LootData_2026-08-20_19-34.json
+2026-08-20 19:34:17 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\assets\data\Loot\Reload_Ranked_LootPool.json
+2026-08-20 19:34:17 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py
+2026-08-20 19:34:17 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-20_19-33.json
+✅ 抽出件数: 143
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-01_09-07.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-08-20_19-33.json
+✅ 差分作成 完了
+  追加   : 45 / 削除 : 52 / 変更 : 0 / 変化なし : 98
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\history\BR_20260820_1934\items_unique_min_diff.json
+2026-08-20 19:34:17 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-08-20 19:34:17 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.31s)
+2026-08-20 19:34:17 | INFO | prewarm start
+2026-08-20 19:34:21 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (4.14s)
+2026-08-20 19:34:21 | INFO | 画像化タスク数: 143
+2026-08-20 19:34:21 | INFO | 画像生成 進捗: 1/143
+2026-08-20 19:34:23 | INFO | 画像生成 進捗: 50/143
+2026-08-20 19:34:23 | INFO | 画像生成 進捗: 100/143
+2026-08-20 19:34:24 | INFO | 画像生成 進捗: 143/143
+2026-08-20 19:34:24 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-08-20 19:34:24 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\assets\data\Loot\diff\Reload_Ranked_2026-08-20_19-34-24.json (added=45 removed=57 change=9)
+2026-08-20 19:34:25 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\Reload_Ranked\AddedItems\2026-08-20_19-34-24 (copied=38 missing=7)
+2026-08-20 19:34:25 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-08-20 19:34:52 | INFO | git commit stdout: [main 5ac8744] Reload_Ranked update 2026-08-20 19:34:46
+ 79 files changed, 81327 insertions(+), 26343 deletions(-)
+ create mode 100644 System Update/Reload_Ranked/output/history/BR_20260820_1934/items_unique_min_diff.json
+ create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-08-20_19-33-20.log
+ create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-08-20_19-33.json
+ create mode 100644 System Update/shared/cache/local_ja_locres_index.json
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Pistol_Hyperburst_Morphite_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Rifle_Spire_Morphite_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_SMG_Flex_Morphite_ui_L.png
+ create mode 100644 System Update/shared/icon_cache/BlastBerryWeapons__Icons__T_Icon_Weapons_Shotgun_Havoc_Morphite_ui_L.png
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2421 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2421 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2421 - \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2421 - \343\202\271\343\203\242\343\203\274\343\203\253\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2421 - \343\203\254\343\202\254\343\202\267\343\203\274\345\214\205\345\270\257.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - Apple.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - Pepper.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\225\343\203\255\343\203\203\343\203\221\343\203\274.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\217\343\203\263\343\203\236\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2422 - \343\203\264\343\202\247\343\203\274\343\203\253\343\203\211 \343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263SMG.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\203\251\343\203\203\343\203\227\343\202\270\343\203\245\343\203\274\343\202\271.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\203\251\343\203\203\343\203\227\343\203\273\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\217\343\203\263\343\203\211\343\202\255\343\203\243\343\203\216\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\203\242\343\203\253\343\203\225\343\202\241\343\202\244\343\203\210\343\203\273\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2423 - \343\203\264\343\202\247\343\203\274\343\203\253\343\203\211 \343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263SMG.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\202\255\343\203\253\343\202\271\343\202\244\343\203\203\343\203\201\343\203\273\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\202\271\343\203\251\343\203\274\343\203\227\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2424 - \343\203\264\343\202\247\343\203\274\343\203\253\343\203\211 \343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263SMG.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2425 - \343\202\242\343\202\244\343\202\242\343\203\263\343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2425 - \343\202\263\343\203\263\343\203\220\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2425 - \343\202\271\343\203\210\343\203\251\343\202\244\343\202\253\343\203\274\343\203\220\343\203\274\343\202\271\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2425 - \343\202\271\343\203\251\343\203\203\343\203\232\343\203\255\343\203\274\343\203\213\343\203\273\343\203\224\343\202\266.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2425 - \343\203\264\343\202\247\343\203\274\343\203\253\343\203\211 \343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263SMG.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/AddedItems/2026-08-20_19-34-24/\343\203\206\343\202\243\343\202\2426 - Golden Apple.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Apple - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Golden Apple - \343\203\206\343\202\243\343\202\2426.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Morphite Flex SMG - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Morphite Havoc Pump Shotgun - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Morphite Hyperburst Pistol - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Morphite Spire Rifle - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Pepper - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Suppressed Assault Rifle - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Suppressed Assault Rifle - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/Veiled Precision SMG - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\255\343\203\253\343\202\271\343\202\244\343\203\203\343\203\201\343\203\273\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\265\343\202\244\343\203\254\343\203\263\343\202\265\343\203\274\344\273\230\343\201\215\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\202\271\343\203\251\343\203\274\343\203\227\343\203\225\343\202\243\343\203\203\343\202\267\343\203\245 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/Reload_Ranked/\343\203\254\343\202\254\343\202\267\343\203\274\345\214\205\345\270\257 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload_Ranked/Reload_Ranked_LootData_2026-08-20_19-34.json"
+2026-08-20 19:35:03 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   fce141e..5ac8744  main -> main
+2026-08-20 19:35:03 | INFO | ✓ GitHub Push 完了
+2026-08-20 19:35:03 | INFO | ===== Reload_Ranked: pipeline end =====

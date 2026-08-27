@@ -25971,7 +25971,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR.WID_ArcadeShotgun_SR",
+        "ItemDefinition": {
+          "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UR.WID_ArcadeShotgun_UR",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -27976,14 +27979,14 @@
       },
       "LIST_Vend_Item_Seasonal_2_01": {
         "LootPackageID": "LIST_Vend_Item_Seasonal_2",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
         ],
         "CountRange": {
-          "x": 1,
-          "y": 1
+          "X": 3,
+          "Y": 3
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -27998,10 +28001,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -45511,7 +45511,7 @@
       },
       "LIST_Boss_SouthBalk_Weapon_01": {
         "LootPackageID": "LIST_Boss_SouthBalk_Weapon",
-        "Weight": 1.0,
+        "Weight": 2.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45533,7 +45533,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR.WID_ArcadeShotgun_SR",
+        "ItemDefinition": "/GoldenFAWeaponGameplay/Gameplay/WID_Pistol_Golden_Athena_UR.WID_Pistol_Golden_Athena_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

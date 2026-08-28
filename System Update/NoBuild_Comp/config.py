@@ -172,11 +172,22 @@ PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "NoBuild_Comp" )
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
-HOTFIX_LP_PATHS = [
+# Hotfix source: "api" or "local"
+HOTFIX_SOURCE = "api"
+if HOTFIX_SOURCE not in {"api", "local"}:
+    raise ValueError('HOTFIX_SOURCE must be "api" or "local"')
+
+HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootPackages_Client.json",
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json",
 ]
+HOTFIX_LP_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootPackages_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.uasset",
+]
+HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
@@ -187,11 +198,17 @@ HOTFIX_LP_TARGETS = [
 ]
 
 # Hotfix設定（LootTier）
-HOTFIX_LT_PATHS = [
+HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootTierData_Client.json",
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
 ]
+HOTFIX_LT_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootTierData_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.uasset",
+]
+HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")

@@ -172,23 +172,47 @@ PATH_LOOTDATA_DIR = str(PROJECT_ROOT / "戦利品データ" / "期間限定" / P
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
-HOTFIX_LP_PATHS = [
+# Hotfix source: "api" or "local"
+HOTFIX_SOURCE = "api"
+if HOTFIX_SOURCE not in {"api", "local"}:
+    raise ValueError('HOTFIX_SOURCE must be "api" or "local"')
+
+HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootPackages.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootPackages_Override.json"
 ]
+HOTFIX_LP_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootPackages.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootPackages_Override.uasset",
+]
+HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
+HOTFIX_LP_MAX_PATHS = 10
+HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Poo…506 tokens truncated…api"
+if HOTFIX_SOURCE not in {"api", "local"}:
+    raise ValueError('HOTFIX_SOURCE must be "api" or "local"')
+
+HOTFIX_LP_LOCAL_PATHS = [
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet1/Content/DataTables/ItemCache_01_LootPackages.json"
+]
+HOTFIX_LP_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet1/Content/DataTables/ItemCache_01_LootPackages.uasset",
+]
+HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
-    "/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootPackages",
-    "/HazelnutSpread/DataTables/HazelnutSpread_AthenaLootPackages_Override"
+    "/RA_ItemCache_ItemSet1/DataTables/ItemCache_01_LootPackages"
 ]
 
 # Hotfix設定（LootTier）
-HOTFIX_LT_PATHS = [
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootTierData.json",
-    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/HazelnutSpread/Content/DataTables/HazelnutSpread_AthenaLootTierData_Override.json"
+HOTFIX_LT_LOCAL_PATHS = [
+    "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet1/Content/DataTables/ItemCache_01_LootTierData.json"
 ]
+HOTFIX_LT_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet1/Content/DataTables/ItemCache_01_LootTierData.uasset",
+]
+HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")

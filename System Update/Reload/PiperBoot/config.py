@@ -172,13 +172,26 @@ PATH_LOOTDATA_DIR = str(COMMON_DIR / "戦利品データ" / "Reload" / "PiperBoo
 PATH_REPO_DIR = str(PROJECT_ROOT)
 
 # Hotfix設定（LootPackage）
-HOTFIX_LP_PATHS = [
+# Hotfix source: "api" or "local"
+HOTFIX_SOURCE = "api"
+if HOTFIX_SOURCE not in {"api", "local"}:
+    raise ValueError('HOTFIX_SOURCE must be "api" or "local"')
+
+HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerry_AthenaLootPackages_Unranked.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/PiperBoot/PiperBootLootPackages.json",
 ]
+HOTFIX_LP_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerry_AthenaLootPackages_Unranked.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/PiperBoot/PiperBootLootPackages.uasset",
+]
+HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
 HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
@@ -191,11 +204,17 @@ HOTFIX_LP_TARGETS = [
 ]
 
 # Hotfix設定（LootTier）
-HOTFIX_LT_PATHS = [
+HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.json",
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.json",
 ]
+HOTFIX_LT_API_PATHS = [
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.uasset",
+]
+HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10
 HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Hotfix.ini"
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")

@@ -184,8 +184,12 @@ HOTFIX_LP_LOCAL_PATHS = [
 ]
 HOTFIX_LP_API_PATHS = [
     "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP.uasset"
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -193,8 +197,12 @@ HOTFIX_LP_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Ho
 HOTFIX_LP_OUT_FINAL = str(INPUT_DIR / "AthenaLootPackages_Client__final.json")
 HOTFIX_LP_TARGETS = [
     "/Game/Items/DataTables/AthenaLootPackages_Client",
-    "/OrangeRemoteLoot/DataTables/OrangeRemoteLootPackages_Client",
-    "/OrangeRemoteLoot/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR",
+    "/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client",
+    "/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp",
+    "/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP",
+    "/CosmicThunderLoot/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild",
+    "/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR",
+    "/CosmicThunderLoot/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP"
 ]
 
 # Hotfix設定（LootTier）
@@ -205,8 +213,8 @@ HOTFIX_LT_LOCAL_PATHS = [
 ]
 HOTFIX_LT_API_PATHS = [
     "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/OrangeRemoteLootTierData_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10
@@ -214,8 +222,8 @@ HOTFIX_LT_INI_PATH = "E:/フォートナイト/Picture/Loot Pool/TEST4/Hotfix/Ho
 HOTFIX_LT_OUT_FINAL = str(INPUT_DIR / "AthenaLootTierData_Client__final.json")
 HOTFIX_LT_TARGETS = [
     "/Game/Items/DataTables/AthenaLootTierData_Client",
-    "/OrangeRemoteLoot/DataTables/OrangeRemoteLootTierData_Client",
-    "/OrangeRemoteLoot/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR",
+    "/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client",
+    "/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR",
 ]
 
 # パス解決（System Update 完結のため無効化）

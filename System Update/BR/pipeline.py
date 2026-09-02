@@ -15,7 +15,7 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/BR_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/BR_LootPool.json"
 
 from cache import build_item_metadata_index, enrich_summary_with_names, upsert_item_metadata_file
 from config import (
@@ -297,11 +297,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-

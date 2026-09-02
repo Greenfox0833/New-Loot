@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -19,7 +19,7 @@ if str(COMMON_DIR) not in sys.path:
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Reload_Comp_20260326_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/Reload_Comp_20260326_LootPool.json"
 
 # Ensure child scripts use Reload_Comp_20260326 profile
 os.environ["SYSTEM_PROFILE"] = "Reload_Comp_20260326"

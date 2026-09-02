@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -16,7 +16,7 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Reload_NoBuild_Ranked_ZB_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/Reload_NoBuild_Ranked_ZB_LootPool.json"
 
 # Ensure child scripts use Reload_NoBuild_Ranked profile by default
 os.environ.setdefault("SYSTEM_PROFILE", "Reload_NoBuild_Ranked")

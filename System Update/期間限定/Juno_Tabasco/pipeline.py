@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -19,7 +19,7 @@ if str(COMMON_DIR) not in sys.path:
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Juno_Tabasco_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/Juno_Tabasco_LootPool.json"
 
 # Ensure child scripts use Juno_Tabasco profile
 os.environ["SYSTEM_PROFILE"] = "Juno_Tabasco"

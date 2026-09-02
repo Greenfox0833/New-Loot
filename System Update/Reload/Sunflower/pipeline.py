@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 import subprocess
 import sys
@@ -16,7 +16,7 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/assets/data/Loot/Sunflower_LootPool.json"
+WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/Sunflower_LootPool.json"
 
 # Ensure child scripts resolve profile config at System Update/Reload/Sunflower
 os.environ["SYSTEM_PROFILE"] = "Reload/Sunflower"

@@ -1,4 +1,4 @@
-﻿import os
+import os
 from pathlib import Path
 
 # ---------------- 設定（System Update/Figment_NoBuild 完結版） ----------------
@@ -100,8 +100,8 @@ RARITY_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_rarity_cache.js
 ASSET_LOC_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_localize_cache.json")
 ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
 
-ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/assets/img/Loot_Icon"
-ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/assets/data/asset_icon_cache.json"
+ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/loot/images"
+ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/loot/data/asset_icon_cache.json"
 
 # 画像素材など（必要なら System Update/NoBuild/assets に移して更新）
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"

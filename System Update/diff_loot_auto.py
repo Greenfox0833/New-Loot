@@ -8,7 +8,7 @@ from diff_loot import diff_items, load_json, normalize_items
 JST = timezone(timedelta(hours=9))
 BASE_DIR = Path(__file__).resolve().parent
 DATA_ROOT = BASE_DIR / "戦利品データ"
-OUTPUT_DIR = Path(r"E:\フォートナイト\Web\assets\data\Loot\diff")
+OUTPUT_DIR = Path(r"E:\フォートナイト\Web\loot\data\diff")
 INDEX_PATH = OUTPUT_DIR / "index.json"
 
 MODE_OUTPUT_NAMES = {

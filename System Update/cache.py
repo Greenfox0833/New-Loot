@@ -32,7 +32,7 @@ from export_api import (
 )
 from http_client import session
 
-WEB_ITEM_METADATA_FILE = Path(r"E:/フォートナイト/Web/assets/data/item_metadata.json")
+WEB_ITEM_METADATA_FILE = Path(r"E:/フォートナイト/Web/loot/data/item_metadata.json")
 
 try:
     with open(ICON_CACHE_FILE, "r", encoding="utf-8") as f:

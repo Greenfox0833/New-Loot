@@ -1,4 +1,4 @@
-﻿import os
+import os
 import runpy
 from pathlib import Path
 
@@ -89,8 +89,8 @@ ASSET_LOC_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_localize_cac
 ICON_CACHE_DIR = str(COMMON_DIR / "shared" / "icon_cache")
 ICON_CACHE_FILE = str(COMMON_DIR / "shared" / "cache" / "asset_icon_cache.json")
 
-ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/assets/img/Loot_Icon"
-ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/assets/data/asset_icon_cache.json"
+ICON_CACHE_DIR_SECONDARY = r"E:/フォートナイト/Web/loot/images"
+ICON_CACHE_FILE_SECONDARY = r"E:/フォートナイト/Web/loot/data/asset_icon_cache.json"
 
 # 画像素材など
 FONT_PATH = "c:/USERS/FN_GREENFOX/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/NOTOSANSJP-BOLD.OTF"

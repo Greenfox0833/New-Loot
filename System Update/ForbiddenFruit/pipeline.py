@@ -82,6 +82,7 @@ def get_versioned_filename(prefix, save_dir):
 
 def main():
     logger = _setup_logger()
+    pipeline_succeeded = False
     loot_summary_py = Path(PATH_LOOT_SUMMARY)
     version_save_dir = Path(PATH_VERSION_SAVE_DIR)
     lt_json_path = Path(PATH_LT_JSON)
@@ -273,11 +274,22 @@ def main():
                     logger.info("ℹ️ AddedItems 画像の追加対象なし (copied=%s missing=%s)", copied_count, missing_count)
         except Exception:
             logger.warning("Loot diff に失敗: %s", traceback.format_exc().strip())
+        pipeline_succeeded = True
     except Exception as e:
         logger.error("[!] main 内でエラー: %s", e)
+        if isinstance(e, subprocess.CalledProcessError):
+            if e.stdout:
+                logger.error("failed subprocess stdout: %s", e.stdout.strip())
+            if e.stderr:
+                logger.error("failed subprocess stderr: %s", e.stderr.strip())
         logger.error(traceback.format_exc().strip())
 
     finally:
+
+        if not pipeline_succeeded:
+            logger.error("pipeline failed: git add/commit/push をスキップします")
+            logger.info("===== ForbiddenFruit: pipeline end (failed) =====")
+            return
 
         try:
             repo_dir = Path(PATH_REPO_DIR)

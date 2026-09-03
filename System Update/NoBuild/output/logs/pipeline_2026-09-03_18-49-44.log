@@ -4,3 +4,129 @@
 2026-09-03 18:49:44 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild
 2026-09-03 18:49:44 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-09-03 18:49:44 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-09-03 18:49:46 | INFO | hotfix lp stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[1475] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.010000 -> OK
+[1476] RowUpdate PKG_FishingHole_Consumable_03.Weight=0.010000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=2, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset : replaced=142, added=512
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client
+[1379] RowUpdate LIST_Boss_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1380] RowUpdate LIST_LlamaSupply_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1472] RowUpdate LIST_Vend_Item_Seasonal_2_01.Weight=1.000000 -> OK
+[1473] RowUpdate LIST_Vend_Item_Seasonal_2_01.CountRange=(X=3,Y=3) -> OK
+[1474] RowUpdate LIST_Vend_Item_Seasonal_2_01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1477] RowUpdate LIST_FishingHole_Legendary_Consumable_04.Weight=0.5000 -> OK
+[1577] RowUpdate LIST_Weapons_Common_Shotgun_06.Weight=1.000000 -> OK
+[1578] RowUpdate LIST_Weapons_Common_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C.WID_CrimsonMist_TacSG_C -> OK
+[1579] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.Weight=1.000000 -> OK
+[1580] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC -> OK
+[1581] RowUpdate LIST_Weapons_Rare_Shotgun_06.Weight=1.000000 -> OK
+[1582] RowUpdate LIST_Weapons_Rare_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R.WID_CrimsonMist_TacSG_R -> OK
+[1583] RowUpdate LIST_Weapons_Epic_Shotgun_06.Weight=1.000000 -> OK
+[1584] RowUpdate LIST_Weapons_Epic_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR.WID_CrimsonMist_TacSG_VR -> OK
+[1585] RowUpdate LIST_Weapons_Legendary_Shotgun_06.Weight=1.000000 -> OK
+[1586] RowUpdate LIST_Weapons_Legendary_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR.WID_CrimsonMist_TacSG_SR -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=16, deleted=0, skipped=0
+[STEP1-3] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR.uasset : replaced=47, added=5
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR
+[1415] RowUpdate LIST_Consumables_ZeroBuild_03.Weight=0.04000 -> OK
+[1416] RowUpdate LIST_Consumables_ZeroBuild_04.Weight=0.150000 -> OK
+[1417] RowUpdate LIST_Consumables_ZeroBuild_05.Weight=0.170000 -> OK
+[1418] RowUpdate LIST_Consumables_ZeroBuild_07.Weight=0.280000 -> OK
+[1721] RowUpdate PKG_FloorLoot_Consumable_05.Weight=0.33000 -> OK
+[1722] RowUpdate PKG_Chest_Weapon_Shotgun_10.Weight=0.45000 -> OK
+[1723] RowUpdate PKG_Chest_Weapon_Handgun_10.Weight=0.45000 -> OK
+[1724] RowUpdate PKG_Chest_Weapon_SMG_10.Weight=0.45000 -> OK
+[1725] RowUpdate PKG_Chest_Weapon_Assault_10.Weight=0.45000 -> OK
+[1726] RowUpdate PKG_Chest_Weapon_Sniper_10.Weight=0.45000 -> OK
+[1727] RowUpdate PKG_Chest_Weapon_Bow_10.Weight=0.45000 -> OK
+[1728] RowUpdate PKG_Chest_Weapon_Launcher_10.Weight=0.45000 -> OK
+[1729] RowUpdate PKG_Chest_Weapon_Melee_10.Weight=0.45000 -> OK
+[1730] RowUpdate PKG_RareChest_Weapon_Shotgun_08.Weight=0.450000 -> OK
+[1731] RowUpdate PKG_RareChest_Weapon_Handgun_08.Weight=0.450000 -> OK
+[1732] RowUpdate PKG_RareChest_Weapon_SMG_08.Weight=0.450000 -> OK
+[1733] RowUpdate PKG_RareChest_Weapon_Assault_08.Weight=0.450000 -> OK
+[1734] RowUpdate PKG_RareChest_Weapon_Sniper_08.Weight=0.450000 -> OK
+[1735] RowUpdate PKG_RareChest_Weapon_Bow_08.Weight=0.450000 -> OK
+[1736] RowUpdate PKG_RareChest_Weapon_Launcher_08.Weight=0.450000 -> OK
+[1737] RowUpdate PKG_RareChest_Weapon_Melee_08.Weight=0.450000 -> OK
+[1755] RowUpdate LIST_Consumables_ZeroBuild_01.Weight=0.250000 -> OK
+[1756] RowUpdate LIST_Consumables_ZeroBuild_01.CountRange=(X=2,Y=2) -> OK
+[1757] RowUpdate LIST_Consumables_ZeroBuild_01.ItemDefinition=/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC -> OK
+[1758] RowUpdate LIST_Consumables_ZeroBuild_02.Weight=0.150000 -> OK
+[1759] RowUpdate LIST_Consumables_ZeroBuild_02.CountRange=(X=1,Y=1) -> OK
+[1760] RowUpdate LIST_Consumables_ZeroBuild_03.Weight=0.050000 -> OK
+[1761] RowUpdate LIST_Consumables_ZeroBuild_04.Weight=0.000000 -> OK
+[1762] RowUpdate LIST_Consumables_ZeroBuild_05.Weight=0.100000 -> OK
+[1763] RowUpdate LIST_Consumables_ZeroBuild_06.Weight=0.300000 -> OK
+[1764] RowUpdate LIST_Consumables_ZeroBuild_07.Weight=0.300000 -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=31, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\CosmicThunderLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\CosmicThunder_Override_LootPackages_NoBuildBR__final.json
+2026-09-03 18:49:46 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-09-03 18:49:48 | INFO | hotfix lt stdout: [STEP1-1] base https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[1198] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1199] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1200] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[HOTFIX:SEASON1] done: applied=3, deleted=0, skipped=0
+[STEP1-2] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset : replaced=1, added=36
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[STEP1-3] merge https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR.uasset : replaced=1, added=0
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\CosmicThunderLootTiers_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\CosmicThunder_Override_LootTiers_NoBuildBR__final.json
+2026-09-03 18:49:48 | INFO | ✓ Hotfix 適用完了 (3.81s)
+2026-09-03 18:49:48 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\AthenaLootTierData_Client__final.json
+2026-09-03 18:49:48 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\AthenaLootPackages_Client__final.json
+2026-09-03 18:49:48 | INFO | load done (0.01s)
+2026-09-03 18:49:48 | INFO | build summary start
+2026-09-03 18:49:48 | INFO | build summary done (0.02s)
+2026-09-03 18:49:48 | INFO | enrich summary with names start
+2026-09-03 18:49:48 | INFO | enrich summary done (0.00s)
+2026-09-03 18:49:48 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-09-03_18-49.json
+2026-09-03 18:49:48 | INFO | build item metadata start
+2026-09-03 18:50:42 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (53.77s)
+2026-09-03 18:50:42 | INFO | build BR_LootData start
+2026-09-03 18:50:42 | INFO | build BR_LootData done (0.00s)
+2026-09-03 18:50:42 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild\NoBuild_LootData_2026-09-03_18-50.json
+2026-09-03 18:50:42 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\loot\data\ZB_LootPool.json
+2026-09-03 18:50:42 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py
+2026-09-03 18:50:43 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-09-03_18-49.json
+✅ 抽出件数: 76
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-09-03_17-39.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\summary\v39.30_2026-09-03_18-49.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 0 / 変化なし : 76
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\output\history\BR_20260903_1850\items_unique_min_diff.json
+2026-09-03 18:50:43 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-09-03 18:50:43 | INFO | ✅ LootSummary 実行完了（抽出→比較） (1.20s)
+2026-09-03 18:50:43 | INFO | prewarm start
+2026-09-03 18:50:44 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.00s)
+2026-09-03 18:50:44 | INFO | 画像化タスク数: 76
+2026-09-03 18:50:44 | INFO | 画像生成 進捗: 1/76
+2026-09-03 18:50:45 | INFO | 画像生成 進捗: 50/76
+2026-09-03 18:50:45 | INFO | 画像生成 進捗: 76/76
+2026-09-03 18:50:45 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-09-03 18:50:45 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-09-03 18:50:45 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-09-03 18:51:06 | INFO | git commit stdout: [main 1bf6ffb] BR update 2026-09-03 18:51:01
+ 7 files changed, 34273 insertions(+), 4 deletions(-)
+ create mode 100644 System Update/NoBuild/output/history/BR_20260903_1850/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild/output/logs/pipeline_2026-09-03_18-49-44.log
+ create mode 100644 System Update/NoBuild/output/summary/v39.30_2026-09-03_18-49.json
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild/NoBuild_LootData_2026-09-03_18-50.json"
+2026-09-03 18:51:10 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   44b3331..1bf6ffb  main -> main
+2026-09-03 18:51:10 | INFO | ✓ GitHub Push 完了
+2026-09-03 18:51:10 | INFO | ===== BR: pipeline end =====

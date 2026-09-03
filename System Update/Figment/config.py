@@ -182,8 +182,8 @@ HOTFIX_LP_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootPackages_Backup.json",
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootPackages.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootPackages_Backup.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootPackages.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootPackages_Backup.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -200,8 +200,8 @@ HOTFIX_LT_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootTierData_Backup.json",
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootTierData.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootTierData_Backup.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootTierData.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Figment/Figment_LootTables/Content/DataTables/FigmentLootTierData_Backup.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

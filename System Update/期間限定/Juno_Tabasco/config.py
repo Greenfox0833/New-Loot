@@ -185,11 +185,11 @@ HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootPackages_Tabasco.json"
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_ResourceNodeLootPackages.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_GameplayItemLootPackages_TabascoGameplay.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_AILootPackages_Tabasco.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootChestLootPackages_Tabasco.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootPackages_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_ResourceNodeLootPackages.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_GameplayItemLootPackages_TabascoGameplay.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_AILootPackages_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootChestLootPackages_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootPackages_Tabasco.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -212,11 +212,11 @@ HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootTierData_Tabasco.json"
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_ResourceNodeLootTierData.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_GameplayItemLootTierData_TabascoGameplay.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_AILootTierData_Tabasco.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootChestLootTierData_Tabasco.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootTierData_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_ResourceNodeLootTierData.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_GameplayItemLootTierData_TabascoGameplay.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_AILootTierData_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootChestLootTierData_Tabasco.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/Juno/JunoTabascoGameplay/Content/Data/Juno_LootQuestLootTierData_Tabasco.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

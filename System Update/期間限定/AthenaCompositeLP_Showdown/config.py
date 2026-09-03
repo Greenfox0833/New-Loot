@@ -181,7 +181,7 @@ HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootPackages.json"
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootPackages.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootPackages.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -198,7 +198,7 @@ HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootTierData.json"
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootTierData.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/RA_ItemCache_ItemSet3/Content/DataTables/ItemCache_03_LootTierData.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

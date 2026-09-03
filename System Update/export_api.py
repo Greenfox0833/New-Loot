@@ -321,19 +321,19 @@ def extract_text_value(export_json: dict, field_name: str) -> str | None:
         im = props.get(field_name)
         if isinstance(im, dict):
             cand = (
-                im.get("localizedString")
-                or im.get("LocalizedString")
-                or im.get("sourceString")
+                im.get("sourceString")
                 or im.get("SourceString")
+                or im.get("localizedString")
+                or im.get("LocalizedString")
             )
     if not cand and isinstance(root, dict):
         im2 = root.get(field_name)
         if isinstance(im2, dict):
             cand = (
-                im2.get("localizedString")
-                or im2.get("LocalizedString")
-                or im2.get("sourceString")
+                im2.get("sourceString")
                 or im2.get("SourceString")
+                or im2.get("localizedString")
+                or im2.get("LocalizedString")
             )
     return cand
 def fetch_localized_name(key: str) -> str:
@@ -341,7 +341,7 @@ def fetch_localized_name(key: str) -> str:
         return "???"
 
     downloaded_value = _lookup_downloaded_locres(key)
-    if downloaded_value is not None:
+    if downloaded_value is not None and downloaded_value != key:
         return downloaded_value
 
     now = int(time.time())
@@ -350,18 +350,23 @@ def fetch_localized_name(key: str) -> str:
     if isinstance(hit, dict):
         ts = hit.get("ts")
         val = hit.get("value")
-        if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(val, str) and val != "???":
+        if (
+            isinstance(ts, int)
+            and (now - ts) <= TTL_SECONDS
+            and isinstance(val, str)
+            and val not in {"???", key}
+        ):
             return val
 
     locres_value = _lookup_juno_tabasco_locres_name(key)
-    if isinstance(locres_value, str):
+    if isinstance(locres_value, str) and locres_value != key:
         with _CACHE_LOCK:
             _LOCALIZE_CACHE[key] = {"ts": now, "value": locres_value}
             _touch_dirty()
         return locres_value
 
     local_value = _lookup_local_juno_localized_name(key)
-    if isinstance(local_value, str):
+    if isinstance(local_value, str) and local_value != key:
         with _CACHE_LOCK:
             _LOCALIZE_CACHE[key] = {"ts": now, "value": local_value}
             _touch_dirty()
@@ -369,6 +374,6 @@ def fetch_localized_name(key: str) -> str:
 
     if isinstance(hit, dict):
         stale_val = hit.get("value")
-        if isinstance(stale_val, str):
+        if isinstance(stale_val, str) and stale_val != key:
             return stale_val
     return "???"

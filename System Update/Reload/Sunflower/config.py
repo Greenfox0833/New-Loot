@@ -185,11 +185,11 @@ HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Sunflower/SunflowerLootPackages.json",
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerry_AthenaLootPackages_Unranked.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Sunflower/SunflowerLootPackages.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryLootPackages.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerry_AthenaLootPackages_Unranked.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Sunflower/SunflowerLootPackages.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -210,9 +210,9 @@ HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.json",
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/BlastBerryTierData.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

@@ -206,10 +206,10 @@ HOTFIX_LP_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/Comp/OrangeRemoteLootPackages_Client_Comp_Backup.json"
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_PATHS = _coerce_path_list(os.getenv("HOTFIX_LP_PATHS"), HOTFIX_LP_PATHS)
@@ -231,9 +231,9 @@ HOTFIX_LT_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/Comp/OrangeRemoteLootTierData_Client_Comp_Backup.json"
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootTiers_Comp.uasset"
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootTiers_Comp.uasset"
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_PATHS = _coerce_path_list(os.getenv("HOTFIX_LT_PATHS"), HOTFIX_LT_PATHS)

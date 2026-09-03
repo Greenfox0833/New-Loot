@@ -1,6 +1,7 @@
 import atexit
 import json
 import os
+import re
 from io import BytesIO
 from datetime import datetime
 from pathlib import Path
@@ -34,6 +35,7 @@ from export_api import (
 from http_client import session
 
 WEB_ITEM_METADATA_FILE = Path(r"E:/フォートナイト/Web/loot/data/item_metadata.json")
+_TEXT_KEY_RE = re.compile(r"^[0-9A-F]{32}$", re.IGNORECASE)
 
 try:
     with open(ICON_CACHE_FILE, "r", encoding="utf-8") as f:
@@ -327,6 +329,10 @@ def get_name_by_asset(asset_path: str) -> str:
     norm = normalize_asset_path(asset_path)
 
     hit = ASSET_LOC_CACHE.get(norm)
+    # A missing locres entry can be returned as its 32-character text key.
+    # Treat that cache value as unresolved so the English sourceString is used.
+    if isinstance(hit, str) and _TEXT_KEY_RE.fullmatch(hit.strip()):
+        hit = None
     if hit and hit != "???":
         corrected = lookup_item_name_source_alias_ja(hit)
         if corrected:

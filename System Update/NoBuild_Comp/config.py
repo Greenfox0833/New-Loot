@@ -183,13 +183,13 @@ HOTFIX_LP_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootPackagesData_NoBuildBR.json",
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP.uasset"
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP.uasset"
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -212,9 +212,9 @@ HOTFIX_LT_LOCAL_PATHS = [
     "E:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/OrangeRemoteLoot/Content/DataTables/NoBuildBR/OverrideLootTierData_NoBuildBR.json",
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

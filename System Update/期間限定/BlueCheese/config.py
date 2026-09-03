@@ -182,8 +182,8 @@ HOTFIX_LP_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootPackagesDataBackup_BlueCheese.json",
 ]
 HOTFIX_LP_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/AthenaLootPackages_BlueCheese.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootPackagesDataBackup_BlueCheese.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/AthenaLootPackages_BlueCheese.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootPackagesDataBackup_BlueCheese.uasset",
 ]
 HOTFIX_LP_PATHS = HOTFIX_LP_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LP_LOCAL_PATHS
 HOTFIX_LP_MAX_PATHS = 10
@@ -200,8 +200,8 @@ HOTFIX_LT_LOCAL_PATHS = [
     "e:/Fmodel/Exports/FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootTierDataBackup_BlueCheese.json",
 ]
 HOTFIX_LT_API_PATHS = [
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/AthenaLootTierData_BlueCheese.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootTierDataBackup_BlueCheese.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/AthenaLootTierData_BlueCheese.uasset",
+    "http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/DataTables/OverrideLootTierDataBackup_BlueCheese.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS
 HOTFIX_LT_MAX_PATHS = 10

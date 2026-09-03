@@ -127,7 +127,7 @@ def fetch_export_json(path_like: str) -> dict | None:
         log(f"[cache] export json: {key}")
         return hit
 
-    url = f"https://export-service.dillyapis.com/v1/export?Path={quote(key, safe='/._')}"
+    url = f"http://localhost:3849/api/v1/export?path={quote(key, safe='/._')}"
     try:
         log(f"[api] export json: {key}")
         response = SESSION.get(url, timeout=15)
@@ -292,7 +292,7 @@ def fetch_export_image_as_pil(path_like: str) -> Image.Image | None:
     if not clean:
         return None
 
-    url = f"https://export-service.dillyapis.com/v1/export/?Path={quote(clean, safe='/._')}"
+    url = f"http://localhost:3849/api/v1/export?path={quote(clean, safe='/._')}"
     try:
         log(f"[api] icon: {clean}")
         response = SESSION.get(url, timeout=15)
@@ -324,7 +324,7 @@ def get_weapon_stats(props: dict) -> dict | None:
         if not object_path or not row_name:
             return None
         clean_path = object_path.replace(".0", "").lstrip("/")
-        url = f"https://export-service.dillyapis.com/v1/export/?Path={quote(clean_path, safe='/._')}"
+        url = f"http://localhost:3849/api/v1/export?path={quote(clean_path, safe='/._')}"
         response = SESSION.get(url, timeout=15)
         response.raise_for_status()
         data = response.json()

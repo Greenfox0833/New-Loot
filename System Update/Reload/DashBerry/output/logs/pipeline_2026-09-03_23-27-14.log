@@ -172,3 +172,80 @@
 2026-09-03 23:27:24 | INFO | enrich summary done (2.85s)
 2026-09-03 23:27:24 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-09-03_23-27.json
 2026-09-03 23:27:24 | INFO | build item metadata start
+2026-09-03 23:27:31 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (6.22s)
+2026-09-03 23:27:31 | INFO | build BR_LootData start
+2026-09-03 23:27:31 | INFO | build BR_LootData done (0.00s)
+2026-09-03 23:27:31 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload\DashBerry\DashBerry_LootData_2026-09-03_23-27.json
+2026-09-03 23:27:32 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\loot\data\DashBerry_LootPool.json
+2026-09-03 23:27:32 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py
+2026-09-03 23:27:32 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-09-03_23-27.json
+✅ 抽出件数: 164
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-09-03_14-16.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\summary\v39.30_2026-09-03_23-27.json
+✅ 差分作成 完了
+  追加   : 24 / 削除 : 12 / 変更 : 0 / 変化なし : 140
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\output\history\BR_20260903_2327\items_unique_min_diff.json
+2026-09-03 23:27:32 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload\DashBerry\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-09-03 23:27:32 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.33s)
+2026-09-03 23:27:32 | INFO | prewarm start
+2026-09-03 23:27:43 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (10.69s)
+2026-09-03 23:27:43 | INFO | 画像化タスク数: 164
+2026-09-03 23:27:43 | INFO | 画像生成 進捗: 1/164
+2026-09-03 23:27:43 | INFO | 画像生成 進捗: 50/164
+2026-09-03 23:27:44 | INFO | 画像生成 進捗: 100/164
+2026-09-03 23:27:45 | INFO | 画像生成 進捗: 150/164
+2026-09-03 23:27:45 | INFO | 画像生成 進捗: 164/164
+2026-09-03 23:27:45 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-09-03 23:27:46 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\loot\data\diff\DashBerry_2026-09-03_23-27-45.json (added=24 removed=12 change=114)
+2026-09-03 23:27:47 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\DashBerry\AddedItems\2026-09-03_23-27-46 (copied=21 missing=3)
+2026-09-03 23:27:47 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-09-03 23:28:27 | INFO | git commit stdout: [main 023f4b2] DashBerry update 2026-09-03 23:28:17
+ 55 files changed, 113174 insertions(+), 46444 deletions(-)
+ create mode 100644 System Update/Reload/DashBerry/output/history/BR_20260903_2327/items_unique_min_diff.json
+ create mode 100644 System Update/Reload/DashBerry/output/logs/pipeline_2026-09-03_23-27-14.log
+ create mode 100644 System Update/Reload/DashBerry/output/summary/v39.30_2026-09-03_23-27.json
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2421 - \343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2422 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2422 - \343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2422 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2423 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2423 - \343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2423 - \343\203\231\343\202\257\343\202\277\343\203\2747 DMR.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2423 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2423 - \345\214\273\347\231\202\343\203\237\343\202\271\343\203\210 \343\202\271\343\203\242\343\203\274\343\202\257\343\202\260\343\203\254\343\203\215\343\203\274\343\203\211.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\202\273\343\203\226\343\203\263\343\201\256\343\203\221\343\203\257\343\203\274\343\202\260\343\203\255\343\203\274\343\203\226.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\203\224\343\202\266\343\203\221\343\203\274\343\203\206\343\202\243\343\203\274.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\203\231\343\202\257\343\202\277\343\203\2747 DMR.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2424 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2425 - \343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2425 - \343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2425 - \343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263\343\203\273\343\202\250\343\202\242\343\202\271\343\203\210\343\203\251\343\202\244\343\202\257.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2425 - \343\203\231\343\202\257\343\202\277\343\203\2747 DMR.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/DashBerry/AddedItems/2026-09-03_23-27-46/\343\203\206\343\202\243\343\202\2427 - \343\203\225\343\202\241\343\202\246\343\203\263\343\203\207\343\203\274\343\202\267\343\203\247\343\203\263\343\201\256\343\203\221\343\203\257\343\203\274\343\202\260\343\203\255\343\203\274\343\203\226.png"
+ create mode 100644 "System Update/shared/images/DashBerry/Grapple Glove - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/DashBerry/The Foundation's MK-Seven Assault Rifle - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/DashBerry/Vector 7 DMR - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\217\343\203\263\343\203\236\343\203\274\343\203\252\343\203\234\343\203\253\343\203\220\343\203\274 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\202\241\343\202\246\343\203\263\343\203\207\343\203\274\343\202\267\343\203\247\343\203\263\343\201\256\343\203\221\343\203\257\343\203\274\343\202\260\343\203\255\343\203\274\343\203\226 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\225\343\203\245\343\203\274\343\203\252\343\203\274 \343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\227\343\203\254\343\202\267\343\202\270\343\203\247\343\203\263\343\203\273\343\202\250\343\202\242\343\202\271\343\203\210\343\203\251\343\202\244\343\202\257 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\231\343\202\257\343\202\277\343\203\2747 DMR - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\231\343\202\257\343\202\277\343\203\2747 DMR - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/DashBerry/\343\203\231\343\202\257\343\202\277\343\203\2747 DMR - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/Reload/DashBerry/DashBerry_LootData_2026-09-03_23-27.json"
+2026-09-03 23:28:38 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   68abeeb..023f4b2  main -> main
+2026-09-03 23:28:38 | INFO | ✓ GitHub Push 完了
+2026-09-03 23:28:38 | INFO | ===== DashBerry: pipeline end =====

@@ -200264,17 +200264,18 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_R": {
-    "ts": 1780014946,
+    "ts": 1788413355,
     "data": {
-      "hash": "0103ac26b620e001271aa23080d07005ee4db465e244ecda9258fcfd0d4104f5",
+      "hash": "3eaee1d4327aabd9341ce44dc81dee03ae2317e2e2d2d95dd20ab4d857972474",
       "entries": 1,
-      "bytes": 7985,
+      "bytes": 8103,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_SemiAuto_Athena_R",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_R",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -200290,7 +200291,7 @@
                 "ObjectName": "DataTable'AthenaRangedWeapons'",
                 "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
               },
-              "RowName": "Shotgun_SemiAuto_Athena_VR_Ore_T03"
+              "RowName": "Shotgun_SemiAuto_Athena_R_Ore_T03"
             },
             "BaseAlteration": {
               "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
@@ -200340,7 +200341,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "3FE984E64CF7743CD2D3689E97A8E536",
+              "key": "22C9DC4F4A4465F7D986BEB4910CD902",
               "sourceString": "Tactical Shotgun",
               "localizedString": "Tactical Shotgun"
             },
@@ -200385,6 +200386,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -200660,17 +200662,18 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_UC": {
-    "ts": 1780014947,
+    "ts": 1788413356,
     "data": {
-      "hash": "6522e7c51ec92a8252a92cde4ee8abb19ea8cfa6119d718863c6cbc812b4673b",
+      "hash": "d326549a08e2e99615753bb2ce542b6a938a8960b86ce1a0124c2c276e77ca19",
       "entries": 1,
-      "bytes": 7958,
+      "bytes": 8079,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_SemiAuto_Athena_UC",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_UC",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -200686,7 +200689,7 @@
                 "ObjectName": "DataTable'AthenaRangedWeapons'",
                 "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
               },
-              "RowName": "Shotgun_SemiAuto_Athena_R_Ore_T03"
+              "RowName": "Shotgun_SemiAuto_Athena_UC_Ore_T03"
             },
             "BaseAlteration": {
               "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
@@ -200736,7 +200739,7 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "7FF9A20C4D12937E4E46E7AFC313EEF2",
+              "key": "670AF69245EA4FEB6B539CB355212FC5",
               "sourceString": "Tactical Shotgun",
               "localizedString": "Tactical Shotgun"
             },
@@ -200781,6 +200784,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -201053,17 +201057,18 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_R": {
-    "ts": 1780014947,
+    "ts": 1788413356,
     "data": {
-      "hash": "1850fd6965745ddd28eb7cf74963975f8409c76ce01f50c7556f2d03390b5630",
+      "hash": "874d367efb9074be18b0ce444b634e43cd004d7052d050770176efec2028b8fa",
       "entries": 1,
-      "bytes": 8168,
+      "bytes": 8294,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_Standard_Athena_R",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_R",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -201130,22 +201135,22 @@
             "CreativeTagsHelper": {
               "CreativeTags": [
                 "Ammo:Shells",
+                "FortniteOG",
                 "Guard",
                 "Rare",
-                "S27",
                 "Shotgun",
                 "Weapon"
               ]
             },
             "ItemName": {
               "namespace": "",
-              "key": "C2F06E74419D4A1F85DACCB85152B890",
+              "key": "B140CAD2467F67F5C40EFA87FD74A263",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "72406225485039EABBFF6D8789E829A3",
+              "key": "95885A614C9BC25508D9CDACC70EBEFC",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -201184,6 +201189,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -201344,7 +201350,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -201470,17 +201476,18 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_SR": {
-    "ts": 1780014947,
+    "ts": 1788413357,
     "data": {
-      "hash": "fe397a03bb02ba9b0f6ed077fbc8f2d9a9a547b7f88744aa80b0f2d1408f3f29",
+      "hash": "9ba2deec5f1ac5574bd066f4eb711d4c8149feb8584d203f60627dd315195077",
       "entries": 1,
-      "bytes": 8220,
+      "bytes": 8347,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_Standard_Athena_SR",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_SR",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -201547,22 +201554,22 @@
             "CreativeTagsHelper": {
               "CreativeTags": [
                 "Ammo:Shells",
+                "FortniteOG",
                 "Guard",
                 "Legendary",
-                "S27",
                 "Shotgun",
                 "Weapon"
               ]
             },
             "ItemName": {
               "namespace": "",
-              "key": "33F9FFE84D285A31AD6E43BFFA015CC4",
+              "key": "D421D9CF4317671849D956BDA2BE052E",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "9E91CA814A3745CDF567BCABDE466BAB",
+              "key": "04745E084BBE8AC221DE93A95F3255D6",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -201601,6 +201608,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -201761,7 +201769,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -201887,17 +201895,18 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_UC": {
-    "ts": 1780014948,
+    "ts": 1788413357,
     "data": {
-      "hash": "8b3c1ba4336ab340d3dec6d032517869bb115d2399054d91839944e15056815f",
+      "hash": "6b437e80ad14db6dade2aa37be30788cb19dd0b86ab46d8d3bd63900727da1fe",
       "entries": 1,
-      "bytes": 8147,
+      "bytes": 8274,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_Standard_Athena_UC",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_UC",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -201964,8 +201973,8 @@
             "CreativeTagsHelper": {
               "CreativeTags": [
                 "Ammo:Shells",
+                "FortniteOG",
                 "Guard",
-                "S27",
                 "Shotgun",
                 "Uncommon",
                 "Weapon"
@@ -201973,13 +201982,13 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "B8C973D143D577CD75DBBF88784F6FFC",
+              "key": "D4DD1AD4493568E7AFBF369CB57CF9B2",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "E690AA8B4FA343A691AF06BC0264FF71",
+              "key": "DD2B64D54DD56D72CA5972B97367D5CE",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -202018,6 +202027,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -202178,7 +202188,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -202301,17 +202311,18 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR": {
-    "ts": 1780014948,
+    "ts": 1788413357,
     "data": {
-      "hash": "00cddc2d9cde1ebd7ad852e20cb423453cab21b9aeea429e594d65e41d416db7",
+      "hash": "51cbef1cc2beeb58b939e817bff95a5575d5d62394a208939daeb6a69c98bc12",
       "entries": 1,
-      "bytes": 8210,
+      "bytes": 8337,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Shotgun_Standard_Athena_VR",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "WeaponActorClass": {
@@ -202379,21 +202390,21 @@
               "CreativeTags": [
                 "Ammo:Shells",
                 "Epic",
+                "FortniteOG",
                 "Guard",
-                "S27",
                 "Shotgun",
                 "Weapon"
               ]
             },
             "ItemName": {
               "namespace": "",
-              "key": "D697AB1846781F0D64988483AEA94B5C",
+              "key": "1E30D6F54D183E97510F8789B5ED90E6",
               "sourceString": "Pump Shotgun",
               "localizedString": "Pump Shotgun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "2444D7B2477E40EF1E5292BAABD58F8C",
+              "key": "9787E35B431B2530251F17A76681AC55",
               "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
               "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
             },
@@ -202432,6 +202443,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -202592,7 +202604,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -203109,17 +203121,18 @@
     }
   },
   "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03": {
-    "ts": 1780014949,
+    "ts": 1788413358,
     "data": {
-      "hash": "511cd2b2e04e740a1ec0309aec4a88ace3fc92edd24c4803d7587edef32ad3b2",
+      "hash": "d3ae9b644cd1f8587e0b1bb32f27ac2cbcef319fae872af0e855be0cd320e8ba",
       "entries": 1,
-      "bytes": 7715,
+      "bytes": 7835,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03",
           "Properties": {
             "bShouldSpawnBulletShellFX": true,
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
@@ -203224,6 +203237,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -203505,17 +203519,18 @@
     }
   },
   "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03": {
-    "ts": 1780014949,
+    "ts": 1788413359,
     "data": {
-      "hash": "3bfe3a1aa2e7b3188a02121096976b0c4c7d8073a55b2d5c7e28d7c71f18499a",
+      "hash": "1420c1a022a5b9c879b05c1e3c1b2f771b9e54b30e04ef4d9a3e331539e30887",
       "entries": 1,
-      "bytes": 7710,
+      "bytes": 7830,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03",
           "Properties": {
             "bShouldSpawnBulletShellFX": true,
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
@@ -203620,6 +203635,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -203901,17 +203917,18 @@
     }
   },
   "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_R": {
-    "ts": 1780014949,
+    "ts": 1788413359,
     "data": {
-      "hash": "90bf2d0a844ece601d01f1defbc6fac3db9ee92b2b2a5eaf6ef81d9fb5958ebd",
+      "hash": "8b917d913643a2b673b195ee8a965b574b55dc5825d68e0588a4a3aaa206c47e",
       "entries": 1,
-      "bytes": 7970,
+      "bytes": 8085,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Sniper_NoScope_Athena_R",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_R",
           "Properties": {
             "bShouldSpawnBulletShellFX": true,
             "WeaponActorClass": {
@@ -204027,6 +204044,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -204187,7 +204205,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -204305,17 +204323,18 @@
     }
   },
   "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_UC": {
-    "ts": 1780014950,
+    "ts": 1788413359,
     "data": {
-      "hash": "784b01cc848b56dd80e9bbf657253d0ad6543831eafd4191f0a5227d5a4cd158",
+      "hash": "f8783033c841d1cb069c5465f06f95981123a8147a486850b9eedbdb410a996a",
       "entries": 1,
-      "bytes": 7944,
+      "bytes": 8060,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Figment_Sniper_NoScope_Athena_UC",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_UC",
           "Properties": {
             "bShouldSpawnBulletShellFX": true,
             "WeaponActorClass": {
@@ -204431,6 +204450,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -204591,7 +204611,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -205490,17 +205510,18 @@
     }
   },
   "/Figment_Trap_ContextTrap_Athena/Items/Trap/TID_Figment_ContextTrap_Athena": {
-    "ts": 1780014951,
+    "ts": 1788413360,
     "data": {
-      "hash": "ba7f13fd27f347ceafeb9cdc98a6d76754d8283880b75e3ae1568fb565b27e74",
+      "hash": "b17dcfac32e4ae101f93dbe00b450356049a9a918625a349cf45179ddfff2083",
       "entries": 1,
-      "bytes": 6739,
+      "bytes": 6853,
       "jsonOutput": [
         {
           "Type": "FortContextTrapItemDefinition",
           "Name": "TID_Figment_ContextTrap_Athena",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortContextTrapItemDefinition'",
+          "Package": "/Figment_Trap_ContextTrap_Athena/Items/Trap/TID_Figment_ContextTrap_Athena",
           "Properties": {
             "FloorTrap": {
               "ObjectName": "FortTrapItemDefinition'TID_Figment_Floor_Spikes_Athena_R_T01'",
@@ -205596,6 +205617,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -205850,17 +205872,18 @@
     }
   },
   "/Figment_Trap_Floor_Player_Campfire_Athena/Items/Trap/TID_Figment_Floor_Player_Campfire_Athena": {
-    "ts": 1780014951,
+    "ts": 1788413360,
     "data": {
-      "hash": "67b2a8ed9e11f012f3aa61eb6573eef4f30d117bae29bd726e99dd15f7e30d63",
+      "hash": "5094ac22dfaad3026c24387c65afb190d90c3c5a24456bda66eb0f918994d15f",
       "entries": 1,
-      "bytes": 6665,
+      "bytes": 6799,
       "jsonOutput": [
         {
           "Type": "FortTrapItemDefinition",
           "Name": "TID_Figment_Floor_Player_Campfire_Athena",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortTrapItemDefinition'",
+          "Package": "/Figment_Trap_Floor_Player_Campfire_Athena/Items/Trap/TID_Figment_Floor_Player_Campfire_Athena",
           "Properties": {
             "EquipSound": {
               "AssetPathName": "/Game/Athena/Sounds/Campfire/Campfire_UI_Select_Cue.Campfire_UI_Select_Cue",
@@ -205949,6 +205972,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -206220,17 +206244,18 @@
     }
   },
   "/Figment_Trap_Floor_Player_Launch_Pad_Athena/Items/Trap/TID_Figment_Floor_Player_Launch_Pad_Athena": {
-    "ts": 1780014952,
+    "ts": 1788413361,
     "data": {
-      "hash": "35e081b3e5dfe7ef970a9527de6ce54d6425be1aace8f13b9d1453a26c95e06d",
+      "hash": "b364e7f054b9abafe397a1ecc8ae69b16753fb295441c0a9c6c92a17654de725",
       "entries": 1,
-      "bytes": 6793,
+      "bytes": 6931,
       "jsonOutput": [
         {
           "Type": "FortTrapItemDefinition",
           "Name": "TID_Figment_Floor_Player_Launch_Pad_Athena",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortTrapItemDefinition'",
+          "Package": "/Figment_Trap_Floor_Player_Launch_Pad_Athena/Items/Trap/TID_Figment_Floor_Player_Launch_Pad_Athena",
           "Properties": {
             "EquipSound": {
               "AssetPathName": "/Game/Athena/Sounds/LaunchPad/Launch_Pad_UI_Select_Cue.Launch_Pad_UI_Select_Cue",
@@ -206381,6 +206406,7 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -206590,17 +206616,18 @@
     }
   },
   "/Figment_Trap_MountedTurret_Athena/Gameplay/TID_Figment_Floor_MountedTurret_Athena": {
-    "ts": 1780014952,
+    "ts": 1788413361,
     "data": {
-      "hash": "747463249f1c24698b6b1bd5105b2543fd5ff13119f0e64e9cb5aa1d9bae9934",
+      "hash": "c2d955955afbb7d6b53b215ae0dd29292481427d2df00eed6e85771bd6939ed4",
       "entries": 1,
-      "bytes": 6544,
+      "bytes": 6747,
       "jsonOutput": [
         {
           "Type": "FortTrapItemDefinition",
           "Name": "TID_Figment_Floor_MountedTurret_Athena",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortTrapItemDefinition'",
+          "Package": "/Figment_Trap_MountedTurret_Athena/Gameplay/TID_Figment_Floor_MountedTurret_Athena",
           "Properties": {
             "EquipSound": {
               "AssetPathName": "/Game/Sounds/Fort_Traps/MountedTurret/Turret_Ballistic_Equip_Cue.Turret_Ballistic_Equip_Cue",
@@ -206657,13 +206684,13 @@
             ],
             "ItemName": {
               "namespace": "",
-              "key": "077E34B046DAA01508576B836F87BB5B",
+              "key": "4DA1CE4E4BE222217B87BCA6E8AD30BC",
               "sourceString": "Mounted Turret",
               "localizedString": "Mounted Turret"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "D6444AB848BBA29B82FC71A0D420C6B5",
+              "key": "E5D01D6A4FC8408BA359589484B27F77",
               "sourceString": "Spawns a mounted turret for players to use.",
               "localizedString": "Spawns a mounted turret for players to use."
             },
@@ -206693,9 +206720,10 @@
                   "SubPathString": ""
                 },
                 "PickupEffectOverride": {
-                  "AssetPathName": "",
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {

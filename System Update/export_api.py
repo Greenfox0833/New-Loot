@@ -241,6 +241,23 @@ def build_export_url(path_like: str, *, image: bool = False) -> str:
         url += "&image=true"
     return url
 
+
+def _export_path_candidates(path_like: str):
+    """Yield the virtual path and known local-API physical path fallbacks."""
+    clean = normalize_asset_path(path_like)
+    yield clean
+
+    # Loot tables contain Unreal mount paths such as
+    # /Figment_Sniper_Auto_Athena/Gameplay/WID_....  The localhost exporter
+    # indexes the same asset by its physical plugin path instead.
+    parts = clean.lstrip("/").split("/", 1)
+    if len(parts) == 2 and parts[0].startswith("Figment_"):
+        mount_name, relative_path = parts
+        yield (
+            "FortniteGame/Plugins/GameFeatures/Figment/"
+            f"{mount_name}/Content/{relative_path}"
+        )
+
 def fetch_export_json(path_like: str) -> dict | None:
     if not path_like:
         return None
@@ -255,23 +272,24 @@ def fetch_export_json(path_like: str) -> dict | None:
         if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(data, dict):
             return data
 
-    url = build_export_url(key)
-    try:
-        r = session.get(url, timeout=10)
-        if not r.ok:
-            if isinstance(hit, dict):
-                return hit.get("data")
-            return None
-        data = r.json()
-        if isinstance(data, dict):
-            with _CACHE_LOCK:
-                _EXPORT_CACHE[key] = {"ts": now, "data": data}
-                _touch_dirty()
-        return data if isinstance(data, dict) else None
-    except Exception:
-        if isinstance(hit, dict):
-            return hit.get("data")
-        return None
+    for candidate in _export_path_candidates(key):
+        url = build_export_url(candidate)
+        try:
+            r = session.get(url, timeout=10)
+            if not r.ok:
+                continue
+            data = r.json()
+            if isinstance(data, dict):
+                with _CACHE_LOCK:
+                    _EXPORT_CACHE[key] = {"ts": now, "data": data}
+                    _touch_dirty()
+                return data
+        except Exception:
+            continue
+
+    if isinstance(hit, dict):
+        return hit.get("data")
+    return None
 
 def extract_itemname_key(export_json: dict) -> str | None:
     return extract_text_key(export_json, "ItemName")

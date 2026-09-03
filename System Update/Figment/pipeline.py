@@ -16,7 +16,7 @@ if str(BASE_DIR) not in sys.path:
 if str(COMMON_DIR) not in sys.path:
     sys.path.append(str(COMMON_DIR))
 
-WEB_LOOTPOOL_OUT = r"E:/フォートナイト/Web/loot/data/ORIGIN_LootPool.json"
+WEB_LOOTPOOL_NAME = "ORIGIN_LootPool.json"
 
 # Ensure child scripts use Figment profile by default
 os.environ.setdefault("SYSTEM_PROFILE", "Figment")
@@ -41,7 +41,7 @@ from config import (
     PROFILE_NAME,
     VERSION_PREFIX,
 )
-from diff_loot_auto import run_latest_diff
+from diff_loot_auto import get_web_lootpool_path, run_diff_data
 from new_item_images import copy_new_item_images
 from summary import build_br_lootdata_all_tgs, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
@@ -162,14 +162,17 @@ def main():
         logger.info("build BR_LootData done (%.2fs)", time.time() - t0)
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info("✅ Figment_LootData を作成: %s", br_out)
-        if WEB_LOOTPOOL_OUT:
-            try:
-                web_out = Path(WEB_LOOTPOOL_OUT)
-                web_out.parent.mkdir(parents=True, exist_ok=True)
-                web_out.write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
-                logger.info("✅ Web LootPool を更新: %s", web_out)
-            except Exception:
-                logger.warning("Web LootPool 更新に失敗: %s", traceback.format_exc().strip())
+        # Gitで共有されているWeb公開データを、今回の差分比較元として保持する。
+        previous_web_data = None
+        try:
+            web_out = get_web_lootpool_path(PROFILE_NAME, WEB_LOOTPOOL_NAME)
+            if web_out.exists():
+                previous_web_data = json.loads(web_out.read_text(encoding="utf-8-sig"))
+            web_out.parent.mkdir(parents=True, exist_ok=True)
+            web_out.write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
+            logger.info("✅ Web LootPool を更新: %s", web_out)
+        except Exception:
+            logger.warning("Web LootPool 更新に失敗: %s", traceback.format_exc().strip())
 
         logger.info("LootSummary start: %s", loot_summary_py)
         t0 = time.time()
@@ -243,7 +246,7 @@ def main():
             logger.info("ℹ️ ENABLE_IMAGE_CREATION=False のため画像生成はスキップ")
 
         try:
-            diff_result = run_latest_diff(PROFILE_NAME)
+            diff_result = run_diff_data(PROFILE_NAME, previous_web_data, br_view)
             if diff_result is None:
                 logger.info("✅ Loot diff: 変更なし（作成スキップ）")
             else:

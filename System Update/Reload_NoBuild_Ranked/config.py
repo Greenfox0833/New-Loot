@@ -210,7 +210,7 @@ HOTFIX_LT_LOCAL_PATHS = [
 HOTFIX_LT_API_PATHS = [
     "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset",
     "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryTierData_Habanero.uasset",
-    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride.uasset",
+    "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero.uasset",
     "https://export-service.dillyapis.com/v1/export/?Path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/NoBuild/AthenaLootTierData_Client_BlastBerryOverride_NoBuild.uasset",
 ]
 HOTFIX_LT_PATHS = HOTFIX_LT_API_PATHS if HOTFIX_SOURCE == "api" else HOTFIX_LT_LOCAL_PATHS

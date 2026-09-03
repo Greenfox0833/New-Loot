@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-09-03T14:23:40",
-  "UpdatedByProfile": "Sunflower",
+  "UpdatedAt": "2026-09-03T14:25:19",
+  "UpdatedByProfile": "Reload_NoBuild_Ranked",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -1198,6 +1198,12 @@
         "Item",
         "Throwable"
       ]
+    },
+    {
+      "AssetPathName": "/DeployedCoverGameplay/Items/GID_Athena_DeployedCover",
+      "LocalizedName": "ポケット ポケットカバー",
+      "LocalizedDescription": "携帯可能なカバー！ 小さくなり、利便性が向上。 その後、クールダウン状態になる。",
+      "Tags": []
     },
     {
       "AssetPathName": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
@@ -7384,6 +7390,14 @@
       "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/ForbiddenFruit_Athena_SilverBlazer_Mini_UC",
       "LocalizedName": "シールドバブルJr.",
       "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。ただし、プレイヤーは通り抜けることができるので注意！",
+      "Tags": [
+        "Granted.ItemEquipped.Consumable.ShieldBubble.VR"
+      ]
+    },
+    {
+      "AssetPathName": "/ShieldBubble/Gameplay/ShieldBubbleJr/GID_SilverBlazer_Mini_UC",
+      "LocalizedName": "ポケットシールドバブルJr.",
+      "LocalizedDescription": "発射体や爆発物をブロックする小さなバブルを作り出す。その後、クールダウン状態になる。",
       "Tags": [
         "Granted.ItemEquipped.Consumable.ShieldBubble.VR"
       ]

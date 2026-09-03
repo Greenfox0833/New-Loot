@@ -4,3 +4,15 @@
 2026-09-03 21:33:14 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Figment
 2026-09-03 21:33:14 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-09-03 21:33:14 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-09-03 21:33:15 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-09-03 21:33:15 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Figment\pipeline.py", line 100, in main
+    res_lp = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-09-03 21:33:15 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-09-03 21:33:32 | INFO | git commit stdout: [main c41c373] Figment update 2026-09-03 21:33:26
+ 57 files changed, 382 insertions(+), 182 deletions(-)
+ create mode 100644 System Update/Figment/output/logs/pipeline_2026-09-03_21-33-14.log

@@ -52,16 +52,17 @@ _num_head = re.compile(r"^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?")
 def _source_name(source: str) -> str:
     parsed = urlparse(source)
     if parsed.scheme in ("http", "https"):
-        asset_path = parse_qs(parsed.query).get("Path", [parsed.path])[0]
+        query = parse_qs(parsed.query)
+        asset_path = query.get("path", query.get("Path", [parsed.path]))[0]
         return Path(unquote(asset_path)).stem
     return Path(source).stem
 
 
 def read_datatable_json(source: str) -> Dict[str, Any]:
     parsed = urlparse(source)
-    if parsed.scheme == "http":
-        raise ValueError(f"{source}: HTTPS URLを指定してください")
-    if parsed.scheme == "https":
+    if parsed.scheme == "http" and parsed.hostname not in ("localhost", "127.0.0.1", "::1"):
+        raise ValueError(f"{source}: HTTPはlocalhostのみ指定できます")
+    if parsed.scheme in ("http", "https"):
         response = session.get(source, timeout=30)
         response.raise_for_status()
         data = response.json()

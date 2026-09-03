@@ -505,6 +505,10 @@ def upsert_item_metadata_file(path_like: str, profile_name: str, items: list[dic
     for item in existing_items:
         if not isinstance(item, dict):
             continue
+        # "???" is only a display placeholder for unresolved localization.
+        # Never retain unresolved entries in the persistent metadata cache.
+        if item.get("LocalizedName") == "???":
+            continue
         asset_path = normalize_asset_path(item.get("AssetPathName", ""))
         if asset_path:
             item["AssetPathName"] = asset_path
@@ -512,6 +516,8 @@ def upsert_item_metadata_file(path_like: str, profile_name: str, items: list[dic
 
     for item in items or []:
         if not isinstance(item, dict):
+            continue
+        if item.get("LocalizedName") == "???":
             continue
         asset_path = normalize_asset_path(item.get("AssetPathName", ""))
         if not asset_path:

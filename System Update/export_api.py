@@ -9,6 +9,10 @@ from urllib.parse import quote
 from http_client import session
 
 TTL_SECONDS = 60 * 60
+EXPORT_API_BASE_URL = os.getenv(
+    "FORTNITE_EXPORT_API_URL",
+    "http://localhost:3849/api/v1/export",
+).rstrip("?")
 _BASE_DIR = Path(__file__).resolve().parent
 _CACHE_DIR = _BASE_DIR / "shared" / "cache"
 _EXPORT_CACHE_FILE = _CACHE_DIR / "asset_export_cache.json"
@@ -194,6 +198,14 @@ def normalize_asset_path(asset_path: str) -> str:
         return asset_path.strip()
     return asset_path.strip().split(".", 1)[0]
 
+
+def build_export_url(path_like: str, *, image: bool = False) -> str:
+    clean = normalize_asset_path(path_like)
+    url = f"{EXPORT_API_BASE_URL}?path={quote(clean, safe='/._')}"
+    if image:
+        url += "&image=true"
+    return url
+
 def fetch_export_json(path_like: str) -> dict | None:
     if not path_like:
         return None
@@ -208,7 +220,7 @@ def fetch_export_json(path_like: str) -> dict | None:
         if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(data, dict):
             return data
 
-    url = f"https://export-service.dillyapis.com/v1/export?Path={quote(key, safe='/._')}"
+    url = build_export_url(key)
     try:
         r = session.get(url, timeout=10)
         if not r.ok:

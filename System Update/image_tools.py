@@ -24,8 +24,7 @@ from config import (
     SHOW_PERCENT,
     STAT_TEMPLATE_PATH,
 )
-from export_api import fetch_localized_name
-from http_client import session
+from export_api import fetch_export_json, fetch_localized_name
 
 def get_weapon_stats(props):
     try:
@@ -36,9 +35,9 @@ def get_weapon_stats(props):
         if not object_path or not row_name:
             return None
         clean_path = object_path.replace(".0", "").lstrip("/")
-        url = f"https://export-service.dillyapis.com/v1/export/?Path={clean_path}"
-        response = session.get(url, timeout=30)
-        data = response.json()
+        data = fetch_export_json(clean_path)
+        if not isinstance(data, dict):
+            return None
         json_output = data.get("jsonOutput", {})
         if isinstance(json_output, list):
             json_output = json_output[0]

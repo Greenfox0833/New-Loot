@@ -21,6 +21,7 @@ from config import (
     RARITY_MAP,
 )
 from export_api import (
+    build_export_url,
     extract_itemdescription_key,
     extract_itemdescription_text,
     extract_itemname_key,
@@ -141,8 +142,7 @@ def fetch_export_image_as_pil(path_like: str):
         return im
 
     # 2) download
-    clean = path_like.strip().strip("/").split(".")[0]
-    url = f"https://export-service.dillyapis.com/v1/export/?Path={clean}"
+    url = build_export_url(path_like, image=True)
     try:
         r = session.get(url, timeout=10)
         if not r.ok:

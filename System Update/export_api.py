@@ -17,6 +17,7 @@ _BASE_DIR = Path(__file__).resolve().parent
 _CACHE_DIR = _BASE_DIR / "shared" / "cache"
 _EXPORT_CACHE_FILE = _CACHE_DIR / "asset_export_cache.json"
 _LOCALIZE_CACHE_FILE = _CACHE_DIR / "asset_localize_ttl_cache.json"
+_DOWNLOADED_LOCRES_FILE = _CACHE_DIR / "locres_ja.json"
 _CACHE_LOCK = Lock()
 _CACHE_STATE = {"dirty": 0}
 _LOCAL_JUNO_LOCALIZE_ROOT = Path(r"E:\Fmodel\Exports\FortniteGame")
@@ -29,6 +30,8 @@ _JUNO_TABASCO_LOCRES_EXPORT_PATH = (
 )
 _JUNO_TABASCO_LOCRES_MAP = None
 _JUNO_TABASCO_LOCRES_LOCK = Lock()
+_DOWNLOADED_LOCRES_MAP = None
+_DOWNLOADED_LOCRES_LOCK = Lock()
 
 # Some assets keep an older text key after the matching locres entry has moved
 # to a new key. These source aliases bridge that upstream key drift. Key-based
@@ -44,6 +47,38 @@ def lookup_item_name_source_alias_ja(source: str | None) -> str | None:
     if not source:
         return None
     return _ITEM_NAME_SOURCE_ALIASES_JA.get(source.strip())
+
+
+def _load_downloaded_locres_map() -> dict[str, str]:
+    global _DOWNLOADED_LOCRES_MAP
+
+    if _DOWNLOADED_LOCRES_MAP is not None:
+        return _DOWNLOADED_LOCRES_MAP
+
+    with _DOWNLOADED_LOCRES_LOCK:
+        if _DOWNLOADED_LOCRES_MAP is not None:
+            return _DOWNLOADED_LOCRES_MAP
+
+        mapping: dict[str, str] = {}
+        try:
+            data = _load_cache_dict(_DOWNLOADED_LOCRES_FILE)
+            # locres APIは型名をトップキー、その値をkey/翻訳の辞書として返す。
+            for value in data.values():
+                if not isinstance(value, dict):
+                    continue
+                for key, localized in value.items():
+                    if isinstance(key, str) and isinstance(localized, str):
+                        mapping.setdefault(key, localized)
+        except Exception:
+            mapping = {}
+
+        _DOWNLOADED_LOCRES_MAP = mapping
+        return _DOWNLOADED_LOCRES_MAP
+
+
+def _lookup_downloaded_locres(key: str) -> str | None:
+    value = _load_downloaded_locres_map().get(key)
+    return value if isinstance(value, str) and value else None
 
 
 
@@ -305,6 +340,10 @@ def fetch_localized_name(key: str) -> str:
     if not key:
         return "???"
 
+    downloaded_value = _lookup_downloaded_locres(key)
+    if downloaded_value is not None:
+        return downloaded_value
+
     now = int(time.time())
     with _CACHE_LOCK:
         hit = _LOCALIZE_CACHE.get(key)
@@ -313,24 +352,6 @@ def fetch_localized_name(key: str) -> str:
         val = hit.get("value")
         if isinstance(ts, int) and (now - ts) <= TTL_SECONDS and isinstance(val, str) and val != "???":
             return val
-
-    url = "https://export-service.dillyapis.com/v1/export/localize"
-    payload = {"culture": "ja", "ns": "", "values": [{"key": key}]}
-    try:
-        r = session.post(url, json=payload, timeout=10)
-        if r.ok:
-            arr = r.json().get("jsonOutput", [])
-            value = (arr[0].get("value") if arr and isinstance(arr[0], dict) else None) or "???"
-            if value == "???":
-                value = _lookup_juno_tabasco_locres_name(key) or value
-            if value == "???":
-                value = _lookup_local_juno_localized_name(key) or value
-            with _CACHE_LOCK:
-                _LOCALIZE_CACHE[key] = {"ts": now, "value": value}
-                _touch_dirty()
-            return value
-    except Exception:
-        pass
 
     locres_value = _lookup_juno_tabasco_locres_name(key)
     if isinstance(locres_value, str):

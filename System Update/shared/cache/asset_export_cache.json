@@ -1,16 +1,17 @@
 {
   "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR": {
-    "ts": 1780015245,
+    "ts": 1788412770,
     "data": {
-      "hash": "2295e6c19605330619a3981a91bfa1150868e724ec3e41ff078c23e21eb8612d",
+      "hash": "c7a196ad91f4ec23cf6f06ba0630046c3544c629c7e4c002c5493346ef429a1a",
       "entries": 1,
-      "bytes": 7605,
+      "bytes": 7754,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_DragonCart_LightningGun_VR",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR",
           "Properties": {
             "bAllowADSInAir": true,
             "bPrimaryFireRequiresAmmo": false,
@@ -80,19 +81,19 @@
             },
             "ItemName": {
               "namespace": "",
-              "key": "E3662E7E4BBA58901BF6E2A173AE8E15",
+              "key": "BFC3D0914235D1B29BEE0FA46BF52F18",
               "sourceString": "Arc-Lightning Gun",
               "localizedString": "Arc-Lightning Gun"
             },
             "ItemDescription": {
               "namespace": "",
-              "key": "3BB4326C4C936D8A2BC1C08BFDA6E85C",
+              "key": "0DF747B34415746AF6D0B6A7D1CF91DB",
               "sourceString": "An experimental weapon built with advanced tech. It fires destructive lightning rays that spread to nearby players, vehicles and structures",
               "localizedString": "An experimental weapon built with advanced tech. It fires destructive lightning rays that spread to nearby players, vehicles and structures"
             },
             "ItemShortDescription": {
               "namespace": "",
-              "key": "58E713914DDB400B86EEFCB9FA6DF671",
+              "key": "FBC310BD4861EAC01E05D5B5A8645ABD",
               "sourceString": "Arc-Lightning Gun",
               "localizedString": "Arc-Lightning Gun"
             },
@@ -123,6 +124,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -283,7 +285,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -357,19 +359,23 @@
               {
                 "DurabilityLowWarningMessage": {
                   "namespace": "",
-                  "key": "2DD59CBC4B7FC0E3554FABA355556E66",
+                  "key": "D2E552D6455C1F8509365A81E45FD47A",
                   "sourceString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> low on energy",
                   "localizedString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> low on energy"
                 },
                 "DurabilityBrokeMessage": {
                   "namespace": "",
-                  "key": "8E21983849A2E5D8BF7E05A181AA42B7",
+                  "key": "E8ECAFA64107800EE260CB9009206EC1",
                   "sourceString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> out of energy",
                   "localizedString": "<text color=\"FF5045EE\" size=\"18\">{ItemName}</> out of energy"
                 }
               },
               {
                 "Rarity": "EFortRarity::Epic"
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::IV"
               }
             ]
           }
@@ -11402,17 +11408,18 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C": {
-    "ts": 1780083289,
+    "ts": 1788412771,
     "data": {
-      "hash": "bade5253d8723499eaa2cd3f0fbedbb5ad14cde9ee1beaba89427b513a0c177d",
+      "hash": "d8da22996949ea6377fb78b20ff142d934b39408fab5143209beeade6295f5b2",
       "entries": 1,
-      "bytes": 7947,
+      "bytes": 8087,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_C",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bAllowADSInAir": true,
@@ -11533,6 +11540,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -11693,7 +11701,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -11797,17 +11805,18 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R": {
-    "ts": 1780785776,
+    "ts": 1788412771,
     "data": {
-      "hash": "c52ee62598398c2dcc60ced1a237f237b2247631efa9cf5f751146a0908da51f",
+      "hash": "9209aff3f15c265bef05b325fc018bc288f237b82e3e7e252846f8af3ebb052e",
       "entries": 1,
-      "bytes": 7968,
+      "bytes": 8081,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_R",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bAllowADSInAir": true,
@@ -12193,7 +12202,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_SR": {
-    "ts": 1788327309,
+    "ts": 1788412771,
     "data": {
       "hash": "7e7db4798f1c83c9c70236229c99d8e9fef6b061ee85f6cf05cee0d153f66355",
       "entries": 1,
@@ -12590,17 +12599,18 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC": {
-    "ts": 1780083290,
+    "ts": 1788412772,
     "data": {
-      "hash": "35f54dccf98b6905f764985909286e687b516f8effdc8367671496845aa322e8",
+      "hash": "e38e8d9aeb03782d8aa04f43a9a2f7c69d8a897c882b8a42bdf006871d3cb2ff",
       "entries": 1,
-      "bytes": 7921,
+      "bytes": 8062,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_UC",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bAllowADSInAir": true,
@@ -12721,6 +12731,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -12881,7 +12892,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -12982,7 +12993,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_DualShotguns/WID_Shotgun_Auto_Dual_DragonCart_Athena_VR": {
-    "ts": 1788327310,
+    "ts": 1788412772,
     "data": {
       "hash": "ec0c181064e54b08189de57cf8440c5abf8da5975692d7abfe9bbbb62e1e0165",
       "entries": 1,
@@ -83042,17 +83053,18 @@
     }
   },
   "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics": {
-    "ts": 1780015045,
+    "ts": 1788412773,
     "data": {
-      "hash": "d1b2093f6fb41c1dd2414ad12bfc117b69b7e4b3dbfcb2f0178f2f5244814dfa",
+      "hash": "ae45d3881647506c57628547742e1d9d92e7fb0bb27ca0fed4aaceb299647d62",
       "entries": 1,
-      "bytes": 8439,
+      "bytes": 8553,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Proto_WingSuit_FlyingPhysics",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bPrimaryFireRequiresAmmo": false,
@@ -83186,6 +83198,7 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
@@ -83346,7 +83359,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickupDestroyOnEmpty",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,

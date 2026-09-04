@@ -1,24 +1,51 @@
 import json
+import logging
 import os
 from pathlib import Path
 
 from http_client import session
 
 
-LOCRES_API_URL = os.getenv(
-    "FORTNITE_LOCRES_API_URL",
-    "http://localhost:3849/api/v1/export/locres?lang=ja",
-)
+EXPORT_API_URL = os.getenv(
+    "FORTNITE_EXPORT_API_URL",
+    "http://localhost:3849/api/v1/export",
+).rstrip("?")
+LOCCHUNK_NUMBERS = (10, 100, 13, 20, 29, 30, 32, 35, 40, 50, 70, 80, 85, 90)
+LOCRES_PATHS = tuple(
+    "FortniteGame/Content/Localization/"
+    f"Fortnite_locchunk{number}/ja/Fortnite_locchunk{number}.locres"　
+    for number in LOCCHUNK_NUMBERS
+) + ("FortniteGame/Content/Localization/Fortnite/ja/Fortnite.locres",)
 OUTPUT_PATH = Path(__file__).resolve().parent / "shared" / "cache" / "locres_ja.json"
+LOGGER = logging.getLogger(__name__)
+
+
+def merge_locres(target: dict, source: dict) -> None:
+    for namespace, entries in source.items():
+        if not isinstance(entries, dict):
+            continue
+        target.setdefault(namespace, {}).update(entries)
 
 
 def main() -> None:
-    response = session.get(LOCRES_API_URL, timeout=120)
-    response.raise_for_status()
-    data = response.json()
+    data: dict = {}
+    for locres_path in LOCRES_PATHS:
+        try:
+            response = session.get(
+                EXPORT_API_URL,
+                params={"path": locres_path},
+                timeout=120,
+            )
+            response.raise_for_status()
+            chunk_data = response.json()
+            if not isinstance(chunk_data, dict):
+                raise ValueError("APIの応答がJSONオブジェクトではありません")
+        except Exception as exc:
+            LOGGER.warning("取得失敗のためスキップ: %s (%s)", locres_path, exc)
+            continue
 
-    if not isinstance(data, dict):
-        raise ValueError("locres APIの応答がJSONオブジェクトではありません。")
+        merge_locres(data, chunk_data)
+        LOGGER.info("取得完了: %s", locres_path)
 
     entry_count = sum(
         len(value)
@@ -40,4 +67,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
     main()

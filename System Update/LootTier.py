@@ -7,6 +7,7 @@ from typing import Any, Dict, List, Tuple
 from urllib.parse import parse_qs, unquote, urlparse
 
 from http_client import session
+from hotfix_filter import filter_hotfix_sections
 
 # prefer profile-specific config if available
 BASE_DIR = Path(__file__).resolve().parent
@@ -35,6 +36,7 @@ from config import (
     HOTFIX_LT_PATHS,
     HOTFIX_LT_TARGETS,
 )
+
 
 # ==== 入出力（config.py 側で管理）====
 PATH_LIST = [str(p) for p in (HOTFIX_LT_PATHS or [])][: int(HOTFIX_LT_MAX_PATHS or 10)]
@@ -286,7 +288,11 @@ def apply_hotfix_for_table(rows: Dict[str, Any], hotfix_text: str, table_key: st
         if not dt:
             continue
 
-        if (dt != table_key) and (dt.split("/")[-1] != table_key.split("/")[-1]):
+        dt_folded = dt.casefold()
+        table_key_folded = table_key.casefold()
+        if (dt_folded != table_key_folded) and (
+            dt.split("/")[-1].casefold() != table_key.split("/")[-1].casefold()
+        ):
             continue
 
         if op == "AddRow":
@@ -348,6 +354,8 @@ def main():
     base_meta = read_datatable_json(PATH_LIST[0])
     base_rows = base_meta["Rows"]
     hotfix_text = HOTFIX_PATH.read_text(encoding="utf-8") if HOTFIX_PATH.exists() else None
+    if hotfix_text is not None:
+        hotfix_text = filter_hotfix_sections(hotfix_text, PROFILE)
     if hotfix_text is None:
         print("[HOTFIX] skipped (file not found)")
 
@@ -359,13 +367,14 @@ def main():
             rep, add = merge_rows(base_rows, rows)
             print(f"[STEP1-{idx}] merge {p} : replaced={rep}, added={add}")
 
-        target = TARGET_LIST[idx - 1] if idx - 1 < len(TARGET_LIST) else ""
-        if not hotfix_text:
-            continue
-        if not target:
-            print(f"[HOTFIX:SEASON{idx}] skipped (target not configured)")
-            continue
-        apply_hotfix_for_table(base_rows, hotfix_text, target, f"SEASON{idx}")
+    # Apply layered hotfixes after all source tables are merged. Otherwise a
+    # later exported table can overwrite an earlier table's hotfix result.
+    if hotfix_text:
+        for idx, target in enumerate(TARGET_LIST, 1):
+            if not target:
+                print(f"[HOTFIX:SEASON{idx}] skipped (target not configured)")
+                continue
+            apply_hotfix_for_table(base_rows, hotfix_text, target, f"SEASON{idx}")
 
     write_datatable_json(base_meta, OUT_FINAL)
     print(f"[WRITE] final -> {OUT_FINAL.resolve()}")

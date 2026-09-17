@@ -1,11 +1,11 @@
 {
-  "UpdatedAt": "2026-09-04T14:43:44",
-  "UpdatedByProfile": "RopeSmile",
+  "UpdatedAt": "2026-09-17T17:36:24",
+  "UpdatedByProfile": "BR",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
       "LocalizedName": "チャグジャグ",
-      "LocalizedDescription": "A thousand ounces of the slurp juice you love, now available on the go!",
+      "LocalizedDescription": "みんな大好きスラープジュースが大量に入っている。移動しながら飲めるようになったぞ！",
       "Tags": [
         "CH6S2",
         "ConsumableItem",
@@ -17,7 +17,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_C",
       "LocalizedName": "8ビットショットガン",
-      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "LocalizedDescription": "ゲーム黄金時代を思い起こさせるこのオートマチックのブラスターでハイスコアを叩き出そう。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
         "Ammo:Shells",
@@ -32,7 +32,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_R",
       "LocalizedName": "8ビットショットガン",
-      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "LocalizedDescription": "ゲーム黄金時代を思い起こさせるこのオートマチックのブラスターでハイスコアを叩き出そう。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
         "Ammo:Shells",
@@ -47,7 +47,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_SR",
       "LocalizedName": "8ビットショットガン",
-      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "LocalizedDescription": "ゲーム黄金時代を思い起こさせるこのオートマチックのブラスターでハイスコアを叩き出そう。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
         "Ammo:Shells",
@@ -62,7 +62,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UC",
       "LocalizedName": "8ビットショットガン",
-      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "LocalizedDescription": "ゲーム黄金時代を思い起こさせるこのオートマチックのブラスターでハイスコアを叩き出そう。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
         "Ammo:Shells",
@@ -77,7 +77,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_UR",
       "LocalizedName": "ロボトニックの8ビット ショットガン",
-      "LocalizedDescription": "Forged to deal massive damage, this enhanced 8-Bit Shotgun is the ultimate weapon for dominating the leaderboards.",
+      "LocalizedDescription": "圧倒的なダメージを与えるために作られたこの強化型8ビット ショットガンは、ランキングボードを制覇するための究極の武器だ。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade"
       ]
@@ -85,7 +85,7 @@
     {
       "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_VR",
       "LocalizedName": "8ビットショットガン",
-      "LocalizedDescription": "Rack up your high score with this automatic blast from the golden age of gaming.",
+      "LocalizedDescription": "ゲーム黄金時代を思い起こさせるこのオートマチックのブラスターでハイスコアを叩き出そう。",
       "Tags": [
         "Weapon.Ranged.Shotgun.CosmicThunder.Arcade",
         "Ammo:Shells",
@@ -93,6 +93,21 @@
         "Epic",
         "Guard",
         "NewThisSeason",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/ArcadeWeaponGameplay/Items/WID_ArcadeShotgun_X",
+      "LocalizedName": "オーバークロック 8ビット ショットガン",
+      "LocalizedDescription": "このハッキング版の8ビット ショットガンは、トリックショットを決めると敵の体力を吸い取るぞ！",
+      "Tags": [
+        "Ammo:Shells",
+        "CH7S4",
+        "Exotic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
         "Shotgun",
         "Weapon"
       ]
@@ -833,8 +848,39 @@
     {
       "AssetPathName": "/CosmicThunderSecondChance/Gameplay/AID_CosmicThunder_SecondChance",
       "LocalizedName": "追加ライフトークン",
-      "LocalizedDescription": "Respawn from Elimination While Keeping Your Inventory",
+      "LocalizedDescription": "インベントリを保持したまま撃破からリスポーンする。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticPump/WID_Shotgun_Standard_Athena_X",
+      "LocalizedName": "ポンプショットガン(エキゾチック)",
+      "LocalizedDescription": "Exotic Pump Shotgun: Consecutive hits ramp up impact damage, making each follow-up shot more devastating than the one before it.",
+      "Tags": [
+        "Item.Weapon.Ranged.Shotgun.Pump.LowTier.X",
+        "Ammo:Shells",
+        "CH7S4",
+        "Exotic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticScar/WID_Assault_AutoHigh_Athena_X",
+      "LocalizedName": "アサルトライフル(エキゾチック)  ",
+      "LocalizedDescription": "Exotic Assault Rifle: Creates a balloon explosion on the first bullet and every few bullets. Keep firing and watch the party spread.",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH7S4",
+        "Exotic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "Weapon"
+      ]
     },
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/HeavyMinigun/WID_CrimsonMist_HeavyMinigun_UR",
@@ -854,7 +900,7 @@
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C",
       "LocalizedName": "スイーパーショットガン",
-      "LocalizedDescription": "Semi-Automatic. Fast-firing shotgun with a wide pellet spread. Good for dealing with multiple targets or landing easier shots at short range.",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
@@ -868,7 +914,7 @@
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R",
       "LocalizedName": "スイーパーショットガン",
-      "LocalizedDescription": "Semi-Automatic. Fast-firing shotgun with a wide pellet spread. Good for dealing with multiple targets or landing easier shots at short range.",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
@@ -882,7 +928,7 @@
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR",
       "LocalizedName": "スイーパーショットガン",
-      "LocalizedDescription": "Semi-Automatic. Fast-firing shotgun with a wide pellet spread. Good for dealing with multiple targets or landing easier shots at short range.",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
@@ -896,7 +942,7 @@
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC",
       "LocalizedName": "スイーパーショットガン",
-      "LocalizedDescription": "Semi-Automatic. Fast-firing shotgun with a wide pellet spread. Good for dealing with multiple targets or landing easier shots at short range.",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
@@ -924,7 +970,7 @@
     {
       "AssetPathName": "/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR",
       "LocalizedName": "スイーパーショットガン",
-      "LocalizedDescription": "Semi-Automatic. Fast-firing shotgun with a wide pellet spread. Good for dealing with multiple targets or landing easier shots at short range.",
+      "LocalizedDescription": "セミオート。連射速度が速く、弾の拡散範囲が広いショットガン。複数の標的に対処する場合や、近距離で確実に命中させたいときに有効。",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.CrimsonMist",
         "Ammo:Shells",
@@ -1223,6 +1269,44 @@
         "Item",
         "MobilityItem"
       ]
+    },
+    {
+      "AssetPathName": "/DentureSay/Gameplay/WID_DentureSay",
+      "LocalizedName": "Kingdom Key",
+      "LocalizedDescription": "The keychain attached draws out the Keyblade's true form and power.",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.CarryPlayer.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "DentureSay.Item.Equipped",
+        "Granted.BoostedJump.PreventHoslter"
+      ]
+    },
+    {
+      "AssetPathName": "/DentureSay/Gameplay/WID_DentureSay_M",
+      "LocalizedName": "Kingdom Key",
+      "LocalizedDescription": "The keychain attached draws out the Keyblade's true form and power.",
+      "Tags": [
+        "Granted.Athena.TacticalSprint.PreventHolster",
+        "Granted.Athena.TacticalSprint.AllowSecondaryFire",
+        "Gameplay.Status.DisableSwimSprintCancel",
+        "Granted.Athena.CarryPlayer.PreventHolster",
+        "Granted.Athena.ClamberAndDoorBash.PreventHolster",
+        "Granted.Athena.Hurdle.PreventHolster",
+        "Granted.Athena.GrindRails.SkipEquipAnimOnUnholster",
+        "DentureSay.Item.Equipped",
+        "Granted.BoostedJump.PreventHoslter"
+      ]
+    },
+    {
+      "AssetPathName": "/DentureSay_DentRemover/Gameplay/WID_DentureSay_DentRemover",
+      "LocalizedName": "Sea Salt Ice Cream",
+      "LocalizedDescription": "This salty and sweet treat gives you and your friends a health & shield burst.",
+      "Tags": []
     },
     {
       "AssetPathName": "/DeployableTurretGameplay/Items/DeployableTurret/WID_Athena_Sentry_Turret_Deployable",
@@ -1588,7 +1672,7 @@
     {
       "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula",
       "LocalizedName": "テトリスリフト",
-      "LocalizedDescription": "Rift in Tetris blocks culminating in the iconic Tetris Line Clear doing a big AOE heal.",
+      "LocalizedDescription": "裂け目からテトリスのブロックが生じ、象徴的なテトリス ライン消去で広範囲を回復させる。",
       "Tags": []
     },
     {
@@ -3382,7 +3466,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_C",
       "LocalizedName": "レンジャーアサルトライフル",
-      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "LocalizedDescription": "アサルトライフル: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3395,7 +3479,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_R",
       "LocalizedName": "レンジャーアサルトライフル",
-      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "LocalizedDescription": "アサルトライフル: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3408,7 +3492,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_SR",
       "LocalizedName": "レンジャーアサルトライフル",
-      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "LocalizedDescription": "アサルトライフル: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3421,7 +3505,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_UC",
       "LocalizedName": "レンジャーアサルトライフル",
-      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "LocalizedDescription": "アサルトライフル: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3434,7 +3518,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_VR",
       "LocalizedName": "レンジャーアサルトライフル",
-      "LocalizedDescription": "Assault Rifle: Fully Automatic, flexible assault rifle capable of handling all types of combat scenarios.",
+      "LocalizedDescription": "アサルトライフル: フルオート。フレキシブルなアサルトライフルで、あらゆる戦況に対応可能。",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -3770,7 +3854,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/JellyFish/WID_Athena_Flopper_JellyFish",
       "LocalizedName": "ジェリーフィッシュ",
-      "LocalizedDescription": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
+      "LocalizedDescription": "近くにいるプレイヤーにしぶきを飛ばし、即座に体力を回復し、シールドを付与する。",
       "Tags": [
         "CH2S4",
         "ConsumableItem",
@@ -3783,7 +3867,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/MechanicFlopper/WID_Athena_MechanicFlopper",
       "LocalizedName": "マイダスフロッパー",
-      "LocalizedDescription": "Eat me! I'll upgrade your weapons.",
+      "LocalizedDescription": "僕を食べて！ 武器をアップグレードしてあげるよ。",
       "Tags": [
         "CH2S4",
         "ConsumableItem",
@@ -3835,13 +3919,13 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit",
       "LocalizedName": "フィッシングフック",
-      "LocalizedDescription": "Cast into water, wait for a bob, REEL IT IN!",
+      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
       "Tags": []
     },
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/FloppingRabbit/WID_Athena_FloppingRabbit_HighTier",
       "LocalizedName": "プロ用フィッシングフック",
-      "LocalizedDescription": "Cast into water, wait for a bob, REEL IT IN!",
+      "LocalizedDescription": "水の中へ投げて、食い付くのを待ち、思い切り引っ張れ！",
       "Tags": []
     },
     {
@@ -3853,7 +3937,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/WID_Athena_Apple",
       "LocalizedName": "リンゴ",
-      "LocalizedDescription": "Consume for a small amount of health.",
+      "LocalizedDescription": "食べると体力が少量回復する。",
       "Tags": [
         "CH1S4",
         "CommonItem",
@@ -3885,7 +3969,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage",
       "LocalizedName": "キャベツ",
-      "LocalizedDescription": "Consume for a small amount of health over time.",
+      "LocalizedDescription": "食べると時間経過とともに体力が少し回復する。",
       "Tags": [
         "CH2S3",
         "CommonItem",
@@ -3924,9 +4008,22 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/GoldenTruffle/WID_Athena_GoldenTruffle",
       "LocalizedName": "ゴールデントリュフ",
-      "LocalizedDescription": "Consume for a large amount of shield.",
+      "LocalizedDescription": "食べると多量のシールドが付与される。",
       "Tags": [
         "Regenerative"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Pepper/WID_Athena_Pepper",
+      "LocalizedName": "ペッパー",
+      "LocalizedDescription": "食べると体力が少し回復し、スピードブーストの効果が得られる。",
+      "Tags": [
+        "CH1S8",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
       ]
     },
     {
@@ -3964,7 +4061,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/HappyGhost/WID_Athena_HappyGhost",
       "LocalizedName": "ハープーンガン",
-      "LocalizedDescription": "Pulls enemies to you and deals damage.",
+      "LocalizedDescription": "敵を自分の元へ引き寄せて、ダメージを与える。",
       "Tags": [
         "CH2S1",
         "ConsumableItem",
@@ -5136,7 +5233,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_C_Ore_T03",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
       "Tags": [
         "Ammo:Shells",
         "PreSeason",
@@ -5148,7 +5245,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_Common",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
       "Tags": [
         "Ammo:Shells",
         "CH2S1",
@@ -5161,7 +5258,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
       "Tags": [
         "Ammo:Shells",
         "CH7S4",
@@ -5188,7 +5285,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_UC_Ore_T03",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
       "Tags": [
         "Ammo:Shells",
         "Guard",
@@ -5214,7 +5311,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_SpyTech_VR_T01",
       "LocalizedName": "ポンプショットガン",
-      "LocalizedDescription": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+      "LocalizedDescription": "ショットガン: ポンプアクション。連射速度は中程度でダメージが大きい。射程が短くマガジンサイズが小さい。",
       "Tags": [
         "Ammo:Shells",
         "CH7S4",
@@ -5435,7 +5532,7 @@
     {
       "AssetPathName": "/GoldenFAWeaponGameplay/Gameplay/WID_Pistol_Golden_Athena_UR",
       "LocalizedName": "マイダスの傑作",
-      "LocalizedDescription": "Single-fire sniper-style golden Pistol. It feels like cheating, one golden headshot means another poor victim has come to a glittering end.",
+      "LocalizedDescription": "黄金色の単発式スナイパーピストル。反則級の強さで、黄金のヘッドショット一発が哀れな犠牲者をきらびやかな最期へと導く。",
       "Tags": [
         "Item.Weapon.Ranged.Pistol.Golden",
         "Gameplay.Weapon.DisplayOpticGlint",
@@ -5488,6 +5585,54 @@
         "CH6S3",
         "Epic",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_R",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Double the guts and carnage with the duel weilded Assault Rifle/SMG combo",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_SR",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Double the guts and carnage with the duel weilded Assault Rifle/SMG combo",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_UC",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Double the guts and carnage with the duel weilded Assault Rifle/SMG combo",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_UR",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Double the guts and carnage with the duel weilded Assault Rifle/SMG combo",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_VR",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Double the guts and carnage with the duel weilded Assault Rifle/SMG combo",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
+      ]
+    },
+    {
+      "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_X",
+      "LocalizedName": "Rebecca's Guns",
+      "LocalizedDescription": "Rebecca's Gun entered a frenzy that now ricochets and explodes whenever the fire button is pressed.",
+      "Tags": [
+        "CameraController.DisableFirstPerson"
       ]
     },
     {
@@ -5616,7 +5761,7 @@
     {
       "AssetPathName": "/InvulnLlama/Gameplay/WID_InvulnLlama",
       "LocalizedName": "無敵ラマ",
-      "LocalizedDescription": "Tap into the true power of the Llama to Become an Unstoppable Wrecking Ball",
+      "LocalizedDescription": "ラマの真の力を引き出して、誰にも止められない破壊魔になろう。",
       "Tags": []
     },
     {
@@ -5984,7 +6129,7 @@
     {
       "AssetPathName": "/MintPunt/Gameplay/WID_MintPunt_R",
       "LocalizedName": "ロックバスター",
-      "LocalizedDescription": "This powerful arm cannon built by Dr. Light fires energy bullets, even while sprinting. Can be charged for more power, and provides a boosted Slide",
+      "LocalizedDescription": "ライト博士が開発した、ダッシュ中でもエネルギー弾を発射できる強力なアームキャノン。チャージで威力が上がり、スライディングも強化される。",
       "Tags": [
         "Granted.Athena.TacticalSprint.AllowSecondaryFire",
         "Granted.Athena.TacticalSprint.PreventHolster",
@@ -6217,7 +6362,7 @@
     {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_C",
       "LocalizedName": "タクティカルピストル",
-      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
       "Tags": [
         "Ammo:Light",
         "CH7S1",
@@ -6230,7 +6375,7 @@
     {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_R",
       "LocalizedName": "タクティカルピストル",
-      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
       "Tags": [
         "Ammo:Light",
         "CH7S1",
@@ -6243,7 +6388,7 @@
     {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_SR",
       "LocalizedName": "タクティカルピストル",
-      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
       "Tags": [
         "Ammo:Light",
         "CH7S1",
@@ -6256,7 +6401,7 @@
     {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UC",
       "LocalizedName": "タクティカルピストル",
-      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
       "Tags": [
         "Ammo:Light",
         "CH7S1",
@@ -6282,7 +6427,7 @@
     {
       "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_VR",
       "LocalizedName": "タクティカルピストル",
-      "LocalizedDescription": "Pistol: Automatic. Versatile sidearm with moderate damage and rate of fire.",
+      "LocalizedDescription": "ピストル: オートマチック。ダメージと連射速度がそこそこの万能なサイドアーム。",
       "Tags": [
         "Ammo:Light",
         "CH7S1",
@@ -6591,7 +6736,7 @@
     {
       "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian",
       "LocalizedName": "ソニック パワースニーカー",
-      "LocalizedDescription": "These sneakers will have you rolling around at the speed of sound! Charge for a powerful spin dash.",
+      "LocalizedDescription": "このスニーカーを履けば、音速で駆け回れる！ チャージして強力なスピンダッシュを繰り出そう。",
       "Tags": [
         "Athena.Item.NarrowFleaObsidian.Equipped",
         "Granted.Athena.TacticalSprint.AllowPrimaryFire",
@@ -6601,7 +6746,7 @@
     {
       "AssetPathName": "/NarrowFleaObsidian/Gameplay/WID_NarrowFleaObsidian_M",
       "LocalizedName": "ソニック パワースニーカー",
-      "LocalizedDescription": "These sneakers will have you rolling around at the speed of sound! Charge for a powerful spin dash.",
+      "LocalizedDescription": "このスニーカーを履けば、音速で駆け回れる！ チャージして強力なスピンダッシュを繰り出そう。",
       "Tags": [
         "Athena.Item.NarrowFleaObsidian.Equipped",
         "Granted.Athena.TacticalSprint.AllowPrimaryFire",
@@ -9870,9 +10015,25 @@
       ]
     },
     {
+      "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/ExoticVersion/WID_SunRose_DrumGun_HS_Athena_X",
+      "LocalizedName": "ドラムガン(エキゾチック)",
+      "LocalizedDescription": "Exotic Drum Gun: Increases fire rate and movement speed as you fire.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Drum.SunRose",
+        "Ammo:Medium",
+        "CH7S4",
+        "Exotic",
+        "Guard",
+        "NewThisSeason",
+        "RecentlyAdded",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_C",
       "LocalizedName": "ドラムガン",
-      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "LocalizedDescription": "連射速度が速く、大型のドラムを備えたヘビーサブマシンガン。敵を制圧する能力、じゃじゃ馬っぷり、そして特徴的なスタイルで良く知られる昔ながらの武器。",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -9887,7 +10048,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_R",
       "LocalizedName": "ドラムガン",
-      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "LocalizedDescription": "連射速度が速く、大型のドラムを備えたヘビーサブマシンガン。敵を制圧する能力、じゃじゃ馬っぷり、そして特徴的なスタイルで良く知られる昔ながらの武器。",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -9901,7 +10062,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_SR",
       "LocalizedName": "ドラムガン",
-      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "LocalizedDescription": "連射速度が速く、大型のドラムを備えたヘビーサブマシンガン。敵を制圧する能力、じゃじゃ馬っぷり、そして特徴的なスタイルで良く知られる昔ながらの武器。",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -9915,7 +10076,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UC",
       "LocalizedName": "ドラムガン",
-      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "LocalizedDescription": "連射速度が速く、大型のドラムを備えたヘビーサブマシンガン。敵を制圧する能力、じゃじゃ馬っぷり、そして特徴的なスタイルで良く知られる昔ながらの武器。",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -9945,7 +10106,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_VR",
       "LocalizedName": "ドラムガン",
-      "LocalizedDescription": "A heavy submachine gun with high rate of fire and large drum. A classic weapon renowned for its ability to suppress enemies, unwieldy handling, and iconic stylings.",
+      "LocalizedDescription": "連射速度が速く、大型のドラムを備えたヘビーサブマシンガン。敵を制圧する能力、じゃじゃ馬っぷり、そして特徴的なスタイルで良く知られる昔ながらの武器。",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",

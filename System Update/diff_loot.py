@@ -153,7 +153,62 @@ def _normalize_from_lootpercent(data: dict) -> Dict[str, Dict[str, Any]]:
     return out
 
 
+def _normalize_from_schema_v2(data: dict) -> Dict[str, Dict[str, Any]]:
+    """Normalize schema v2 while preserving the legacy diff semantics."""
+    out: Dict[str, Dict[str, Any]] = {}
+    group_sets: Dict[str, set[str]] = {}
+    label_sets: Dict[str, set[str]] = {}
+    probability_sums: Dict[str, float] = {}
+    group_probabilities: Dict[str, Dict[str, float]] = {}
+    asset_path_map: Dict[str, str] = {}
+    localized_name_map: Dict[str, str] = {}
+    rarity_map: Dict[str, str] = {}
+
+    for group_key, table in data.get("lootTables", {}).items():
+        for loot_group in table.get("lootGroups", []) or []:
+            for package in loot_group.get("packages", []) or []:
+                for item in package.get("items", []) or []:
+                    item_id = item.get("assetPath") or item.get("id") or item.get("name")
+                    if not item_id:
+                        continue
+                    item_id = str(item_id)
+                    label = item.get("name") or item.get("id") or item.get("assetPath") or item_id
+                    label_sets.setdefault(item_id, set()).add(str(label))
+                    group_sets.setdefault(item_id, set()).add(str(group_key))
+                    if item.get("assetPath") and item_id not in asset_path_map:
+                        asset_path_map[item_id] = str(item["assetPath"])
+                    if item.get("name") and item_id not in localized_name_map:
+                        localized_name_map[item_id] = str(item["name"])
+                    if item.get("rarity") and item_id not in rarity_map:
+                        rarity_map[item_id] = str(item["rarity"])
+                    probability = item.get("localPercent")
+                    if not isinstance(probability, (int, float)):
+                        probability = item.get("effectivePercent")
+                    if isinstance(probability, (int, float)):
+                        probability_sums[item_id] = probability_sums.get(item_id, 0.0) + float(probability)
+                        per_group = group_probabilities.setdefault(item_id, {})
+                        per_group[str(group_key)] = per_group.get(str(group_key), 0.0) + float(probability)
+
+    for item_id in sorted(group_sets):
+        groups = sorted(group_sets[item_id])
+        out[item_id] = {
+            "asset_path": asset_path_map.get(item_id, item_id),
+            "localized_name": localized_name_map.get(item_id),
+            "rarity": rarity_map.get(item_id),
+            "label": " / ".join(sorted(label_sets.get(item_id, {item_id}))),
+            "group": "|".join(groups),
+            "groups": groups,
+            "probability": probability_sums.get(item_id),
+            "group_probabilities": group_probabilities.get(item_id, {}),
+        }
+    if not out:
+        raise ValueError("schema v2 lootTables structure was not detected")
+    return out
+
+
 def normalize_items(data: Any) -> Dict[str, Dict[str, Any]]:
+    if isinstance(data, dict) and data.get("meta", {}).get("schemaVersion") == 2 and isinstance(data.get("lootTables"), dict):
+        return _normalize_from_schema_v2(data)
     if isinstance(data, dict) and any(
         isinstance(v, dict) and "Items" in v for v in data.values()
     ):

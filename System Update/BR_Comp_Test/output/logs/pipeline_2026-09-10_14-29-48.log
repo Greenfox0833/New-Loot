@@ -1,0 +1,206 @@
+2026-09-10 14:29:48 | INFO | log file (BR_Comp_Test): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\logs\pipeline_2026-09-10_14-29-48.log
+2026-09-10 14:29:48 | INFO | ===== BR_Comp_Test: pipeline start =====
+2026-09-10 14:29:48 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\items_unique_min.json
+2026-09-10 14:29:48 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp_Test
+2026-09-10 14:29:48 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-09-10 14:29:48 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-09-10 14:29:52 | INFO | hotfix lp stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset : replaced=142, added=512
+[STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset : replaced=27, added=9
+[STEP1-4] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset : replaced=1, added=0
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[1022] RowUpdate PKG_Chest_Weapon_Shotgun_16.Weight=0.025000 -> OK
+[1023] RowUpdate PKG_Chest_Weapon_Handgun_16.Weight=0.025000 -> OK
+[1024] RowUpdate PKG_Chest_Weapon_SMG_16.Weight=0.025000 -> OK
+[1025] RowUpdate PKG_Chest_Weapon_Assault_16.Weight=0.025000 -> OK
+[1026] RowUpdate PKG_Chest_Weapon_Sniper_16.Weight=0.025000 -> OK
+[1027] RowUpdate PKG_RareChest_Weapon_Shotgun_14.Weight=0.060000 -> OK
+[1028] RowUpdate PKG_RareChest_Weapon_Handgun_14.Weight=0.060000 -> OK
+[1029] RowUpdate PKG_RareChest_Weapon_SMG_14.Weight=0.060000 -> OK
+[1030] RowUpdate PKG_RareChest_Weapon_Assault_14.Weight=0.060000 -> OK
+[1031] RowUpdate PKG_RareChest_Weapon_Sniper_14.Weight=0.060000 -> OK
+[1032] RowUpdate PKG_RareAmmoBox_09.Weight=0.000000 -> OK
+[1042] RowUpdate PKG_Chest_Weapon_Assault_08.Weight=0.0000 -> OK
+[1043] RowUpdate PKG_Chest_Weapon_Sniper_08.Weight=0.00000 -> OK
+[1044] RowUpdate PKG_RareChest_Weapon_Handgun_06.Weight=0.00000 -> OK
+[1045] RowUpdate PKG_RareChest_Weapon_SMG_06.Weight=0.00000 -> OK
+[1046] RowUpdate PKG_RareChest_Weapon_Assault_06.Weight=0.00000 -> OK
+[1047] RowUpdate PKG_RareChest_Weapon_Sniper_06.Weight=0.00000 -> OK
+[1048] RowUpdate PKG_Chest_Weapon_Shotgun_07.Weight=0.120000 -> OK
+[1049] RowUpdate PKG_Chest_Weapon_Handgun_07.Weight=0.120000 -> OK
+[1050] RowUpdate PKG_Chest_Weapon_SMG_07.Weight=0.120000 -> OK
+[1051] RowUpdate PKG_Chest_Weapon_Assault_07.Weight=0.120000 -> OK
+[1052] RowUpdate PKG_Chest_Weapon_Sniper_07.Weight=0.120000 -> OK
+[1053] RowUpdate PKG_Chest_Weapon_Launcher_07.Weight=0.120000 -> OK
+[1054] RowUpdate PKG_RareChest_Weapon_Shotgun_05.Weight=0.140000 -> OK
+[1055] RowUpdate PKG_RareChest_Weapon_Handgun_05.Weight=0.140000 -> OK
+[1056] RowUpdate PKG_RareChest_Weapon_SMG_05.Weight=0.140000 -> OK
+[1057] RowUpdate PKG_RareChest_Weapon_Assault_05.Weight=0.140000 -> OK
+[1058] RowUpdate PKG_RareChest_Weapon_Sniper_05.Weight=0.140000 -> OK
+[1059] RowUpdate PKG_RareChest_Weapon_Launcher_05.Weight=0.140000 -> OK
+[1454] RowUpdate LIST_Gold_Small_01.CountRange=(X=150,Y=150) -> OK
+[1455] RowUpdate LIST_Gold_Small_02.CountRange=(X=185,Y=185) -> OK
+[1456] RowUpdate LIST_Gold_Small_03.CountRange=(X=260,Y=260) -> OK
+[1457] RowUpdate LIST_Gold_Small_04.CountRange=(X=400,Y=400) -> OK
+[1458] RowUpdate LIST_Gold_Small_05.CountRange=(X=550,Y=550) -> OK
+[1459] RowUpdate LIST_Gold_Medium_01.CountRange=(X=375,Y=375) -> OK
+[1460] RowUpdate LIST_Gold_Large_01.CountRange=(X=450,Y=450) -> OK
+[1461] RowUpdate LIST_Gold_ExtraLarge_01.CountRange=(X=750,Y=750) -> OK
+[1462] RowUpdate LIST_Gold_ExtraLarge_02.CountRange=(X=900,Y=900) -> OK
+[1463] RowUpdate LIST_Gold_ExtraLarge_03.CountRange=(X=1125,Y=1125) -> OK
+[1464] RowUpdate LIST_Gold_ExtraLarge_04.CountRange=(X=1300,Y=1300) -> OK
+[1465] RowUpdate LIST_Gold_ExtraLarge_05.CountRange=(X=2250,Y=2250) -> OK
+[1466] RowUpdate LIST_Gold_Register_01.CountRange=(X=150,Y=150) -> OK
+[1467] RowUpdate LIST_Gold_Register_02.CountRange=(X=185,Y=185) -> OK
+[1468] RowUpdate LIST_Gold_Register_03.CountRange=(X=260,Y=260) -> OK
+[1469] RowUpdate LIST_Gold_Register_04.CountRange=(X=375,Y=375) -> OK
+[1470] RowUpdate LIST_Gold_Register_05.CountRange=(X=560,Y=560) -> OK
+[1471] RowUpdate LIST_Gold_Safe_01.CountRange=(X=150,Y=150) -> OK
+[1472] RowUpdate LIST_Gold_Safe_02.CountRange=(X=185,Y=185) -> OK
+[1473] RowUpdate LIST_Gold_Safe_03.CountRange=(X=260,Y=260) -> OK
+[1474] RowUpdate LIST_Gold_Safe_04.CountRange=(X=375,Y=375) -> OK
+[1475] RowUpdate LIST_Gold_Safe_05.CountRange=(X=560,Y=560) -> OK
+[1476] RowUpdate LIST_Chest_Gold_01.CountRange=(X=55,Y=55) -> OK
+[1477] RowUpdate LIST_Chest_Gold_02.CountRange=(X=70,Y=70) -> OK
+[1478] RowUpdate LIST_Chest_Gold_03.CountRange=(X=85,Y=85) -> OK
+[1479] RowUpdate LIST_Chest_Gold_04.CountRange=(X=110,Y=110) -> OK
+[1480] RowUpdate LIST_Chest_Gold_05.CountRange=(X=225,Y=225) -> OK
+[1481] RowUpdate LIST_RareChest_Gold_01.CountRange=(X=95,Y=95) -> OK
+[1482] RowUpdate LIST_RareChest_Gold_02.CountRange=(X=115,Y=115) -> OK
+[1483] RowUpdate LIST_RareChest_Gold_03.CountRange=(X=150,Y=150) -> OK
+[1484] RowUpdate LIST_RareChest_Gold_04.CountRange=(X=240,Y=240) -> OK
+[1485] RowUpdate LIST_RareChest_Gold_05.CountRange=(X=375,Y=375) -> OK
+[1486] RowUpdate LIST_Fishing_Gold_01.CountRange=(X=375,Y=3753) -> OK
+[1487] RowUpdate LIST_FishingHole_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1548] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.010000 -> OK
+[1549] RowUpdate PKG_FishingHole_Consumable_03.Weight=0.010000 -> OK
+[1585] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1586] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1587] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1588] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1596] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.008000 -> OK
+[1657] RowUpdate LIST_RareRodBox_05.Weight=0.000000 -> OK
+[1658] RowUpdate LIST_RareRodBox_Harpoon_01.Weight=0.000000 -> OK
+[2385] RowUpdate PKG_FishingDefault_Consumable_01.Weight=0.030000 -> OK
+[2386] RowUpdate PKG_FishingDefault_Consumable_02.Weight=0.000000 -> OK
+[2387] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.000000 -> OK
+[2388] RowUpdate PKG_FishingDefault_Consumable_07.Weight=0.970000 -> OK
+[2389] RowUpdate PKG_FishingDefault_Consumable_07.LootPackageCall=LIST_Ammo_Random -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=77, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client
+[1452] RowUpdate LIST_Boss_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1453] RowUpdate LIST_LlamaSupply_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1545] RowUpdate LIST_Vend_Item_Seasonal_2_01.Weight=1.000000 -> OK
+[1546] RowUpdate LIST_Vend_Item_Seasonal_2_01.CountRange=(X=3,Y=3) -> OK
+[1547] RowUpdate LIST_Vend_Item_Seasonal_2_01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1550] RowUpdate LIST_FishingHole_Legendary_Consumable_04.Weight=0.5000 -> OK
+[1647] RowUpdate LIST_Weapons_Common_Shotgun_06.Weight=1.000000 -> OK
+[1648] RowUpdate LIST_Weapons_Common_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C.WID_CrimsonMist_TacSG_C -> OK
+[1649] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.Weight=1.000000 -> OK
+[1650] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC -> OK
+[1651] RowUpdate LIST_Weapons_Rare_Shotgun_06.Weight=1.000000 -> OK
+[1652] RowUpdate LIST_Weapons_Rare_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R.WID_CrimsonMist_TacSG_R -> OK
+[1653] RowUpdate LIST_Weapons_Epic_Shotgun_06.Weight=1.000000 -> OK
+[1654] RowUpdate LIST_Weapons_Epic_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR.WID_CrimsonMist_TacSG_VR -> OK
+[1655] RowUpdate LIST_Weapons_Legendary_Shotgun_06.Weight=1.000000 -> OK
+[1656] RowUpdate LIST_Weapons_Legendary_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR.WID_CrimsonMist_TacSG_SR -> OK
+[1854] RowUpdate LIST_Vend_Item_Seasonal_1_01.ItemDefinition=/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula -> OK
+[2390] RowUpdate LIST_FishingDefault_Consumables_Healing_01.Weight=1.000000 -> OK
+[2391] RowUpdate LIST_FishingDefault_Consumables_Healing_02.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=19, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp
+[1440] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.Weight=0.100000 -> OK
+[1441] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1442] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1443] RowUpdate LIST_RareChest_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1444] RowUpdate LIST_RareChest_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1445] RowUpdate LIST_Chest_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1446] RowUpdate LIST_Chest_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1568] RowUpdate LIST_Weapons_Legendary_SMG_10.Weight=0.000000 -> OK
+[1569] RowUpdate LIST_Weapons_Rare_SMG_10.Weight=0.000000 -> OK
+[1570] RowUpdate LIST_Weapons_Epic_SMG_10.Weight=0.000000 -> OK
+[1571] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1572] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1573] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1574] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1575] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1576] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[2379] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[2380] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[2381] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[2382] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[2383] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[2384] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=22, deleted=0, skipped=0
+[HOTFIX:SEASON4] target=/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP
+[1864] TableUpdate -> ADD LIST_Consumables_ZeroBuild_02
+[1864] TableUpdate -> ADD LIST_Weapons_Common_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Weapons_Uncommon_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Weapons_Rare_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Weapons_Epic_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Weapons_Legendary_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Weapons_Mythic_Shotgun_01
+[1864] TableUpdate -> ADD LIST_Boss_SouthBalk_Weapon_01
+[1864] TableUpdate -> ADD LIST_8Bit_C_01
+[1864] TableUpdate -> ADD LIST_8Bit_UC_01
+[1864] TableUpdate -> ADD LIST_8Bit_R_01
+[1864] TableUpdate -> ADD LIST_8Bit_VR_01
+[1864] TableUpdate -> ADD LIST_8Bit_SR_01
+[HOTFIX:SEASON4] done: applied=13, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\CosmicThunderLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\CosmicThunder_Override_LootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\CosmicThunder_Override_LootPackages_Comp_BACKUP__final.json
+2026-09-10 14:29:52 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-09-10 14:29:55 | INFO | hotfix lt stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset : replaced=1, added=36
+[STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootTiers_Comp.uasset : replaced=0, added=0
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[1271] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1272] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1273] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[HOTFIX:SEASON1] done: applied=3, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootTiers_Comp
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\CosmicThunderLootTiers_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\CosmicThunder_Override_LootTiers_Comp__final.json
+2026-09-10 14:29:55 | INFO | ✓ Hotfix 適用完了 (6.77s)
+2026-09-10 14:29:55 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootTierData_Client__final.json
+2026-09-10 14:29:55 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootPackages_Client__final.json
+2026-09-10 14:29:55 | INFO | load done (0.01s)
+2026-09-10 14:29:55 | INFO | build summary start
+2026-09-10 14:29:55 | INFO | build summary done (0.03s)
+2026-09-10 14:29:55 | INFO | enrich summary with names start
+2026-09-10 14:29:55 | INFO | enrich summary done (0.00s)
+2026-09-10 14:29:55 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary\v39.30_2026-09-10_14-29.json
+2026-09-10 14:29:55 | INFO | build item metadata start
+2026-09-10 14:29:58 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (3.48s)
+2026-09-10 14:29:58 | INFO | build BR_LootData start
+2026-09-10 14:29:58 | INFO | build BR_LootData done (0.00s)
+2026-09-10 14:29:58 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp_Test\BR_Comp_Test_LootData_2026-09-10_14-29.json
+2026-09-10 14:29:58 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\scripts\LootSummary.py
+2026-09-10 14:29:59 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary\v39.30_2026-09-10_14-29.json
+✅ 抽出件数: 65
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary\v39.30_2026-09-10_08-39.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary\v39.30_2026-09-10_14-29.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 1 / 変更 : 0 / 変化なし : 65
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\history\BR_20260910_1429\items_unique_min_diff.json
+2026-09-10 14:29:59 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-09-10 14:29:59 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.37s)
+2026-09-10 14:29:59 | INFO | prewarm start
+2026-09-10 14:30:00 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.02s)
+2026-09-10 14:30:00 | INFO | 画像化タスク数: 65
+2026-09-10 14:30:00 | INFO | 画像生成 進捗: 1/65
+2026-09-10 14:30:00 | INFO | 画像生成 進捗: 50/65
+2026-09-10 14:30:01 | INFO | 画像生成 進捗: 65/65
+2026-09-10 14:30:01 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-09-10 14:30:01 | INFO | ===== BR_Comp_Test: pipeline end =====

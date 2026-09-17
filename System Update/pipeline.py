@@ -1,4 +1,4 @@
-﻿import json
+import json
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -23,7 +23,7 @@ from config import (
 )
 from diff_loot_auto import run_latest_diff
 from new_item_images import copy_new_item_images
-from summary import build_br_lootdata_all_tgs, build_summary, load_rows
+from summary import build_validated_schema_v2, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
 def get_versioned_filename(prefix, save_dir):
@@ -75,7 +75,7 @@ def main():
         br_lootdata_dir = Path(PATH_LOOTDATA_DIR)
         br_lootdata_dir.mkdir(parents=True, exist_ok=True)
         br_out = br_lootdata_dir / f"BR_LootData_{br_now}.json"
-        br_view = build_br_lootdata_all_tgs(summary)
+        br_view = build_validated_schema_v2(summary, rows_lp, PROFILE_NAME)
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✅ BR_LootData を作成: {br_out}")
 

@@ -306,3 +306,7 @@ if AUTO_RESOLVE_PATHS and BASE_PATHS:
         OUTPUT_BASE_DIR = _out
 
 
+
+# Hotfixの有効/無効は共通 hotfix_profiles.json で管理する。
+from hotfix_filter import is_hotfix_enabled
+DO_HOTFIX = is_hotfix_enabled(os.getenv("SYSTEM_PROFILE", "").strip() or PROFILE_NAME)

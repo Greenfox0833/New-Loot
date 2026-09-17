@@ -43,7 +43,7 @@ from config import (
 )
 from diff_loot_auto import get_web_lootpool_path, run_diff_data
 from new_item_images import copy_new_item_images
-from summary import build_br_lootdata_all_tgs, build_summary, load_rows
+from summary import build_validated_schema_v2, build_summary, load_rows
 from tasks import prewarm_icon_cache, worker_task
 
 
@@ -158,7 +158,7 @@ def main():
         br_out = br_lootdata_dir / f"{PROFILE_NAME}_LootData_{br_now}.json"
         logger.info("build BR_LootData start")
         t0 = time.time()
-        br_view = build_br_lootdata_all_tgs(summary)
+        br_view = build_validated_schema_v2(summary, rows_lp, PROFILE_NAME)
         logger.info("build BR_LootData done (%.2fs)", time.time() - t0)
         Path(br_out).write_text(json.dumps(br_view, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info("✅ BR_LootData を作成: %s", br_out)

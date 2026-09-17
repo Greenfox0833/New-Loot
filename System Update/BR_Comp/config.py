@@ -250,3 +250,7 @@ HOTFIX_LT_TARGETS = [
 AUTO_RESOLVE_PATHS = False
 BASE_PATHS = []
 SEASON_PATHS = []
+
+# Hotfixの有効/無効は共通 hotfix_profiles.json で管理する。
+from hotfix_filter import is_hotfix_enabled
+DO_HOTFIX = is_hotfix_enabled(os.getenv("SYSTEM_PROFILE", "").strip() or PROFILE_NAME)

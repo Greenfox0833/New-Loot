@@ -1,0 +1,15 @@
+2026-09-10 08:27:56 | INFO | log file (BR_Comp_Test): E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\logs\pipeline_2026-09-10_08-27-56.log
+2026-09-10 08:27:56 | INFO | ===== BR_Comp_Test: pipeline start =====
+2026-09-10 08:27:56 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\input\items_unique_min.json
+2026-09-10 08:27:56 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR_Comp_Test
+2026-09-10 08:27:56 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-09-10 08:27:56 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-09-10 08:28:16 | ERROR | [!] main 内でエラー: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-09-10 08:28:16 | ERROR | Traceback (most recent call last):
+  File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR_Comp_Test\pipeline.py", line 95, in main
+    res_lp = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\FN_greenfox\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\FN_greenfox\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'E:\\フォートナイト\\Picture\\Loot Pool\\TEST4\\New Loot\\System Update\\LootPackage.py']' returned non-zero exit status 1.
+2026-09-10 08:28:16 | INFO | ===== BR_Comp_Test: pipeline end =====

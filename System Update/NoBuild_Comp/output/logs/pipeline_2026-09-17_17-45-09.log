@@ -4,3 +4,302 @@
 2026-09-17 17:45:09 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp
 2026-09-17 17:45:09 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-09-17 17:45:09 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-09-17 17:45:12 | INFO | hotfix lp stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset : replaced=142, added=624
+[STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp.uasset : replaced=42, added=8
+[STEP1-4] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP.uasset : replaced=1, added=0
+[STEP1-5] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild.uasset : replaced=21, added=0
+[STEP1-6] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR.uasset : replaced=47, added=5
+[STEP1-7] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP.uasset : replaced=1, added=0
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[771] RowUpdate PKG_Chest_Weapon_Shotgun_16.Weight=0.025000 -> OK
+[772] RowUpdate PKG_Chest_Weapon_Handgun_16.Weight=0.025000 -> OK
+[773] RowUpdate PKG_Chest_Weapon_SMG_16.Weight=0.025000 -> OK
+[774] RowUpdate PKG_Chest_Weapon_Assault_16.Weight=0.025000 -> OK
+[775] RowUpdate PKG_Chest_Weapon_Sniper_16.Weight=0.025000 -> OK
+[776] RowUpdate PKG_RareChest_Weapon_Shotgun_14.Weight=0.060000 -> OK
+[777] RowUpdate PKG_RareChest_Weapon_Handgun_14.Weight=0.060000 -> OK
+[778] RowUpdate PKG_RareChest_Weapon_SMG_14.Weight=0.060000 -> OK
+[779] RowUpdate PKG_RareChest_Weapon_Assault_14.Weight=0.060000 -> OK
+[780] RowUpdate PKG_RareChest_Weapon_Sniper_14.Weight=0.060000 -> OK
+[781] RowUpdate PKG_RareAmmoBox_09.Weight=0.000000 -> OK
+[791] RowUpdate PKG_Chest_Weapon_Assault_08.Weight=0.0000 -> OK
+[792] RowUpdate PKG_Chest_Weapon_Sniper_08.Weight=0.00000 -> OK
+[793] RowUpdate PKG_RareChest_Weapon_Handgun_06.Weight=0.00000 -> OK
+[794] RowUpdate PKG_RareChest_Weapon_SMG_06.Weight=0.00000 -> OK
+[795] RowUpdate PKG_RareChest_Weapon_Assault_06.Weight=0.00000 -> OK
+[796] RowUpdate PKG_RareChest_Weapon_Sniper_06.Weight=0.00000 -> OK
+[797] RowUpdate PKG_Chest_Weapon_Shotgun_07.Weight=0.120000 -> OK
+[798] RowUpdate PKG_Chest_Weapon_Handgun_07.Weight=0.120000 -> OK
+[799] RowUpdate PKG_Chest_Weapon_SMG_07.Weight=0.120000 -> OK
+[800] RowUpdate PKG_Chest_Weapon_Assault_07.Weight=0.120000 -> OK
+[801] RowUpdate PKG_Chest_Weapon_Sniper_07.Weight=0.120000 -> OK
+[802] RowUpdate PKG_Chest_Weapon_Launcher_07.Weight=0.120000 -> OK
+[803] RowUpdate PKG_RareChest_Weapon_Shotgun_05.Weight=0.140000 -> OK
+[804] RowUpdate PKG_RareChest_Weapon_Handgun_05.Weight=0.140000 -> OK
+[805] RowUpdate PKG_RareChest_Weapon_SMG_05.Weight=0.140000 -> OK
+[806] RowUpdate PKG_RareChest_Weapon_Assault_05.Weight=0.140000 -> OK
+[807] RowUpdate PKG_RareChest_Weapon_Sniper_05.Weight=0.140000 -> OK
+[808] RowUpdate PKG_RareChest_Weapon_Launcher_05.Weight=0.140000 -> OK
+[1176] RowUpdate LIST_Gold_Small_01.CountRange=(X=150,Y=150) -> OK
+[1177] RowUpdate LIST_Gold_Small_02.CountRange=(X=185,Y=185) -> OK
+[1178] RowUpdate LIST_Gold_Small_03.CountRange=(X=260,Y=260) -> OK
+[1179] RowUpdate LIST_Gold_Small_04.CountRange=(X=400,Y=400) -> OK
+[1180] RowUpdate LIST_Gold_Small_05.CountRange=(X=550,Y=550) -> OK
+[1181] RowUpdate LIST_Gold_Medium_01.CountRange=(X=375,Y=375) -> OK
+[1182] RowUpdate LIST_Gold_Large_01.CountRange=(X=450,Y=450) -> OK
+[1183] RowUpdate LIST_Gold_ExtraLarge_01.CountRange=(X=750,Y=750) -> OK
+[1184] RowUpdate LIST_Gold_ExtraLarge_02.CountRange=(X=900,Y=900) -> OK
+[1185] RowUpdate LIST_Gold_ExtraLarge_03.CountRange=(X=1125,Y=1125) -> OK
+[1186] RowUpdate LIST_Gold_ExtraLarge_04.CountRange=(X=1300,Y=1300) -> OK
+[1187] RowUpdate LIST_Gold_ExtraLarge_05.CountRange=(X=2250,Y=2250) -> OK
+[1188] RowUpdate LIST_Gold_Register_01.CountRange=(X=150,Y=150) -> OK
+[1189] RowUpdate LIST_Gold_Register_02.CountRange=(X=185,Y=185) -> OK
+[1190] RowUpdate LIST_Gold_Register_03.CountRange=(X=260,Y=260) -> OK
+[1191] RowUpdate LIST_Gold_Register_04.CountRange=(X=375,Y=375) -> OK
+[1192] RowUpdate LIST_Gold_Register_05.CountRange=(X=560,Y=560) -> OK
+[1193] RowUpdate LIST_Gold_Safe_01.CountRange=(X=150,Y=150) -> OK
+[1194] RowUpdate LIST_Gold_Safe_02.CountRange=(X=185,Y=185) -> OK
+[1195] RowUpdate LIST_Gold_Safe_03.CountRange=(X=260,Y=260) -> OK
+[1196] RowUpdate LIST_Gold_Safe_04.CountRange=(X=375,Y=375) -> OK
+[1197] RowUpdate LIST_Gold_Safe_05.CountRange=(X=560,Y=560) -> OK
+[1198] RowUpdate LIST_Chest_Gold_01.CountRange=(X=55,Y=55) -> OK
+[1199] RowUpdate LIST_Chest_Gold_02.CountRange=(X=70,Y=70) -> OK
+[1200] RowUpdate LIST_Chest_Gold_03.CountRange=(X=85,Y=85) -> OK
+[1201] RowUpdate LIST_Chest_Gold_04.CountRange=(X=110,Y=110) -> OK
+[1202] RowUpdate LIST_Chest_Gold_05.CountRange=(X=225,Y=225) -> OK
+[1203] RowUpdate LIST_RareChest_Gold_01.CountRange=(X=95,Y=95) -> OK
+[1204] RowUpdate LIST_RareChest_Gold_02.CountRange=(X=115,Y=115) -> OK
+[1205] RowUpdate LIST_RareChest_Gold_03.CountRange=(X=150,Y=150) -> OK
+[1206] RowUpdate LIST_RareChest_Gold_04.CountRange=(X=240,Y=240) -> OK
+[1207] RowUpdate LIST_RareChest_Gold_05.CountRange=(X=375,Y=375) -> OK
+[1208] RowUpdate LIST_Fishing_Gold_01.CountRange=(X=375,Y=3753) -> OK
+[1209] RowUpdate LIST_FishingHole_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1285] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.010000 -> OK
+[1286] RowUpdate PKG_FishingHole_Consumable_03.Weight=0.010000 -> OK
+[1319] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1320] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1321] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1322] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1330] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.008000 -> OK
+[1372] RowUpdate LIST_RareRodBox_05.Weight=0.000000 -> OK
+[1373] RowUpdate LIST_RareRodBox_Harpoon_01.Weight=0.000000 -> OK
+[1944] RowUpdate PKG_FishingDefault_Consumable_01.Weight=0.030000 -> OK
+[1945] RowUpdate PKG_FishingDefault_Consumable_02.Weight=0.000000 -> OK
+[1946] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.000000 -> OK
+[1947] RowUpdate PKG_FishingDefault_Consumable_07.Weight=0.970000 -> OK
+[1948] RowUpdate PKG_FishingDefault_Consumable_07.LootPackageCall=LIST_Ammo_Random -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=77, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client
+[1174] RowUpdate LIST_Boss_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1175] RowUpdate LIST_LlamaSupply_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1282] RowUpdate LIST_Vend_Item_Seasonal_2_01.Weight=1.000000 -> OK
+[1283] RowUpdate LIST_Vend_Item_Seasonal_2_01.CountRange=(X=3,Y=3) -> OK
+[1284] RowUpdate LIST_Vend_Item_Seasonal_2_01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1287] RowUpdate LIST_FishingHole_Legendary_Consumable_04.Weight=0.5000 -> OK
+[1362] RowUpdate LIST_Weapons_Common_Shotgun_06.Weight=1.000000 -> OK
+[1363] RowUpdate LIST_Weapons_Common_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C.WID_CrimsonMist_TacSG_C -> OK
+[1364] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.Weight=1.000000 -> OK
+[1365] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC -> OK
+[1366] RowUpdate LIST_Weapons_Rare_Shotgun_06.Weight=1.000000 -> OK
+[1367] RowUpdate LIST_Weapons_Rare_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R.WID_CrimsonMist_TacSG_R -> OK
+[1368] RowUpdate LIST_Weapons_Epic_Shotgun_06.Weight=1.000000 -> OK
+[1369] RowUpdate LIST_Weapons_Epic_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR.WID_CrimsonMist_TacSG_VR -> OK
+[1370] RowUpdate LIST_Weapons_Legendary_Shotgun_06.Weight=1.000000 -> OK
+[1371] RowUpdate LIST_Weapons_Legendary_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR.WID_CrimsonMist_TacSG_SR -> OK
+[1569] RowUpdate LIST_Vend_Item_Seasonal_1_01.ItemDefinition=/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula -> OK
+[1949] RowUpdate LIST_FishingDefault_Consumables_Healing_01.Weight=1.000000 -> OK
+[1950] RowUpdate LIST_FishingDefault_Consumables_Healing_02.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=19, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Client_Comp
+[1162] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.Weight=0.100000 -> OK
+[1163] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1164] RowUpdate LIST_FloorLoot_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1165] RowUpdate LIST_RareChest_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1166] RowUpdate LIST_RareChest_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1167] RowUpdate LIST_Chest_Consumables_Shielding_10.CountRange=(X=2,Y=2) -> OK
+[1168] RowUpdate LIST_Chest_Consumables_Shielding_10.ItemDefinition=/Game/Athena/Items/Consumables/ChillBronco/Athena_ChillBronco.Athena_ChillBronco -> OK
+[1305] RowUpdate LIST_Weapons_Legendary_SMG_10.Weight=0.000000 -> OK
+[1306] RowUpdate LIST_Weapons_Rare_SMG_10.Weight=0.000000 -> OK
+[1307] RowUpdate LIST_Weapons_Epic_SMG_10.Weight=0.000000 -> OK
+[1308] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1309] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1310] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1311] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1312] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1313] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1938] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1939] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1940] RowUpdate LIST_FloorLoot_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1941] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.Weight=0.160000 -> OK
+[1942] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.CountRange=(X=3,Y=3) -> OK
+[1943] RowUpdate LIST_Chest_Consumables_Utility_Seasonal_03.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[HOTFIX:SEASON3] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON3] done: applied=22, deleted=0, skipped=0
+[HOTFIX:SEASON4] target=/CosmicThunderLoot/DataTables/Comp/CosmicThunder_Override_LootPackages_Comp_BACKUP
+[1601] TableUpdate -> ADD LIST_Consumables_ZeroBuild_02
+[1601] TableUpdate -> ADD LIST_Weapons_Uncommon_Shotgun_02
+[1601] TableUpdate -> ADD LIST_Weapons_Rare_Shotgun_02
+[1601] TableUpdate -> ADD LIST_Weapons_Epic_Shotgun_02
+[1601] TableUpdate -> ADD LIST_Weapons_Legendary_Shotgun_02
+[1601] TableUpdate -> ADD LIST_Weapons_Exotic_Shotgun_03
+[1601] TableUpdate -> ADD LIST_Boss_GateMouse_Weapon_01
+[HOTFIX:SEASON4] done: applied=7, deleted=0, skipped=0
+[HOTFIX:SEASON5] target=/CosmicThunderLoot/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_NoBuild
+[HOTFIX:SEASON5] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON5] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON6] target=/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootPackages_NoBuildBR
+[1210] RowUpdate LIST_Consumables_ZeroBuild_03.Weight=0.04000 -> OK
+[1211] RowUpdate LIST_Consumables_ZeroBuild_04.Weight=0.150000 -> OK
+[1212] RowUpdate LIST_Consumables_ZeroBuild_05.Weight=0.170000 -> OK
+[1213] RowUpdate LIST_Consumables_ZeroBuild_07.Weight=0.280000 -> OK
+[1506] RowUpdate PKG_FloorLoot_Consumable_05.Weight=0.33000 -> OK
+[1507] RowUpdate PKG_Chest_Weapon_Shotgun_10.Weight=0.45000 -> OK
+[1508] RowUpdate PKG_Chest_Weapon_Handgun_10.Weight=0.45000 -> OK
+[1509] RowUpdate PKG_Chest_Weapon_SMG_10.Weight=0.45000 -> OK
+[1510] RowUpdate PKG_Chest_Weapon_Assault_10.Weight=0.45000 -> OK
+[1511] RowUpdate PKG_Chest_Weapon_Sniper_10.Weight=0.45000 -> OK
+[1512] RowUpdate PKG_Chest_Weapon_Bow_10.Weight=0.45000 -> OK
+[1513] RowUpdate PKG_Chest_Weapon_Launcher_10.Weight=0.45000 -> OK
+[1514] RowUpdate PKG_Chest_Weapon_Melee_10.Weight=0.45000 -> OK
+[1515] RowUpdate PKG_RareChest_Weapon_Shotgun_08.Weight=0.450000 -> OK
+[1516] RowUpdate PKG_RareChest_Weapon_Handgun_08.Weight=0.450000 -> OK
+[1517] RowUpdate PKG_RareChest_Weapon_SMG_08.Weight=0.450000 -> OK
+[1518] RowUpdate PKG_RareChest_Weapon_Assault_08.Weight=0.450000 -> OK
+[1519] RowUpdate PKG_RareChest_Weapon_Sniper_08.Weight=0.450000 -> OK
+[1520] RowUpdate PKG_RareChest_Weapon_Bow_08.Weight=0.450000 -> OK
+[1521] RowUpdate PKG_RareChest_Weapon_Launcher_08.Weight=0.450000 -> OK
+[1522] RowUpdate PKG_RareChest_Weapon_Melee_08.Weight=0.450000 -> OK
+[1540] RowUpdate LIST_Consumables_ZeroBuild_01.Weight=0.250000 -> OK
+[1541] RowUpdate LIST_Consumables_ZeroBuild_01.CountRange=(X=2,Y=2) -> OK
+[1542] RowUpdate LIST_Consumables_ZeroBuild_01.ItemDefinition=/ShieldBubble/Gameplay/ShieldBubbleJr/Athena_SilverBlazer_Mini_UC.Athena_SilverBlazer_Mini_UC -> OK
+[1543] RowUpdate LIST_Consumables_ZeroBuild_02.Weight=0.150000 -> OK
+[1544] RowUpdate LIST_Consumables_ZeroBuild_02.CountRange=(X=1,Y=1) -> OK
+[1545] RowUpdate LIST_Consumables_ZeroBuild_03.Weight=0.050000 -> OK
+[1546] RowUpdate LIST_Consumables_ZeroBuild_04.Weight=0.000000 -> OK
+[1547] RowUpdate LIST_Consumables_ZeroBuild_05.Weight=0.100000 -> OK
+[1548] RowUpdate LIST_Consumables_ZeroBuild_06.Weight=0.300000 -> OK
+[1549] RowUpdate LIST_Consumables_ZeroBuild_07.Weight=0.300000 -> OK
+[HOTFIX:SEASON6] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON6] done: applied=31, deleted=0, skipped=0
+[HOTFIX:SEASON7] target=/CosmicThunderLoot/DataTables/NoBuildComp/CosmicThunder_Override_LootPackages_Client_Comp_BACKUP
+[HOTFIX:SEASON7] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON7] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunderLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootPackages_Client_Comp__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootPackages_Comp_BACKUP__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootPackages_Client_Comp_NoBuild__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootPackages_NoBuildBR__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootPackages_Client_Comp_BACKUP__final.json
+2026-09-17 17:45:12 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-09-17 17:45:15 | INFO | hotfix lt stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset : replaced=1, added=47
+[STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR.uasset : replaced=1, added=0
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[1020] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1021] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1022] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[1582] RowUpdate Loot_AthenaWadSafe_01.Weight=1.000000 -> OK
+[HOTFIX:SEASON1] done: applied=4, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[HOTFIX:SEASON3] target=/CosmicThunderLoot/DataTables/NoBuildBR/CosmicThunder_Override_LootTiers_NoBuildBR
+[HOTFIX:SEASON3] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunderLootTiers_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\CosmicThunder_Override_LootTiers_NoBuildBR__final.json
+2026-09-17 17:45:15 | INFO | ✓ Hotfix 適用完了 (5.72s)
+2026-09-17 17:45:15 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootTierData_Client__final.json
+2026-09-17 17:45:15 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\AthenaLootPackages_Client__final.json
+2026-09-17 17:45:15 | INFO | load done (0.01s)
+2026-09-17 17:45:15 | INFO | build summary start
+2026-09-17 17:45:15 | INFO | build summary done (0.02s)
+2026-09-17 17:45:15 | INFO | enrich summary with names start
+2026-09-17 17:45:15 | INFO | enrich summary done (0.00s)
+2026-09-17 17:45:15 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-09-17_17-45.json
+2026-09-17 17:45:15 | INFO | build item metadata start
+2026-09-17 17:45:17 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (2.40s)
+2026-09-17 17:45:17 | INFO | build NoBuild_LootData start
+2026-09-17 17:45:17 | INFO | build BR_LootData done (0.01s)
+2026-09-17 17:45:17 | INFO | ✅ NoBuild_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\NoBuild_Comp\NoBuild_Comp_LootData_2026-09-17_17-45.json
+2026-09-17 17:45:17 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\loot\data\ZB_Comp_LootPool.json
+2026-09-17 17:45:17 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py
+2026-09-17 17:45:18 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-09-17_17-45.json
+✅ 抽出件数: 80
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-09-03_18-51.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\summary\v39.30_2026-09-17_17-45.json
+✅ 差分作成 完了
+  追加   : 6 / 削除 : 2 / 変更 : 0 / 変化なし : 74
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\output\history\BR_20260917_1745\items_unique_min_diff.json
+2026-09-17 17:45:18 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\NoBuild_Comp\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-09-17 17:45:18 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.29s)
+2026-09-17 17:45:18 | INFO | prewarm start
+2026-09-17 17:45:18 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (0.37s)
+2026-09-17 17:45:18 | INFO | 画像化タスク数: 80
+2026-09-17 17:45:18 | INFO | 画像生成 進捗: 1/80
+2026-09-17 17:45:19 | INFO | 画像生成 進捗: 50/80
+2026-09-17 17:45:19 | INFO | 画像生成 進捗: 80/80
+2026-09-17 17:45:19 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-09-17 17:45:19 | INFO | ✅ Loot diff を作成: E:\フォートナイト\Web\loot\data\diff\NoBuild_Comp_2026-09-17_17-45-19.json (added=45 removed=6 change=19)
+2026-09-17 17:45:20 | INFO | ✅ AddedItems 画像を保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\images\NoBuild_Comp\AddedItems\2026-09-17_17-45-19 (copied=42 missing=3)
+2026-09-17 17:45:20 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-09-17 17:45:22 | INFO | git commit stdout: [main 03e3258] NoBuild_Comp update 2026-09-17 17:45:21
+ 63 files changed, 109033 insertions(+), 36753 deletions(-)
+ create mode 100644 System Update/NoBuild_Comp/output/history/BR_20260917_1745/items_unique_min_diff.json
+ create mode 100644 System Update/NoBuild_Comp/output/logs/pipeline_2026-09-17_17-45-09.log
+ create mode 100644 System Update/NoBuild_Comp/output/summary/v39.30_2026-09-17_17-45.json
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \343\202\255\343\203\243\343\203\231\343\203\204.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \343\202\263\343\202\263\343\203\212\343\203\203\343\203\204.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \343\202\264\343\203\274\343\203\253\343\203\211.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \343\203\232\343\203\203\343\203\221\343\203\274.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \343\203\252\343\203\263\343\202\264.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \344\270\255\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\244\247\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \345\260\217\345\217\243\345\276\204\345\274\276.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2421 - \345\274\276\350\226\254_ \346\225\243\345\274\276.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2422 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2422 - \343\203\232\343\203\203\343\203\221\343\203\274.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2422 - \343\203\252\343\203\263\343\202\264.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2422 - \345\214\273\347\231\202\343\202\255\343\203\203\343\203\210.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\202\252\343\203\274\343\203\220\343\203\274\343\203\211\343\203\251\343\202\244\343\203\226 \343\202\260\343\203\254\343\203\215\343\203\274\343\203\211.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\202\275\343\203\253\343\203\210\343\202\242\343\202\244\343\202\271.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\202\267\343\203\274\343\203\253\343\203\211\343\203\235\343\203\274\343\202\267\343\203\247\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\202\271\343\202\244\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\203\201\343\203\243\343\202\260\343\202\271\343\203\227\343\203\251\343\203\203\343\202\267\343\203\245.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2423 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\202\271\343\202\244\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\202\275\343\203\213\343\203\203\343\202\257 \343\203\221\343\203\257\343\203\274\343\202\271\343\203\213\343\203\274\343\202\253\343\203\274.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2424 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - 8\343\203\223\343\203\203\343\203\210\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\202\271\343\202\244\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\202\277\343\202\257\343\203\206\343\202\243\343\202\253\343\203\253\343\203\224\343\202\271\343\203\210\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\203\201\343\203\243\343\202\260\343\202\270\343\203\243\343\202\260.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\203\211\343\203\251\343\203\240\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\203\235\343\203\263\343\203\227\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2425 - \343\203\254\343\203\263\343\202\270\343\203\243\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2426 - \351\207\221\343\201\256\343\203\252\343\203\263\343\202\264.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2427 - \343\202\264\343\203\274\343\203\253\343\203\207\343\203\263\343\203\210\343\203\252\343\203\245\343\203\225.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2427 - \343\202\271\343\202\244\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/AddedItems/2026-09-17_17-45-19/\343\203\206\343\202\243\343\202\2427 - \343\203\255\343\203\234\343\203\210\343\203\213\343\203\203\343\202\257\343\201\2568\343\203\223\343\203\203\343\203\210 \343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\202\267\343\203\274\343\202\275\343\203\253\343\203\210\343\202\242\343\202\244\343\202\271 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\202\271\343\202\244\343\203\274\343\203\221\343\203\274\343\202\267\343\203\247\343\203\203\343\203\210\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2427.png"
+ create mode 100644 "System Update/shared/images/NoBuild_Comp/\343\203\232\343\203\203\343\203\221\343\203\274 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/NoBuild_Comp/NoBuild_Comp_LootData_2026-09-17_17-45.json"
+2026-09-17 17:45:27 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   63243e5..03e3258  main -> main
+2026-09-17 17:45:27 | INFO | ✓ GitHub Push 完了
+2026-09-17 17:45:27 | INFO | ===== NoBuild_Comp: pipeline end =====

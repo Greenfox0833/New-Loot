@@ -13,7 +13,7 @@ EXPORT_API_URL = os.getenv(
 LOCCHUNK_NUMBERS = (10, 100, 13, 20, 29, 30, 32, 35, 40, 50, 70, 80, 85, 90)
 LOCRES_PATHS = tuple(
     "FortniteGame/Content/Localization/"
-    f"Fortnite_locchunk{number}/ja/Fortnite_locchunk{number}.locres"　
+    f"Fortnite_locchunk{number}/ja/Fortnite_locchunk{number}.locres"
     for number in LOCCHUNK_NUMBERS
 ) + ("FortniteGame/Content/Localization/Fortnite/ja/Fortnite.locres",)
 OUTPUT_PATH = Path(__file__).resolve().parent / "shared" / "cache" / "locres_ja.json"

@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-09-17T17:41:45",
-  "UpdatedByProfile": "BR_Comp",
+  "UpdatedAt": "2026-09-17T17:42:11",
+  "UpdatedByProfile": "Reload_Ranked",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -731,7 +731,7 @@
     {
       "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R",
       "LocalizedName": "コンバットサブマシンガン",
-      "LocalizedDescription": "Fires at a very high rate. Difficult to master but exceptionally strong.",
+      "LocalizedDescription": "連射速度が非常に高い。使いこなすのが難しいが、とても強力。",
       "Tags": [
         "Ammo:Light",
         "Guard",
@@ -757,7 +757,7 @@
     {
       "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC",
       "LocalizedName": "コンバットサブマシンガン",
-      "LocalizedDescription": "Fires at a very high rate. Difficult to master but exceptionally strong.",
+      "LocalizedDescription": "連射速度が非常に高い。使いこなすのが難しいが、とても強力。",
       "Tags": [
         "Ammo:Light",
         "Guard",
@@ -4180,7 +4180,7 @@
     {
       "AssetPathName": "/Game/Athena/Items/Consumables/ShockwaveGrenade/GID_ShockGrenade",
       "LocalizedName": "ポケット ショックウェーブグレネード",
-      "LocalizedDescription": "Throw a Shockwave that goes on cooldown!",
+      "LocalizedDescription": "クールダウン時のショックウェーブを投げよう！",
       "Tags": []
     },
     {
@@ -5651,6 +5651,22 @@
         "Granted.RollLanding.PreventHolster",
         "Item.Trait.SingleStack",
         "Granted.Athena.TacticalSprint.AllowSprintWhileFiring"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/GrenadeLauncher/WID_GrenadeLauncher_Hopscotch_Athena_V2_SR",
+      "LocalizedName": "スティッキーグレネードランチャー  ",
+      "LocalizedDescription": "付着するグレネードを発射するタクティカルランチャー。",
+      "Tags": [
+        "Item.Weapon.Ranged.Launcher.Grenade.Hopscotch.Sticky"
+      ]
+    },
+    {
+      "AssetPathName": "/HopscotchWeaponsGameplay/Items/GrenadeLauncher/WID_GrenadeLauncher_Hopscotch_Athena_V2_VR",
+      "LocalizedName": "スティッキーグレネードランチャー  ",
+      "LocalizedDescription": "付着するグレネードを発射するタクティカルランチャー。",
+      "Tags": [
+        "Item.Weapon.Ranged.Launcher.Grenade.Hopscotch.Sticky"
       ]
     },
     {

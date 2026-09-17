@@ -1,6 +1,6 @@
 {
   "/Area51Gun/Gameplay/WID_DragonCart_LightningGun_VR": {
-    "ts": 1788445729,
+    "ts": 1789634869,
     "data": {
       "hash": "41df7d61b6d0df0ce241475136f8c5fc5712f8c5c39ad256459000902422f9d2",
       "entries": 1,
@@ -13390,7 +13390,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_R": {
-    "ts": 1788445731,
+    "ts": 1789634871,
     "data": {
       "hash": "8ada4b0fe923dfc842c3315b946fb01a9b62f2a64616dac7e4314012a515e34a",
       "entries": 1,
@@ -13813,7 +13813,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_SR": {
-    "ts": 1788445731,
+    "ts": 1789634871,
     "data": {
       "hash": "ae80ae2a1aa5e438f7557b73a064299829fda87b26b82f1dc33f553977ae331a",
       "entries": 1,
@@ -14236,7 +14236,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_UC": {
-    "ts": 1788445731,
+    "ts": 1789634871,
     "data": {
       "hash": "777ed6114ae802bd173520c7e6e1d61c86cdb10e4f6c6e52b2b44e768b632b89",
       "entries": 1,
@@ -14656,7 +14656,7 @@
     }
   },
   "/DragonCartWeaponGameplay/Gameplay/DragonCart_ScopedAR/WID_Assault_DragonCart_Scoped_Athena_VR": {
-    "ts": 1788445731,
+    "ts": 1789634871,
     "data": {
       "hash": "36175b44251f72b9393a8abdf66fe19cee856d0f303c66b57a00310936a6c13d",
       "entries": 1,
@@ -83112,7 +83112,7 @@
     }
   },
   "/WingSuit/Gameplay/WingSuit_PhysicsFlying/WID_Proto_WingSuit_FlyingPhysics": {
-    "ts": 1788445731,
+    "ts": 1789634871,
     "data": {
       "hash": "a50c257f1a04b90126cf815f8e5a8b6faa6719cdf98f74cc1edb4a6fbbb17c37",
       "entries": 1,
@@ -232636,17 +232636,18 @@
     }
   },
   "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR": {
-    "ts": 1780083366,
+    "ts": 1789634871,
     "data": {
-      "hash": "653e58bdbc162ff41268636d0778a8df9aa70a81a5d2fd2ecf5176a2c5a04d13",
+      "hash": "4f0f08c1e844c38cf2e3741bf4a8eaeebc52c839abf961a695df2f6ba9256dd3",
       "entries": 1,
-      "bytes": 7992,
+      "bytes": 8209,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_ZiplineDeployer_VR",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/ZiplineDeployer/Gameplay/WID_ZiplineDeployer_VR",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bAllowContinuousFire": false,
@@ -232710,7 +232711,6 @@
                 "Ch7S2",
                 "Item",
                 "MobilityItem",
-                "NewThisSeason",
                 "RareItem"
               ]
             },
@@ -232762,36 +232762,37 @@
                   "AssetPathName": "",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0,
-                    "isNormalized": true,
-                    "size": 1.0,
-                    "sizeSquared": 1.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
                   },
                   "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
                   },
                   "Scale3D": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
                   }
                 },
                 "MiniMapIconBrush": {
                   "TintColor": {
                     "SpecifiedColor": {
-                      "r": 1.0,
-                      "g": 1.0,
-                      "b": 1.0,
-                      "a": 1.0,
-                      "hex": "FFFFFF"
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
@@ -232800,8 +232801,8 @@
                   "Mirroring": "ESlateBrushMirrorType::NoMirror",
                   "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
-                    "x": 20.0,
-                    "y": 20.0
+                    "X": 20.0,
+                    "Y": 20.0
                   },
                   "Margin": {
                     "Left": 0.0,
@@ -232815,18 +232816,18 @@
                   },
                   "OutlineSettings": {
                     "CornerRadii": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0,
-                      "w": 0.0
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
                     },
                     "Color": {
                       "SpecifiedColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0,
-                        "hex": "000000"
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
                       },
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
@@ -232835,13 +232836,13 @@
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
-                    "min": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
-                    "max": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
                     "bIsValid": 0
                   },
@@ -232922,7 +232923,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -232936,9 +232937,9 @@
                   "TagName": "None"
                 },
                 "MeshBoundsExtents": {
-                  "x": 11.687767,
-                  "y": 28.221008,
-                  "z": 14.34653
+                  "X": 11.687767,
+                  "Y": 28.221008,
+                  "Z": 14.34653
                 }
               },
               {
@@ -232961,14 +232962,14 @@
                   "SubPathString": ""
                 },
                 "PivotOffset": {
-                  "x": 0.0,
-                  "y": -22.0,
-                  "z": -2.0
+                  "X": 0.0,
+                  "Y": -22.0,
+                  "Z": -2.0
                 },
                 "InitialRotation": {
-                  "pitch": 7.999954,
-                  "yaw": 32.000454,
-                  "roll": -21.999653
+                  "Pitch": 7.999954,
+                  "Yaw": 32.000454,
+                  "Roll": -21.999653
                 },
                 "Scale": 1.3
               },
@@ -233046,7 +233047,18 @@
                   "RegistryType": {
                     "Name": "None"
                   }
-                }
+                },
+                "WeaponRechargeCooldown": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "bShowRechargeCooldown": false
               },
               {
                 "Rarity": "EFortRarity::Rare"
@@ -289532,7 +289544,7 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_SR": {
-    "ts": 1788500524,
+    "ts": 1789634871,
     "data": {
       "hash": "e5185876c528d712dc170a286a0c67f5b48ed57c2d4433a983d43dcbdb4e4556",
       "entries": 1,
@@ -289954,7 +289966,7 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_VR": {
-    "ts": 1788500524,
+    "ts": 1789634871,
     "data": {
       "hash": "2af2de48f386486c9d396fbd9a613b9dfd9a0429216499312d464c174e94847b",
       "entries": 1,
@@ -291182,7 +291194,7 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_R": {
-    "ts": 1788500524,
+    "ts": 1789634871,
     "data": {
       "hash": "0fd6aae187b13731a1e18e18a3320eb0fafd9714c1d03df3fbd521d9206fad5b",
       "entries": 1,
@@ -291604,7 +291616,7 @@
     }
   },
   "/TeaCakeWeapons/Gameplay/TeaCake_Pistol/WID_Pistol_Heavy_TeaCake_Athena_UC": {
-    "ts": 1788500524,
+    "ts": 1789634871,
     "data": {
       "hash": "9e2462ab485566080b992f2e25910f366c7824fcad8f309ec85db6469ae7ff91",
       "entries": 1,
@@ -325787,17 +325799,18 @@
     }
   },
   "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_C": {
-    "ts": 1785185016,
+    "ts": 1789634871,
     "data": {
-      "hash": "4ded2378115e08a0e1fc88b121b8ed120dcde67705dc78b7658f57bc17c80807",
+      "hash": "eb84d66ed6a42f2376274fded9baedfae3b1ff8ebb24bb2236c7179c0a196e07",
       "entries": 1,
-      "bytes": 8359,
+      "bytes": 8431,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "WID_Shotgun_OrangeRemote_Flavor_Athena_C",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
           "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/OrangeRemoteWeaponGameplay/Gameplay/FlavorShotgun/WID_Shotgun_OrangeRemote_Flavor_Athena_C",
           "Properties": {
             "bShouldUsePerfectAimWhenTargetingMinSpread": false,
             "bAllowADSInAir": true,
@@ -325871,8 +325884,6 @@
                 "CH7S3",
                 "Common",
                 "Guard",
-                "NewThisSeason",
-                "RecentlyAdded",
                 "Shotgun",
                 "Weapon"
               ]
@@ -325916,33 +325927,33 @@
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0,
-                    "isNormalized": true,
-                    "size": 1.0,
-                    "sizeSquared": 1.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
                   },
                   "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
                   },
                   "Scale3D": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
                   }
                 },
                 "MiniMapIconBrush": {
                   "TintColor": {
                     "SpecifiedColor": {
-                      "r": 1.0,
-                      "g": 1.0,
-                      "b": 1.0,
-                      "a": 1.0,
-                      "hex": "FFFFFF"
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
@@ -325951,8 +325962,8 @@
                   "Mirroring": "ESlateBrushMirrorType::NoMirror",
                   "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
-                    "x": 20.0,
-                    "y": 20.0
+                    "X": 20.0,
+                    "Y": 20.0
                   },
                   "Margin": {
                     "Left": 0.0,
@@ -325966,18 +325977,18 @@
                   },
                   "OutlineSettings": {
                     "CornerRadii": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0,
-                      "w": 0.0
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
                     },
                     "Color": {
                       "SpecifiedColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0,
-                        "hex": "000000"
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
                       },
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
@@ -325986,13 +325997,13 @@
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
-                    "min": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
-                    "max": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
                     "bIsValid": 0
                   },
@@ -326087,9 +326098,9 @@
                   "TagName": "Item.Weapon.Ranged.Shotgun"
                 },
                 "MeshBoundsExtents": {
-                  "x": 4.746189,
-                  "y": 43.222103,
-                  "z": 9.250898
+                  "X": 4.746189,
+                  "Y": 43.222103,
+                  "Z": 9.250898
                 }
               },
               {

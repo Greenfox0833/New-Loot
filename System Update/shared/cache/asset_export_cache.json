@@ -175327,7 +175327,7 @@
     }
   },
   "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_SR": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "08f0bef0f306f83b51b5fa445a555da0bb6f249ebca3bf43ba2ea568dea8a132",
       "entries": 1,
@@ -175721,7 +175721,7 @@
     }
   },
   "/Figment_Assault_AutoHigh_Athena/Gameplay/WID_Figment_Assault_AutoHigh_Athena_VR": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "d7187134e8810df07b47f21aa1c006b64595c3e48f33c9e4afd8e657826c9f6d",
       "entries": 1,
@@ -176115,7 +176115,7 @@
     }
   },
   "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_C": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "b139692890f393529b10d504c978e3eeaa978016c89377bac84b8e43bc66d9f7",
       "entries": 1,
@@ -176508,7 +176508,7 @@
     }
   },
   "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_R": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "d561dbe72b0dc4aa98249f4752958b2e12aa12270b3c6a9becca5744dbb2f96c",
       "entries": 1,
@@ -176901,7 +176901,7 @@
     }
   },
   "/Figment_Assault_Auto_Athena/Gameplay/WID_Figment_Assault_Auto_Athena_UC": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "ad5d7ced33d39f19558340e07a1f3b8258fa87b9e083a4f52cca31127283678a",
       "entries": 1,
@@ -177291,7 +177291,7 @@
     }
   },
   "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_R_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634774,
     "data": {
       "hash": "f2b7674c755b84436376e65e9a31afa1f7eec345da1f7f8ad29d2cac6e9fee8d",
       "entries": 1,
@@ -177678,7 +177678,7 @@
     }
   },
   "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_SR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634774,
     "data": {
       "hash": "f94a956cbb6dbe7fd9c642edabdad007596b197f205aa33557af84071b7ff191",
       "entries": 1,
@@ -178450,17 +178450,18 @@
     }
   },
   "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_C": {
-    "ts": 1773961116,
+    "ts": 1789634775,
     "data": {
-      "hash": "e8e2117fc9b2072183732c5e4f243d9d700f6568959399429a70776d61cb0990",
+      "hash": "c1f76e0370b0727ce9d799ab4b0122008f98441e1ac5a2c9a25f314e628f09fd",
       "entries": 1,
-      "bytes": 7776,
+      "bytes": 7681,
       "jsonOutput": [
         {
           "Type": "FortWeaponRangedItemDefinition",
           "Name": "Figment_WID_Assault_Infantry_Athena_C",
-          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
           "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_C",
           "Properties": {
             "WeaponActorClass": {
               "AssetPathName": "/Figment_Assault_Infantry_Athena/Gameplay/B_Assault_InfantryRifle_Athena_Figment.B_Assault_InfantryRifle_Athena_Figment_C",
@@ -178482,7 +178483,7 @@
               "SubPathString": ""
             },
             "PrimaryFireAbility": {
-              "AssetPathName": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_AthenaSniperProjectileImpact.GA_Ranged_AthenaSniperProjectileImpact_C",
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
               "SubPathString": ""
             },
             "AmmoData": {
@@ -178562,36 +178563,37 @@
                   "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
                   "SubPathString": ""
                 },
+                "PickupClassOverride": null,
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0,
-                    "isNormalized": true,
-                    "size": 1.0,
-                    "sizeSquared": 1.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
                   },
                   "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
                   },
                   "Scale3D": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
                   }
                 },
                 "MiniMapIconBrush": {
                   "TintColor": {
                     "SpecifiedColor": {
-                      "r": 1.0,
-                      "g": 1.0,
-                      "b": 1.0,
-                      "a": 1.0,
-                      "hex": "FFFFFF"
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
@@ -178600,8 +178602,8 @@
                   "Mirroring": "ESlateBrushMirrorType::NoMirror",
                   "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
-                    "x": 20.0,
-                    "y": 20.0
+                    "X": 20.0,
+                    "Y": 20.0
                   },
                   "Margin": {
                     "Left": 0.0,
@@ -178615,18 +178617,18 @@
                   },
                   "OutlineSettings": {
                     "CornerRadii": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0,
-                      "w": 0.0
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
                     },
                     "Color": {
                       "SpecifiedColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0,
-                        "hex": "000000"
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
                       },
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
@@ -178635,13 +178637,13 @@
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
-                    "min": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
-                    "max": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
                     "bIsValid": 0
                   },
@@ -178722,7 +178724,7 @@
                 "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
                 "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
                 "bCanBeDroppedFromInventory": true,
-                "AllowedDropStates": 3,
+                "AllowedDropStates": 7,
                 "bDropCurrentItemOnOverflow": true,
                 "bDropExcessItemOnOverflow": true,
                 "bForceDropDuringRespawn": false,
@@ -178736,9 +178738,9 @@
                   "TagName": "None"
                 },
                 "MeshBoundsExtents": {
-                  "x": 3.7712953,
-                  "y": 57.331505,
-                  "z": 13.188068
+                  "X": 3.7712953,
+                  "Y": 57.331505,
+                  "Z": 13.188068
                 }
               },
               {
@@ -178807,14 +178809,14 @@
                   "SubPathString": ""
                 },
                 "PivotOffset": {
-                  "x": 0.0,
-                  "y": -28.0,
-                  "z": -1.0
+                  "X": 0.0,
+                  "Y": -28.0,
+                  "Z": -1.0
                 },
                 "InitialRotation": {
-                  "pitch": 8.290955,
-                  "yaw": 26.827766,
-                  "roll": -17.43235
+                  "Pitch": 8.290955,
+                  "Yaw": 26.827766,
+                  "Roll": -17.43235
                 },
                 "Scale": 1.1
               },
@@ -178822,12 +178824,6 @@
                 "BulletWhipTrackerData": {
                   "ObjectName": "BulletWhipTrackerAudioData'DA_BulletWhipTrackerData_Rifle_NoSound'",
                   "ObjectPath": "/Game/Athena/Sounds/Weapons/BulletWhips/DA_BulletWhipTrackerData_Rifle_NoSound.0"
-                }
-              },
-              {
-                "ProjectileTemplate": {
-                  "AssetPathName": "/Game/Weapons/FORT_Sniper/Blueprints/B_Prj_Bullet_Figment_Rifle_Infantry.B_Prj_Bullet_Figment_Rifle_Infantry_C",
-                  "SubPathString": ""
                 }
               },
               {
@@ -178850,7 +178846,7 @@
     }
   },
   "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_R": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "fc3eeb483fa482bba6408f63493a9603dcf9870327091c511b5f1e18d0926173",
       "entries": 1,
@@ -179250,7 +179246,7 @@
     }
   },
   "/Figment_Assault_Infantry_Athena/Gameplay/Figment_WID_Assault_Infantry_Athena_UC": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "bf93580e284b4c040c1db55f55bbe3d490723785cfc662696c224b0846809232",
       "entries": 1,
@@ -179647,7 +179643,7 @@
     }
   },
   "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_SR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "9bc4197cb692532c8db76c30955a72831502247de75794ddfd0840aad8642555",
       "entries": 1,
@@ -180025,7 +180021,7 @@
     }
   },
   "/Figment_Assault_LMG_Athena/Gameplay/WID_Figment_Assault_LMG_Athena_VR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "bdb7e2033d0693c9b5272d113546a9dd1b6ee2ba79612c6131f4a9384d6c6dcc",
       "entries": 1,
@@ -180403,7 +180399,7 @@
     }
   },
   "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_SR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "ac0faa433c5190d28119ce09ad30e0b4e790d7366cf5b471df7191c759baa19f",
       "entries": 1,
@@ -180786,7 +180782,7 @@
     }
   },
   "/Figment_Assault_Suppressed_Athena/Gameplay/WID_Figment_Assault_Suppressed_Athena_VR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "bee05ca00a5e03e31c6a2672d2683c398bed3133b5215329ddc1c2d11b1c3a20",
       "entries": 1,
@@ -181169,7 +181165,7 @@
     }
   },
   "/Figment_Assault_Surgical_Athena/Gameplay/WID_Figment_Assault_Surgical_Athena_R": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "015d4a7857d3521faf67600931288aeb3a449d2c6e1813c194f2e3547e61b043",
       "entries": 1,
@@ -181546,7 +181542,7 @@
     }
   },
   "/Figment_Assault_Surgical_Athena/Gameplay/WID_Figment_Assault_Surgical_Athena_UC": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "25db8ce2336f8dc9e715aa0106b7c2432ee0997eb1eb5ff394ae97e28d7932ba",
       "entries": 1,
@@ -181920,7 +181916,7 @@
     }
   },
   "/Figment_Assault_Surgical_Thermal_Athena/Gameplay/WID_FigmentAssault_Surgical_Thermal_Athena_SR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "33fe26eb0af0d057d720853a8967d94b9885d303420949dd2675099d99afb63d",
       "entries": 1,
@@ -182311,7 +182307,7 @@
     }
   },
   "/Figment_Assault_Surgical_Thermal_Athena/Gameplay/WID_FigmentAssault_Surgical_Thermal_Athena_VR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "c6733da1249d763002c9a4b03f7ed78eb37674670cb35e078adf89ff2df56e36",
       "entries": 1,
@@ -182702,7 +182698,7 @@
     }
   },
   "/Figment_Athena_Balloon/Gameplay/Figment_Athena_Balloons_Consumable": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "9b90b5d93582fa0764541cc15445d6addb56086e973c602b0da37d8975181631",
       "entries": 1,
@@ -183052,7 +183048,7 @@
     }
   },
   "/Figment_Athena_BandageV2/Gameplay/WID_Figment_Paprika_Bandage": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "5e16604b48c866d66f1aaf6938be84c18be8a6eb47cf00ec2eb7856c89764607",
       "entries": 1,
@@ -183399,7 +183395,7 @@
     }
   },
   "/Figment_Athena_Bush/Gameplay/Figment_Athena_Bush": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "3461ef351e5473659b3ea2f922d371c406e7c715fe38ac9fb6bfcc624cb6f6d6",
       "entries": 1,
@@ -183749,7 +183745,7 @@
     }
   },
   "/Figment_Athena_ChugJug/Gameplay/Figment_Athena_SuperMedkit": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "630210203ecf131d1cfcaf37c74e26cc71272368c7c3a1f8c62b90f7ced358f1",
       "entries": 1,
@@ -184077,7 +184073,7 @@
     }
   },
   "/Figment_Athena_DanceGrenade/Gameplay/Figment_Athena_DanceGrenade": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "c864dc33af7c27114c64d97481405afce448d76d705ee73a3b0328e895b2e97b",
       "entries": 1,
@@ -185159,7 +185155,7 @@
     }
   },
   "/Figment_Athena_GasGrenade/Athena/Items/Consumables/GasGrenade/Figment_Athena_GasGrenade": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "e3d8c1e4787b2e090d6355c7537e596db66cf564012bf5139376560b9f0cf8f5",
       "entries": 1,
@@ -186232,7 +186228,7 @@
     }
   },
   "/Figment_Athena_MedKitV2/Gameplay/WID_Figment_Paprika_MedBox": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "0f09a983a72e128a2724e80fb4a3f46cb8b4e48c671889bd9fe4caf3aa6ad2eb",
       "entries": 1,
@@ -186585,7 +186581,7 @@
     }
   },
   "/Figment_Athena_PurpleStuff/Gameplay/Figment_Athena_PurpleStuff_VR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "2b0e477ff0c7b43984956dbbabdb9b6c141124954b43f55c001eaafb155a6818",
       "entries": 1,
@@ -187287,7 +187283,7 @@
     }
   },
   "/Figment_Athena_ShieldPotV2/Gameplay/WID_Figment_Paprika_ShieldPot": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "9abf02a7577de467d2adab9b41a1f63b2760516d9ecbd9845adbe66c8a3c15fa",
       "entries": 1,
@@ -187643,7 +187639,7 @@
     }
   },
   "/Figment_Athena_Shields/Gameplay/Figment_Athena_Shields": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "f6a8af28200064324fec5266c2da2b92a35c3ac82fe29977e2a4c05a71a8a0fb",
       "entries": 1,
@@ -187996,7 +187992,7 @@
     }
   },
   "/Figment_Athena_SmallShieldV2/Gameplay/WID_Figment_Paprika_ShieldSmall": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "c635aeba4fe4f33d3a4ff3a48075abbcfca6673aab57ace31baca4d6e092134e",
       "entries": 1,
@@ -189380,7 +189376,7 @@
     }
   },
   "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_SR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "88a686f1d87babd59c09b2459e8f5a952ee9bc13248ac05cb71b6c644cd570cc",
       "entries": 1,
@@ -189768,7 +189764,7 @@
     }
   },
   "/Figment_CompactSMG_Athena/Gameplay/WID_Figment_CompactSMG_Athena_VR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "26266f609610baaa9e207faca022849e514f05c227a83a68614defece8d2bcb7",
       "entries": 1,
@@ -190560,7 +190556,7 @@
     }
   },
   "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_R": {
-    "ts": 1788440369,
+    "ts": 1789634775,
     "data": {
       "hash": "8dac0a5518c5587c7521202f36b517340b3e4dcb67c16584e767a3286aaba88b",
       "entries": 1,
@@ -190956,7 +190952,7 @@
     }
   },
   "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_SR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "357b3e2dfafe67065f4313a9e1f003e46bb198f6e489209f43e605e572560600",
       "entries": 1,
@@ -191352,7 +191348,7 @@
     }
   },
   "/Figment_Launcher_Grenade_Athena/Gameplay/WID_Figment_Launcher_Grenade_Athena_VR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "da4419c90709dde290a46be3dd10fde4b7ef401eee025f49b8c0219dc9820888",
       "entries": 1,
@@ -192141,7 +192137,7 @@
     }
   },
   "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_R": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "72ba3421b7a577287ee34f23535b5da68f2f2757ee0d1c0639290d3f51a59e89",
       "entries": 1,
@@ -192524,7 +192520,7 @@
     }
   },
   "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_SR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "f9ce31ead7ad07287466e0bff783e98e1fda83e4f370c85ea956b5464e1ef993",
       "entries": 1,
@@ -192907,7 +192903,7 @@
     }
   },
   "/Figment_Launcher_Rocket_Athena/Gameplay/WID_Figment_Launcher_Rocket_Athena_VR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "0a35f928e6c706c1a9be2ac252904717009f5f97d5fd5404a4ad44ff2f1b39fd",
       "entries": 1,
@@ -193290,7 +193286,7 @@
     }
   },
   "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_C": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "b432f63e87a89ff1a449ea1cc355214ab10cc6ab20deff12a325036b5d816cd7",
       "entries": 1,
@@ -193682,7 +193678,7 @@
     }
   },
   "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_R": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "74d1df73dc5e8ed0ee746e528651f29e39d32dfad5d7ee729c8c02f008d48e99",
       "entries": 1,
@@ -194074,7 +194070,7 @@
     }
   },
   "/Figment_Pistol_AutoHeavySuppressed_Athena/Gameplay/WID_Figment_Pistol_AutoHeavySuppressed_Athena_UC": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "9febabdf9d645bd10390263d0cd87082b70363873b08953584d331cb870c8024",
       "entries": 1,
@@ -195235,7 +195231,7 @@
     }
   },
   "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_SR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "6f40706eb4123f629f9baad6f1b1d52805733fe16a8c459ed6b68c256a87270a",
       "entries": 1,
@@ -195628,7 +195624,7 @@
     }
   },
   "/Figment_Pistol_Handcannon_Athena/Gameplay/WID_Figment_Pistol_HandCannon_Athena_VR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "37e9adbf1e115ab0916aa552656fc90a4be70fae995bbee196a3d21bbe82e072",
       "entries": 1,
@@ -196021,7 +196017,7 @@
     }
   },
   "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_VR": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "5997085362d4019d4b75b668a3ee0a19b7c55fbf9125e33c3fbf593c8f5518a4",
       "entries": 1,
@@ -197179,7 +197175,7 @@
     }
   },
   "/Figment_Pistol_SemiAuto_Athena/Gameplay/WID_Figment_Pistol_SemiAuto_Athena_C": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "c1604ced57fa00d481998d49b8b1d5c00f2484219b9e4cba73c9ffaa525ba962",
       "entries": 1,
@@ -197557,7 +197553,7 @@
     }
   },
   "/Figment_Pistol_SemiAuto_Athena/Gameplay/WID_Figment_Pistol_SemiAuto_Athena_UC": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "36d92c7648021b97db58fcbcb0d96a5efd14d90d759d7ea6d9b4c809775ef7a6",
       "entries": 1,
@@ -198677,7 +198673,7 @@
     }
   },
   "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_R": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "c25029c34d1b66443e038cf945363bf3a95f242b873868900134f899caea2d47",
       "entries": 1,
@@ -199072,7 +199068,7 @@
     }
   },
   "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_SR": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "3dd4594280a2b90c6c7add05f461b77a0a46c7de5b64ab1a131a70fadc6024ce",
       "entries": 1,
@@ -199467,7 +199463,7 @@
     }
   },
   "/Figment_Pistol_Suppressed_Athena/Gameplay/WID_Figment_Pistol_Suppressed_Athena_VR": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "9317647ca9a7aeeee604ad72ca913e31aba6cb82b334e4b193ca4531eacfb5c5",
       "entries": 1,
@@ -199862,7 +199858,7 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_C": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "fce62bd26281e47f35860c606a7812ee57d065f7a9021dab1edb162db10426fa",
       "entries": 1,
@@ -200260,7 +200256,7 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_R": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "bd8231c6289171203dc45d103061d73594e8c10954bd38b4d49ae7d65b81e255",
       "entries": 1,
@@ -200658,7 +200654,7 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/WID_Figment_Shotgun_SemiAuto_Athena_UC": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "440e645c742fcfe856b03d05976e494d4a6959d2ea095c1cddffc3c97c0a951a",
       "entries": 1,
@@ -201053,7 +201049,7 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_R": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "e02412d5358355be40f9eed1276be4e5def40b8dc2fae89925deb320900bb1f8",
       "entries": 1,
@@ -201472,7 +201468,7 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_SR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "0cc0bbdd33eceba80d88e34c60aae9de37ebb7f1b49f68d23725e2a7d836bb68",
       "entries": 1,
@@ -201891,7 +201887,7 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_UC": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "ca5bd1c6b5e43f3cfa708970cf8f0d7dff09fdd3b92599fe9397a2e7ad5f2463",
       "entries": 1,
@@ -202307,7 +202303,7 @@
     }
   },
   "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_VR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "c06bfd20654fed6ac3e3892102483bea8e9adc5f01b63f90c682847722fad924",
       "entries": 1,
@@ -203117,7 +203113,7 @@
     }
   },
   "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_SR_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "daa863f78faff244e0750378eee3553691a134ad8fe4bccb6f496e560c7be520",
       "entries": 1,
@@ -203515,7 +203511,7 @@
     }
   },
   "/Figment_Sniper_Heavy_Athena/Gameplay/WID_Figment_Sniper_Heavy_Athena_VR_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "2a3707ebdc73e4c436bf6d3d7b5db13871639724aa8ea9619825c188f72f3d8e",
       "entries": 1,
@@ -203913,9 +203909,9 @@
     }
   },
   "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_R": {
-    "ts": 1788413359,
+    "ts": 1789634777,
     "data": {
-      "hash": "8b917d913643a2b673b195ee8a965b574b55dc5825d68e0588a4a3aaa206c47e",
+      "hash": "bab0b7d03c8bf887c46e4e26f2f7d6c8b2bb24121c850624111317ca60645adb",
       "entries": 1,
       "bytes": 8085,
       "jsonOutput": [
@@ -204013,14 +204009,14 @@
                   "SubPathString": ""
                 },
                 "PivotOffset": {
-                  "x": 0.0,
-                  "y": -42.0,
-                  "z": -1.0
+                  "X": 0.0,
+                  "Y": -42.0,
+                  "Z": -1.0
                 },
                 "InitialRotation": {
-                  "pitch": 7.5695634,
-                  "yaw": 24.64069,
-                  "roll": -16.679253
+                  "Pitch": 7.5695634,
+                  "Yaw": 24.64069,
+                  "Roll": -16.679253
                 },
                 "Scale": 1.0
               },
@@ -204044,33 +204040,33 @@
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0,
-                    "isNormalized": true,
-                    "size": 1.0,
-                    "sizeSquared": 1.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
                   },
                   "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
                   },
                   "Scale3D": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
                   }
                 },
                 "MiniMapIconBrush": {
                   "TintColor": {
                     "SpecifiedColor": {
-                      "r": 1.0,
-                      "g": 1.0,
-                      "b": 1.0,
-                      "a": 1.0,
-                      "hex": "FFFFFF"
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
@@ -204079,8 +204075,8 @@
                   "Mirroring": "ESlateBrushMirrorType::NoMirror",
                   "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
-                    "x": 20.0,
-                    "y": 20.0
+                    "X": 20.0,
+                    "Y": 20.0
                   },
                   "Margin": {
                     "Left": 0.0,
@@ -204094,18 +204090,18 @@
                   },
                   "OutlineSettings": {
                     "CornerRadii": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0,
-                      "w": 0.0
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
                     },
                     "Color": {
                       "SpecifiedColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0,
-                        "hex": "000000"
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
                       },
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
@@ -204114,13 +204110,13 @@
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
-                    "min": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
-                    "max": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
                     "bIsValid": 0
                   },
@@ -204215,9 +204211,9 @@
                   "TagName": "None"
                 },
                 "MeshBoundsExtents": {
-                  "x": 4.479557,
-                  "y": 51.192772,
-                  "z": 11.914779
+                  "X": 4.479557,
+                  "Y": 51.192772,
+                  "Z": 11.914779
                 }
               },
               {
@@ -204319,9 +204315,9 @@
     }
   },
   "/Figment_Sniper_NoScope_Athena/Gameplay/WID_Figment_Sniper_NoScope_Athena_UC": {
-    "ts": 1788413359,
+    "ts": 1789634777,
     "data": {
-      "hash": "f8783033c841d1cb069c5465f06f95981123a8147a486850b9eedbdb410a996a",
+      "hash": "46ab0bd7a92bc7c096a3718c470648ba683304087639e49206a1fde909c11765",
       "entries": 1,
       "bytes": 8060,
       "jsonOutput": [
@@ -204419,14 +204415,14 @@
                   "SubPathString": ""
                 },
                 "PivotOffset": {
-                  "x": 0.0,
-                  "y": -42.0,
-                  "z": -1.0
+                  "X": 0.0,
+                  "Y": -42.0,
+                  "Z": -1.0
                 },
                 "InitialRotation": {
-                  "pitch": 7.569563,
-                  "yaw": 24.64069,
-                  "roll": -16.679253
+                  "Pitch": 7.569563,
+                  "Yaw": 24.64069,
+                  "Roll": -16.679253
                 },
                 "Scale": 1.0
               },
@@ -204450,33 +204446,33 @@
                 "PickupActorComponents": [],
                 "PickupMeshTransform": {
                   "Rotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 1.0,
-                    "isNormalized": true,
-                    "size": 1.0,
-                    "sizeSquared": 1.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
                   },
                   "Translation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
                   },
                   "Scale3D": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
                   }
                 },
                 "MiniMapIconBrush": {
                   "TintColor": {
                     "SpecifiedColor": {
-                      "r": 1.0,
-                      "g": 1.0,
-                      "b": 1.0,
-                      "a": 1.0,
-                      "hex": "FFFFFF"
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
                     },
                     "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                   },
@@ -204485,8 +204481,8 @@
                   "Mirroring": "ESlateBrushMirrorType::NoMirror",
                   "ImageType": "ESlateBrushImageType::NoImage",
                   "ImageSize": {
-                    "x": 20.0,
-                    "y": 20.0
+                    "X": 20.0,
+                    "Y": 20.0
                   },
                   "Margin": {
                     "Left": 0.0,
@@ -204500,18 +204496,18 @@
                   },
                   "OutlineSettings": {
                     "CornerRadii": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0,
-                      "w": 0.0
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
                     },
                     "Color": {
                       "SpecifiedColor": {
-                        "r": 0.0,
-                        "g": 0.0,
-                        "b": 0.0,
-                        "a": 0.0,
-                        "hex": "000000"
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
                       },
                       "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
                     },
@@ -204520,13 +204516,13 @@
                     "bUseBrushTransparency": false
                   },
                   "UVRegion": {
-                    "min": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
-                    "max": {
-                      "x": 0.0,
-                      "y": 0.0
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
                     },
                     "bIsValid": 0
                   },
@@ -204621,9 +204617,9 @@
                   "TagName": "None"
                 },
                 "MeshBoundsExtents": {
-                  "x": 4.479557,
-                  "y": 51.192772,
-                  "z": 11.914779
+                  "X": 4.479557,
+                  "Y": 51.192772,
+                  "Z": 11.914779
                 }
               },
               {
@@ -205506,7 +205502,7 @@
     }
   },
   "/Figment_Trap_ContextTrap_Athena/Items/Trap/TID_Figment_ContextTrap_Athena": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "364cd8e84d7cfe44cc8efc7f86a7dc765ec6492a24e027cee196b4ca59e10314",
       "entries": 1,
@@ -205868,7 +205864,7 @@
     }
   },
   "/Figment_Trap_Floor_Player_Campfire_Athena/Items/Trap/TID_Figment_Floor_Player_Campfire_Athena": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "ba6d0d624d1f74403b30ebeb01cb4510d3c49d4318c5d5eb32f0f0bb35525152",
       "entries": 1,
@@ -206240,7 +206236,7 @@
     }
   },
   "/Figment_Trap_Floor_Player_Launch_Pad_Athena/Items/Trap/TID_Figment_Floor_Player_Launch_Pad_Athena": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "8705d01a67afdca7ee74f256ca7560e22f95549f0756960da0ada3b9b3773eb3",
       "entries": 1,
@@ -262367,7 +262363,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/ChapWorm/WID_FigmentMartin_ChapWorm": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "412d2187172a61da9c7e991eeb5dca6c81dcab9a6e013be573bcd1e1950692c3",
       "entries": 1,
@@ -263224,7 +263220,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/BarnTowel/AGID_FigmentMartin_BarnTowel": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "19999e7fd6340dca9258042e5a9a04b8d3cfacd9b920a6bc1741b14c21743671",
       "entries": 1,
@@ -263534,7 +263530,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/HoverJets/AGID_FigmentMartin_MurkyVole_HoverJets": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "ef533f57cb7db681e9b6c3601f992fc1c468173f9c8ab08bdc01a07d6283a1ea",
       "entries": 1,
@@ -263859,7 +263855,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/Turret/WID_FigmentMartin_MurkyVole_Turret": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "0ce97ae1fbb44f6963bb4df48082f64a5b3234606a3808e2e6346a045a2fe184",
       "entries": 1,
@@ -264212,7 +264208,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/Chicago/WID_FigmentMartin_Ashton_Shield": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "03bf93d60d4c00c5516539eddeeb02736351df0b8bde4d09212a243cc54cd8a4",
       "entries": 1,
@@ -264588,7 +264584,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/Turbo/AGID_FigmentMartin_Turbo": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "8723379dec39f14eb156402eb0a525d3ce7ad3ba4689652e049ed1ff20b2e08f",
       "entries": 1,
@@ -264865,7 +264861,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/WiseOtter/WID_FigmentMartin_WiseOtter_Combo": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "8646d37f990c700f4cd2f2571928792ea15b598618f9cd5f39b48b63f72509e2",
       "entries": 1,
@@ -265277,7 +265273,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/MurkyVole/GauntletGuns/WID_FigmentMartin_MurkyVole_GauntletGuns": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "ef66f03907c89552858e3144c45cccc4e37c42bc913205010f3b69adec83f997",
       "entries": 1,
@@ -265679,7 +265675,7 @@
     }
   },
   "/Figment_Martin/Gameplay/Martin_Items/Hippo/AGID_FigmentMartin_Hippo": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "ecacb2dcc9b33bca373e7595533a709c592e10bc3b3362626442a00f62905c51",
       "entries": 1,
@@ -292827,7 +292823,7 @@
     }
   },
   "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_C_Ore_T04": {
-    "ts": 1788440367,
+    "ts": 1789634774,
     "data": {
       "hash": "969383187734cac3d79b9adb8e9cba0bbf0e3820f0d49be88537219da92f28ff",
       "entries": 1,
@@ -293214,7 +293210,7 @@
     }
   },
   "/Figment_Assault_Heavy_Athena/Gameplay/WID_Figment_Assault_Heavy_Athena_UC_Ore_T04": {
-    "ts": 1788440368,
+    "ts": 1789634774,
     "data": {
       "hash": "fab326082305c97a13557034efeec9b66615b739201e5f82547659f7e0e858e1",
       "entries": 1,
@@ -321111,7 +321107,7 @@
     }
   },
   "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_VR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "e4decf1570ed055e8bd205424102c61973846c20ec2abdf7a02d9c2abb7bb9f9",
       "entries": 1,
@@ -321497,7 +321493,7 @@
     }
   },
   "/Figment_Assault_Infantry_Athena/Gameplay/WID_Figment_Assault_Infantry_Athena_SR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "15223e900b0ef6798a152c75c937e269bc0d3e333e60b8ecd33a747400766852",
       "entries": 1,
@@ -434822,7 +434818,7 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/S9_HighSemiAutoShotgun/WID_Figment_Shotgun_HighSemiAuto_Athena_VR_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "20f64b5b247303102eb2800556fd12b27d1ecbae89b5a8eabc8230d5f7cc2ef8",
       "entries": 1,
@@ -435211,7 +435207,7 @@
     }
   },
   "/Figment_Shotgun_SemiAuto_Athena/Gameplay/S9_HighSemiAutoShotgun/WID_Figment_Shotgun_HighSemiAuto_Athena_SR_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "aee4345e668b0d882d301652e7577bb0c7107a1c98f586762c0fdee8dcb9fa82",
       "entries": 1,
@@ -435606,7 +435602,7 @@
     }
   },
   "/Figment_Shotgun_AutoDrum/Gameplay/WID_Figment_Shotgun_AutoDrum_Athena_C_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "725303bcfb1fa3bf5d6d8377f88848d508f390e06a5a2506dc6c888b517eb794",
       "entries": 1,
@@ -435976,7 +435972,7 @@
     }
   },
   "/Figment_Shotgun_AutoDrum/Gameplay/WID_Figment_Shotgun_AutoDrum_Athena_UC_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "90ba38e1bd266510e4e5b3fcb7b1b5405050686cb4359777697dfb3111da771b",
       "entries": 1,
@@ -436343,7 +436339,7 @@
     }
   },
   "/Figment_Shotgun_AutoDrum/Gameplay/WID_Figment_Shotgun_AutoDrum_Athena_R_Ore_T03": {
-    "ts": 1788440370,
+    "ts": 1789634776,
     "data": {
       "hash": "369caee0f71323483e3c7e4bae92b4152935b7b5ea892f3eea16b83d1201609f",
       "entries": 1,
@@ -436713,7 +436709,7 @@
     }
   },
   "/Figment_Combat_Shotgun/Gameplay/WID_Figment_Shotgun_Combat_Athena_R_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "a2bf4fac7f2049eb836bb8f889518ba54e06a6ff69b3d093ce27e0322c2aed8a",
       "entries": 1,
@@ -437082,7 +437078,7 @@
     }
   },
   "/Figment_Combat_Shotgun/Gameplay/WID_Figment_Shotgun_Combat_Athena_VR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "1341cee09767e8d97085bb192b1232a6721343cc434cd74ef4d32c7d0e2d6fe9",
       "entries": 1,
@@ -437451,7 +437447,7 @@
     }
   },
   "/Figment_Combat_Shotgun/Gameplay/WID_Figment_Shotgun_Combat_Athena_SR_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "03065111f3daa2a030f8e8ea2b9a6c83fc8f5fc6acbf8d6d1fbca0acdc0894d5",
       "entries": 1,
@@ -437820,7 +437816,7 @@
     }
   },
   "/Figment_Pistol_SixShooter_Athena/Gameplay/S9_Revolver/WID_Figment_S9_Pistol_SixShooter_Athena_C": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "d4abc0ff8bd7c9ba05286af1494934a5442b7bc9a97711aa648983e119058a3c",
       "entries": 1,
@@ -438213,7 +438209,7 @@
     }
   },
   "/Figment_Pistol_SixShooter_Athena/Gameplay/S9_Revolver/WID_Figment_S9_Pistol_SixShooter_Athena_UC": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "a7fdfed75b408b99e6b7ea3d4e8deef7a84774b58c2672cce5dde8adda278349",
       "entries": 1,
@@ -438602,7 +438598,7 @@
     }
   },
   "/Figment_Pistol_SixShooter_Athena/Gameplay/S9_Revolver/WID_Figment_S9_Pistol_SixShooter_Athena_R": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "548cde64b181340ce07debef6e74dd0e9a4e4373adcb71edd356bbce7a90ea0a",
       "entries": 1,
@@ -438995,7 +438991,7 @@
     }
   },
   "/Figment_Pistol_SixShooter_Athena/Gameplay/S9_Revolver/WID_Figment_S9_Pistol_SixShooter_Athena_VR_Ore_T03": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "837a9b800c2a2bf483a4c10658c67f6d704a4f72ef116f03b3c5bd2ba08829cb",
       "entries": 1,
@@ -439390,7 +439386,7 @@
     }
   },
   "/Figment_Pistol_SixShooter_Athena/Gameplay/S9_Revolver/WID_Figment_S9_Pistol_Sixshooter_Athena_SR_Ore_T03": {
-    "ts": 1788440369,
+    "ts": 1789634776,
     "data": {
       "hash": "d3e31b3b3b46d219550307d1f03e6482ebec615acf57c0ee6258cbf4acaa2d49",
       "entries": 1,
@@ -439785,7 +439781,7 @@
     }
   },
   "/Figment_Burst_SMG/Gameplay/WID_Figment_Pistol_BurstFireSMG_Athena_C_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "60de0059a21d64805d3fc72b0865bbe7f3b36090e308e7ed592d23a9dae89be9",
       "entries": 1,
@@ -440162,7 +440158,7 @@
     }
   },
   "/Figment_Burst_SMG/Gameplay/WID_Figment_Pistol_BurstFireSMG_Athena_UC_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "e6e7bd26dac7394a93b887e3c095b300d68d8d8c1bcea9ed8e745b6ab4d7a18d",
       "entries": 1,
@@ -440540,7 +440536,7 @@
     }
   },
   "/Figment_Burst_SMG/Gameplay/WID_Figment_Pistol_BurstFireSMG_Athena_R_Ore_T03": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "e7e09a8a573dc0256b25c2a5ca6ba2afbfa1b1b49d27a2a1a0a97e95d6120a1d",
       "entries": 1,
@@ -440917,7 +440913,7 @@
     }
   },
   "/Figment_Sniper_BoltAction_Scope_Athena/Gameplay/WID_Figment_Sniper_BoltAction_Scope_Athena_R": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "7518ccfd9049e7dc31964c25448e1434433908074980361b6c47c57084c6dd39",
       "entries": 1,
@@ -441309,7 +441305,7 @@
     }
   },
   "/Figment_Sniper_BoltAction_Scope_Athena/Gameplay/WID_Figment_Sniper_BoltAction_Scope_Athena_VR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "0c4363ffab032bbad1e9065251cd178cd79f45ef7cf02d40b961a1324c348acc",
       "entries": 1,
@@ -441701,7 +441697,7 @@
     }
   },
   "/Figment_Sniper_BoltAction_Scope_Athena/Gameplay/WID_Figment_Sniper_BoltAction_Scope_Athena_SR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "0c11bd6981974c228c503817a47a20bd29b908494092306868689c80f8f8a3d4",
       "entries": 1,
@@ -442866,7 +442862,7 @@
     }
   },
   "/Figment_Sniper_Weather_Athena/Gameplay/WID_Figment_Sniper_Weather_Athena_VR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "aacb0521297df707dba858489e6bdb6a080420b4c77e000ff7ac67c2439b964e",
       "entries": 1,
@@ -443233,7 +443229,7 @@
     }
   },
   "/Figment_Sniper_Weather_Athena/Gameplay/WID_Figment_Sniper_Weather_Athena_SR": {
-    "ts": 1788440370,
+    "ts": 1789634777,
     "data": {
       "hash": "3b584aaed92b3947fd0b80f3a6450b774dbd5139e25cf1ac46144b8e2f4a9193",
       "entries": 1,
@@ -443600,7 +443596,7 @@
     }
   },
   "/Figment_Athena_Grenade/Gameplay/Figment_Athena_Grenade_Ch1": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "b0dd81e2105e5cf0ea43f1b4dce884621ab8eaf2f3d1c7a97e2c1a21a35f41b2",
       "entries": 1,
@@ -443965,7 +443961,7 @@
     }
   },
   "/Figment_Athena_ShockGrenade/Gameplay/Figment_Athena_ShockGrenade": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "da3b6a3a0fa3b544645b53d47544b9a03ab599aa8dc8ca2f721880ec0b27ef1c",
       "entries": 1,
@@ -444373,7 +444369,7 @@
     }
   },
   "/Figment_ChugSplash/Gameplay/Figment_ChillBronco": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "20596269a95046e27191be36d68fe58b55b7e772fe79083af2322ce98299f2a8",
       "entries": 1,
@@ -444760,7 +444756,7 @@
     }
   },
   "/Figment_DeployableStorm/Gameplay/Figment_DogSweater": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "39aeea04d2db88753c2e4cbbc88575767a74846a8252622a36c062c95328e0db",
       "entries": 1,
@@ -445733,7 +445729,7 @@
     }
   },
   "/Figment_Grenade_Launcher_Prox/Gameplay/WID_Figment_GrenadeLauncher_Prox_Athena_SR": {
-    "ts": 1788440368,
+    "ts": 1789634775,
     "data": {
       "hash": "e62bd98e9a49626435e00208882326ed53896ae8c2ee10e7d2038cbea23c825a",
       "entries": 1,
@@ -446108,7 +446104,7 @@
     }
   },
   "/Figment_Grenade_Launcher_Prox/Gameplay/WID_Figment_GrenadeLauncher_Prox_Athena_VR": {
-    "ts": 1788440369,
+    "ts": 1789634775,
     "data": {
       "hash": "5c2abe908526002eb65be5b8c2163db4ed507c7bd5885664f8aa2d4cc370cf31",
       "entries": 1,
@@ -448073,7 +448069,7 @@
     }
   },
   "/Figment_Sniper_Auto_Athena/Gameplay/WID_Figment_Sniper_Auto_Suppressed_Scope_Athena_VR": {
-    "ts": 1788440291,
+    "ts": 1789634777,
     "data": {
       "hash": "6d2648deb4c16234ff4abc8ba252e99fb905bdbf2f10868d6268b607fc92366a",
       "entries": 1,
@@ -448447,7 +448443,7 @@
     }
   },
   "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_R": {
-    "ts": 1788440364,
+    "ts": 1789634776,
     "data": {
       "hash": "11afc37e0f768d8c81b5fd174646f1d03983307c23172fa306d780ee057bccd5",
       "entries": 1,
@@ -448829,7 +448825,7 @@
     }
   },
   "/Figment_Assault_Surgical_Athena/Gameplay/WID_Figment_Assault_Surgical_Athena_VR": {
-    "ts": 1788440367,
+    "ts": 1789634775,
     "data": {
       "hash": "80a14a6a622790ea3c11306644af0dd92c4faebcd0e1405e53914f6875673a40",
       "entries": 1,
@@ -449209,7 +449205,7 @@
     }
   },
   "/Figment_Sniper_Auto_Athena/Gameplay/WID_Figment_Sniper_Auto_Suppressed_Scope_Athena_R": {
-    "ts": 1788440367,
+    "ts": 1789634777,
     "data": {
       "hash": "68744f015d418028320df067b8b896081d8ee89e70b0266891a377d1f27d0f2d",
       "entries": 1,
@@ -449583,7 +449579,7 @@
     }
   },
   "/Figment_Pistol_Scavenger_Athena/Gameplay/WID_Figment_Pistol_Scavenger_Athena_SR": {
-    "ts": 1788440367,
+    "ts": 1789634776,
     "data": {
       "hash": "6b70eb9c3a4dde48b58cbdaececc26d1f05e646762a5da1c40cbf74668c784a3",
       "entries": 1,
@@ -449965,7 +449961,7 @@
     }
   },
   "/Figment_JunkRift/Gameplay/WID_Figment_JollyRascal": {
-    "ts": 1788440367,
+    "ts": 1789634775,
     "data": {
       "hash": "89bfa6709551e5093428f42b40e9df15636063753e8c83696216a35f87dfddfe",
       "entries": 1,
@@ -450306,7 +450302,7 @@
     }
   },
   "/Figment_Sniper_Auto_Athena/Gameplay/WID_Figment_Sniper_Auto_Suppressed_Scope_Athena_SR": {
-    "ts": 1788440367,
+    "ts": 1789634777,
     "data": {
       "hash": "fd3b7a8d7b856a9ad4594cca13ba282bbf374a3d3270e3f7c1cef67a215896f5",
       "entries": 1,
@@ -468259,6 +468255,3139 @@
               },
               {
                 "Rarity": "EFortRarity::Legendary"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_BadgerBangs/Gameplay/WID_Figment_BadgerBangs": {
+    "ts": 1789634772,
+    "data": {
+      "hash": "281d157f5cfe27309e09b83ce830a477fda81d52a38e561a96a8767a2bab40ef",
+      "entries": 1,
+      "bytes": 6624,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_BadgerBangs",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_BadgerBangs/Gameplay/WID_Figment_BadgerBangs",
+          "Properties": {
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_BadgerBangs/Gameplay/B_BadgerBang_Figment_Child.B_BadgerBang_Figment_Child_C",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'UtilityItemDamage'",
+                "ObjectPath": "/Game/Balance/DataTables/UtilityItemDamage.0"
+              },
+              "RowName": "Athena_BadgerBangs"
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/DefaultGunCosmeticAlteration_Athena.DefaultGunCosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Figment_BadgerBangs/Gameplay/GA_Figment_BadgerBangs_Throw.GA_Figment_BadgerBangs_Throw_C",
+              "SubPathString": ""
+            },
+            "SecondaryFireAbility": {
+              "AssetPathName": "/Figment_BadgerBangs/Gameplay/GA_Figment_BadgerBangs_Secondary.GA_Figment_BadgerBangs_Secondary_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Figment_BadgerBangs/Gameplay/WID_Figment_BadgerBangs.WID_Figment_BadgerBangs",
+              "SubPathString": ""
+            },
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_GuidedM.HUD_Xhair_GuidedM",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [],
+            "AnalyticTags": [
+              "Item.Consumable.BadgerBangs"
+            ],
+            "ActualAnalyticFNames": [
+              "Item.Consumable.BadgerBangs",
+              "Tag:Weapon:wid_figment_badgerbangs"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "435BF7E342F544707DE8C9BE46E40565",
+              "sourceString": "Explosive Batarang",
+              "localizedString": "Explosive Batarang"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "9340100F497E8A98481F829232E5A4E6",
+              "sourceString": "Batman's Batarang. Homes in on players and sticks to walls. Explodes if it detects enemies in proximity.",
+              "localizedString": "Batman's Batarang. Homes in on players and sticks to walls. Explodes if it detects enemies in proximity."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/Figment_BadgerBangs/Gameplay/B_Prj_Figment_BadgerBangs_Child.B_Prj_Figment_BadgerBangs_Child_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Gadgets/Assets/BlackMonday_Bangs/Meshes/SK_BlackMondayBangs.SK_BlackMondayBangs",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.16773131,
+                    "Y": 0.044942476,
+                    "Z": 0.9512506,
+                    "W": 0.25488964,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0000001
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.5,
+                    "Y": 1.5,
+                    "Z": 1.5
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+                    "ObjectPath": "/Game/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Figment_BadgerBangs/Audio/SC_Figment_BM_Bang_Pickup.SC_Figment_BM_Bang_Pickup",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Figment_BadgerBangs/Audio/SC_Figment_BM_Bang_Drop.SC_Figment_BM_Bang_Drop",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "/Figment_BadgerBangs/Audio/SC_Figment_BM_Bang_DropImpact.SC_Figment_BM_Bang_DropImpact",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": true,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 1.0189767,
+                  "Y": 17.486427,
+                  "Z": 7.3035097
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "F468DF79432D9EB944F1D0B97C3C1C09",
+                  "sourceString": "Gadget UtilityItem Batarang BadgerBangs",
+                  "localizedString": "Gadget UtilityItem Batarang BadgerBangs"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/OnlyDamageTooltipStat.OnlyDamageTooltipStat",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::VI",
+                "MaxTier": "EFortItemTier::VI"
+              },
+              {
+                "MaxStackSize": {
+                  "Value": 10.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                }
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-BlackMondayBangs.T-T-Icon-BR-BlackMondayBangs",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-BlackMondayBangs-L.T-T-Icon-BR-BlackMondayBangs-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Ability",
+                  "Athena.ItemAction.Throw",
+                  "Trait.Explosive",
+                  "Item.Consumable.BadgerBangs"
+                ]
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Badger_Grape/Gameplay/WID_Figment_Badger_Grape_VR": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "94f52b152329145564da3af84004db7e3039b3ce1ac24518aa0d04b941158813",
+      "entries": 1,
+      "bytes": 7679,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Badger_Grape_VR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Badger_Grape/Gameplay/WID_Figment_Badger_Grape_VR",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Badger_Grape/Gameplay/B_BadgerGrape_Figment.B_BadgerGrape_Figment_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Gadgets/Assets/BlackMonday_Grape/Meshes/SK_BlackMondayGrape.SK_BlackMondayGrape",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Special_BadgerGrape_Athena_SR_Ore_T03"
+            },
+            "AbilitySet": {
+              "AssetPathName": "/Figment_Badger_Grape/Gameplay/AS_Figment_BadgerGrape.AS_Figment_BadgerGrape",
+              "SubPathString": ""
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/Projectile/GA_Ranged_GenericProjectileImpact_HookGun.GA_Ranged_GenericProjectileImpact_HookGun_C",
+              "SubPathString": ""
+            },
+            "EquippedAbilities": [
+              {
+                "AssetPathName": "/Game/Athena/Items/Weapons/Abilities/HookGun/GA_Athena_HookDestroy.GA_Athena_HookDestroy_C",
+                "SubPathString": ""
+              }
+            ],
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataHooks.AthenaAmmoDataHooks",
+              "SubPathString": ""
+            },
+            "bUsesCustomAmmoType": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/UI/Fort_HUD/HUD_Xhair_Basic.HUD_Xhair_Basic",
+              "SubPathString": ""
+            },
+            "ReticleInvalidTargetImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/blockedshot_reticle.blockedshot_reticle",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged",
+              "Item.Consumable.HookGun"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged",
+              "Item.Consumable.HookGun",
+              "Tag:Weapon:wid_figment_badger_grape_vr"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "FDE05CED47CD3EAF5D02ACB2B2883701",
+              "sourceString": "Batman Grapnel Gun",
+              "localizedString": "Batman Grapnel Gun"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "D6348067495FE4C7266EFB88BF853800",
+              "sourceString": "Pull yourself towards a target location and then deploy the Bat Cape!",
+              "localizedString": "Pull yourself towards a target location and then deploy the Bat Cape!"
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AllowEmptyFinalStack",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "ProjectileTemplate": {
+                  "AssetPathName": "/Figment_Badger_Grape/Gameplay/B_Prj_BadgerGrape_Figment.B_Prj_BadgerGrape_Figment_C",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Gadgets/Assets/BlackMonday_Grape/Meshes/BlackMonday_Grape.BlackMonday_Grape",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "/Figment_Badger_Grape/Audio/SC_Figment_BM_Grape_Pickup.SC_Figment_BM_Grape_Pickup",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "/Figment_Badger_Grape/Audio/SC_Figment_BM_Grape_Drop.SC_Figment_BM_Grape_Drop",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "/Figment_Badger_Grape/Audio/SC_Figment_BM_Grape_DropImpact.SC_Figment_BM_Grape_DropImpact",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 15.960912,
+                  "Y": 60.9392,
+                  "Z": 19.130764
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -22.0,
+                  "Z": -2.0
+                },
+                "InitialRotation": {
+                  "Pitch": 7.999954,
+                  "Yaw": 32.000454,
+                  "Roll": -21.999653
+                },
+                "Scale": 1.3
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "DD07A07547131C1DC654EC941721F424",
+                  "sourceString": "Guns Ranged Pistols SemiAuto",
+                  "localizedString": "Guns Ranged Pistols SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::VI",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-BlackMondayGrape.T-T-Icon-BR-BlackMondayGrape",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-BlackMondayGrape-L.T-T-Icon-BR-BlackMondayGrape-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Weapon.Meta.MiscWrapped",
+                  "Item.Consumable.HookGun",
+                  "Trait.Grappler",
+                  "Creative.Item.SpawnWithAtLeast1Ammo",
+                  "MobileHUD.DisplayADS"
+                ]
+              },
+              {
+                "Rarity": "EFortRarity::Mythic"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_C": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "6008894fe5a262be288c1315757f4cb9b15fda49c6515870aa756972a0a32773",
+      "entries": 1,
+      "bytes": 8298,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Shotgun_Standard_Athena_C",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_Standard_Athena/Gameplay/WID_Figment_Shotgun_Standard_Athena_C",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Shotgun_Standard_Athena/Gameplay/B_Shotgun_Standard_Athena_Child_Figment.B_Shotgun_Standard_Athena_Child_Figment_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_Crusader_Figment.SK_Crusader_Figment",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Shotgun_Standard_Athena_C_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Shotgun_CosmeticAlteration_Athena.Shotgun_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+              "SubPathString": ""
+            },
+            "LowAmmoPercentage": 0.5,
+            "bAllowTargetingDuringReload": true,
+            "HitNotifyDuration": 0.5,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [
+              45.0,
+              135.0,
+              225.0,
+              315.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.Pump.LowTier"
+            ],
+            "ActualAnalyticFNames": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.Pump.LowTier",
+              "Tag:Weapon:wid_figment_shotgun_standard_athena_c"
+            ],
+            "CreativeTagsHelper": {
+              "CreativeTags": [
+                "Ammo:Shells",
+                "Common",
+                "FortniteOG",
+                "Guard",
+                "Shotgun",
+                "Weapon"
+              ]
+            },
+            "ItemName": {
+              "namespace": "",
+              "key": "32FCE50C4FB4512F44C85799A13CCA41",
+              "sourceString": "Pump Shotgun",
+              "localizedString": "Pump Shotgun"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "D38C50064A034A8395939287B3BBB24E",
+              "sourceString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size.",
+              "localizedString": "Shotgun: Pump-Action. Deals high damage at a moderate fire rate. Short range and limited magazine size."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_Crusader_Figment.SK_Crusader_Figment",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Shotgun-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Shotgun-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Shotgun_Standard_Athena/Sounds/SL_Figment_Shotgun_Standard_Pickup.SL_Figment_Shotgun_Standard_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 7,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 4.0138817,
+                  "Y": 47.23989,
+                  "Z": 10.659565
+                }
+              },
+              {
+                "DisassembleRecipe": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'DisassembleRecipes'",
+                    "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+                  },
+                  "RowName": "Disassemble.Ranged.Shotgun.UC.Ore.T03"
+                },
+                "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+                "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "D166E6BB41163FE73C5C998198E160E6",
+                  "sourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+                  "localizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::I",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T_Icon_Weapons_SK_Crusader_Figment.T_Icon_Weapons_SK_Crusader_Figment",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T_Icon_Weapons_SK_Crusader_Figment_L.T_Icon_Weapons_SK_Crusader_Figment_L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Shotgun.PumpAction",
+                  "Weapon.Ranged.Shotgun.Pump",
+                  "Item.Weapon.Ranged.Shotgun.Pump.LowTier",
+                  "phoebe.weapon.ranged.shotgun",
+                  "phoebe.items.pump_shotgun",
+                  "Rarity.Common"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -30.0,
+                  "Z": 2.0
+                },
+                "InitialRotation": {
+                  "Pitch": 6.8169928,
+                  "Yaw": 16.552195,
+                  "Roll": -21.50716
+                },
+                "Scale": 0.9
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Shotgun_Standard'",
+                    "ObjectPath": "/Figment_Shotgun_Standard_Athena/Sounds/SL_Figment_Shotgun_Standard.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Rarity": "EFortRarity::Common"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "7c8fd1d290839a1bbac5470d77ddc199de2a96fc1714130e933cdd6b3825764e",
+      "entries": 1,
+      "bytes": 8286,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_VR_Ore_T03",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/B_Shotgun_Break_Figment_Child.B_Shotgun_Break_Figment_Child_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_BreakAction.SK_BreakAction",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Shotgun_BreakAction_Athena_VR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Shotgun_CosmeticAlteration_Athena.Shotgun_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [
+              45.0,
+              135.0,
+              225.0,
+              315.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+              "Trait.QuestVaultedItem"
+            ],
+            "ActualAnalyticFNames": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+              "Trait.QuestVaultedItem",
+              "Tag:Weapon:wid_figment_shotgun_breakbarrel_athena_vr_ore_t03"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "95C93B834CCA4A365523D5B9D536EE5B",
+              "sourceString": "Double Barrel Shotgun",
+              "localizedString": "Double Barrel Shotgun"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "7AB392B14B45E394AC41EEA6260E24BF",
+              "sourceString": "Shotgun: Break-Action. Deals high damage at a fast fire rate. Short range and very limited magazine size.",
+              "localizedString": "Shotgun: Break-Action. Deals high damage at a fast fire rate. Short range and very limited magazine size."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_BreakAction.SK_BreakAction",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 32.0,
+                    "Y": 32.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Shotgun-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Shotgun-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Sounds/SL_Figment_Shotgun_DoubleBarrel_Athena_Pickup.SL_Figment_Shotgun_DoubleBarrel_Athena_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 11.9228,
+                  "Y": 35.32279,
+                  "Z": 12.761936
+                }
+              },
+              {
+                "DisassembleRecipe": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'DisassembleRecipes'",
+                    "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+                  },
+                  "RowName": "Disassemble.Ranged.Shotgun.UC.Ore.T03"
+                },
+                "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+                "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "D166E6BB41163FE73C5C998198E160E6",
+                  "sourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+                  "localizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-BreakAction.T-Icon-Weapons-SK-BreakAction",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-BreakAction-L.T-Icon-Weapons-SK-BreakAction-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Shotgun.Tactical",
+                  "Weapon.Ranged.Shotgun.Break",
+                  "Trait.QuestVaultedItem",
+                  "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+                  "Rarity.VeryRare",
+                  "phoebe.weapon.ranged.shotgun",
+                  "phoebe.items.DoubleBarrelShotgun"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -30.0,
+                  "Z": 2.0
+                },
+                "InitialRotation": {
+                  "Pitch": 6.8169928,
+                  "Yaw": 16.552195,
+                  "Roll": -21.50716
+                },
+                "Scale": 0.9
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Shotgun_DoubleBarrel_Athena'",
+                    "ObjectPath": "/Figment_Shotgun_DoubleBarrel_Athena/Sounds/SL_Figment_Shotgun_DoubleBarrel_Athena.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "8fabdb915a98367f1e7913ad37d02bcef2a8171b17dd8e040af108a1b0f9ab0b",
+      "entries": 1,
+      "bytes": 8291,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/WID_Figment_Shotgun_BreakBarrel_Athena_SR_Ore_T03",
+          "Properties": {
+            "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Gameplay/B_Shotgun_Break_Figment_Child.B_Shotgun_Break_Figment_Child_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_BreakAction.SK_BreakAction",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Shotgun_BreakAction_Athena_SR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Shotgun_CosmeticAlteration_Athena.Shotgun_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataShells.AthenaAmmoDataShells",
+              "SubPathString": ""
+            },
+            "bAllowTargetingDuringReload": true,
+            "ReticleImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_Frame.HUD_Xhair_Shotgun_Frame",
+              "SubPathString": ""
+            },
+            "ReticleCornerAngles": [
+              45.0,
+              135.0,
+              225.0,
+              315.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Shotgun_CntDot.HUD_Xhair_Shotgun_CntDot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+              "Trait.QuestVaultedItem"
+            ],
+            "ActualAnalyticFNames": [
+              "weapon.ranged.shotgun",
+              "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+              "Trait.QuestVaultedItem",
+              "Tag:Weapon:wid_figment_shotgun_breakbarrel_athena_sr_ore_t03"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "FD5AA5FE4A02E32DB03AEF8F2C3DD078",
+              "sourceString": "Double Barrel Shotgun",
+              "localizedString": "Double Barrel Shotgun"
+            },
+            "ItemDescription": {
+              "namespace": "",
+              "key": "1A1F8B8347BB4CCE10A79E9B0956BE40",
+              "sourceString": "Shotgun: Break-Action. Deals high damage at a fast fire rate. Short range and very limited magazine size.",
+              "localizedString": "Shotgun: Break-Action. Deals high damage at a fast fire rate. Short range and very limited magazine size."
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient",
+                  "Item.Trait.WeaponRanged.ShowReticleHitNotifyAtImpactLocation"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Shotguns/Mesh/SK_BreakAction.SK_BreakAction",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 32.0,
+                    "Y": 32.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Shotgun-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Shotgun-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Shotgun_DoubleBarrel_Athena/Sounds/SL_Figment_Shotgun_DoubleBarrel_Athena_Pickup.SL_Figment_Shotgun_DoubleBarrel_Athena_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 11.9228,
+                  "Y": 35.32279,
+                  "Z": 12.761936
+                }
+              },
+              {
+                "DisassembleRecipe": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'DisassembleRecipes'",
+                    "ObjectPath": "/Game/Items/Datatables/DisassembleRecipes.0"
+                  },
+                  "RowName": "Disassemble.Ranged.Shotgun.UC.Ore.T03"
+                },
+                "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+                "DisassembleDurabilityDegradeMaxLootPercent": 0.4
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "D166E6BB41163FE73C5C998198E160E6",
+                  "sourceString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto",
+                  "localizedString": "Guns Ranged Shotgun Shells Slugs AOE SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::V",
+                "MaxTier": "EFortItemTier::No_Tier"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-BreakAction.T-Icon-Weapons-SK-BreakAction",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-BreakAction-L.T-Icon-Weapons-SK-BreakAction-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Shotgun.Tactical",
+                  "Rarity.SuperRare",
+                  "Weapon.Ranged.Shotgun.Break",
+                  "Trait.QuestVaultedItem",
+                  "Item.Weapon.Ranged.Shotgun.BreakBarrel",
+                  "phoebe.weapon.ranged.shotgun",
+                  "phoebe.items.DoubleBarrelShotgun"
+                ]
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -30.0,
+                  "Z": 2.0
+                },
+                "InitialRotation": {
+                  "Pitch": 6.8169928,
+                  "Yaw": 16.552195,
+                  "Roll": -21.50716
+                },
+                "Scale": 0.9
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Shotgun_DoubleBarrel_Athena'",
+                    "ObjectPath": "/Figment_Shotgun_DoubleBarrel_Athena/Sounds/SL_Figment_Shotgun_DoubleBarrel_Athena.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Rarity": "EFortRarity::Legendary"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_UC": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "d9b97b080352dc8daa789852d5057205f788ecde20339e000f91827f42d9121e",
+      "entries": 1,
+      "bytes": 7552,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Pistol_Revolver_SingleAction_Athena_UC",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_UC",
+          "Properties": {
+            "bAllowContinuousFire": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Gameplay/B_Pistol_SingleActionRevolver_Child_Figment.B_Pistol_SingleActionRevolver_Child_Figment_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_Revolver_SingleAction_Athena_UC_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem",
+              "Tag:Weapon:wid_figment_pistol_revolver_singleaction_athena_uc"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "29BF980648643B299828C6A061E2557E",
+              "sourceString": "Six Shooter",
+              "localizedString": "Six Shooter"
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction_Pickup.SL_Figment_Pistol_Revolver_SingleAction_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 3.2588441,
+                  "Y": 1.4849147,
+                  "Z": 5.188595
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -22.0,
+                  "Z": -1.0
+                },
+                "InitialRotation": {
+                  "Pitch": 1.6591758,
+                  "Yaw": 16.683018,
+                  "Roll": -20.0703
+                },
+                "Scale": 1.1
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "23E3183E45362A193852FFBC279C2BFB",
+                  "sourceString": "Guns Ranged Pistols MediumBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols MediumBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::II",
+                "MaxTier": "EFortItemTier::II"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy.T-Icon-Weapons-SK-Pistol-Cowboy",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy-L.T-Icon-Weapons-SK-Pistol-Cowboy-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Revolver",
+                  "Weapon.Ranged.Pistol.SixShooter",
+                  "Trait.QuestVaultedItem",
+                  "Item.Weapon.Ranged.Pistol.Revolver",
+                  "Rarity.Uncommon",
+                  "phoebe.weapon.ranged.pistol",
+                  "phoebe.items.SixShooterPistol"
+                ]
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Pistol_Revolver_SingleAction'",
+                    "ObjectPath": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_R": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "1deb60c7c253560cc5b17c66233d2fcfe956c31bf185a3e7859e0644099587d0",
+      "entries": 1,
+      "bytes": 7577,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Pistol_Revolver_SingleAction_Athena_R",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_R",
+          "Properties": {
+            "bAllowContinuousFire": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Gameplay/B_Pistol_SingleActionRevolver_Child_Figment.B_Pistol_SingleActionRevolver_Child_Figment_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_Revolver_SingleAction_Athena_R_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem",
+              "Tag:Weapon:wid_figment_pistol_revolver_singleaction_athena_r"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "1BCF49AE44CCEDC4A6E07A8A218DE784",
+              "sourceString": "Six Shooter",
+              "localizedString": "Six Shooter"
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction_Pickup.SL_Figment_Pistol_Revolver_SingleAction_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 3.2588441,
+                  "Y": 1.4849147,
+                  "Z": 5.188595
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -22.0,
+                  "Z": -1.0
+                },
+                "InitialRotation": {
+                  "Pitch": 1.6591758,
+                  "Yaw": 16.683018,
+                  "Roll": -20.0703
+                },
+                "Scale": 1.1
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "23E3183E45362A193852FFBC279C2BFB",
+                  "sourceString": "Guns Ranged Pistols MediumBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols MediumBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::III",
+                "MaxTier": "EFortItemTier::III"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy.T-Icon-Weapons-SK-Pistol-Cowboy",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy-L.T-Icon-Weapons-SK-Pistol-Cowboy-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Revolver",
+                  "Weapon.Ranged.Pistol.SixShooter",
+                  "Trait.QuestVaultedItem",
+                  "Item.Weapon.Ranged.Pistol.Revolver",
+                  "Rarity.Rare",
+                  "phoebe.weapon.ranged.pistol",
+                  "phoebe.items.SixShooterPistol"
+                ]
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Pistol_Revolver_SingleAction'",
+                    "ObjectPath": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Rarity": "EFortRarity::Rare"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_VR": {
+    "ts": 1789634774,
+    "data": {
+      "hash": "6e78515329a4cebf0e899854cfdf95964e49e1e864437afe289ee42f7d5c74a3",
+      "entries": 1,
+      "bytes": 7583,
+      "jsonOutput": [
+        {
+          "Type": "FortWeaponRangedItemDefinition",
+          "Name": "WID_Figment_Pistol_Revolver_SingleAction_Athena_VR",
+          "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+          "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+          "Package": "/Figment_Pistol_Revolver_SingleAction/Gameplay/WID_Figment_Pistol_Revolver_SingleAction_Athena_VR",
+          "Properties": {
+            "bAllowContinuousFire": false,
+            "WeaponActorClass": {
+              "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Gameplay/B_Pistol_SingleActionRevolver_Child_Figment.B_Pistol_SingleActionRevolver_Child_Figment_C",
+              "SubPathString": ""
+            },
+            "WeaponMeshOverride": {
+              "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+              "SubPathString": ""
+            },
+            "WeaponStatHandle": {
+              "DataTable": {
+                "ObjectName": "DataTable'AthenaRangedWeapons'",
+                "ObjectPath": "/Figment_Ch01_DataTables/DataTables/AthenaRangedWeapons.0"
+              },
+              "RowName": "Pistol_Revolver_SingleAction_Athena_VR_Ore_T03"
+            },
+            "BaseAlteration": {
+              "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+              "SubPathString": ""
+            },
+            "BaseCosmeticAlteration": {
+              "AssetPathName": "/Game/Athena/Items/Alterations/Cosmetic/Pistol_CosmeticAlteration_Athena.Pistol_CosmeticAlteration_Athena",
+              "SubPathString": ""
+            },
+            "PrimaryFireAbility": {
+              "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+              "SubPathString": ""
+            },
+            "AmmoData": {
+              "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium",
+              "SubPathString": ""
+            },
+            "TriggerType": "EFortWeaponTriggerType::Automatic",
+            "bAllowTargetingDuringReload": true,
+            "bReticleCornerOutsideSpreadRadius": true,
+            "ReticleCornerAngles": [
+              0.0,
+              89.0,
+              179.0,
+              270.0
+            ],
+            "ReticleCenterImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+              "SubPathString": ""
+            },
+            "ReticleCenterPerfectAimImage": {
+              "AssetPathName": "/Game/Athena/HUD/reticles/reticle_perfect_aim_dot.reticle_perfect_aim_dot",
+              "SubPathString": ""
+            },
+            "AnalyticTags": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem"
+            ],
+            "ActualAnalyticFNames": [
+              "Weapon.Ranged.Pistol",
+              "Item.Weapon.Ranged.Pistol.Revolver",
+              "Trait.QuestVaultedItem",
+              "Tag:Weapon:wid_figment_pistol_revolver_singleaction_athena_vr"
+            ],
+            "ItemName": {
+              "namespace": "",
+              "key": "BBF36BD44EDC70D8DD839688B719924C",
+              "sourceString": "Six Shooter",
+              "localizedString": "Six Shooter"
+            },
+            "DataList": [
+              {
+                "Traits": [
+                  "Item.Trait.InventorySizeLimited",
+                  "Item.Trait.AlwaysCountForCollectionQuest",
+                  "Item.Trait.Transient"
+                ]
+              },
+              {
+                "ReloadAbility": {
+                  "AssetPathName": "/Script/FortniteGame.FortGameplayAbility_Reload",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "MinLevel": -1,
+                "MaxLevel": -1
+              },
+              {
+                "OwnerPickupText": {
+                  "cultureInvariantString": null
+                },
+                "PickupStaticMesh": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSkeletalMesh": {
+                  "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_PistolCowboy.SK_PistolCowboy",
+                  "SubPathString": ""
+                },
+                "PickupEffectOverride": {
+                  "AssetPathName": "/Game/Effects/Fort_Effects/Gameplay/Pickups/B_Pickups_Figment.B_Pickups_Figment_C",
+                  "SubPathString": ""
+                },
+                "PickupClassOverride": null,
+                "PickupActorComponents": [],
+                "PickupMeshTransform": {
+                  "Rotation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0,
+                    "IsNormalized": true,
+                    "Size": 1.0,
+                    "SizeSquared": 1.0
+                  },
+                  "Translation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Scale3D": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  }
+                },
+                "MiniMapIconBrush": {
+                  "TintColor": {
+                    "SpecifiedColor": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 1.0,
+                      "A": 1.0,
+                      "Hex": "FFFFFF"
+                    },
+                    "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                  },
+                  "DrawAs": "ESlateBrushDrawType::Image",
+                  "Tiling": "ESlateBrushTileType::NoTile",
+                  "Mirroring": "ESlateBrushMirrorType::NoMirror",
+                  "ImageType": "ESlateBrushImageType::NoImage",
+                  "ImageSize": {
+                    "X": 20.0,
+                    "Y": 20.0
+                  },
+                  "Margin": {
+                    "Left": 0.0,
+                    "Top": 0.0,
+                    "Right": 0.0,
+                    "Bottom": 0.0
+                  },
+                  "ResourceObject": {
+                    "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+                    "ObjectPath": "/Game/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+                  },
+                  "OutlineSettings": {
+                    "CornerRadii": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0,
+                      "W": 0.0
+                    },
+                    "Color": {
+                      "SpecifiedColor": {
+                        "R": 0.0,
+                        "G": 0.0,
+                        "B": 0.0,
+                        "A": 0.0,
+                        "Hex": "000000"
+                      },
+                      "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+                    },
+                    "Width": 0.0,
+                    "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+                    "bUseBrushTransparency": false
+                  },
+                  "UVRegion": {
+                    "Min": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Max": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "bIsValid": 0
+                  },
+                  "bIsDynamicallyLoaded": false,
+                  "ResourceName": "None"
+                },
+                "PickupTagRestrictions": {
+                  "AllowList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  },
+                  "DenyList": {
+                    "Tags": [],
+                    "FailReason": {
+                      "cultureInvariantString": null
+                    }
+                  }
+                },
+                "PickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "InStormPickupDespawnTime": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupNetworkCullDistanceOverride": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "RegistryType": {
+                    "Name": "None"
+                  }
+                },
+                "PickupSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupByNearbyPawnSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DropSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "DroppedLoopSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "LandedSound": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PickupSoundLibraries": [
+                  {
+                    "AssetPathName": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction_Pickup.SL_Figment_Pistol_Revolver_SingleAction_Pickup",
+                    "SubPathString": ""
+                  }
+                ],
+                "MiniMapViewableDistance": 5000.0,
+                "DropBehavior": "EWorldItemDropBehavior::DropAsPickup",
+                "RepickupBehaviour": "EWorldItemRepickupBehavior::Default",
+                "bCanBeDroppedFromInventory": true,
+                "AllowedDropStates": 3,
+                "bDropCurrentItemOnOverflow": true,
+                "bDropExcessItemOnOverflow": true,
+                "bForceDropDuringRespawn": false,
+                "bDropOnDeath": false,
+                "bDropOnLogout": false,
+                "bCanEverDropOnDestruction": true,
+                "bDropOnDBNO": false,
+                "bForceAutoPickup": false,
+                "bShowDirectionalArrowWhenFarOff": false,
+                "ComparisonTag": {
+                  "TagName": "None"
+                },
+                "MeshBoundsExtents": {
+                  "X": 3.2588441,
+                  "Y": 1.4849147,
+                  "Z": 5.188595
+                }
+              },
+              {
+                "LootLevelCategoryHandle": {
+                  "DataTable": {
+                    "ObjectName": "DataTable'LootLevelData'",
+                    "ObjectPath": "/Game/Items/Datatables/LootLevelData.0"
+                  },
+                  "ColumnName": "Category",
+                  "RowContents": "Tiered_T03_"
+                }
+              },
+              {
+                "MeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "SkeletalMeshOverride": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "PivotOffset": {
+                  "X": 0.0,
+                  "Y": -22.0,
+                  "Z": -1.0
+                },
+                "InitialRotation": {
+                  "Pitch": 1.6591758,
+                  "Yaw": 16.683018,
+                  "Roll": -20.0703
+                },
+                "Scale": 1.1
+              },
+              {
+                "SearchTags": {
+                  "namespace": "",
+                  "key": "23E3183E45362A193852FFBC279C2BFB",
+                  "sourceString": "Guns Ranged Pistols MediumBullets SemiAuto",
+                  "localizedString": "Guns Ranged Pistols MediumBullets SemiAuto"
+                }
+              },
+              {
+                "TooltipClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "StatList": {
+                  "AssetPathName": "/Game/UI/Tooltips/Athena_RangedWeaponTooltipStats.Athena_RangedWeaponTooltipStats",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tier": "EFortItemTier::IV",
+                "MaxTier": "EFortItemTier::IV"
+              },
+              {
+                "Icon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy.T-Icon-Weapons-SK-Pistol-Cowboy",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "LargeIcon": {
+                  "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-Pistol-Cowboy-L.T-Icon-Weapons-SK-Pistol-Cowboy-L",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "Tags": [
+                  "Skill.sniper.headshotbuff",
+                  "Gameplay.DamageSource.Weapon",
+                  "Bacchus.Shoot.Pistol.Revolver",
+                  "Weapon.Ranged.Pistol.SixShooter",
+                  "Trait.QuestVaultedItem",
+                  "Item.Weapon.Ranged.Pistol.Revolver",
+                  "Rarity.VeryRare",
+                  "phoebe.weapon.ranged.pistol",
+                  "phoebe.items.SixShooterPistol"
+                ]
+              },
+              {
+                "WeaponSoundLibraries": [
+                  {
+                    "ObjectName": "SoundLibrary'SL_Figment_Pistol_Revolver_SingleAction'",
+                    "ObjectPath": "/Figment_Pistol_Revolver_SingleAction/Sounds/SL_Figment_Pistol_Revolver_SingleAction.0"
+                  }
+                ],
+                "WeaponOwnerSoundLibraries": [],
+                "WeaponCollectionTag": []
+              },
+              {
+                "Rarity": "EFortRarity::Epic"
               }
             ]
           }

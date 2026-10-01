@@ -15227,7 +15227,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.26": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.7,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15260,7 +15260,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.27": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15821,7 +15821,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.13": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15854,7 +15854,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.14": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.07,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15887,7 +15887,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.15": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -15920,7 +15920,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.16": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26414,7 +26414,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.13": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -26447,7 +26447,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.14": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35858,7 +35858,7 @@
       },
       "WorldList.GoldChest.Boons.05": {
         "LootPackageID": "WorldList.GoldChest.Boons",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -35878,7 +35878,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_VR.WID_SMG_DragonCart_Athena_VR",
+        "ItemDefinition": {
+          "AssetPathName": "/VividRazorBoonsGameplay/Gameplay/Pilfer/PAID_VividRazor_Pilfer.PAID_VividRazor_Pilfer",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -35908,7 +35911,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/Game/Athena/Items/Weapons/WID_Shotgun_Swing_Athena_VR.WID_Shotgun_Swing_Athena_VR",
+        "ItemDefinition": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_VR.WID_HeatSnake_Drift_VR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -40799,7 +40802,7 @@
       },
       "WorldList.RandomMythic.Rewards.52": {
         "LootPackageID": "WorldList.RandomMythic.Rewards",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43670,7 +43673,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.01": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43760,7 +43763,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43780,7 +43783,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_SR.WID_SMG_DragonCart_Athena_SR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -43850,7 +43856,7 @@
       },
       "WorldList.AthenaSupplyDrop.Sp.Weapon.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Sp.Weapon",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43870,10 +43876,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_UR.WID_HeatSnake_Drift_UR",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47117,7 +47120,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.01": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47240,7 +47243,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.05": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47260,7 +47263,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UR.WID_SMG_DragonCart_Athena_UR",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47300,7 +47306,7 @@
       },
       "WorldList.AthenaBlitzLlama.MythicItem.07": {
         "LootPackageID": "WorldList.AthenaBlitzLlama.MythicItem",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47320,10 +47326,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_X.WID_HeatSnake_Drift_X",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -47978,7 +47981,7 @@
       },
       "WorldList.BusWeap.06": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47998,7 +48001,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_UC.WID_SMG_DragonCart_Athena_UC",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48008,7 +48014,7 @@
       },
       "WorldList.BusWeap.07": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48028,7 +48034,10 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": "/DragonCartWeaponGameplay/Gameplay/DragonCart_SMG/SMG_Standard_DragonCart/WID_SMG_DragonCart_Athena_R.WID_SMG_DragonCart_Athena_R",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48128,7 +48137,7 @@
       },
       "WorldList.BusWeap.11": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48148,10 +48157,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/RocketRamGameplay/Items/RocketRam/WID_RocketLimitedRam_Comp.WID_RocketLimitedRam_Comp",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_UC.WID_HeatSnake_Drift_UC",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -48161,7 +48167,7 @@
       },
       "WorldList.BusWeap.12": {
         "LootPackageID": "WorldList.BusWeap",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48181,10 +48187,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_R.WID_HeatSnake_Drift_R",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -57128,7 +57131,7 @@
       },
       "WorldList.llama.Hero.03": {
         "LootPackageID": "WorldList.llama.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57148,10 +57151,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DentureSay/Gameplay/WID_DentureSay.WID_DentureSay",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -57287,7 +57287,7 @@
       },
       "WorldList.SupplyDrop.Hero.03": {
         "LootPackageID": "WorldList.SupplyDrop.Hero",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57307,10 +57307,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/BandageRefresh/WID_Paprika_Bandage.WID_Paprika_Bandage",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/DentureSay/Gameplay/WID_DentureSay.WID_DentureSay",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,

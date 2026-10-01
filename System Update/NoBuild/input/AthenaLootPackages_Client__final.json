@@ -1129,7 +1129,7 @@
       },
       "PKG_FloorLoot_Weapon_SMG_01": {
         "LootPackageID": "PKG_FloorLoot_Weapon_SMG",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE",
@@ -16768,7 +16768,7 @@
       },
       "PKG_Vend_Weapon_SMG_Common_01": {
         "LootPackageID": "PKG_Vend_Weapon_SMG_Common",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE",
@@ -24162,8 +24162,8 @@
           "TRUE"
         ],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 5,
+          "Y": 5
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -24178,10 +24178,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -24471,7 +24468,7 @@
       },
       "LIST_FloorLoot_Consumables_Utility_Seasonal_01": {
         "LootPackageID": "LIST_FloorLoot_Consumables_Utility_Seasonal",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -24494,14 +24491,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_FloorLoot_Consumables_Hero_01": {
@@ -24716,7 +24713,7 @@
       },
       "LIST_Chest_Consumables_Utility_Seasonal_01": {
         "LootPackageID": "LIST_Chest_Consumables_Utility_Seasonal",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -24739,14 +24736,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Chest_Consumables_Hero_01": {
@@ -24961,7 +24958,7 @@
       },
       "LIST_RareChest_Consumables_Utility_Seasonal_01": {
         "LootPackageID": "LIST_RareChest_Consumables_Utility_Seasonal",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -24984,14 +24981,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_RareChest_Consumables_Hero_01": {
@@ -25101,7 +25098,7 @@
       },
       "LIST_FishingDefault_Consumables_Utility_01": {
         "LootPackageID": "LIST_FishingDefault_Consumables_Utility",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -25346,7 +25343,7 @@
       },
       "LIST_FishingHole_Consumables_Utility_01": {
         "LootPackageID": "LIST_FishingHole_Consumables_Utility",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -26589,7 +26586,7 @@
       },
       "LIST_Weapons_Mythic_Shotgun_02": {
         "LootPackageID": "LIST_Weapons_Mythic_Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -26612,14 +26609,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_UR.WID_HeatSnake_Drift_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Mythic_Shotgun.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Mythic_Shotgun.C0;Item:WID_HeatSnake_Drift_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Exotic_Shotgun_01": {
@@ -26682,14 +26679,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticPump/WID_Shotgun_Standard_Athena_X.WID_Shotgun_Standard_Athena_X",
+          "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_X.WID_HeatSnake_Drift_X",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Exotic_Shotgun.C0;Item:WID_Shotgun_Standard_X",
+        "Annotation": ";List:LIST_Weapons_Exotic_Shotgun.C0;Item:WID_HeatSnake_Drift_X",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Common_Handgun_01": {
@@ -26974,7 +26971,7 @@
       },
       "LIST_Weapons_Uncommon_SMG_01": {
         "LootPackageID": "LIST_Weapons_Uncommon_SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -26997,19 +26994,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_UC.WID_SMG_BoneRattler_Athena_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Uncommon_SMG.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Uncommon_SMG.C0;Item:WID_SMG_BoneRattler_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Rare_SMG_01": {
         "LootPackageID": "LIST_Weapons_Rare_SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -27032,19 +27029,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_R.WID_SMG_BoneRattler_Athena_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Rare_SMG.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Rare_SMG.C0;Item:WID_SMG_BoneRattler_R",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Epic_SMG_01": {
         "LootPackageID": "LIST_Weapons_Epic_SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -27067,19 +27064,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_VR.WID_SMG_BoneRattler_Athena_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Epic_SMG.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Epic_SMG.C0;Item:WID_SMG_BoneRattler_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Legendary_SMG_01": {
         "LootPackageID": "LIST_Weapons_Legendary_SMG",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -27102,14 +27099,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_SR.WID_SMG_BoneRattler_Athena_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Legendary_SMG.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Legendary_SMG.C0;Item:WID_SMG_BoneRattler_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Mythic_SMG_01": {
@@ -27172,14 +27169,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/ExoticVersion/WID_SunRose_DrumGun_HS_Athena_X.WID_SunRose_DrumGun_HS_Athena_X",
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_X.WID_SMG_BoneRattler_Athena_X",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Exotic_SMG.C0;Item:WID_SunRose_DrumGun_HS_X",
+        "Annotation": ";List:LIST_Weapons_Exotic_SMG.C0;Item:WID_SMG_BoneRattler_X",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Common_Assault_01": {
@@ -28608,7 +28605,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Vend_Item_Seasonal_2.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_Vend_Item_Seasonal_2.C0;Item:Consumable_WitchBroom_Durability_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Vend_Item_Seasonal_3_01": {
@@ -28648,7 +28645,7 @@
       },
       "LIST_Vend_Item_Seasonal_4_01": {
         "LootPackageID": "LIST_Vend_Item_Seasonal_4",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -28671,14 +28668,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/DuckSnacks/Gameplay/WID_DuckSnacks_VR.WID_DuckSnacks_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Vend_Item_Seasonal_4.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Vend_Item_Seasonal_4.C0;Item:Consumable_DuckSnacks_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Vend_Item_Seasonal_5_01": {
@@ -32217,7 +32214,7 @@
       },
       "PKG_LlamaSupply_5_02": {
         "LootPackageID": "PKG_LlamaSupply_5",
-        "Weight": 0.0,
+        "Weight": 0.65,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -32252,7 +32249,7 @@
       },
       "PKG_LlamaSupply_5_03": {
         "LootPackageID": "PKG_LlamaSupply_5",
-        "Weight": 0.0,
+        "Weight": 0.35,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -33825,41 +33822,6 @@
       },
       "PKG_Klombo_05": {
         "LootPackageID": "PKG_Klombo",
-        "Weight": 0.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Mythic_SMG",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_Klombo.C0;Call:LIST_Weapons_Mythic_SMG",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_Klombo_06": {
-        "LootPackageID": "PKG_Klombo",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -33986,111 +33948,6 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Weapons_Legendary_Shotgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_Shotgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_Race_04": {
-        "LootPackageID": "PKG_Race",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Legendary_SMG",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_SMG",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_Race_05": {
-        "LootPackageID": "PKG_Race",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Legendary_Assault",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_Assault",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_Race_06": {
-        "LootPackageID": "PKG_Race",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
         "LootPackageCall": "LIST_Weapons_Exotic_Shotgun",
         "ItemDefinition": {
           "AssetPathName": "",
@@ -34103,7 +33960,7 @@
         "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Exotic_Shotgun",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_Race_07": {
+      "PKG_Race_04": {
         "LootPackageID": "PKG_Race",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
@@ -34138,7 +33995,7 @@
         "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Exotic_SMG",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_Race_08": {
+      "PKG_Race_05": {
         "LootPackageID": "PKG_Race",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
@@ -34173,9 +34030,9 @@
         "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Exotic_Assault",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_Race_09": {
+      "PKG_Race_06": {
         "LootPackageID": "PKG_Race",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -34196,7 +34053,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Weapons_Legendary_Launcher",
+        "LootPackageCall": "LIST_Weapons_Legendary_Shotgun",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -34205,7 +34062,77 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_Launcher",
+        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_Shotgun",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Race_07": {
+        "LootPackageID": "PKG_Race",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Weapons_Legendary_SMG",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_SMG",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Race_08": {
+        "LootPackageID": "PKG_Race",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Weapons_Legendary_Assault",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Race.C0;Call:LIST_Weapons_Legendary_Assault",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_DrivingNebula_01": {
@@ -34301,111 +34228,6 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Weapons_Legendary_Shotgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_Shotgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_DrivingNebula_04": {
-        "LootPackageID": "PKG_DrivingNebula",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Legendary_SMG",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_SMG",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_DrivingNebula_05": {
-        "LootPackageID": "PKG_DrivingNebula",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Legendary_Assault",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_Assault",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_DrivingNebula_06": {
-        "LootPackageID": "PKG_DrivingNebula",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
         "LootPackageCall": "LIST_Weapons_Exotic_Shotgun",
         "ItemDefinition": {
           "AssetPathName": "",
@@ -34418,7 +34240,7 @@
         "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Exotic_Shotgun",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_DrivingNebula_07": {
+      "PKG_DrivingNebula_04": {
         "LootPackageID": "PKG_DrivingNebula",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
@@ -34453,7 +34275,7 @@
         "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Exotic_SMG",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_DrivingNebula_08": {
+      "PKG_DrivingNebula_05": {
         "LootPackageID": "PKG_DrivingNebula",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
@@ -34486,6 +34308,111 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
         "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Exotic_Assault",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_DrivingNebula_06": {
+        "LootPackageID": "PKG_DrivingNebula",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Weapons_Legendary_Shotgun",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_Shotgun",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_DrivingNebula_07": {
+        "LootPackageID": "PKG_DrivingNebula",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Weapons_Legendary_SMG",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_SMG",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_DrivingNebula_08": {
+        "LootPackageID": "PKG_DrivingNebula",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Weapons_Legendary_Assault",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_DrivingNebula.C0;Call:LIST_Weapons_Legendary_Assault",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_Boss_GateMouse_01": {
@@ -35225,7 +35152,7 @@
       },
       "PKG_Boss_ThawEpson_15": {
         "LootPackageID": "PKG_Boss_ThawEpson",
-        "Weight": 1.0,
+        "Weight": 0.5,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -35246,7 +35173,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Boss_ThawEpson_Consumable",
+        "LootPackageCall": "LIST_Boss_ThawEpson_Consumable_ChugJug",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -35260,7 +35187,7 @@
       },
       "PKG_Boss_ThawEpson_16": {
         "LootPackageID": "PKG_Boss_ThawEpson",
-        "Weight": 0.0,
+        "Weight": 0.5,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -35269,7 +35196,7 @@
           "X": 1,
           "Y": 1
         },
-        "LootPackageCategory": 2,
+        "LootPackageCategory": 1,
         "GameplayTags": [],
         "RequiredLootGroupTag": {
           "TagName": "None"
@@ -35281,7 +35208,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Boss_ThawEpson_PowerUp",
+        "LootPackageCall": "LIST_Boss_ThawEpson_Consumable_Shield",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -35386,7 +35313,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_Boss_Gold",
+        "LootPackageCall": "LIST_RareChest_Gold",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -35431,391 +35358,6 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
         "Annotation": ";Def:PKG_Boss_ThawEpson.C0;Call:LIST_Ammo_Random",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_01": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Rare_Shotgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Rare_Shotgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_02": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Rare_Handgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Rare_Handgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_03": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Rare_SMG",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Rare_SMG",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_04": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Rare_Assault",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Rare_Assault",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_05": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Epic_Shotgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Epic_Shotgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_06": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Epic_Handgun",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Epic_Handgun",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_07": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Epic_SMG",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Epic_SMG",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_08": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Weapons_Epic_Assault",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Weapons_Epic_Assault",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_09": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 1,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_BirthdayPresents_Consumable",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_BirthdayPresents_Consumable",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_10": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Ammo_Random",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_Ammo_Random",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_BirthdayPresents_11": {
-        "LootPackageID": "PKG_BirthdayPresents",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 3,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_BirthdayPresents_Sprite",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_BirthdayPresents.C0;Call:LIST_BirthdayPresents_Sprite",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_WaterVault_01": {
@@ -36658,6 +36200,601 @@
         "Annotation": ";Def:PKG_MazeVault.C0;Call:LIST_RareChest_Consumables_Utility_Seasonal",
         "DurabilityPercentageOverride": 1.0
       },
+      "PKG_Boss_ApronChow_01": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_ApronChow_Weapon",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Boss_ApronChow_Weapon",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_02": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_ApronChow_Consumable",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Boss_ApronChow_Consumable",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_03": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 0.2,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_ApronChow_PowerUp",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Boss_ApronChow_PowerUp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_04": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 0.8,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Empty",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Empty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_05": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 3,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_ApronChow_Sprite",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Boss_ApronChow_Sprite",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_06": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 4,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_Gold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Boss_Gold",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_ApronChow_07": {
+        "LootPackageID": "PKG_Boss_ApronChow",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 5,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Ammo_Random",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ApronChow.C0;Call:LIST_Ammo_Random",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_01": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_GuardHence_Weapon_1",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_GuardHence_Weapon_1",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_02": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Empty",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Empty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_03": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_GuardHence_Consumable",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_GuardHence_Consumable",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_04": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_GuardHence_PowerUp",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_GuardHence_PowerUp",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_05": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Empty",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Empty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_06": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.5,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 3,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_GuardHence_Sprite",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_GuardHence_Sprite",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_07": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.5,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 3,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Empty",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Empty",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_08": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 4,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_Gold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_Gold",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_09": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 5,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Ammo_Random",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Ammo_Random",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_Boss_GuardHence_10": {
+        "LootPackageID": "PKG_Boss_ GuardHence",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 6,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Boss_GuardHence_Weapon_2",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_Boss_ GuardHence.C0;Call:LIST_Boss_GuardHence_Weapon_2",
+        "DurabilityPercentageOverride": 1.0
+      },
       "PKG_BonusFood_1_01": {
         "LootPackageID": "PKG_BonusFood_1",
         "Weight": 1.0,
@@ -36833,9 +36970,9 @@
         "Annotation": ";Def:PKG_BonusFood_5.C0;Call:LIST_BonusFood_5",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_ForagedItem_TempEvent_01": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
+      "PKG_Candy_Bucket_01": {
+        "LootPackageID": "PKG_Candy_Bucket",
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -36856,7 +36993,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
+        "LootPackageCall": "LIST_Candy_Bucket_Exotic",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -36865,47 +37002,12 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
+        "Annotation": ";Def:PKG_Candy_Bucket.C0;Call:LIST_Candy_Bucket_Exotic",
         "DurabilityPercentageOverride": 1.0
       },
-      "PKG_ForagedItem_TempEvent_02": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_03": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
+      "PKG_Candy_Bucket_02": {
+        "LootPackageID": "PKG_Candy_Bucket",
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -36926,7 +37028,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
+        "LootPackageCall": "LIST_Candy_Bucket_Random",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -36935,462 +37037,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_04": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 1,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_05": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_06": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 2,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_07": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 3,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_08": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 3,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_09": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 4,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_10": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 4,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_11": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 5,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_12": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 5,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_13": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 6,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_14": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 6,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_15": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.75,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 7,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_ForagedItem_TempEvent",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_ForagedItem_TempEvent",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "PKG_ForagedItem_TempEvent_16": {
-        "LootPackageID": "PKG_ForagedItem_TempEvent",
-        "Weight": 0.25,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 7,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "LIST_Empty",
-        "ItemDefinition": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";Def:PKG_ForagedItem_TempEvent.C0;Call:LIST_Empty",
+        "Annotation": ";Def:PKG_Candy_Bucket.C0;Call:LIST_Candy_Bucket_Random",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_ShinyKey_01": {
@@ -37426,6 +37073,391 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
         "Annotation": ";Def:PKG_ShinyKey.C0;Call:LIST_ShinyKey",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_1_01": {
+        "LootPackageID": "PKG_SpookyShinies_1",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_SpookyShinies_1_Weapon",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_1.C0;Call:LIST_SpookyShinies_1_Weapon",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_1_02": {
+        "LootPackageID": "PKG_SpookyShinies_1",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Healing",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_1.C0;Call:LIST_Chest_Consumables_Healing",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_1_03": {
+        "LootPackageID": "PKG_SpookyShinies_1",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Shielding",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_1.C0;Call:LIST_Chest_Consumables_Shielding",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_1_04": {
+        "LootPackageID": "PKG_SpookyShinies_1",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Utility",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_1.C0;Call:LIST_Chest_Consumables_Utility",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_1_05": {
+        "LootPackageID": "PKG_SpookyShinies_1",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Gold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_1.C0;Call:LIST_Chest_Gold",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_2_01": {
+        "LootPackageID": "PKG_SpookyShinies_2",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_SpookyShinies_2_Weapon",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_2.C0;Call:LIST_SpookyShinies_2_Weapon",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_2_02": {
+        "LootPackageID": "PKG_SpookyShinies_2",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Healing",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_2.C0;Call:LIST_Chest_Consumables_Healing",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_2_03": {
+        "LootPackageID": "PKG_SpookyShinies_2",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Shielding",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_2.C0;Call:LIST_Chest_Consumables_Shielding",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_2_04": {
+        "LootPackageID": "PKG_SpookyShinies_2",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 1,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Consumables_Utility",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_2.C0;Call:LIST_Chest_Consumables_Utility",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_SpookyShinies_2_05": {
+        "LootPackageID": "PKG_SpookyShinies_2",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 2,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_Chest_Gold",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_SpookyShinies_2.C0;Call:LIST_Chest_Gold",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "PKG_TrickTreat_01": {
+        "LootPackageID": "PKG_TrickTreat",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "LIST_TrickTreat",
+        "ItemDefinition": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";Def:PKG_TrickTreat.C0;Call:LIST_TrickTreat",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Consumables_ZeroBuild_02": {
@@ -37683,10 +37715,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Fringeplank_Firework/Items/WIDs/WID_Firework_Gun.WID_Firework_Gun",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -37718,10 +37747,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -40025,6 +40051,41 @@
       },
       "LIST_FloorLoot_Consumables_Utility_Seasonal_05": {
         "LootPackageID": "LIST_FloorLoot_Consumables_Utility_Seasonal",
+        "Weight": 0.3,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability_VR.WID_Athena_WitchBroom_Durability_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:Consumable_WitchBroom_Durability_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_FloorLoot_Consumables_Utility_Seasonal_06": {
+        "LootPackageID": "LIST_FloorLoot_Consumables_Utility_Seasonal",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -40048,14 +40109,49 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/DuckSnacks/Gameplay/WID_DuckSnacks_VR.WID_DuckSnacks_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:Consumable_DuckSnacks_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_FloorLoot_Consumables_Utility_Seasonal_07": {
+        "LootPackageID": "LIST_FloorLoot_Consumables_Utility_Seasonal",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShowmanZap_GumboGroove/Gameplay/WID_ShowmanZap_GumboGroove.WID_ShowmanZap_GumboGroove",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_FloorLoot_Consumables_Utility_Seasonal.C0;Item:WID_ShowmanZap_GumboGroove",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_FloorLoot_Consumables_Hero_02": {
@@ -40830,7 +40926,7 @@
       },
       "LIST_Chest_Consumables_Utility_Seasonal_05": {
         "LootPackageID": "LIST_Chest_Consumables_Utility_Seasonal",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -40853,14 +40949,84 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability_VR.WID_Athena_WitchBroom_Durability_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:Consumable_WitchBroom_Durability_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Chest_Consumables_Utility_Seasonal_06": {
+        "LootPackageID": "LIST_Chest_Consumables_Utility_Seasonal",
+        "Weight": 0.1,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/DuckSnacks/Gameplay/WID_DuckSnacks_VR.WID_DuckSnacks_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:Consumable_DuckSnacks_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Chest_Consumables_Utility_Seasonal_07": {
+        "LootPackageID": "LIST_Chest_Consumables_Utility_Seasonal",
+        "Weight": 0.1,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShowmanZap_GumboGroove/Gameplay/WID_ShowmanZap_GumboGroove.WID_ShowmanZap_GumboGroove",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Chest_Consumables_Utility_Seasonal.C0;Item:WID_ShowmanZap_GumboGroove",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Chest_Consumables_Hero_02": {
@@ -41670,7 +41836,7 @@
       },
       "LIST_RareChest_Consumables_Utility_Seasonal_05": {
         "LootPackageID": "LIST_RareChest_Consumables_Utility_Seasonal",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -41693,14 +41859,84 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability_VR.WID_Athena_WitchBroom_Durability_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:Consumable_WitchBroom_Durability_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_RareChest_Consumables_Utility_Seasonal_06": {
+        "LootPackageID": "LIST_RareChest_Consumables_Utility_Seasonal",
+        "Weight": 0.5,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/DuckSnacks/Gameplay/WID_DuckSnacks_VR.WID_DuckSnacks_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:Consumable_DuckSnacks_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_RareChest_Consumables_Utility_Seasonal_07": {
+        "LootPackageID": "LIST_RareChest_Consumables_Utility_Seasonal",
+        "Weight": 0.5,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/ShowmanZap_GumboGroove/Gameplay/WID_ShowmanZap_GumboGroove.WID_ShowmanZap_GumboGroove",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_RareChest_Consumables_Utility_Seasonal.C0;Item:WID_ShowmanZap_GumboGroove",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_RareChest_Consumables_Hero_02": {
@@ -41985,7 +42221,7 @@
       },
       "LIST_FishingDefault_Consumables_Shielding_03": {
         "LootPackageID": "LIST_FishingDefault_Consumables_Shielding",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -42230,7 +42466,7 @@
       },
       "LIST_FishingHole_Consumables_Shielding_03": {
         "LootPackageID": "LIST_FishingHole_Consumables_Shielding",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -42405,7 +42641,7 @@
       },
       "LIST_FishingHole_Legendary_Consumable_03": {
         "LootPackageID": "LIST_FishingHole_Legendary_Consumable",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -43417,7 +43653,7 @@
       },
       "LIST_Weapons_Common_SMG_02": {
         "LootPackageID": "LIST_Weapons_Common_SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -43440,14 +43676,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_C.WID_SunRose_DrumGun_HS_Athena_C",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Common_SMG.C0;Item:WID_SunRose_DrumGun_HS_C",
+        "Annotation": ";List:LIST_Weapons_Common_SMG.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Common_SMG_03": {
@@ -43615,14 +43851,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_C.WID_Assault_CoreAR_Athena_C",
+          "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/FiendHunterDualies/WID_Athena_FiendHunter_Dualies_C.WID_Athena_FiendHunter_Dualies_C",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Common_Assault.C0;Item:WID_Assault_CoreAR_C",
+        "Annotation": ";List:LIST_Weapons_Common_Assault.C0;Item:WID_FiendHunter_Dualies_C",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Common_Assault_03": {
@@ -44219,7 +44455,7 @@
       },
       "LIST_Weapons_Uncommon_SMG_02": {
         "LootPackageID": "LIST_Weapons_Uncommon_SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -44242,14 +44478,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UC.WID_SunRose_DrumGun_HS_Athena_UC",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Uncommon_SMG.C0;Item:WID_SunRose_DrumGun_HS_UC",
+        "Annotation": ";List:LIST_Weapons_Uncommon_SMG.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Uncommon_SMG_03": {
@@ -44417,19 +44653,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_UC.WID_Assault_CoreAR_Athena_UC",
+          "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/FiendHunterDualies/WID_Athena_FiendHunter_Dualies_UC.WID_Athena_FiendHunter_Dualies_UC",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Uncommon_Assault.C0;Item:WID_Assault_CoreAR_UC",
+        "Annotation": ";List:LIST_Weapons_Uncommon_Assault.C0;Item:WID_FiendHunter_Dualies_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Uncommon_Assault_03": {
         "LootPackageID": "LIST_Weapons_Uncommon_Assault",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -44452,14 +44688,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Heavy_Athena_UC_T03.WID_Assault_Heavy_Athena_UC_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Uncommon_Assault.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Uncommon_Assault.C0;Item:WID_Assault_Heavy_UC_T03",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Uncommon_Assault_04": {
@@ -44779,7 +45015,7 @@
       },
       "LIST_Weapons_Rare_Shotgun_03": {
         "LootPackageID": "LIST_Weapons_Rare_Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -44802,14 +45038,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_R.WID_VampireStake_Shotgun_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Rare_Shotgun.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Rare_Shotgun.C0;Item:WID_VampireStake_Shotgun_R",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Rare_Shotgun_04": {
@@ -44849,7 +45085,7 @@
       },
       "LIST_Weapons_Rare_Shotgun_05": {
         "LootPackageID": "LIST_Weapons_Rare_Shotgun",
-        "Weight": 1.25,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45021,7 +45257,7 @@
       },
       "LIST_Weapons_Rare_SMG_02": {
         "LootPackageID": "LIST_Weapons_Rare_SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45044,14 +45280,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_R.WID_SunRose_DrumGun_HS_Athena_R",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Rare_SMG.C0;Item:WID_SunRose_DrumGun_HS_R",
+        "Annotation": ";List:LIST_Weapons_Rare_SMG.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Rare_SMG_03": {
@@ -45219,19 +45455,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_R.WID_Assault_CoreAR_Athena_R",
+          "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/FiendHunterDualies/WID_Athena_FiendHunter_Dualies_R.WID_Athena_FiendHunter_Dualies_R",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Rare_Assault.C0;Item:WID_Assault_CoreAR_R",
+        "Annotation": ";List:LIST_Weapons_Rare_Assault.C0;Item:WID_FiendHunter_Dualies_R",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Rare_Assault_03": {
         "LootPackageID": "LIST_Weapons_Rare_Assault",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45254,14 +45490,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Heavy_Athena_R_T03.WID_Assault_Heavy_Athena_R_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Rare_Assault.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Rare_Assault.C0;Item:WID_Assault_Heavy_R_T03",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Rare_Assault_04": {
@@ -45581,7 +45817,7 @@
       },
       "LIST_Weapons_Epic_Shotgun_03": {
         "LootPackageID": "LIST_Weapons_Epic_Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45604,14 +45840,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_VR.WID_VampireStake_Shotgun_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Epic_Shotgun.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Epic_Shotgun.C0;Item:WID_VampireStake_Shotgun_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Epic_Shotgun_04": {
@@ -45823,7 +46059,7 @@
       },
       "LIST_Weapons_Epic_SMG_02": {
         "LootPackageID": "LIST_Weapons_Epic_SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -45846,14 +46082,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_VR.WID_SunRose_DrumGun_HS_Athena_VR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Epic_SMG.C0;Item:WID_SunRose_DrumGun_HS_VR",
+        "Annotation": ";List:LIST_Weapons_Epic_SMG.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Epic_SMG_03": {
@@ -46021,19 +46257,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_VR.WID_Assault_CoreAR_Athena_VR",
+          "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/FiendHunterDualies/WID_Athena_FiendHunter_Dualies_VR.WID_Athena_FiendHunter_Dualies_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Epic_Assault.C0;Item:WID_Assault_CoreAR_VR",
+        "Annotation": ";List:LIST_Weapons_Epic_Assault.C0;Item:WID_FiendHunter_Dualies_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Epic_Assault_03": {
         "LootPackageID": "LIST_Weapons_Epic_Assault",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -46056,14 +46292,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Heavy_Athena_VR_Ore_T03.WID_Assault_Heavy_Athena_VR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Epic_Assault.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Epic_Assault.C0;Item:WID_Assault_Heavy_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Epic_Assault_04": {
@@ -46383,7 +46619,7 @@
       },
       "LIST_Weapons_Legendary_Shotgun_03": {
         "LootPackageID": "LIST_Weapons_Legendary_Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -46406,14 +46642,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Legendary_Shotgun.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Legendary_Shotgun.C0;Item:WID_VampireStake_Shotgun_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Legendary_Shotgun_04": {
@@ -46625,7 +46861,7 @@
       },
       "LIST_Weapons_Legendary_SMG_02": {
         "LootPackageID": "LIST_Weapons_Legendary_SMG",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -46648,14 +46884,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_SR.WID_SunRose_DrumGun_HS_Athena_SR",
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Legendary_SMG.C0;Item:WID_SunRose_DrumGun_HS_SR",
+        "Annotation": ";List:LIST_Weapons_Legendary_SMG.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Legendary_SMG_03": {
@@ -46823,19 +47059,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_SR.WID_Assault_CoreAR_Athena_SR",
+          "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/FiendHunterDualies/WID_Athena_FiendHunter_Dualies_SR.WID_Athena_FiendHunter_Dualies_SR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Legendary_Assault.C0;Item:WID_Assault_CoreAR_SR",
+        "Annotation": ";List:LIST_Weapons_Legendary_Assault.C0;Item:WID_FiendHunter_Dualies_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Legendary_Assault_03": {
         "LootPackageID": "LIST_Weapons_Legendary_Assault",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -46858,14 +47094,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_Heavy_Athena_SR_Ore_T03.WID_Assault_Heavy_Athena_SR_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Legendary_Assault.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Legendary_Assault.C0;Item:WID_Assault_Heavy_SR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Legendary_Assault_04": {
@@ -47185,7 +47421,7 @@
       },
       "LIST_Weapons_Mythic_Shotgun_03": {
         "LootPackageID": "LIST_Weapons_Mythic_Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -47208,14 +47444,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_UR.WID_VampireStake_Shotgun_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Mythic_Shotgun.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Weapons_Mythic_Shotgun.C0;Item:WID_VampireStake_Shotgun_UR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Mythic_Shotgun_04": {
@@ -48013,14 +48249,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/HeatSnake_Drift/Gameplay/WID_HeatSnake_Drift_X.WID_HeatSnake_Drift_X",
+          "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticPump/WID_Shotgun_Standard_Athena_X.WID_Shotgun_Standard_Athena_X",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Weapons_Exotic_Shotgun.C0;Item:WID_HeatSnake_Drift_X",
+        "Annotation": ";List:LIST_Weapons_Exotic_Shotgun.C0;Item:WID_Shotgun_Standard_X",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Weapons_Exotic_Shotgun_04": {
@@ -49063,14 +49299,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+          "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability_VR.WID_Athena_WitchBroom_Durability_VR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Epic.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_Epic.C0;Item:Consumable_WitchBroom_Durability_VR",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Epic_03": {
@@ -49448,14 +49684,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula",
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Boss_InterOrbit_Consumable.C0;Item:Consumable_DrivingNebula",
+        "Annotation": ";List:LIST_Boss_InterOrbit_Consumable.C0;Item:Consumable_AgileChug",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Boss_InterOrbit_PowerUp_01": {
@@ -49763,14 +49999,14 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/FlipperGameplay/Items/Weapons/CoreAR/WID_Assault_CoreAR_Athena_UC.WID_Assault_CoreAR_Athena_UC",
+          "AssetPathName": "/Game/Athena/Items/Weapons/WID_Assault_AutoHigh_Athena_UC_Ore_T03.WID_Assault_AutoHigh_Athena_UC_Ore_T03",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_Henchmen_Weapon.C0;Item:WID_Assault_CoreAR_UC",
+        "Annotation": ";List:LIST_Henchmen_Weapon.C0;Item:WID_Assault_AutoHigh_UC",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Henchmen_Consumable_01": {
@@ -50753,7 +50989,7 @@
         "Annotation": ";List:LIST_Race_PowerUp.C0;Item:Consumable_CosmicThunder_SecondChance",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_Race_Sprite_00": {
+      "LIST_Race_Sprite_01": {
         "LootPackageID": "LIST_Race_Sprite",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
@@ -51034,7 +51270,7 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Boss_ThawEpson_Consumable_01": {
-        "LootPackageID": "LIST_Boss_ThawEpson_Consumable",
+        "LootPackageID": "LIST_Boss_ThawEpson_Consumable_ChugJug",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51069,15 +51305,15 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_Boss_ThawEpson_PowerUp_01": {
-        "LootPackageID": "LIST_Boss_ThawEpson_PowerUp",
-        "Weight": 0.0,
+        "LootPackageID": "LIST_Boss_ThawEpson_Consumable_Shield",
+        "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
         ],
         "CountRange": {
-          "X": 1,
-          "Y": 1
+          "X": 2,
+          "Y": 2
         },
         "LootPackageCategory": 0,
         "GameplayTags": [],
@@ -51092,10 +51328,7 @@
           "AutoDescription": ""
         },
         "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
-          "SubPathString": ""
-        },
+        "ItemDefinition": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
@@ -51138,8 +51371,8 @@
         "Annotation": ";List:LIST_Boss_ThawEpson_Sprite.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_BirthdayPresents_Consumable_01": {
-        "LootPackageID": "LIST_BirthdayPresents_Consumable",
+      "LIST_Boss_ApronChow_Weapon_01": {
+        "LootPackageID": "LIST_Boss_ApronChow_Weapon",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51163,18 +51396,53 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/ShowmanZap_GumboGroove/Gameplay/WID_ShowmanZap_GumboGroove.WID_ShowmanZap_GumboGroove",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_BirthdayPresents_Consumable.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Boss_ApronChow_Weapon.C0;Item:WID_ShowmanZap_GumboGroove",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_BirthdayPresents_Consumable_02": {
-        "LootPackageID": "LIST_BirthdayPresents_Consumable",
+      "LIST_Boss_ApronChow_Consumable_01": {
+        "LootPackageID": "LIST_Boss_ApronChow_Consumable",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 6,
+          "Y": 6
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_ApronChow_Consumable.C0;Item:Consumable_CandyCorn_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_ApronChow_PowerUp_01": {
+        "LootPackageID": "LIST_Boss_ApronChow_PowerUp",
         "Weight": 1.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51198,53 +51466,18 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "AssetPathName": "/CosmicThunderSecondChance/Gameplay/AID_CosmicThunder_SecondChance.AID_CosmicThunder_SecondChance",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_BirthdayPresents_Consumable.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Boss_ApronChow_PowerUp.C0;Item:Consumable_CosmicThunder_SecondChance",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_BirthdayPresents_Consumable_03": {
-        "LootPackageID": "LIST_BirthdayPresents_Consumable",
-        "Weight": 1.0,
-        "NamedWeightMult": "TRUE",
-        "PotentialNamedWeights": [
-          "TRUE"
-        ],
-        "CountRange": {
-          "X": 1,
-          "Y": 1
-        },
-        "LootPackageCategory": 0,
-        "GameplayTags": [],
-        "RequiredLootGroupTag": {
-          "TagName": "None"
-        },
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "LootPackageCall": "",
-        "ItemDefinition": {
-          "AssetPathName": "/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot",
-          "SubPathString": ""
-        },
-        "PersistentLevel": "",
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_BirthdayPresents_Consumable.C0;Item:Consumable_ShieldPot",
-        "DurabilityPercentageOverride": 1.0
-      },
-      "LIST_BirthdayPresents_Sprite_01": {
-        "LootPackageID": "LIST_BirthdayPresents_Sprite",
+      "LIST_Boss_ApronChow_Sprite_01": {
+        "LootPackageID": "LIST_Boss_ApronChow_Sprite",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51275,12 +51508,222 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_BirthdayPresents_Sprite.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_Boss_ApronChow_Sprite.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_Weapon_1_01": {
+        "LootPackageID": "LIST_Boss_GuardHence_Weapon_1",
+        "Weight": 0.33,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_UR.WID_VampireStake_Shotgun_UR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_Weapon_1.C0;Item:WID_VampireStake_Shotgun_UR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_Weapon_1_02": {
+        "LootPackageID": "LIST_Boss_GuardHence_Weapon_1",
+        "Weight": 0.67,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/VampireStakeGameplay/Items/StakeLauncher/WID_VampireStake_Shotgun_SR.WID_VampireStake_Shotgun_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_Weapon_1.C0;Item:WID_VampireStake_Shotgun_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_Consumable_01": {
+        "LootPackageID": "LIST_Boss_GuardHence_Consumable",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug.WID_AgileChug",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_Consumable.C0;Item:Consumable_AgileChug",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_PowerUp_01": {
+        "LootPackageID": "LIST_Boss_GuardHence_PowerUp",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_PowerUp.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_Sprite_01": {
+        "LootPackageID": "LIST_Boss_GuardHence_Sprite",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_Sprite.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Boss_GuardHence_Weapon_2_00": {
+        "LootPackageID": "LIST_Boss_GuardHence_Weapon_2",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Boss_GuardHence_Weapon_2.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_BonusFood_1_01": {
         "LootPackageID": "LIST_BonusFood_1",
-        "Weight": 1.0,
+        "Weight": 0.4,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51315,7 +51758,77 @@
       },
       "LIST_BonusFood_1_02": {
         "LootPackageID": "LIST_BonusFood_1",
-        "Weight": 1.0,
+        "Weight": 0.4,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/WID_Athena_Cabbage.WID_Athena_Cabbage",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_1.C0;Item:Consumable_Cabbage",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_1_03": {
+        "LootPackageID": "LIST_BonusFood_1",
+        "Weight": 0.2,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/WID_Athena_CandyCorn.WID_Athena_CandyCorn",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_1.C0;Item:Consumable_CandyCorn",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_1_04": {
+        "LootPackageID": "LIST_BonusFood_1",
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51350,7 +51863,7 @@
       },
       "LIST_BonusFood_2_01": {
         "LootPackageID": "LIST_BonusFood_2",
-        "Weight": 1.0,
+        "Weight": 0.3,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51385,7 +51898,7 @@
       },
       "LIST_BonusFood_2_02": {
         "LootPackageID": "LIST_BonusFood_2",
-        "Weight": 1.0,
+        "Weight": 0.3,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51418,9 +51931,79 @@
         "Annotation": ";List:LIST_BonusFood_2.C0;Item:Consumable_Coconut _2",
         "DurabilityPercentageOverride": 1.0
       },
+      "LIST_BonusFood_2_03": {
+        "LootPackageID": "LIST_BonusFood_2",
+        "Weight": 0.1,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/DentureSay_DentRemover/Gameplay/WID_DentureSay_DentRemover.WID_DentureSay_DentRemover",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_2.C0;Item:Consumable_DentureSay_DentRemover",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_2_04": {
+        "LootPackageID": "LIST_BonusFood_2",
+        "Weight": 0.3,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/WID_Athena_CandyCorn.WID_Athena_CandyCorn",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_2.C0;Item:Consumable_CandyCorn",
+        "DurabilityPercentageOverride": 1.0
+      },
       "LIST_BonusFood_3_01": {
         "LootPackageID": "LIST_BonusFood_3",
-        "Weight": 1.0,
+        "Weight": 0.4,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51455,7 +52038,7 @@
       },
       "LIST_BonusFood_3_02": {
         "LootPackageID": "LIST_BonusFood_3",
-        "Weight": 1.0,
+        "Weight": 0.4,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51488,9 +52071,79 @@
         "Annotation": ";List:LIST_BonusFood_3.C0;Item:Consumable_Pepper_UC",
         "DurabilityPercentageOverride": 1.0
       },
+      "LIST_BonusFood_3_03": {
+        "LootPackageID": "LIST_BonusFood_3",
+        "Weight": 0.2,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/DentureSay_DentRemover/Gameplay/WID_DentureSay_DentRemover.WID_DentureSay_DentRemover",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_3.C0;Item:Consumable_DentureSay_DentRemover",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_3_04": {
+        "LootPackageID": "LIST_BonusFood_3",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_3.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
       "LIST_BonusFood_4_01": {
         "LootPackageID": "LIST_BonusFood_4",
-        "Weight": 1.0,
+        "Weight": 0.75,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51524,6 +52177,76 @@
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_BonusFood_4_02": {
+        "LootPackageID": "LIST_BonusFood_4",
+        "Weight": 0.25,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_4.C0;Item:Consumable_CandyCorn_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_4_03": {
+        "LootPackageID": "LIST_BonusFood_4",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PaprikaConsumables/Gameplay/MedRefresh/WID_Paprika_MedBox.WID_Paprika_MedBox",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_4.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_4_04": {
         "LootPackageID": "LIST_BonusFood_4",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
@@ -51560,7 +52283,7 @@
       },
       "LIST_BonusFood_5_01": {
         "LootPackageID": "LIST_BonusFood_5",
-        "Weight": 1.0,
+        "Weight": 0.25,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE"
@@ -51595,6 +52318,41 @@
       },
       "LIST_BonusFood_5_02": {
         "LootPackageID": "LIST_BonusFood_5",
+        "Weight": 0.75,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_BonusFood_5.C0;Item:Consumable_CandyCorn_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_BonusFood_5_03": {
+        "LootPackageID": "LIST_BonusFood_5",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51628,8 +52386,8 @@
         "Annotation": ";List:LIST_BonusFood_5.C0;Item:PLACEHOLDER",
         "DurabilityPercentageOverride": 1.0
       },
-      "LIST_ForagedItem_TempEvent_01": {
-        "LootPackageID": "LIST_ForagedItem_TempEvent",
+      "LIST_BonusFood_5_04": {
+        "LootPackageID": "LIST_BonusFood_5",
         "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
@@ -51660,7 +52418,182 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
-        "Annotation": ";List:LIST_ForagedItem_TempEvent.C0;Item:PLACEHOLDER",
+        "Annotation": ";List:LIST_BonusFood_5.C0;Item:PLACEHOLDER",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Candy_Bucket_Exotic_01": {
+        "LootPackageID": "LIST_Candy_Bucket_Exotic",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Candy_Bucket_Exotic.C0;Item:Consumable_CandyCorn_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Candy_Bucket_Random_01": {
+        "LootPackageID": "LIST_Candy_Bucket_Random",
+        "Weight": 0.3,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/WID_Athena_CandyCorn.WID_Athena_CandyCorn",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Candy_Bucket_Random.C0;Item:Consumable_CandyCorn",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Candy_Bucket_Random_02": {
+        "LootPackageID": "LIST_Candy_Bucket_Random",
+        "Weight": 0.3,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/JellyBean/WID_Athena_JellyBean.WID_Athena_JellyBean",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Candy_Bucket_Random.C0;Item:Consumable_JellyBean",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Candy_Bucket_Random_03": {
+        "LootPackageID": "LIST_Candy_Bucket_Random",
+        "Weight": 0.3,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/WID_Athena_HopDrop.WID_Athena_HopDrop",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Candy_Bucket_Random.C0;Item:Consumable_HopDrop",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_Candy_Bucket_Random_04": {
+        "LootPackageID": "LIST_Candy_Bucket_Random",
+        "Weight": 0.1,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_Candy_Bucket_Random.C0;Item:Consumable_CandyCorn_X",
         "DurabilityPercentageOverride": 1.0
       },
       "LIST_ShinyKey_01": {
@@ -51696,6 +52629,391 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": false,
         "Annotation": ";List:LIST_ShinyKey.C0;Item:Consumable_DentureSay_M",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_1_Weapon_01": {
+        "LootPackageID": "LIST_SpookyShinies_1_Weapon",
+        "Weight": 0.33,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/Seasonal/WID_Launcher_Pumpkin_Athena_SR_Ore_T03.WID_Launcher_Pumpkin_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_1_Weapon.C0;Item:WID_Launcher_Pumpkin_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_1_Weapon_02": {
+        "LootPackageID": "LIST_SpookyShinies_1_Weapon",
+        "Weight": 0.67,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticLauncher/WID_Launcher_Pumpkin_Athena_X.WID_Launcher_Pumpkin_Athena_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_1_Weapon.C0;Item:WID_Launcher_Pumpkin_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_2_Weapon_01": {
+        "LootPackageID": "LIST_SpookyShinies_2_Weapon",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Weapons/Seasonal/WID_Launcher_Pumpkin_Athena_SR_Ore_T03.WID_Launcher_Pumpkin_Athena_SR_Ore_T03",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_2_Weapon.C0;Item:WID_Launcher_Pumpkin_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_2_Weapon_02": {
+        "LootPackageID": "LIST_SpookyShinies_2_Weapon",
+        "Weight": 0.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderWeapons/Gameplay/ExoticLauncher/WID_Launcher_Pumpkin_Athena_X.WID_Launcher_Pumpkin_Athena_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_2_Weapon.C0;Item:WID_Launcher_Pumpkin_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_2_Weapon_03": {
+        "LootPackageID": "LIST_SpookyShinies_2_Weapon",
+        "Weight": 0.33,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_SR.WID_SMG_BoneRattler_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_2_Weapon.C0;Item:WID_SMG_BoneRattler_SR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_SpookyShinies_2_Weapon_04": {
+        "LootPackageID": "LIST_SpookyShinies_2_Weapon",
+        "Weight": 0.67,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/BoneRattlerGameplay/Items/WID_SMG_BoneRattler_Athena_X.WID_SMG_BoneRattler_Athena_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_SpookyShinies_2_Weapon.C0;Item:WID_SMG_BoneRattler_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_TrickTreat_01": {
+        "LootPackageID": "LIST_TrickTreat",
+        "Weight": 0.5,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/WID_Athena_CandyCorn.WID_Athena_CandyCorn",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_TrickTreat.C0;Item:Consumable_CandyCorn",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_TrickTreat_02": {
+        "LootPackageID": "LIST_TrickTreat",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/JellyBean/WID_Athena_JellyBean.WID_Athena_JellyBean",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_TrickTreat.C0;Item:Consumable_JellyBean",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_TrickTreat_03": {
+        "LootPackageID": "LIST_TrickTreat",
+        "Weight": 1.0,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 5,
+          "Y": 5
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/WID_Athena_HopDrop.WID_Athena_HopDrop",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_TrickTreat.C0;Item:Consumable_HopDrop",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_TrickTreat_04": {
+        "LootPackageID": "LIST_TrickTreat",
+        "Weight": 0.25,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_TrickTreat.C0;Item:Consumable_CandyCorn_X",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "LIST_TrickTreat_05": {
+        "LootPackageID": "LIST_TrickTreat",
+        "Weight": 0.05,
+        "NamedWeightMult": "TRUE",
+        "PotentialNamedWeights": [
+          "TRUE"
+        ],
+        "CountRange": {
+          "X": 2,
+          "Y": 2
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/CosmicThunderConsumables/Gameplay/ExoticCandyCorn/WID_Athena_CandyCorn_X.WID_Athena_CandyCorn_X",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": false,
+        "Annotation": ";List:LIST_TrickTreat.C0;Item:Consumable_CandyCorn_X",
         "DurabilityPercentageOverride": 1.0
       },
       "PKG_FishingHole_Upgrade_Consumable_05": {

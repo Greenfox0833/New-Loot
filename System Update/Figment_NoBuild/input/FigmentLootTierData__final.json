@@ -17298,8 +17298,8 @@
         "LootPackage": "WorldPKG.AthenaWestern.Shell",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 2.0,
-          "Y": 2.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -17316,7 +17316,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -17366,8 +17366,8 @@
         "LootPackage": "WorldPKG.AthenaWestern.Light",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 2.0,
-          "Y": 2.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -17384,7 +17384,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -17434,8 +17434,8 @@
         "LootPackage": "WorldPKG.AthenaWestern.Medium",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 2.0,
-          "Y": 2.0
+          "X": 1.0,
+          "Y": 1.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -17452,7 +17452,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          1,
+          0,
           0,
           0,
           0,
@@ -17502,6 +17502,74 @@
         "LootPackage": "WorldPKG.AthenaWestern.Heavy",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaWestern;LPKG:WorldPKG.AthenaWestern.Heavy"
+      },
+      "Loot_AthenaWestern_05": {
+        "TierGroup": "Loot_AthenaWestern",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaLoot.Consumable",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
           "X": 2.0,
           "Y": 2.0
         },
@@ -17554,79 +17622,11 @@
         },
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
-        "Annotation": "TG:Loot_AthenaWestern;LPKG:WorldPKG.AthenaWestern.Heavy"
-      },
-      "Loot_AthenaWestern_05": {
-        "TierGroup": "Loot_AthenaWestern",
-        "Weight": 1.0,
-        "QuotaLevel": "ELootQuotaLevel::Unlimited",
-        "LootTier": 0,
-        "MinWorldLevel": -1,
-        "MaxWorldLevel": -1,
-        "StreakBreakerCurrency": "",
-        "StreakBreakerPointsMin": 0,
-        "StreakBreakerPointsMax": 0,
-        "StreakBreakerPointsSpend": 0,
-        "LootPackage": "WorldPKG.AthenaLoot.Consumable",
-        "LootPreviewPackage": "None",
-        "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.0
-        },
-        "LootPackageCategoryWeightArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMinArray": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "LootPackageCategoryMaxArray": [
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1,
-          -1
-        ],
-        "GameplayTags": [],
-        "RequiredTagQuery": {
-          "TokenStreamVersion": 0,
-          "TagDictionary": [],
-          "QueryTokenStream": [],
-          "UserDescription": "",
-          "AutoDescription": ""
-        },
-        "bAllowBonusLootDrops": true,
-        "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_AthenaWestern;LPKG:WorldPKG.AthenaLoot.Consumable"
       },
       "Loot_AthenaWestern_06": {
         "TierGroup": "Loot_AthenaWestern",
-        "Weight": 0.3,
+        "Weight": 0.0,
         "QuotaLevel": "ELootQuotaLevel::Unlimited",
         "LootTier": 0,
         "MinWorldLevel": -1,
@@ -17638,8 +17638,8 @@
         "LootPackage": "WorldPKG.AthenaLoot.Ammo",
         "LootPreviewPackage": "None",
         "NumLootPackageDropsRange": {
-          "X": 1.0,
-          "Y": 1.6
+          "X": 2.0,
+          "Y": 2.0
         },
         "LootPackageCategoryWeightArray": [
           1,
@@ -17656,7 +17656,7 @@
         ],
         "LootPackageCategoryMinArray": [
           1,
-          0,
+          1,
           0,
           0,
           0,
@@ -17759,6 +17759,346 @@
         "bAllowBonusLootDrops": true,
         "bAvoidDuplicateLootDrops": false,
         "Annotation": "TG:Loot_AthenaWestern;LPKG:WorldPKG.AthenaLoot.Trap"
+      },
+      "Loot_AthenaTreasure_Western_01": {
+        "TierGroup": "Loot_AthenaTreasure_Western",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaWestern.Shell",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure_Western;LPKG:WorldPKG.AthenaWestern.Shell"
+      },
+      "Loot_AthenaTreasure_Western_02": {
+        "TierGroup": "Loot_AthenaTreasure_Western",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaWestern.Light",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure_Western;LPKG:WorldPKG.AthenaWestern.Light"
+      },
+      "Loot_AthenaTreasure_Western_03": {
+        "TierGroup": "Loot_AthenaTreasure_Western",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaWestern.Medium",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure_Western;LPKG:WorldPKG.AthenaWestern.Medium"
+      },
+      "Loot_AthenaTreasure_Western_04": {
+        "TierGroup": "Loot_AthenaTreasure_Western",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaWestern.Heavy",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure_Western;LPKG:WorldPKG.AthenaWestern.Heavy"
+      },
+      "Loot_AthenaTreasure_Western_05": {
+        "TierGroup": "Loot_AthenaTreasure_Western",
+        "Weight": 1.0,
+        "QuotaLevel": "ELootQuotaLevel::Unlimited",
+        "LootTier": 0,
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "StreakBreakerCurrency": "",
+        "StreakBreakerPointsMin": 0,
+        "StreakBreakerPointsMax": 0,
+        "StreakBreakerPointsSpend": 0,
+        "LootPackage": "WorldPKG.AthenaLoot.Weapon.Minigun",
+        "LootPreviewPackage": "None",
+        "NumLootPackageDropsRange": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "LootPackageCategoryWeightArray": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMinArray": [
+          1,
+          5,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "LootPackageCategoryMaxArray": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "GameplayTags": [],
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "bAllowBonusLootDrops": true,
+        "bAvoidDuplicateLootDrops": false,
+        "Annotation": "TG:Loot_AthenaTreasure_Western;LPKG:WorldPKG.AthenaLoot.Weapon.Minigun"
       },
       "Loot_AthenaWadStash_Small_01": {
         "TierGroup": "Loot_AthenaWadStash_Small",

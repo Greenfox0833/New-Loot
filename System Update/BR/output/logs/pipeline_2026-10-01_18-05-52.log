@@ -4,3 +4,279 @@
 2026-10-01 18:05:52 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR
 2026-10-01 18:05:53 | INFO | flags: hotfix=True prewarm=True image=True workers=8
 2026-10-01 18:05:53 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-10-01 18:05:56 | INFO | hotfix lp stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootPackages_Client.uasset : replaced=142, added=662
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootPackages_Client
+[915] RowUpdate PKG_Chest_Weapon_Shotgun_16.Weight=0.025000 -> OK
+[916] RowUpdate PKG_Chest_Weapon_Handgun_16.Weight=0.025000 -> OK
+[917] RowUpdate PKG_Chest_Weapon_SMG_16.Weight=0.025000 -> OK
+[918] RowUpdate PKG_Chest_Weapon_Assault_16.Weight=0.025000 -> OK
+[919] RowUpdate PKG_Chest_Weapon_Sniper_16.Weight=0.025000 -> OK
+[920] RowUpdate PKG_RareChest_Weapon_Shotgun_14.Weight=0.060000 -> OK
+[921] RowUpdate PKG_RareChest_Weapon_Handgun_14.Weight=0.060000 -> OK
+[922] RowUpdate PKG_RareChest_Weapon_SMG_14.Weight=0.060000 -> OK
+[923] RowUpdate PKG_RareChest_Weapon_Assault_14.Weight=0.060000 -> OK
+[924] RowUpdate PKG_RareChest_Weapon_Sniper_14.Weight=0.060000 -> OK
+[925] RowUpdate PKG_RareAmmoBox_09.Weight=0.000000 -> OK
+[935] RowUpdate PKG_Chest_Weapon_Assault_08.Weight=0.0000 -> OK
+[936] RowUpdate PKG_Chest_Weapon_Sniper_08.Weight=0.00000 -> OK
+[937] RowUpdate PKG_RareChest_Weapon_Handgun_06.Weight=0.00000 -> OK
+[938] RowUpdate PKG_RareChest_Weapon_SMG_06.Weight=0.00000 -> OK
+[939] RowUpdate PKG_RareChest_Weapon_Assault_06.Weight=0.00000 -> OK
+[940] RowUpdate PKG_RareChest_Weapon_Sniper_06.Weight=0.00000 -> OK
+[941] RowUpdate PKG_Chest_Weapon_Shotgun_07.Weight=0.120000 -> OK
+[942] RowUpdate PKG_Chest_Weapon_Handgun_07.Weight=0.120000 -> OK
+[943] RowUpdate PKG_Chest_Weapon_SMG_07.Weight=0.120000 -> OK
+[944] RowUpdate PKG_Chest_Weapon_Assault_07.Weight=0.120000 -> OK
+[945] RowUpdate PKG_Chest_Weapon_Sniper_07.Weight=0.120000 -> OK
+[946] RowUpdate PKG_Chest_Weapon_Launcher_07.Weight=0.120000 -> OK
+[947] RowUpdate PKG_RareChest_Weapon_Shotgun_05.Weight=0.140000 -> OK
+[948] RowUpdate PKG_RareChest_Weapon_Handgun_05.Weight=0.140000 -> OK
+[949] RowUpdate PKG_RareChest_Weapon_SMG_05.Weight=0.140000 -> OK
+[950] RowUpdate PKG_RareChest_Weapon_Assault_05.Weight=0.140000 -> OK
+[951] RowUpdate PKG_RareChest_Weapon_Sniper_05.Weight=0.140000 -> OK
+[952] RowUpdate PKG_RareChest_Weapon_Launcher_05.Weight=0.140000 -> OK
+[1320] RowUpdate LIST_Gold_Small_01.CountRange=(X=150,Y=150) -> OK
+[1321] RowUpdate LIST_Gold_Small_02.CountRange=(X=185,Y=185) -> OK
+[1322] RowUpdate LIST_Gold_Small_03.CountRange=(X=260,Y=260) -> OK
+[1323] RowUpdate LIST_Gold_Small_04.CountRange=(X=400,Y=400) -> OK
+[1324] RowUpdate LIST_Gold_Small_05.CountRange=(X=550,Y=550) -> OK
+[1325] RowUpdate LIST_Gold_Medium_01.CountRange=(X=375,Y=375) -> OK
+[1326] RowUpdate LIST_Gold_Large_01.CountRange=(X=450,Y=450) -> OK
+[1327] RowUpdate LIST_Gold_ExtraLarge_01.CountRange=(X=750,Y=750) -> OK
+[1328] RowUpdate LIST_Gold_ExtraLarge_02.CountRange=(X=900,Y=900) -> OK
+[1329] RowUpdate LIST_Gold_ExtraLarge_03.CountRange=(X=1125,Y=1125) -> OK
+[1330] RowUpdate LIST_Gold_ExtraLarge_04.CountRange=(X=1300,Y=1300) -> OK
+[1331] RowUpdate LIST_Gold_ExtraLarge_05.CountRange=(X=2250,Y=2250) -> OK
+[1332] RowUpdate LIST_Gold_Register_01.CountRange=(X=150,Y=150) -> OK
+[1333] RowUpdate LIST_Gold_Register_02.CountRange=(X=185,Y=185) -> OK
+[1334] RowUpdate LIST_Gold_Register_03.CountRange=(X=260,Y=260) -> OK
+[1335] RowUpdate LIST_Gold_Register_04.CountRange=(X=375,Y=375) -> OK
+[1336] RowUpdate LIST_Gold_Register_05.CountRange=(X=560,Y=560) -> OK
+[1337] RowUpdate LIST_Gold_Safe_01.CountRange=(X=150,Y=150) -> OK
+[1338] RowUpdate LIST_Gold_Safe_02.CountRange=(X=185,Y=185) -> OK
+[1339] RowUpdate LIST_Gold_Safe_03.CountRange=(X=260,Y=260) -> OK
+[1340] RowUpdate LIST_Gold_Safe_04.CountRange=(X=375,Y=375) -> OK
+[1341] RowUpdate LIST_Gold_Safe_05.CountRange=(X=560,Y=560) -> OK
+[1342] RowUpdate LIST_Chest_Gold_01.CountRange=(X=55,Y=55) -> OK
+[1343] RowUpdate LIST_Chest_Gold_02.CountRange=(X=70,Y=70) -> OK
+[1344] RowUpdate LIST_Chest_Gold_03.CountRange=(X=85,Y=85) -> OK
+[1345] RowUpdate LIST_Chest_Gold_04.CountRange=(X=110,Y=110) -> OK
+[1346] RowUpdate LIST_Chest_Gold_05.CountRange=(X=225,Y=225) -> OK
+[1347] RowUpdate LIST_RareChest_Gold_01.CountRange=(X=95,Y=95) -> OK
+[1348] RowUpdate LIST_RareChest_Gold_02.CountRange=(X=115,Y=115) -> OK
+[1349] RowUpdate LIST_RareChest_Gold_03.CountRange=(X=150,Y=150) -> OK
+[1350] RowUpdate LIST_RareChest_Gold_04.CountRange=(X=240,Y=240) -> OK
+[1351] RowUpdate LIST_RareChest_Gold_05.CountRange=(X=375,Y=375) -> OK
+[1352] RowUpdate LIST_Fishing_Gold_01.CountRange=(X=375,Y=3753) -> OK
+[1353] RowUpdate LIST_FishingHole_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1405] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.010000 -> OK
+[1406] RowUpdate PKG_FishingHole_Consumable_03.Weight=0.010000 -> OK
+[1439] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1440] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1441] RowUpdate PKG_FishingDefault_Light_05.Weight=0.000000 -> OK
+[1442] RowUpdate PKG_FishingHole_Light_05.Weight=0.000000 -> OK
+[1450] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.008000 -> OK
+[1492] RowUpdate LIST_RareRodBox_05.Weight=0.000000 -> OK
+[1493] RowUpdate LIST_RareRodBox_Harpoon_01.Weight=0.000000 -> OK
+[1871] RowUpdate PKG_FloorLoot_Consumable_09.Weight=0.250000 -> OK
+[1872] RowUpdate PKG_Chest_Weapon_Shotgun_13.Weight=0.200000 -> OK
+[1873] RowUpdate PKG_Chest_Weapon_Handgun_13.Weight=0.200000 -> OK
+[1874] RowUpdate PKG_Chest_Weapon_SMG_13.Weight=0.200000 -> OK
+[1875] RowUpdate PKG_Chest_Weapon_Assault_13.Weight=0.200000 -> OK
+[1876] RowUpdate PKG_RareChest_Weapon_Shotgun_11.Weight=0.200000 -> OK
+[1877] RowUpdate PKG_RareChest_Weapon_Handgun_11.Weight=0.200000 -> OK
+[1878] RowUpdate PKG_RareChest_Weapon_SMG_11.Weight=0.200000 -> OK
+[1879] RowUpdate PKG_RareChest_Weapon_Assault_11.Weight=0.200000 -> OK
+[2283] RowUpdate PKG_FishingDefault_Consumable_01.Weight=0.030000 -> OK
+[2284] RowUpdate PKG_FishingDefault_Consumable_02.Weight=0.000000 -> OK
+[2285] RowUpdate PKG_FishingDefault_Consumable_03.Weight=0.000000 -> OK
+[2286] RowUpdate PKG_FishingDefault_Consumable_07.Weight=0.970000 -> OK
+[2287] RowUpdate PKG_FishingDefault_Consumable_07.LootPackageCall=LIST_Ammo_Random -> OK
+[2296] RowUpdate PKG_FloorLoot_Consumable_09.Weight=0.000000 -> OK
+[2297] RowUpdate PKG_Chest_Weapon_Shotgun_13.Weight=0.000000 -> OK
+[2298] RowUpdate PKG_Chest_Weapon_Handgun_13.Weight=0.000000 -> OK
+[2299] RowUpdate PKG_Chest_Weapon_SMG_13.Weight=0.000000 -> OK
+[2300] RowUpdate PKG_Chest_Weapon_Assault_13.Weight=0.000000 -> OK
+[2301] RowUpdate PKG_RareChest_Weapon_Shotgun_11.Weight=0.000000 -> OK
+[2302] RowUpdate PKG_RareChest_Weapon_Handgun_11.Weight=0.000000 -> OK
+[2303] RowUpdate PKG_RareChest_Weapon_SMG_11.Weight=0.000000 -> OK
+[2304] RowUpdate PKG_RareChest_Weapon_Assault_11.Weight=0.000000 -> OK
+[HOTFIX:SEASON1] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON1] done: applied=95, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootPackages_Client
+[1318] RowUpdate LIST_Boss_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1319] RowUpdate LIST_LlamaSupply_Gold_01.CountRange=(X=750,Y=750) -> OK
+[1402] RowUpdate LIST_Vend_Item_Seasonal_2_01.Weight=1.000000 -> OK
+[1403] RowUpdate LIST_Vend_Item_Seasonal_2_01.CountRange=(X=3,Y=3) -> OK
+[1404] RowUpdate LIST_Vend_Item_Seasonal_2_01.ItemDefinition=/ImpulseGrenade/Gameplay/StimpulseGrenade/Athena_Stimpulse.Athena_Stimpulse -> OK
+[1407] RowUpdate LIST_FishingHole_Legendary_Consumable_04.Weight=0.5000 -> OK
+[1482] RowUpdate LIST_Weapons_Common_Shotgun_06.Weight=1.000000 -> OK
+[1483] RowUpdate LIST_Weapons_Common_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_C.WID_CrimsonMist_TacSG_C -> OK
+[1484] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.Weight=1.000000 -> OK
+[1485] RowUpdate LIST_Weapons_Uncommon_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_UC.WID_CrimsonMist_TacSG_UC -> OK
+[1486] RowUpdate LIST_Weapons_Rare_Shotgun_06.Weight=1.000000 -> OK
+[1487] RowUpdate LIST_Weapons_Rare_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_R.WID_CrimsonMist_TacSG_R -> OK
+[1488] RowUpdate LIST_Weapons_Epic_Shotgun_06.Weight=1.000000 -> OK
+[1489] RowUpdate LIST_Weapons_Epic_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_VR.WID_CrimsonMist_TacSG_VR -> OK
+[1490] RowUpdate LIST_Weapons_Legendary_Shotgun_06.Weight=1.000000 -> OK
+[1491] RowUpdate LIST_Weapons_Legendary_Shotgun_06.ItemDefinition=/CrimsonMist/Gameplay/Weapons/SemiAuto_Shotgun/WID_CrimsonMist_TacSG_SR.WID_CrimsonMist_TacSG_SR -> OK
+[1689] RowUpdate LIST_Vend_Item_Seasonal_1_01.ItemDefinition=/DrivingNebula/Gameplay/WID_DrivingNebula.WID_DrivingNebula -> OK
+[1746] RowUpdate PKG_Boss_ThawEpson_15.Weight=0.50000 -> OK
+[1747] RowUpdate PKG_Boss_ThawEpson_15.LootPackageCall=LIST_Boss_ThawEpson_Consumable_ChugJug -> OK
+[1748] RowUpdate PKG_Boss_ThawEpson_16.Weight=0.50000 -> OK
+[1749] RowUpdate PKG_Boss_ThawEpson_16.LootPackageCategory=1 -> OK
+[1750] RowUpdate PKG_Boss_ThawEpson_16.LootPackageCall=LIST_Boss_ThawEpson_Consumable_Shield -> OK
+[1751] RowUpdate PKG_Boss_ThawEpson_19.LootPackageCall=LIST_RareChest_Gold -> OK
+[1752] RowUpdate LIST_Boss_ThawEpson_Consumable_01.LootPackageID=LIST_Boss_ThawEpson_Consumable_ChugJug -> OK
+[1753] RowUpdate LIST_Boss_ThawEpson_PowerUp_01.LootPackageID=LIST_Boss_ThawEpson_Consumable_Shield -> OK
+[1754] RowUpdate LIST_Boss_ThawEpson_PowerUp_01.Weight=1.000000 -> OK
+[1755] RowUpdate LIST_Boss_ThawEpson_PowerUp_01.CountRange=(X=2,Y=2) -> OK
+[1756] RowUpdate LIST_Boss_ThawEpson_PowerUp_01.ItemDefinition=/PaprikaConsumables/Gameplay/ShieldRefresh/WID_Paprika_ShieldPot.WID_Paprika_ShieldPot -> OK
+[1880] RowUpdate LIST_Consumables_Event_01.Weight=1.000000 -> OK
+[1881] RowUpdate LIST_Consumables_Event_01.CountRange=(X=5,Y=5) -> OK
+[1882] RowUpdate LIST_Consumables_Event_01.ItemDefinition=/Game/Athena/Items/Consumables/Balloons/Athena_Balloons_Consumable.Athena_Balloons_Consumable -> OK
+[1883] RowUpdate LIST_Consumables_Event_02.Weight=1.000000 -> OK
+[1884] RowUpdate LIST_Consumables_Event_02.ItemDefinition=/Fringeplank_Firework/Items/WIDs/WID_Firework_Gun.WID_Firework_Gun -> OK
+[1885] RowUpdate LIST_Consumables_Event_03.Weight=0.500000 -> OK
+[1886] RowUpdate LIST_Consumables_Event_03.ItemDefinition=/Game/Athena/Items/Consumables/SuperTowerGrenade/Levels/GiftBox/BirthdayGiftBox/Athena_BirthdayGiftBox.Athena_BirthdayGiftBox -> OK
+[1887] RowUpdate LIST_ForagedItem_TempEvent_01.Weight=1.000000 -> SKIP(no row)
+[1888] RowUpdate LIST_ForagedItem_TempEvent_01.ItemDefinition=/Game/Athena/Items/ForagedItems/HealthShieldRegen/Athena_Foraged_HealthShieldRegen.Athena_Foraged_HealthShieldRegen -> SKIP(no row)
+[2288] RowUpdate LIST_FishingDefault_Consumables_Healing_01.Weight=1.000000 -> OK
+[2289] RowUpdate LIST_FishingDefault_Consumables_Healing_02.Weight=0.000000 -> OK
+[2305] RowUpdate LIST_Consumables_Event_01.Weight=0.000000 -> OK
+[2306] RowUpdate LIST_Consumables_Event_02.Weight=0.000000 -> OK
+[2307] RowUpdate LIST_Consumables_Event_03.Weight=0.000000 -> OK
+[HOTFIX:SEASON2] Addrow(TableUpdate) なし -> スキップ
+[HOTFIX:SEASON2] done: applied=40, deleted=0, skipped=2
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\CosmicThunderLootPackages_Client__final.json
+2026-10-01 18:05:56 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-10-01 18:05:59 | INFO | hotfix lt stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+[STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/CosmicThunderLoot/Content/DataTables/CosmicThunderLootTiers_Client.uasset : replaced=1, added=52
+[HOTFIX:SEASON1] target=/Game/Items/DataTables/AthenaLootTierData_Client
+[1164] RowUpdate Loot_AthenaFloorLoot_02.Weight=0.600000 -> OK
+[1165] RowUpdate Loot_AthenaTreasure_02.Weight=0.120000 -> OK
+[1166] RowUpdate Loot_ApolloTreasure_Rare_02.Weight=0.100000 -> OK
+[1702] RowUpdate Loot_AthenaWadSafe_01.Weight=1.000000 -> OK
+[1778] RowUpdate LTG_Vend_Item_Mend_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1779] RowUpdate LTG_Vend_Item_Mend_1_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1780] RowUpdate LTG_Vend_Item_Mend_2_01.NumLootPackageDropsRange=(X=8.000000,Y=8.000000) -> OK
+[1781] RowUpdate LTG_Vend_Item_Mend_2_01.LootPackageCategoryMinArray=(8,0,0,0,0,0,0,0,0,0,0) -> OK
+[1782] RowUpdate LTG_Vend_Item_Mend_3_01.NumLootPackageDropsRange=(X=2.000000,Y=2.000000) -> OK
+[1783] RowUpdate LTG_Vend_Item_Mend_3_01.LootPackageCategoryMinArray=(2,0,0,0,0,0,0,0,0,0,0) -> OK
+[1784] RowUpdate LTG_Vend_Item_Mend_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1785] RowUpdate LTG_Vend_Item_Mend_4_01.LootPackageCategoryMinArray=(4,0,0,0,0,0,0,0,0,0,0) -> OK
+[1786] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1787] RowUpdate LTG_Vend_Weapon_Shotgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1788] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1789] RowUpdate LTG_Vend_Weapon_Shotgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1790] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1791] RowUpdate LTG_Vend_Weapon_Shotgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1792] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1793] RowUpdate LTG_Vend_Weapon_Shotgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1794] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1795] RowUpdate LTG_Vend_Weapon_Shotgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1796] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1797] RowUpdate LTG_Vend_Weapon_Shotgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1798] RowUpdate LTG_Vend_Weapon_Handgun_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1799] RowUpdate LTG_Vend_Weapon_Handgun_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1800] RowUpdate LTG_Vend_Weapon_Handgun_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1801] RowUpdate LTG_Vend_Weapon_Handgun_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1802] RowUpdate LTG_Vend_Weapon_Handgun_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1803] RowUpdate LTG_Vend_Weapon_Handgun_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1804] RowUpdate LTG_Vend_Weapon_Handgun_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1805] RowUpdate LTG_Vend_Weapon_Handgun_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1806] RowUpdate LTG_Vend_Weapon_Handgun_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1807] RowUpdate LTG_Vend_Weapon_Handgun_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1808] RowUpdate LTG_Vend_Weapon_Handgun_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1809] RowUpdate LTG_Vend_Weapon_Handgun_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1810] RowUpdate LTG_Vend_Weapon_SMG_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1811] RowUpdate LTG_Vend_Weapon_SMG_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1812] RowUpdate LTG_Vend_Weapon_SMG_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1813] RowUpdate LTG_Vend_Weapon_SMG_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1814] RowUpdate LTG_Vend_Weapon_SMG_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1815] RowUpdate LTG_Vend_Weapon_SMG_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1816] RowUpdate LTG_Vend_Weapon_SMG_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1817] RowUpdate LTG_Vend_Weapon_SMG_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1818] RowUpdate LTG_Vend_Weapon_SMG_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1819] RowUpdate LTG_Vend_Weapon_SMG_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1820] RowUpdate LTG_Vend_Weapon_SMG_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1821] RowUpdate LTG_Vend_Weapon_SMG_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1822] RowUpdate LTG_Vend_Weapon_Assault_1_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1823] RowUpdate LTG_Vend_Weapon_Assault_1_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1824] RowUpdate LTG_Vend_Weapon_Assault_2_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1825] RowUpdate LTG_Vend_Weapon_Assault_2_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1826] RowUpdate LTG_Vend_Weapon_Assault_3_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1827] RowUpdate LTG_Vend_Weapon_Assault_3_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1828] RowUpdate LTG_Vend_Weapon_Assault_3_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1829] RowUpdate LTG_Vend_Weapon_Assault_3_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1830] RowUpdate LTG_Vend_Weapon_Assault_4_01.NumLootPackageDropsRange=(X=4.000000,Y=4.000000) -> OK
+[1831] RowUpdate LTG_Vend_Weapon_Assault_4_01.LootPackageCategoryMinArray=(4,1,0,0,0,0,0,0,0,0,0) -> OK
+[1832] RowUpdate LTG_Vend_Weapon_Assault_4_02.NumLootPackageDropsRange=(X=1.000000,Y=1.000000) -> OK
+[1833] RowUpdate LTG_Vend_Weapon_Assault_4_02.LootPackageCategoryMinArray=(1,1,0,0,0,0,0,0,0,0,0) -> OK
+[1870] RowUpdate Loot_BirthdayPresents_01.Weight=1.000000 -> OK
+[HOTFIX:SEASON1] done: applied=61, deleted=0, skipped=0
+[HOTFIX:SEASON2] target=/CosmicThunderLoot/DataTables/CosmicThunderLootTiers_Client
+[HOTFIX:SEASON2] done: applied=0, deleted=0, skipped=0
+[WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+[WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\CosmicThunderLootTiers_Client__final.json
+2026-10-01 18:05:59 | INFO | ✓ Hotfix 適用完了 (6.42s)
+2026-10-01 18:05:59 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootTierData_Client__final.json
+2026-10-01 18:05:59 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\AthenaLootPackages_Client__final.json
+2026-10-01 18:05:59 | INFO | load done (0.02s)
+2026-10-01 18:05:59 | INFO | build summary start
+2026-10-01 18:05:59 | INFO | build summary done (0.06s)
+2026-10-01 18:05:59 | INFO | enrich summary with names start
+2026-10-01 18:05:59 | INFO | enrich summary done (0.29s)
+2026-10-01 18:05:59 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-10-01_18-05.json
+2026-10-01 18:05:59 | INFO | build item metadata start
+2026-10-01 18:06:00 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (0.71s)
+2026-10-01 18:06:00 | INFO | build BR_LootData start
+2026-10-01 18:06:00 | INFO | build BR_LootData done (0.01s)
+2026-10-01 18:06:00 | INFO | ✅ BR_LootData を作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\BR\BR_LootData_2026-10-01_18-06.json
+2026-10-01 18:06:00 | INFO | ✅ Web LootPool を更新: E:\フォートナイト\Web\loot\data\BR_LootPool.json
+2026-10-01 18:06:00 | INFO | LootSummary start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py
+2026-10-01 18:06:01 | INFO | LootSummary stdout: 🔎 抽出用: 最新ファイル = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-10-01_18-05.json
+✅ 抽出件数: 104
+💾 保存: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\input\items_unique_min.json
+🔎 比較用: base   = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-10-01_17-43.json
+🔎 比較用: target = E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\summary\v39.30_2026-10-01_18-05.json
+✅ 差分作成 完了
+  追加   : 0 / 削除 : 0 / 変更 : 12 / 変化なし : 92
+💾 差分: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\output\history\BR_20261001_1806\items_unique_min_diff.json
+2026-10-01 18:06:01 | WARNING | LootSummary stderr: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\BR\scripts\LootSummary.py:2: SyntaxWarning: invalid escape sequence '\B'
+  """
+2026-10-01 18:06:01 | INFO | ✅ LootSummary 実行完了（抽出→比較） (0.82s)
+2026-10-01 18:06:01 | INFO | prewarm start
+2026-10-01 18:06:03 | INFO | ✅ アイコンキャッシュ プリウォーム完了 (1.87s)
+2026-10-01 18:06:03 | INFO | 画像化タスク数: 104
+2026-10-01 18:06:03 | INFO | 画像生成 進捗: 1/104
+2026-10-01 18:06:04 | INFO | 画像生成 進捗: 50/104
+2026-10-01 18:06:05 | INFO | 画像生成 進捗: 100/104
+2026-10-01 18:06:05 | INFO | 画像生成 進捗: 104/104
+2026-10-01 18:06:05 | INFO | ✅ 画像生成 完了（MinListベース）
+2026-10-01 18:06:05 | INFO | ✅ Loot diff: 変更なし（作成スキップ）
+2026-10-01 18:06:05 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
+2026-10-01 18:06:24 | INFO | git commit stdout: [main 5c444a3] BR update 2026-10-01 18:06:17
+ 21 files changed, 30836 insertions(+), 140536 deletions(-)
+ create mode 100644 System Update/BR/output/history/BR_20261001_1806/items_unique_min_diff.json
+ create mode 100644 System Update/BR/output/logs/pipeline_2026-10-01_18-05-52.log
+ create mode 100644 System Update/BR/output/summary/v39.30_2026-10-01_18-05.json
+ create mode 100644 "System Update/shared/images/BR/\343\202\246\343\202\243\343\203\203\343\203\201\343\203\226\343\203\253\343\203\274\343\203\240 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\255\343\203\243\343\203\263\343\203\207\343\202\243\343\202\263\343\203\274\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\343\202\270\343\202\247\343\203\252\343\203\274\343\203\223\343\203\274\343\203\263 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\225\343\203\254\343\203\207\343\202\243\343\201\256\346\202\252\345\244\242 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\230\343\203\223\343\203\274\343\202\242\343\202\265\343\203\253\343\203\210\343\203\251\343\202\244\343\203\225\343\203\253 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\233\343\203\203\343\203\227\343\203\211\343\203\255\343\203\203\343\203\227 - \343\203\206\343\202\243\343\202\2421.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\234\343\203\274\343\203\263\343\203\251\343\203\210\343\203\251\343\203\274\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2422.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\234\343\203\274\343\203\263\343\203\251\343\203\210\343\203\251\343\203\274\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2423.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\234\343\203\274\343\203\263\343\203\251\343\203\210\343\203\251\343\203\274\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2424.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\234\343\203\274\343\203\263\343\203\251\343\203\210\343\203\251\343\203\274\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2425.png"
+ create mode 100644 "System Update/shared/images/BR/\343\203\236\343\203\274\343\202\253\343\203\274\343\203\273\343\203\234\343\203\274\343\203\263\343\203\251\343\203\210\343\203\251\343\203\274\343\203\273\343\202\265\343\203\226\343\203\236\343\202\267\343\203\263\343\202\254\343\203\263 - \343\203\206\343\202\243\343\202\2426.png"
+ rename "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-10-01_17-43.json" => "System Update/\346\210\246\345\210\251\345\223\201\343\203\207\343\203\274\343\202\277/BR/BR_LootData_2026-10-01_18-06.json" (99%)
+2026-10-01 18:06:31 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
+   23a486d..5c444a3  main -> main
+2026-10-01 18:06:31 | INFO | ✓ GitHub Push 完了
+2026-10-01 18:06:31 | INFO | ===== BR: pipeline end =====

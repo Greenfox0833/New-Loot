@@ -1,6 +1,6 @@
 {
-  "UpdatedAt": "2026-10-01T18:19:58",
-  "UpdatedByProfile": "NoBuild_Comp",
+  "UpdatedAt": "2026-10-01T18:20:23",
+  "UpdatedByProfile": "Reload_Ranked",
   "Items": [
     {
       "AssetPathName": "/AgileChugJugGameplay/Gameplay/WID_AgileChug",
@@ -400,7 +400,7 @@
     {
       "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/AR/Explosion/WID_CherrySmoke_AR_Unstable_Explosion_R",
       "LocalizedName": "アンステーブル サンダークラップDMR",
-      "LocalizedDescription": "不安定なエキゾチック: 弾が時々着弾時に爆発する。",
+      "LocalizedDescription": "Unstable Exotic: Some bullets will explode on impact.",
       "Tags": [
         "Weapon.Ranged.Assault",
         "Item.Weapon.Ranged.DMR.CherrySmoke.Exotic",
@@ -409,6 +409,48 @@
         "Exotic",
         "Guard",
         "Marksman",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/DMR/WID_CherrySmoke_DMR_Athena_R",
+      "LocalizedName": "デッドアイDMR",
+      "LocalizedDescription": "Versatile fast firing precision rifle that excels at medium range due to its lower magnification optic.",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.CherrySmoke",
+        "Ammo:Medium",
+        "CH6S3",
+        "Guard",
+        "Marksman",
+        "Rare",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/DMR/WID_CherrySmoke_DMR_Athena_SR",
+      "LocalizedName": "デッドアイDMR",
+      "LocalizedDescription": "Versatile fast firing precision rifle that excels at medium range due to its lower magnification optic.",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.CherrySmoke",
+        "Ammo:Medium",
+        "CH6S3",
+        "Guard",
+        "Legendary",
+        "Marksman",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/DMR/WID_CherrySmoke_DMR_Athena_UC",
+      "LocalizedName": "デッドアイDMR",
+      "LocalizedDescription": "Versatile fast firing precision rifle that excels at medium range due to its lower magnification optic.",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.CherrySmoke",
+        "Ammo:Medium",
+        "CH6S3",
+        "Guard",
+        "Marksman",
+        "Uncommon",
         "Weapon"
       ]
     },
@@ -423,6 +465,20 @@
         "Guard",
         "Marksman",
         "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CherrySmokeWeaponGameplay/Gameplay/DMR/WID_CherrySmoke_DMR_Athena_VR",
+      "LocalizedName": "デッドアイDMR",
+      "LocalizedDescription": "Versatile fast firing precision rifle that excels at medium range due to its lower magnification optic.",
+      "Tags": [
+        "Item.Weapon.Ranged.DMR.CherrySmoke",
+        "Ammo:Medium",
+        "CH6S3",
+        "Epic",
+        "Guard",
+        "Marksman",
         "Weapon"
       ]
     },
@@ -815,6 +871,44 @@
       ]
     },
     {
+      "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Weapons/Melee/Scythe/WID_PowerUp_Scythe_UR",
+      "LocalizedName": "サイドウェイズサイズ",
+      "LocalizedDescription": "この世のものとは思えない大鎌。撃破すると回復してくれる！",
+      "Tags": [
+        "Granted.Athena.Item.Passive.PowerUpScythe.Equipped",
+        "Cubed",
+        "Melee",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/PowerUp/LMG/WID_Assault_LMG_Powerup_Athena_UR",
+      "LocalizedName": "Sideways Minigun",
+      "LocalizedDescription": "Otherworldly minigun that gains bonus fire rate when the weapon is hot!",
+      "Tags": [
+        "Ammo:Light",
+        "Assault",
+        "Cubed",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/CorruptionItems/Gameplay/Items/PowerUp/Rifle/WID_Rifle_Powerup_Athena_UR",
+      "LocalizedName": "Sideways Rifle",
+      "LocalizedDescription": "Otherworldly rifle that gains bonus damage while the weapon is hot!",
+      "Tags": [
+        "Ammo:Medium",
+        "Assault",
+        "Cubed",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    {
       "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_C",
       "LocalizedName": "コンバットサブマシンガン",
       "LocalizedDescription": "連射速度が非常に高い。使いこなすのが難しいが、とても強力。",
@@ -830,7 +924,7 @@
     {
       "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_R",
       "LocalizedName": "コンバットサブマシンガン",
-      "LocalizedDescription": "連射速度が非常に高い。使いこなすのが難しいが、とても強力。",
+      "LocalizedDescription": "Fires at a very high rate. Difficult to master but exceptionally strong.",
       "Tags": [
         "Ammo:Light",
         "Guard",
@@ -856,7 +950,7 @@
     {
       "AssetPathName": "/CorruptionItems/Gameplay/Items/SMG/WID_SMG_Recoil_Athena_UC",
       "LocalizedName": "コンバットサブマシンガン",
-      "LocalizedDescription": "連射速度が非常に高い。使いこなすのが難しいが、とても強力。",
+      "LocalizedDescription": "Fires at a very high rate. Difficult to master but exceptionally strong.",
       "Tags": [
         "Ammo:Light",
         "Guard",
@@ -3037,7 +3131,7 @@
     {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_UR",
       "LocalizedName": "強化型ホロツイスター アサルトライフル",
-      "LocalizedDescription": "ミシック版のホロツイスター アサルトライフル。照準器を覗く速度が向上している。",
+      "LocalizedDescription": "Mythic Holo Twister Assault Rifle variant, crafted to enhance aiming down sights quicker.",
       "Tags": [
         "Item.Weapon.Ranged.Assault.Mid.FirePetal",
         "Ammo:Medium",
@@ -3065,7 +3159,7 @@
     {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_AR_Mid/WID_Assault_FirePetal_Mid_Athena_X",
       "LocalizedName": "ローレス アクセララント ホロツイスター アサルトライフル",
-      "LocalizedDescription": "エキゾチックのホロツイスター アサルトライフル。発射するほど移動速度と発射速度が上昇していく。",
+      "LocalizedDescription": "Exotic Holo Twister Assault Rifle: Increases movement speed and fire rate as you fire.",
       "Tags": [
         "Item.Weapon.Ranged.Assault.Mid.FirePetal.X",
         "Ammo:Medium",
@@ -3219,7 +3313,7 @@
     {
       "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_PumpShotgun/FireIce/WID_Shotgun_Pump_Athena_Unstable_FireIce_X",
       "LocalizedName": "アンステーブル フロストファイア・ショットガン",
-      "LocalizedDescription": "不安定なエキゾチック: 命中時、自分のスピードが上昇するか、敵のスピードが下がる。",
+      "LocalizedDescription": "Unstable Exotic: on a successful hit you'll speed yourself up or slow your enemies down.",
       "Tags": [
         "Item.Weapon.Ranged.Shotgun.Pump.FirePetal.UnstableExotic",
         "CameraController.DisableFirstPerson",
@@ -3354,6 +3448,20 @@
         "Guard",
         "SMG",
         "Uncommon",
+        "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/FirePetalWeaponGameplay/Gameplay/FirePetal_SMG/WID_SMG_FirePetal_Athena_UR",
+      "LocalizedName": "夜薔薇のヴェールド プレシジョンSMG",
+      "LocalizedDescription": "The Night Rose's personal Veiled Precision SMG, crafted to enhance accuracy by reducing recoil.",
+      "Tags": [
+        "Item.Weapon.Ranged.SMG.Core.FirePetal",
+        "Ammo:Light",
+        "CH6S1",
+        "Guard",
+        "Mythic",
+        "SMG",
         "Weapon"
       ]
     },
@@ -3530,6 +3638,38 @@
       ]
     },
     {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_R",
+      "LocalizedName": "モナークピストル",
+      "LocalizedDescription": "Automatic Pistol. Very effective at close range.",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.FlexLegend"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_SR",
+      "LocalizedName": "モナークピストル",
+      "LocalizedDescription": "Automatic Pistol. Very effective at close range.",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.FlexLegend"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_UC",
+      "LocalizedName": "モナークピストル",
+      "LocalizedDescription": "A dual-mode automatic Mauser Pistol that alternates between quick, less precise hipfire shots and more accurate, powerful ADS shots with enhanced damage.",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.FlexLegend"
+      ]
+    },
+    {
+      "AssetPathName": "/FlexLegendWeaponGameplay/Gameplay/RATT_Pistol/Hitscan/WID_FlexLegend_LightPistol_HS_Athena_VR",
+      "LocalizedName": "モナークピストル",
+      "LocalizedDescription": "A dual-mode automatic Mauser Pistol that alternates between quick, less precise hipfire shots and more accurate, powerful ADS shots with enhanced damage.",
+      "Tags": [
+        "Item.Weapon.Ranged.Pistol.FlexLegend"
+      ]
+    },
+    {
       "AssetPathName": "/FlipperGameplay/Items/PizzaParty/WID_Athena_PizzaParty",
       "LocalizedName": "ピザパーティー",
       "LocalizedDescription": "友達と分け合える大きな箱に入ったスラープシュルームピザ",
@@ -3559,7 +3699,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/ShieldGenerator/WID_Athena_ShieldGenerator",
       "LocalizedName": "シールドケグ",
-      "LocalizedDescription": "近くにいる全員のシールドを素早く回復する",
+      "LocalizedDescription": "Rapidly restores shields to everyone nearby",
       "Tags": [
         "ConsumableItem",
         "Deployable",
@@ -3845,7 +3985,7 @@
     {
       "AssetPathName": "/FlipperGameplay/Items/Weapons/RedDotAR/WID_Assault_RedDotAR_Athena_UR_TheFoundation",
       "LocalizedName": "ファウンデーションのMKセブンアサルトライフル",
-      "LocalizedDescription": "ファウンデーションが使用するMKセブンアサルトライフル",
+      "LocalizedDescription": "Personal MK-Seven Assault Rifle of The Foundation",
       "Tags": [
         "Ammo:Medium",
         "Assault",
@@ -4565,6 +4705,17 @@
         "Guard",
         "Mythic",
         "Weapon"
+      ]
+    },
+    {
+      "AssetPathName": "/Game/Athena/Items/Weapons/Boss/WID_Boss_GrapplingHoot",
+      "LocalizedName": "ジュールズのグライダーガン",
+      "LocalizedDescription": "目標位置まで移動してグライダーを展開しよう！",
+      "Tags": [
+        "CH2S3",
+        "Item",
+        "MobilityItem",
+        "MythicItem"
       ]
     },
     {
@@ -6495,7 +6646,7 @@
     {
       "AssetPathName": "/MoonFlaxWeaponGameplay/Items/Weapons/Crossbow/Unmodded/WID_Crossbow_MoonFlax_UM_Athena_UR",
       "LocalizedName": "リングマスターのブームボルト",
-      "LocalizedDescription": "リングマスターによって微調整が施されているクロスボウ。エイム中により素早く動くことができ、マガジンに装填できる\"爆発力\"もより多くなっている。",
+      "LocalizedDescription": "A crossbow fine tuned by the Ringmaster to be faster while aiming and hold more \"booms\" in the magazine.",
       "Tags": [
         "Item.Weapon.Ranged.Bow.Crossbow.Moonflax"
       ]
@@ -7567,7 +7718,7 @@
     {
       "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Heavy/HitscanWIDs/WID_Assault_Paprika_Heavy_Athena_HS_UR",
       "LocalizedName": "ブルート ネメシス アサルトライフル",
-      "LocalizedDescription": "ミシックのネメシス アサルトライフル。胴体へのダメージが増加し、ヘッドショットの威力が減少している。",
+      "LocalizedDescription": "Mythic Nemesis Assault Rifle. Has improved damage to the body, with reduced headshot power.",
       "Tags": [
         "Item.Weapon.Ranged.Assault.Heavy.Paprika",
         "Ammo:Medium",
@@ -7593,7 +7744,7 @@
     {
       "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaAR_Infantry/HitscanWIDs/WID_Assault_Paprika_Infantry_Athena_HS_UR",
       "LocalizedName": "強化型エンフォーサー アサルトライフル",
-      "LocalizedDescription": "ミシックのエンフォーサー アサルトライフル。 与えるダメージが全射程で向上している。",
+      "LocalizedDescription": "Mythic Enforcer Assault Rifle. Deals increased damage at all ranges.",
       "Tags": [
         "Item.Weapon.Ranged.Assault.Infantry.Paprika",
         "Ammo:Medium",
@@ -7745,7 +7896,7 @@
     {
       "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaSMG_DPS/HitscanWIDs/WID_SMG_Paprika_DPS_Athena_HS_UR_Boss",
       "LocalizedName": "ヴァレリアのハイパーサブマシンガン",
-      "LocalizedDescription": "ヴァレリアの個人用ハイパーサブマシンガン。",
+      "LocalizedDescription": "Personal Hyper SMG of Valeria.",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Standard.Paprika",
         "Ammo:Light",
@@ -7757,7 +7908,7 @@
     {
       "AssetPathName": "/PaprikaCoreWeapons/Items/Weapons/PaprikaShotgun_DPS/Hitscan/WID_Shotgun_Auto_Paprika_HS_Athena_UR_Boss",
       "LocalizedName": "オスカーのフレンジー オートショットガン",
-      "LocalizedDescription": "オスカーの個人用オートショットガン。",
+      "LocalizedDescription": "Oscar's personal Auto Shotgun",
       "Tags": []
     },
     {
@@ -8353,6 +8504,19 @@
       "LocalizedName": "オーバードライブ パルスライフル",
       "LocalizedDescription": "パルスライフル(エキゾチック): 装備中、オーバードライブ効果が得られる。",
       "Tags": []
+    },
+    {
+      "AssetPathName": "/SpicyBerry/Gameplay/WID_Athena_SpicyBerry",
+      "LocalizedName": "スラップベリー",
+      "LocalizedDescription": "使用すると、少しの間体力とエネルギーが持続的に回復する。",
+      "Tags": [
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "S23",
+        "Throwable",
+        "UncommonItem"
+      ]
     },
     {
       "AssetPathName": "/SpriteLibrary_CH7S3/SpriteDefinitions/AirSprite/ESD_AirSprite",
@@ -9276,6 +9440,14 @@
       ]
     },
     {
+      "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_UR",
+      "LocalizedName": "Cerberus' Modular Gatekeeper Shotgun",
+      "LocalizedDescription": "A vicious shotgun created for Cerberus to guard that Gates of Hades.",
+      "Tags": [
+        "item.weapon.ranged.shotgun.TripleBarrel.SunRose"
+      ]
+    },
+    {
       "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_VR",
       "LocalizedName": "ゲートキーパーショットガン",
       "LocalizedDescription": "連射速度の速いオートマチックのショットガン。三角の形に拡散する。ダメージは高いが射程は短く、マガジンサイズが小さい。",
@@ -9286,7 +9458,7 @@
     {
       "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/HarbingerSMG/Hitscan/WID_SMG_SunRose_DPS_HS_Athena_UR_Boss",
       "LocalizedName": "ハデスのハービンジャーサブマシンガン",
-      "LocalizedDescription": "冥界の炎が宿った、ハデスの壮麗なる武器。",
+      "LocalizedDescription": "The magnificent weapon of Hades, imbued in the fires of the underworld.",
       "Tags": [
         "Item.Weapon.Ranged.SMG.SunRose.HarbingerSMG.BossVariant"
       ]
@@ -9342,7 +9514,7 @@
     {
       "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/WarforgedAR/Hitscan/WID_Assault_SunRose_HS_Athena_UR",
       "LocalizedName": "アレスのウォーフォージド・アサルトライフル",
-      "LocalizedDescription": "ヘパイストスがその手で自ら作り上げた究極のウォーフォージド・アサルトライフル。",
+      "LocalizedDescription": "The ultimate Warforged Assault Rifle, forged by the hands of Hephaestus himself.",
       "Tags": [
         "item.weapon.ranged.assault.SunRose"
       ]
@@ -9588,7 +9760,7 @@
         "CH7S2",
         "Exotic",
         "Guard",
-        "NewThisSeason",
+        "Marksman",
         "Weapon"
       ]
     },
@@ -9965,7 +10137,7 @@
     {
       "AssetPathName": "/VividRazorExotics/Gameplay/GasSniper/WID_Sniper_NoScope_Athena_X",
       "LocalizedName": "ローレス スティンクライフル",
-      "LocalizedDescription": "エキゾチックのハンティングライフル。着弾時に悪臭の煙を撒き散らす。",
+      "LocalizedDescription": "Exotic Hunting Rifle: Unleashes a stink cloud on impact.",
       "Tags": [
         "Ammo:Heavy",
         "CH6S2",
@@ -9992,7 +10164,7 @@
     {
       "AssetPathName": "/VividRazorExotics/Gameplay/RocketLauncher/WID_VividRazor_RocketLauncher_Athena_X",
       "LocalizedName": "ローレス ショックウェーブロケットランチャー",
-      "LocalizedDescription": "発射した弾は爆発し、近くにいる全員に向かって衝撃波を放つ。",
+      "LocalizedDescription": "Fires a projectile that explodes to impulse anyone nearby.",
       "Tags": [
         "Ammo:Rockets",
         "CH6S2",
@@ -10005,7 +10177,7 @@
     {
       "AssetPathName": "/VividRazorExotics/Gameplay/SlapCannon/AGID_VividRazor_Rocket_SlapSlurp",
       "LocalizedName": "ローレス スラップキャノン",
-      "LocalizedDescription": "味方に向けて撃ち、体力とシールドを回復させよう。さらに、範囲内の全員にスラップの効果が付与される。",
+      "LocalizedDescription": "Shoot your allies to restore health, shields, and apply Slap effect to anyone in the area.",
       "Tags": [
         "CH6S2",
         "ConsumableItem",
@@ -10029,7 +10201,7 @@
     {
       "AssetPathName": "/VividRazorExotics/Gameplay/TrackerSniper/WID_Sniper_MoonFlax_Athena_X",
       "LocalizedName": "ローレス ヘビーインパクト トラッキングライフル",
-      "LocalizedDescription": "エキゾチックのヘビーインパクトスナイパーライフル。着弾点の周辺にあるものを少しの間だけ表示する。",
+      "LocalizedDescription": "Exotic Heavy Impact Sniper Rifle: Briefly reveals the area around the impact-point of each shot.",
       "Tags": [
         "Ammo:Heavy",
         "CH6S2",
@@ -10412,7 +10584,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/CombatShotgun/Hitscan/WID_Shotgun_Moonflax_Combat_HS_Athena_UR",
       "LocalizedName": "メガロ・ドンのコンバットショットガン",
-      "LocalizedDescription": "メガロ・ドンの個人用ショットガン。苛烈な長距離戦と持久戦に耐えられるように作られている。",
+      "LocalizedDescription": "Megalo Don's own Shotgun crafted for intense long range and long lasting combat.",
       "Tags": []
     },
     {
@@ -10424,7 +10596,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Exotic/WID_SunRose_DrumGun_Athena_X",
       "LocalizedName": "マイダスのギルデッドアイドラムガン",
-      "LocalizedDescription": "黄金のマイダスの個人用ドラムガン。サーマルスコープが取り付けられている！",
+      "LocalizedDescription": "Midas' personal golden Drum Gun, now with a thermal scope!",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -10512,7 +10684,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/DrumGun/Hitscan/WID_SunRose_DrumGun_HS_Athena_UR",
       "LocalizedName": "マイダスのドラムガン",
-      "LocalizedDescription": "マイダスの象徴的な黄金の武器。その圧倒的なストッピングパワーとクラシックなスタイルによって高く評価されている。",
+      "LocalizedDescription": "Midas' iconic golden weapon, revered for its overwhelming stopping power and classic stylings.",
       "Tags": [
         "Item.Weapon.Ranged.SMG.Drum.SunRose",
         "Ammo:Medium",
@@ -10549,7 +10721,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/HandCannon/WID_SunRose_Pistol_HandCannon_Athena_UR_Scoped",
       "LocalizedName": "エンハンスド ハンドキャノン",
-      "LocalizedDescription": "スコープ付きの高火力ピストル。大口径のサイドアームで、ダメージが大きくマガジンのサイズもそこそこあるが、連射速度は遅い。 ",
+      "LocalizedDescription": "Scoped heavy pistol. Large-caliber sidearm with heavy damage, decent magazine size, and slow rate of fire. ",
       "Tags": [
         "Item.Weapon.Ranged.Pistol.HandCannon.Sunrose"
       ]
@@ -10672,7 +10844,7 @@
     {
       "AssetPathName": "/WeaponsUpdated/Gameplay/StrikerBurstAR_VividRazor/WID_VividRazor_Assault_Update_StrikerBurst_Athena_UR",
       "LocalizedName": "強化型ストライカーバーストライフル",
-      "LocalizedDescription": "アサルトライフル: サイトがカスタマイズされたバースト射撃ライフル。",
+      "LocalizedDescription": "Assault Rifle: Burst-fire rifle with a customized sight.",
       "Tags": [
         "Item.Weapon.Ranged.Assault.Burst.VividRazor"
       ]

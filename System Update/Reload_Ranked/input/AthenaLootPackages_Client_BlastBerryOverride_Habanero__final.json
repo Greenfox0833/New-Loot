@@ -1127,7 +1127,7 @@
       },
       "PKG_FloorLoot_Weapon_SMG_01": {
         "LootPackageID": "PKG_FloorLoot_Weapon_SMG",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE",
@@ -16823,7 +16823,7 @@
       },
       "PKG_Vend_Weapon_SMG_Common_01": {
         "LootPackageID": "PKG_Vend_Weapon_SMG_Common",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "TRUE",
         "PotentialNamedWeights": [
           "TRUE",
@@ -30591,7 +30591,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighShotgun",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30600,7 +30600,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaLoot.Weapon.HighShotgun",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaSupplyDrop.Weapon.Shotgun",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.02": {
@@ -30624,7 +30624,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighSMG",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.SMG",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30633,7 +30633,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaLoot.Weapon.HighSMG",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaSupplyDrop.Weapon.SMG",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.03": {
@@ -30657,7 +30657,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Assault",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30666,7 +30666,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C0;Call:WorldList.AthenaSupplyDrop.Weapon.Assault",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.04": {
@@ -30690,7 +30690,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Assault",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30699,7 +30699,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaLoot.Weapon.HighAssaultAuto",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaSupplyDrop.Weapon.Assault",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.05": {
@@ -30723,7 +30723,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30732,7 +30732,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaSupplyDrop.Weapon.Handgun",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.06": {
@@ -30756,7 +30756,7 @@
           "UserDescription": "",
           "AutoDescription": ""
         },
-        "LootPackageCall": "WorldList.AthenaLoot.Weapon.HighSniper",
+        "LootPackageCall": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
         "ItemDefinition": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -30765,7 +30765,7 @@
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaLoot.Weapon.HighSniper",
+        "Annotation": ";Def:WorldPKG.BlastBerrySupply.C1;Call:WorldList.AthenaSupplyDrop.Weapon.Sniper",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldPKG.BlastBerrySupply.07": {
@@ -40109,7 +40109,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.18": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -40142,7 +40142,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.19": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41033,7 +41033,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.46": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41066,7 +41066,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.47": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41528,7 +41528,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.61": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -41561,7 +41561,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.62": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42254,7 +42254,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.83": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42287,7 +42287,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.84": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42320,7 +42320,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.85": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42452,7 +42452,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.89": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42518,7 +42518,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.91": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -42584,7 +42584,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Shotgun.93": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43508,7 +43508,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.24": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43541,7 +43541,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.25": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43574,7 +43574,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.26": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -43607,7 +43607,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.27": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44531,7 +44531,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.55": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44564,7 +44564,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.56": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44597,7 +44597,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.57": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -44630,7 +44630,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.58": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45587,7 +45587,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.87": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45620,7 +45620,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.88": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45653,7 +45653,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.89": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -45686,7 +45686,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.90": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46643,7 +46643,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.119": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46676,7 +46676,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.120": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46709,7 +46709,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.121": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46742,7 +46742,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.122": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46907,7 +46907,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.127": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -46973,7 +46973,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.129": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47039,7 +47039,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighShotgun.131": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47666,7 +47666,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.14": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47699,7 +47699,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.15": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -47732,7 +47732,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.16": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48227,7 +48227,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.31": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48260,7 +48260,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.32": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48392,7 +48392,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Handgun.36": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
-        "Weight": 0.16,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -48652,6 +48652,105 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WMID.Pisto.Auto.CherrySmoke.Athena.BB.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Handgun.44": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
+        "Weight": 1.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_C.WID_Pistol_Muster_S39_Athena_C",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.Muster.Athena.C",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Handgun.45": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UC.WID_Pistol_Muster_S39_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.Muster.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Handgun.46": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Handgun",
+        "Weight": 0.08,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_R.WID_Pistol_Muster_S39_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Handgun.C0;Item:WID.Pistol.Muster.Athena.R",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.01": {
@@ -49283,7 +49382,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.20": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -49316,7 +49415,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -49349,7 +49448,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.22": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -49382,7 +49481,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.23": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50075,7 +50174,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.44": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50108,7 +50207,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.45": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50141,7 +50240,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.46": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50174,7 +50273,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.47": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50339,7 +50438,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighHandgun.52": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
-        "Weight": 0.16,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -50764,6 +50863,138 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WMID.Pisto.Auto.CherrySmoke.Athena.BB.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.65": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_UC.WID_Pistol_Muster_S39_Athena_UC",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.UC",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.66": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.08,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_R.WID_Pistol_Muster_S39_Athena_R",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.67": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.016,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_VR.WID_Pistol_Muster_S39_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighHandgun.68": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighHandgun",
+        "Weight": 0.004,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_SR.WID_Pistol_Muster_S39_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaLoot.Weapon.SMG.01": {
@@ -52649,7 +52880,7 @@
       },
       "WorldList.AthenaLoot.Weapon.SMG.58": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.SMG",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -55421,7 +55652,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSMG.83": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSMG",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56114,7 +56345,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.20": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -56147,7 +56378,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.21": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57665,7 +57896,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.67": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57698,7 +57929,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.68": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57929,7 +58160,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.75": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57962,7 +58193,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.76": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -57995,7 +58226,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.77": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -58457,7 +58688,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.91": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -58721,7 +58952,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.99": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -58787,7 +59018,7 @@
       },
       "WorldList.AthenaLoot.Weapon.AssaultAuto.101": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59645,7 +59876,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.25": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59678,7 +59909,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.26": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59711,7 +59942,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.27": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -59744,7 +59975,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.28": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -61856,7 +62087,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.92": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -61889,7 +62120,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.93": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -61922,7 +62153,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.94": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -61955,7 +62186,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.95": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -62252,7 +62483,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.104": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -62285,7 +62516,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.105": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -62318,7 +62549,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.106": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -62351,7 +62582,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.107": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -62912,7 +63143,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.124": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -63374,7 +63605,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.138": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -63440,7 +63671,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighAssaultAuto.140": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighAssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -63539,7 +63770,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64265,7 +64496,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.24": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64298,7 +64529,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Sniper.25": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64659,6 +64890,72 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID_DMR_TeaCake_Athena_R",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.AthenaLoot.Weapon.Sniper.36": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID.PepperCat.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.Sniper.37": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.Sniper",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.Sniper.C0;Item:WID.PepperCat.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaLoot.Weapon.HighSniper.01": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
         "Weight": 0.0,
@@ -64793,7 +65090,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.05": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64826,7 +65123,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.06": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64859,7 +65156,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.07": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -64892,7 +65189,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.08": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -65981,7 +66278,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.41": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66014,7 +66311,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.42": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.08,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66047,7 +66344,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.43": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.016,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66080,7 +66377,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighSniper.44": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
-        "Weight": 0.0,
+        "Weight": 0.004,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -66738,6 +67035,72 @@
         "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID_DMR_TeaCake_Athena_SR",
         "DurabilityPercentageOverride": 1.0
       },
+      "WorldList.AthenaLoot.Weapon.HighSniper.64": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_VR.WID_PepperCat_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.PepperCat.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaLoot.Weapon.HighSniper.65": {
+        "LootPackageID": "WorldList.AthenaLoot.Weapon.HighSniper",
+        "Weight": 0.0,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/PepperCatGameplay/Gameplay/WID_PepperCat_SR.WID_PepperCat_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaLoot.Weapon.HighSniper.C0;Item:WID.PepperCat.SR",
+        "DurabilityPercentageOverride": 1.0
+      },
       "WorldList.AthenaLoot.Weapon.Rocket.01": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Rocket",
         "Weight": 0.0,
@@ -66773,7 +67136,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Rocket.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Rocket",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67136,7 +67499,7 @@
       },
       "WorldList.AthenaLoot.Weapon.Rocket.13": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.Rocket",
-        "Weight": 0.02,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67235,7 +67598,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.02": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67268,7 +67631,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.03": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.016,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67301,7 +67664,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.04": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.004,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67961,7 +68324,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.24": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.024,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -67994,7 +68357,7 @@
       },
       "WorldList.AthenaLoot.Weapon.HighRocket.25": {
         "LootPackageID": "WorldList.AthenaLoot.Weapon.HighRocket",
-        "Weight": 0.008,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -68423,7 +68786,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.13": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -68456,7 +68819,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.14": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69215,7 +69578,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.37": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69248,7 +69611,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.38": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69545,7 +69908,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.47": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -69578,7 +69941,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.48": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -70073,7 +70436,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.63": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -70106,7 +70469,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighShotgun.64": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighShotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -70601,7 +70964,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.11": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -70634,7 +70997,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.12": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -71030,7 +71393,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.24": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -71063,7 +71426,7 @@
       },
       "WorldList.ApolloLoot.Weapon.HighHandgun.25": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -71323,6 +71686,72 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID_CherrySmoke_DualRevolvers_Athena_VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighHandgun.33": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_VR.WID_Pistol_Muster_S39_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.ApolloLoot.Weapon.HighHandgun.34": {
+        "LootPackageID": "WorldList.ApolloLoot.Weapon.HighHandgun",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_SR.WID_Pistol_Muster_S39_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.ApolloLoot.Weapon.HighHandgun.C0;Item:WID.Pistol.Muster.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.ApolloLoot.Weapon.SMG.01": {
@@ -73109,7 +73538,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.13": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -73142,7 +73571,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.14": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74231,7 +74660,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.47": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74264,7 +74693,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.48": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74429,7 +74858,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.53": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -74462,7 +74891,7 @@
       },
       "WorldList.ApolloLoot.Weapon.AssaultAuto.54": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.AssaultAuto",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -75023,7 +75452,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.01": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -75056,7 +75485,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.02": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -75749,7 +76178,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.23": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -75782,7 +76211,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Sniper.24": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -76145,7 +76574,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Rocket.01": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Rocket",
-        "Weight": 0.75,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -76178,7 +76607,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Rocket.02": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Rocket",
-        "Weight": 0.25,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -76706,7 +77135,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Rocket.18": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Rocket",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -76739,7 +77168,7 @@
       },
       "WorldList.ApolloLoot.Weapon.Rocket.19": {
         "LootPackageID": "WorldList.ApolloLoot.Weapon.Rocket",
-        "Weight": 0.2,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -77597,7 +78026,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.26": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -77630,7 +78059,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.27": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -79016,7 +79445,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.69": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -79049,7 +79478,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.70": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -79676,7 +80105,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.89": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -79709,7 +80138,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.90": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -80732,7 +81161,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.121": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -80765,7 +81194,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Shotgun.122": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Shotgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -81953,7 +82382,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.22": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -81986,7 +82415,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.23": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -82712,7 +83141,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.45": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -82745,7 +83174,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Handgun.46": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -83335,6 +83764,72 @@
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
         "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WMID.Pisto.Auto.CherrySmoke.Athena.BB.R",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Handgun.64": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
+        "Weight": 0.6,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_VR.WID_Pistol_Muster_S39_Athena_VR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.Pistol.Muster.Athena.VR",
+        "DurabilityPercentageOverride": 1.0
+      },
+      "WorldList.AthenaSupplyDrop.Weapon.Handgun.65": {
+        "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Handgun",
+        "Weight": 0.4,
+        "NamedWeightMult": "None",
+        "PotentialNamedWeights": [],
+        "CountRange": {
+          "X": 1,
+          "Y": 1
+        },
+        "LootPackageCategory": 0,
+        "GameplayTags": [],
+        "RequiredLootGroupTag": {
+          "TagName": "None"
+        },
+        "RequiredTagQuery": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [],
+          "QueryTokenStream": [],
+          "UserDescription": "",
+          "AutoDescription": ""
+        },
+        "LootPackageCall": "",
+        "ItemDefinition": {
+          "AssetPathName": "/MusterCoreWeapons/Items/Weapons/MusterPistol/Season39/WID_Pistol_Muster_S39_Athena_SR.WID_Pistol_Muster_S39_Athena_SR",
+          "SubPathString": ""
+        },
+        "PersistentLevel": "",
+        "MinWorldLevel": -1,
+        "MaxWorldLevel": -1,
+        "bAllowBonusDrops": true,
+        "Annotation": ";List:WorldList.AthenaSupplyDrop.Weapon.Handgun.C0;Item:WID.Pistol.Muster.Athena.SR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.AthenaSupplyDrop.Weapon.SMG.01": {
@@ -86969,7 +87464,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.27": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -87002,7 +87497,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.28": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -89180,7 +89675,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.94": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -89213,7 +89708,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.95": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -89576,7 +90071,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.106": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -89609,7 +90104,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Assault.107": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Assault",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -90962,7 +91457,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.07": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -90995,7 +91490,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.08": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -92150,7 +92645,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.43": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.6,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -92183,7 +92678,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Sniper.44": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Sniper",
-        "Weight": 0.0,
+        "Weight": 0.4,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -92909,7 +93404,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Rocket.03": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Rocket",
-        "Weight": 0.6,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -92942,7 +93437,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Rocket.04": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Rocket",
-        "Weight": 0.4,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -93602,7 +94097,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Rocket.24": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Rocket",
-        "Weight": 0.5,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -93635,7 +94130,7 @@
       },
       "WorldList.AthenaSupplyDrop.Weapon.Rocket.25": {
         "LootPackageID": "WorldList.AthenaSupplyDrop.Weapon.Rocket",
-        "Weight": 0.3,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94295,7 +94790,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.20": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94394,7 +94889,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.23": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.15,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94427,7 +94922,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.24": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94790,7 +95285,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.35": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.3,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94823,7 +95318,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.36": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.25,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -94856,7 +95351,7 @@
       },
       "WorldList.AthenaHighConsumables.Healing.37": {
         "LootPackageID": "WorldList.AthenaHighConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96077,7 +96572,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.08": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.16,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96176,7 +96671,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.11": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.15,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96275,7 +96770,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.14": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96308,7 +96803,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.15": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96341,7 +96836,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.16": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -96407,7 +96902,7 @@
       },
       "WorldList.AthenaHighConsumablesRare.Healing.18": {
         "LootPackageID": "WorldList.AthenaHighConsumablesRare.Healing",
-        "Weight": 0.0,
+        "Weight": 0.16,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98057,7 +98552,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.23": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.15,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98156,7 +98651,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.26": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.15,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98552,7 +99047,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.38": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98585,7 +99080,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.39": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98618,7 +99113,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.40": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -98948,7 +99443,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.08": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -99047,7 +99542,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.11": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.13,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -99146,7 +99641,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.14": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -99179,7 +99674,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.15": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -99212,7 +99707,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.16": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -99278,7 +99773,7 @@
       },
       "WorldList.AthenaSupplyDropConsumables.Healing.18": {
         "LootPackageID": "WorldList.AthenaSupplyDropConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100433,7 +100928,7 @@
       },
       "WorldList.AthenaConsumables.Healing.08": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.08,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100532,7 +101027,7 @@
       },
       "WorldList.AthenaConsumables.Healing.11": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.1,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100664,7 +101159,7 @@
       },
       "WorldList.AthenaConsumables.Healing.15": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.15,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100697,7 +101192,7 @@
       },
       "WorldList.AthenaConsumables.Healing.16": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.2,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100730,7 +101225,7 @@
       },
       "WorldList.AthenaConsumables.Healing.17": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.1,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -100796,7 +101291,7 @@
       },
       "WorldList.AthenaConsumables.Healing.19": {
         "LootPackageID": "WorldList.AthenaConsumables.Healing",
-        "Weight": 0.0,
+        "Weight": 0.05,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104546,19 +105041,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_UR.WID_DMR_TeaCake_Athena_UR",
+          "AssetPathName": "/TeaCakeWeapons/Gameplay/TeaCake_DMR/WID_DMR_TeaCake_Athena_X2.WID_DMR_TeaCake_Athena_X2",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.FDSupply2.C0;Item:WID.DMR.TeaCake.Athena.UR",
+        "Annotation": ";List:WorldList.FDSupply2.C0;Item:WID_DMR_TeaCake_Athena_X2",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.FDSupply3.01": {
         "LootPackageID": "WorldList.FDSupply3",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104591,7 +105086,7 @@
       },
       "WorldList.ExoticRandom.01": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104624,7 +105119,7 @@
       },
       "WorldList.ExoticRandom.02": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104657,7 +105152,7 @@
       },
       "WorldList.ExoticRandom.03": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104690,7 +105185,7 @@
       },
       "WorldList.ExoticRandom.04": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104723,7 +105218,7 @@
       },
       "WorldList.ExoticRandom.05": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104756,7 +105251,7 @@
       },
       "WorldList.ExoticRandom.06": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -104789,7 +105284,7 @@
       },
       "WorldList.ExoticRandom.07": {
         "LootPackageID": "WorldList.ExoticRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -105878,7 +106373,7 @@
       },
       "WorldList.MythicRandom.06": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -105911,7 +106406,7 @@
       },
       "WorldList.MythicRandom.07": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106076,7 +106571,7 @@
       },
       "WorldList.MythicRandom.12": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106175,7 +106670,7 @@
       },
       "WorldList.MythicRandom.15": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106208,7 +106703,7 @@
       },
       "WorldList.MythicRandom.16": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106241,7 +106736,7 @@
       },
       "WorldList.MythicRandom.17": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106262,19 +106757,19 @@
         },
         "LootPackageCall": "",
         "ItemDefinition": {
-          "AssetPathName": "/Game/Athena/Items/Consumables/WitchBroom/DurabilityVersion/WID_Athena_WitchBroom_Durability.WID_Athena_WitchBroom_Durability",
+          "AssetPathName": "/SunRoseWeaponsGameplay/Items/Weapons/CerberusSG/Hitscan/WID_Shotgun_Break_Cerberus_HS_Athena_UR.WID_Shotgun_Break_Cerberus_HS_Athena_UR",
           "SubPathString": ""
         },
         "PersistentLevel": "",
         "MinWorldLevel": -1,
         "MaxWorldLevel": -1,
         "bAllowBonusDrops": true,
-        "Annotation": ";List:WorldList.MythicRandom.C0;Item:Consumable.Wbroom",
+        "Annotation": ";List:WorldList.MythicRandom.C0;Item:WID.Shotgun.Break.Cerberus.Athena.UR",
         "DurabilityPercentageOverride": 1.0
       },
       "WorldList.MythicRandom.18": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106340,7 +106835,7 @@
       },
       "WorldList.MythicRandom.20": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106538,7 +107033,7 @@
       },
       "WorldList.MythicRandom.26": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106571,7 +107066,7 @@
       },
       "WorldList.MythicRandom.27": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106604,7 +107099,7 @@
       },
       "WorldList.MythicRandom.28": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106637,7 +107132,7 @@
       },
       "WorldList.MythicRandom.29": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106670,7 +107165,7 @@
       },
       "WorldList.MythicRandom.30": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106703,7 +107198,7 @@
       },
       "WorldList.MythicRandom.31": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106736,7 +107231,7 @@
       },
       "WorldList.MythicRandom.32": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 0.0,
+        "Weight": 1.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106802,7 +107297,7 @@
       },
       "WorldList.MythicRandom.34": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106835,7 +107330,7 @@
       },
       "WorldList.MythicRandom.35": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106868,7 +107363,7 @@
       },
       "WorldList.MythicRandom.36": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106901,7 +107396,7 @@
       },
       "WorldList.MythicRandom.37": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -106934,7 +107429,7 @@
       },
       "WorldList.MythicRandom.38": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107066,7 +107561,7 @@
       },
       "WorldList.MythicRandom.42": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107099,7 +107594,7 @@
       },
       "WorldList.MythicRandom.43": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107132,7 +107627,7 @@
       },
       "WorldList.MythicRandom.44": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107198,7 +107693,7 @@
       },
       "WorldList.MythicRandom.46": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107297,7 +107792,7 @@
       },
       "WorldList.MythicRandom.49": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107363,7 +107858,7 @@
       },
       "WorldList.MythicRandom.51": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107429,7 +107924,7 @@
       },
       "WorldList.MythicRandom.53": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107462,7 +107957,7 @@
       },
       "WorldList.MythicRandom.54": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107495,7 +107990,7 @@
       },
       "WorldList.MythicRandom.55": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {
@@ -107528,7 +108023,7 @@
       },
       "WorldList.MythicRandom.56": {
         "LootPackageID": "WorldList.MythicRandom",
-        "Weight": 1.0,
+        "Weight": 0.0,
         "NamedWeightMult": "None",
         "PotentialNamedWeights": [],
         "CountRange": {

@@ -1,10 +1,10 @@
-2026-10-01 18:28:41 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\logs\pipeline_2026-10-01_18-28-41.log
-2026-10-01 18:28:41 | INFO | ===== Reload_Ranked: pipeline start =====
-2026-10-01 18:28:41 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
-2026-10-01 18:28:41 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
-2026-10-01 18:28:41 | INFO | flags: hotfix=True prewarm=True image=True workers=8
-2026-10-01 18:28:41 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
-2026-10-01 18:28:44 | INFO | hotfix lp stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
+2026-10-01 19:12:37 | INFO | log file: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\logs\pipeline_2026-10-01_19-12-37.log
+2026-10-01 19:12:37 | INFO | ===== Reload_Ranked: pipeline start =====
+2026-10-01 19:12:37 | INFO | paths: lt=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json lp=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json minlist=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\items_unique_min.json
+2026-10-01 19:12:37 | INFO | output: summary=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary lootdata=E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\戦利品データ\Reload_Ranked
+2026-10-01 19:12:37 | INFO | flags: hotfix=True prewarm=True image=True workers=8
+2026-10-01 19:12:37 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootPackage.py
+2026-10-01 19:12:43 | INFO | hotfix lp stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootPackages_Client.uasset
 [STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryLootPackages_Habanero.uasset : replaced=0, added=2393
 [STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootPackages_Client_BlastBerryOverride_Habanero.uasset : replaced=8, added=239
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootPackages_Client
@@ -171,8 +171,8 @@
 [WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryLootPackages_Habanero__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client_BlastBerryOverride_Habanero__final.json
-2026-10-01 18:28:44 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
-2026-10-01 18:28:46 | INFO | hotfix lt stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
+2026-10-01 19:12:43 | INFO | hotfix start: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\LootTier.py
+2026-10-01 19:12:46 | INFO | hotfix lt stdout: [STEP1-1] base http://localhost:3849/api/v1/export?path=FortniteGame/Content/Items/DataTables/AthenaLootTierData_Client.uasset
 [STEP1-2] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/Habanero/BlastBerryTierData_Habanero.uasset : replaced=10, added=76
 [STEP1-3] merge http://localhost:3849/api/v1/export?path=FortniteGame/Plugins/GameFeatures/BlastBerryLoot/Content/DataTables/AthenaLootTierData_Client_BlastBerryOverride_Habanero.uasset : replaced=72, added=192
 [HOTFIX:SEASON1] target=/Game/Items/Datatables/AthenaLootTierData_Client
@@ -245,32 +245,24 @@
 [WRITE] final -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\BlastBerryTierData_Habanero__final.json
 [WRITE] per-input -> E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client_BlastBerryOverride_Habanero__final.json
-2026-10-01 18:28:46 | INFO | ✓ Hotfix 適用完了 (5.85s)
-2026-10-01 18:28:46 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
-2026-10-01 18:28:46 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
-2026-10-01 18:28:46 | INFO | load done (0.03s)
-2026-10-01 18:28:46 | INFO | build summary start
-2026-10-01 18:28:46 | INFO | build summary done (0.05s)
-2026-10-01 18:28:46 | INFO | enrich summary with names start
-2026-10-01 18:28:47 | INFO | enrich summary done (0.78s)
-2026-10-01 18:28:47 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-10-01_18-28.json
-2026-10-01 18:28:47 | INFO | build item metadata start
-2026-10-01 18:28:47 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (0.13s)
-2026-10-01 18:28:47 | INFO | build BR_LootData start
-2026-10-01 18:28:47 | ERROR | [!] main 内でエラー: schema v2検証で1件のエラーが見つかりました: [{"type": "invalid_quantity", "path": "lootTables.Loot_BirthdayPresents.lootGroups[0].packages[0].items[0]", "message": "quantityは0より大きい必要があります。"}]
-2026-10-01 18:28:48 | ERROR | Traceback (most recent call last):
+2026-10-01 19:12:46 | INFO | ✓ Hotfix 適用完了 (9.16s)
+2026-10-01 19:12:46 | INFO | load lt: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootTierData_Client__final.json
+2026-10-01 19:12:46 | INFO | load lp: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\input\AthenaLootPackages_Client__final.json
+2026-10-01 19:12:46 | INFO | load done (0.02s)
+2026-10-01 19:12:46 | INFO | build summary start
+2026-10-01 19:12:46 | INFO | build summary done (0.04s)
+2026-10-01 19:12:46 | INFO | enrich summary with names start
+2026-10-01 19:13:33 | INFO | enrich summary done (47.39s)
+2026-10-01 19:13:33 | INFO | ✅ まとめJSONを作成: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\output\summary\v39.30_2026-10-01_19-13.json
+2026-10-01 19:13:33 | INFO | build item metadata start
+2026-10-01 19:13:36 | INFO | ✅ アイテム名・説明・タグJSONを更新: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\shared\cache\item_metadata.json (2.70s)
+2026-10-01 19:13:36 | INFO | build BR_LootData start
+2026-10-01 19:13:36 | ERROR | [!] main 内でエラー: schema v2検証で1件のエラーが見つかりました: [{"type": "invalid_quantity", "path": "lootTables.Loot_BirthdayPresents.lootGroups[0].packages[0].items[0]", "message": "quantityは0より大きい必要があります。"}]
+2026-10-01 19:13:36 | ERROR | Traceback (most recent call last):
   File "e:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\Reload_Ranked\pipeline.py", line 161, in main
     br_view = build_validated_schema_v2(summary, rows_lp, PROFILE_NAME)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot\System Update\summary.py", line 500, in build_validated_schema_v2
     raise ValueError(f"schema v2検証で{len(errors)}件のエラーが見つかりました: {preview}")
 ValueError: schema v2検証で1件のエラーが見つかりました: [{"type": "invalid_quantity", "path": "lootTables.Loot_BirthdayPresents.lootGroups[0].packages[0].items[0]", "message": "quantityは0より大きい必要があります。"}]
-2026-10-01 18:28:48 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot
-2026-10-01 18:28:52 | INFO | git commit stdout: [main 40f5c9e] Reload_Ranked update 2026-10-01 18:28:51
- 5 files changed, 30719 insertions(+), 7 deletions(-)
- create mode 100644 System Update/Reload_Ranked/output/logs/pipeline_2026-10-01_18-28-41.log
- create mode 100644 System Update/Reload_Ranked/output/summary/v39.30_2026-10-01_18-28.json
-2026-10-01 18:28:56 | WARNING | git push stderr: To https://github.com/Greenfox0833/New-Loot.git
-   e346709..40f5c9e  main -> main
-2026-10-01 18:28:56 | INFO | ✓ GitHub Push 完了
-2026-10-01 18:28:56 | INFO | ===== Reload_Ranked: pipeline end =====
+2026-10-01 19:13:36 | INFO | git add: E:\フォートナイト\Picture\Loot Pool\TEST4\New Loot

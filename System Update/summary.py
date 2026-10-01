@@ -94,7 +94,10 @@ def build_summary(rows_lt: dict, rows_lp: dict):
                 call = m["Call"]
 
                 list_items = []
-                if call:
+                # LIST_Empty is the engine's explicit no-drop sentinel.  A row
+                # with the same LootPackageID can exist for unrelated fallback
+                # data, but it must not be expanded as the sentinel's contents.
+                if call and call != "LIST_Empty":
                     for c in worldlist_map.get(call, []):
                         if c["Weight"] > 0.0 and c.get("AssetPathName"):
                             list_items.append(
@@ -344,9 +347,17 @@ def build_schema_v2(summary: dict, rows_lp: dict, game_mode: str = "BR_Comp_TEST
                         continue
                     ln_seen_calls[loot_number].add(call)
 
-                    source_items = package.get("ListItems", []) or []
+                    source_items = (
+                        []
+                        if call == "LIST_Empty"
+                        else (package.get("ListItems", []) or [])
+                    )
                     resolved, is_empty, reason = _resolution_state(call, source_items, source_index)
-                    list_total_weight = package.get("TotalListWeight") if resolved else None
+                    list_total_weight = (
+                        0.0
+                        if is_empty
+                        else package.get("TotalListWeight") if resolved else None
+                    )
                     items = []
                     for item in source_items:
                         name = item.get("LocalizedName")
@@ -450,6 +461,8 @@ def validate_schema_v2(payload: dict, tolerance: float = 1e-4) -> list[dict]:
                     add("unresolved_weight_not_null", package_path, "未解決リストのlistTotalWeightはnullである必要があります。")
                 if package.get("call") == "LIST_Empty" and not (resolved and is_empty):
                     add("invalid_list_empty", package_path, "LIST_Emptyは解決済みかつ空である必要があります。")
+                if is_empty and items:
+                    add("empty_list_with_items", package_path, "空リストにitemsを含めることはできません。")
 
                 total_item_weight = 0.0
                 local_percent_sum = 0.0
